@@ -79,9 +79,11 @@ def activity_baseline_partition(repo, files):
     sig = {}
     for f in files:
         n = len(subprocess.run(["git", "-C", repo, "log", "--oneline", "--", f],
-                               capture_output=True, text=True).stdout.splitlines())
+                               capture_output=True, text=True,
+                               encoding="utf-8", errors="replace").stdout.splitlines())
         try:
-            size = len(open(os.path.join(repo, f)).read().splitlines())
+            size = len(open(os.path.join(repo, f),
+                            encoding="utf-8", errors="replace").read().splitlines())
         except OSError:
             size = 0
         sig[f] = [n / 50.0, size / 200.0]
@@ -122,7 +124,8 @@ def formula_filter(repo):
     import math, subprocess
     out = subprocess.run(["git", "-C", repo, "log", "--no-merges",
                           "--name-only", "--pretty=format:@@"],
-                         capture_output=True, text=True, check=True).stdout
+                         capture_output=True, text=True, check=True,
+                         encoding="utf-8", errors="replace").stdout
     counts = [len([l for l in b.strip().split("\n") if l.strip()])
               for b in out.split("@@") if b.strip()]
     if not counts:

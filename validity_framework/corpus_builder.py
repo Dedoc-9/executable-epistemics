@@ -38,7 +38,8 @@ def git_log(repo):
     out = subprocess.run(
         ["git", "-C", repo, "log", "--reverse", "--name-status", "-M50",
          "--no-merges", "--pretty=format:@@%H|%at"],
-        capture_output=True, text=True, check=True).stdout
+        capture_output=True, text=True, check=True,
+        encoding="utf-8", errors="replace").stdout
     commits, renames = [], {}          # renames: old -> new (chain links)
     for block in out.split("@@"):
         if not block.strip():
@@ -126,7 +127,8 @@ def build(repo, max_commit_files=20, exclude_globs=(), min_cochange=1,
             code_files=[os.path.abspath(__file__)],
             extra={"repo_head": subprocess.run(
                 ["git", "-C", repo, "rev-parse", "HEAD"],
-                capture_output=True, text=True).stdout.strip()}),
+                capture_output=True, text=True,
+                encoding="utf-8", errors="replace").stdout.strip()}),
         claim_class=CLAIM,
         validity_scope={
             "certifies": "historical co-change counts under declared exclusions",

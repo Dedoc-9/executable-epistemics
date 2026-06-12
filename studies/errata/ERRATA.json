@@ -58,5 +58,17 @@
     "erratum_id": "E-010",
     "hash": "7fafa0c9af157674",
     "supersedes": "E-006 filter formula (floor-indexed percentile)"
+  },
+  {
+    "corrected_statement": "PLATFORM-DEPENDENT TEXT DECODING, exposed by repository 1 (psf/requests) first contact: encoder/scorer file reads used locale-default open() and all git subprocess output used locale-default text=True. On Windows (cp1252) this crashed on tests/test_requests.py byte 0x8f (valid UTF-8); on POSIX (UTF-8) the identical code succeeds -- instrument output was a function of host locale, a cross-platform determinism violation. The rehearsal could not catch it: synthetic repos were pure ASCII (external-validity lesson, recorded). Fix: every repo-content read and git-output decode is now explicit encoding='utf-8', errors='replace'; undecodable or unparseable repo content degrades deterministically (encoders catch SyntaxError/ValueError/OSError and emit their declared zero/skip signature) instead of crashing. Project-internal JSON I/O is outside this defect class (ensure_ascii output is ASCII). COUNTS AS INSTRUMENT ERRATUM 1 OF 3 against the UPDATE_COMMITMENTS section-C budget. Repository 1 emitted no scoring artifact; it rescores from scratch post-fix.",
+    "erratum_id": "E-011",
+    "hash": "361ec77d25885f5e",
+    "supersedes": "encoders/{ast_metrics,dep_graph,ownership}.py, validity_framework/{corpus_builder,scorer}.py (locale-default text decoding)"
+  },
+  {
+    "corrected_statement": "FILTER-ALARM CALIBRATION: the 'filter < 5' suspend trigger fired on repository 1 with E-006 filter=3. Direct verification against the raw distribution (4843 non-merge commits; file-count p50=1, p90=2, p95=3, max=86; 74% of commits touch one file) confirms filter=3 is the CORRECT nearest-rank p95: small-commit repository, formula behaved as designed. The fixed threshold was calibrated on synthetic rehearsal repos and is superseded: a filter alarm now resolves by mandatory direct distribution verification recorded alongside the repo's artifacts; a verified-correct value closes the alarm without suspension. Classified as commitment-rule calibration, NOT instrument defect (no instrument code changed by this erratum); if the operator judges it instrument-class at countersign, the section-C count becomes 2 of 3.",
+    "erratum_id": "E-012",
+    "hash": "9472ce652ae5b901",
+    "supersedes": "UPDATE_COMMITMENTS section A implausible-metric row (fixed 'filter < 5' threshold)"
   }
 ]

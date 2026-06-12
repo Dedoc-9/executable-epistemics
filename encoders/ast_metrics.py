@@ -6,7 +6,8 @@ import ast, os, subprocess
 
 def _py_files(repo):
     out = subprocess.run(["git", "-C", repo, "ls-files", "*.py"],
-                         capture_output=True, text=True, check=True).stdout
+                         capture_output=True, text=True, check=True,
+                         encoding="utf-8", errors="replace").stdout
     return sorted(f for f in out.split("\n") if f.strip())
 
 
@@ -14,9 +15,10 @@ def enc_ast_metrics(repo):
     sig = {}
     for f in _py_files(repo):
         try:
-            src = open(os.path.join(repo, f)).read()
+            src = open(os.path.join(repo, f),
+                       encoding="utf-8", errors="replace").read()
             tree = ast.parse(src)
-        except SyntaxError:
+        except (SyntaxError, ValueError, OSError):  # E-011: deterministic degradation
             sig[f] = [0.0] * 5
             continue
         n_fn = sum(isinstance(n, ast.FunctionDef) for n in ast.walk(tree))

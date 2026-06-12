@@ -6,7 +6,8 @@ import ast, os, subprocess
 
 def _py_files(repo):
     out = subprocess.run(["git", "-C", repo, "ls-files", "*.py"],
-                         capture_output=True, text=True, check=True).stdout
+                         capture_output=True, text=True, check=True,
+                         encoding="utf-8", errors="replace").stdout
     return sorted(f for f in out.split("\n") if f.strip())
 
 
@@ -17,8 +18,9 @@ def enc_dep_graph(repo):
     imports = {f: set() for f in files}
     for f in files:
         try:
-            tree = ast.parse(open(os.path.join(repo, f)).read())
-        except SyntaxError:
+            tree = ast.parse(open(os.path.join(repo, f),
+                                  encoding="utf-8", errors="replace").read())
+        except (SyntaxError, ValueError, OSError):  # E-011: deterministic degradation
             continue
         for node in ast.walk(tree):
             names = []
