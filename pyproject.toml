@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "executable-epistemics"
+version = "2.0.0"
+description = "Executable epistemics: witness-core claim boundaries + an observer-comparison reference instrument"
+authors = [{name = "Daniel Dillberg", email = "bigdilly95@gmail.com"}]
+license = {text = "AGPL-3.0-or-later"}
+requires-python = ">=3.9"
+readme = "README.md"
+dependencies = []
+
+[tool.setuptools]
+packages = ["witness_core", "mcl_runtime", "validity_framework", "encoders"]

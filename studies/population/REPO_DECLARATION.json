@@ -1,0 +1,50 @@
+{
+  "chain_hash": "13076c4084f9d9cb",
+  "claim_class": "preregistered_study_population_only",
+  "data": {
+    "amendment_rule": "errata-only, recorded before the affected repo is scored",
+    "language": "python",
+    "n_declared": 20,
+    "repositories": [
+      "numpy/numpy",
+      "scipy/scipy",
+      "pandas-dev/pandas",
+      "scikit-learn/scikit-learn",
+      "matplotlib/matplotlib",
+      "sympy/sympy",
+      "django/django",
+      "pallets/flask",
+      "psf/requests",
+      "pallets/click",
+      "pytest-dev/pytest",
+      "sphinx-doc/sphinx",
+      "celery/celery",
+      "tornadoweb/tornado",
+      "python-pillow/Pillow",
+      "sqlalchemy/sqlalchemy",
+      "fastapi/fastapi",
+      "psf/black",
+      "python/mypy",
+      "pypa/pip"
+    ],
+    "selection_rationale": "ecosystem diversity within one parser: scientific, web, CLI, tooling, infra; all mature, high-activity, public; selected before any real run",
+    "wave": 1
+  },
+  "forbidden_interpretations": [
+    "post_hoc_repo_exclusion",
+    "cherry_picked_subsets"
+  ],
+  "provenance": {
+    "code_fingerprints": {},
+    "platform": "linux",
+    "python_version": "3.10.12",
+    "seeds": {},
+    "source_date_epoch": "0"
+  },
+  "validity_scope": {
+    "certifies": "the declared wave-1 population, frozen pre-campaign",
+    "does_not_certify": [
+      "representativeness of all software"
+    ]
+  }
+}

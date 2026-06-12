@@ -1,0 +1,113 @@
+{
+  "ast_metrics": {
+    "chain_hash": "e8602da5f2ae0a95",
+    "claim_class": "pipeline_calibration_only",
+    "data": {
+      "exceeds_null_p95": false,
+      "ground_truth_chain": "c284ce2a6b9f7d7c",
+      "n_null_draws": 1000,
+      "null_median": 0.111111,
+      "null_p95": 0.444444,
+      "observed_capture": 0.111111
+    },
+    "forbidden_interpretations": [
+      "geometry_truth",
+      "causal_coupling",
+      "design_quality",
+      "exp001_evidence"
+    ],
+    "provenance": {
+      "code_fingerprints": {
+        "scorer.py": "cd21e731be7c60a3"
+      },
+      "platform": "linux",
+      "python_version": "3.10.12",
+      "seeds": {
+        "null_seed": 0
+      },
+      "source_date_epoch": "0"
+    },
+    "validity_scope": {
+      "certifies": "frozen-metric score vs preregistered null on one repository",
+      "does_not_certify": [
+        "cross-repository generality",
+        "EXP-001 success (requires >=60% of >=20 repos)"
+      ],
+      "single_repository": true
+    }
+  },
+  "dep_graph": {
+    "chain_hash": "580f85265f306038",
+    "claim_class": "pipeline_calibration_only",
+    "data": {
+      "exceeds_null_p95": false,
+      "ground_truth_chain": "c284ce2a6b9f7d7c",
+      "n_null_draws": 1000,
+      "null_median": 0.111111,
+      "null_p95": 0.444444,
+      "observed_capture": 0.444444
+    },
+    "forbidden_interpretations": [
+      "geometry_truth",
+      "causal_coupling",
+      "design_quality",
+      "exp001_evidence"
+    ],
+    "provenance": {
+      "code_fingerprints": {
+        "scorer.py": "cd21e731be7c60a3"
+      },
+      "platform": "linux",
+      "python_version": "3.10.12",
+      "seeds": {
+        "null_seed": 0
+      },
+      "source_date_epoch": "0"
+    },
+    "validity_scope": {
+      "certifies": "frozen-metric score vs preregistered null on one repository",
+      "does_not_certify": [
+        "cross-repository generality",
+        "EXP-001 success (requires >=60% of >=20 repos)"
+      ],
+      "single_repository": true
+    }
+  },
+  "ownership": {
+    "chain_hash": "ae06a0c9f15ece96",
+    "claim_class": "pipeline_calibration_only",
+    "data": {
+      "exceeds_null_p95": false,
+      "ground_truth_chain": "c284ce2a6b9f7d7c",
+      "n_null_draws": 1000,
+      "null_median": 0.333333,
+      "null_p95": 0.666667,
+      "observed_capture": 0.666667
+    },
+    "forbidden_interpretations": [
+      "geometry_truth",
+      "causal_coupling",
+      "design_quality",
+      "exp001_evidence"
+    ],
+    "provenance": {
+      "code_fingerprints": {
+        "scorer.py": "cd21e731be7c60a3"
+      },
+      "platform": "linux",
+      "python_version": "3.10.12",
+      "seeds": {
+        "null_seed": 0
+      },
+      "source_date_epoch": "0"
+    },
+    "validity_scope": {
+      "certifies": "frozen-metric score vs preregistered null on one repository",
+      "does_not_certify": [
+        "cross-repository generality",
+        "EXP-001 success (requires >=60% of >=20 repos)"
+      ],
+      "single_repository": true
+    }
+  }
+}

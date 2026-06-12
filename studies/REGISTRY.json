@@ -1,0 +1,24 @@
+[
+  {
+    "experiment_id": "EXP-000-rebuild-equivalence",
+    "failure_condition": "Any corpus where partitions differ or spectra diverge beyond 1e-12.",
+    "hypothesis": "The v2 self-contained kernel is behaviorally equivalent to the v1 kernel: identical partitions, VI values, and merge spectra on the v1 fixture corpora.",
+    "interpretation_limits": "Equivalence claim applies only to tested corpora and the ported function set; it does not certify performance, API compatibility, or behavior on unseen geometries.",
+    "registration_hash": "bf53c3a6b250bb03",
+    "results_hash": "14436400cba254ca",
+    "script_hash": null,
+    "status": "concluded",
+    "success_condition": "VI(P_v1, P_v2) == 0 and merge spectra equal to 1e-12 on all fixture corpora."
+  },
+  {
+    "experiment_id": "EXP-001-p1-external-validity",
+    "failure_condition": "No encoder family exceeds the null on the declared repositories \u2014 extending the identity-degeneracy result from traces to code.",
+    "hypothesis": "At least one independent encoder family's partition blocks predict co-change coupling (commits touching multiple entities) significantly better than size-matched random partitions, across >=20 repositories.",
+    "interpretation_limits": "Positive or negative, the result applies only to the declared repositories, encoder families, and ground-truth signals. Scores are never pooled across families. Cyclomatic complexity is EXCLUDED as ground truth (it is computed from the same artifact the encoders measure: circular). Primary ground truth: co-change coupling from git history. Secondary: human-labeled module boundaries. No claim about untested codebases.",
+    "registration_hash": "bfb435974760ea13",
+    "results_hash": null,
+    "script_hash": null,
+    "status": "registered",
+    "success_condition": "One or more families: block co-residency predicts co-change with effect size exceeding the 95th percentile of the random-partition null, on >=60% of declared repositories."
+  }
+]

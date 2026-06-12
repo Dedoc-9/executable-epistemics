@@ -1,0 +1,48 @@
+{
+  "chain_hash": "33d5f0a96148458c",
+  "claim_class": "preregistered_methodology_only",
+  "data": {
+    "coupling_threshold": {
+      "ground_truth_minimum": 2,
+      "rationale": "single co-occurrence is indistinguishable from coincidence; weights above threshold retained for effect size"
+    },
+    "frozen_before_any_encoder": true,
+    "observation_window": {
+      "preregistered_secondary": "rolling_24_month_window (sensitivity analysis; reported separately, never merged)",
+      "primary": "full_available_history_no_decay",
+      "rationale": "fewest free parameters for the primary; window sensitivity declared now, not discovered later"
+    },
+    "rename_handling": {
+      "decision": "follow_rename_chains",
+      "declared_limitation": "rename detection at 50% similarity is heuristic; misdetections perturb identity",
+      "mechanism": "git log -M50 --name-status; historical paths resolved to terminal name via rename chains",
+      "rationale": "mass renames fragment coupling history; distinct-path treatment undercounts real coupling"
+    },
+    "scoring_metric_preregistered": {
+      "null_model": "size-matched random partitions, 1000 draws per repository",
+      "rationale": "metric choice is itself an interpretation channel; frozen before any encoder output exists",
+      "statistic": "within-block co-change capture: sum of pair weights with both files in one block / total pair weight",
+      "success_mapping": "capture > 95th percentile of null, per EXP-001 success condition"
+    }
+  },
+  "forbidden_interpretations": [
+    "policy_as_result",
+    "post_hoc_amendment_without_errata"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "655df438bb0f336f"
+    },
+    "platform": "linux",
+    "python_version": "3.10.12",
+    "seeds": {},
+    "source_date_epoch": "0"
+  },
+  "validity_scope": {
+    "certifies": "policy decisions frozen prior to P1-C encoder work",
+    "does_not_certify": [
+      "that these policies are optimal",
+      "any empirical result"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "chain_hash": "14436400cba254ca",
+  "claim_class": "behavioral_equivalence_on_tested_corpora_only",
+  "data": {
+    "comparisons": {
+      "chain20@tau=0.25": {
+        "partitions_equal": true,
+        "spectra_equal": true,
+        "vi_v1_v2": 0.0
+      },
+      "chain20@tau=0.5": {
+        "partitions_equal": true,
+        "spectra_equal": true,
+        "vi_v1_v2": 0.0
+      },
+      "lobes_k1@tau=0.25": {
+        "partitions_equal": true,
+        "spectra_equal": true,
+        "vi_v1_v2": 0.0
+      },
+      "lobes_k1@tau=0.5": {
+        "partitions_equal": true,
+        "spectra_equal": true,
+        "vi_v1_v2": 0.0
+      },
+      "lobes_k2@tau=0.25": {
+        "partitions_equal": true,
+        "spectra_equal": true,
+        "vi_v1_v2": 0.0
+      },
+      "lobes_k2@tau=0.5": {
+        "partitions_equal": true,
+        "spectra_equal": true,
+        "vi_v1_v2": 0.0
+      },
+      "sim_frame@tau=0.25": {
+        "partitions_equal": true,
+        "spectra_equal": true,
+        "vi_v1_v2": 0.0
+      },
+      "sim_frame@tau=0.5": {
+        "partitions_equal": true,
+        "spectra_equal": true,
+        "vi_v1_v2": 0.0
+      }
+    },
+    "equivalence_condition_met": true
+  },
+  "forbidden_interpretations": [
+    "general_correctness",
+    "v2_superiority"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "kernel.py": "ab29db3e51a89b76"
+    },
+    "platform": "linux",
+    "python_version": "3.10.12",
+    "seeds": {},
+    "source_date_epoch": "0",
+    "v1_kernel": "mcl_sdk.mcl_kernel",
+    "v2_kernel": "mcl_runtime.kernel"
+  },
+  "validity_scope": {
+    "certifies": "kernel function equivalence on 4 corpora x 2 tau",
+    "does_not_certify": [
+      "performance",
+      "API_compat",
+      "unseen geometries"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "corrected_statement": "Terminal-name resolution chooses COMPONENT IDENTITY over HISTORICAL PATH IDENTITY: all historical coupling is attributed to the repository's final naming scheme. The cochange matrix does NOT reflect paths as they existed at commit time. Defensible for P1; recorded as a choice, not a fact.",
+    "erratum_id": "E-001",
+    "hash": "589fa966a082593d",
+    "supersedes": "P1B_POLICY.rename_handling (silent assumption)"
+  },
+  {
+    "corrected_statement": "max_commit_files=20 is PROVISIONAL, not frozen. It excludes bulk imports/mass refactors which may carry the strongest coupling signal in some repositories. Final value must be justified per target repository, documented, and frozen BEFORE that repository's scoring begins. Changing it after scoring is statistically invalid and prohibited.",
+    "erratum_id": "E-002",
+    "hash": "08339895cd0bea99",
+    "supersedes": "P1A exclusion_rules.max_commit_files=20 (implicitly frozen)"
+  },
+  {
+    "corrected_statement": "Positive control revealed a SOFT circularity channel: size-like features (line counts, append accumulation) partially encode change FREQUENCY, because frequent change physically grows files. ast_metrics detected planted coupling weakly (0.268 vs p95 0.239) through this channel despite deliberately uniform syntax. Consequence: in real-repository scoring, detection by families containing size-correlated features is AMBIGUOUS between structural alignment and change-history leakage, and must be reported with this ambiguity declared. The hard circularity rule (no co-change encoders) is necessary but not sufficient.",
+    "erratum_id": "E-003",
+    "hash": "be6515f4cb6cfa85",
+    "supersedes": "EXP-001 interpretation limits (circularity rule, implicit completeness)"
+  },
+  {
+    "corrected_statement": "ACTIVITY BASELINE added as mandatory second comparison, preregistered before real-repository scoring: a partition built from per-file change-frequency + size alone (history-derived, pair-blind). A candidate family is detected ONLY if capture exceeds BOTH the random-null p95 AND the activity-baseline capture. Detection above null but below activity baseline is classified as leakage (E-003 channel), not structure. The activity baseline is forbidden as a candidate family.",
+    "erratum_id": "E-004",
+    "hash": "a29819e92dda811e",
+    "supersedes": "P1B scoring_metric (random null as sole comparison)"
+  },
+  {
+    "corrected_statement": "MULTIPLICITY RULE: with multiple families x multiple repos at p95, false exceedances are expected by chance. Only the preregistered aggregate criterion (family detected on >=60% of declared repos) is interpretable. Per-repo exceedances are intermediate data, never reportable results.",
+    "erratum_id": "E-005",
+    "hash": "2b26f130cd59f639",
+    "supersedes": "EXP-001 result reporting (implicit per-repo interpretability)"
+  },
+  {
+    "corrected_statement": "FILTER FORMULA frozen, closing E-002's forking-paths risk: max_commit_files = min(50, ceil(p95 of non-merge commit file-counts for that repository)). Applied mechanically; no discretionary choice remains.",
+    "erratum_id": "E-006",
+    "hash": "07eee49d3d07328c",
+    "supersedes": "E-002 (per-repo filter chosen by examination)"
+  },
+  {
+    "corrected_statement": "NEAR-TIE RULE: the activity baseline is a deterministic point value with no distribution; exceeding it by less than the null's own spread is uninterpretable. Three-way classification frozen: DETECTED iff capture > null_p95 AND (capture - activity_capture) > (null_p95 - null_median); LEAKAGE iff > null_p95 but <= activity_capture; UNRESOLVED_ACTIVITY_MARGIN otherwise. Unresolved counts as non-detection for the EXP-001 aggregate criterion. Recorded after the rule's author predicted ast_metrics would fail E-004 and it instead passed by 0.021 \u2014 the prediction error is the evidence for the rule.",
+    "erratum_id": "E-007",
+    "hash": "dd2b9f189444d2ef",
+    "supersedes": "E-004 (binary activity-baseline comparison, no noise band)"
+  },
+  {
+    "corrected_statement": "AGGREGATE OUTCOME RULE frozen: per family, success_rate = DETECTED repos / declared repos, with Wilson 95% CI. Outcomes: VALIDATED iff point estimate >= 0.60 (the locked condition); REJECTED iff point < 0.60 AND Wilson upper bound < 0.60; INCONCLUSIVE iff point < 0.60 but upper bound >= 0.60 (insufficient n to decide). EXP-001 concludes positive iff any family is VALIDATED. Repository list must be declared and frozen BEFORE the first real run; additions/removals only via errata recorded before that repository is scored.",
+    "erratum_id": "E-008",
+    "hash": "991913c219e5f944",
+    "supersedes": "EXP-001 success condition (point-estimate only, no uncertainty rule)"
+  },
+  {
+    "corrected_statement": "MISCLASSIFICATION INCIDENT, recorded as protocol evidence: a rehearsal aggregate (synthetic repos, claim_class=campaign_rehearsal_only, exp001_evidence forbidden) was interpreted as a completed negative EXP-001 result, including a constructed falsification narrative, by a reader fully versed in the protocol. Cause analysis: (1) rehearsal outputs are deliberately schema-identical to evidence outputs; (2) the console summary line printed 'EXP-001: NEGATIVE' without claim scoping \u2014 the human-readable channel omitted the metadata the JSON carried. Correction: display layer now carries the claim banner; rule generalized \u2014 EVERY human-facing rendering of an artifact must surface claim_class, not only the serialization. Prose discipline does not survive contact with plausible narrative; only surfaced metadata does.",
+    "erratum_id": "E-009",
+    "hash": "3d5659a81c5c1e61",
+    "supersedes": "session-record interpretation of REHEARSAL_CONCLUSION as EXP-001 outcome; aggregate.py console output"
+  }
+]

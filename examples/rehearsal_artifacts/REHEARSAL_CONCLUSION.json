@@ -1,0 +1,374 @@
+{
+  "chain_hash": "f912d835ab534722",
+  "claim_class": "campaign_rehearsal_only",
+  "data": {
+    "decision_rule": "E-008",
+    "excluded_not_declared": [],
+    "exp001_outcome": "NEGATIVE",
+    "per_family": {
+      "ast_metrics": {
+        "declared": 20,
+        "detected": 0,
+        "outcome": "REJECTED",
+        "rows": [
+          {
+            "chain": "6d0bf88db8f85c05",
+            "classification": "NOT_DETECTED",
+            "repo": "repo00"
+          },
+          {
+            "chain": "8fa45f8205a9a39d",
+            "classification": "NOT_DETECTED",
+            "repo": "repo01"
+          },
+          {
+            "chain": "3091bbc9c97377c2",
+            "classification": "NOT_DETECTED",
+            "repo": "repo02"
+          },
+          {
+            "chain": "c77fac5ee541ae61",
+            "classification": "NOT_DETECTED",
+            "repo": "repo03"
+          },
+          {
+            "chain": "51b2f933ba79c3fb",
+            "classification": "NOT_DETECTED",
+            "repo": "repo04"
+          },
+          {
+            "chain": "3d72f7cbba6b2365",
+            "classification": "NOT_DETECTED",
+            "repo": "repo05"
+          },
+          {
+            "chain": "d1b20a521b77960c",
+            "classification": "NOT_DETECTED",
+            "repo": "repo06"
+          },
+          {
+            "chain": "654f220485edbc0e",
+            "classification": "NOT_DETECTED",
+            "repo": "repo07"
+          },
+          {
+            "chain": "6fb587ce80459ad3",
+            "classification": "NOT_DETECTED",
+            "repo": "repo08"
+          },
+          {
+            "chain": "08317f053f6a2e73",
+            "classification": "NOT_DETECTED",
+            "repo": "repo09"
+          },
+          {
+            "chain": "efab83b03d94e39b",
+            "classification": "NOT_DETECTED",
+            "repo": "repo10"
+          },
+          {
+            "chain": "aa00946d7d2e53b9",
+            "classification": "NOT_DETECTED",
+            "repo": "repo11"
+          },
+          {
+            "chain": "622480b40212d2e2",
+            "classification": "NOT_DETECTED",
+            "repo": "repo12"
+          },
+          {
+            "chain": "38d74e065d8f14d0",
+            "classification": "NOT_DETECTED",
+            "repo": "repo13"
+          },
+          {
+            "chain": "c4945a2f90e609bd",
+            "classification": "NOT_DETECTED",
+            "repo": "repo14"
+          },
+          {
+            "chain": "cc78ada20460a1d5",
+            "classification": "NOT_DETECTED",
+            "repo": "repo15"
+          },
+          {
+            "chain": "03d6d64f1d894652",
+            "classification": "NOT_DETECTED",
+            "repo": "repo16"
+          },
+          {
+            "chain": "df65cf79ca48a59e",
+            "classification": "NOT_DETECTED",
+            "repo": "repo17"
+          },
+          {
+            "chain": "8338cd732d26f169",
+            "classification": "NOT_DETECTED",
+            "repo": "repo18"
+          },
+          {
+            "chain": "d8ef57f94555ce0d",
+            "classification": "NOT_DETECTED",
+            "repo": "repo19"
+          }
+        ],
+        "scored": 20,
+        "success_rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1611
+        ]
+      },
+      "dep_graph": {
+        "declared": 20,
+        "detected": 1,
+        "outcome": "REJECTED",
+        "rows": [
+          {
+            "chain": "0c9493dd9b922505",
+            "classification": "NOT_DETECTED",
+            "repo": "repo00"
+          },
+          {
+            "chain": "31a888af0333c3cc",
+            "classification": "NOT_DETECTED",
+            "repo": "repo01"
+          },
+          {
+            "chain": "77561a48a3e21bcc",
+            "classification": "NOT_DETECTED",
+            "repo": "repo02"
+          },
+          {
+            "chain": "b3292f7255ea3079",
+            "classification": "NOT_DETECTED",
+            "repo": "repo03"
+          },
+          {
+            "chain": "8846b02331bf4785",
+            "classification": "NOT_DETECTED",
+            "repo": "repo04"
+          },
+          {
+            "chain": "367c7448e17342dd",
+            "classification": "DETECTED",
+            "repo": "repo05"
+          },
+          {
+            "chain": "18d45e6316aae221",
+            "classification": "NOT_DETECTED",
+            "repo": "repo06"
+          },
+          {
+            "chain": "f3fb96689d7d5aae",
+            "classification": "NOT_DETECTED",
+            "repo": "repo07"
+          },
+          {
+            "chain": "6fb587ce80459ad3",
+            "classification": "NOT_DETECTED",
+            "repo": "repo08"
+          },
+          {
+            "chain": "08317f053f6a2e73",
+            "classification": "NOT_DETECTED",
+            "repo": "repo09"
+          },
+          {
+            "chain": "5a76487fed3a2cbf",
+            "classification": "NOT_DETECTED",
+            "repo": "repo10"
+          },
+          {
+            "chain": "422c76aadc0419b8",
+            "classification": "NOT_DETECTED",
+            "repo": "repo11"
+          },
+          {
+            "chain": "6b804288263f74dd",
+            "classification": "NOT_DETECTED",
+            "repo": "repo12"
+          },
+          {
+            "chain": "bb22f719a0f0ab88",
+            "classification": "NOT_DETECTED",
+            "repo": "repo13"
+          },
+          {
+            "chain": "7625618e545bef9d",
+            "classification": "NOT_DETECTED",
+            "repo": "repo14"
+          },
+          {
+            "chain": "4672e74b48e2e32d",
+            "classification": "NOT_DETECTED",
+            "repo": "repo15"
+          },
+          {
+            "chain": "6ed48b677bd9988e",
+            "classification": "NOT_DETECTED",
+            "repo": "repo16"
+          },
+          {
+            "chain": "7af99c78d36e362f",
+            "classification": "NOT_DETECTED",
+            "repo": "repo17"
+          },
+          {
+            "chain": "eb730f5511ece599",
+            "classification": "NOT_DETECTED",
+            "repo": "repo18"
+          },
+          {
+            "chain": "fb953783881f002d",
+            "classification": "NOT_DETECTED",
+            "repo": "repo19"
+          }
+        ],
+        "scored": 20,
+        "success_rate": 0.05,
+        "wilson_95": [
+          0.0089,
+          0.2361
+        ]
+      },
+      "ownership": {
+        "declared": 20,
+        "detected": 0,
+        "outcome": "REJECTED",
+        "rows": [
+          {
+            "chain": "75cbc753cc324f8f",
+            "classification": "NOT_DETECTED",
+            "repo": "repo00"
+          },
+          {
+            "chain": "24ffd29ef154e6db",
+            "classification": "NOT_DETECTED",
+            "repo": "repo01"
+          },
+          {
+            "chain": "afef0acff0920596",
+            "classification": "NOT_DETECTED",
+            "repo": "repo02"
+          },
+          {
+            "chain": "b78cd1d7104636ae",
+            "classification": "NOT_DETECTED",
+            "repo": "repo03"
+          },
+          {
+            "chain": "a40c3456eaac6493",
+            "classification": "NOT_DETECTED",
+            "repo": "repo04"
+          },
+          {
+            "chain": "138308f579748d4a",
+            "classification": "NOT_DETECTED",
+            "repo": "repo05"
+          },
+          {
+            "chain": "3eddad3320641da7",
+            "classification": "NOT_DETECTED",
+            "repo": "repo06"
+          },
+          {
+            "chain": "3e971ddddd91974f",
+            "classification": "NOT_DETECTED",
+            "repo": "repo07"
+          },
+          {
+            "chain": "1fc1e549a4f8a7ba",
+            "classification": "NOT_DETECTED",
+            "repo": "repo08"
+          },
+          {
+            "chain": "08317f053f6a2e73",
+            "classification": "NOT_DETECTED",
+            "repo": "repo09"
+          },
+          {
+            "chain": "3469ca5169a04234",
+            "classification": "NOT_DETECTED",
+            "repo": "repo10"
+          },
+          {
+            "chain": "e1e6d6202ed61ca5",
+            "classification": "NOT_DETECTED",
+            "repo": "repo11"
+          },
+          {
+            "chain": "bd3ac9a679d07a51",
+            "classification": "NOT_DETECTED",
+            "repo": "repo12"
+          },
+          {
+            "chain": "ebe45731dc58d8f5",
+            "classification": "NOT_DETECTED",
+            "repo": "repo13"
+          },
+          {
+            "chain": "82d0d55be2f578ef",
+            "classification": "NOT_DETECTED",
+            "repo": "repo14"
+          },
+          {
+            "chain": "2ad688552ec15a72",
+            "classification": "NOT_DETECTED",
+            "repo": "repo15"
+          },
+          {
+            "chain": "6ed48b677bd9988e",
+            "classification": "NOT_DETECTED",
+            "repo": "repo16"
+          },
+          {
+            "chain": "7af99c78d36e362f",
+            "classification": "NOT_DETECTED",
+            "repo": "repo17"
+          },
+          {
+            "chain": "eb730f5511ece599",
+            "classification": "NOT_DETECTED",
+            "repo": "repo18"
+          },
+          {
+            "chain": "fb953783881f002d",
+            "classification": "NOT_DETECTED",
+            "repo": "repo19"
+          }
+        ],
+        "scored": 20,
+        "success_rate": 0.0,
+        "wilson_95": [
+          0.0,
+          0.1611
+        ]
+      }
+    },
+    "rehearsal": true,
+    "threshold": 0.6
+  },
+  "forbidden_interpretations": [
+    "geometry_truth",
+    "structure_universality",
+    "per_repo_storytelling",
+    "exp001_evidence"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "aggregate.py": "aec4d79416172e4b"
+    },
+    "platform": "linux",
+    "python_version": "3.10.12",
+    "seeds": {},
+    "source_date_epoch": "0"
+  },
+  "validity_scope": {
+    "certifies": "preregistered aggregate over declared population",
+    "does_not_certify": [
+      "generality beyond wave-1 population",
+      "causal or semantic claims"
+    ]
+  }
+}

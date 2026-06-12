@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "executable-epistemics"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Dillberg
+    given-names: Daniel
+    email: bigdilly95@gmail.com
+license: AGPL-3.0-or-later
+version: 2.0.0
+abstract: >
+  An executable framework for preserving epistemic boundaries in iterative
+  system development: claim-bounded artifacts, preregistered experiments with
+  mandatory failure conditions, chained errata, and a contamination-aware
+  dual-baseline validity framework for structural software representations.
