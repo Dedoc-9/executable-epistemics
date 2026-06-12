@@ -52,5 +52,11 @@
     "erratum_id": "E-009",
     "hash": "3d5659a81c5c1e61",
     "supersedes": "session-record interpretation of REHEARSAL_CONCLUSION as EXP-001 outcome; aggregate.py console output"
+  },
+  {
+    "corrected_statement": "PILOT ON REAL HISTORY exposed a small-n degeneracy: the p95 index int(0.95*(n-1)) floor-rounds, selecting the MINIMUM commit size at n=2 and biasing low for small histories \u2014 on the pilot repository it set max_commit_files=1, emptying the ground truth. Fix (pre-campaign, no real-population data touched): nearest-rank percentile counts[min(n-1, ceil(0.95*n)-1)]. Negligible for wave-1 scale (thousands of commits); decisive for short histories. Origin note: this erratum exists because an untested incapacity claim ('no immediate real test is possible') was challenged and falsified \u2014 the immediate real test found this bug within one run.",
+    "erratum_id": "E-010",
+    "hash": "7fafa0c9af157674",
+    "supersedes": "E-006 filter formula (floor-indexed percentile)"
   }
 ]

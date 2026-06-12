@@ -101,4 +101,10 @@ frozen threshold "just to see" → errata or nothing.
 4. Every new output path emits a `witness_core.Artifact` (no bare dicts)?
 5. Reruns byte-identical under pinned epoch?
 
+6. Did I assert that something is impossible or unavailable without running
+   a capability probe? Untested incapacity claims are the same defect as
+   untested capability claims (origin: errata E-010 — a challenged
+   "no immediate test is possible" was falsified by a one-line probe, and the
+   immediate test it unblocked found a real bug within one run).
+
 If any answer is wrong, the change is wrong — not the tests, not the contract.

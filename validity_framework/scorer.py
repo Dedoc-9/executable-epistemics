@@ -128,4 +128,5 @@ def formula_filter(repo):
     if not counts:
         return 50
     counts.sort()
-    return min(50, math.ceil(counts[int(0.95 * (len(counts) - 1))]))
+    idx = min(len(counts) - 1, math.ceil(0.95 * len(counts)) - 1)  # E-010 nearest-rank
+    return min(50, math.ceil(counts[idx]))
