@@ -1,0 +1,6894 @@
+{
+  "chain_hash": "f2c6ad0429c958b3",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".binstar.yml||conda.recipe/meta.yaml": 3,
+      ".github/workflows/test.yml||README.rst": 2,
+      ".github/workflows/test.yml||setup.py": 2,
+      ".github/workflows/test.yml||toolz/tests/test_inspect_args.py": 2,
+      ".travis.yml||README.rst": 2,
+      "README.rst||setup.py": 3,
+      "bench/test_frequencies.py||bench/test_groupby.py": 2,
+      "conda.recipe/meta.yaml||toolz/__init__.py": 9,
+      "doc/source/api.rst||toolz/dicttoolz.py": 2,
+      "doc/source/api.rst||toolz/itertoolz.py": 5,
+      "doc/source/api.rst||toolz/sandbox/__init__.py": 2,
+      "doc/source/api.rst||toolz/sandbox/core.py": 2,
+      "doc/source/api.rst||toolz/sandbox/tests/test_core.py": 2,
+      "doc/source/api.rst||toolz/tests/test_dicttoolz.py": 2,
+      "doc/source/api.rst||toolz/tests/test_itertoolz.py": 4,
+      "examples/fib.py||toolz/functoolz/core.py": 2,
+      "examples/fib.py||toolz/functoolz/tests/test_core.py": 2,
+      "setup.py||toolz/__init__.py": 3,
+      "setup.py||toolz/tests/__init__.py": 2,
+      "setup.py||tox.ini": 2,
+      "tlz/__init__.py||tlz/_build_tlz.py": 2,
+      "tlz/__init__.py||toolz/tests/test_tlz.py": 2,
+      "tlz/_build_tlz.py||toolz/tests/test_tlz.py": 6,
+      "toolz/__init__.py||toolz/curried.py": 2,
+      "toolz/__init__.py||toolz/dicttoolz.py": 4,
+      "toolz/__init__.py||toolz/dicttoolz/__init__.py": 4,
+      "toolz/__init__.py||toolz/functoolz/__init__.py": 5,
+      "toolz/__init__.py||toolz/functoolz/core.py": 5,
+      "toolz/__init__.py||toolz/functoolz/tests/test_core.py": 4,
+      "toolz/__init__.py||toolz/itertoolz/__init__.py": 10,
+      "toolz/__init__.py||toolz/itertoolz/core.py": 9,
+      "toolz/__init__.py||toolz/itertoolz/tests/test_core.py": 8,
+      "toolz/__init__.py||toolz/tests/test_curried.py": 2,
+      "toolz/__init__.py||toolz/tests/test_dicttoolz.py": 3,
+      "toolz/_signatures.py||toolz/functoolz.py": 7,
+      "toolz/_signatures.py||toolz/tests/test_inspect_args.py": 3,
+      "toolz/_signatures.py||toolz/tests/test_signatures.py": 2,
+      "toolz/compatibility.py||toolz/dicttoolz.py": 2,
+      "toolz/compatibility.py||toolz/functoolz.py": 3,
+      "toolz/compatibility.py||toolz/itertoolz.py": 2,
+      "toolz/compatibility.py||toolz/itertoolz/tests/test_core.py": 2,
+      "toolz/compatibility.py||toolz/tests/test_inspect_args.py": 2,
+      "toolz/curried.py||toolz/curried/exceptions.py": 2,
+      "toolz/curried.py||toolz/dicttoolz.py": 3,
+      "toolz/curried.py||toolz/functoolz/core.py": 2,
+      "toolz/curried.py||toolz/functoolz/tests/test_core.py": 2,
+      "toolz/curried.py||toolz/tests/test_curried.py": 6,
+      "toolz/curried.py||toolz/tests/test_dicttoolz.py": 2,
+      "toolz/curried/__init__.py||toolz/curried/operator.py": 2,
+      "toolz/curried/__init__.py||toolz/tests/test_curried.py": 2,
+      "toolz/dicttoolz.py||toolz/dicttoolz/__init__.py": 5,
+      "toolz/dicttoolz.py||toolz/functoolz/core.py": 3,
+      "toolz/dicttoolz.py||toolz/tests/test_curried.py": 2,
+      "toolz/dicttoolz.py||toolz/tests/test_dicttoolz.py": 18,
+      "toolz/dicttoolz/__init__.py||toolz/tests/test_dicttoolz.py": 5,
+      "toolz/functoolz.py||toolz/tests/test_functoolz.py": 24,
+      "toolz/functoolz.py||toolz/tests/test_inspect_args.py": 5,
+      "toolz/functoolz.py||toolz/tests/test_serialization.py": 7,
+      "toolz/functoolz/__init__.py||toolz/functoolz/core.py": 6,
+      "toolz/functoolz/__init__.py||toolz/functoolz/tests/test_core.py": 5,
+      "toolz/functoolz/core.py||toolz/functoolz/tests/test_core.py": 20,
+      "toolz/functoolz/core.py||toolz/itertoolz/core.py": 2,
+      "toolz/functoolz/core.py||toolz/tests/test_serialization.py": 3,
+      "toolz/itertoolz.py||toolz/tests/test_itertoolz.py": 36,
+      "toolz/itertoolz/__init__.py||toolz/itertoolz/core.py": 9,
+      "toolz/itertoolz/__init__.py||toolz/itertoolz/tests/test_core.py": 8,
+      "toolz/itertoolz/core.py||toolz/itertoolz/tests/test_core.py": 18,
+      "toolz/sandbox/__init__.py||toolz/sandbox/core.py": 4,
+      "toolz/sandbox/__init__.py||toolz/sandbox/tests/test_core.py": 4,
+      "toolz/sandbox/core.py||toolz/sandbox/tests/test_core.py": 9,
+      "toolz/tests/test_curried.py||toolz/tests/test_dicttoolz.py": 2,
+      "toolz/tests/test_functoolz.py||toolz/tests/test_inspect_args.py": 3,
+      "toolz/tests/test_functoolz.py||toolz/tests/test_serialization.py": 2
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "07099cfa7215e2af27fca23233d9f5da6078b166",
+        "timestamp": 1378868048
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "9954677bcae1c451c4a07a93d5a2598b43b1a8a7",
+        "timestamp": 1378868155
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "6be1806794bbd32a885fc04001e100e1c5645efe",
+        "timestamp": 1378868285
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "757f05c537b5eab83654d5fe5e27d5f696cfc005",
+        "timestamp": 1379647797
+      },
+      {
+        "files": [
+          "toolz/itertoolz/__init__.py"
+        ],
+        "sha": "083dbf37eda3faabcc6a85416898d946a6d99caa",
+        "timestamp": 1379648162
+      },
+      {
+        "files": [
+          "toolz/functoolz/__init__.py"
+        ],
+        "sha": "eb9d8d2acdde317a73bb9c7967a5cfecdcb5f7e2",
+        "timestamp": 1379648183
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/dicttoolz.py",
+          "toolz/dicttoolz/__init__.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "473ead8c158fb94bac981ad497b045f197d1bd87",
+        "timestamp": 1379777580
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "204f24c069028db59464b9b4a85cf5a89d5902fe",
+        "timestamp": 1379868156
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/dicttoolz/__init__.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "2c900b2f5bac42fe0fd602685912989dbc7bddc9",
+        "timestamp": 1379886325
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "47d3da3162b1f1ad05f07089fe835f4d88af1c59",
+        "timestamp": 1379886747
+      },
+      {
+        "files": [
+          "toolz/functoolz/__init__.py",
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "2f47890504e759d59fe7960550a81b57633499e5",
+        "timestamp": 1379888575
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "f8995df2de4898aad9bc58912369f72d87aa0765",
+        "timestamp": 1379893989
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "e3d8c59ecd34bfffbe596fb38a3f72a6fe8636ee",
+        "timestamp": 1379894084
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "8337977e155d22d139059a919c5e3b99637d3218",
+        "timestamp": 1379894238
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "752364331751a01597e721985ecf931e27befabe",
+        "timestamp": 1379951879
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "7bf9728e74b1d2187fc166d20cb1e0962bf4ddcf",
+        "timestamp": 1379957072
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "8b375555df73886f8203b83e22270830546ff4da",
+        "timestamp": 1379957198
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "f56b6fee0ad3d504f7e2f05647ebfd3b2f3e06f4",
+        "timestamp": 1379957298
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "b2feeb92a85b81a2034f2713dbab1ad3234c0435",
+        "timestamp": 1379957343
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "211bf3902dce0a960f5409fc1027bfd92f768d1b",
+        "timestamp": 1379957563
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "da277dbd64ea17f57ad14f692c9c825538f39192",
+        "timestamp": 1379957839
+      },
+      {
+        "files": [
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "4d03bc6b00fa213c07534e8c70f05405d182a709",
+        "timestamp": 1379957943
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "2c7be0c2df598df1c01d71cd42f9d39895373a07",
+        "timestamp": 1379980631
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "a0d5b91f0020854d46c557e6c22c03978a2b9aa8",
+        "timestamp": 1379980903
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "0f831e171d906ab1a9906a9e3c2bd4a03e0a6531",
+        "timestamp": 1379984250
+      },
+      {
+        "files": [
+          "toolz/recipes.py"
+        ],
+        "sha": "8f76d3ad5fa90c29b87ee28b10848712fa311ec6",
+        "timestamp": 1379985769
+      },
+      {
+        "files": [
+          "toolz/recipes.py"
+        ],
+        "sha": "3721f38c6d595ba5f095155949ddcac061eec75b",
+        "timestamp": 1379985917
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/curried.py",
+          "toolz/tests/test_curried.py"
+        ],
+        "sha": "3b5080f4bd1b2caded45e9ffba0c2a0d6e1b26a5",
+        "timestamp": 1380132215
+      },
+      {
+        "files": [
+          "toolz/curried.py"
+        ],
+        "sha": "ea00540d0db4a3889cc005123a711c354c5f987e",
+        "timestamp": 1380132650
+      },
+      {
+        "files": [
+          "toolz/curried.py",
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_curried.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "2ca3db7a55af0c2fa67603029e67d399318bd5be",
+        "timestamp": 1380132771
+      },
+      {
+        "files": [
+          "toolz/curried.py"
+        ],
+        "sha": "d86182075bfb7d02ee11eb947dc97c45565aa221",
+        "timestamp": 1380133798
+      },
+      {
+        "files": [
+          "toolz/curried.py"
+        ],
+        "sha": "06cbb13671dfa177947087d8bcc1e8a4a7acc282",
+        "timestamp": 1380135088
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/itertoolz/__init__.py",
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "7ea44464c80e58804ab8830e245b69e87328db9c",
+        "timestamp": 1379778606
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "0997aa3aff93092b1bc516cfe8ce5a3623ff56c7",
+        "timestamp": 1379985513
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "8c644c73b73fce6b8f0b41d5866a619eaf77825f",
+        "timestamp": 1380131119
+      },
+      {
+        "files": [
+          "doc/source/dicttoolz.rst",
+          "doc/source/functoolz.rst",
+          "doc/source/itertoolz.rst"
+        ],
+        "sha": "926c95ad444a8adbbbbdf6ffbe0b1ab42c7d7d3b",
+        "timestamp": 1380140159
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "61cc746811ee254a91f4ceaf4c2f2f9dc57d26fb",
+        "timestamp": 1380159532
+      },
+      {
+        "files": [
+          "setup.py",
+          "toolz/__init__.py"
+        ],
+        "sha": "2eb35b060ee20f83a371b11847e8279b359ff652",
+        "timestamp": 1380247981
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "b8c2a8713b5b6e95f671adfbf446c1030507f117",
+        "timestamp": 1380305019
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "468e6e7a96fbcd05f09634619619d345b664b72f",
+        "timestamp": 1380305503
+      },
+      {
+        "files": [
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "17a0c9209912d2328920b6ee97d50bb779755690",
+        "timestamp": 1380380479
+      },
+      {
+        "files": [
+          "AUTHORS"
+        ],
+        "sha": "2ea04b21a85bf46e9782cf4d475a714394c4a357",
+        "timestamp": 1380383793
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "c441a1ceea9b301cfd29d9a5684c0f3e12ae67ca",
+        "timestamp": 1380384930
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "4d81df3ef44f7380568c9bf3c9778db3c549e96c",
+        "timestamp": 1380385080
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/functoolz/__init__.py",
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "1a6e506ac80606102fb412596e9cb7275e9226b5",
+        "timestamp": 1380385514
+      },
+      {
+        "files": [
+          "AUTHORS"
+        ],
+        "sha": "913972afcb0dc20d4293155a76f893119666f252",
+        "timestamp": 1380386147
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "cae58f381833a3f40cc43322542e553c881a4461",
+        "timestamp": 1380386162
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "2dee3507988c75966fdc270fba06c8a229236aa1",
+        "timestamp": 1380386474
+      },
+      {
+        "files": [
+          "AUTHORS"
+        ],
+        "sha": "ef534f185a061e371a264883bbeafd961032172a",
+        "timestamp": 1380386517
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "a89b3a24b3fcf32577ef8df278946a33e22936cf",
+        "timestamp": 1380386557
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "f570d8431d0c74f402886de367b3625d65665abd",
+        "timestamp": 1380386586
+      },
+      {
+        "files": [
+          "AUTHORS",
+          "AUTHORS.md"
+        ],
+        "sha": "5156744910873c9fa8124e757f00e974bcb064a1",
+        "timestamp": 1380386693
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "2e52e6f8f79eb6c27dcca25becc88e5dc1dda2c2",
+        "timestamp": 1380386891
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "f0e86f0180b441e95408c418b65e3ea61f6f5901",
+        "timestamp": 1380386933
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "701e4d97f16cd7490cb946ccb1644eb72e3687a8",
+        "timestamp": 1380386953
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "dc9f82c8a2cdf498d215cc5ad1a5e8520612005e",
+        "timestamp": 1380387012
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "18411c8a9bc6a1c040d644bccd1ffa3e459c6edd",
+        "timestamp": 1380387096
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "30a1ebbc1eef241f797f7ea3c0bd92504b21f09e",
+        "timestamp": 1380387204
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "6976fb719f316c317e106ab0a29586d8ff028919",
+        "timestamp": 1380387312
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "f201043eece08b7885d7e38084e60c780ff4f320",
+        "timestamp": 1380387726
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "0bc4cbfcc2f6daeb0edc986d85d438415bf3049f",
+        "timestamp": 1380388130
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "0473f8d94ca269b2b2b49c670111e8778408da28",
+        "timestamp": 1380388357
+      },
+      {
+        "files": [
+          "toolz/curried.py"
+        ],
+        "sha": "392cf8f05b6c23600e7a61a51494771ab08f2274",
+        "timestamp": 1380384898
+      },
+      {
+        "files": [
+          "toolz/curried.py"
+        ],
+        "sha": "8800f8805d2384f12ec0e163d169ce6f550761a4",
+        "timestamp": 1380384915
+      },
+      {
+        "files": [
+          "toolz/curried.py"
+        ],
+        "sha": "3d4fad3fc2e984f5d37939157a67c4fc40bd32a0",
+        "timestamp": 1380388488
+      },
+      {
+        "files": [
+          "toolz/tests/test_compatibility.py"
+        ],
+        "sha": "43ef056148df761e6896ed376a8641ba2a95f18b",
+        "timestamp": 1380501837
+      },
+      {
+        "files": [
+          "setup.py",
+          "toolz/__init__.py"
+        ],
+        "sha": "1ef7f5e12bbfa8175a86b2db8b6679dc31a8f265",
+        "timestamp": 1380645083
+      },
+      {
+        "files": [
+          "toolz/curried.py",
+          "toolz/functoolz/tests/test_core.py",
+          "toolz/tests/test_compatibility.py"
+        ],
+        "sha": "fb15d3108254c0e6a25aab69801e9aa12f9e5eb1",
+        "timestamp": 1380654594
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/itertoolz/__init__.py"
+        ],
+        "sha": "5b765afbf6c5520d856ccd634c8bd28ea020f9d9",
+        "timestamp": 1380655608
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "594f835f1fb8962e78374e900b5ea72a2dcb8893",
+        "timestamp": 1380655623
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/tests/test_compatibility.py"
+        ],
+        "sha": "7b3b0eafb942474c4cc7308a5e62f6872784736e",
+        "timestamp": 1380665843
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "295b81b637aaea1710767ad3c6ea4948f12b61f4",
+        "timestamp": 1380666136
+      },
+      {
+        "files": [
+          "toolz/curried.py"
+        ],
+        "sha": "f8e97e64baa245a0fb0a4ff43f48ba567d0e6eed",
+        "timestamp": 1380721564
+      },
+      {
+        "files": [
+          "setup.py",
+          "toolz/__init__.py"
+        ],
+        "sha": "507c18fb3a0ebca048e8f0ca45e471a032b9efff",
+        "timestamp": 1380723218
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fedff804552fd7baad719c58e569a57f29c03e96",
+        "timestamp": 1380723291
+      },
+      {
+        "files": [
+          "toolz/recipes.py"
+        ],
+        "sha": "7b5d8d38d9b5c0465041e9a79cf2efeaaed1f473",
+        "timestamp": 1380729383
+      },
+      {
+        "files": [
+          "toolz/recipes.py"
+        ],
+        "sha": "4e0d38b1a315214e30ecf1a14868540fcf55b27e",
+        "timestamp": 1380729545
+      },
+      {
+        "files": [
+          "toolz/recipes.py"
+        ],
+        "sha": "fcd38e1fe7a3b3d7a037f7859bfc9c4988afe5b3",
+        "timestamp": 1380729617
+      },
+      {
+        "files": [
+          "toolz/recipes.py"
+        ],
+        "sha": "6ce62cdff5fa723ca315c3179d9d6892ed20648b",
+        "timestamp": 1380729656
+      },
+      {
+        "files": [
+          "toolz/tests/test_recipes.py"
+        ],
+        "sha": "cf9878cdc89df51057bb2ffc0062ac6dcf9074a3",
+        "timestamp": 1380729877
+      },
+      {
+        "files": [
+          "toolz/recipes.py"
+        ],
+        "sha": "fb1333a6281eb5767ef44a6c550e1f95f27b392c",
+        "timestamp": 1380731941
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "de2f7823149ae92fc2523a54acf8be427547fb43",
+        "timestamp": 1380732304
+      },
+      {
+        "files": [
+          "toolz/tests/test_recipes.py"
+        ],
+        "sha": "66d36a4a97f08c4d88b1c138c6c3e25f03f588e8",
+        "timestamp": 1380737026
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "0e7de71bd66b1a2c656ad367da2bfb71cb07b626",
+        "timestamp": 1380737288
+      },
+      {
+        "files": [
+          "toolz/tests/test_compatibility.py"
+        ],
+        "sha": "ccff010677bb45684f377e27711d382360d9be52",
+        "timestamp": 1380771348
+      },
+      {
+        "files": [
+          "examples/wordcount.py"
+        ],
+        "sha": "dfc206dfe72602a9c4d80a32d7480f564afe50c2",
+        "timestamp": 1380771524
+      },
+      {
+        "files": [
+          "examples/graph.py"
+        ],
+        "sha": "336508fdb42aac83d0c36094f3df8e70fed9f6c5",
+        "timestamp": 1380773082
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c60c5aeba70cc55456da9006f09b2d863ea3bedd",
+        "timestamp": 1380901103
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fa91514d11204a97d0a3603cf6dbce3bcc9dac0e",
+        "timestamp": 1380901143
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "30f630943b4e20325d61538d6049a220367b226e",
+        "timestamp": 1380902535
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "51128a567072a19c8d2c876a73e954308126c5ae",
+        "timestamp": 1380902790
+      },
+      {
+        "files": [
+          "examples/fib.py"
+        ],
+        "sha": "5ec3f8dbe9f044d08a80563c05b648590fabdda7",
+        "timestamp": 1380905672
+      },
+      {
+        "files": [
+          "bench/test_wordcount.py"
+        ],
+        "sha": "1dea01612007ce6656ef47943fdb6fc9afd016b4",
+        "timestamp": 1381070300
+      },
+      {
+        "files": [
+          "bench/test_wordcount.py"
+        ],
+        "sha": "9bda8fbdbc3554f67deb85ca4e88974afbe1fcbc",
+        "timestamp": 1381073230
+      },
+      {
+        "files": [
+          "bench/test_wordcount.py"
+        ],
+        "sha": "9d5f28e5fbe41c4236f69eef2f0a361b282b06f8",
+        "timestamp": 1381077033
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "c612c35026e372708dfd57dba76b32dd3a519784",
+        "timestamp": 1381077215
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "bfa6beba9f44eb0310ccc0c41950ea63b652aac2",
+        "timestamp": 1381077684
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "4d8e665c3f9760e51dbbd3351187debc7bf191d1",
+        "timestamp": 1381078393
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "e06db8c2fa400ab2ca56ea233dd90b350a3ce034",
+        "timestamp": 1381077015
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "doc/source/install.rst"
+        ],
+        "sha": "cf6282d1baf7087980c2f6ab0bcaea199e7c5e59",
+        "timestamp": 1381079662
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "8a7fa99efbd971358da5827b3babc147d3535214",
+        "timestamp": 1381079865
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "fef31541f5ae05b02a4a598c7a9372b906b997da",
+        "timestamp": 1381080313
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "doc/source/index.rst"
+        ],
+        "sha": "1453fa42bebc0ce9d0b3e9a700d861100e912aac",
+        "timestamp": 1381098390
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "1ca022b700cf01e947f26887499adf6d75d7a87b",
+        "timestamp": 1381103276
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "doc/source/references.rst"
+        ],
+        "sha": "a13c466b8afcf3d301385dd4757cce95b0613a04",
+        "timestamp": 1381103657
+      },
+      {
+        "files": [
+          "doc/source/heritage.rst",
+          "doc/source/index.rst"
+        ],
+        "sha": "5ce7647f711650e8de7d8d3594912211f324cd1a",
+        "timestamp": 1381344176
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "959459d5816dbbea19aa2b3569dc017c2ed9ba80",
+        "timestamp": 1381345637
+      },
+      {
+        "files": [
+          "doc/source/heritage.rst"
+        ],
+        "sha": "d7d69dafa79a65cb50ba14dbc627417e70a54620",
+        "timestamp": 1381352668
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/itertoolz/__init__.py",
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "9e23949c86d2bed6e959e0dbe5eac5caf32267ec",
+        "timestamp": 1381459920
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/itertoolz/__init__.py",
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "5e8c07e5c1ff6782933f04489b5231487a601828",
+        "timestamp": 1381459968
+      },
+      {
+        "files": [
+          "doc/source/control.rst",
+          "doc/source/index.rst"
+        ],
+        "sha": "68bfcc9a371fc88b6ddbbc0d59078e3fd6830bbf",
+        "timestamp": 1381463873
+      },
+      {
+        "files": [
+          "doc/source/control.rst",
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "b7814e6f7b63a0efea13a5505e88543a95dc17e7",
+        "timestamp": 1381464613
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "ed17a3bad98506c1c113707558dac01f9f29da68",
+        "timestamp": 1381464804
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "0c8c756e474e644cf9a7b3b22144a4a9931c6f8c",
+        "timestamp": 1381465716
+      },
+      {
+        "files": [
+          "doc/source/control.rst",
+          "doc/source/heritage.rst"
+        ],
+        "sha": "b4d40243ce1c2b370eea579fc20e6e5f146d293f",
+        "timestamp": 1381465777
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "74ffb06a1bb6c170cd714fd745a77fa3d8582457",
+        "timestamp": 1381524966
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "8856ed9dae7b1019fc53372eb10b6a5eb6140fb7",
+        "timestamp": 1381538521
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "66fe2dde4a2618ceb53e0989fccd849d3beb6fbb",
+        "timestamp": 1381540157
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "58d766ffca4c8f6a8bb3ac1ee30aaa76c05f645a",
+        "timestamp": 1381540244
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "b1e90b650a6180d2977750b4dd859654e39120ab",
+        "timestamp": 1381632379
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "edde96acc6507dec88927bac2c9c92cb78f9a0ed",
+        "timestamp": 1381632420
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "bd78b9aaddd734ae0373794320ecc306796fdda0",
+        "timestamp": 1381985223
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "e9af4fad2b0b15dca643c70856478da59984d351",
+        "timestamp": 1382065121
+      },
+      {
+        "files": [
+          "doc/source/composition.rst",
+          "doc/source/index.rst"
+        ],
+        "sha": "ff8e9e57461a62b113ccfe5bcf2a18133c10a565",
+        "timestamp": 1382065384
+      },
+      {
+        "files": [
+          "doc/source/curry.rst",
+          "doc/source/index.rst"
+        ],
+        "sha": "eba8a4bc46e8324da546f31207cec62a3e9abab9",
+        "timestamp": 1382067075
+      },
+      {
+        "files": [
+          "doc/source/curry.rst"
+        ],
+        "sha": "b2b1acd8cff15643dc45bf8b2d9aadc1fa90881e",
+        "timestamp": 1382069340
+      },
+      {
+        "files": [
+          "doc/source/composition.rst"
+        ],
+        "sha": "89e97edcb92313a73f3f3f699b2d352fe8a0170f",
+        "timestamp": 1382069405
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "db9fb5de588805dfd6ba2cd717df6517f02a00c5",
+        "timestamp": 1382112043
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "35e6e376fc698441d8fa2abc29a6713a5a2075dc",
+        "timestamp": 1382112200
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "a2deebc66259fa1e2908fc23a32db1518bb2daa6",
+        "timestamp": 1382112222
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "1b9e207673e144a618029f2c51b409bd27a747f1",
+        "timestamp": 1382112314
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "3f7fa808a59c8bb36c87e1713c8dd61ac8550936",
+        "timestamp": 1382112860
+      },
+      {
+        "files": [
+          "README.md",
+          "doc/source/curry.rst",
+          "doc/source/install.rst"
+        ],
+        "sha": "a8b595c16a4454cff6cde29d51af18e54917702e",
+        "timestamp": 1382121009
+      },
+      {
+        "files": [
+          "doc/source/control.rst"
+        ],
+        "sha": "2352bd6fa5f0e00365df4a44b7277e64ad49642b",
+        "timestamp": 1382121842
+      },
+      {
+        "files": [
+          "doc/source/conf.py"
+        ],
+        "sha": "a566562fbfa6ddbb925785c712cd8b0f74226673",
+        "timestamp": 1382197659
+      },
+      {
+        "files": [
+          "doc/source/composition.rst"
+        ],
+        "sha": "62d6217db8f379480c92940ea370b10a762d4b67",
+        "timestamp": 1382356922
+      },
+      {
+        "files": [
+          "doc/source/control.rst"
+        ],
+        "sha": "a2ac093ef080bd704b6e9f013bb19a53362dfdd0",
+        "timestamp": 1382357103
+      },
+      {
+        "files": [
+          "doc/source/control.rst"
+        ],
+        "sha": "64751b45ded1acf92b2248beba32139b07234810",
+        "timestamp": 1382583921
+      },
+      {
+        "files": [
+          "doc/source/composition.rst"
+        ],
+        "sha": "f58b140b35ba9d818a40ea274f7ebc7065f44bf0",
+        "timestamp": 1382583954
+      },
+      {
+        "files": [
+          "doc/source/control.rst"
+        ],
+        "sha": "abca47f89bfe02cb6e1f5d9bf78967a0c35584da",
+        "timestamp": 1382584381
+      },
+      {
+        "files": [
+          "doc/source/composition.rst"
+        ],
+        "sha": "c91d0edcdbcb0ac7d93d81f534026b4e436a175b",
+        "timestamp": 1382584570
+      },
+      {
+        "files": [
+          "doc/source/install.rst"
+        ],
+        "sha": "0709eb4207f9870579c37b89a6d198424cdd4146",
+        "timestamp": 1382584782
+      },
+      {
+        "files": [
+          "doc/source/composition.rst"
+        ],
+        "sha": "286f462dca7d2cd95535a5e462ca20ec7f0e4ee4",
+        "timestamp": 1382585006
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "aa68dff400c3ed9c4a9a3c1f3da4a05fae675f78",
+        "timestamp": 1382585023
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "doc/source/purity.rst"
+        ],
+        "sha": "a2ad18dcb568d613848da32380db647d2fe6501e",
+        "timestamp": 1382587107
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "doc/source/laziness.rst"
+        ],
+        "sha": "e440a9089e1247b09fe5eabf9361f46159a2ecee",
+        "timestamp": 1382589802
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/functoolz/__init__.py",
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "613f2bb1eb2df719d62005e3171ba6b1518f9a31",
+        "timestamp": 1382723353
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "478317a330f6bad086c3bee65f881109fafe9bd9",
+        "timestamp": 1382723526
+      },
+      {
+        "files": [
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "b172587356dba78f8df748c6d7d387509ea9c859",
+        "timestamp": 1382725305
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "7da0371a449d1f3b2c5a5e4df206224e1a801275",
+        "timestamp": 1382725313
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "e15b631593008c591195c7f66e66418c3aa7a38a",
+        "timestamp": 1382726540
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "566d40fd41a8378a73ab0920a769897a63593fcb",
+        "timestamp": 1382727250
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "a7647b649af9969e2856122838e7a7687e073eb9",
+        "timestamp": 1383007189
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "2b223cee167ee0cbd3ba78f94e405c06a50d7922",
+        "timestamp": 1383008257
+      },
+      {
+        "files": [
+          "doc/source/references.rst"
+        ],
+        "sha": "7959ef3916eda92c2640d0c1d3c37c8a65a09ab6",
+        "timestamp": 1383008283
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "20f45faeeffa9b174127dfce62c8cefb91a91ace",
+        "timestamp": 1383109505
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "fb254ca07b0979c637d0f4bfbd800680da22a8c4",
+        "timestamp": 1383253516
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "4dc306875b9e06471cd05fa0d60cc47b6e251722",
+        "timestamp": 1383254275
+      },
+      {
+        "files": [
+          "toolz/compatibility.py",
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "e3b25bc766fd53fa83d6af0ba0b404067ff8f9da",
+        "timestamp": 1383254828
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/dicttoolz.py",
+          "toolz/dicttoolz/__init__.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "0653a223cfbf88e86709e5c3b18402b60643f0e2",
+        "timestamp": 1383267425
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "e73a7a6c367c2ae57a024fdbc128cb6630301f6e",
+        "timestamp": 1383324361
+      },
+      {
+        "files": [
+          "bench/test_first.py",
+          "bench/test_first_iter.py"
+        ],
+        "sha": "00b87e3199af609872e0fb774dd233d70dca17d6",
+        "timestamp": 1383353239
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "f1433f95e983285d751958b52f877f10585968cc",
+        "timestamp": 1383353254
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "f95341e4a7fc30043cafb02a84a09ab3ea607b13",
+        "timestamp": 1383253516
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "fcf48974f0bc5a883198bc94aada6c4c73e07bcf",
+        "timestamp": 1383254275
+      },
+      {
+        "files": [
+          "bench/test_curry.py"
+        ],
+        "sha": "2ccbed0e4d867652554dff208d7c1b7bdd1710f9",
+        "timestamp": 1383353558
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "619ed02f9c249a883679e257aa61c0febb6af5a8",
+        "timestamp": 1383353514
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "b9cacaa2c5169b70e0781c07c8c6713aa580084c",
+        "timestamp": 1383353646
+      },
+      {
+        "files": [
+          "bench/test_curry_baseline.py"
+        ],
+        "sha": "6860f6ff8a30d61abf089200365a3c38927ddda1",
+        "timestamp": 1383353821
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "485be98bedc0f5b8b3c0a031f596b9da4f38d97d",
+        "timestamp": 1383355206
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "a24cf16856c8f5fcf428a37b852d405b391caa20",
+        "timestamp": 1383355243
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "6ba6737abe93614b1c4180e39ffd04dbccf3346a",
+        "timestamp": 1383355443
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "5cc0b405b289f179a12bc03fd15b308815866833",
+        "timestamp": 1383356088
+      },
+      {
+        "files": [
+          "bench/test_first_iter.py"
+        ],
+        "sha": "a8528bb5f213e3b46a78fd5eb8c9ce51a372a475",
+        "timestamp": 1383356180
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "105089f1bfb416a7f968dc7387d6eb10d19250f4",
+        "timestamp": 1383356654
+      },
+      {
+        "files": [
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "fd7a513e88bc506d1a89752946cf04dd21333c3d",
+        "timestamp": 1383358072
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "9b40a8ece4e76be6272432fd1a6158a3539d6633",
+        "timestamp": 1383358311
+      },
+      {
+        "files": [
+          "bench/test_get.py",
+          "bench/test_get_list.py",
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "fc58bbc455a0df76293e2e4373ae1b7e13bea57b",
+        "timestamp": 1383369163
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "a8446949dbe2705428dc4c6594cbd28bd8102eea",
+        "timestamp": 1383407828
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "4453b32b15d0b21ddfd411be3cef5243147aaad6",
+        "timestamp": 1383408094
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "73859e286989f1cad6316fd76b2fd4a05ff7b48b",
+        "timestamp": 1383408448
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "404a4c38b7d32ddf1c0fcbcd50f0d64f36a2481c",
+        "timestamp": 1383409576
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "cfd4a8028e63253aa83067bb8c7f8bc4511b5940",
+        "timestamp": 1383421510
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "63599cdfbfa0a08369c8947f75a98dd1c8e71082",
+        "timestamp": 1383423143
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "e9609e6d97ede1f0eb986f7b78671a47174e3c8a",
+        "timestamp": 1383423380
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "30a1abdaf4188d5e14897dfd47bc8f1b46beaa65",
+        "timestamp": 1381342060
+      },
+      {
+        "files": [
+          "bench/test_rolling_partition.py",
+          "toolz/__init__.py",
+          "toolz/itertoolz/__init__.py",
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "ec917ea2a4fb6dd4761a874b329338a4763136eb",
+        "timestamp": 1383409026
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/itertoolz/__init__.py",
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "7e2a47a65b218a8180a8638961a8d25aab825242",
+        "timestamp": 1383424135
+      },
+      {
+        "files": [
+          "bench/test_rolling_partition.py",
+          "bench/test_sliding_window.py"
+        ],
+        "sha": "044890b2b761dc499850ef1a9af8978bf440dc15",
+        "timestamp": 1383424222
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "1b538f84afa3d2b2615dac8c10287e8110d96030",
+        "timestamp": 1383491002
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "3e735dde70f2e7ea2f8bbc1d8f2e7c67d49f9b7e",
+        "timestamp": 1383601369
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "a5262d9574d0518fcef2ef2445354f3a889c0c6a",
+        "timestamp": 1383625634
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "43e0553fa5bce88b35d5af56a3c6ec399ee4b587",
+        "timestamp": 1383772727
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/itertoolz/__init__.py",
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "f026b29a4b9c2f38da8c74725ff245aa09b57512",
+        "timestamp": 1383851815
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/curried.py",
+          "toolz/tests/test_curried.py"
+        ],
+        "sha": "4d63791d7f91b6687d18bcccc6c270b3a2897b69",
+        "timestamp": 1383854503
+      },
+      {
+        "files": [
+          "toolz/curried.py",
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "c345737822ff22e719347f2f76764f255368ec5e",
+        "timestamp": 1383857756
+      },
+      {
+        "files": [
+          "toolz/curried.py",
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_curried.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "9bc7739997e5a85e73199514b7e9ae7bb792858b",
+        "timestamp": 1383860714
+      },
+      {
+        "files": [
+          "toolz/curried.py"
+        ],
+        "sha": "9a0aa20139fcd321f59bd3afd4d52c6ba10b7659",
+        "timestamp": 1383861296
+      },
+      {
+        "files": [
+          "toolz/compatibility.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "5dc9db984a27c85aa1a97b498b8564b0e1d2b886",
+        "timestamp": 1383880721
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "7d9c082c94d5b602df5b332576d5bd62d28b0b4c",
+        "timestamp": 1383881569
+      },
+      {
+        "files": [
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "c7a235f9cfa40f9b5c47f5f694f2ed7c6de6ab53",
+        "timestamp": 1383881870
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f2b5caf27e951137ce77c37f5ebb39a69e11c8f6",
+        "timestamp": 1383882713
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "a5f01ea1721c455a974d46f896a8c1d4e3b8330c",
+        "timestamp": 1383884786
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "54d78cd6f062afb201c2a67b2a6035f13643a680",
+        "timestamp": 1383888074
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "b00104dadb16f96ffe150e7f3e26aa2f9802d913",
+        "timestamp": 1383889551
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "863b26ad2eeff953e9c716a6174fce852c56bf95",
+        "timestamp": 1383889644
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "79fab46cf917ac81360beedfccda0c4304aacc57",
+        "timestamp": 1383890744
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "238863fbf0625a6193d22a430a962ab699d9b67e",
+        "timestamp": 1383924484
+      },
+      {
+        "files": [
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "0dd8f2ade35c2dddd88ed67b40307a7d18c14759",
+        "timestamp": 1383924705
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "c7abca69d1621a85a898ac34285e7cbcc1f588a2",
+        "timestamp": 1383925545
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "b9483a07ea57bb1a989464eedda053757e9a188f",
+        "timestamp": 1384014162
+      },
+      {
+        "files": [
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "bad68c9b289f14c9b6036a5fc9fbfd4e758bbc1d",
+        "timestamp": 1384015047
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f11b208dbd12abeaff5e4f73ee3100fdd324d5a3",
+        "timestamp": 1384016312
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "07b8c2bf9db0eb8279decb2760c2daa772255068",
+        "timestamp": 1384020102
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "eb762b60507dee1eb06eef227900847cfd030bf0",
+        "timestamp": 1384037040
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "095ef59783fd1eb0c4da366a3d73fb71d83649e9",
+        "timestamp": 1384057631
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "f072dc24bbfd6751176cf61e91ac59026ee1a017",
+        "timestamp": 1384061379
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "1d78a46bffd43c9a232715303fdfc61ef9a1b424",
+        "timestamp": 1384096724
+      },
+      {
+        "files": [
+          "toolz/sandbox/core.py"
+        ],
+        "sha": "e20fe4456cadc445a53b54cb5dd08aa71ba63498",
+        "timestamp": 1384103926
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "7c198ac90fbf352645d4b73f70ed6527bfab336d",
+        "timestamp": 1384107429
+      },
+      {
+        "files": [
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "4f39e57bc451cc77b526d6904bd6cb6388e1d7a8",
+        "timestamp": 1384126414
+      },
+      {
+        "files": [
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "aa20a632cce6793321b8ede65c861e8f3681f6da",
+        "timestamp": 1384134595
+      },
+      {
+        "files": [
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "7ecc83ef60a8f4094d0f674ecdee92a619f99798",
+        "timestamp": 1383496760
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "2c66fbaebdc7fd1feff2647d6db2e0d5a2a7bfb2",
+        "timestamp": 1383496900
+      },
+      {
+        "files": [
+          "bench/test_memoize.py",
+          "bench/test_memoize_kwargs.py",
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "8a48ebe3854e94e0ecbd1b2135cdf89b3b19055b",
+        "timestamp": 1383950099
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "2ad1f60e6268d0f6654f951955399d88a1abd088",
+        "timestamp": 1384134802
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "72b7f58088e1291d114e14c1da9a31c67528d62d",
+        "timestamp": 1384137219
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "5b4d9c9101b57edc34103e076a2b17ded181b3dd",
+        "timestamp": 1384139204
+      },
+      {
+        "files": [
+          "bench/test_memoize.py"
+        ],
+        "sha": "0df5650522dee7b3dac1bbab1febc63e0f374d50",
+        "timestamp": 1384139498
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "2ef5f755a621535d57ad922ed5ec3cb20cfb8761",
+        "timestamp": 1384139696
+      },
+      {
+        "files": [
+          "bench/test_memoize_kwargs.py"
+        ],
+        "sha": "5a42ed8ff7e098b7bb4aabe3e078c97956f38b5f",
+        "timestamp": 1384139751
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/itertoolz/__init__.py",
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "bd77b26c53abc1329735dfe175fd4891587fb7c0",
+        "timestamp": 1384385367
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "060cc4bf8627c35e733c8037d9a4eebd0edb7fab",
+        "timestamp": 1384387124
+      },
+      {
+        "files": [
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "b5d2b10da4202fd96c9d73a98ddcdedd5d237d44",
+        "timestamp": 1384387544
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "de230afc5cf5f0ed433cee3f1f03caa9b032f11a",
+        "timestamp": 1384388267
+      },
+      {
+        "files": [
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "d6ec13ac490df487115ec314e973a8999a6b51df",
+        "timestamp": 1384388530
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "891a9462ed87901395031476b5172091b6205edb",
+        "timestamp": 1384457371
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "b2d750c101f8d13709de0ebdf511f3706f9fead6",
+        "timestamp": 1384692389
+      },
+      {
+        "files": [
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "9d2ec61da87123da4b5307768450628176e78749",
+        "timestamp": 1384693578
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "938427be22f4a5ba71bf69041ed5df99ad3ab517",
+        "timestamp": 1384712249
+      },
+      {
+        "files": [
+          "README.md",
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "7f3fbd588bf9e4c2e6dfd80ef55a9d9b96e32c2c",
+        "timestamp": 1384866283
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4aa090c478f0c917580dd7b6a01628a0a71b56a2",
+        "timestamp": 1384866968
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f6bd4b55034ff337686a10df68ba0e6cc622cd75",
+        "timestamp": 1384867738
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5bf9f1d5e91ebbaf1378e5be2d601c269ac984f2",
+        "timestamp": 1384868094
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/functoolz/__init__.py",
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "9779f0c25f1373ca3dc6d3aec328bb3fd83e65c8",
+        "timestamp": 1385178341
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "e6a48f12946611fc6d67aade53040ca0fa854bc6",
+        "timestamp": 1385229035
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "77fb91c0da55751d196a9ebac4929a109e7fc1e5",
+        "timestamp": 1385229173
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "e81d0600da18b631e617948ff96809199302d7a4",
+        "timestamp": 1385231862
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "699e28dbb4fb52fc684877f55300389264cf9a51",
+        "timestamp": 1385242936
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "doc/source/conf.py"
+        ],
+        "sha": "b837330156036ff417f8153aed7806399664808b",
+        "timestamp": 1385412190
+      },
+      {
+        "files": [
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "d41ddd55b87283a87a0105f4cfb1b98880d8ab22",
+        "timestamp": 1385437639
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "a884390f3c41f2b51f4cc54258b01f3c2a8f848a",
+        "timestamp": 1385598402
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/functoolz/core.py",
+          "toolz/itertoolz/core.py",
+          "toolz/recipes.py"
+        ],
+        "sha": "beee520eafd6056250a6255f0b041505f2c3f258",
+        "timestamp": 1385655840
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "c52573c2ffebfa7518e68e0e08f859e568453ba4",
+        "timestamp": 1385657118
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "f909e22a1e36c9f77ed105e2a443f50ec73b96f0",
+        "timestamp": 1385658250
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "4fc097352097a0f030e860e67474b09c0b3d5421",
+        "timestamp": 1385658601
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "4f010726e8c07641fe4d3ca522eb7b9543a25a9f",
+        "timestamp": 1386027530
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "81fabb130a8bfa4606f4abff7a6acf3c72ce010f",
+        "timestamp": 1386115240
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "eaa129996313fe4ef336b320d5511bbbcbbbd172",
+        "timestamp": 1386633025
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "c3103ebdee1b56f04b5e708f26ed6feef0bf6f28",
+        "timestamp": 1384554533
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "93e8dfc258619703d5c7c30a17e3731d79b4fe02",
+        "timestamp": 1384555224
+      },
+      {
+        "files": [
+          "toolz/curried.py",
+          "toolz/curried/exceptions.py"
+        ],
+        "sha": "369b0d53e2336c29f30b84385fd3a25d73d0a69b",
+        "timestamp": 1384566108
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "74032607c340a9b037748ca5d0e30b29f34eb262",
+        "timestamp": 1386633434
+      },
+      {
+        "files": [
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "af1d4e51f0a1fa78171f643744fa0c1ddf67de75",
+        "timestamp": 1386633589
+      },
+      {
+        "files": [
+          "toolz/curried.py",
+          "toolz/curried/exceptions.py",
+          "toolz/functoolz/core.py",
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "149fb61b94ae64ffc71ef1d6e955d3e43464df8f",
+        "timestamp": 1386634282
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/functoolz/__init__.py",
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "45b59db4ec4353fa4da4fe7f011df25d739bee96",
+        "timestamp": 1386635518
+      },
+      {
+        "files": [
+          "toolz/compatibility.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "7b7f51a046bb57105169bd4f372491aee1491737",
+        "timestamp": 1386635972
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "9767edb3262be22747f475722f6aa065ce38b8b9",
+        "timestamp": 1386706398
+      },
+      {
+        "files": [
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "38ec7ed5784db8e45971a34e3c68a140b2ea8daa",
+        "timestamp": 1386706801
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py",
+          "toolz/utils.py"
+        ],
+        "sha": "4a1117827401b017a63e95a4eab04de2448e989e",
+        "timestamp": 1386778806
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "5a13506289b25feb55604aa46b5a780da8bb4f65",
+        "timestamp": 1386778856
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "8e483133df0f7bbd5c148048316b87a52db7f22d",
+        "timestamp": 1386780037
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "29b4327234d4ce2e994171aeed21b7a459374e4e",
+        "timestamp": 1386867444
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "fa2250cd240d1b1b4e5904d0eb37c1c31b79d8af",
+        "timestamp": 1386867662
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "337552e99e803a227863cdb6bb37c247eede05d7",
+        "timestamp": 1386869609
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "1ded73387194bb4df521015128236625ca117b51",
+        "timestamp": 1387498886
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "b54d92fd9c87c2e7470b575080917a12fca2b035",
+        "timestamp": 1388606152
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "1c6bd2f3f9e49eee6243bebb42557b5555e32896",
+        "timestamp": 1388606527
+      },
+      {
+        "files": [
+          "toolz/curried/exceptions.py"
+        ],
+        "sha": "6a63d2ec3e9ba70a4343e1a61878c34b01e3fda6",
+        "timestamp": 1388631725
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/itertoolz/__init__.py",
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "a686d6dce51aa491ab8e7bb0fb5dcded49bf49c0",
+        "timestamp": 1388686055
+      },
+      {
+        "files": [
+          "doc/source/references.rst"
+        ],
+        "sha": "0b67f223f67d2567109f8d09e77d4e92315fc2d0",
+        "timestamp": 1388707853
+      },
+      {
+        "files": [
+          "doc/source/references.rst"
+        ],
+        "sha": "482136b2494a612ae7b3f977434dbd37155735d7",
+        "timestamp": 1388708039
+      },
+      {
+        "files": [
+          "doc/source/references.rst"
+        ],
+        "sha": "1f0a1496cfc43b65cff37baec1fae05d32a87de1",
+        "timestamp": 1388709836
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "doc/source/parallelism.rst"
+        ],
+        "sha": "072805dfdb0c9672fd0af5453b72440b0b9b860b",
+        "timestamp": 1388709912
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "e9e952a21a7cf7256ec21e8b7fbf8c904b083a9e",
+        "timestamp": 1388710634
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py",
+          "toolz/sandbox/parallel.py"
+        ],
+        "sha": "ee1f23faef456280e0af85d220605721a44ff251",
+        "timestamp": 1388710650
+      },
+      {
+        "files": [
+          "toolz/sandbox/parallel.py"
+        ],
+        "sha": "1e56279d737322543f9520d7e3c77a336b1744b3",
+        "timestamp": 1388710835
+      },
+      {
+        "files": [
+          "toolz/sandbox/__init__.py",
+          "toolz/sandbox/parallel.py"
+        ],
+        "sha": "03013af1334e35b2f682af647b75605e2d7935b6",
+        "timestamp": 1388711031
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "69e5cce06dffa5b6a3e9057fdd4ea5586b1f00a0",
+        "timestamp": 1388803374
+      },
+      {
+        "files": [
+          "toolz/curried/exceptions.py"
+        ],
+        "sha": "09cdd74c2b0c3d5a8455af058dc4aa054f011579",
+        "timestamp": 1389053926
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "b8ea660f9f5aab0b9f943e95ab5a0defea8d75e2",
+        "timestamp": 1389381368
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "eb810aa85ffcbb408a7589a47771014d72612804",
+        "timestamp": 1389392799
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "toolz/tests/dont_test_multiprocessing.py",
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "b3016322a29e379f778aef207295c958063e72bc",
+        "timestamp": 1389141821
+      },
+      {
+        "files": [
+          "toolz/tests/dont_test_multiprocessing.py"
+        ],
+        "sha": "d9b28dc2949d9fdb4f6fe95380add88ae30a5161",
+        "timestamp": 1389398185
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "cd10ccbaa3e54668396f76405751ef0171ef14cb",
+        "timestamp": 1389398224
+      },
+      {
+        "files": [
+          "toolz/tests/dont_test_multiprocessing.py"
+        ],
+        "sha": "54fbd7e360046a804ea1684d8f83c15639cf4a2f",
+        "timestamp": 1389677599
+      },
+      {
+        "files": [
+          "toolz/curried.py",
+          "toolz/tests/test_curried.py"
+        ],
+        "sha": "230dc7f2055183836fda966f4f76d7cd7b1c6f62",
+        "timestamp": 1389716173
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/itertoolz/__init__.py",
+          "toolz/itertoolz/core.py",
+          "toolz/itertoolz/tests/test_core.py"
+        ],
+        "sha": "22d2e370d159cc5cb907e4c658261f5a6e935645",
+        "timestamp": 1389054808
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "adf58faa6d5bd6cd7d9d33e32bfcc75ae8fed021",
+        "timestamp": 1389801355
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "d0a174a55be5fe07bb64219deb7cb9093b32ee5a",
+        "timestamp": 1389801387
+      },
+      {
+        "files": [
+          "toolz/sandbox/core.py"
+        ],
+        "sha": "0ca57a6200175f005bc9ae8fd8d2b1df58438f28",
+        "timestamp": 1389833623
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "ed3186cdf88d8cd8bcf0e3a63406943071cf2a87",
+        "timestamp": 1390090398
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "36d1b3e8a192995bec536a485c8fbab4a79abdca",
+        "timestamp": 1390090971
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "20e21a443daa93a705c87d10d8d1fb5cd59ae892",
+        "timestamp": 1390091443
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "d29c55f353e75ab045f4d0f8c7d97ab9b3730886",
+        "timestamp": 1390091970
+      },
+      {
+        "files": [
+          "bench/test_groupby.py"
+        ],
+        "sha": "ab9710489d391a08e656d718601d9fe3be90222e",
+        "timestamp": 1390102801
+      },
+      {
+        "files": [
+          "bench/test_frequencies.py"
+        ],
+        "sha": "8adac46cd59c562ec494508ad735843253adc1f2",
+        "timestamp": 1390102885
+      },
+      {
+        "files": [
+          "bench/test_frequencies.py"
+        ],
+        "sha": "d571cb97ece846e507457a9594c5419fbdbe14ab",
+        "timestamp": 1390103125
+      },
+      {
+        "files": [
+          "bench/test_frequencies.py",
+          "bench/test_groupby.py"
+        ],
+        "sha": "ce22acd199f118ade26313d0102651861278263f",
+        "timestamp": 1390103235
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "6a3553a59ee1c59f2873b83849b1920861088e07",
+        "timestamp": 1390111188
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "20a1266a725a906b81fe2849e98f9419385230b9",
+        "timestamp": 1390153760
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "fb5ee4df23869aded65e0b1ac62c40b105aaa80b",
+        "timestamp": 1390157490
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/dicttoolz.py",
+          "toolz/dicttoolz/__init__.py"
+        ],
+        "sha": "55773cb648da11cc52f90fc0371df85ea9bb078c",
+        "timestamp": 1390218130
+      },
+      {
+        "files": [
+          "toolz/compatibility.py",
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_compatibility.py"
+        ],
+        "sha": "29ab23b370dd0a6617d0f746aaf7ca2317a7916a",
+        "timestamp": 1390524924
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "c92af758399cb5745d70f3fe5c3fa99f1e92192e",
+        "timestamp": 1390788774
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "477fb346da4a5908d68a7d5f5d8efebf903143a1",
+        "timestamp": 1391897689
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "b4d8a8bf7d04a041972238a72f81eccc48c6954c",
+        "timestamp": 1392057150
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/functoolz/__init__.py",
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "b87242f1b0ad8e1057dc59e1e3b3deb71cda4c7a",
+        "timestamp": 1392222397
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "d33400d72921359204695505266bbbd84ba0d9b5",
+        "timestamp": 1392232137
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "e18443ec810aa177da7870948f20e914a3cbcd03",
+        "timestamp": 1392233639
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "98e884aa50c4c080c7b6a8481e77914f7917a3c6",
+        "timestamp": 1392246537
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "b2a0bd9285a8d5048728b149e85dbfc4113f1e03",
+        "timestamp": 1392246596
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "4a05c653b60f2dba3bb48d00908abf818fdd2e36",
+        "timestamp": 1392251008
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "7796d751b9dfe0a015f664be96f999b827d83c71",
+        "timestamp": 1392251337
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "807723723dea55114baea5ac699d641e3d90b13b",
+        "timestamp": 1392315550
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "9394db3a4eaa8f77c24d211aa099133774a86531",
+        "timestamp": 1392316671
+      },
+      {
+        "files": [
+          "toolz/sandbox/__init__.py",
+          "toolz/sandbox/core.py",
+          "toolz/sandbox/tests/test_core.py"
+        ],
+        "sha": "d516240b1cbe5f4c84c10c9efab8c50477309189",
+        "timestamp": 1392332835
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/dicttoolz.py",
+          "toolz/dicttoolz/__init__.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "46bdf4e9a46e415f42f49fc55b509660c6123e8d",
+        "timestamp": 1394298607
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "1865e03d204760cb2d19176b136847b9aee26fde",
+        "timestamp": 1394298707
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "374a0d89b0b07bbb8995ac4dee5bb9eb3cece5e3",
+        "timestamp": 1394462709
+      },
+      {
+        "files": [
+          "toolz/dicttoolz/__init__.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "a0e5c8c5b442ac227c8ea827687904b436dfc172",
+        "timestamp": 1394462747
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2ac9f3e95a97b2013ba266e2061ac0aa6b0af6d5",
+        "timestamp": 1394729077
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "63d65c8706cae5b3c50bd3052240d192aebf5fad",
+        "timestamp": 1394729099
+      },
+      {
+        "files": [
+          "examples/fib.py",
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "b2be295dade8b62e55a9e6f3d3c31c90d97bca72",
+        "timestamp": 1395075255
+      },
+      {
+        "files": [
+          "examples/fib.py"
+        ],
+        "sha": "7029bcf6bddf0777d460a03273376feaaa795693",
+        "timestamp": 1395076484
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "9c496df84e07a38892fad33f8fabf284a3e32bfd",
+        "timestamp": 1395110084
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "3795e5d93abe665965846ffef64ae175d1ec9d66",
+        "timestamp": 1395115295
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "a809acf8f878c625bab976d9dd91626770a0fce4",
+        "timestamp": 1395162315
+      },
+      {
+        "files": [
+          "examples/fib.py",
+          "toolz/curried.py",
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "005ed8fe9d8034f0f9f939b0d56b499e32608b59",
+        "timestamp": 1395168469
+      },
+      {
+        "files": [
+          "toolz/curried.py",
+          "toolz/tests/test_curried.py"
+        ],
+        "sha": "33f67d09b7788c0b261d3ec92d5d313662a1cc8c",
+        "timestamp": 1395169477
+      },
+      {
+        "files": [
+          "examples/fib.py"
+        ],
+        "sha": "51aba1ba369b541e9ff68874258349cf43ce2ff5",
+        "timestamp": 1395169660
+      },
+      {
+        "files": [
+          "toolz/curried.py"
+        ],
+        "sha": "37756cf862253acb4036853362db9c6803a8aea6",
+        "timestamp": 1395170025
+      },
+      {
+        "files": [
+          "toolz/curried.py"
+        ],
+        "sha": "c580f59da39695a56c8d70c7dbbcaed52b121b57",
+        "timestamp": 1395177801
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "667ba1f244b389b11fc3dd4a2799b3a53ed16982",
+        "timestamp": 1395259501
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "a13102e1d5b5abbc10519c42aa085e83aa15022e",
+        "timestamp": 1395588593
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "8b618300a5556bd4d02d14c447eaea75a50fc30e",
+        "timestamp": 1395588660
+      },
+      {
+        "files": [
+          "doc/source/parallelism.rst"
+        ],
+        "sha": "620026fd41a624ef09016542964a6b9ce8d16cad",
+        "timestamp": 1395589044
+      },
+      {
+        "files": [
+          "doc/source/heritage.rst"
+        ],
+        "sha": "1292a63b586ea4af1481b54e2c4fc96ea4a0fa6b",
+        "timestamp": 1395593749
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py"
+        ],
+        "sha": "d92d014bb2f6ba01a82b3a398c3d2ef5c871e7fe",
+        "timestamp": 1395606258
+      },
+      {
+        "files": [
+          "bench/test_pluck.py",
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "f54e97336051ae7f840c6251b790a42317444627",
+        "timestamp": 1395923663
+      },
+      {
+        "files": [
+          "toolz/functoolz/core.py",
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "3705d6ad7bfa6dca1ba331c15eed8a2bf204091c",
+        "timestamp": 1396069109
+      },
+      {
+        "files": [
+          "toolz/functoolz/tests/test_core.py"
+        ],
+        "sha": "8ccaa57887ed897f2981460991ae7533d305279c",
+        "timestamp": 1396069727
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "12f7f33a1dd6c1269dd658ea3d4600f58ffea0e0",
+        "timestamp": 1396281234
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "20fec3160789192d6bb50d355e14ca96fbd281c8",
+        "timestamp": 1396444198
+      },
+      {
+        "files": [
+          "toolz/itertoolz/core.py"
+        ],
+        "sha": "77870f79e47a066b12904499a2f0a8d4232b7cdf",
+        "timestamp": 1396444870
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4727db401178b75b38dfe67282bada397ebd2303",
+        "timestamp": 1396624169
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "063a29b8429b429abb4919848dddbaeac236fb76",
+        "timestamp": 1396655731
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "b63d619803824d1c7c21a85bce3fe61cf1644b64",
+        "timestamp": 1396717584
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "5606c5fd4e4ec15e04e1a986dc065b8a1411cb20",
+        "timestamp": 1396717593
+      },
+      {
+        "files": [
+          "toolz/recipes.py"
+        ],
+        "sha": "da1b80043c29b55165e790357f2587a2ed830d5e",
+        "timestamp": 1396718850
+      },
+      {
+        "files": [
+          "toolz/itertoolz/__init__.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "3dab3f39f914a3bef18ed15e7ce8b4c51776d5a3",
+        "timestamp": 1396807876
+      },
+      {
+        "files": [
+          "toolz/sandbox/__init__.py",
+          "toolz/sandbox/core.py",
+          "toolz/sandbox/tests/test_core.py"
+        ],
+        "sha": "61558b115fae82fd92c85c2b5327a58dc28b14b7",
+        "timestamp": 1397085185
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "16745bf68c8f6fa0d967cae8a8c0bf884709c5f5",
+        "timestamp": 1397086442
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "toolz/functoolz.py"
+        ],
+        "sha": "5808281678d62e6511f9d333b6c6e6038199602d",
+        "timestamp": 1397096307
+      },
+      {
+        "files": [
+          "release-notes"
+        ],
+        "sha": "949d1f3206a31385852ffc245a37fa7fae1c6ebb",
+        "timestamp": 1398828641
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "923ede549c5d31784a0815fce30a2e2903487e0e",
+        "timestamp": 1398828858
+      },
+      {
+        "files": [
+          "release-notes"
+        ],
+        "sha": "923b5c037c276bb99e7899160675773b89a5e5b4",
+        "timestamp": 1398920014
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "2573111f488fcbc7260286e9b15592ae2afae15f",
+        "timestamp": 1399016467
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "dd89adf960acaa0e514ebb1224e1d39b4053f128",
+        "timestamp": 1399043268
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "79858a1cc21f2854e2aa3511e2ef52ffaf44b5f4",
+        "timestamp": 1399117936
+      },
+      {
+        "files": [
+          "doc/source/install.rst"
+        ],
+        "sha": "52ece9cc86d4b037b1bd273757527b5e9fbd0a69",
+        "timestamp": 1399276002
+      },
+      {
+        "files": [
+          "doc/source/purity.rst"
+        ],
+        "sha": "d86ca7e30b67d29abe6b1fdb0a6a1d58c93db4c6",
+        "timestamp": 1399295709
+      },
+      {
+        "files": [
+          "toolz/recipes.py"
+        ],
+        "sha": "ec490413d5ca44b5d7659d783ebf632432fdf002",
+        "timestamp": 1399319684
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "3b4b022945a972698b814f24682571ab168bd25a",
+        "timestamp": 1399331849
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "74646e4dc9875146c3c840032d0ea3d3bfe54af0",
+        "timestamp": 1399331899
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "c69642ef691779b51f23d1f78ec53ef95a751e14",
+        "timestamp": 1399335669
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "c655b9c0394c659e0d2e7dce72191e06441d48c5",
+        "timestamp": 1399388001
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "b2f9c022efbeae353ca2368b6c283951212e8b3c",
+        "timestamp": 1399389427
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "34f14acc2783abdbf4e7538b6618c472c70d6875",
+        "timestamp": 1399390174
+      },
+      {
+        "files": [
+          "doc/source/parallelism.rst"
+        ],
+        "sha": "8615622e7504ddc65da773f78925f3865f8e7073",
+        "timestamp": 1399394764
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "cc1a6093ef23f3e60e14af97a2905d717f9c5d5d",
+        "timestamp": 1399395902
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "b44da4093dff9f4018e51c3b2ec5f8eb49a3ad22",
+        "timestamp": 1399403481
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "027ea6e96c407a36c17a23465f9448fe30dedfdf",
+        "timestamp": 1399404274
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "toolz/sandbox/__init__.py",
+          "toolz/sandbox/core.py",
+          "toolz/sandbox/tests/test_core.py"
+        ],
+        "sha": "ef974db90f1039e89b259df40121a4df31af9cbc",
+        "timestamp": 1399477623
+      },
+      {
+        "files": [
+          "toolz/sandbox/core.py"
+        ],
+        "sha": "70fa33d19c64ceb0c7def68f30b92c562245c337",
+        "timestamp": 1399478790
+      },
+      {
+        "files": [
+          "toolz/sandbox/core.py"
+        ],
+        "sha": "2856fe8215953b7c3fe864aa4b54687b05343cc8",
+        "timestamp": 1399480932
+      },
+      {
+        "files": [
+          "toolz/sandbox/core.py",
+          "toolz/sandbox/tests/test_core.py"
+        ],
+        "sha": "6dfb2ff7bd2145b9be2441e391c4f4c9d9761619",
+        "timestamp": 1399578711
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0472f23981608d292c5161308deb2e147966962c",
+        "timestamp": 1399590904
+      },
+      {
+        "files": [
+          "toolz/compatibility.py",
+          "toolz/itertoolz.py"
+        ],
+        "sha": "a6a39558686cf0dd235258d4e59b725b26a3ec67",
+        "timestamp": 1399646492
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "72aeb80054752821e9d16837a1b97e0beb27aa9f",
+        "timestamp": 1399727250
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "623c4482c001657d3c2b3945712bc1d45525e7ce",
+        "timestamp": 1399727844
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ea4371f3cf3d673999b1bd935339b5d134d2d818",
+        "timestamp": 1399733045
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "76054c8fb448f066699229b8e51ea74a8b3469ea",
+        "timestamp": 1399741172
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9440a588d2149ce4874bf31c69ead63310336faa",
+        "timestamp": 1399751631
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ad26e563a3aaf662893016bcd008f264cd6618e8",
+        "timestamp": 1399751679
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "8365b4db655a879b41a650b39c1e2b0ffeeb8810",
+        "timestamp": 1399761932
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "6d330339467126185af31b5c6d319580ef5ee8c0",
+        "timestamp": 1399864200
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "d871c9431ce418ffd2cd9920d127f198b47de63a",
+        "timestamp": 1399913316
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "42dc568e4141c32c34c8c5a926f2b119928c3add",
+        "timestamp": 1400172833
+      },
+      {
+        "files": [
+          "doc/source/composition.rst"
+        ],
+        "sha": "e6f1b0e4fe7c187eb09215b8b8399e28dc751004",
+        "timestamp": 1400375212
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "200e401dae85c0566f38990eb9ad4e5b2d330583",
+        "timestamp": 1400727932
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "00f0e4fd337df3b1d15ecebf9da94024e1b6194e",
+        "timestamp": 1400728045
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "50e224e83cd6bf1e6567983187f966d904bc46d9",
+        "timestamp": 1400728230
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "4b89e4de8aeb510dfe30a4a3dc630118f4be1d22",
+        "timestamp": 1400728568
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "f9998884c85aa1fd8295269d7b6e67021bbb9bd2",
+        "timestamp": 1400728738
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "270849cdb7d2cc637d83924563b9dc353eb1312d",
+        "timestamp": 1400728838
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "5489587af9b7beac19a5ac639997e7c289a3a2ae",
+        "timestamp": 1400729226
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "63fc8bf72f397ae0ff90d2d99c4fa468aca56911",
+        "timestamp": 1400802310
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "117d549a45d8b935cefe8f5ebf6293a56f7c670c",
+        "timestamp": 1400820490
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "480b348911d16457e0e24531d180fe100e7960c3",
+        "timestamp": 1400887054
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "e609500b73c66a6dc3c9e4e70cd9ffb11762e22f",
+        "timestamp": 1400887412
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "1cacac6e9624117f2a699487db8b52b1e21496be",
+        "timestamp": 1400887644
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "e78f04354762623c5afe5ac7225d9713de530306",
+        "timestamp": 1400887799
+      },
+      {
+        "files": [
+          "bench/test_join.py"
+        ],
+        "sha": "9070fe7b4626d05405550a40c97586c4363ebe92",
+        "timestamp": 1400943417
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "doc/source/tips-and-tricks.rst"
+        ],
+        "sha": "d195ca624bc677276c020f55ad34375cc0f2c983",
+        "timestamp": 1400948910
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "cff9ba7a8da5efe64e90a98eaf779667d936de07",
+        "timestamp": 1400949224
+      },
+      {
+        "files": [
+          "doc/source/tips-and-tricks.rst"
+        ],
+        "sha": "324145a4840cdaacb84fa8bcc96fc631f4644b41",
+        "timestamp": 1400950355
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "9148e06929540ac2b9ea1e3676b466043074f793",
+        "timestamp": 1400953875
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "7f1f141bf6ffdb92ea91e617e817c3a7b4fdbcf2",
+        "timestamp": 1400957900
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "8f5df1c3b42b8186915e36031905da38ab3896f0",
+        "timestamp": 1401037130
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "7da1ae13f8bd5f49b7e3dd66f396fb8ef93fab44",
+        "timestamp": 1401037939
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "18951a78bffe72620f1f642b030bfe9f0f99fdb3",
+        "timestamp": 1401038320
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "9e7c0faa20df1c157597d7025558a2d834818cb6",
+        "timestamp": 1401159079
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "0fa7713bbe5685a9639b7da27239dea11bbc68cf",
+        "timestamp": 1401160047
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "03b2dd72e70114b00ded3f77a6edb55b6bf2d5d5",
+        "timestamp": 1401161323
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "2591714791734d264f8bbbec8e883368e5391010",
+        "timestamp": 1401162363
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "b9aa97ce138709c413d2c3993ea754e176d8e337",
+        "timestamp": 1401162838
+      },
+      {
+        "files": [
+          "doc/source/tips-and-tricks.rst"
+        ],
+        "sha": "0660ae06a76cd3a618e1ae8c703bd12d96a74c62",
+        "timestamp": 1401488262
+      },
+      {
+        "files": [
+          "doc/source/tips-and-tricks.rst"
+        ],
+        "sha": "0d765938e946670e430d2dfb4107ed30d9f30cd7",
+        "timestamp": 1401490607
+      },
+      {
+        "files": [
+          "doc/source/tips-and-tricks.rst"
+        ],
+        "sha": "e4d0b535122b9b6ce43264cb08129c71861f18e5",
+        "timestamp": 1401491463
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "e9e4b4bc5b869e2bf89ff934ade2d28fd20f565f",
+        "timestamp": 1402006795
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "38d4ebe8376f9bada8c8432f0b53ec544bfaa30c",
+        "timestamp": 1402006951
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "afc6120b19bbd01573e4ca41d20a246fb22b2d25",
+        "timestamp": 1402007269
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "687e63169d3cba7d852a1b78078a581a632839bc",
+        "timestamp": 1402007385
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "8d4da32e08776a5f5df70c6736787ecbf5612bd0",
+        "timestamp": 1402007912
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "925c67df3a4454c02627ad5f8f909e951f7d4c90",
+        "timestamp": 1402248594
+      },
+      {
+        "files": [
+          "toolz/recipes.py",
+          "toolz/tests/test_recipes.py"
+        ],
+        "sha": "b11e428af7ee41cebb53bd0b37c58064d5e9df93",
+        "timestamp": 1402248660
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "4b9355cba9c43be547cb6bb1086a1ea86201d8c1",
+        "timestamp": 1402248826
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "70b59516b5daf897e4b2ee3b70773fb11a3c02f7",
+        "timestamp": 1402257498
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "eb582077e8986112b4cb47ea5c576c17e546092f",
+        "timestamp": 1402257786
+      },
+      {
+        "files": [
+          ".binstar.yml",
+          "conda.recipe/meta.yaml"
+        ],
+        "sha": "b78cc234ba865bb1fdcab315f671cdec5170f17d",
+        "timestamp": 1402498856
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "93ce768e3ef74d9f97ad2adf7caa7dfff166929e",
+        "timestamp": 1402585669
+      },
+      {
+        "files": [
+          "toolz/sandbox/core.py"
+        ],
+        "sha": "e816a07c20d95f8f2ff041ff0c988a7110c0f87c",
+        "timestamp": 1403227085
+      },
+      {
+        "files": [
+          "toolz/sandbox/core.py",
+          "toolz/sandbox/tests/test_core.py"
+        ],
+        "sha": "3e2449c7bbc4ab378a2381b753a63d1dfd6d82ef",
+        "timestamp": 1403228661
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "748b885bc06280e1b2e11c98490868e63de318a4",
+        "timestamp": 1403365263
+      },
+      {
+        "files": [
+          "toolz/tests/test_curried.py",
+          "toolz/tests/test_functoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "5f926e34802e308bee5217422da2f53f29ed1239",
+        "timestamp": 1403547851
+      },
+      {
+        "files": [
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "ffc1b8c83e32f4c2b5454a0ae71b9c30cc8e7596",
+        "timestamp": 1403569780
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "083b7481f6bb8ff74934d602b63420583549c28b",
+        "timestamp": 1403994307
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "51f80a6afe387a65fbe55707299e71d3dfde816e",
+        "timestamp": 1403995539
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml"
+        ],
+        "sha": "7bb7d1c46c43f108099473035680ec2195e8f7f5",
+        "timestamp": 1403999213
+      },
+      {
+        "files": [
+          ".binstar.yml",
+          "conda.recipe/meta.yaml"
+        ],
+        "sha": "456f9d34fe2b923b6f499592bdfc764dbd3245a5",
+        "timestamp": 1404003045
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml"
+        ],
+        "sha": "03768ef98d0a7aac0ab9d15c1c3c724c006355c3",
+        "timestamp": 1404003224
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "0a95c40ff1abc417c2ec0ac39916d8b6835654e6",
+        "timestamp": 1404006910
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "40cc4d3d94ae0db9ac0f3a0381d7c7aa3c31926e",
+        "timestamp": 1404006979
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "6f0f0aa82c2a38efefffa14768bc3be7af3a93d5",
+        "timestamp": 1404011830
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "0579e2b2c43104505f124d0e5bd820a1a407bd41",
+        "timestamp": 1404055097
+      },
+      {
+        "files": [
+          "release-notes"
+        ],
+        "sha": "870fdc512ad3577658e90dbbdbffb022aaaaa717",
+        "timestamp": 1404055998
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "36a231ceaca7c9f4a9f4afdab83bd11d5ae417d2",
+        "timestamp": 1404139958
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "4e1b3e29c4ecddd23006148499eecaa278e18088",
+        "timestamp": 1404142239
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "1850c861101eefc2b0e8cd9691462da969c9ca86",
+        "timestamp": 1404316143
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "58d6184d82b91f6d5a33a5dbe6d6a44fbc6f9325",
+        "timestamp": 1396808018
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "ba5a11c924ca0841538b7a2efbd613a31b9c01c6",
+        "timestamp": 1399339323
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "37c1a5bea02025113ba11bd22e9a8105e7336a68",
+        "timestamp": 1404321937
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "21749ab4201cec1915ade824f079da8a0941c8bb",
+        "timestamp": 1404322196
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "e8dd0932bc25f389635f5206b1c96cf8a88400e1",
+        "timestamp": 1404323157
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "c126bbbab51db75abb733cf7d39a583fe9b0e2db",
+        "timestamp": 1404323528
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "e4dbed9f95e986a8627027cedc8361a78eb728a7",
+        "timestamp": 1404324709
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "90ba43a7f2cd5f9617ec87d02a8a12dbdd697162",
+        "timestamp": 1404325318
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml",
+          "release-notes",
+          "toolz/__init__.py"
+        ],
+        "sha": "a8fdd71635ed800b6558bd5e412fd159610d9e84",
+        "timestamp": 1404339833
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "doc/source/tips-and-tricks.rst",
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "c1b9d3490d4adb6944d3ad2f9594e888926b5556",
+        "timestamp": 1404675895
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "1911e5d2619b25bb990a1f8fb2f1d2fb0810cfb1",
+        "timestamp": 1404676314
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "9e55c587331c3f2c2c05d3057472aa95264df844",
+        "timestamp": 1404750919
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "3579794d45559c04bec07ca3a712a8f8adaf5509",
+        "timestamp": 1405535430
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "379a1ae344a5cdafaceb0fe144fd568285f129e1",
+        "timestamp": 1405535897
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "e36b5eae0bfb311d2ef8ba3606d2310d5b31d168",
+        "timestamp": 1405536264
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "210386863960f1e31982db20b7262635d3a66fe5",
+        "timestamp": 1407428954
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "a68d506e86f6efefd03fbfce33f37d4c7eebe66f",
+        "timestamp": 1407789598
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "06e9c9aa088be1cddbcd46ad885637e818bf1995",
+        "timestamp": 1412131998
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "c25af6d107c2a46850c0da83d750ef19a1211e8b",
+        "timestamp": 1412268631
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "4dc2e3c8028c6de1f2c236bb07f7686ca9159f9d",
+        "timestamp": 1413392232
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "f1058ce0f53e656c5df1c3be9be694c85f6d0049",
+        "timestamp": 1413479870
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "672cc1e10dcf6989ba1d6e4a8ca6242a2a19ede8",
+        "timestamp": 1415808643
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "1e4a806e58ac496c73b3c1cc573d03049c944057",
+        "timestamp": 1415808673
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "4401a9d4c068927c7e4b2202562c687742c62e8b",
+        "timestamp": 1415808747
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "c0d69026fb92a892aa309d0977d71069bef0189b",
+        "timestamp": 1415808855
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "cf40e625fc22ad49e760de411c7476439c2c10b9",
+        "timestamp": 1415810458
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "576729e4fe52072312d7c59400322cec7b3f44ba",
+        "timestamp": 1415815507
+      },
+      {
+        "files": [
+          ".binstar.yml"
+        ],
+        "sha": "19bd01a673fb043fc167411d3c02ce847c3772c4",
+        "timestamp": 1416075768
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "32d6464874a5616e79bd02fa1b6b53696f0e832a",
+        "timestamp": 1416290946
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "a2730401cfcea1017f4607807357f6ee0c3bb378",
+        "timestamp": 1416423220
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "924700fbf601523983d9505eab7ce1c1b1fc2314",
+        "timestamp": 1416457170
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "546f47a78bd25486bf8393fe3b2263e747bd20f7",
+        "timestamp": 1416463121
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "9a98927f61889ab9c3ddfe3179b5a1b49a1f376d",
+        "timestamp": 1418688416
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "061485040b7185dc640baf6f2ed5a59967537cc8",
+        "timestamp": 1418689107
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "ec378f6deebdd118106c72096fb388d12672968f",
+        "timestamp": 1419103697
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "c7ade99a00659e9a8134fd5f215469f0e6aabb8b",
+        "timestamp": 1419104465
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "9b152255fe2711887a5242a6893f4074644a2fca",
+        "timestamp": 1419109538
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml"
+        ],
+        "sha": "aa91a7ada95e37cab22597a54a685414f1d818a5",
+        "timestamp": 1419113585
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "bc538a0a88f2ea8186e0d46c6310d523a786b7fc",
+        "timestamp": 1419126165
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "22d4e93d95a024a4ce5f961a7443d62ee239cee8",
+        "timestamp": 1419181427
+      },
+      {
+        "files": [
+          "setup.py",
+          "toolz/tests/__init__.py"
+        ],
+        "sha": "e747a54ef6a6759817ecab3d434db89acd9ec5de",
+        "timestamp": 1419181447
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml"
+        ],
+        "sha": "6d1e65c87b913e572f1717b787f32211a094bba6",
+        "timestamp": 1419181459
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "setup.py",
+          "toolz/tests/__init__.py"
+        ],
+        "sha": "8a695edbdbdf2c3e2e14010f4083c2cd47cb53ec",
+        "timestamp": 1419183694
+      },
+      {
+        "files": [
+          "conda.recipe/build.sh"
+        ],
+        "sha": "4cb0c0b2ca265cce89721127617de68ceb6f9d9d",
+        "timestamp": 1419184470
+      },
+      {
+        "files": [
+          "conda.recipe/bld.bat"
+        ],
+        "sha": "34007ddd39378c2cab18ba19662f2d65cbe75f2a",
+        "timestamp": 1419185693
+      },
+      {
+        "files": [
+          "build.sh"
+        ],
+        "sha": "fe90773106152c0e2ec02ff1d74e35666fa9ae5f",
+        "timestamp": 1419186636
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "toolz/itertoolz.py"
+        ],
+        "sha": "e92af73519a67d69ee48cb80cbf3560cb49a335a",
+        "timestamp": 1422904931
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "5f000e05cbf7774aee122148b9221fae66e5cf8b",
+        "timestamp": 1422945446
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "367206f45e4cd465ffb00aeea46d90ca372cb878",
+        "timestamp": 1422945623
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "ae0f702c5554ef48c295184c4d542ae4bdc3ffa4",
+        "timestamp": 1422946425
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "79151b739cd3efd7643ea128e4d22c76d47725e6",
+        "timestamp": 1422946505
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "bf54b0dcb1ad762a9c1770e53512da0cc199beec",
+        "timestamp": 1423249465
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "431df04fc0ab9ef6e86b91335b766d7c64549fc9",
+        "timestamp": 1423253046
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "6ce82f0a041abe2c3c23a732d69a9ba83d398647",
+        "timestamp": 1425441259
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "1dfc4a8cd5ea99a208cd7ea0eabffa19fa214651",
+        "timestamp": 1425441993
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "4a4e9dc60dca2e2f5119ebc423dc06a28578c01e",
+        "timestamp": 1425442162
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "45679c064968fb357d5328100455b40caf165726",
+        "timestamp": 1426119882
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "f52d767990e2df0829d08eae3cfd21b22002bb59",
+        "timestamp": 1426120447
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "20da4e84e40e056d0501a8a93daeba5dc90e1b89",
+        "timestamp": 1426131283
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "783f13f8a234830c280bde4e0664fba922c8a886",
+        "timestamp": 1426182902
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "b451ebfd5d8356c6571c89e886e374d2511e8e3d",
+        "timestamp": 1426428304
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "2896b67b7e3dec9b31d6cdf2d89f11d783d73193",
+        "timestamp": 1426428869
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "bbe0ddc4c49a7bc195167a95aa9c044f9e9cd73a",
+        "timestamp": 1426429676
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "269ba3a16e0d0c59785a02372cbdb8e7739e023b",
+        "timestamp": 1426431600
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "96316e31b05fc6362d5aa3af9ca78c8062b04d8d",
+        "timestamp": 1427237548
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "35325298bf9efcc1b5e4090242720442703e11b8",
+        "timestamp": 1427238467
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "40ddfacb2d4daf17fcf6e07d03a2c08ad3415078",
+        "timestamp": 1426428869
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "a368e4bd8e65d2e572e0b9de080bc5355bb0589b",
+        "timestamp": 1427243158
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "d042a149db6c7401247e67c7339e49b6dc256c24",
+        "timestamp": 1427243210
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "c691e64670b0f26f1ecbcebbaeb2d663f9828bda",
+        "timestamp": 1427243794
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "8acf4d730f599ceabde54ffb3075a10c5a33e259",
+        "timestamp": 1427256976
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "86f6f0fbd7b300e5d83ce395076b2ad6b00b9423",
+        "timestamp": 1427257236
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "699d3988314c26e5222cfeb4bc8e488b6f0245df",
+        "timestamp": 1427290872
+      },
+      {
+        "files": [
+          "toolz/curried/exceptions.py",
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "d84ce569072125ac7ba6ab55e3ed909734542287",
+        "timestamp": 1427310384
+      },
+      {
+        "files": [
+          "toolz/tests/test_curried.py"
+        ],
+        "sha": "16214545b301aaba4847ffae5efe67782abe993d",
+        "timestamp": 1427312394
+      },
+      {
+        "files": [
+          "bench/test_frequencies.py",
+          "bench/test_groupby.py",
+          "bench/test_join.py"
+        ],
+        "sha": "ca4c9bb7b4e72ee836065edde547d54af7acd821",
+        "timestamp": 1429478513
+      },
+      {
+        "files": [
+          "bench/test_join.py"
+        ],
+        "sha": "5f79d7d9ca67d7d57274ca7e05ed803cd517bf85",
+        "timestamp": 1429478558
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "820f3673e292e2b5fcb0c9504fe79fea0ac5e2e7",
+        "timestamp": 1414035801
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "793fcb6ebf13dc2f33ea6eeac394d6a988064f9f",
+        "timestamp": 1414044175
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "8bc2a0aa7c846aaa6dcd4bf938ff98b24d7ae21d",
+        "timestamp": 1414090186
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "899a932d7cc531fb84211f493e0f3f54be2e8713",
+        "timestamp": 1429724201
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "0fea4723fe0932f89d0cac9bacb5193e298d6b4e",
+        "timestamp": 1429726916
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "cbc780248b62b059bb1922ccc2ed7b1e8f84bc3d",
+        "timestamp": 1430745248
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "toolz/sandbox/__init__.py",
+          "toolz/sandbox/core.py",
+          "toolz/sandbox/tests/test_core.py"
+        ],
+        "sha": "298f3f49dc7cb63ac23a2468af6385fe23d8686f",
+        "timestamp": 1430933506
+      },
+      {
+        "files": [
+          "toolz/sandbox/tests/test_core.py"
+        ],
+        "sha": "d489749f6caff81729ca7412446200759d743b40",
+        "timestamp": 1431096966
+      },
+      {
+        "files": [
+          "toolz/sandbox/tests/test_core.py"
+        ],
+        "sha": "f5139c985be32c7ffcc2996975d4b28d6a6cc516",
+        "timestamp": 1431097015
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml",
+          "toolz/__init__.py"
+        ],
+        "sha": "1b0ee2f597ac95a279248ad4d88237362ccc6774",
+        "timestamp": 1431441463
+      },
+      {
+        "files": [
+          "toolz/sandbox/core.py",
+          "toolz/sandbox/tests/test_core.py"
+        ],
+        "sha": "e90e362ed8f90b00cc8285682f8cdea51fe6f177",
+        "timestamp": 1431793892
+      },
+      {
+        "files": [
+          "toolz/sandbox/core.py"
+        ],
+        "sha": "35cab400f10719a2e0ed1cb950149434d6135399",
+        "timestamp": 1431793938
+      },
+      {
+        "files": [
+          "toolz/sandbox/core.py",
+          "toolz/sandbox/tests/test_core.py"
+        ],
+        "sha": "ba4204c55d60e6a76e56a332cfe6fd314a11d86f",
+        "timestamp": 1431794203
+      },
+      {
+        "files": [
+          "AUTHORS.md",
+          "doc/source/api.rst",
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "c675e3a537ec0561f2835001694bc121e2ddd8ea",
+        "timestamp": 1431904375
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "56c740226cb78db67a82b0d50662bb1e0ed77bbc",
+        "timestamp": 1433592893
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "39dc76b3cb68d7031a5787457ae39ea6fbcd0993",
+        "timestamp": 1434355260
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2e8e63c5262966e1e85bde23258237882c9eb7d9",
+        "timestamp": 1435358563
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "aca4378b629d335f333092e9bbc78383f817e9ed",
+        "timestamp": 1437159173
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "d9b4df153ee953c38fa9eb54eadbfeb06b73b311",
+        "timestamp": 1437159242
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "744466330ff6a1d4cd05cefdefa28b5fdecfdbb2",
+        "timestamp": 1437502492
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "f7da1954e749174d211195a30838dc0b5c2ade48",
+        "timestamp": 1437504435
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "c7e5f62913cbad08ad461fb940694da620bf92dd",
+        "timestamp": 1437504451
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "b013610ae9e64da4668b0b66e5367dec4dfa81cc",
+        "timestamp": 1437506464
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "32214e49dfb7e9f53645c1fad49cb27a65db6b84",
+        "timestamp": 1437701494
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "d4ca7c20be742fe1e08a6a5f66fb980d49c84c96",
+        "timestamp": 1437796113
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "43d85906c032bb27a598bc5062339f2457b4be22",
+        "timestamp": 1438024700
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "130d8017c383a17b525c466b280d2cebb3d13788",
+        "timestamp": 1438034273
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "78198b32d55c01854da5ac8be478e581b4404cc7",
+        "timestamp": 1438034326
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "244c05f294cd801081bc658090c13766afaf1b2a",
+        "timestamp": 1438034372
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "0fa499e33953834c750cefea3a19409e4940921d",
+        "timestamp": 1438034383
+      },
+      {
+        "files": [
+          "toolz/curried/__init__.py",
+          "toolz/curried/core.py",
+          "toolz/curried/operator.py"
+        ],
+        "sha": "f2c9ffef6e797a2e0e745fae417c9e95ede89307",
+        "timestamp": 1438211217
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/utils.py"
+        ],
+        "sha": "3aae0fc29fa64fc3ee5a600bc8141f326a25d8f3",
+        "timestamp": 1438278596
+      },
+      {
+        "files": [
+          "toolz/tests/test_utils.py"
+        ],
+        "sha": "2e961b92051e29f83d2325818c34bd16ac1665a4",
+        "timestamp": 1438280730
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "680b418fe26f8e7d235c6a4106396baca100f8f2",
+        "timestamp": 1438365557
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "9126df9a30abe06170c7ec31b8108af119307bd8",
+        "timestamp": 1438383277
+      },
+      {
+        "files": [
+          "toolz/curried/__init__.py",
+          "toolz/curried/operator.py",
+          "toolz/tests/test_curried.py"
+        ],
+        "sha": "a4127a55292feee157146dcd49fb96d09ee52daa",
+        "timestamp": 1438452472
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml",
+          "toolz/__init__.py"
+        ],
+        "sha": "78c7b6ded0854a2941ee681a2a08a6a292fe4b56",
+        "timestamp": 1439167023
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "e1d92757267dd3a5dd595d02ff2c96eb8b4187f4",
+        "timestamp": 1439167789
+      },
+      {
+        "files": [
+          "toolz/tests/test_utils.py",
+          "toolz/utils.py"
+        ],
+        "sha": "bfc45c569935086007f10e3ed64a39216e195b79",
+        "timestamp": 1439169863
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "8e043c494ed3e2fd54c01bbe0ce7c40bda606cdf",
+        "timestamp": 1439222444
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml",
+          "toolz/__init__.py"
+        ],
+        "sha": "ee785666c0d9550f01894bad010316bce8a4667e",
+        "timestamp": 1439223906
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "10f2a5670eeb49d1aca59cdc1d09446ed31bc627",
+        "timestamp": 1439395464
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "59a363a694f75608fbaa31323d801bd2ea2b012e",
+        "timestamp": 1439395480
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "2a3f08504e0a6a66a5299addf2dc761e4ed15666",
+        "timestamp": 1440000024
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "46b17268bbd3c960f5471ea4dc9d68af976fc0cd",
+        "timestamp": 1440000226
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "dd87e4f20f6ef591a57f3d28f43c1d1eb1318794",
+        "timestamp": 1440002134
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "735c3bb949731dca5067d2a295756f83c09d6d8c",
+        "timestamp": 1440003302
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "11e1ca84eadfb3e4a3e9c3e0c94cf9a5be5eb76f",
+        "timestamp": 1440003614
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "ca90b9055733ded694819f17f0e1a8393b008d10",
+        "timestamp": 1438982979
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "45487991ff9cc76ec7da122060b5282947c8740d",
+        "timestamp": 1438984461
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "eebc41869ff269dd573a7406d4fad0a51ff6a267",
+        "timestamp": 1438985142
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "5b389f8924037a1a9003fdf43ce96b636388f589",
+        "timestamp": 1442432921
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "f1d113d925f388675cab308d4d83c7e000137b0c",
+        "timestamp": 1444301622
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst"
+        ],
+        "sha": "908a340961c3b8bc7707490968babafee7528557",
+        "timestamp": 1444315771
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "d4ee0a504dc21c593162f7e3d957e3e3d1c74e7b",
+        "timestamp": 1449101615
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "4891bca74bb136ac7accc8a49dd5b710ce9534b0",
+        "timestamp": 1449340058
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "6bc3061ed0992d400c7b439387c8a98319389039",
+        "timestamp": 1449350929
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "36da2402c9b53046a6bca4579de6064b524d06e9",
+        "timestamp": 1450199734
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "4c3cf036e4ede0f525309d3e16929b63f50ded32",
+        "timestamp": 1450199752
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "eda55e3b77f2a811a54719c5c050b0d2ecb67e07",
+        "timestamp": 1450199912
+      },
+      {
+        "files": [
+          "doc/source/purity.rst"
+        ],
+        "sha": "ddff9cd3ecbdcb57a2c4721bfcd629cd6dd5caed",
+        "timestamp": 1456466344
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e08ef0f30405f6a51334aaf2c2e03b460389106e",
+        "timestamp": 1457758452
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "023d930cf73fa210f5828a45fad85c20d643e6ba",
+        "timestamp": 1457758850
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "f4c09b8254d7afe7437e6c4b610d33033a4cc15c",
+        "timestamp": 1459724045
+      },
+      {
+        "files": [
+          "toolz/compatibility.py",
+          "toolz/functoolz.py"
+        ],
+        "sha": "f0c4534137d1c72e26026d6bc12c3ee78aafb02c",
+        "timestamp": 1459729384
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "0569fd9c5ca1df87727d2bc86909a4a3fb30fe77",
+        "timestamp": 1459755683
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "0692cea20d5936eb3e67a810b39972b0f9847a7f",
+        "timestamp": 1459756108
+      },
+      {
+        "files": [
+          "toolz/curried/__init__.py"
+        ],
+        "sha": "fc7e2044949be98bced55e4e70103d19ef7cc209",
+        "timestamp": 1459856198
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "02d42787ca0c05ba427ccf36e0c27d04637ec5ab",
+        "timestamp": 1460087474
+      },
+      {
+        "files": [
+          "toolz/_signatures.py",
+          "toolz/functoolz.py",
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "86e6ee26a01ad3fffb6c9c201251d14eb98a41ee",
+        "timestamp": 1460090642
+      },
+      {
+        "files": [
+          "toolz/_signatures.py",
+          "toolz/functoolz.py"
+        ],
+        "sha": "32bd02ac765b06311474568c24cc72afd64c1c1d",
+        "timestamp": 1460091386
+      },
+      {
+        "files": [
+          "toolz/_signatures.py",
+          "toolz/tests/test_functoolz.py",
+          "toolz/tests/test_signatures.py"
+        ],
+        "sha": "dd39786a44a776180ddcdfa216d8e1cee6b000b8",
+        "timestamp": 1460128002
+      },
+      {
+        "files": [
+          "toolz/_signatures.py",
+          "toolz/functoolz.py"
+        ],
+        "sha": "cc87ca62fa736c812eab3732c1a65257626a02c5",
+        "timestamp": 1460132907
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "ce256053439bf9e7beafbfae2f3aff6136914abe",
+        "timestamp": 1460133159
+      },
+      {
+        "files": [
+          "toolz/_signatures.py"
+        ],
+        "sha": "4ea518096537f50dea501ca16c96324c7acb78c4",
+        "timestamp": 1460135555
+      },
+      {
+        "files": [
+          "toolz/_signatures.py"
+        ],
+        "sha": "f88ca54c76f7b6f2a621b9281c1339bc7ea395b9",
+        "timestamp": 1460137813
+      },
+      {
+        "files": [
+          "toolz/_signatures.py"
+        ],
+        "sha": "ef0a8e6da8e270edc1021376539a6a4753e8289a",
+        "timestamp": 1460143415
+      },
+      {
+        "files": [
+          "toolz/_signatures.py"
+        ],
+        "sha": "5989fded5bcd267da9890d33a0582b9a0cf37ff7",
+        "timestamp": 1460144594
+      },
+      {
+        "files": [
+          "toolz/_signatures.py",
+          "toolz/functoolz.py"
+        ],
+        "sha": "75a073311a648c811fef82705131e27938171f4d",
+        "timestamp": 1460223416
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "fd77029dc6796193fc6cca66e3047b6beacb3fc3",
+        "timestamp": 1460230332
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "4d5c15cd83f285f0f74c1c757eb981ed44ab16c0",
+        "timestamp": 1460424928
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "0d5f07c782e816ca2a37652ab98e3747a5365757",
+        "timestamp": 1460426748
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "0b39138ad6d1b2c0964068665bdbd85e3d9cccb4",
+        "timestamp": 1460427340
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "351d5890daf5536195538f358d65831c19fe9fe6",
+        "timestamp": 1460430316
+      },
+      {
+        "files": [
+          "doc/source/purity.rst"
+        ],
+        "sha": "b450bfa884e4d2f8bcb33a3968d84628b4f4d1f8",
+        "timestamp": 1460440848
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "0d51707f7fba9e3246553f49d82afee70f3b0e72",
+        "timestamp": 1460441328
+      },
+      {
+        "files": [
+          "toolz/_signatures.py"
+        ],
+        "sha": "5f39e698cc9072e3b5e7bc4b667b538f202d10f1",
+        "timestamp": 1460467717
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "f05a63808b3829d147cab6fbeb0a10f0c57c299b",
+        "timestamp": 1460501132
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "0307f216afaf95675e589070c08a6229a2ccdae7",
+        "timestamp": 1460512909
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "c1278d2ddbec25a7fdafb0fc03c9b9f6c8622a40",
+        "timestamp": 1460521079
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "526745408d9be3fd6429d8848be30fa17bcb1b52",
+        "timestamp": 1460581356
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "92424b6dff880f14c3b091e67cfea5e2c647d260",
+        "timestamp": 1460581562
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "e28081c0b971e003757ed7167b65495657fe57f4",
+        "timestamp": 1460581958
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "f843c18341df64a513ca81fe39f54aa4a93fb256",
+        "timestamp": 1460583518
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "0fdfc14467bfffff9e82183148155d3d93b9e5e8",
+        "timestamp": 1460661274
+      },
+      {
+        "files": [
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "b61ab62c3e584561cfca518cedc024f35f182f48",
+        "timestamp": 1460864960
+      },
+      {
+        "files": [
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "41f00fcf7d006eb953a15ad55a9dcef87b40c936",
+        "timestamp": 1460865928
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "b4cce2cd21444baba2fca0af6ef76ff080f150ec",
+        "timestamp": 1460866485
+      },
+      {
+        "files": [
+          "toolz/curried/__init__.py"
+        ],
+        "sha": "4bf60b8ee9c7255c95a3446388f3b266423cda09",
+        "timestamp": 1460936099
+      },
+      {
+        "files": [
+          "toolz/_signatures.py",
+          "toolz/functoolz.py",
+          "toolz/tests/test_inspect_args.py",
+          "toolz/tests/test_signatures.py"
+        ],
+        "sha": "267f75e85cc5aa5621a03b1b3e119031eb3d1baa",
+        "timestamp": 1461646189
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "4f9f9436c1c1694ba3821369efc70ceb20da8549",
+        "timestamp": 1461647115
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "d1f1bb7272002851c09f2dad4c4afbf47afd714c",
+        "timestamp": 1461647803
+      },
+      {
+        "files": [
+          "toolz/compatibility.py",
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py",
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "cd99d87d892dccc85f8a46882fd833284a8e3602",
+        "timestamp": 1462465446
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "e645190f03be05c37bbb42ebd5fda010e5f11a71",
+        "timestamp": 1462500633
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "628cb4833cb5e2b39ce5060df9eede53623be08a",
+        "timestamp": 1462546529
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bc42c1251c4eca0397d034d37b91b49bd7113655",
+        "timestamp": 1463080598
+      },
+      {
+        "files": [
+          "toolz/compatibility.py",
+          "toolz/functoolz.py",
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "aecbbd1eb2043e070dc3d0bcd654a3ff2cbae0ea",
+        "timestamp": 1464631436
+      },
+      {
+        "files": [
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "c82bde6b0649163160268ccd00da69c774632fc1",
+        "timestamp": 1464632282
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py",
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "c723427ff18e3b3ba95c9763375eb62668666550",
+        "timestamp": 1464632809
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/sandbox/parallel.py",
+          "toolz/sandbox/tests/test_parallel.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "23db5b088571967c1d6797cb49f48f35101bec3e",
+        "timestamp": 1464817475
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "1b254b71b67df22c67ca49992d8002056d2f2302",
+        "timestamp": 1464908774
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "d993e6aff0696e5703326419aa8519becdd4f6c6",
+        "timestamp": 1465095049
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml",
+          "toolz/__init__.py"
+        ],
+        "sha": "d5cd04a590d78596f84c4478a5b5f248c257ace2",
+        "timestamp": 1465179700
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "aa60b07f673abc63052bef5bed6b9c26f1f1d8dc",
+        "timestamp": 1465359516
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "1481d96b1d66616c4bb3f5cf8d9579b7eb3965b6",
+        "timestamp": 1465360155
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "cca1a477103d7d5075b69a1e2c5e4192a0508daf",
+        "timestamp": 1465361425
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tlz/_build_tlz.py",
+          "toolz/__init__.py",
+          "toolz/tests/test_tlz.py"
+        ],
+        "sha": "20fc5fa8bc282cc977f1c170436f38bd8094464d",
+        "timestamp": 1465746141
+      },
+      {
+        "files": [
+          "tlz/_build_tlz.py"
+        ],
+        "sha": "e66fbe1b22aa8f85e319534937e97cdca9580900",
+        "timestamp": 1465749825
+      },
+      {
+        "files": [
+          "tlz/_build_tlz.py",
+          "toolz/tests/test_tlz.py"
+        ],
+        "sha": "89a4ce165d3e8f133646d744901dbaaa5e6a7fb4",
+        "timestamp": 1465776264
+      },
+      {
+        "files": [
+          "tlz/__init__.py",
+          "tlz/_build_tlz.py",
+          "toolz/tests/test_tlz.py"
+        ],
+        "sha": "a1e4048afecb986c9995363415cbe18823b67d8b",
+        "timestamp": 1465792868
+      },
+      {
+        "files": [
+          "tlz/__init__.py",
+          "tlz/_build_tlz.py",
+          "toolz/tests/test_tlz.py"
+        ],
+        "sha": "161200972f4724b39b3d3cc3781065a98c2b7639",
+        "timestamp": 1465793320
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "6e04048d2cad70f4e6e682cb33c1071f0402888a",
+        "timestamp": 1466024657
+      },
+      {
+        "files": [
+          "doc/source/control.rst"
+        ],
+        "sha": "919ed2549ff13fcf617b804871dfe35af4f47358",
+        "timestamp": 1466129273
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "91625e0ab154fc0c3e39c85c631ab0fc640e1a86",
+        "timestamp": 1469408004
+      },
+      {
+        "files": [
+          "AUTHORS.md"
+        ],
+        "sha": "e80450f42e99663289cda59fddbd24925a0b9423",
+        "timestamp": 1469492154
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "72c3615bd03392de1dc2b8f22f2e2022fe9a8a3e",
+        "timestamp": 1470844090
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "f5f9eeb372ac2f89cbdc76f53561ebfd52ee1e6d",
+        "timestamp": 1471811302
+      },
+      {
+        "files": [
+          ".binstar.yml",
+          ".travis.yml"
+        ],
+        "sha": "38f789532e9fe63b962640ed3104a40e55024e25",
+        "timestamp": 1471811914
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "a8af1bb9f356aabffeef300e25344ef0174b6dc9",
+        "timestamp": 1471813131
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "0ddc67ff372b46ab8c7a406f05809f016008b9a4",
+        "timestamp": 1471813664
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "786e3aa4842ea977df6fb7374cc4a78c9fb8c6d2",
+        "timestamp": 1475345035
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "9ff94a33508eed0556a5ad801e1fdd00ae84ef42",
+        "timestamp": 1475511491
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "01a025c41ea92dd204f59f2cb25be9d13d0a7d75",
+        "timestamp": 1475536403
+      },
+      {
+        "files": [
+          "README.rst",
+          "conda.recipe/meta.yaml",
+          "doc/source/streaming-analytics.rst",
+          "toolz/functoolz.py"
+        ],
+        "sha": "1f7fd843a71fbc360f5f207975d99000b3d5ae99",
+        "timestamp": 1476084227
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "c5d6d260bd84dff2af8a9e780499dce26584dfd9",
+        "timestamp": 1476993366
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "14c7ab81704aa0b34d99442b0fce675009fda3c7",
+        "timestamp": 1476993407
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "c95cf7d39b0f01524653b8ebfa0f38874ec0147d",
+        "timestamp": 1477308124
+      },
+      {
+        "files": [
+          "tlz/_build_tlz.py",
+          "toolz/compatibility.py",
+          "toolz/tests/test_tlz.py"
+        ],
+        "sha": "05f2312409b00ebd67ccd95aebb115a4a00a4c26",
+        "timestamp": 1477887913
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "a8055937f3e3fdf2495e35fa7bdff6449e19375a",
+        "timestamp": 1477967128
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "ef85a81403e6b646540d4cc800a484051f22fdcc",
+        "timestamp": 1478151437
+      },
+      {
+        "files": [
+          "tlz/_build_tlz.py",
+          "toolz/tests/test_tlz.py"
+        ],
+        "sha": "05ede534aa0e30f9c99f9ba128c269697e24f5b0",
+        "timestamp": 1478186731
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "fb45bcfa1de08041824695ad734678eced34ae5f",
+        "timestamp": 1478187048
+      },
+      {
+        "files": [
+          "toolz/tests/test_curried_doctests.py"
+        ],
+        "sha": "52f8be9e280db0c2df66df47fc285d928b11fba4",
+        "timestamp": 1478192061
+      },
+      {
+        "files": [
+          "toolz/curried/__init__.py",
+          "toolz/curried/exceptions.py",
+          "toolz/tests/test_curried.py"
+        ],
+        "sha": "20d8aefc0a5aae4e1c7313c9a89f9bbb965b87fe",
+        "timestamp": 1478195715
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "8b0f60fcceba3374d7044ff8d22da60073d44e7a",
+        "timestamp": 1478792328
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml",
+          "toolz/__init__.py"
+        ],
+        "sha": "7fb83c8d3ef057cdaef22a80b7bc610d66661e19",
+        "timestamp": 1480905642
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py",
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "ffac221c9c5b2ca6b16bae49443ee72318e4a49d",
+        "timestamp": 1481144602
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "07359add1d2f5498696ec6b1a26cb431a08003a0",
+        "timestamp": 1481182097
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "339086323206afb3a8fd2ab688d2e704e5a597d0",
+        "timestamp": 1481182795
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "7d9ad0176eaf13989704968290ed236f002c1f3f",
+        "timestamp": 1481183965
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py",
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "0ef082ca863cd5d017b2d4b99ce2bd204d0c344b",
+        "timestamp": 1481316186
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml",
+          "toolz/__init__.py"
+        ],
+        "sha": "70429bb0c71fe1d5c9a5429e633da2521208f1bc",
+        "timestamp": 1481491166
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8fa1c7c906208c74f7da7e9d1d7042f74d148ccc",
+        "timestamp": 1482388153
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "b837eacc04999cbcc27fc34ad52679dff63e8dcd",
+        "timestamp": 1482388456
+      },
+      {
+        "files": [
+          "toolz/tests/test_serialization.py"
+        ],
+        "sha": "bfbed05f2d0f19c254cc181cd5c9191ca016acb5",
+        "timestamp": 1482388727
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "6af6d30cedc50299852533b136a78a9fbc7792b6",
+        "timestamp": 1482388898
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "e17397307541b3a6c65cd9e6ebfa11e9d0dc916d",
+        "timestamp": 1482902023
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7ef07c07096ec13562098dbbf784495f906fd50b",
+        "timestamp": 1482981811
+      },
+      {
+        "files": [
+          "doc/source/curry.rst"
+        ],
+        "sha": "775b2187d6712a36e9517a16a9ff5debb06997f0",
+        "timestamp": 1485541611
+      },
+      {
+        "files": [
+          "doc/source/parallelism.rst"
+        ],
+        "sha": "67ee1e62fb11e7f4f8dd99b9822b761bf7ce4c9e",
+        "timestamp": 1490357881
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "80ba8240f7133e34337f0b7dfd2db2d52b5840a5",
+        "timestamp": 1499102762
+      },
+      {
+        "files": [
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "21bf00cd9c79a4f17efeb3ce1f6e3e3398121cf5",
+        "timestamp": 1506456536
+      },
+      {
+        "files": [
+          "doc/source/install.rst"
+        ],
+        "sha": "4d3e0e25da2556119f171e087efc9fd16a3af247",
+        "timestamp": 1507175252
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "5eb9fcbc8d1691711c2d44ce007a1697e88a2bac",
+        "timestamp": 1510798058
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8aba7157760dbd0e1ecc5c95d65e5a094c2eb396",
+        "timestamp": 1510798466
+      },
+      {
+        "files": [
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "255c9082645451ba6b2276dd7024900cbbbad676",
+        "timestamp": 1510800820
+      },
+      {
+        "files": [
+          "conda.recipe/meta.yaml",
+          "toolz/__init__.py"
+        ],
+        "sha": "ae13fe17f3d819e3785e469376ee2a47cb0050ed",
+        "timestamp": 1513528776
+      },
+      {
+        "files": [
+          "bench/test_wordcount.py"
+        ],
+        "sha": "e052d819b2d8dcf50f0147b5659b9a530204d05f",
+        "timestamp": 1522758388
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "e221dc5fc5be90e9819453bba9ee621ea9193759",
+        "timestamp": 1526499815
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "ba5066732ff735b04330c5dfc9aa804ee6f8ad0a",
+        "timestamp": 1526537594
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "3ded3fcda6b9388b937ace7b769ec1ecf2c002b8",
+        "timestamp": 1526537652
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "d39d1ab8b86b08a47c69a66ca4aac4cdd836c42c",
+        "timestamp": 1526538402
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "9e878e1204158da905df76c241012a30146b8bc1",
+        "timestamp": 1526539678
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "5d95878603e759e4ee2a3149039cd0e2af07a329",
+        "timestamp": 1526578297
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "ad9f297fbd600968523944b6b882523a8f76d743",
+        "timestamp": 1526579499
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "8aaf970438fbd5e2c385dcae716af23c44ef67c3",
+        "timestamp": 1526580003
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "937de13862735b3bd597994d5532010955aa023c",
+        "timestamp": 1526580201
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "c10bbbeef2277f41d5143a50d6dc9eddf331954f",
+        "timestamp": 1527056410
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "d7b8c40b4db4ebe3f6d1d488a9373b8a37fa187d",
+        "timestamp": 1527058053
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "3ef3de765f435d841026d66ea8cddf5b43be73fb",
+        "timestamp": 1527058076
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "a33b57808f06d86d270713898ad07bf2739c30ed",
+        "timestamp": 1528226415
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "90ea648f9a42e9b84409df6895f1fb7507480ba1",
+        "timestamp": 1528233182
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "c323698462133a56ac66af5c58cfb3fe65bcc53d",
+        "timestamp": 1528234618
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "0b24bb1d044d6cc230c43210d91abf69e07a50a0",
+        "timestamp": 1528256432
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "03731458b385b2f445ee5e12ef6b7d5c46ae0eb9",
+        "timestamp": 1528256602
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "5b0e57b94ad6c454444a9ac2f7fb1b12758e3521",
+        "timestamp": 1528263916
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "7534eef2d6da0a55962feb156789a0d2d5ecf208",
+        "timestamp": 1528293650
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "86953ab1dfa252459182e81a9e0c6eaed9d1c686",
+        "timestamp": 1528294409
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "d1e8082097b3c11c3a166d43aab7f5846d8fa3fc",
+        "timestamp": 1530889726
+      },
+      {
+        "files": [
+          "doc/source/heritage.rst"
+        ],
+        "sha": "267312681b4d9d73a22b692a7bdb9a2ddaf4a572",
+        "timestamp": 1531233690
+      },
+      {
+        "files": [
+          "doc/source/heritage.rst"
+        ],
+        "sha": "c27c178cf121291d11ba64dc5edefda105d309ee",
+        "timestamp": 1531233759
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "4ea6619556e02f218fa9b4c893d2d2aa41479c69",
+        "timestamp": 1533869033
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "a69f8a5c9d80b193fce84f5f126d09f4d3108338",
+        "timestamp": 1534256405
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "701712f8947aa845b01eb90505104885dbc95a26",
+        "timestamp": 1534301099
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "307b0bbdc1d7247b9d86ea3abf5b1f89648b9f60",
+        "timestamp": 1534302894
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "5b222b35f1875048c0940fa27733e216c64a2e34",
+        "timestamp": 1534424755
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "89665afc3f92cc67c6ea2da337729c31e1145d37",
+        "timestamp": 1534426014
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "eb2603027aaa017b558b5946cf4e3911be3c87dc",
+        "timestamp": 1535080671
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b791293abe5ea29a588b71c8cde289914b120796",
+        "timestamp": 1538033948
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "bb7ff0baa8398e1f06e1d84c1c9d827bbee1d68a",
+        "timestamp": 1538034290
+      },
+      {
+        "files": [
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "04855e5e22820e107c33074a16beb0cf61560dd9",
+        "timestamp": 1538035605
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7fe24c99ff0988be05a7688f5561e63dff51f26f",
+        "timestamp": 1538036657
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "a6665b1ea02c266c4412d1a310a300994e953409",
+        "timestamp": 1539896647
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "d55666d6eb9d19b963d4be6d3cd8c2edd7533547",
+        "timestamp": 1539897147
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "03cf714895ea317b84e888344d784b1fa4e167d1",
+        "timestamp": 1539897492
+      },
+      {
+        "files": [
+          "toolz/curried/__init__.py"
+        ],
+        "sha": "c6a2779023958b268105cd6e37d358d5a5563d00",
+        "timestamp": 1539920387
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "18947feed97e4a3287e5a56656a1dbb6186090c8",
+        "timestamp": 1541219170
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "afd126fb6861725b4f00380a81e61e9a154bb681",
+        "timestamp": 1541219304
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "33c6687c13d91f7b1ec09ec12e9d5dd314c77f2c",
+        "timestamp": 1541630926
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "a99299e62ba5bf0d3522293bce34bbd6fd9223ee",
+        "timestamp": 1541653928
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "9ffd119674a09c2a5cd5ee9b042574872aec6ed6",
+        "timestamp": 1541654122
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "01e4313cb9a272be7a535b98dc7f69f56c3ecdca",
+        "timestamp": 1538810630
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "cb94a5bd258e2e0c7a2ebbab169ba5804ee781b6",
+        "timestamp": 1538810665
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "e9cea93ae1d828c6ec807aa6551404f8f433ac43",
+        "timestamp": 1538811780
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "a055df371563fa7d4cab634fa511fce0561cf541",
+        "timestamp": 1538811811
+      },
+      {
+        "files": [
+          "toolz/compatibility.py",
+          "toolz/itertoolz.py"
+        ],
+        "sha": "1804af0a2ea7968239786229b47152a85ae75087",
+        "timestamp": 1542099983
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "68a3591f33305d5458c9e72bff015589c7c06d75",
+        "timestamp": 1542975204
+      },
+      {
+        "files": [
+          "toolz/curried/__init__.py"
+        ],
+        "sha": "dcebedde4b5c8ceeffca1a2ae42a35bf61d53e0b",
+        "timestamp": 1542975801
+      },
+      {
+        "files": [
+          "toolz/curried/__init__.py"
+        ],
+        "sha": "4d670925aca373cca4bb450b39022f487e101b91",
+        "timestamp": 1542979855
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "65c81ca35a46596f27798fe2a7ba94ef845b904f",
+        "timestamp": 1542980172
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "47047483fb30b58ef765adaf01cc03777ac56375",
+        "timestamp": 1542980768
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "62a686966fe7dae3e6c7e1a0ca1248f8b46c72cc",
+        "timestamp": 1543591820
+      },
+      {
+        "files": [
+          "toolz/sandbox/core.py"
+        ],
+        "sha": "60192346df93e5efcdbfb53fa287a963f558c3f6",
+        "timestamp": 1543592872
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "ba9d148b4170e4080e09128de99426c49c74810f",
+        "timestamp": 1544066551
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "0217f38a2fde4e9bd2cbf51de0cbe38a29f9ff7b",
+        "timestamp": 1544068552
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "54aa44292e433a6f7829c383f0fb9cbf5c4f09b3",
+        "timestamp": 1544068969
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "b2eb929e4c88c6876a8510e5229842556a001245",
+        "timestamp": 1544072816
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "f058785eda01fabee1e6957bcdb09c365a33dbe1",
+        "timestamp": 1544075973
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "40ac54395cc22e212d95f292ca7005bc266bae09",
+        "timestamp": 1545583783
+      },
+      {
+        "files": [
+          "toolz/_signatures.py"
+        ],
+        "sha": "41a382baf9b38c15e7fc26c745481dc42e0f352b",
+        "timestamp": 1547150255
+      },
+      {
+        "files": [
+          "toolz/_signatures.py"
+        ],
+        "sha": "cc49f898a5a81261f75b875b2bae0baa2e2409b9",
+        "timestamp": 1548104461
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst"
+        ],
+        "sha": "f25bc8efaf4562e5831add5eab94fdd05eaf6213",
+        "timestamp": 1554248590
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "toolz/curried/__init__.py",
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "7b6570a24c7e0213a91676e4e4139d5f738ff5f8",
+        "timestamp": 1504218297
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "9e97f73fee5fc68bd03adcee3b520593ed5063d6",
+        "timestamp": 1561900953
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "9808e49b37f7efca27b006c2703f8e2f9ddd55a6",
+        "timestamp": 1561902535
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "3f4f6013b72b462c7a7adf154cbab372159575db",
+        "timestamp": 1561902791
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "44983f75d794cf10d14676ba01b51d7a495e18f3",
+        "timestamp": 1561997232
+      },
+      {
+        "files": [
+          "toolz/sandbox/tests/test_parallel.py"
+        ],
+        "sha": "f200b9d9599fa4a1e52dc36313c57c49e7506bc3",
+        "timestamp": 1544216438
+      },
+      {
+        "files": [
+          "toolz/sandbox/parallel.py"
+        ],
+        "sha": "05947bb8759be523d1c0ba2dd0bfc5c6d9bf6b3d",
+        "timestamp": 1544376996
+      },
+      {
+        "files": [
+          "toolz/sandbox/parallel.py"
+        ],
+        "sha": "e9c2724108a1487a1e781c86999ccd9d73471653",
+        "timestamp": 1544377951
+      },
+      {
+        "files": [
+          "toolz/sandbox/tests/test_parallel.py"
+        ],
+        "sha": "2955e28b510eab648bca0f12a001a8a68c07e2f4",
+        "timestamp": 1544378615
+      },
+      {
+        "files": [
+          "toolz/sandbox/parallel.py"
+        ],
+        "sha": "1735c7125953ecb4a7b50bde252a04f4b224a8ea",
+        "timestamp": 1544383779
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "ac68944cc6a68a569fb73c0556007b930086e104",
+        "timestamp": 1544600020
+      },
+      {
+        "files": [
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "1c07bc30dc3d2266e4b49765466b8eff26fadd10",
+        "timestamp": 1562596664
+      },
+      {
+        "files": [
+          "toolz/curried/__init__.py"
+        ],
+        "sha": "1ef435f3f5347951bf8107bee20d9fa9aeaf06e9",
+        "timestamp": 1562596951
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "dd9b9ad0c56970a162d5d5db4f69ebf3b0a7548f",
+        "timestamp": 1562685777
+      },
+      {
+        "files": [
+          "toolz/curried/__init__.py",
+          "toolz/functoolz.py",
+          "toolz/tests/test_functoolz.py"
+        ],
+        "sha": "fb4d99d4765052555e87be696b5aa5ebf61d4231",
+        "timestamp": 1562720382
+      },
+      {
+        "files": [
+          "toolz/_signatures.py",
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "6d9267174734947732066c418ed5692b850b8a9d",
+        "timestamp": 1562772741
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "1f0b315c88a62e6d2e522e54fca20230cfce5197",
+        "timestamp": 1562773386
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "319d9070280e406cab51d573ec60c402086f2a1e",
+        "timestamp": 1562774951
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "3118b890c34663dc39fa10dbe02e41f7f758926a",
+        "timestamp": 1562872628
+      },
+      {
+        "files": [
+          ".binstar.yml",
+          "conda.recipe/meta.yaml",
+          "toolz/__init__.py"
+        ],
+        "sha": "f18253d29f6fd1a28d816c2b7edf16572d6a502e",
+        "timestamp": 1562875964
+      },
+      {
+        "files": [
+          "toolz/compatibility.py"
+        ],
+        "sha": "0684a4d91ba140a22a64aef85d4a7148b7f881a7",
+        "timestamp": 1563044693
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "b052943bc57d4193cf96fcf9bd828ce438f7b950",
+        "timestamp": 1563044716
+      },
+      {
+        "files": [
+          "toolz/_signatures.py"
+        ],
+        "sha": "cf9979a438372d4ab87c9b7426c168c1a32ce60c",
+        "timestamp": 1563044757
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "c12d2d71686e705e94f3a3c5dddfc5ef8d0e0ea9",
+        "timestamp": 1563044996
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "5f5ca40faa79ba38cbb75b2bb60a863ea7e124aa",
+        "timestamp": 1563046093
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "bd3f3feec3ea0d068e6f1e6e7ba49591977de47d",
+        "timestamp": 1563046300
+      },
+      {
+        "files": [
+          "toolz/recipes.py"
+        ],
+        "sha": "3560b2b18affd616a26123c100636307de664946",
+        "timestamp": 1563046329
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "d56766514ef81ffc7387a85a6c94e93ff35fa87d",
+        "timestamp": 1563046807
+      },
+      {
+        "files": [
+          "toolz/curried/__init__.py",
+          "toolz/sandbox/parallel.py"
+        ],
+        "sha": "85326bd35bd9bdda25287fffc3f0dff3fea30ab4",
+        "timestamp": 1563046828
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "80ae19783d10852619d435253cfc2e052be7a73c",
+        "timestamp": 1563047748
+      },
+      {
+        "files": [
+          "toolz/tests/test_signatures.py"
+        ],
+        "sha": "22ba48f09317bd5db5ebd186c7bddf27a8e846ca",
+        "timestamp": 1563048151
+      },
+      {
+        "files": [
+          "toolz/__init__.py",
+          "toolz/curried/__init__.py"
+        ],
+        "sha": "2ddfd0eb1d6673bfc94ff40bf506337d5bb89ab1",
+        "timestamp": 1563048441
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "eab69e6478b7d437e8f4e225f6521dfda7027a47",
+        "timestamp": 1563048660
+      },
+      {
+        "files": [
+          "toolz/sandbox/tests/test_core.py"
+        ],
+        "sha": "9f4ab2fa425809c1071394baccc9f4e4a43cbd36",
+        "timestamp": 1563048933
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "b281ddeb1c30476fc1205d5218753d402083eece",
+        "timestamp": 1563049024
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "aa6d33edc2c465b0a6b2bcdbedf98ce9d4568427",
+        "timestamp": 1563050410
+      },
+      {
+        "files": [
+          "toolz/compatibility.py"
+        ],
+        "sha": "e4416e05c27cf47d239261134f31f3637a4e2474",
+        "timestamp": 1563050494
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "03becaa7abd0c1a571b99a41c72fec27abb533fb",
+        "timestamp": 1563051800
+      },
+      {
+        "files": [
+          "toolz/_signatures.py",
+          "toolz/functoolz.py"
+        ],
+        "sha": "72cf9755de264527ffcc492f1ded6bc413fe11f8",
+        "timestamp": 1563052424
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "373f620beaf0b979a846f5ff1d013de747862f86",
+        "timestamp": 1563052564
+      },
+      {
+        "files": [
+          "doc/source/parallelism.rst"
+        ],
+        "sha": "b2df6cd41b6f78dd19eb2fd48e82dae1d307da66",
+        "timestamp": 1570669748
+      },
+      {
+        "files": [
+          "toolz/compatibility.py",
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "adc70fd6231e895df47d080084ff234f65050e0b",
+        "timestamp": 1570748216
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py",
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "c696ac6f3c2962b370fe8dda78c64cf2564e1457",
+        "timestamp": 1570800187
+      },
+      {
+        "files": [
+          "toolz/compatibility.py"
+        ],
+        "sha": "91edafa520d7beffe277b2956b9da15b7649fd86",
+        "timestamp": 1571351363
+      },
+      {
+        "files": [
+          "README.rst",
+          "doc/source/install.rst",
+          "doc/source/references.rst",
+          "setup.py"
+        ],
+        "sha": "66527cfe2193085fe0f83144a4d4a9589bff163d",
+        "timestamp": 1571351914
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8c64cca8f62b4a52215027b16a980c5446ac0d14",
+        "timestamp": 1571352414
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "1f52206d70b4e8b031784d28d61a8102988094b8",
+        "timestamp": 1571352662
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "b1aad6825549f8015cd76aa0b70d96d377d73e0a",
+        "timestamp": 1571353033
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "6bfbe7b8698dd54db32de3d94af0e06f6a764399",
+        "timestamp": 1571353188
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "62a2470605b866d6622142ea75185d8928b1e41e",
+        "timestamp": 1571353264
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "baa983b7fdc8d6903eef4b3600a7dde4c48a46e1",
+        "timestamp": 1571439547
+      },
+      {
+        "files": [
+          "tlz/_build_tlz.py"
+        ],
+        "sha": "6864aabe31e51c95b122594ceb95f764f92b358e",
+        "timestamp": 1572852990
+      },
+      {
+        "files": [
+          "toolz/tests/test_tlz.py"
+        ],
+        "sha": "e6d27a2066dc8af3211a5bb6073e2cf6a76e4261",
+        "timestamp": 1572854797
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "af561c420aaea843c6213302a60bb58bc09e8c16",
+        "timestamp": 1576914904
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "30b5e8e317ffd3f0de549b18c86f2fb20ac97729",
+        "timestamp": 1578337560
+      },
+      {
+        "files": [
+          "toolz/compatibility.py"
+        ],
+        "sha": "3b5afe90edd671fcb28c66afba691dd4bb846a2a",
+        "timestamp": 1563044693
+      },
+      {
+        "files": [
+          "toolz/tests/test_dicttoolz.py"
+        ],
+        "sha": "4dea63857cbde7f9601d768324722d764a1b4daf",
+        "timestamp": 1584379144
+      },
+      {
+        "files": [
+          "toolz/compatibility.py"
+        ],
+        "sha": "dce0edf5240c8d1af9e6f27292e0bad63a3eece7",
+        "timestamp": 1584389211
+      },
+      {
+        "files": [
+          "toolz/tests/test_compatibility.py"
+        ],
+        "sha": "15175067348ac6c531a0343d710eac44f356f362",
+        "timestamp": 1584389325
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "cb345f75b35f3704aedcee01b7b279c263a53c88",
+        "timestamp": 1584389560
+      },
+      {
+        "files": [
+          "toolz/compatibility.py"
+        ],
+        "sha": "b05665dba01b7d76c60b40af5928fbeacace9650",
+        "timestamp": 1584389810
+      },
+      {
+        "files": [
+          "toolz/compatibility.py"
+        ],
+        "sha": "cbfc621193c709fd1177cc913ae367338be668ef",
+        "timestamp": 1584390243
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "bcddd8bd418a1420722bc886c67acb91d3cbd452",
+        "timestamp": 1584390827
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "1e1842de98843142aa850c9b2d7820ebccd69f1c",
+        "timestamp": 1584391063
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "aa658ed0b8ea167c55795d7f88401d152997e9f5",
+        "timestamp": 1584391345
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "81aafd64ad0700d7101914f13caa198222bc7f35",
+        "timestamp": 1584391456
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f0aa08249f6f1c900e2bc9cbe1e34b5e550036bc",
+        "timestamp": 1584391698
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f44567dd32ef48205366fcd1a52013fbb640e8da",
+        "timestamp": 1584395916
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "toolz/functoolz.py"
+        ],
+        "sha": "fa0887e30eef0f74f3aa776354b9cfed7437f512",
+        "timestamp": 1584396286
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "85579a3903f1440cece7c4d709b66675f20f6cda",
+        "timestamp": 1584396629
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "b58439510381ef1a2fdee7fee84d6466a20c00a2",
+        "timestamp": 1584396947
+      },
+      {
+        "files": [
+          "toolz/__init__.py"
+        ],
+        "sha": "996ec0c86276df236c5bdb3737dcac5b4e0592ff",
+        "timestamp": 1584397114
+      },
+      {
+        "files": [
+          "toolz/_signatures.py",
+          "toolz/functoolz.py"
+        ],
+        "sha": "918918a92bc67cb2282d7f83e00811a6f879e322",
+        "timestamp": 1584398365
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "847873b5bd5228bb9f59636b7cd7f67cefdf6005",
+        "timestamp": 1589288774
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "e69c164c11eb5112887d7d1039a9b3ea05015b1b",
+        "timestamp": 1589909286
+      },
+      {
+        "files": [
+          "doc/source/control.rst"
+        ],
+        "sha": "3eb3e85abf70b9c88a2464e6397c07ad31dafa9a",
+        "timestamp": 1595089329
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "ba4dbcef1db6ec78397ab6d5ed5502eb94ea740f",
+        "timestamp": 1595114816
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "3a9b97262c1879ee3a895822f96bf2afcddad5ae",
+        "timestamp": 1595115359
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "57d62fe427b82f9a6de082191f33e803b71f9fc2",
+        "timestamp": 1595115797
+      },
+      {
+        "files": [
+          "doc/source/purity.rst"
+        ],
+        "sha": "fa19825faa0551f706c9d77113cb730f6d0fdfc7",
+        "timestamp": 1600684143
+      },
+      {
+        "files": [
+          ".coveragerc"
+        ],
+        "sha": "a5cc6213e64225c9ac16157cee87cb3c578e2f46",
+        "timestamp": 1600875958
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5eebeca8a0f924907b6a253f1c538b5516106d6f",
+        "timestamp": 1600885451
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "0869f05c5dfa35e252a3009f2f8130147b2cb3ae",
+        "timestamp": 1600959405
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "918c0103e4dbe943d8610517870e17dd65bbddcd",
+        "timestamp": 1611263802
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "toolz/_signatures.py"
+        ],
+        "sha": "da81b1e8ab96b22ed81e6414099aba066633f3ff",
+        "timestamp": 1619068824
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "aa62bea6946ef65fc1c57ff66467de1fe6efff55",
+        "timestamp": 1619069755
+      },
+      {
+        "files": [
+          ".coveragerc",
+          ".github/workflows/test.yml",
+          ".gitignore",
+          "setup.cfg"
+        ],
+        "sha": "64aaa92b9715fcd91bd7f5e45c051d29c09d7aa9",
+        "timestamp": 1628220298
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          ".travis.yml",
+          "README.rst"
+        ],
+        "sha": "4e4cb05368a00eb03094c3b43347030a49e72f53",
+        "timestamp": 1628220860
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "cffc85dba46bfcdb116d320f6a114f52ae4526a2",
+        "timestamp": 1628221150
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "9cf978ecb6df3a59bffe28ef9ff475f51d33c9f7",
+        "timestamp": 1628221358
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "06eebf4dd66e15c63c680c26fa35d7737482c50f",
+        "timestamp": 1585694513
+      },
+      {
+        "files": [
+          "toolz/compatibility.py"
+        ],
+        "sha": "1274bddb3e6344920a949a6b75c3079a7f9bffd3",
+        "timestamp": 1585694525
+      },
+      {
+        "files": [
+          "toolz/tests/test_compatibility.py"
+        ],
+        "sha": "d78c2b17ae4457b851ea760e4c2be3d7497ab2d6",
+        "timestamp": 1585694829
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "c03c713f6ef693635f3e98226520d9999699fe31",
+        "timestamp": 1585694844
+      },
+      {
+        "files": [
+          "versioneer.py"
+        ],
+        "sha": "7dcce7a1b3431ea5ecc99d3d7640c35907396ece",
+        "timestamp": 1635377537
+      },
+      {
+        "files": [
+          "toolz/tests/test_compatibility.py"
+        ],
+        "sha": "ba9b182c7a9182d543f2a0497b736409bb83decd",
+        "timestamp": 1635379125
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "doc/source/tips-and-tricks.rst",
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "e455f6c637ee82bc170c04b5fe6905553054cce6",
+        "timestamp": 1636170453
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "28620de7db7f509cbb26a3bc8303741d15df1260",
+        "timestamp": 1636170607
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5f265c9d44ede39d5ef5d1748d984de6996e0308",
+        "timestamp": 1636175041
+      },
+      {
+        "files": [
+          "toolz/_version.py",
+          "toolz/sandbox/core.py",
+          "toolz/sandbox/tests/test_core.py",
+          "versioneer.py"
+        ],
+        "sha": "de0a4ac975915ee17d38f7aedabaabbaed81b888",
+        "timestamp": 1636785943
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "5a0de69aeba5039ee41f7acf35f58ca0db8fe6d4",
+        "timestamp": 1643401813
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "03466dda77b379bb5c28d33327f9a4652db6169a",
+        "timestamp": 1643402514
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "f37b976699700262bd5ff105b248911d041f5a29",
+        "timestamp": 1648685513
+      },
+      {
+        "files": [
+          "toolz/dicttoolz.py"
+        ],
+        "sha": "6509be55e8022bbbe1f4470aec03797512593979",
+        "timestamp": 1651528068
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "tlz/_build_tlz.py"
+        ],
+        "sha": "6a8de2e8f61bc65e71708d5e5a34cc67f235b7e5",
+        "timestamp": 1655317364
+      },
+      {
+        "files": [
+          "tlz/_build_tlz.py"
+        ],
+        "sha": "dfbc3d60d33362babe759f6e2c6d3d87f1de06a7",
+        "timestamp": 1655319620
+      },
+      {
+        "files": [
+          "toolz/curried/operator.py",
+          "toolz/functoolz.py",
+          "toolz/itertoolz.py"
+        ],
+        "sha": "77c044e9b228ec08a8d8380dfc4a3ec85ea48f4f",
+        "timestamp": 1657057673
+      },
+      {
+        "files": [
+          "toolz/tests/test_curried.py"
+        ],
+        "sha": "7880c5739e7a49913e73a2c09bfa3eb0dd86c3a2",
+        "timestamp": 1657058126
+      },
+      {
+        "files": [
+          ".github/dependabot.yml",
+          ".github/workflows/publish_pypi.yml"
+        ],
+        "sha": "7640dc10d42b6055cd20713be333eb54ff58f529",
+        "timestamp": 1657397037
+      },
+      {
+        "files": [
+          ".github/workflows/publish_pypi.yml"
+        ],
+        "sha": "e50ab10d4efc3310a62a6f45c2b03c1dbb63e487",
+        "timestamp": 1657426016
+      },
+      {
+        "files": [
+          "toolz/_signatures.py"
+        ],
+        "sha": "5b8516b5ed7c92d2f077d01647c5882929293c8c",
+        "timestamp": 1657949126
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "f0831e7cc4f0dd8eb67cbd3e23491e99827b0af4",
+        "timestamp": 1660799312
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "5a3b8b14935b9a969c01948d6692b5fcbf51f885",
+        "timestamp": 1663833127
+      },
+      {
+        "files": [
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "10e97e43525c7205240307866b390a363c352e65",
+        "timestamp": 1663835368
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "setup.py"
+        ],
+        "sha": "6b25d6b22f0d3cee5d60fe9f8bd199a61c3b2df0",
+        "timestamp": 1667503845
+      },
+      {
+        "files": [
+          "toolz/functoolz.py"
+        ],
+        "sha": "c4fc6b082630bb97999ac00cdbb44f002569209f",
+        "timestamp": 1680894477
+      },
+      {
+        "files": [
+          "doc/source/streaming-analytics.rst",
+          "toolz/itertoolz.py"
+        ],
+        "sha": "47d62a2a4d528670a27789f9b4b9e5ae875a0fdb",
+        "timestamp": 1689026220
+      },
+      {
+        "files": [
+          ".github/workflows/publish_pypi.yml"
+        ],
+        "sha": "0c601d533c2b1f384ee42bf17ed8f024fc80eca8",
+        "timestamp": 1706065233
+      },
+      {
+        "files": [
+          "bench/test_join.py"
+        ],
+        "sha": "7a0382e326eb2549e4dc7b833dc666a877feca38",
+        "timestamp": 1706066529
+      },
+      {
+        "files": [
+          "toolz/tests/test_functoolz.py",
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "0c2b43a926a3543817240c878c6ded1180c81b71",
+        "timestamp": 1727464461
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "README.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "fe81c197cacfbba02e4a9857677ae7b33e81de42",
+        "timestamp": 1727466124
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "fec5fd6dad77a7b8c6cfee4186ecf2463f013cc9",
+        "timestamp": 1727469321
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "6af78734fc3431a7d75d3d1cc97139e965ba8ff5",
+        "timestamp": 1728368203
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "08f2604f599847272d801c7f0467451de59fa33a",
+        "timestamp": 1736358675
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "toolz/curried/operator.py",
+          "toolz/tests/test_inspect_args.py"
+        ],
+        "sha": "688a81257243640db5c4099bdd063f1c31810a72",
+        "timestamp": 1750536766
+      },
+      {
+        "files": [
+          ".github/workflows/publish_pypi.yml"
+        ],
+        "sha": "8aca7ee07a1397b14e42c8f1d8aaaffbc109cd03",
+        "timestamp": 1760587674
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py",
+          "toolz/tests/test_itertoolz.py"
+        ],
+        "sha": "5a7e078c941c990dcaca53ac6920e5d5c0b1475f",
+        "timestamp": 1760655283
+      },
+      {
+        "files": [
+          "toolz/itertoolz.py"
+        ],
+        "sha": "5eee30eb6c35aedffe33ff685b44b9d704cf278a",
+        "timestamp": 1760655842
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "toolz/sandbox/tests/test_parallel.py"
+        ],
+        "sha": "af7f85ad7b083c083aea6edabec417dec4e7fc12",
+        "timestamp": 1760658047
+      },
+      {
+        "files": [
+          ".github/workflows/pre-commit.yml",
+          "pyproject.toml",
+          "toolz/sandbox/tests/__init__.py"
+        ],
+        "sha": "568c2b8393973cd172a466546c9d95779c452438",
+        "timestamp": 1760671779
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 4,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".binstar.yml": 0,
+      ".coveragerc": 1,
+      ".github/dependabot.yml": 2,
+      ".github/workflows/pre-commit.yml": 3,
+      ".github/workflows/publish_pypi.yml": 4,
+      ".github/workflows/test.yml": 5,
+      ".gitignore": 6,
+      ".travis.yml": 7,
+      "AUTHORS": 8,
+      "AUTHORS.md": 9,
+      "MANIFEST.in": 10,
+      "README.md": 11,
+      "README.rst": 12,
+      "bench/test_curry.py": 13,
+      "bench/test_curry_baseline.py": 14,
+      "bench/test_first.py": 15,
+      "bench/test_first_iter.py": 16,
+      "bench/test_frequencies.py": 17,
+      "bench/test_get.py": 18,
+      "bench/test_get_list.py": 19,
+      "bench/test_groupby.py": 20,
+      "bench/test_join.py": 21,
+      "bench/test_memoize.py": 22,
+      "bench/test_memoize_kwargs.py": 23,
+      "bench/test_pluck.py": 24,
+      "bench/test_rolling_partition.py": 25,
+      "bench/test_sliding_window.py": 26,
+      "bench/test_wordcount.py": 27,
+      "build.sh": 28,
+      "conda.recipe/bld.bat": 29,
+      "conda.recipe/build.sh": 30,
+      "conda.recipe/meta.yaml": 31,
+      "doc/source/api.rst": 32,
+      "doc/source/composition.rst": 33,
+      "doc/source/conf.py": 34,
+      "doc/source/control.rst": 35,
+      "doc/source/curry.rst": 36,
+      "doc/source/dicttoolz.rst": 37,
+      "doc/source/functoolz.rst": 38,
+      "doc/source/heritage.rst": 39,
+      "doc/source/index.rst": 40,
+      "doc/source/install.rst": 41,
+      "doc/source/itertoolz.rst": 42,
+      "doc/source/laziness.rst": 43,
+      "doc/source/parallelism.rst": 44,
+      "doc/source/purity.rst": 45,
+      "doc/source/references.rst": 46,
+      "doc/source/streaming-analytics.rst": 47,
+      "doc/source/tips-and-tricks.rst": 48,
+      "examples/fib.py": 49,
+      "examples/graph.py": 50,
+      "examples/wordcount.py": 51,
+      "pyproject.toml": 52,
+      "release-notes": 53,
+      "setup.cfg": 54,
+      "setup.py": 55,
+      "tlz/__init__.py": 56,
+      "tlz/_build_tlz.py": 57,
+      "toolz/__init__.py": 58,
+      "toolz/_signatures.py": 59,
+      "toolz/_version.py": 60,
+      "toolz/compatibility.py": 61,
+      "toolz/curried.py": 62,
+      "toolz/curried/__init__.py": 63,
+      "toolz/curried/core.py": 64,
+      "toolz/curried/exceptions.py": 65,
+      "toolz/curried/operator.py": 66,
+      "toolz/dicttoolz.py": 67,
+      "toolz/dicttoolz/__init__.py": 68,
+      "toolz/functoolz.py": 69,
+      "toolz/functoolz/__init__.py": 70,
+      "toolz/functoolz/core.py": 71,
+      "toolz/functoolz/tests/test_core.py": 72,
+      "toolz/itertoolz.py": 73,
+      "toolz/itertoolz/__init__.py": 74,
+      "toolz/itertoolz/core.py": 75,
+      "toolz/itertoolz/tests/test_core.py": 76,
+      "toolz/recipes.py": 77,
+      "toolz/sandbox/__init__.py": 78,
+      "toolz/sandbox/core.py": 79,
+      "toolz/sandbox/parallel.py": 80,
+      "toolz/sandbox/tests/__init__.py": 81,
+      "toolz/sandbox/tests/test_core.py": 82,
+      "toolz/sandbox/tests/test_parallel.py": 83,
+      "toolz/tests/__init__.py": 84,
+      "toolz/tests/dont_test_multiprocessing.py": 85,
+      "toolz/tests/test_compatibility.py": 86,
+      "toolz/tests/test_curried.py": 87,
+      "toolz/tests/test_curried_doctests.py": 88,
+      "toolz/tests/test_dicttoolz.py": 89,
+      "toolz/tests/test_functoolz.py": 90,
+      "toolz/tests/test_inspect_args.py": 91,
+      "toolz/tests/test_itertoolz.py": 92,
+      "toolz/tests/test_recipes.py": 93,
+      "toolz/tests/test_serialization.py": 94,
+      "toolz/tests/test_signatures.py": 95,
+      "toolz/tests/test_tlz.py": 96,
+      "toolz/tests/test_utils.py": 97,
+      "toolz/utils.py": 98,
+      "tox.ini": 99,
+      "versioneer.py": 100
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1378868048,
+      "last_commit_ts": 1760671779,
+      "n_cochange_pairs": 73,
+      "n_commits_dropped_as_bulk": 43,
+      "n_commits_used": 899,
+      "n_files": 101
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "568c2b8393973cd172a466546c9d95779c452438",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
