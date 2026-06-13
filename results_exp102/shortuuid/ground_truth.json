@@ -1,0 +1,1249 @@
+{
+  "chain_hash": "61b8c078e38b4a4a",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".pre-commit-config.yaml||tox.ini": 2,
+      ".travis.yml||setup.py": 4,
+      ".travis.yml||tox.ini": 2,
+      "CHANGELOG.md||README.md": 2,
+      "CHANGELOG.md||pyproject.toml": 9,
+      "CHANGELOG.md||shortuuid/__init__.py": 7,
+      "README.md||shortuuid/django_fields.py": 2,
+      "README.rst||setup.py": 2,
+      "README.rst||shortuuid/__init__.py": 2,
+      "README.rst||shortuuid/main.py": 2,
+      "pyproject.toml||shortuuid/__init__.py": 7,
+      "setup.py||shortuuid/__init__.py": 4,
+      "setup.py||shortuuid/main.py": 3,
+      "setup.py||shortuuid/test_shortuuid.py": 3,
+      "shortuuid/__init__.py||shortuuid/main.py": 3,
+      "shortuuid/__init__.py||shortuuid/test_shortuuid.py": 3,
+      "shortuuid/cli.py||shortuuid/main.py": 2,
+      "shortuuid/django_fields.py||shortuuid/main.py": 3,
+      "shortuuid/main.py||shortuuid/test_shortuuid.py": 12
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "COPYING",
+          "README.rst",
+          "setup.py",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "57ad5d63571a03c1d53dff31d86e0bc3a4d4851a",
+        "timestamp": 1294497892
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "348a4a78710b4bb12eee45f0169c4470672dd65b",
+        "timestamp": 1294498004
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "918121fab86c03987b2bc45d9593517d3e79c33a",
+        "timestamp": 1294597014
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c33c50bf32e78f33b25a96f33006c8e27af5580f",
+        "timestamp": 1294626561
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1089b7ab6232951b9fb33a6931519b39fca78bd4",
+        "timestamp": 1313682844
+      },
+      {
+        "files": [
+          "README.rst",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "d47f5cc4bce3e328a4df6efc95c02b8fe1765ef5",
+        "timestamp": 1327462060
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c56e5486fb29e92d4c61ae7f587383ce4fae1fa3",
+        "timestamp": 1329597020
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "539af71fb98af6d341879d6052e587569b4f7359",
+        "timestamp": 1329597092
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "1a16f5bf72b995cdcde7959eae77f1d96c450025",
+        "timestamp": 1329597444
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0f6688ee2d5a2673c47ce688f07c4427dec821f8",
+        "timestamp": 1329597954
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "00a79182d3d079619b4faae9e77c81f6f6350250",
+        "timestamp": 1338324691
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "c4f0b925cb4c24c7d994021ad721ff93d28ce60d",
+        "timestamp": 1358351567
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "65a352fa7d6e7850512390b1ac2119e998e891bb",
+        "timestamp": 1358360975
+      },
+      {
+        "files": [
+          "shortuuid/main.py"
+        ],
+        "sha": "0570e71f3f54b5d26251d4e4aa847e886436d3de",
+        "timestamp": 1358361248
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "143a6dc8421bf2412f4ea0b4648aba80ab3499a2",
+        "timestamp": 1358421025
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "2ef0df7f2d73e14c4402360f6eff767731a66e88",
+        "timestamp": 1358421853
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "33660782f195e9f24246ed8a53d80ca6bf311812",
+        "timestamp": 1358422067
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "eb383e0fcc685f0c57f77f6108d5e59039688699",
+        "timestamp": 1358824023
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "efd7c983136a80026c920029c9dcbfe86a40875d",
+        "timestamp": 1358826540
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "a0feec30bda2d561a9865fbf6ac53cbced220884",
+        "timestamp": 1359033773
+      },
+      {
+        "files": [
+          "shortuuid/main.py"
+        ],
+        "sha": "250376595cde2780208a5efca3de8357c4142110",
+        "timestamp": 1359033803
+      },
+      {
+        "files": [
+          "shortuuid/main.py"
+        ],
+        "sha": "50d7f109e25f03b05c74e4e913ca95dbc4b7e091",
+        "timestamp": 1359042984
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "e8cac7d02ead718502e578b45728b9a87bd7f8ca",
+        "timestamp": 1359043001
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "8b38af33058adfcc7b79d2cab013f232989a41e7",
+        "timestamp": 1359043255
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "87df78fe8b59cd24c6cdef6616165b2988bdf273",
+        "timestamp": 1359043262
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "d78cc37ec54da85e0c9a7d5798c39835e93bf8d9",
+        "timestamp": 1359044190
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6f2b44f03c27c1e475a6a057a89a7e846ef04cd4",
+        "timestamp": 1370746276
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "9e5b3555794b59defa5ce13c25deddba01f568fc",
+        "timestamp": 1377668920
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "bc68be08d681758cdb558b848ebd8080a7147df6",
+        "timestamp": 1377772247
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "a4a0d8f1ff9665a592aae24400d84807770fd96d",
+        "timestamp": 1392758382
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "1c2862d4f43b9463f45680a0e0c6f00a0f0bf068",
+        "timestamp": 1392761460
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5f68c9eeeb32f67d52ac3f804a0239d323d44a05",
+        "timestamp": 1392761802
+      },
+      {
+        "files": [
+          "setup.py",
+          "shortuuid/__init__.py",
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "641658e7dd4aaf7a22375996efe599444bd7858f",
+        "timestamp": 1392762686
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "4fa58df469a5bbe7ea1dfdbe3d934c1f6226aa9c",
+        "timestamp": 1392762817
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "73a604c5ba3b1cb81a7b1c1ff41d0b66fd36469f",
+        "timestamp": 1392767307
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "b4bed339d83c4a8e3f4748c1729352f252e159d7",
+        "timestamp": 1392814196
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "3b0be7ff18495db2bc6ed5cb8b5a904e5f50f411",
+        "timestamp": 1395747102
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "48de0cb7473d1893b4509f06df7c6a3f868afd88",
+        "timestamp": 1395750916
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "45e0b656d6ccf745d03e1fcc658bd041df9837b0",
+        "timestamp": 1397839206
+      },
+      {
+        "files": [
+          "setup.py",
+          "shortuuid/main.py"
+        ],
+        "sha": "b19490d851c4896f9b36dfb2d6125b413ca4a272",
+        "timestamp": 1397839610
+      },
+      {
+        "files": [
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "f088c8e3d6c20568c99f50afae9e81265d02c8df",
+        "timestamp": 1397840069
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "051f4f414613e2905fade2d129f35f42553fc106",
+        "timestamp": 1397840376
+      },
+      {
+        "files": [
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "13337500d619387b1994aa8f3da52db470ab4640",
+        "timestamp": 1397841063
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fd03a801bf41b5dc048cfb18ee272b0a91146c77",
+        "timestamp": 1397841093
+      },
+      {
+        "files": [
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "02675df23c2a0386a038df2e3ed8f1ba326ab69b",
+        "timestamp": 1398458965
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "486e573406548be791bae836d1e153642bceebc9",
+        "timestamp": 1398471198
+      },
+      {
+        "files": [
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "689c516a5e6409d0498f8af39e668e188231d757",
+        "timestamp": 1399085590
+      },
+      {
+        "files": [
+          ".gitignore",
+          "tox.ini"
+        ],
+        "sha": "973ac8f1d5007d0c32b9a5d5c726c774a1e744a7",
+        "timestamp": 1399145183
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "b97eff16e6b965bbdd029bd34c8771ec8ce6936f",
+        "timestamp": 1399745711
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py",
+          "shortuuid/main.py"
+        ],
+        "sha": "b2e578bdad99236f2e1837f834c47ac46bc4e049",
+        "timestamp": 1399747585
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py",
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "2f9e6ac11a1cd064a265432c0250c643f3ea88ef",
+        "timestamp": 1399752623
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1cb0d1dcb30f41077120a7b457e09e06b0ee150e",
+        "timestamp": 1404338300
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "71d2e23977e12aa100ac052c24029f50e67d7c09",
+        "timestamp": 1420464759
+      },
+      {
+        "files": [
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "4477612278e56a94ef7fe781366487f141e6760e",
+        "timestamp": 1421193277
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "a3c5c8cc52e27b5ad956c2c48b35f25458f2f905",
+        "timestamp": 1421197424
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "b7f2efe79e5a91ab78850842eafc73d1ee0a52cc",
+        "timestamp": 1425701624
+      },
+      {
+        "files": [
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "a6698e97ecdc520e6668a0d5b20fe0c3a31939c8",
+        "timestamp": 1425766306
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "tox.ini"
+        ],
+        "sha": "76fc02a2f84cf6506ac1216f1aaf56c32c88fd3a",
+        "timestamp": 1430771580
+      },
+      {
+        "files": [
+          "shortuuid/main.py"
+        ],
+        "sha": "ae60456e37cd7e7d37f6050a45890a6f0988edc8",
+        "timestamp": 1431945657
+      },
+      {
+        "files": [
+          "shortuuid/main.py"
+        ],
+        "sha": "0f066358ac488f77e5b0d68e905d1ee88f3251ee",
+        "timestamp": 1452520997
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "33940bc45785f41ecc907230815cd4ead989df04",
+        "timestamp": 1452521100
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "a98d47e958b8f4455e5d1bf3080b282b55f6002c",
+        "timestamp": 1452724299
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "adc5c00f5496fed8b0b1b4c523737cfbaf688945",
+        "timestamp": 1452725248
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bec75d8f1b8d9c8b1f5bdca9ec747a658f4c27b6",
+        "timestamp": 1485232461
+      },
+      {
+        "files": [
+          "shortuuid/main.py"
+        ],
+        "sha": "884ff7c14173ab4d16cd0c26587e8b87cbec5a46",
+        "timestamp": 1487470540
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "653ce3d9fc8827c2f6566cbf0e8e10557e04cb5a",
+        "timestamp": 1487514279
+      },
+      {
+        "files": [
+          ".gitchangelog.rc"
+        ],
+        "sha": "e60207b36cb2e157e97fe35386d8ecc52e7450d7",
+        "timestamp": 1487604081
+      },
+      {
+        "files": [
+          "shortuuid/main.py"
+        ],
+        "sha": "bd2f38ebb95a50f615a691a43188b8adc1cadfaf",
+        "timestamp": 1497526999
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "26ec1dd4f485278c609b230157c37916ffa424c4",
+        "timestamp": 1497527332
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "cf91791fadbf7dc00bc8f430631bf2cccb7f163f",
+        "timestamp": 1497528577
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "3451d5fdcd138fc223dbf5c58614f4b75b00bd74",
+        "timestamp": 1497528795
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "e6ed7920329c46588a24e3178fc16466c2fa1d80",
+        "timestamp": 1497529145
+      },
+      {
+        "files": [
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "f9ceea3594ec68c73031616212562ff9f43b2e80",
+        "timestamp": 1533945270
+      },
+      {
+        "files": [
+          "shortuuid/main.py"
+        ],
+        "sha": "90b6f5ccc18577fae9af7f95b3a380d0c34bd0dd",
+        "timestamp": 1533945744
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9efe5e28924f0bd77064c5abca71080808b206ba",
+        "timestamp": 1533945799
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "05ec1708414b7440dd8391b13babde323dc8fd48",
+        "timestamp": 1537962022
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "67a3c5665a2a91d00a8db8dc8a0fcf12935b5040",
+        "timestamp": 1537962277
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "14396fff0b420316307b59b5c2191d0a8d590fb5",
+        "timestamp": 1537962652
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "d1235420a982c07307950525a8f175412411decc",
+        "timestamp": 1537962855
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "30d7717e18bd546bd9edf4b15cc2ac9cb5a1f24a",
+        "timestamp": 1537963319
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "92b0fb5d09b35e7e252be437bd38689239827188",
+        "timestamp": 1537969857
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a8d0564cc1ec079f8512bcf04a632d3f3f796742",
+        "timestamp": 1544098515
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4da632a986c3a43f75c7df64f27a90bbf7ff8039",
+        "timestamp": 1544098537
+      },
+      {
+        "files": [
+          "README.rst",
+          "shortuuid/cli.py"
+        ],
+        "sha": "c79ba355e10d70eab5f387037214ca7b467c18da",
+        "timestamp": 1573998345
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "shortuuid/cli.py",
+          "shortuuid/main.py"
+        ],
+        "sha": "b063a4ef032124cca8e3ebb94bca59f5bcefc6eb",
+        "timestamp": 1583414158
+      },
+      {
+        "files": [
+          ".gitchangelog.rc",
+          ".pre-commit-config.yaml",
+          "CHANGELOG.md"
+        ],
+        "sha": "39cd311dd95cb1fa911648c648086f596b79dd0c",
+        "timestamp": 1583414326
+      },
+      {
+        "files": [
+          "README.rst",
+          "shortuuid/main.py"
+        ],
+        "sha": "33c9596463b9d7e323933e1880df5f5b00215372",
+        "timestamp": 1583492782
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "e5da029f829cb74d9bd805bf62c6ee72fa8fb5be",
+        "timestamp": 1583493419
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "757b9095f30c3ded79c4a73975192457d7bae3a6",
+        "timestamp": 1583493570
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "896866c3e2b95df64273ac123eeceb2757042ecc",
+        "timestamp": 1583493686
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "652bd1d2fcbc75ff537ac43830d62a7bcb5c0e02",
+        "timestamp": 1583494526
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "55a3a88ac20966056d0984de8e904bf44e0c68ff",
+        "timestamp": 1583494661
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "cfdb75052f223df4618ca6cc58c3867b393a8067",
+        "timestamp": 1583495076
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f7b01cca4cc5a8b458f87376cd73c078376e62ca",
+        "timestamp": 1583495262
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "26a2429661d23e7c92d1de17582cb9170b28335d",
+        "timestamp": 1583495278
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "67125258eae5b8ed4c51f811bec521004beccf67",
+        "timestamp": 1583495326
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "664367ffde945661583b0434309882ec74c5ad06",
+        "timestamp": 1583495387
+      },
+      {
+        "files": [
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "6565a3b44837a3b42f1aab0adbefa768adea010f",
+        "timestamp": 1607442551
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "62cc86c20f055c1618096f637ac3f62ed453be82",
+        "timestamp": 1608052358
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "b1b94b8f5e7422d6fc9e15098ab06bdc135560ac",
+        "timestamp": 1613573787
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "3848d94afdabaa806590009240c9349d6a7e6ddc",
+        "timestamp": 1636334929
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pyproject.toml",
+          "setup.py",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "adbdfb3157d9a79a7c97eb49989052c52c7f4993",
+        "timestamp": 1636336714
+      },
+      {
+        "files": [
+          "README.rst",
+          "shortuuid/django_fields.py"
+        ],
+        "sha": "1e77eae1a7c67752a6ea77cba14c7cc258fd98ae",
+        "timestamp": 1636376687
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "20969a8581dd97bd2a7679056447816003fc2f63",
+        "timestamp": 1636376731
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "349fef6aa7b707e65ce1f94c57f1c5dbb0f0e227",
+        "timestamp": 1636387282
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "shortuuid/cli.py"
+        ],
+        "sha": "acc35018325c59baa1a98e2a025604e51cdfa1c9",
+        "timestamp": 1636387511
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "bcd01ceaf2419d874b8543e6d7c28e2c56da7a91",
+        "timestamp": 1636387532
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "5e6891c5bdbe7bfd005b086e5aee528b8e52ed09",
+        "timestamp": 1636389946
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "d2695e252f45bcfb7b6ff2224be983419213fb4d",
+        "timestamp": 1636392460
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "7bb79a896b5b9fdb1c0b54cf4fb3d2c7a008f0b5",
+        "timestamp": 1636392465
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "43e8d51d1e3529b2afb3e3cd9dce8adedb66180b",
+        "timestamp": 1636402300
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "c00659767b5807f0c452085af1165f5b88f3eacc",
+        "timestamp": 1636402360
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "README.md",
+          "shortuuid/django_fields.py"
+        ],
+        "sha": "3cd2dba3c67800d53d50d15ebcdddfe5d4ded6a2",
+        "timestamp": 1636408769
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "67039d24cf5d7b440ec9cf6a6052c6527d0f3ee7",
+        "timestamp": 1636408809
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "73d31199d104ca21ea6553a538f5c675d4572318",
+        "timestamp": 1636408838
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "COPYING",
+          "pyproject.toml"
+        ],
+        "sha": "cd5918d98d1cc9f5af4553cf1688f6cc798dd688",
+        "timestamp": 1636629646
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "64fbaee77585bb5963ec974bcbc09aa4b4530178",
+        "timestamp": 1636629664
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "README.md"
+        ],
+        "sha": "cd70fe25427b5b18702058ada5449f495fbb0d63",
+        "timestamp": 1641903770
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "de43679274ace5302d94bae86c981d7ef729dc3a",
+        "timestamp": 1646843811
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "82f885ece05005f1e45a7ca3fb8db750f5cee4a7",
+        "timestamp": 1649945351
+      },
+      {
+        "files": [
+          "shortuuid/django_fields.py"
+        ],
+        "sha": "08737889e082581b612bf0c7d109738a4d5c465c",
+        "timestamp": 1650295564
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "8c0acd41b02595641624d25e12ef4c6fbcca1c2e",
+        "timestamp": 1652003715
+      },
+      {
+        "files": [
+          "shortuuid/cli.py",
+          "shortuuid/django_fields.py",
+          "shortuuid/main.py"
+        ],
+        "sha": "50a23a4b5e3bd4550b291702bcc4b60c0017e85c",
+        "timestamp": 1655796955
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "a304e09b44635b8b3ec33a0bc0dba7256b43155b",
+        "timestamp": 1658261628
+      },
+      {
+        "files": [
+          ".github/workflows/pre-commit.yml",
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "62c4e2eeba1a3f130a58fca02e7da059c8e3ab1a",
+        "timestamp": 1661078602
+      },
+      {
+        "files": [
+          ".github/workflows/pre-commit.yml",
+          "CHANGELOG.md"
+        ],
+        "sha": "2c52cc9021103e49669a1fc4129fc60ff9658e26",
+        "timestamp": 1661078721
+      },
+      {
+        "files": [
+          ".github/workflows/pre-commit.yml",
+          "shortuuid/django_fields.py",
+          "shortuuid/main.py"
+        ],
+        "sha": "d42a94eb440c9703b3e8874054f1fdabf72da3e2",
+        "timestamp": 1661079579
+      },
+      {
+        "files": [
+          ".github/workflows/pre-commit.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "69be89ccc527aa5c98c1b49812bb94c6e4b062c0",
+        "timestamp": 1666530431
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "5b652c67edb5bf13d7ff2872ed410ebf5f49099d",
+        "timestamp": 1667993202
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "30b62027bfc92c01d4150690162d884c87c74c73",
+        "timestamp": 1667993354
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "15c34b0394fb91bf5c1f48ce5e7dcc7a258a7889",
+        "timestamp": 1667993394
+      },
+      {
+        "files": [
+          "shortuuid/py.typed"
+        ],
+        "sha": "5395de18ac3ebf250ebc281e579c56e052cd0605",
+        "timestamp": 1668021448
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "d221bbe22954a5aadbfc353e4efb558c3eecd9d6",
+        "timestamp": 1668192772
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "431c88c9677354945e3e6d50f28b257d3e1ef9bf",
+        "timestamp": 1668265354
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "43380b3fbbd43c82a2ff8e80bd01fcd6e6066c2c",
+        "timestamp": 1668267749
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "5d766b4e5c27d3f64f75f8fb49eec91d6eac6cf4",
+        "timestamp": 1668269728
+      },
+      {
+        "files": [
+          "shortuuid/__init__.py"
+        ],
+        "sha": "7a294bda950ca749ce793522334698cd657e359a",
+        "timestamp": 1668275297
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "shortuuid/__init__.py"
+        ],
+        "sha": "ffcfecdf7bcba8be759bdaa8c986785c90f3e53a",
+        "timestamp": 1668377612
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "1ec1eae1e25553eea7a4c319a29e8c86bca661d6",
+        "timestamp": 1671539314
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "tox.ini"
+        ],
+        "sha": "c993da274e1dacefc0cf8f07bde100b29b497bc8",
+        "timestamp": 1672855439
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "3eb5e6d05eb3f367fd148cdcf3a2ec404d385361",
+        "timestamp": 1672855498
+      },
+      {
+        "files": [
+          "shortuuid/django_fields.py"
+        ],
+        "sha": "2d75d89af6a69d3abac8c0f2b86e977cd4d366b5",
+        "timestamp": 1672855148
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "b0a147e1eddead1733f23d09e0a1feeceea915a6",
+        "timestamp": 1672856620
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "85320862e73915b2d8483cd4b95bdd4ece444929",
+        "timestamp": 1672856748
+      },
+      {
+        "files": [
+          "shortuuid/django_fields.py"
+        ],
+        "sha": "2f43914ba2e050ab03cd8ad76a1a20c5e2aeb6b6",
+        "timestamp": 1673656983
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "0b48734be5fe240e5a327ddef9670d86f62a210d",
+        "timestamp": 1677366508
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "d131d16b28f8a577a3d102ebe279084320a37549",
+        "timestamp": 1709162253
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "a1709c6a15a1e3ebad4a7f29ba2f806a64c65499",
+        "timestamp": 1709934566
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "16374d288c796faa2aee5789ed649c3ed7cdd9be",
+        "timestamp": 1710187789
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "a031e798e160e287fee22bfcfe48ae115d31d26a",
+        "timestamp": 1716724753
+      },
+      {
+        "files": [
+          "README.md",
+          "shortuuid/django_fields.py",
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "6843c128cb334c272954cce8f1dce1e9f9bf4054",
+        "timestamp": 1733833760
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "f127475e406ff153cfcdadb11592ea74bde75bb9",
+        "timestamp": 1764507363
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "shortuuid/main.py",
+          "shortuuid/test_shortuuid.py"
+        ],
+        "sha": "b8898871c5b977549b4ecbecbb638d8e06d7359e",
+        "timestamp": 1764548795
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 4,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".gitchangelog.rc": 0,
+      ".github/workflows/pre-commit.yml": 1,
+      ".github/workflows/test.yml": 2,
+      ".gitignore": 3,
+      ".pre-commit-config.yaml": 4,
+      ".travis.yml": 5,
+      "CHANGELOG.md": 6,
+      "COPYING": 7,
+      "MANIFEST.in": 8,
+      "README.md": 9,
+      "README.rst": 10,
+      "pyproject.toml": 11,
+      "setup.cfg": 12,
+      "setup.py": 13,
+      "shortuuid/__init__.py": 14,
+      "shortuuid/cli.py": 15,
+      "shortuuid/django_fields.py": 16,
+      "shortuuid/main.py": 17,
+      "shortuuid/py.typed": 18,
+      "shortuuid/test_shortuuid.py": 19,
+      "tox.ini": 20
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1294497892,
+      "last_commit_ts": 1764548795,
+      "n_cochange_pairs": 19,
+      "n_commits_dropped_as_bulk": 8,
+      "n_commits_used": 153,
+      "n_files": 21
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "b8898871c5b977549b4ecbecbb638d8e06d7359e",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
