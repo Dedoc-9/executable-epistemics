@@ -70,5 +70,11 @@
     "erratum_id": "E-012",
     "hash": "9472ce652ae5b901",
     "supersedes": "UPDATE_COMMITMENTS section A implausible-metric row (fixed 'filter < 5' threshold)"
+  },
+  {
+    "erratum_id": "E-013",
+    "hash": "b3c1e7f2a904d658",
+    "corrected_statement": "VENDORED-TREE EXCLUSION for pypa/pip: pip's repository contains src/pip/_vendor/, a subtree of vendored copies of external packages (requests, urllib3, certifi, etc.) not authored or maintained by the pip team. Including this subtree would (a) inject co-change pairs driven by upstream-sync commits rather than pip's own coupling structure, (b) attribute file ownership to maintainers of vendored packages rather than pip contributors, and (c) introduce dep_graph edges between vendored packages that are absent in every other study population member. No other wave-1 repository carries a vendored subtree of comparable scale. To preserve population-level comparability -- the ceteris-paribus condition that makes cross-repo aggregation interpretable -- src/pip/_vendor/* is excluded from the tracked-file set for pip's scoring via --exclude-glob 'src/pip/_vendor/*'. This exclusion is declared BEFORE pip is scored; it was not chosen after observing pip's metrics. The --exclude-glob parameter was already present in run_study.py and corpus_builder.py; no instrument code changes. Classified as commitment-rule calibration (population comparability scope decision), NOT an instrument defect; section-C erratum budget remains at 1 of 3.",
+    "supersedes": "REPO_DECLARATION implicit scope assumption (tracked files = all files in repo)"
   }
 ]
