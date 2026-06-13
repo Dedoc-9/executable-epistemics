@@ -1,0 +1,1748 @@
+{
+  "chain_hash": "663c26cd362c4423",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/workflows/ci.yml||Makefile": 3,
+      ".github/workflows/ci.yml||setup.py": 2,
+      ".github/workflows/ci.yml||src/pyotp/__init__.py": 2,
+      ".github/workflows/ci.yml||src/pyotp/utils.py": 2,
+      "Changes.rst||setup.py": 18,
+      "LICENSE||setup.py": 2,
+      "Makefile||common.mk": 2,
+      "Makefile||docs/conf.py": 2,
+      "Makefile||setup.cfg": 2,
+      "Makefile||setup.py": 2,
+      "README.markdown||lib/rotp/version.rb": 2,
+      "common.mk||setup.py": 2,
+      "docs/Makefile||docs/conf.py": 2,
+      "docs/conf.py||docs/index.rst": 2,
+      "docs/index.rst||setup.py": 2,
+      "docs/index.rst||test.py": 2,
+      "lib/rotp.rb||rotp.gemspec": 2,
+      "lib/rotp.rb||spec/base_spec.rb": 2,
+      "lib/rotp/hotp.rb||lib/rotp/totp.rb": 2,
+      "lib/rotp/hotp.rb||spec/base_spec.rb": 2,
+      "lib/rotp/totp.rb||spec/base_spec.rb": 2,
+      "pyproject.toml||setup.py": 2,
+      "setup.py||src/pyotp/__init__.py": 2,
+      "setup.py||test.py": 2,
+      "src/pyotp/__init__.py||src/pyotp/contrib/steam.py": 2,
+      "src/pyotp/__init__.py||src/pyotp/hotp.py": 9,
+      "src/pyotp/__init__.py||src/pyotp/otp.py": 7,
+      "src/pyotp/__init__.py||src/pyotp/totp.py": 8,
+      "src/pyotp/__init__.py||src/pyotp/utils.py": 8,
+      "src/pyotp/__init__.py||test.py": 13,
+      "src/pyotp/contrib/steam.py||test.py": 3,
+      "src/pyotp/hotp.py||src/pyotp/otp.py": 9,
+      "src/pyotp/hotp.py||src/pyotp/totp.py": 19,
+      "src/pyotp/hotp.py||src/pyotp/utils.py": 10,
+      "src/pyotp/hotp.py||test.py": 14,
+      "src/pyotp/otp.py||src/pyotp/totp.py": 9,
+      "src/pyotp/otp.py||src/pyotp/utils.py": 6,
+      "src/pyotp/otp.py||test.py": 11,
+      "src/pyotp/totp.py||src/pyotp/utils.py": 10,
+      "src/pyotp/totp.py||test.py": 13,
+      "src/pyotp/utils.py||test.py": 11
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "lib/rotp.rb",
+          "lib/rotp/hotp.rb",
+          "lib/rotp/otp.rb",
+          "lib/rotp/totp.rb",
+          "spec/base_spec.rb"
+        ],
+        "sha": "85be94cb18e53b65d3822e26bf17485588363fde",
+        "timestamp": 1297621205
+      },
+      {
+        "files": [
+          ".rspec"
+        ],
+        "sha": "32cb4d8d5434d52cf1c1a8157f0a42638a7fc25d",
+        "timestamp": 1297621223
+      },
+      {
+        "files": [
+          "lib/rotp/totp.rb"
+        ],
+        "sha": "1fbbf0e5ce681c3f6e81a17bad7aa8d465a91d9c",
+        "timestamp": 1297621385
+      },
+      {
+        "files": [
+          "lib/rotp.rb",
+          "lib/rotp/version.rb",
+          "rotp.gemspec"
+        ],
+        "sha": "a8d04c8073de863563d800cc0c04b0a98295eb2a",
+        "timestamp": 1297631799
+      },
+      {
+        "files": [
+          "README.markdown"
+        ],
+        "sha": "8ff77d6f99ba5c367fbfd05bdb136bde8889071d",
+        "timestamp": 1297632144
+      },
+      {
+        "files": [
+          "rotp.gemspec"
+        ],
+        "sha": "7272cf6a7638974c548e048c100ee86e379ee139",
+        "timestamp": 1297632223
+      },
+      {
+        "files": [
+          "README.markdown"
+        ],
+        "sha": "0abcdd882e1ae37f908fdc42f617109124a379f5",
+        "timestamp": 1297632711
+      },
+      {
+        "files": [
+          "README.markdown"
+        ],
+        "sha": "3cb24e4914babacf25c583c3dc0a6e679a72cca1",
+        "timestamp": 1297632774
+      },
+      {
+        "files": [
+          "README.markdown",
+          "lib/rotp/hotp.rb",
+          "lib/rotp/totp.rb",
+          "lib/rotp/version.rb",
+          "spec/base_spec.rb"
+        ],
+        "sha": "4f5aa224c5c6df5661da14f8fead9daa0ef5ac92",
+        "timestamp": 1297633923
+      },
+      {
+        "files": [
+          "README.markdown"
+        ],
+        "sha": "9eb13a07b22d5851a398895411fda9041e5334a4",
+        "timestamp": 1297634367
+      },
+      {
+        "files": [
+          "README.markdown"
+        ],
+        "sha": "d8780bd96f593b006da77b25cee82bce981d6ee3",
+        "timestamp": 1297634524
+      },
+      {
+        "files": [
+          "README.markdown"
+        ],
+        "sha": "806178704eda226b8ba5cac722017b63d15272e9",
+        "timestamp": 1297635452
+      },
+      {
+        "files": [
+          "README.markdown"
+        ],
+        "sha": "0a558c76ef4e4ca514531e3ebf61f10647083dd7",
+        "timestamp": 1297635873
+      },
+      {
+        "files": [
+          "README.markdown"
+        ],
+        "sha": "e0647c338ef79ab0f2e51e75c51bb44cbe901dc9",
+        "timestamp": 1302017250
+      },
+      {
+        "files": [
+          "Rakefile",
+          "lib/rotp.rb",
+          "lib/rotp/base32.rb",
+          "rotp.gemspec",
+          "spec/base_spec.rb"
+        ],
+        "sha": "05052356ecd9854c09f6cd574465b78046019f55",
+        "timestamp": 1304231384
+      },
+      {
+        "files": [
+          "README.markdown",
+          "lib/rotp/base32.rb",
+          "lib/rotp/otp.rb",
+          "lib/rotp/version.rb"
+        ],
+        "sha": "53c95f7831866616e31b7ff4615c7d11c18a176d",
+        "timestamp": 1304263735
+      },
+      {
+        "files": [
+          "README.markdown"
+        ],
+        "sha": "29ca53eb6cea8800ef2090adcb25411c1e4ab35f",
+        "timestamp": 1315321564
+      },
+      {
+        "files": [
+          ".rspec"
+        ],
+        "sha": "0cdad31f254235a3a0b057b70c419061739f889a",
+        "timestamp": 1317032439
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "6d52190c05b427cec6bfaef3a548fe39ba32cf52",
+        "timestamp": 1317032487
+      },
+      {
+        "files": [
+          "LICENSE",
+          "MANIFEST.in",
+          "setup.py"
+        ],
+        "sha": "5539324cb4e0e8f595f5bb3fd2536984159d6938",
+        "timestamp": 1330508642
+      },
+      {
+        "files": [
+          "src/pyotp/hotp.py",
+          "src/pyotp/totp.py",
+          "test.py"
+        ],
+        "sha": "0c565597046a74d4b9d7a39605f2eaef7ebcad1a",
+        "timestamp": 1393870354
+      },
+      {
+        "files": [
+          "src/pyotp/hotp.py",
+          "src/pyotp/totp.py"
+        ],
+        "sha": "d9e3b9110c9557917663d4923431b8c3aa5dc9ea",
+        "timestamp": 1394040179
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2c61a9ca9dd00d292c93ac22cd9dde366dc72401",
+        "timestamp": 1394044612
+      },
+      {
+        "files": [
+          "src/pyotp/hotp.py",
+          "src/pyotp/totp.py",
+          "src/pyotp/utils.py",
+          "test.py"
+        ],
+        "sha": "f63b685774182ca9c7a576af89429e4402459967",
+        "timestamp": 1395765555
+      },
+      {
+        "files": [
+          "src/pyotp/utils.py"
+        ],
+        "sha": "d3e3160f4606bdb8bdb4c8752073a85beef6bb9e",
+        "timestamp": 1395766136
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py",
+          "src/pyotp/hotp.py",
+          "src/pyotp/totp.py",
+          "src/pyotp/utils.py",
+          "test.py"
+        ],
+        "sha": "ad8a6e103167e34f100b1e9ce3d71aa748aab619",
+        "timestamp": 1395858455
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5616a8d7d8db901582c4953f62b46e13a3d65588",
+        "timestamp": 1395935098
+      },
+      {
+        "files": [
+          "src/pyotp/hotp.py",
+          "src/pyotp/totp.py",
+          "src/pyotp/utils.py",
+          "test.py"
+        ],
+        "sha": "fd5ca5448eb3380eb4f8ca14fb714c7ddee871c4",
+        "timestamp": 1411953656
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "e19fcc22accf571262b34312af714c5fd68cb074",
+        "timestamp": 1416506740
+      },
+      {
+        "files": [
+          "src/pyotp/otp.py"
+        ],
+        "sha": "08a073b83b1c10f9c6a0332d87c9baead16acd00",
+        "timestamp": 1416507725
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "README.markdown",
+          "README.rst",
+          "requirements.txt",
+          "setup.py"
+        ],
+        "sha": "a5115ecf043b629a55e4efebb232d0698d0ea7d3",
+        "timestamp": 1437493611
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "82acd20f51c788d94add5889597ee307f29e2cf5",
+        "timestamp": 1437494121
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "58849a00d4e942e49dc78d4018a67915fe3b92ee",
+        "timestamp": 1437494268
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "src/pyotp/__init__.py",
+          "src/pyotp/hotp.py",
+          "src/pyotp/otp.py",
+          "src/pyotp/totp.py",
+          "test.py"
+        ],
+        "sha": "09914d7df2e02f94a8d4472897a8963c559774c8",
+        "timestamp": 1437495091
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py",
+          "src/pyotp/hotp.py",
+          "src/pyotp/otp.py",
+          "src/pyotp/totp.py",
+          "src/pyotp/utils.py",
+          "test.py"
+        ],
+        "sha": "999409ad88a5aba5e237520395d5d9de0e35f594",
+        "timestamp": 1437530028
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py"
+        ],
+        "sha": "5fcd88cef7592ddb7efcb7e8ed5553d97e58e01b",
+        "timestamp": 1437687917
+      },
+      {
+        "files": [
+          "Makefile",
+          "docs/Makefile",
+          "docs/conf.py",
+          "docs/index.rst",
+          "setup.py",
+          "test.py"
+        ],
+        "sha": "ef1264bdda7213d072bc5460098027376c47a0e6",
+        "timestamp": 1437688373
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c3977cddf2f9c9087590226b29df9df8af6ab54b",
+        "timestamp": 1437689862
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py",
+          "src/pyotp/hotp.py",
+          "src/pyotp/otp.py",
+          "src/pyotp/totp.py",
+          "src/pyotp/utils.py",
+          "test.py"
+        ],
+        "sha": "2ea8512c96d4ce18ddd80f2d08130cad2e4cccd5",
+        "timestamp": 1437707364
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "46e679c57257af96c5204281223f4e240c804198",
+        "timestamp": 1437961671
+      },
+      {
+        "files": [
+          "src/pyotp/otp.py",
+          "test.py"
+        ],
+        "sha": "38c3e116c8b5f9e7fafecb1865aec76ec5fd81cb",
+        "timestamp": 1439335117
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "5722c4e1a856f89632ad7b7eada90f363c3fe7c8",
+        "timestamp": 1439337760
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "ff259e9cad34d099057179ed7333a00b5e87cdea",
+        "timestamp": 1440284928
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "0796975a6f41085e408e6c1b37e47399d4a2eff6",
+        "timestamp": 1443442218
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "8ad1c2dd73ca67af32b668b47bf1407b6e07166a",
+        "timestamp": 1443451084
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "6b3b0e6cc0c5800df5d260decb57135a72552c3f",
+        "timestamp": 1445350209
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "88cbea26970437db57c9966b325a005b6306aac3",
+        "timestamp": 1445352866
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "2df660c938115cf39763919649dc66699775e7d7",
+        "timestamp": 1445353066
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "0dd00aaaf57677348e31083a9aee5418029d2495",
+        "timestamp": 1445354840
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "3640c91130082d4b9d64549136988d52c8b5c23f",
+        "timestamp": 1445411538
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "b8cfa27203d97d5697ba8d16a4e6143d54abed46",
+        "timestamp": 1445412736
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "bd0c649ecac672ef0b203499d70f25e1fe1f9690",
+        "timestamp": 1445413623
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "9de8b2df7431dc4fe46acfd8727e32f3656c7c39",
+        "timestamp": 1445414111
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "c83b4f3412ec9b405208d232b2368d337f04c8f6",
+        "timestamp": 1445416622
+      },
+      {
+        "files": [
+          "src/pyotp/otp.py",
+          "test.py"
+        ],
+        "sha": "f0f67820287ca800ac9abe36dda12df1cc7585d0",
+        "timestamp": 1447925403
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "f08b1f606675767413ec8bc29a5efbb4dcbc9e31",
+        "timestamp": 1462204582
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "02ab049b2b473365bc7b57dc8dba14af71265895",
+        "timestamp": 1462204810
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a7073fef12a8fad766fbdac16bf7710ca366274d",
+        "timestamp": 1462285333
+      },
+      {
+        "files": [
+          "src/pyotp/utils.py",
+          "test.py"
+        ],
+        "sha": "af3c8d15d3363b57add7120a742c76747f876f12",
+        "timestamp": 1464315706
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b35437339fadeee0f7a7c431ddd849870cef1dbd",
+        "timestamp": 1467296784
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "Makefile"
+        ],
+        "sha": "1cdd8fdf500a24d63ea3154be888ed13bcbf95d5",
+        "timestamp": 1471206814
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "fb47586e9053d0a9505cfb2afc1ee91e4a44f95c",
+        "timestamp": 1471209201
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "189d390e652bf6f2a7b3a77664d0996ebddb8d2f",
+        "timestamp": 1471209433
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "cb4ab7570d7b8eb5c44a9d58dba1192fd0d98831",
+        "timestamp": 1471209484
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py"
+        ],
+        "sha": "8fef741be52b11094ed32ea4ff52927c0d29de00",
+        "timestamp": 1471209547
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d6105afa1d99fed7109e2f3becc5ce8c6570281f",
+        "timestamp": 1471227677
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a3d3245e726cbc23e28b1aed852d24f726fba257",
+        "timestamp": 1471275609
+      },
+      {
+        "files": [
+          "LICENSE"
+        ],
+        "sha": "60f11fc2720590de6ae331ac3a8654e364d27f9c",
+        "timestamp": 1471275679
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py",
+          "src/pyotp/hotp.py",
+          "src/pyotp/otp.py",
+          "src/pyotp/totp.py",
+          "src/pyotp/utils.py",
+          "test.py"
+        ],
+        "sha": "6cedd886590f172806417248d14199fe2ea7f3f0",
+        "timestamp": 1471357782
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "31e1310452a2a8795b4dd958589da374bf09f700",
+        "timestamp": 1471802036
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "0337cabfb7b284b6bf42c34d66b2a7a4125184bd",
+        "timestamp": 1471802852
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "e9a5bf728cba52d10fb556100807cf6cca38df94",
+        "timestamp": 1471803929
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "1101ef5e437a06eaad35657f1d40e97690f93bbb",
+        "timestamp": 1471804032
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "80b9f8438f2241c18378253ffab2f463a02dc551",
+        "timestamp": 1472576629
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "fa0df28cf055c13d96cf9888a209efa9ecdfb801",
+        "timestamp": 1472577125
+      },
+      {
+        "files": [
+          "Makefile",
+          "common.mk"
+        ],
+        "sha": "b770e6d3c6164502c50294201fa64635ddd5057b",
+        "timestamp": 1472577402
+      },
+      {
+        "files": [
+          "Changes.rst"
+        ],
+        "sha": "a40bcb9deb565f0e3c43a0b764e981bd74ff9c49",
+        "timestamp": 1472577843
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f6185df69bf4e3a758991b5fe48a4f811cc662cc",
+        "timestamp": 1472577969
+      },
+      {
+        "files": [
+          "Changes.rst"
+        ],
+        "sha": "e3850e607a85e0cd67c94ffbbd587b9955a3976e",
+        "timestamp": 1472577992
+      },
+      {
+        "files": [
+          "Changes.rst"
+        ],
+        "sha": "c9b8a812e0d39db35f0b8931a5c89ccfb15ef1f6",
+        "timestamp": 1472579028
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "f5a4eef6795695e6000e1d06b24101d7edc5a6ef",
+        "timestamp": 1472579388
+      },
+      {
+        "files": [
+          "src/pyotp/utils.py"
+        ],
+        "sha": "46d18cd6b665f13bfe5ce481ae507d03f8d56cd7",
+        "timestamp": 1479835912
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "3dc740d573417fbc94214b0deb1c43a2c230b151",
+        "timestamp": 1479836055
+      },
+      {
+        "files": [
+          "src/pyotp/utils.py"
+        ],
+        "sha": "65633a4e56e54f07f04b76cce5a39573fdd8ada3",
+        "timestamp": 1479836246
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "85863a2bcad3f7e2da091f4689053177efdb0d1d",
+        "timestamp": 1483556265
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8ef8ecd59f135b02b8eae641111b164de1518465",
+        "timestamp": 1483556774
+      },
+      {
+        "files": [
+          "Changes.rst"
+        ],
+        "sha": "8a39b205caf6ccf17c661d0c4a0a360a685ab19c",
+        "timestamp": 1483556939
+      },
+      {
+        "files": [
+          "common.mk",
+          "setup.py"
+        ],
+        "sha": "2576b98b39a58ff2880532c4e307a2b9c58d71b9",
+        "timestamp": 1483557093
+      },
+      {
+        "files": [
+          "Changes.rst"
+        ],
+        "sha": "653a4db60e80359cef61ecb6aef4a34ad6eb12f4",
+        "timestamp": 1483557130
+      },
+      {
+        "files": [
+          "common.mk"
+        ],
+        "sha": "38dde42ebec6e9fdcc0ac0dedc9f467c112d2d36",
+        "timestamp": 1483557291
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "93cb9fea5f300a4481b9f78387d3ce8f7c033cc3",
+        "timestamp": 1483557345
+      },
+      {
+        "files": [
+          "src/pyotp/otp.py",
+          "test.py"
+        ],
+        "sha": "0de44f2e7363257cdec9385124945813ee99fb62",
+        "timestamp": 1489676044
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "b1161868f48f564b03f165b2bfc6fad7121e8b14",
+        "timestamp": 1489676974
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bd59a560681a52720849f2bad53880cfc81142e4",
+        "timestamp": 1496510788
+      },
+      {
+        "files": [
+          "src/pyotp/utils.py",
+          "test.py"
+        ],
+        "sha": "dbc5194ebc217a3cfede751ee0681abab63ae83e",
+        "timestamp": 1496511309
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "d7e20ad9a70f15b8f5f0566450b22bbcba3ca9bd",
+        "timestamp": 1496511704
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "3daf6db1ab4083a1d80c1851caf6991589950079",
+        "timestamp": 1496512180
+      },
+      {
+        "files": [
+          "src/pyotp/hotp.py",
+          "src/pyotp/totp.py"
+        ],
+        "sha": "f7c82ee640209fc9b2d428f9e79a1d039fc7e8a8",
+        "timestamp": 1496513343
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e70c23a8ae4b5ad7850047984504f8ff98cdd228",
+        "timestamp": 1496513446
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "17202b0a238ba05a6a2669aca60b5e76ee7f4df1",
+        "timestamp": 1496513586
+      },
+      {
+        "files": [
+          "src/pyotp/hotp.py",
+          "src/pyotp/otp.py",
+          "src/pyotp/totp.py",
+          "src/pyotp/utils.py"
+        ],
+        "sha": "2f08edfe8f84ef76f4c19a2b309e18f69a746932",
+        "timestamp": 1496514961
+      },
+      {
+        "files": [
+          "common.mk"
+        ],
+        "sha": "3a00eadc5965bf7f2857640ed12ee1d4a44abada",
+        "timestamp": 1496515626
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "a7cb69470ebb2cefcef9ca7b7d37feed1986e262",
+        "timestamp": 1496515892
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/pyotp/hotp.py",
+          "src/pyotp/totp.py"
+        ],
+        "sha": "05ada07204ff0dec349a0e8838e8bfa828d3a9be",
+        "timestamp": 1496516648
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/pyotp/utils.py"
+        ],
+        "sha": "8f8bfcfbeb1a84437073d3fb314195cf4e1e1ac8",
+        "timestamp": 1497111073
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "0156b5eef0ec2409571ef97a91f2d7e536db1c65",
+        "timestamp": 1497111184
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "5418044c1fdcafe3df05dc1eeea3beb9f166a89b",
+        "timestamp": 1497111229
+      },
+      {
+        "files": [
+          "LICENSE",
+          "setup.py"
+        ],
+        "sha": "df3eb8f572d73dedf72c6cdc530a7a0528ec226c",
+        "timestamp": 1509987591
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "17e2e9833cae1fff5066ae71a1e4bddf6911d5a8",
+        "timestamp": 1515001711
+      },
+      {
+        "files": [
+          "src/pyotp/hotp.py"
+        ],
+        "sha": "9b33173d79d1555ca2b3e1d3487f31daaaa52356",
+        "timestamp": 1523636290
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "310de32457cd3ab91eebefa3ab938b84c971ed5d",
+        "timestamp": 1541461437
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py"
+        ],
+        "sha": "24fae3dfa24453c26c4d55388cba060ea40d2542",
+        "timestamp": 1541463094
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "src/pyotp/utils.py"
+        ],
+        "sha": "5ce38bb0b023d1ce857abad940f71bda7f693e40",
+        "timestamp": 1541463483
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "cd67ffbd0d8ec959b12d8b715fff3564a2a93307",
+        "timestamp": 1541463727
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "b6f7c814c38654bf7061b760ec3049c250ea2fbf",
+        "timestamp": 1541463815
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "caccaee2f09a4ba1d917caa794377ad9d5795399",
+        "timestamp": 1541464085
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6ab32e33ead122cb19a5221e0498d791e9cdc19a",
+        "timestamp": 1546468938
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "008b338cb24d48c57da1fdd503b613e67827c403",
+        "timestamp": 1546665262
+      },
+      {
+        "files": [
+          "common.mk"
+        ],
+        "sha": "a940b64a36c2bb4afd483f4fc2ae18b6ee6e238b",
+        "timestamp": 1548172217
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "84e360e5f020105ef3ae746d2caaa98ddc33d5a5",
+        "timestamp": 1550785237
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "64d1cf0bfd5a1c9c46a5f72bf22d8ed790b0f687",
+        "timestamp": 1555442401
+      },
+      {
+        "files": [
+          "common.mk"
+        ],
+        "sha": "8d95cfdeaf01b1a27445aa198fec87c349ca0e3d",
+        "timestamp": 1556670617
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "b837a5026d692d29d800eb35c7603fd2aecc6f07",
+        "timestamp": 1564158911
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "efeff2cecc9e4f82253a230cf152ffe364ae1be1",
+        "timestamp": 1564158999
+      },
+      {
+        "files": [
+          "src/pyotp/utils.py",
+          "test.py"
+        ],
+        "sha": "bbf5abc7b010a1450d4b13b67ed5cadfcb72c3fd",
+        "timestamp": 1564159472
+      },
+      {
+        "files": [
+          "src/pyotp/utils.py"
+        ],
+        "sha": "0b8cc7101f53165554d37bf244f632a4c399932d",
+        "timestamp": 1564159695
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "b29c2980e3cf4d30a78429b3130734933efe2335",
+        "timestamp": 1564159883
+      },
+      {
+        "files": [
+          "src/pyotp/utils.py"
+        ],
+        "sha": "eba480599764e13b49458f1b0e5b32e92595cea0",
+        "timestamp": 1564160326
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "041f5d3c65379d7188821caf92436c7f226ec60e",
+        "timestamp": 1564160403
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "67b6edef9f6faec3316823e415bdb54e8355039b",
+        "timestamp": 1571947813
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst"
+        ],
+        "sha": "66e308abc6c4f56b226f81ed2b953fb99d89f7fe",
+        "timestamp": 1571947883
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py"
+        ],
+        "sha": "95f411c7f9fe65be819d89e3180dde552c42b425",
+        "timestamp": 1571974661
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py"
+        ],
+        "sha": "b9481fd50c05b81473b3b14dc19f40f340c26a02",
+        "timestamp": 1571975182
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/pyotp/__init__.py"
+        ],
+        "sha": "18c03520a73b7f0b1ec6ec3e22168691ede51883",
+        "timestamp": 1571975290
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "src/pyotp/__init__.py",
+          "src/pyotp/hotp.py",
+          "src/pyotp/otp.py",
+          "src/pyotp/totp.py",
+          "test.py"
+        ],
+        "sha": "b650e356cb930ef7aa1925fee7c2205fc199bbc4",
+        "timestamp": 1572019141
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "87d6564878784bf845d36a1e016bae8cbcbb16cd",
+        "timestamp": 1572019552
+      },
+      {
+        "files": [
+          "src/pyotp/hotp.py"
+        ],
+        "sha": "8551bed1b13116d535b27a446c91b007fc013f28",
+        "timestamp": 1572994531
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "2f486483eb88e725c2804d3130b36ca8b2ecb010",
+        "timestamp": 1572994575
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "a25a1f480f33241db76d26ef6566cb41e5805a6d",
+        "timestamp": 1575395826
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "Makefile",
+          "src/pyotp/__init__.py",
+          "src/pyotp/compat.py",
+          "src/pyotp/utils.py"
+        ],
+        "sha": "8d86301bfb55780ceee4857c1cf1fbd804fbe5bc",
+        "timestamp": 1579119523
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4fec15240458156e032530fa2d1634d77d2f2fcf",
+        "timestamp": 1587472797
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "3475908e08d53d51fc16358eaf0411d9fd7d5f35",
+        "timestamp": 1594008182
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "dc37ffe27b0d7d02001dacf9cb741bc37fcffbb5",
+        "timestamp": 1596053204
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "9ff40e7d1c701f416b2dbcafb22b4c27ec95b075",
+        "timestamp": 1600552761
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py",
+          "src/pyotp/hotp.py",
+          "test.py"
+        ],
+        "sha": "943e1b83f3d38d9c08dfcd70cdd1ea43579ec433",
+        "timestamp": 1602880674
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "a239ae3cbd5970516f6e916774715c71e14f5dad",
+        "timestamp": 1602880889
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "5385700788d9aae8860722746ba2641df7d21ce8",
+        "timestamp": 1602887148
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "3bfb8907dc7db03b083573d4424584b02a69a2d5",
+        "timestamp": 1602888767
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "480770f6b86c6445ffa041a830532b72e45ced6c",
+        "timestamp": 1602888860
+      },
+      {
+        "files": [
+          "Makefile",
+          "common.mk"
+        ],
+        "sha": "f2eb207d01962dc4b365fbf8957ed1b0b4231cbc",
+        "timestamp": 1602889141
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/Makefile",
+          "docs/conf.py"
+        ],
+        "sha": "69be0501a8c1c5aa5cfe73b9a018609f267bc211",
+        "timestamp": 1602909113
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py",
+          "test.py"
+        ],
+        "sha": "9576711d5de1b0873056ab668b409473a97e3a9c",
+        "timestamp": 1606076804
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "324aa09e7badc95997f3dae336ac12d6aebd7fb3",
+        "timestamp": 1606077021
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py",
+          "src/pyotp/hotp.py",
+          "src/pyotp/otp.py",
+          "src/pyotp/totp.py",
+          "src/pyotp/utils.py"
+        ],
+        "sha": "095cd61f2141507ac48699f1c95fd2c621f8b3fe",
+        "timestamp": 1606152343
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py"
+        ],
+        "sha": "b3f701413fec28b00d76aee6b1efb9924822cbdd",
+        "timestamp": 1608698408
+      },
+      {
+        "files": [
+          "test.py"
+        ],
+        "sha": "c76d19008dfcc2f95c22cc813fa3100386cc0765",
+        "timestamp": 1608698943
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "676ba68b67f20f5791b25cd35777ab9d9c3baca1",
+        "timestamp": 1609518370
+      },
+      {
+        "files": [
+          "src/pyotp/hotp.py",
+          "src/pyotp/totp.py",
+          "src/pyotp/utils.py",
+          "test.py"
+        ],
+        "sha": "61477c8a091bc4c7098c663711339337db7b0b23",
+        "timestamp": 1611961893
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "7183690bab1a543492b51c1859e4e00dcced7cd9",
+        "timestamp": 1611962021
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py",
+          "test.py"
+        ],
+        "sha": "1c4f85e1920b169d816b9277edb294450bf39434",
+        "timestamp": 1611966293
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "f31ecbe0cbd398be0f4c70f3b1eec62474372bc0",
+        "timestamp": 1611966331
+      },
+      {
+        "files": [
+          "LICENSE"
+        ],
+        "sha": "e4ddcf382b6a23d139ee2801fb25a3229981697b",
+        "timestamp": 1611978944
+      },
+      {
+        "files": [
+          "src/pyotp/otp.py",
+          "test.py"
+        ],
+        "sha": "ee827b4cc6f52317bcf6c0db1a482fc81b203fae",
+        "timestamp": 1612466368
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py",
+          "test.py"
+        ],
+        "sha": "3f9ffa416679a8cd3aa38013b292d5a92c9dcf32",
+        "timestamp": 1612467562
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "a50b2701e1ecaaafc62b90a7424f602ce8edfceb",
+        "timestamp": 1612468054
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "7860af78559e98e80b83cf7d30daf5a660ba8e67",
+        "timestamp": 1612472133
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "be9c9c6ccfc12541c1b11dc021f75f1bfed433b5",
+        "timestamp": 1612643216
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml"
+        ],
+        "sha": "cbe2c41e0eca9ec54fddd1d7f2d4f6ed7b31f696",
+        "timestamp": 1614698556
+      },
+      {
+        "files": [
+          "common.mk"
+        ],
+        "sha": "a7d6e5eee873c7d3075af43eeffc52793103b5b5",
+        "timestamp": 1620861413
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "baf8b9914d9300fbffde02546114d47608019ae5",
+        "timestamp": 1639368988
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "c1dc4306ae2c1776bd56954b04a422b731e1940a",
+        "timestamp": 1639370444
+      },
+      {
+        "files": [
+          "Makefile",
+          "setup.cfg"
+        ],
+        "sha": "3089124b630ef907feb8d65a73b9c65b64f6c7eb",
+        "timestamp": 1639370571
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6568c1a83af8e0229f3c4b28d03552d601e2b7fe",
+        "timestamp": 1639966145
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "setup.py",
+          "src/pyotp/__init__.py",
+          "src/pyotp/contrib/__init__.py",
+          "src/pyotp/contrib/steam.py",
+          "test.py"
+        ],
+        "sha": "d8acd41a921a04d50992fab7a7cf3b0f75f44ee0",
+        "timestamp": 1662921571
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "8ced63eaff0cccb122e8cae6479213269b905505",
+        "timestamp": 1662925061
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "src/pyotp/hotp.py",
+          "src/pyotp/totp.py"
+        ],
+        "sha": "03045d5c39ab0effa48cc935c712dfe02eda2a0a",
+        "timestamp": 1668270729
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "179dc68d952eabd8d9be9307036d31a26b4f4367",
+        "timestamp": 1669906155
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3e7999dd617fc8bff041ead8b008f448278e03ec",
+        "timestamp": 1670987329
+      },
+      {
+        "files": [
+          "src/pyotp/otp.py"
+        ],
+        "sha": "0b6319b0bece6f632138c2a6f287ea0957deea03",
+        "timestamp": 1670987868
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "setup.py",
+          "src/pyotp/__init__.py",
+          "src/pyotp/otp.py",
+          "src/pyotp/utils.py"
+        ],
+        "sha": "ff1d3d0a338c4fea45942d2ef95e1132be1955e9",
+        "timestamp": 1670989373
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "618106c1dee7f5bf22da2c5d6739ab87070d3fc2",
+        "timestamp": 1670990042
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3636d58be9a08997de581cd3969ee648f6efa194",
+        "timestamp": 1677960210
+      },
+      {
+        "files": [
+          "common.mk"
+        ],
+        "sha": "daf2557939a95f04825225338882b57d98d4c8b5",
+        "timestamp": 1677976615
+      },
+      {
+        "files": [
+          "SECURITY.md"
+        ],
+        "sha": "f0ecc2fcc2d53f1ac4ac97c2a6d57eed8f435e0a",
+        "timestamp": 1677994053
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "08ab3f97aef01a251cdfb5e0d19f8f36782413be",
+        "timestamp": 1678045911
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1aea7573c5eb631aa6dc96c35812e3c3edebc956",
+        "timestamp": 1682208806
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "Makefile",
+          "pyproject.toml",
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "ce52636d40b575a22b9f04ef3330888be1861b2d",
+        "timestamp": 1683415901
+      },
+      {
+        "files": [
+          "docs/changelog.rst",
+          "docs/conf.py",
+          "docs/index.rst",
+          "docs/toc.html"
+        ],
+        "sha": "04af2b6c9a2a4b8dd20e686572c78040ef6e2a68",
+        "timestamp": 1683416051
+      },
+      {
+        "files": [
+          "Makefile",
+          "docs/conf.py"
+        ],
+        "sha": "55f69bae1c8d21af6013f574564ec7c1fae109fc",
+        "timestamp": 1683433088
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py",
+          "src/pyotp/contrib/steam.py",
+          "test.py"
+        ],
+        "sha": "6c42125c10d78e6aadded3264f6384a0199dbe54",
+        "timestamp": 1690500962
+      },
+      {
+        "files": [
+          "Changes.rst",
+          "setup.py"
+        ],
+        "sha": "c119693513a768629c4c8269c14083d71b941746",
+        "timestamp": 1690501132
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "683389117fc07e6b8a7c19d5298dc41cf82b17c5",
+        "timestamp": 1690501463
+      },
+      {
+        "files": [
+          "src/pyotp/compat.py"
+        ],
+        "sha": "66e95a061168a2c29bad75f80c5cd068fbb5f4ac",
+        "timestamp": 1694895109
+      },
+      {
+        "files": [
+          "src/pyotp/totp.py"
+        ],
+        "sha": "e927322d4948248358e471bcbfe591a70cb9a92f",
+        "timestamp": 1697725402
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py"
+        ],
+        "sha": "b87baea657d1af52fd9a87367e877f49445c03ce",
+        "timestamp": 1711483217
+      },
+      {
+        "files": [
+          "src/pyotp/__init__.py",
+          "src/pyotp/hotp.py",
+          "src/pyotp/totp.py",
+          "src/pyotp/utils.py",
+          "test.py"
+        ],
+        "sha": "249674bf2814e1fcc3152c618514159cd44b4610",
+        "timestamp": 1714862781
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a21e8aba125e5a01ba591d69c7792cfebc16ca08",
+        "timestamp": 1720304456
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5445bfe757de823e5a87371aabf244013c2749d1",
+        "timestamp": 1720305079
+      },
+      {
+        "files": [
+          "src/pyotp/hotp.py",
+          "src/pyotp/otp.py",
+          "src/pyotp/totp.py",
+          "test.py"
+        ],
+        "sha": "763be884137d37773632da327e73d214e33757e0",
+        "timestamp": 1725374762
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "92b1dbc9ebde72e80408a53601019f843d3920e1",
+        "timestamp": 1732921846
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "a398c808c7bf50289ab84f69d47e7fcc5a247ae6",
+        "timestamp": 1733180418
+      },
+      {
+        "files": [
+          "src/pyotp/contrib/steam.py",
+          "src/pyotp/hotp.py",
+          "src/pyotp/otp.py",
+          "src/pyotp/totp.py",
+          "test.py"
+        ],
+        "sha": "0c3b765d82183673024d1e90dde79796f460897b",
+        "timestamp": 1733180526
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          "common.mk",
+          "pyproject.toml",
+          "setup.py"
+        ],
+        "sha": "34191364cd58b2807cf460ed393e5ae4c53fb210",
+        "timestamp": 1735686321
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "6e25ce25ba831299d36b819f590e48af63ac538b",
+        "timestamp": 1740416355
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "Makefile"
+        ],
+        "sha": "2c152d4c695f5b19c23f22159852f8f0ab8576db",
+        "timestamp": 1740427333
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "89ebf90d6c9939204186a1f11094c8a44641b282",
+        "timestamp": 1767398725
+      },
+      {
+        "files": [
+          "src/pyotp/contrib/steam.py"
+        ],
+        "sha": "a25dbbb9918ae99bbe8d633a12786204b9876c93",
+        "timestamp": 1767399632
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 6,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/FUNDING.yml": 0,
+      ".github/workflows/ci.yml": 1,
+      ".github/workflows/release.yml": 2,
+      ".gitignore": 3,
+      ".rspec": 4,
+      ".travis.yml": 5,
+      "Changes.rst": 6,
+      "LICENSE": 7,
+      "MANIFEST.in": 8,
+      "Makefile": 9,
+      "README.markdown": 10,
+      "README.rst": 11,
+      "Rakefile": 12,
+      "SECURITY.md": 13,
+      "common.mk": 14,
+      "docs/Makefile": 15,
+      "docs/changelog.rst": 16,
+      "docs/conf.py": 17,
+      "docs/index.rst": 18,
+      "docs/toc.html": 19,
+      "lib/rotp.rb": 20,
+      "lib/rotp/base32.rb": 21,
+      "lib/rotp/hotp.rb": 22,
+      "lib/rotp/otp.rb": 23,
+      "lib/rotp/totp.rb": 24,
+      "lib/rotp/version.rb": 25,
+      "pyproject.toml": 26,
+      "requirements.txt": 27,
+      "rotp.gemspec": 28,
+      "setup.cfg": 29,
+      "setup.py": 30,
+      "spec/base_spec.rb": 31,
+      "src/pyotp/__init__.py": 32,
+      "src/pyotp/compat.py": 33,
+      "src/pyotp/contrib/__init__.py": 34,
+      "src/pyotp/contrib/steam.py": 35,
+      "src/pyotp/hotp.py": 36,
+      "src/pyotp/otp.py": 37,
+      "src/pyotp/totp.py": 38,
+      "src/pyotp/utils.py": 39,
+      "test.py": 40
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1297621205,
+      "last_commit_ts": 1767399632,
+      "n_cochange_pairs": 41,
+      "n_commits_dropped_as_bulk": 9,
+      "n_commits_used": 207,
+      "n_files": 41
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "a25dbbb9918ae99bbe8d633a12786204b9876c93",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
