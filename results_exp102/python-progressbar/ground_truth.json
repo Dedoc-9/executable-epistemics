@@ -1,0 +1,6567 @@
+{
+  "chain_hash": "56d8a7fd08dd1a96",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".coveragerc||.github/workflows/main.yml": 2,
+      ".coveragerc||progressbar/py.typed": 2,
+      ".coveragerc||setup.cfg": 2,
+      ".coveragerc||tox.ini": 3,
+      ".github/workflows/main.yml||README.rst": 2,
+      ".github/workflows/main.yml||progressbar/py.typed": 2,
+      ".github/workflows/main.yml||tox.ini": 4,
+      ".travis.yml||examples.py": 3,
+      ".travis.yml||progressbar/__init__.py": 2,
+      ".travis.yml||progressbar/bar.py": 2,
+      ".travis.yml||progressbar/widgets.py": 5,
+      ".travis.yml||setup.cfg": 2,
+      ".travis.yml||setup.py": 4,
+      ".travis.yml||tox.ini": 11,
+      "CHANGES.rst||progressbar/__about__.py": 2,
+      "CHANGES.rst||setup.py": 2,
+      "ChangeLog.yaml||examples.py": 2,
+      "ChangeLog.yaml||progressbar/__init__.py": 2,
+      "MANIFEST.in||setup.py": 2,
+      "README.rst||docs/index.rst": 2,
+      "README.rst||examples.py": 5,
+      "README.rst||progressbar/__init__.py": 6,
+      "README.rst||progressbar/bar.py": 4,
+      "README.rst||progressbar/widgets.py": 5,
+      "README.rst||tests/test_monitor_progress.py": 3,
+      "README.rst||tox.ini": 2,
+      "appveyor.yml||tox.ini": 2,
+      "docs/_theme/flask_theme_support.py||docs/conf.py": 2,
+      "docs/conf.py||docs/requirements.txt": 2,
+      "docs/conf.py||progressbar/__init__.py": 2,
+      "docs/conf.py||progressbar/bar.py": 2,
+      "docs/conf.py||progressbar/widgets.py": 2,
+      "docs/conf.py||setup.py": 3,
+      "docs/conf.py||tox.ini": 3,
+      "docs/index.rst||docs/progressbar.bar.rst": 2,
+      "docs/index.rst||progressbar/bar.py": 3,
+      "docs/progressbar.bar.rst||progressbar/bar.py": 2,
+      "docs/progressbar.terminal.os_specific.posix.rst||docs/progressbar.terminal.os_specific.rst": 2,
+      "docs/progressbar.terminal.os_specific.posix.rst||docs/progressbar.terminal.os_specific.windows.rst": 2,
+      "docs/progressbar.terminal.os_specific.rst||docs/progressbar.terminal.os_specific.windows.rst": 2,
+      "docs/requirements.txt||setup.py": 2,
+      "examples.py||progressbar/__init__.py": 23,
+      "examples.py||progressbar/bar.py": 10,
+      "examples.py||progressbar/compat.py": 2,
+      "examples.py||progressbar/utils.py": 8,
+      "examples.py||progressbar/widgets.py": 32,
+      "examples.py||pytest.ini": 2,
+      "examples.py||setup.cfg": 4,
+      "examples.py||setup.py": 2,
+      "examples.py||tests/test_failure.py": 2,
+      "examples.py||tests/test_monitor_progress.py": 5,
+      "examples.py||tests/test_multibar.py": 2,
+      "examples.py||tests/test_progressbar.py": 2,
+      "examples.py||tests/test_timed.py": 2,
+      "examples.py||tox.ini": 5,
+      "progressbar/__about__.py||progressbar/__init__.py": 2,
+      "progressbar/__about__.py||progressbar/bar.py": 8,
+      "progressbar/__about__.py||progressbar/base.py": 2,
+      "progressbar/__about__.py||progressbar/shortcuts.py": 2,
+      "progressbar/__about__.py||progressbar/utils.py": 5,
+      "progressbar/__about__.py||progressbar/widgets.py": 5,
+      "progressbar/__init__.py||progressbar/bar.py": 10,
+      "progressbar/__init__.py||progressbar/compat.py": 2,
+      "progressbar/__init__.py||progressbar/utils.py": 3,
+      "progressbar/__init__.py||progressbar/widgets.py": 28,
+      "progressbar/__init__.py||setup.cfg": 3,
+      "progressbar/__init__.py||setup.py": 3,
+      "progressbar/__init__.py||tests/test_monitor_progress.py": 4,
+      "progressbar/__init__.py||tests/test_progressbar.py": 3,
+      "progressbar/__init__.py||tox.ini": 2,
+      "progressbar/__main__.py||progressbar/bar.py": 2,
+      "progressbar/__main__.py||progressbar/env.py": 2,
+      "progressbar/__main__.py||progressbar/widgets.py": 2,
+      "progressbar/__main__.py||tests/test_color.py": 2,
+      "progressbar/__main__.py||tests/test_progressbar_command.py": 2,
+      "progressbar/_six.py||progressbar/bar.py": 3,
+      "progressbar/_six.py||progressbar/base.py": 2,
+      "progressbar/_six.py||progressbar/utils.py": 7,
+      "progressbar/_six.py||progressbar/widgets.py": 3,
+      "progressbar/bar.py||progressbar/base.py": 7,
+      "progressbar/bar.py||progressbar/env.py": 4,
+      "progressbar/bar.py||progressbar/multi.py": 3,
+      "progressbar/bar.py||progressbar/shortcuts.py": 4,
+      "progressbar/bar.py||progressbar/terminal/base.py": 3,
+      "progressbar/bar.py||progressbar/terminal/colors.py": 2,
+      "progressbar/bar.py||progressbar/terminal/os_specific/__init__.py": 2,
+      "progressbar/bar.py||progressbar/utils.py": 33,
+      "progressbar/bar.py||progressbar/widgets.py": 41,
+      "progressbar/bar.py||pyproject.toml": 4,
+      "progressbar/bar.py||ruff.toml": 2,
+      "progressbar/bar.py||setup.py": 3,
+      "progressbar/bar.py||tests/conftest.py": 2,
+      "progressbar/bar.py||tests/test_custom_widgets.py": 3,
+      "progressbar/bar.py||tests/test_failure.py": 5,
+      "progressbar/bar.py||tests/test_iterators.py": 2,
+      "progressbar/bar.py||tests/test_monitor_progress.py": 5,
+      "progressbar/bar.py||tests/test_stream.py": 3,
+      "progressbar/bar.py||tests/test_terminal.py": 3,
+      "progressbar/bar.py||tests/test_timed.py": 2,
+      "progressbar/bar.py||tests/test_unknown_length.py": 2,
+      "progressbar/bar.py||tests/test_utils.py": 3,
+      "progressbar/bar.py||tox.ini": 12,
+      "progressbar/base.py||progressbar/shortcuts.py": 2,
+      "progressbar/base.py||progressbar/utils.py": 8,
+      "progressbar/base.py||progressbar/widgets.py": 9,
+      "progressbar/env.py||progressbar/terminal/os_specific/__init__.py": 3,
+      "progressbar/env.py||progressbar/terminal/os_specific/windows.py": 2,
+      "progressbar/multi.py||progressbar/terminal/base.py": 2,
+      "progressbar/multi.py||progressbar/terminal/stream.py": 2,
+      "progressbar/multi.py||pyproject.toml": 2,
+      "progressbar/multi.py||tests/test_multibar.py": 2,
+      "progressbar/py.typed||tox.ini": 2,
+      "progressbar/shortcuts.py||progressbar/utils.py": 2,
+      "progressbar/shortcuts.py||progressbar/widgets.py": 4,
+      "progressbar/terminal/base.py||progressbar/terminal/colors.py": 3,
+      "progressbar/terminal/base.py||progressbar/terminal/os_specific/__init__.py": 2,
+      "progressbar/terminal/base.py||progressbar/terminal/os_specific/windows.py": 2,
+      "progressbar/terminal/base.py||progressbar/widgets.py": 4,
+      "progressbar/terminal/base.py||pyproject.toml": 2,
+      "progressbar/terminal/colors.py||progressbar/widgets.py": 2,
+      "progressbar/terminal/os_specific/__init__.py||progressbar/terminal/os_specific/posix.py": 4,
+      "progressbar/terminal/os_specific/__init__.py||progressbar/terminal/os_specific/windows.py": 5,
+      "progressbar/terminal/os_specific/posix.py||progressbar/terminal/os_specific/windows.py": 3,
+      "progressbar/utils.py||progressbar/widgets.py": 25,
+      "progressbar/utils.py||setup.py": 3,
+      "progressbar/utils.py||tests/original_examples.py": 2,
+      "progressbar/utils.py||tests/test_monitor_progress.py": 3,
+      "progressbar/utils.py||tests/test_stream.py": 3,
+      "progressbar/utils.py||tests/test_utils.py": 2,
+      "progressbar/utils.py||tests/test_widgets.py": 2,
+      "progressbar/widgets.py||pytest.ini": 2,
+      "progressbar/widgets.py||setup.cfg": 3,
+      "progressbar/widgets.py||setup.py": 5,
+      "progressbar/widgets.py||tests/test_color.py": 2,
+      "progressbar/widgets.py||tests/test_custom_widgets.py": 3,
+      "progressbar/widgets.py||tests/test_failure.py": 2,
+      "progressbar/widgets.py||tests/test_monitor_progress.py": 10,
+      "progressbar/widgets.py||tests/test_multibar.py": 2,
+      "progressbar/widgets.py||tests/test_progressbar.py": 3,
+      "progressbar/widgets.py||tests/test_speed.py": 2,
+      "progressbar/widgets.py||tests/test_stream.py": 2,
+      "progressbar/widgets.py||tests/test_timed.py": 3,
+      "progressbar/widgets.py||tests/test_widgets.py": 5,
+      "progressbar/widgets.py||tox.ini": 7,
+      "pyproject.toml||uv.lock": 2,
+      "pytest.ini||setup.cfg": 2,
+      "pytest.ini||setup.py": 2,
+      "setup.cfg||tox.ini": 4,
+      "setup.py||tox.ini": 9,
+      "tests/test_color.py||tests/test_utils.py": 2,
+      "tests/test_custom_widgets.py||tests/test_failure.py": 2,
+      "tests/test_dill_pickle.py||tests/test_wrappingio.py": 2,
+      "tests/test_failure.py||tests/test_timer.py": 3
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "LICENSE.txt",
+          "MANIFEST.in",
+          "progressbar/__init__.py",
+          "setup.py"
+        ],
+        "sha": "3327465af27d4e9315f1c4c915187b1d235b3996",
+        "timestamp": 1229912818
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "80c562187a92b87a25cc9d8092f6e685aecf9c8a",
+        "timestamp": 1229913250
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "899767d4e92c41710470dc83e5ea8915f2173097",
+        "timestamp": 1235520418
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e08cfea566160c2fb208d1df3a75857c56ded402",
+        "timestamp": 1235520447
+      },
+      {
+        "files": [
+          "LICENSE.txt"
+        ],
+        "sha": "ea7a50d3ec115946c441a4f368d639e4ea92ae0d",
+        "timestamp": 1235520472
+      },
+      {
+        "files": [
+          "ChangeLog.yaml"
+        ],
+        "sha": "e29d1515f342776efa3ec1ae4d241eba6244c6ca",
+        "timestamp": 1235520489
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c7d838256b8d4d39a9849bb450b555f7e77cfa15",
+        "timestamp": 1235520563
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "c109edddd8f1b11193779fab960ac9b94b56e2c9",
+        "timestamp": 1235520877
+      },
+      {
+        "files": [
+          "ChangeLog.yaml",
+          "examples.py",
+          "progressbar/__init__.py"
+        ],
+        "sha": "2e4d338126f5a941290d67505aa227547900fdcf",
+        "timestamp": 1237675412
+      },
+      {
+        "files": [
+          "ChangeLog.yaml"
+        ],
+        "sha": "b42f3be92fd5c00888fed05bec1eb086784e08c3",
+        "timestamp": 1237682743
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "38ce51390c5ca449de61166b00305789fa580865",
+        "timestamp": 1237757887
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "25e6f13cd7472676ffcfe0e4010feef1ad89e895",
+        "timestamp": 1239399723
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "73b35864e641dc00ee940670b56aa970ed029379",
+        "timestamp": 1239420127
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "3382b48a05ea96dad4ecf5ab645bd7bde2dc42a5",
+        "timestamp": 1243735124
+      },
+      {
+        "files": [
+          "ChangeLog.yaml"
+        ],
+        "sha": "06223a42f9e9b2a0e91b59a4c49c2bf4aeddcfef",
+        "timestamp": 1244173088
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py"
+        ],
+        "sha": "521781f3294a41ea66a84b3549b08d2cd0b8a545",
+        "timestamp": 1281918902
+      },
+      {
+        "files": [
+          "ChangeLog.yaml",
+          "examples.py",
+          "progressbar/__init__.py"
+        ],
+        "sha": "a2af2db0d106c69102a216c863c63afbd50b6cd3",
+        "timestamp": 1283121821
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "2dff94f1ae2274231da14ffead3c3f17372a0e0b",
+        "timestamp": 1283121959
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "abf0ef22fa41ec92117cf2f8f38dfe886ce991a6",
+        "timestamp": 1290578531
+      },
+      {
+        "files": [
+          "LICENSE.txt"
+        ],
+        "sha": "462631a6f1b025128ce730e1245b5e6de4d64f48",
+        "timestamp": 1292379585
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "f2f787dba8ceee5942f667ba37b44073e6a38b1c",
+        "timestamp": 1292383676
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "103ebbb58636d065ba7441f5606ea8e1c2ab77d5",
+        "timestamp": 1292386962
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "0e96d538a8d16b9e32795793222f121bbe1e790f",
+        "timestamp": 1303187114
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py"
+        ],
+        "sha": "12f94ec655ca755dee0881be0a95440317b5f200",
+        "timestamp": 1305409515
+      },
+      {
+        "files": [
+          "ChangeLog.yaml",
+          "setup.py"
+        ],
+        "sha": "fde028a1c883bf8bd605e2b610ecc33363366555",
+        "timestamp": 1305411209
+      },
+      {
+        "files": [
+          "README.rst",
+          "examples.py",
+          "progressbar/__init__.py"
+        ],
+        "sha": "12984d2b5616d7dfeb40c8192c1644cf19e8d3f2",
+        "timestamp": 1305434221
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py"
+        ],
+        "sha": "f691ebd9e2550f440ae9aebafedea6b9f9ebb17c",
+        "timestamp": 1305449960
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3cdf1e1399fd502ff771e0a8a8e25e88e33778d1",
+        "timestamp": 1305495321
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "101a30a56d2f6bfbda1b310089c498885d5367e1",
+        "timestamp": 1305501046
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "44073e9e1a4548d893900da3ade26ab6a101a6e4",
+        "timestamp": 1305520192
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "f07162333c678401ff9ee1af0427b2e24897a9a6",
+        "timestamp": 1319572908
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "e1e266443ac722643f3a7c89d5f3e6e4452ed400",
+        "timestamp": 1333581079
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/compat.py",
+          "progressbar/widgets.py",
+          "setup.py"
+        ],
+        "sha": "d6fa917e8d22c5d5c0f900f2b26d87d161171beb",
+        "timestamp": 1376933551
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/compat.py"
+        ],
+        "sha": "c0eeab99ab7a2cf1f4bd7feb035626bc39b780d8",
+        "timestamp": 1376991872
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "90b826cabf8095bd80e87180f29248cb136bd54a",
+        "timestamp": 1376992768
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "01f48e54b4685e243989cc489ea1c3ddddc64979",
+        "timestamp": 1376993412
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c9ef626d4c712ed2dd094db1e1a5c8d721667823",
+        "timestamp": 1376993414
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b479a55aed32c0889a04c220f5d7aaae5ad53782",
+        "timestamp": 1376993645
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "bb93cc887779a5fcc711f2b5e4a4eee190dc220e",
+        "timestamp": 1376995522
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "69cfe3257ffe1da8010d033f988e292d9ea3d503",
+        "timestamp": 1376995552
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.cfg"
+        ],
+        "sha": "bcaf7a7bdafc390ebbd3a831fe4477fed8c311ff",
+        "timestamp": 1376995561
+      },
+      {
+        "files": [
+          "docs/_theme/flask_theme_support.py",
+          "docs/conf.py",
+          "examples.py",
+          "progressbar/__init__.py",
+          "setup.cfg",
+          "tests/test_progressbar.py"
+        ],
+        "sha": "a4412122eb9d1cae3b9c75e3d430e7760ea8643d",
+        "timestamp": 1377007482
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py"
+        ],
+        "sha": "f82be1fd3444c33005e90f22827b18696455c9c7",
+        "timestamp": 1377029620
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "738eb8ec603b1638282e8a74a3dc218589a06d47",
+        "timestamp": 1377029669
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "85543bf0ddd40d8a547962b3e4791c30a1e0e078",
+        "timestamp": 1379939801
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "7cb4bba0befa43c8afab67fae10ceea17fd1c6b7",
+        "timestamp": 1379940044
+      },
+      {
+        "files": [
+          "docs/progressbar.rst",
+          "progressbar/__init__.py"
+        ],
+        "sha": "83a3e652d4a32fa252c2a0ca400d4dc3efe54328",
+        "timestamp": 1379940250
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "b6136f68c4c3d27d4249626bbb5d441a95a508d4",
+        "timestamp": 1379941496
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "examples.py",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "832c2235659411360393a0ddd66b00e80c657c93",
+        "timestamp": 1379942552
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "982d3cb6f24f4513bba8da1ae8a597a3317589d4",
+        "timestamp": 1379942761
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5498fb8e15d176dc65047df7d166b1406992c943",
+        "timestamp": 1379942985
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "d265224db588f760ac03e5f2ea8b953991a69242",
+        "timestamp": 1379943114
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "105d7299ae788542d7d86aa0dcd8823fe2c5b109",
+        "timestamp": 1379972505
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "d042a5db29c09e2769b299842f18fd3788c01870",
+        "timestamp": 1379972883
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "2fc3dce8d248a572aaaf0938b82e1f65048c6acf",
+        "timestamp": 1379973300
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "2cb583388705e997c6b7d5b5ddca567a1be07e28",
+        "timestamp": 1380096824
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "37eefeea4f3904bbfe8fafc154feddcf1c133bfe",
+        "timestamp": 1391539384
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "655b5c39c4789f24e7501cde0b901056c5fd65a5",
+        "timestamp": 1399895673
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "6679eca388e049495bf5a3b96b39d5e3a714a2ea",
+        "timestamp": 1399901276
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "ab0e9c97b10c4c160ef22f9fbe3ef3668992b72a",
+        "timestamp": 1399918978
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "c4ba2d4009ce61744c3e0e7459fc539a0b1c11f3",
+        "timestamp": 1399933127
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "63655fd5a2b0a48ae66e204ac0f4c3f381f47608",
+        "timestamp": 1399933137
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "8433fd6ede5c2cf8d1b8027670d4caaa6ab3d542",
+        "timestamp": 1399933218
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "ff35e08572002dcb4af1c4f0330e35ede47dbe85",
+        "timestamp": 1401734808
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "c44093681b6d2fb598e756644094674164742753",
+        "timestamp": 1401734934
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "c198d460256fe9c2e2d075c87ff345c2d06fd50e",
+        "timestamp": 1401782364
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "32b553603fdbe79f647258c7ee0de11716e4f16b",
+        "timestamp": 1409674892
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "519c4e356d4032494fc828017a3fb5b5f9ae4072",
+        "timestamp": 1409675411
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "da571f454fba669fd45a63b69a19bb03a373c865",
+        "timestamp": 1409676396
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "ca3d36da980a8d79f100ad906a69f2703f706377",
+        "timestamp": 1409676812
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "676c9987236157849d9c20d4e56f85eb02f7f0bc",
+        "timestamp": 1409677444
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "d96e4e5f14884ca9f40500a7586448014ba9a7ca",
+        "timestamp": 1409677693
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "61ea5d1382dbe4cf7090442ee879592b7c03e360",
+        "timestamp": 1409678116
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "716af0eb4d7d6a4c36d396670415c0af7dad3f7f",
+        "timestamp": 1409678337
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "cd87a5c2044d082d91ee2519fb0fa9138eb1b13e",
+        "timestamp": 1409678390
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "242ce2c9181839a65dd20263238a614350f1e1f1",
+        "timestamp": 1409679907
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "f3a37a7c0363f448232afd2a4a4d91a7dd6fb77e",
+        "timestamp": 1409680842
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "fd557dd210c875e20c2e7cd6a1fdd4edba6ecffc",
+        "timestamp": 1409681409
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "d367947912e8ffd728854d717ce6ed5ede5cbb20",
+        "timestamp": 1409681719
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "01536c759794b65fb8e4ab21b65f7016ccddd5c7",
+        "timestamp": 1409681877
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "3d15326573647db95e1f4349ef8d2eb46d12d248",
+        "timestamp": 1409682191
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "83f76936e04495c045fa2db2b0511392a26c298e",
+        "timestamp": 1409682360
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "e758b53dcb3518cd5238e43eb2a405b3db0c922b",
+        "timestamp": 1409682492
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "86fb6262bb8e89c098f2f68d6d4cda5b61c497b3",
+        "timestamp": 1409682747
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "8895f5ab1c39e9e90f74f2639a479dc5ef284356",
+        "timestamp": 1409685412
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "a2c6381f2b600d061bec9281ee0f14e127942fae",
+        "timestamp": 1409685671
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "b2347782de9f002f856cf7bf7e4027267dc83f53",
+        "timestamp": 1409686591
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "8cd01f930ead4a2b775a078a70bde6d3c279f2c4",
+        "timestamp": 1409687345
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "38f2af1dbcab1fc3b5322e35556d740336b4aa5c",
+        "timestamp": 1409687451
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "ab5d720dc1bbd24f27a417d338eb21d4b3321f2f",
+        "timestamp": 1409687553
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "e8fdd14548cfbcb0bd90ed00f7e204ca4aa71020",
+        "timestamp": 1409691449
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "566d444d7031b62514f9714963b6c084c82aed0d",
+        "timestamp": 1409731690
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "d5688c8667e58d955b64d64db41a2c03f1d402b9",
+        "timestamp": 1409731704
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "9f35157cd062d2998dcd77345f86346afc17a512",
+        "timestamp": 1409731882
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "b38202eec10a58767f269b50025c9b20d023dd05",
+        "timestamp": 1409774302
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "937ff3e27a88942a764b6896a896ee5582394d93",
+        "timestamp": 1409775231
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "072da9a4e4b08e48febce28f718bec076ceb119e",
+        "timestamp": 1409780988
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py"
+        ],
+        "sha": "e0aba1cf404a8532567666339ab923db30ded90b",
+        "timestamp": 1416062773
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "b4398519650532daf4a5002d2e9121b3c80dabfa",
+        "timestamp": 1416248359
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "3f644be22f78e5a35ec94435b8e07c26c8eb3bbd",
+        "timestamp": 1416064568
+      },
+      {
+        "files": [
+          "README.rst",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "29db6199106c05223df3e0ac6f1cc3bb0ab18522",
+        "timestamp": 1416403518
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9caf1dc97f6c059306ecd493acd795ecf523973c",
+        "timestamp": 1416403611
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "dd9deeb168f22f952dece6e151c3032b9d8f77ea",
+        "timestamp": 1416926897
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "8ee79d7d720f8a5fc2c7825b855f4d3b4e1907d6",
+        "timestamp": 1416926916
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "8b0ed39cd9d88eb21704e007c4aad4436cf39356",
+        "timestamp": 1416926932
+      },
+      {
+        "files": [
+          "README.rst",
+          "progressbar/__init__.py"
+        ],
+        "sha": "f162e93ad6f9e74b28de50bfe5ffc1ce53c83118",
+        "timestamp": 1416926959
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "551c7842b56aa2913e8709ecf030d718f2529d28",
+        "timestamp": 1416926982
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6e97504ffe40a2744212bb90b5d8cbfe192323d3",
+        "timestamp": 1416927038
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "tests/test_progressbar.py"
+        ],
+        "sha": "681b591590e286221dc05b41f7076d5632fcc4ab",
+        "timestamp": 1417177463
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "requirements_test.txt",
+          "tox.ini"
+        ],
+        "sha": "bad379b4b67eb858ecae4b80c9e2d9b51ed67886",
+        "timestamp": 1423763025
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "32b8c7462ded1e88167fefe4020e11d74061b173",
+        "timestamp": 1423763165
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "requirements_test.txt"
+        ],
+        "sha": "3f6dae352d23d9c85ed68ff0488b99c7c4e37483",
+        "timestamp": 1423826304
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "08a1c3b2fbaa3b46ca79319f57e7b56bba8bc1ab",
+        "timestamp": 1423826993
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "2e688ff16249d58c79f6083727f0216a6eeb7658",
+        "timestamp": 1423836183
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "pytest.ini",
+          "setup.py"
+        ],
+        "sha": "9298f096c746c37ab42651e7fbed909cbf9c6a01",
+        "timestamp": 1423936483
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/_six.py",
+          "progressbar/bar.py"
+        ],
+        "sha": "5b81da23177655be81349d5046807b934c04566e",
+        "timestamp": 1424035797
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "f5dbc2699e91c7b98d3d2c1477024267b7f283f0",
+        "timestamp": 1424124446
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_terminal.py"
+        ],
+        "sha": "233c97d82cc55953ac7240d5c251b5154a982c43",
+        "timestamp": 1424268410
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ca87023409803045716fd550395325a9fba19ea8",
+        "timestamp": 1432463810
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "12df6aec2b87f409bbe4dc1b09e82b048e3ff10d",
+        "timestamp": 1432467613
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "99678c1c7719bc6f3c64dc7de516223e8288a526",
+        "timestamp": 1432810516
+      },
+      {
+        "files": [
+          "progressbar/_six.py",
+          "progressbar/bar.py",
+          "progressbar/widgets.py",
+          "tox.ini"
+        ],
+        "sha": "1720d08f6ce400268303f6c37250c230ec269b6d",
+        "timestamp": 1436631393
+      },
+      {
+        "files": [
+          "tests/conftest.py",
+          "tests/requirements.txt"
+        ],
+        "sha": "e1b0285be75a7fb8f0e5202a9c20a0dc9a4d53c3",
+        "timestamp": 1436634583
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "a7250363fa348caae49463e0f94e05115914096f",
+        "timestamp": 1437711530
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "e5c6986ebad526d9b8f79712244435ff465c4031",
+        "timestamp": 1441293298
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "bed8fe67048d6717d85d99eccbfc677f5609571c",
+        "timestamp": 1441293311
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "5588d3ed6bb3002117ed46f25e38e38058687eaf",
+        "timestamp": 1441293421
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "7516bc07ee6e91308a3c928dbd09f342125b38c8",
+        "timestamp": 1441293298
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "f401fcbf2d8bbf31e71677d1f259bb270f737612",
+        "timestamp": 1441293311
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "34c9f99fae803cf901eda48e9f95fabfc7c23676",
+        "timestamp": 1441293421
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/bar.py",
+          "progressbar/widgets.py",
+          "tests/test_failure.py",
+          "tests/test_speed.py"
+        ],
+        "sha": "b4c76b73d52b1f13b91f8da127ae98acea50e4b3",
+        "timestamp": 1441294320
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "44bd46b627b4fca98ed830ab305ecc5d832c016a",
+        "timestamp": 1441907753
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "6f988a97c2f5ef97cca4a063ccb84fac92053f78",
+        "timestamp": 1441966670
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "025f8581ececa76a17d73a2d0f47489ce1de8aa6",
+        "timestamp": 1444226765
+      },
+      {
+        "files": [
+          "progressbar/widgets.py",
+          "tests/test_widgets.py"
+        ],
+        "sha": "72f4df5d554f6597157ae32ced44b1ae9e48dd4a",
+        "timestamp": 1444232442
+      },
+      {
+        "files": [
+          "progressbar/widgets.py",
+          "tests/test_widgets.py"
+        ],
+        "sha": "61a8b6d1abeb7a744f37ce73dc5d1cfb95f26b9d",
+        "timestamp": 1444232680
+      },
+      {
+        "files": [
+          "progressbar/base.py"
+        ],
+        "sha": "5bc45860433a23fb4786498daa250af5c858fe9a",
+        "timestamp": 1444238599
+      },
+      {
+        "files": [
+          "progressbar/_six.py"
+        ],
+        "sha": "27f84566e2c185f117a45d6f81425f283bcc5ad2",
+        "timestamp": 1444238825
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "db58ff04e14746d75c2b06d36496d090a7b7c9cf",
+        "timestamp": 1444238964
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c4f6c9a5883f4396291c6089cc15b60be6469209",
+        "timestamp": 1444239221
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "66d1cc82bd014bff56e5f3c4df642a80e314dd02",
+        "timestamp": 1444394163
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "5c7b294a66a0c945fc6a6e5ed1d7a1c9db4008e9",
+        "timestamp": 1444394185
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "6a6ebd25a7fa9635b022863f7a219948c064169f",
+        "timestamp": 1444394705
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "c463875853b7c6a00620f12a6f4dd58c2448a15e",
+        "timestamp": 1444398595
+      },
+      {
+        "files": [
+          "progressbar/widgets.py",
+          "tests/test_speed.py"
+        ],
+        "sha": "461fc53d3bcefca5f93b734f0dfffd9cb99bd72e",
+        "timestamp": 1444398624
+      },
+      {
+        "files": [
+          "tests/test_data.py",
+          "tests/test_widgets.py"
+        ],
+        "sha": "32e139b0912c2b15a602ee1f41e746dac1442cc3",
+        "timestamp": 1444399027
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "0815128ca7d9b333175c7c5494e5c36d1a1ac4e9",
+        "timestamp": 1444474379
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "d2d3f955c524a40ea2490482cec10503c12d7e7f",
+        "timestamp": 1444474579
+      },
+      {
+        "files": [
+          "progressbar/metadata.py"
+        ],
+        "sha": "a90dc026e7dfd2e72292479f342da8caf5f3b90b",
+        "timestamp": 1444474840
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "4278cefeee6ecc0531dc70aa1c38a328acc2467c",
+        "timestamp": 1444563281
+      },
+      {
+        "files": [
+          "ChangeLog.yaml"
+        ],
+        "sha": "b331d2aa243b1e3cb7258d3c71172d0ee3ca75bc",
+        "timestamp": 1444563289
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "MANIFEST.in",
+          "setup.py"
+        ],
+        "sha": "1851bce021cd8746ef06076557b059f783929372",
+        "timestamp": 1444563292
+      },
+      {
+        "files": [
+          "requirements_test.txt"
+        ],
+        "sha": "38b69466e7bd237edf6dbc3b2f13e67b98c0bfa5",
+        "timestamp": 1444563568
+      },
+      {
+        "files": [
+          "circle.yml",
+          "requirements_test.txt",
+          "tests/requirements.txt"
+        ],
+        "sha": "d56986cb78ebcc473f4c9c793bdf3166637eb4a0",
+        "timestamp": 1444563724
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "9215c9358ffb84037047f815852c35f23829a349",
+        "timestamp": 1444563752
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "07bdda41aab9dbd160d230ea07f6bf0cd302e4fa",
+        "timestamp": 1444563881
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "bc17d06bb238d895900a3dd87af6800a0be0d95f",
+        "timestamp": 1444564240
+      },
+      {
+        "files": [
+          "tests/test_unknown_length.py"
+        ],
+        "sha": "6536f808ad7cea2970ba5db46c9178dfc8739a1b",
+        "timestamp": 1444638534
+      },
+      {
+        "files": [
+          "progressbar/_six.py",
+          "progressbar/base.py"
+        ],
+        "sha": "1f276701d608e689c9d0bed32c5840d8ccd3ce85",
+        "timestamp": 1444638834
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_unknown_length.py"
+        ],
+        "sha": "82b4bac56090b3be7411bdb2d43678d63ed3aa97",
+        "timestamp": 1444639396
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_unknown_length.py"
+        ],
+        "sha": "e9f8464c7c79ae43c83a657cc61329dabd8e6987",
+        "timestamp": 1444640017
+      },
+      {
+        "files": [
+          "tests/test_iterators.py"
+        ],
+        "sha": "e5f46dae7a886feaa3d563c7d3c5ffbc703de40b",
+        "timestamp": 1444640118
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/bar.py",
+          "progressbar/widgets.py",
+          "tests/test_data_transfer_bar.py"
+        ],
+        "sha": "aa09d42b863ead9ea3fe7cd78e3bd1383b9a95f0",
+        "timestamp": 1444640945
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "5fad3618da872ba1cb29ad52fee252263cd4b87a",
+        "timestamp": 1444641910
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "e004927dd5c7448c358be9047e5d935dbd22d10d",
+        "timestamp": 1444642738
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e2943aec1430a664356fb4fa3108dd20d753b2aa",
+        "timestamp": 1444654265
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "progressbar/__about__.py"
+        ],
+        "sha": "e20bff23caadc3069a3346dfc378f1aaea552162",
+        "timestamp": 1444654704
+      },
+      {
+        "files": [
+          "progressbar/__about__.py",
+          "progressbar/bar.py"
+        ],
+        "sha": "edb0ab1c038e527b8042a28dd06f6a0ff7b0bb38",
+        "timestamp": 1446739848
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "e91c5badcd23bd0587002bd055d1f89fffc2a78f",
+        "timestamp": 1446741014
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "2593925f252b6aaf6a06c32e36d75cd14b03ddeb",
+        "timestamp": 1447154206
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "ea1f691d418aceb820656d2a8672699f2d267fef",
+        "timestamp": 1447154417
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "52ceaa73e13f1e55249eae356788aa26fe8a2a66",
+        "timestamp": 1447098043
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "07c723bdb3a59873958b5cb54b3b430ddd264a0b",
+        "timestamp": 1447238686
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "abb41ffc13575d3c0b35b1aaf20b8f8131720bf2",
+        "timestamp": 1447250634
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "72742eed015bc06d84f553e5a94318885d3d42bb",
+        "timestamp": 1447250664
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "df3e2888d988fb24eca68543fadd7a3b365090ff",
+        "timestamp": 1447250974
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/progressbar.metadata.rst"
+        ],
+        "sha": "1b7d21992ca8c68b638bc9389c6f19f5ceda4c9a",
+        "timestamp": 1447251071
+      },
+      {
+        "files": [
+          "docs/history.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "4e4000ffaa60adba846cccc7e09cf2d85f0b7a95",
+        "timestamp": 1447254841
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "progressbar/bar.py"
+        ],
+        "sha": "9fab5b9329da3d35c5079ee67367f8049088da9d",
+        "timestamp": 1447254948
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "10e4eadce1ccfeb5d5518373ff9f90c9f855fde4",
+        "timestamp": 1447255242
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "9730e273938aff3196755e5c8c001a7c174bb627",
+        "timestamp": 1447255273
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "73a443af9c4d81d697588aaad54a705740c6a048",
+        "timestamp": 1447255847
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py",
+          "tests/test_terminal.py"
+        ],
+        "sha": "e618998e687e6947ffeea379740ec3dda104a37d",
+        "timestamp": 1447256173
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "4c755b5841adaadca3647c93ec41ea501c5d1aca",
+        "timestamp": 1447256183
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ae4d93656f883e436e5961efd5bfa92ddf9951b7",
+        "timestamp": 1447256904
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "progressbar/__init__.py"
+        ],
+        "sha": "b9fa1ae528062889bfe55665257a28095fab835e",
+        "timestamp": 1447349934
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/bar.py"
+        ],
+        "sha": "9fa8fcf17e25ce312c601c508d8834192f9e2f33",
+        "timestamp": 1447351640
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "1e6a07f8364906227157469bd09401eb5751011b",
+        "timestamp": 1447541756
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "91cef8860638cee700cce5f34b92a86387b98bbd",
+        "timestamp": 1447546711
+      },
+      {
+        "files": [
+          "progressbar/__about__.py",
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "64a22795b1ccdb1d9df8dcf0b49e64a0c383ff0a",
+        "timestamp": 1447547224
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "b84e4bd6ac3abc713f17a95e9df85183ed723116",
+        "timestamp": 1447548176
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "d55441749282e07782e23301ff7e847868201bd0",
+        "timestamp": 1447616243
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "8ae5b83181d90e97df72b4dbfa4ec113258b32f3",
+        "timestamp": 1447616285
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "progressbar/__about__.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "5a1c1b1aafc0dc51989df19422e591d79a617314",
+        "timestamp": 1447624136
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/requirements.txt"
+        ],
+        "sha": "875961b5c27239618ed6e04fa71ed0a75e71876c",
+        "timestamp": 1447625077
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py",
+          "requirements.txt"
+        ],
+        "sha": "243b8988d6fe8e1dc4480fd93092005647c1b4f1",
+        "timestamp": 1448118367
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "8dbeee5e45bd92fc69807e6d8e4db596d6609149",
+        "timestamp": 1448118669
+      },
+      {
+        "files": [
+          "progressbar/__about__.py",
+          "progressbar/bar.py"
+        ],
+        "sha": "9498e662b8bf178f196ac7288a246c7f80a65a91",
+        "timestamp": 1448880428
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "74e4e9acc5cefb943a8c924cf2b5a9e50ba82bd0",
+        "timestamp": 1449254081
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "fae2a58d23d8e48965fc369b9b4d8055f0531d2a",
+        "timestamp": 1449326392
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "27708089fc0c593cc6dfb1eb61101da80c09f6ab",
+        "timestamp": 1449459506
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "bcffeb1e56880c903c88922a11d9b01ec5c9374d",
+        "timestamp": 1449649002
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "5f8ffa987e4e14e5ae2aed3370f3ba80566f22d6",
+        "timestamp": 1450519212
+      },
+      {
+        "files": [
+          "progressbar/__about__.py",
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "bae640b774c87b43c7a280f169bb866c63eb7f7c",
+        "timestamp": 1450798446
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "e48fc913f89028560033a5ed6bfaa010a5e80d2e",
+        "timestamp": 1452258511
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "036dfa56fe2afe2e82d5c01e73a8f63a78f5a5bf",
+        "timestamp": 1452262662
+      },
+      {
+        "files": [
+          "progressbar/__about__.py",
+          "progressbar/bar.py"
+        ],
+        "sha": "521cb832fb83287740a0bf281fb0be0168ea13d5",
+        "timestamp": 1452514617
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "210701ca45bd264ebd07624dd20ea3eb1acae803",
+        "timestamp": 1453559370
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "b2b453c029bde39ff005cf4723e5dbdd4bb35924",
+        "timestamp": 1453559370
+      },
+      {
+        "files": [
+          "examples.py",
+          "pytest.ini"
+        ],
+        "sha": "11a5678f231f833a8d3d53db1966110e535269de",
+        "timestamp": 1454955785
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "af08b937746616d15fa18493ceae710129e77d63",
+        "timestamp": 1456774495
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "0fca5a8cc237d574dd096169ce159457831022cd",
+        "timestamp": 1456870676
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "docs/conf.py",
+          "docs/requirements.txt",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "ac725068c728b1e721f9844697263663e90cde96",
+        "timestamp": 1456922893
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "6b855f88ad21a4a61eb59a7073c0d897d5ef5295",
+        "timestamp": 1456923185
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "7f4cf8fafee1cd5b80b1b8283aab1b2b428e07b1",
+        "timestamp": 1456923306
+      },
+      {
+        "files": [
+          "tests/test_terminal.py"
+        ],
+        "sha": "5ae98a6aad4702f7e849d62c9fa88982d17bc037",
+        "timestamp": 1456924625
+      },
+      {
+        "files": [
+          "tests/test_terminal.py"
+        ],
+        "sha": "93ad6e38919a69e3c33431aa461b3aa735eaed87",
+        "timestamp": 1456924898
+      },
+      {
+        "files": [
+          "tests/test_terminal.py"
+        ],
+        "sha": "2f67e75375d23d7ff963e06bbb1a27b89e37e4e2",
+        "timestamp": 1456925265
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "a6cb7fa077ef0155c610313794b51bf164323c10",
+        "timestamp": 1456927561
+      },
+      {
+        "files": [
+          "circle.yml"
+        ],
+        "sha": "31096a7d723e234fd5f70241de3bbe5fb6f04b27",
+        "timestamp": 1456928326
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "ab5a2f581f7a1b45b48ec3e98706899255a2c2ad",
+        "timestamp": 1456934955
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "9ab7634bae7411e1f6693516feaa03659370df4c",
+        "timestamp": 1457562292
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "setup.cfg"
+        ],
+        "sha": "6171fedf0c224f98a6ebf5ad1034841db496a087",
+        "timestamp": 1457630677
+      },
+      {
+        "files": [
+          ".coveragerc"
+        ],
+        "sha": "14b4705482131008c3bd6f36d5de20df77ef72e5",
+        "timestamp": 1457630857
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "20d9952d6808f833a95397b49252542f0c0889a3",
+        "timestamp": 1458779099
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "76468c1708fb91615452ef9e7d22c8898cc955d9",
+        "timestamp": 1461227883
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "8f01499a823fbc3f6863a0c10843fcae5c10eb6c",
+        "timestamp": 1461243511
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/bar.py",
+          "progressbar/widgets.py",
+          "tests/test_custom_widgets.py",
+          "tests/test_failure.py"
+        ],
+        "sha": "61b5b6b2a14569cb6fa8aa1d48fa069bd49dc866",
+        "timestamp": 1463005680
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "a96789eefc1f5f3d2e0cb26555f0465f62dce490",
+        "timestamp": 1463006267
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "1afccc339b04b58cc146e5b1b4c6e26a76e28747",
+        "timestamp": 1463007683
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "86baf4e2ccd500d7eeaf756909d83fb90143c09b",
+        "timestamp": 1463007883
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bbef3950909d74232715acd32d7f8a0ba7418b69",
+        "timestamp": 1463008786
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "pytest.ini",
+          "tests/test_end.py"
+        ],
+        "sha": "001c5ab09fe76f6a04c8ef03e5dbe641731ecdf6",
+        "timestamp": 1464358587
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "setup.py"
+        ],
+        "sha": "88c1b8d2c99e25b8777cc26f92abb53c323c1ca1",
+        "timestamp": 1464360623
+      },
+      {
+        "files": [
+          "examples.py",
+          "tox.ini"
+        ],
+        "sha": "72ddf48fa407e117248a06dede3b1763aec159cc",
+        "timestamp": 1464540950
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "4e4eafafacf4f8c6afc91f596dcc5eafc7e6cba1",
+        "timestamp": 1464565174
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "1829d206729cc025d4e25c94d80613533b545b8f",
+        "timestamp": 1464565776
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/bar.py",
+          "progressbar/widgets.py",
+          "tests/test_progressbar.py"
+        ],
+        "sha": "9840a982b357c96746f934d62fd78e1b326e2c03",
+        "timestamp": 1464608488
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "2cf4329fa02c61c3f174ef4f54dd4b8e119815ad",
+        "timestamp": 1465633338
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "937af6d942be5deb267e7256b152df7749b7f35c",
+        "timestamp": 1465633649
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "32c10f7d40d5929886231e1ef9793976df2404c3",
+        "timestamp": 1465634816
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/_six.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py",
+          "pytest.ini",
+          "setup.cfg"
+        ],
+        "sha": "743bf895315253b806751e1bec01fc3e77268af7",
+        "timestamp": 1465747222
+      },
+      {
+        "files": [
+          "pytest.ini",
+          "setup.cfg"
+        ],
+        "sha": "0705ca4d2cb9a9f717a7d884d0635b8d592268f9",
+        "timestamp": 1465757580
+      },
+      {
+        "files": [
+          "progressbar/_six.py"
+        ],
+        "sha": "e3274bee5d060276ee537af7c95fa04cabdd6e5b",
+        "timestamp": 1465758772
+      },
+      {
+        "files": [
+          "pytest.ini"
+        ],
+        "sha": "f1ad9957f36b92284e2fa4db10cde8b43c0791ca",
+        "timestamp": 1465758933
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "f8a310409ba80f79f32fc365165682937a51bc34",
+        "timestamp": 1466242836
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "dc0b8cecb7cf3808dabf9ae7ed76a0c36b792b1a",
+        "timestamp": 1466243568
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "b04a36fce33b08c6f75da405b3e33af79cfc44a1",
+        "timestamp": 1466243923
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "fdc70b25a4e6799df1d96dd4cd927ea2b410265a",
+        "timestamp": 1466243923
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "cf19031aad1d4474d995aa518834382169d2b758",
+        "timestamp": 1466684579
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "02ef97564dd426ed1fa9c96cb7c368e7d4326118",
+        "timestamp": 1466699689
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "67bedc9b569203633e524f10fb2912edfd92797b",
+        "timestamp": 1466711324
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "1e4aee9552fcdb96a2d7a9a5a9f7775c03a88527",
+        "timestamp": 1466711343
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/bar.py"
+        ],
+        "sha": "51b093dc8034cc58b75b13d04894f6ec540ab97d",
+        "timestamp": 1466713633
+      },
+      {
+        "files": [
+          "tests/test_progressbar.py"
+        ],
+        "sha": "5ab15c8b3750506146d1d31b4b56524590cc9173",
+        "timestamp": 1466713643
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "4ca875a432e55d9c874c37cd627eed6feacf1be1",
+        "timestamp": 1466714044
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "39359f3b4479c6433d25f4c8c7954470f5ab8b9c",
+        "timestamp": 1466715760
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "72cf4c7df67e6285032e1796ff5c946428389176",
+        "timestamp": 1466762695
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "38c188911ce0f962db6e290e1ef447fa6c23c875",
+        "timestamp": 1466762707
+      },
+      {
+        "files": [
+          "tests/test_timed.py"
+        ],
+        "sha": "10ea902dfe128c84cbc7d0b07dda96b4888d27bd",
+        "timestamp": 1466763496
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "330861a783677af0fb297c88ac3169209e50f80b",
+        "timestamp": 1466763748
+      },
+      {
+        "files": [
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "fd98414a5c668bdecf027e43e803d8f75f81ce94",
+        "timestamp": 1466808855
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "f86653b85b6191df3aca45ffaa5d8248468a9367",
+        "timestamp": 1466808917
+      },
+      {
+        "files": [
+          "progressbar/widgets.py",
+          "pytest.ini"
+        ],
+        "sha": "8cd3a50bffaf2869b42c47bf5085a0d307e22d12",
+        "timestamp": 1466887943
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tests/test_terminal.py"
+        ],
+        "sha": "2b1b5545a3e6861ec772c921707b35056e91b377",
+        "timestamp": 1466975848
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "13bc35345c01210b7982418d724fecce39e826df",
+        "timestamp": 1466977054
+      },
+      {
+        "files": [
+          "progressbar/_six.py",
+          "progressbar/utils.py",
+          "tests/test_large_values.py"
+        ],
+        "sha": "19168aeeb77716103aed01168df139496e8f9796",
+        "timestamp": 1467289668
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "e1a7bc2cb71660f7c3bcef1af51aa19179c4ef2f",
+        "timestamp": 1467583819
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "ff9f0f7d3d63658eeb5cc083a2219508fd75963a",
+        "timestamp": 1467588714
+      },
+      {
+        "files": [
+          "ISSUE_TEMPLATE"
+        ],
+        "sha": "575a491e3ea4c830bf223fd831a7b5b05386a7d3",
+        "timestamp": 1468153638
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "72c46adba5feba8841a00832542200f7799afb39",
+        "timestamp": 1468183630
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "d0484b56902b2ea046f20911109a829b4ee2ccad",
+        "timestamp": 1468183641
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "a648a12eb4815454db2fbc4ef784a8093209aa89",
+        "timestamp": 1468183844
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "82d0e48ab90593fc5733972b972c7208d8b3389b",
+        "timestamp": 1468184394
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "7b552321419444ac2a185a4491ceed3ea6a44bdc",
+        "timestamp": 1468184694
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tox.ini"
+        ],
+        "sha": "ea793786d94607d1fea65045c5ec26f7d1e6f80c",
+        "timestamp": 1468189025
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "713c945b4b3356628ddf5b0301e0efee5306ed7f",
+        "timestamp": 1468695036
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "aa75843c88e376191984dd88da068dcbbc13e1a8",
+        "timestamp": 1468695177
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "8a392112b98019cf6a26e03e6522aa55745565e7",
+        "timestamp": 1468701989
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "f8bbf3dcb884c1da2159bb8ac4da60bb09924fde",
+        "timestamp": 1468705111
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "c9a039b3d7eb29ff854c143393da9df83f6d2458",
+        "timestamp": 1468705492
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "0e8ac38d4e70b962d1d3cb6c563831886fa61553",
+        "timestamp": 1468705650
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "8318dbb86cca20d1648347cf045c40b072be791d",
+        "timestamp": 1468708293
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_terminal.py"
+        ],
+        "sha": "cad751d8efafba20c9381ebdefdba70c47b1858c",
+        "timestamp": 1468709037
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "9b3a22b0237b4e9fad4272ee805540fb3645a117",
+        "timestamp": 1468709403
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "810bf50e59254f972eb8914cdea037f70ed947b8",
+        "timestamp": 1468710418
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "53f8ebbd7d57a93525b9b2168c8c0f58fa9752b9",
+        "timestamp": 1468710567
+      },
+      {
+        "files": [
+          "docs/history.rst",
+          "docs/index.rst"
+        ],
+        "sha": "9a672b3ce04a05c0ae206143fd2b2fd6136019db",
+        "timestamp": 1473328814
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "6fc61b4665da37593c7820e89ed28ada11d38969",
+        "timestamp": 1473466322
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "636b8ee399fc4fdcafd9db76ddf17a449ef9d8c1",
+        "timestamp": 1473507448
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "b9572ac55806ef0ac97688f7aa9570aebfa9cc0e",
+        "timestamp": 1473507448
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "de5f1fe76eb012831833f4ea5f69f7b10a1832af",
+        "timestamp": 1478158026
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "225cb1c719300e778359d2c8ef839272643d9140",
+        "timestamp": 1478158236
+      },
+      {
+        "files": [
+          "progressbar/__about__.py",
+          "progressbar/bar.py",
+          "tests/test_flush.py"
+        ],
+        "sha": "e4c99940f33dd8227696d812c56d4cdabff79acc",
+        "timestamp": 1479000980
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "0919fa6508baeec0fe56ca5267e421487000ccdd",
+        "timestamp": 1481756484
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/widgets.py",
+          "tests/test_timed.py"
+        ],
+        "sha": "31bce7b80cec27034599f2eae5106bfe6866e162",
+        "timestamp": 1482319024
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/widgets.py",
+          "tests/test_timed.py"
+        ],
+        "sha": "03ad56f0a55c2afb52f587d45f59bcc06a1979b7",
+        "timestamp": 1482330653
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "9f33c13923e6662bf6ef6129daa0ae7d75662708",
+        "timestamp": 1482332128
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "720170e4a4db1f18023087ec2b9166e1c3905b73",
+        "timestamp": 1482357668
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "dfdb477f283d8e9bbf002d8b8006d6a88695a8a0",
+        "timestamp": 1482362809
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "764e46a1ee06d3300b8b8884d387f02e705e1b34",
+        "timestamp": 1483201725
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "7c89373224a03a38da4fda43c2a28f6fa4080951",
+        "timestamp": 1483702358
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/conftest.py"
+        ],
+        "sha": "2c9220433c175ebf581a7992653846d2f5298d52",
+        "timestamp": 1489429390
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_timer.py"
+        ],
+        "sha": "fbb5cc98d65b6520f39864d97d52f9557b5fd2d1",
+        "timestamp": 1489587272
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "52a81a2ac84d64d215eb2d768fa586b6bc6cf2be",
+        "timestamp": 1489588224
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "c90711a13d87fe0c3537e1cdb453d59bbd786b78",
+        "timestamp": 1489589135
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "76a8f36bd6b30966b3b36017a96decda451ea877",
+        "timestamp": 1489589299
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py",
+          "tests/test_unicode.py"
+        ],
+        "sha": "cd8947d3baae6af30cd4539046622ed79d29f6b1",
+        "timestamp": 1491235258
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "07c167c67ab981baed98f3898421bc6170307d7a",
+        "timestamp": 1491235945
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "84be72f1bdafe269c6c32affb6e13d3c347063bf",
+        "timestamp": 1491235945
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "b2556609dbf4920f3b197beb814ab30f28e5cda3",
+        "timestamp": 1491236086
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "8f136dd7af0c95075c0a5b92ef1cb3c6572a1307",
+        "timestamp": 1491304165
+      },
+      {
+        "files": [
+          "progressbar/__about__.py",
+          "tests/test_unicode.py"
+        ],
+        "sha": "ee79fc82f373bc8bc2d49c80cbad0fe1c13b9f81",
+        "timestamp": 1491349266
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a012814173deff452425d7c29392a99b56d19a71",
+        "timestamp": 1491689538
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "b4fb99349600231a0c716e43b40957c741e514e1",
+        "timestamp": 1490383169
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "768a08ee3cf86b18d608ee5f241ac4992fd73012",
+        "timestamp": 1490384685
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "faecd51b2f5b8362f3fa5025ada8503f726fcbe3",
+        "timestamp": 1492209066
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "8b8dd23a23ab655480a13bd5574afc71e91ff307",
+        "timestamp": 1493948684
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e799aadae2f25bf204a0cc12b12b05071750d859",
+        "timestamp": 1493948770
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "b3343b26a6be48267be873a8e881de0045d6141c",
+        "timestamp": 1495716340
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "6ca8abf16f8b7f2ca9d958ea19a7fe8887d9d403",
+        "timestamp": 1495716429
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3128db98caf66ccbbffa7ec22ccc690167f4019f",
+        "timestamp": 1491689538
+      },
+      {
+        "files": [
+          "progressbar/__about__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "b67b97b951fef74c5672786116b1307acbac9a86",
+        "timestamp": 1495788730
+      },
+      {
+        "files": [
+          "progressbar/utils.py",
+          "tests/test_stream.py"
+        ],
+        "sha": "af1146b724ae2413a99e2ee388db5fe0189a10bf",
+        "timestamp": 1495837482
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "3f3962579715a16d3dac987ee17c4b1d9184f9e5",
+        "timestamp": 1495837854
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "fac56a00dbcc35183b906e2acaeb9c2efca8f83c",
+        "timestamp": 1495844704
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "5bce5d5343a87db0f88aa884a92eeea0eb33cf1d",
+        "timestamp": 1496162282
+      },
+      {
+        "files": [
+          "examples.py",
+          "tests/test_failure.py"
+        ],
+        "sha": "a362c1b729b2476edd0a72b217d27e34ce3e991e",
+        "timestamp": 1496162353
+      },
+      {
+        "files": [
+          "pytest.ini",
+          "tox.ini"
+        ],
+        "sha": "58232698684edb9b99c51a2ad8d45069c469edf1",
+        "timestamp": 1496162375
+      },
+      {
+        "files": [
+          "tests/test_stream.py"
+        ],
+        "sha": "f8a1db67f0a62417c40311d88dabeaf55edbd601",
+        "timestamp": 1496162382
+      },
+      {
+        "files": [
+          "tests/requirements.txt"
+        ],
+        "sha": "05a996c993bd220bea69fcd5b671224c1706e367",
+        "timestamp": 1496163426
+      },
+      {
+        "files": [
+          "docs/requirements.txt",
+          "requirements.txt",
+          "setup.py",
+          "tests/requirements.txt"
+        ],
+        "sha": "cacda4f36f227e2e56cf279211f8bb2cc493279c",
+        "timestamp": 1496164536
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "963e0c710f8005fe3a4ea53e5b5607e9de3c65be",
+        "timestamp": 1496164697
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "a5c8e7b556e0ce08861280fc1547a8f673de5a59",
+        "timestamp": 1496410654
+      },
+      {
+        "files": [
+          "tests/test_end.py"
+        ],
+        "sha": "6df88e26b4ec3ad600db4a8f3c81d8e6bc7778c8",
+        "timestamp": 1496411493
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "fe87dad1d2c72834bdeb2e4b5eb404fac84648ed",
+        "timestamp": 1496412544
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "344d3efb765cc1cd38b1fb5792fc7827b32e94fd",
+        "timestamp": 1499264263
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "5eba6e1506dc3fba063f70d42f7e2904b3812059",
+        "timestamp": 1499869432
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "14b8ed331980dfaf060ea8fa367d711d5e333551",
+        "timestamp": 1500398809
+      },
+      {
+        "files": [
+          "progressbar/__about__.py",
+          "progressbar/__init__.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py",
+          "tests/test_stream.py",
+          "tests/test_widgets.py"
+        ],
+        "sha": "57a4f4b43565cdef7468538f7d4b4edcf0a506ef",
+        "timestamp": 1500767894
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "06857640e04886f14086639fbad5179b53f970c2",
+        "timestamp": 1500821437
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "ff1c560f9ab18c526506451901f0b695267905c6",
+        "timestamp": 1500822863
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "tests/test_stream.py",
+          "tox.ini"
+        ],
+        "sha": "10d2165e106f3ed8b2a65e804bc3d84dd154e55e",
+        "timestamp": 1500840074
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "a7f644d2a346b86640162b55b18af05d261061c8",
+        "timestamp": 1500840078
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "42f9caa9e1dc26f75ce42d501a2cfc2e2fd2256d",
+        "timestamp": 1500840293
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "69ea996b985cfcc3dbb8d14a980ca6b5dbae7711",
+        "timestamp": 1500919769
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "f48cdf7f445347ce1b05d22cfdd3e09be2348b8c",
+        "timestamp": 1500920260
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "89168e5a7ba5369b9c0293b8e00e688b39a6624a",
+        "timestamp": 1501181626
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "bbba9f486a7e7a8e1b72f0f0e7b220a4d8cb12f3",
+        "timestamp": 1501181905
+      },
+      {
+        "files": [
+          "README.rst",
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "4eb44b211702b682c1735f84f0f5403655d6d3cd",
+        "timestamp": 1501257430
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "37adf2e4c256ad7bedde2e398196af10ce30f2e9",
+        "timestamp": 1500920260
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "aab4b572df54fdafe20f5dc52c90ca5e7c9b1320",
+        "timestamp": 1501265676
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "cd803d5a7a06c1afdb8abd739cbd980af2d6932a",
+        "timestamp": 1501289887
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "f08cd387ab856dc9883e86fddb72f784c8705c62",
+        "timestamp": 1501289896
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "52a870843561789cbcf40e075fa064a05e8910a4",
+        "timestamp": 1501335598
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "12bb41fd87a37ccac0730792c3a983d7cd23d7ee",
+        "timestamp": 1501335609
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst",
+          "progressbar/bar.py"
+        ],
+        "sha": "ba44055752f8c5efeff478e7541ab267bf74f4eb",
+        "timestamp": 1501794007
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "facf01ea6bb785c6fb8beec3445b5201d6cf0625",
+        "timestamp": 1501794579
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "4bfc676f8a9152b7b491bd58a69a465f228e81e9",
+        "timestamp": 1501797051
+      },
+      {
+        "files": [
+          "README.rst",
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "b3832be6d3beb2c78abde26cda18d709569661b7",
+        "timestamp": 1501799884
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "87332595dc5ce8a2d3cdd5d71a100ef9a0089719",
+        "timestamp": 1501799935
+      },
+      {
+        "files": [
+          "tests/test_progressbar.py"
+        ],
+        "sha": "88e8ee16caa459f873fc5ce83890c9a552e26548",
+        "timestamp": 1501800369
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "bf79c320604ddb6d75bbb5a89ddc75831c5a3932",
+        "timestamp": 1501802012
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8494db6146059d1721ca4836f8e41e20f85b8b3e",
+        "timestamp": 1501937615
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "2be63a80b1e9afc0dc12543757a8dbc46f8c46cc",
+        "timestamp": 1501937622
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "93b46fa86072ac4bc27fcab423500b914ff8cc2b",
+        "timestamp": 1501937946
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "24c47b3c1490807516f3f312b05e84a88ed9a082",
+        "timestamp": 1501938274
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "c5bd95651d2602d98d6d4cf8716797d9cfc28e5b",
+        "timestamp": 1505934463
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "330d6a822719ddd060b3917d2354f4a2793b6d9b",
+        "timestamp": 1505934491
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_large_values.py"
+        ],
+        "sha": "54ed2eff0641f382bc7123dd601e0af15cfaa287",
+        "timestamp": 1509330096
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "e58b5c5e43a77166d9d6be5b6ef258e511d408b9",
+        "timestamp": 1509367956
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "581a6f5b16ee2ac86f1335f639af5cc6fa89d67c",
+        "timestamp": 1509368624
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "8a2fa7da2888c76edb145806d32a716053b74b8f",
+        "timestamp": 1509368684
+      },
+      {
+        "files": [
+          "progressbar/widgets.py",
+          "tests/test_stream.py"
+        ],
+        "sha": "fe3cbf09b2f39130fea3949dabe91a04451d8af0",
+        "timestamp": 1509369310
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "a2aeef59141d2d435709bc5bcb4ef0fc344bed03",
+        "timestamp": 1509369320
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9f962b689ad03bba088de6898f7755eb125c810c",
+        "timestamp": 1512117281
+      },
+      {
+        "files": [
+          "progressbar/_six.py",
+          "progressbar/base.py"
+        ],
+        "sha": "0386f2810ae1c7465d0f81e268d83af2970a35d9",
+        "timestamp": 1512117313
+      },
+      {
+        "files": [
+          "progressbar/_six.py"
+        ],
+        "sha": "46ee16f7b7bde35ca0e98ac7a0f884009f43d7a3",
+        "timestamp": 1512119689
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "fb5d1523388204bb85814183143d8c05869b8b5a",
+        "timestamp": 1512119709
+      },
+      {
+        "files": [
+          "progressbar/_six.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "634c4b5ddc1b0f9eb761e194a5539a377624c5c4",
+        "timestamp": 1512122289
+      },
+      {
+        "files": [
+          "progressbar/_six.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "36fda5a5cc9cd46936475c1e9ba424963bad1e7d",
+        "timestamp": 1512122553
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "11e9fc3b69dcb0dd899ad2519d7a94babd90a349",
+        "timestamp": 1512122733
+      },
+      {
+        "files": [
+          "progressbar/_six.py",
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "7ce00201dd0cb5b2892bf4256ce9ce56a7ffd323",
+        "timestamp": 1512123293
+      },
+      {
+        "files": [
+          "progressbar/_six.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "911320392ee1bff6871a23565487bf88d258bff1",
+        "timestamp": 1512132061
+      },
+      {
+        "files": [
+          "progressbar/_six.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "1b8486d5b905faf673e0a4b8d1b7873e7d6fdb7d",
+        "timestamp": 1512132224
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "41bb792b7b05cc740260ec75882f9360f7e468ed",
+        "timestamp": 1512133514
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "f52413f96d3d6ac466668d67708d22d4b15963e4",
+        "timestamp": 1512136431
+      },
+      {
+        "files": [
+          "pytest.ini"
+        ],
+        "sha": "9204dcca4bb1c70bf82ca1a041bd1dabd83f90e8",
+        "timestamp": 1512143978
+      },
+      {
+        "files": [
+          "pytest.ini"
+        ],
+        "sha": "4abdb914b46ef752cb897bc3aa4b508fd2333a63",
+        "timestamp": 1512154142
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "dc36d4a5a2753ef24e2fd362491d9ab51c145fff",
+        "timestamp": 1512156041
+      },
+      {
+        "files": [
+          "tests/test_failure.py",
+          "tests/test_timer.py"
+        ],
+        "sha": "fe8c00a80af4c88c711808798d324fd2dad88ea6",
+        "timestamp": 1512390276
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "de29ac3dce1e5bcb64a47a0eb451286e4c694613",
+        "timestamp": 1516654808
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "fc69b52ed935122afbb8ecead1ae48b7a9897055",
+        "timestamp": 1516671936
+      },
+      {
+        "files": [
+          "tests/test_failure.py",
+          "tests/test_timer.py"
+        ],
+        "sha": "5616eceec351132860fe3fead2745e34526d6b59",
+        "timestamp": 1518369312
+      },
+      {
+        "files": [
+          "tests/test_failure.py",
+          "tests/test_timer.py"
+        ],
+        "sha": "ba8bef7b22609e5cc52db47ce6adc219f5413953",
+        "timestamp": 1518373735
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "572854d7674c576bb744df586f842e563317bdb6",
+        "timestamp": 1518377505
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "progressbar/utils.py",
+          "progressbar/widgets.py",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "8383fff81a29746fc99458d5169360e8c2eef09c",
+        "timestamp": 1518395199
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "16b784228a480a8c52f83a0318fac057fb2877b8",
+        "timestamp": 1518395502
+      },
+      {
+        "files": [
+          "progressbar/base.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "365e6f3509bea857cece75dc04992c2f2f5b2ab5",
+        "timestamp": 1518395655
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "c26279f38aa40599db3cf6c556e5cb0fd95ec184",
+        "timestamp": 1518395970
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "171a1f79c3a7ba60f906f4ed8e0a95645056d780",
+        "timestamp": 1518396117
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "e664f0481588cac7d2ee231a9aaba08110d21ec3",
+        "timestamp": 1518520190
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "setup.py"
+        ],
+        "sha": "5b70022f4cbe1ab52a7316436d933f07856a89df",
+        "timestamp": 1518520206
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "000eed05d39fea663581a16b607a6b8be9c54333",
+        "timestamp": 1518520548
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "b869729722eb4abf4bcb9937c4a7054fcb9086c7",
+        "timestamp": 1518562614
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "774becbab5db4eeec337a21f6401c29a85fd5ddf",
+        "timestamp": 1518604332
+      },
+      {
+        "files": [
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "c4c52c98f4c8596b4f19c88fb64e1b0af4f9c4cd",
+        "timestamp": 1519603672
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "7234c6df17c33da391a92c71735e30d36e7d0540",
+        "timestamp": 1519861843
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "c0b166e5170b38ea71f0fe9681aacd21bdc07d31",
+        "timestamp": 1519863394
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "7c6a6f7e0c6ef6889dcf47f7ac1dcc6e5422a897",
+        "timestamp": 1519869512
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "32191c3b0fb806ca5958ec76dcc553dec6871383",
+        "timestamp": 1519894044
+      },
+      {
+        "files": [
+          "tests/test_samples.py"
+        ],
+        "sha": "1d38a6085044d16cecf4b25897fbacfb6d9ff85b",
+        "timestamp": 1519897042
+      },
+      {
+        "files": [
+          "tests/test_samples.py"
+        ],
+        "sha": "c14d84c8e1cc0b94fcbe2450d88ea504b057cc39",
+        "timestamp": 1519898603
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/progressbar.six.rst"
+        ],
+        "sha": "06e1f9a6768738248d5b44e6bd04da5b17d55193",
+        "timestamp": 1520084481
+      },
+      {
+        "files": [
+          "tests/test_samples.py"
+        ],
+        "sha": "9214fe09da8c31dca5990b4a596155597e6e7717",
+        "timestamp": 1520118697
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "fcba8f9174cc884e1921a9ca0d3b460ccb54e867",
+        "timestamp": 1520154783
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "db9147d01ec3b14ec2d1619eb3c10fb9294b455b",
+        "timestamp": 1520245316
+      },
+      {
+        "files": [
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "7406f0aaa2f0a26253471daac55801b64f0f5e70",
+        "timestamp": 1520249205
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "9a74eb8606f5f1a623928307ca48b7a8ff5dde18",
+        "timestamp": 1520249256
+      },
+      {
+        "files": [
+          "pytest.ini",
+          "setup.py"
+        ],
+        "sha": "a6c2d9727303dd52997d4e0e59478af5bffa479c",
+        "timestamp": 1520261001
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "57528a1c46b6d2b41767a2bdb0b2169b878c2402",
+        "timestamp": 1520249256
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e9ca113794bfefdddb8e18f3a6862ec713dc715d",
+        "timestamp": 1520261070
+      },
+      {
+        "files": [
+          "pytest.ini"
+        ],
+        "sha": "69dfa6bf81680cd314b9a3018a43e0fafe1f5348",
+        "timestamp": 1520261952
+      },
+      {
+        "files": [
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "21e3913ac805fad57a0edb4ee9c880054a8b53db",
+        "timestamp": 1520356112
+      },
+      {
+        "files": [
+          "tests/test_monitor_progress.py",
+          "tox.ini"
+        ],
+        "sha": "5a7d34ce3cc471a7943e5605531f2f2642bb292b",
+        "timestamp": 1520356985
+      },
+      {
+        "files": [
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "048d6db0516c0f207f081cd6b2f9bc37bf353266",
+        "timestamp": 1520378696
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "82d1e1eb1e27b3b63b99fe8b500ff76edbf1ca59",
+        "timestamp": 1520378777
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "267d1b210b037f11a0d269a65b84be4c4d28452f",
+        "timestamp": 1520378887
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "80b6ade8ed4e49f0ebed1861079d69cccad6b9bf",
+        "timestamp": 1520379402
+      },
+      {
+        "files": [
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "5d09249bc6b9d970881f6507a7ef54902ea8e079",
+        "timestamp": 1520429349
+      },
+      {
+        "files": [
+          ".coveragerc"
+        ],
+        "sha": "5e9c63b1536e28d201df70cdb97942bae6a11893",
+        "timestamp": 1522054501
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "b012105ae10ff340dd1460ff75ec83841e3aaeb3",
+        "timestamp": 1522062391
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "badac1ef38e2533403bcb62b1e99f78bcef4bd1d",
+        "timestamp": 1522535663
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "2603b1eed880c2b3fb0e2e1829cad27f7f166150",
+        "timestamp": 1522622039
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "3ccfa0659fdbca381bf51cb051a162bc9ae3092b",
+        "timestamp": 1522627887
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "9edadb0cf2759f8ffb0a3487dde41395ba05ea77",
+        "timestamp": 1522627926
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "41a21c0948dd7a5e98f913d2d8547a6478f9cbca",
+        "timestamp": 1522755138
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "c624d23c5e3486a776591cc993612ac83c69841a",
+        "timestamp": 1522755471
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "37facc7d0a576c2923306b9c95bac17512c7cd58",
+        "timestamp": 1522770539
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "51e8b992b322c3a880d531f813bc70cf5c7be258",
+        "timestamp": 1522841766
+      },
+      {
+        "files": [
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "074dc428b92642e574eedee1df0f6ab2a7618fbd",
+        "timestamp": 1522888242
+      },
+      {
+        "files": [
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "abe8f9cea11869b0ccdc6ab882de81f37b19b8c9",
+        "timestamp": 1522889027
+      },
+      {
+        "files": [
+          "tests/test_widgets.py"
+        ],
+        "sha": "5f118cc1baa4260ea64f0019f3b4bf1d5027f3d8",
+        "timestamp": 1522890500
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "ef0cc22930bf395ed273027a5b8dd01b4f5c2b6e",
+        "timestamp": 1523006410
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "7257c766de1158edadbc3ee706a3da15cfb55275",
+        "timestamp": 1523471243
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "75be317b87954e70e704bde361115b664facd7d4",
+        "timestamp": 1523493052
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/bar.py",
+          "progressbar/shortcuts.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "06b863092c4d41e68dca65071bdd4cad14182500",
+        "timestamp": 1527375215
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "1372996ead0ef636f7974dd37096eb72b56c31e9",
+        "timestamp": 1527376519
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "ae63bf94c3fe402ab4ed166368d32726d83115bb",
+        "timestamp": 1535846972
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "14ac736c3419a33ac8ff61f5a772584c16c3c9fb",
+        "timestamp": 1539802360
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e4c56ffb9fa7de2a778e28bf1af65753a8369725",
+        "timestamp": 1539811661
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/conftest.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "3b2be9d16ee583cf29cef152c09f6343f0bb028f",
+        "timestamp": 1542279563
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "1f14eb0483955db5e2fa8897d588c3fffeeffcd7",
+        "timestamp": 1542361837
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "02164e1d6db4c047c625fe368d4aece3ff4403a0",
+        "timestamp": 1542362156
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "69653d2db7be8d760976279fa266e62fed4c10ac",
+        "timestamp": 1542489086
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "49e07864bf68232feee83a4de6d9ce779524949a",
+        "timestamp": 1543259818
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "93799fdcedbfafcce374289d55e850b05e7b0fbd",
+        "timestamp": 1544929415
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "2c6bffea4d1009c46e4fdb571ef0c2e1e392c755",
+        "timestamp": 1544929891
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "6153eb5e27fe0f0ab55e69e3c7a582dc25d97cc7",
+        "timestamp": 1544930207
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "aafd994e046443035b981c7890a23a1b4462a0a1",
+        "timestamp": 1544930644
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "2a2c410f392b2fd043948e3c7998f457b064c009",
+        "timestamp": 1544930712
+      },
+      {
+        "files": [
+          "tests/test_progressbar.py"
+        ],
+        "sha": "293a37656ca20ee689ff51daef1ec609cd9fd20c",
+        "timestamp": 1545007781
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "7de9977b7e7c077fb798b1f76f0e8b9d432bd906",
+        "timestamp": 1545007786
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "bf422bdc3ffe82c545d0ba3ef12e6f89c4426678",
+        "timestamp": 1545008083
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "fc5ac179ed113bf32d55c71eab9f79907d40a8fb",
+        "timestamp": 1552489598
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "f4a7072efd9ac3ff5cb4f90525fe8a21befb484c",
+        "timestamp": 1552492289
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "2ea4d338383251ca978df701936fc9bfe1971a59",
+        "timestamp": 1552492847
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "10f23859a34e294864ad67c9f763066f3a1f3423",
+        "timestamp": 1552493046
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "9af4d70e5e73fc1aa78f23bc808126ebe361580d",
+        "timestamp": 1552506766
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "49c808bb78604b033118d291c7575a677a175e1a",
+        "timestamp": 1556458720
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2d87eeb6fff8b064c6bcdc72feeb8adfe73b7aa3",
+        "timestamp": 1557701091
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/conf.py",
+          "progressbar/bar.py",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "b66d9d67797c1f3ad82c58138498dcd8b98c62c4",
+        "timestamp": 1558966303
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "progressbar/bar.py"
+        ],
+        "sha": "976acf55eda7784edf8ff8d45c21936b74d41b7c",
+        "timestamp": 1558968320
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "2d7e63f804caeb51653258317c5a5206b2d8b1bf",
+        "timestamp": 1558968729
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "d36c1751e6da1ab25a78bff449dbb1d6fb58a881",
+        "timestamp": 1558969409
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/widgets.py",
+          "tests/test_custom_widgets.py"
+        ],
+        "sha": "4323f3f9b275a79be4b9c9bfb46430d0d6b19da6",
+        "timestamp": 1559161972
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "f1a9ff9ed8deab4bc939d675704058c44a2b4732",
+        "timestamp": 1559161981
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "8ab081dff99c84d1df4d151fc336198cde7749b2",
+        "timestamp": 1559296667
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "25cd6d44d419e180683912d26c45f2bde6f72c29",
+        "timestamp": 1559303787
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "6d2f0cba81338afef8728d9ae255a42563497dfb",
+        "timestamp": 1559309225
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "2e1b6122123149343284167f82e9a3f54ea885df",
+        "timestamp": 1559309247
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "4b60e82caacac82523290b604d251548370fa02a",
+        "timestamp": 1559380627
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "34aff68ac4adc705475f343ce045f3712451dfc8",
+        "timestamp": 1563029721
+      },
+      {
+        "files": [
+          ".github/stale.yml"
+        ],
+        "sha": "fa1a66bdccc39edadf6295a4edeaecc6863b3df7",
+        "timestamp": 1563287949
+      },
+      {
+        "files": [
+          ".github/ci-reporter.yml"
+        ],
+        "sha": "d9be42d6f083a6851577452dbc7538f72fae29b5",
+        "timestamp": 1563288209
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "685dd2320249527e810789f39cf424b340a133af",
+        "timestamp": 1566388266
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "79b3d8d647c08a7de7255d84de73a30562fe499b",
+        "timestamp": 1566388275
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "722e2545a5cb01e0d9f0236697134b726ecd070d",
+        "timestamp": 1566391014
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "6b4fd2ce7f88e69246e0efa088e8949440ee2b12",
+        "timestamp": 1566391084
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "2f1506b739b85976929c78909969f3beebcb87ae",
+        "timestamp": 1566392169
+      },
+      {
+        "files": [
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "8bc4cbb4730394f6dbf946540fe3701c6aeb1a71",
+        "timestamp": 1566396501
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "690f471c93009f03354396dd750d4ccbd3fe531d",
+        "timestamp": 1566397063
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "69880e1ccff426d59df79b85ef58887da38de497",
+        "timestamp": 1562484528
+      },
+      {
+        "files": [
+          "progressbar/widgets.py",
+          "tests/test_widgets.py"
+        ],
+        "sha": "9a7aafa362efd6099fd19e0660ec5d347294b867",
+        "timestamp": 1566728573
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "6b98801a00efb6db5819bae680c367adf178db14",
+        "timestamp": 1567329105
+      },
+      {
+        "files": [
+          "tests/test_widgets.py"
+        ],
+        "sha": "8f623c42055569efd7dee8d8b747d8ddd028b306",
+        "timestamp": 1567331031
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "6705ce78cecb282218697937b202e39569739562",
+        "timestamp": 1568275285
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "6c1601f0368fcb04c20b746ca14496eb6186162a",
+        "timestamp": 1568400336
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "6b9dd156e9934b9f87932906cd2ee0a4aa4bc381",
+        "timestamp": 1568402626
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "8a340c9a946ef2561ca2893245e62667b6d88946",
+        "timestamp": 1568271602
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "6cfe62d91da95de9074f13ca96567a0ff8621cd5",
+        "timestamp": 1568458468
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "ca42c4302846c9d837c9ce030b632b686aef7d1d",
+        "timestamp": 1568458550
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "fb8a8ddc1eca8cc2aeaaee9feb5d268b6d2964e4",
+        "timestamp": 1568506743
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "3b4c6c71978b68bbbda0547bfebd4e584c968d8c",
+        "timestamp": 1568512769
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "48019f5712bb51b9554880bfa8e93ac1dca64794",
+        "timestamp": 1568512774
+      },
+      {
+        "files": [
+          "progressbar/__init__.py"
+        ],
+        "sha": "6421f77270f1d2fae22595a1e7226709264b1b8c",
+        "timestamp": 1568513147
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "93ef38c81211692ee844a1c3fb0fe697c2e859e0",
+        "timestamp": 1568513569
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "83e642b4effa69c2cae1595e50985cfb2cd51c1e",
+        "timestamp": 1568593652
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "5b8cac69c704c74c8755a7e900cc17dd8a801a47",
+        "timestamp": 1568593749
+      },
+      {
+        "files": [
+          "progressbar/utils.py",
+          "tests/original_examples.py",
+          "tests/test_progressbar.py"
+        ],
+        "sha": "2acb7257efd67ef11be2cd9a3e1aeddf746b7c88",
+        "timestamp": 1568598029
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "2c47c933493e02b89820309841c0a0964e9df405",
+        "timestamp": 1568727202
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "fa5206cad69e201cfe1274e9f9a8db50be664b30",
+        "timestamp": 1568728836
+      },
+      {
+        "files": [
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "05d314da7942ef44cc4c159c3ead2d8e75c19e2e",
+        "timestamp": 1568729898
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "17815440aa78cb62f3fd91f0e36d87978bfc3c64",
+        "timestamp": 1568733556
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "e95cbe1c224d5c3d588239e07ab54a5f5edc3645",
+        "timestamp": 1568735254
+      },
+      {
+        "files": [
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "d68717d4da5b9606c5199d3a07605091a69e6abe",
+        "timestamp": 1568736285
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_monitor_progress.py",
+          "tests/test_timed.py"
+        ],
+        "sha": "f6ad27fff3e6ce318141e13618ebdaa54639aaea",
+        "timestamp": 1568766351
+      },
+      {
+        "files": [
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "dfce867bdf1ace8e9470594a7c2bee54bad907b3",
+        "timestamp": 1568766568
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "9e7a84e35a7a3d8c20a61e13f3f2185325f811bb",
+        "timestamp": 1568767075
+      },
+      {
+        "files": [
+          "tests/test_progressbar.py"
+        ],
+        "sha": "e5808f9509a90e9a33bdfbe0feddcb508391fb68",
+        "timestamp": 1568806675
+      },
+      {
+        "files": [
+          "progressbar/widgets.py",
+          "tests/test_progressbar.py"
+        ],
+        "sha": "d7477d5c6f866b1f6352a7f370214ef4f0937b77",
+        "timestamp": 1568822929
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "9f85070fcc8964a004ad0ad2153940ea7c088026",
+        "timestamp": 1568837468
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "60ec5b4d3e1af6aa055c1e8ec53f6711398c7809",
+        "timestamp": 1568842252
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "659694e2553ac964b69ed654503c70b4d6c8c70e",
+        "timestamp": 1568844961
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "1fe36a21dcc47ab3a76ff899e10ae4857325e9c1",
+        "timestamp": 1568861833
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "ab860cface60925ba9bded5f2e74d186fda04024",
+        "timestamp": 1568861840
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "9757e421b35204ac006fc164b245e1b4d64f31c4",
+        "timestamp": 1568865552
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "33dd7afddc4052d5e939ba42b6dddec008405570",
+        "timestamp": 1568865888
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "c2b7b02c0b5bb132eb3a4110f53a99a723aabd84",
+        "timestamp": 1568871888
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "8756b674056cc8812809fea9edaa4c138bfcf2a8",
+        "timestamp": 1568898232
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "fbb5880c7ac0aee437917bff6bc036d4f58ce423",
+        "timestamp": 1568898869
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "examples.py",
+          "progressbar/widgets.py",
+          "tests/test_multibar.py"
+        ],
+        "sha": "9c6f091118f270eee2138f0982446f5b5bfdef6e",
+        "timestamp": 1569290234
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "e123e97af9f0a8755a30b9ae0eec314ef1571382",
+        "timestamp": 1569290421
+      },
+      {
+        "files": [
+          "tests/test_timed.py"
+        ],
+        "sha": "f24eb5e7808e26d444699ed28489681d7a8618e8",
+        "timestamp": 1569290507
+      },
+      {
+        "files": [
+          "tests/test_timed.py"
+        ],
+        "sha": "70af4a0eaf8ec19cc10358d409049f65d9524909",
+        "timestamp": 1569290752
+      },
+      {
+        "files": [
+          "tests/test_timed.py"
+        ],
+        "sha": "d062d7a1bc4420f35ac2d3d2dfe6b76aecf28f29",
+        "timestamp": 1569290980
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "1aa4f3c1007ce6a9382195699c84869ad86dc210",
+        "timestamp": 1569291064
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "1a07b031cb6528722c36965da419ebba1e6aee03",
+        "timestamp": 1569291244
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6ccb34366f6eb3917af6cb34b9c1cc847cf74a48",
+        "timestamp": 1569291543
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "b642bb8deecda7706d876a33585026834e14b07e",
+        "timestamp": 1569291653
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "c8367ef0ad437526181553fd91e4b919c1f76fdf",
+        "timestamp": 1569292018
+      },
+      {
+        "files": [
+          "examples.py",
+          "tox.ini"
+        ],
+        "sha": "8ef1fcf93fd278e62f54c808f5a4827fae639afc",
+        "timestamp": 1569292284
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py",
+          "tests/test_timed.py"
+        ],
+        "sha": "37acd158ff592b9e1a5869b99f4bdcab69e93ba6",
+        "timestamp": 1569293198
+      },
+      {
+        "files": [
+          ".coveragerc",
+          ".travis.yml"
+        ],
+        "sha": "1cc48142d1022bd98ba7e0f875f7c052d890f391",
+        "timestamp": 1569293620
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "0f151a596d57f9ca65b77bd5f23a83d3551689a2",
+        "timestamp": 1569294172
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "fcc2eee9c30bab23d2ef4480ef6a15aaee7ec797",
+        "timestamp": 1569320966
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/widgets.py",
+          "tests/test_multibar.py"
+        ],
+        "sha": "57de6b8419eeb73fb9106f1585b81bb55929ec0a",
+        "timestamp": 1569326794
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "92e5d74738585abf668c179cb0cfc407f9ddfcc4",
+        "timestamp": 1569855293
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "tests/test_monitor_progress.py",
+          "tests/test_stream.py"
+        ],
+        "sha": "3e4bca157c0bf82a31dcce6f1a07f1d45e70768f",
+        "timestamp": 1569879767
+      },
+      {
+        "files": [
+          "tests/test_stream.py"
+        ],
+        "sha": "011cf9c9a022913fc96572a7cdf6242a854e47fd",
+        "timestamp": 1569880400
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "c987fc0d56f5f7bd330dca6e1d9d875f62b4ee6e",
+        "timestamp": 1569880519
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_stream.py"
+        ],
+        "sha": "959bfd695ec859e87a7c5a29afd663d105c261b6",
+        "timestamp": 1569882116
+      },
+      {
+        "files": [
+          "tests/test_timed.py"
+        ],
+        "sha": "68ba957682c1eea17f38503467fcfbea38879c70",
+        "timestamp": 1571575387
+      },
+      {
+        "files": [
+          "tests/test_timed.py"
+        ],
+        "sha": "3e3cdf7cab9451b94d52b12d1832acf94ffd88ac",
+        "timestamp": 1571655283
+      },
+      {
+        "files": [
+          "tests/test_timed.py"
+        ],
+        "sha": "1abc4497e2d474de1bb4924860c7bd212a790bb6",
+        "timestamp": 1571655542
+      },
+      {
+        "files": [
+          "tests/test_timed.py"
+        ],
+        "sha": "0bb6c666cddccba396fbd8a6b9c8468530caacba",
+        "timestamp": 1571656137
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "eef288a883e7b86974b5b0cb1fd45c0d25d82653",
+        "timestamp": 1572912118
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "62c5b4543efd00b155898c2fe18fdbfa5a6b9e12",
+        "timestamp": 1572912786
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "d9aec6f96dc74fe6e0dd3f70a6e017d46ad17454",
+        "timestamp": 1575041869
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "284e5d0fd1d39fea660bdcd4e1603cddae560c44",
+        "timestamp": 1575160446
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "31dce57a77d2d79e52247ceab291c67af6df3c86",
+        "timestamp": 1578193913
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "ae5d701c23ca65c5a4de39d78ba34324dc6e3765",
+        "timestamp": 1578194404
+      },
+      {
+        "files": [
+          "progressbar/widgets.py",
+          "tests/test_widgets.py"
+        ],
+        "sha": "9616cee18bfeaea08bc56c1bf7f4bc9ee30abafd",
+        "timestamp": 1582645695
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "a17f9b5f16695feec454277505bbdc505dae88d9",
+        "timestamp": 1582682501
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "a5a38cf86d1687f0eba64798c4d6b3d5f3a222fb",
+        "timestamp": 1583063126
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "57b78442e1024e0f17dc7943f09c70c60a1c7577",
+        "timestamp": 1583063485
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "CONTRIBUTING.rst",
+          "README.rst",
+          "docs/_theme/LICENSE",
+          "docs/_theme/wolph/theme.conf",
+          "tox.ini"
+        ],
+        "sha": "1d2cde4f5eb5ce2680d5134ad11c04b4fddc05d0",
+        "timestamp": 1583082445
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "examples.py",
+          "progressbar/widgets.py",
+          "setup.py",
+          "tests/test_progressbar.py",
+          "tox.ini"
+        ],
+        "sha": "e03892a1e5304cd4b81c0b4c51cfbcea9da04631",
+        "timestamp": 1583163658
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "d9f443263e7606c94ae8a1561050aa86d1efaeae",
+        "timestamp": 1583164047
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "5dff534f0d66988ac85d0c29aa19d4e6cbe389ce",
+        "timestamp": 1583164143
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "setup.cfg"
+        ],
+        "sha": "3663bd71a88b66574d7cd4dd7c71a54ff2611242",
+        "timestamp": 1583165944
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "4fa8fb4c2d8287968eaccf35af63a5863acccac5",
+        "timestamp": 1583167308
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "36340fac3c8197a06e121fead3d47e412e69cb85",
+        "timestamp": 1583171242
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "74df933ac857ed91db595517496ca6c1ee09be24",
+        "timestamp": 1583171581
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "1f99e8a462557c3185fc65b0556acb46e8947fc7",
+        "timestamp": 1583171701
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "7c701a14827977d85c0bfb227c30c200c2bc402a",
+        "timestamp": 1583193166
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "8de746602a250cdd712c663b223347d9b1037a43",
+        "timestamp": 1583194876
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "35511526ef8b86e2d8ff9b072ace508342baf580",
+        "timestamp": 1584665762
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "7db715de67fecb1e44e817b6522c3d5ad1e4a8e9",
+        "timestamp": 1584666755
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "ee728e661709b1469260a349c6629abc0fea9691",
+        "timestamp": 1587378624
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "a5f7ef07778679aa69b7b06c8f0427c9feb83679",
+        "timestamp": 1587379923
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml"
+        ],
+        "sha": "f5cd0cb364e9e6986ab2be9f6755c264dab1fc5e",
+        "timestamp": 1587851667
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/widgets.py",
+          "tests/test_custom_widgets.py"
+        ],
+        "sha": "93f8fdcf6bbaeb5a9c1b2939820e82741518fd49",
+        "timestamp": 1588155339
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "c2dc278b015c5d73432477da15b8474f0aa8807f",
+        "timestamp": 1588156046
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "76c5a8ca1208b30fb4a88c0edc350ed17508293a",
+        "timestamp": 1588158401
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "41cf02fc24e9c981db1a80b0c54ea75fa013dda2",
+        "timestamp": 1588357924
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "09acc407e9ec72755e72ddc2df129757b131ab8d",
+        "timestamp": 1588358000
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "6aa3626e2ba2bb415a8663eafb0e4adc71e33ea2",
+        "timestamp": 1588428182
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "7188aa39a062b0ff4b2bab24d7673668c07453d5",
+        "timestamp": 1588428188
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "5177112333734c5f5d5c6f275f5beb85d3e4f432",
+        "timestamp": 1593113795
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "2a2ec1a37851aa2766d2138b120630d8cd91f2ce",
+        "timestamp": 1593113806
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "eb5206b6c313fcb382c9cbe725d479b3427c0be1",
+        "timestamp": 1593113858
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "e1884d461bbfcf2991672f5458be5121bd7f9a81",
+        "timestamp": 1593365697
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "3bf2b1b8e1f8994567066717383d7f3baa68e2e5",
+        "timestamp": 1593439869
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "37521dff1d596661ef44e45510af0edde1660dc9",
+        "timestamp": 1593440287
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "d0f55e1464f56fa6e1e023bab43be91ffccd141a",
+        "timestamp": 1593440356
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9eb0bbe2828e905e845fa3a30e42b4f2d2d0fae6",
+        "timestamp": 1593441466
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "f0601031f353841666d0c985a3a3d25c7ff28053",
+        "timestamp": 1598694147
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "158f68bd0ef8b36bcc3aa26a403001a456abd64d",
+        "timestamp": 1598694254
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "941f8f8e707d7fca603a22a4c6dbeab62d8bed41",
+        "timestamp": 1599650307
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "08bf4200831aacdc1b0e0893a098ec2e88b38db4",
+        "timestamp": 1599650317
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "ffc845f3aa434a1b21765ebc8e54ad192ef76c0e",
+        "timestamp": 1599655275
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "b3f1c4db78e3cd85ec187da866a71822805912e7",
+        "timestamp": 1599657918
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2e0e47422b6912cbb2071d32b9ef08c0ff4a0b9a",
+        "timestamp": 1615768840
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "af28ce13c8ad2b485599af1867dd467ab9545895",
+        "timestamp": 1627836024
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "fbb2f4d18703f387349e77c126214d8eb9bd89c1",
+        "timestamp": 1631149918
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "1828744e6884be1fedf0e5b980ff201f9c2f7b36",
+        "timestamp": 1631149929
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "236d2f6985e364dcf30c0a20660ffbe374beec3a",
+        "timestamp": 1631560849
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "8a96eef31924487132d8f5dc58c3eb8bb1add269",
+        "timestamp": 1631659362
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "8ba5064a5e0c65bc5b59c4020d24d4af7cdb6fbb",
+        "timestamp": 1633377722
+      },
+      {
+        "files": [
+          "progressbar/widgets.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "0eae5ef7cd5fe36262cb399c137082f6168e1ce8",
+        "timestamp": 1633377826
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/widgets.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "0dca2aa5e62a1a81ad7f6141951ba97b3498d5ff",
+        "timestamp": 1633382351
+      },
+      {
+        "files": [
+          "README.rst",
+          "examples.py"
+        ],
+        "sha": "67a8889167cbb520f70b68ba10782b3743576f0c",
+        "timestamp": 1633383294
+      },
+      {
+        "files": [
+          "progressbar/base.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "3e3f475cc4f165d0ae146e04606367c6c5b531d8",
+        "timestamp": 1633903354
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "README.rst"
+        ],
+        "sha": "30034c6f89eedaf029117f70ed1035dcd4661b36",
+        "timestamp": 1634074589
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "36f59c1dac133365741facd4fca885382a073b9e",
+        "timestamp": 1634074958
+      },
+      {
+        "files": [
+          "README.rst",
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "13a1d7a2fe56be4ad4c8a9b852caa742d05ae2fe",
+        "timestamp": 1634179864
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "4228693e8369d4567a2f8a58cd9220ab66192ea0",
+        "timestamp": 1634291057
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "e5d37e3ded1b39a6b08421d471f987422b58a020",
+        "timestamp": 1634300411
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py",
+          "setup.py"
+        ],
+        "sha": "74910cae5f5f2f62afeaab82ea0b8a1f7d211dda",
+        "timestamp": 1641353205
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "fbde8e200c54c510d8a1ddc8b3bb113596af2670",
+        "timestamp": 1641381221
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tox.ini"
+        ],
+        "sha": "f1dc90ba65dad07284fa300cb289825da8142966",
+        "timestamp": 1641381414
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "3759b2633185c83239d95dec677bbfae2ec8f2a1",
+        "timestamp": 1641381452
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "fcc0d794d1c44e7513cdcf2d46073269c80f2349",
+        "timestamp": 1641382049
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "a952bec0ab8d995372142f43e971ae7abab97ba7",
+        "timestamp": 1641382382
+      },
+      {
+        "files": [
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "7f83c59d132705798f67d401a18320155cd8fc37",
+        "timestamp": 1641382865
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tox.ini"
+        ],
+        "sha": "475d690588e871b6f1e2d96bc4481dc57b5b19e7",
+        "timestamp": 1641383103
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "e84e2678c247b34e3e03a9a29ce93e28f1a0cfcf",
+        "timestamp": 1641390087
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "3a70922ccba34bb3394b6cd63bf35e290648dc43",
+        "timestamp": 1654700672
+      },
+      {
+        "files": [
+          ".coveragerc",
+          ".github/workflows/main.yml",
+          "progressbar/py.typed",
+          "tox.ini"
+        ],
+        "sha": "c0c2f2cd10c79d0dd5864451d4c9126c37726ca3",
+        "timestamp": 1666090043
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "1ba23eea00b6eb108cbc1868da16002d5c6680b3",
+        "timestamp": 1666091058
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "11cfea0ae2a78828c0b7cc9ba4e80b733ea719a7",
+        "timestamp": 1666093286
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c65e4b428e503aadf766eff5cd9716715a43d87b",
+        "timestamp": 1666093912
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "57a4a6580e46d6b2fd37467853217262f36078f0",
+        "timestamp": 1666094068
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "78a58e208c3fe916a454f9d13f15d596a4a3d7a3",
+        "timestamp": 1666097097
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "5ac9a2c990dbac3e483dfadb1586fd575a218a77",
+        "timestamp": 1666097127
+      },
+      {
+        "files": [
+          "LICENSE.txt"
+        ],
+        "sha": "c83cef9a59d0dbd9e1971e6174f23241b497f1dc",
+        "timestamp": 1666221641
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/progressbar.bar.rst",
+          "progressbar/bar.py"
+        ],
+        "sha": "37d389772c87ae1a18066db92bcd489601889774",
+        "timestamp": 1666785282
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_failure.py"
+        ],
+        "sha": "7ecc510f274fa2402e9e9c6676718407fdd8c340",
+        "timestamp": 1666785299
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_iterators.py"
+        ],
+        "sha": "35639c4a8d2513eccfbf207f97fd92ba8d35c7dd",
+        "timestamp": 1666786481
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "706bf58122b43ad5e5716b0478a83b08ad7a828c",
+        "timestamp": 1666791576
+      },
+      {
+        "files": [
+          "docs/history.rst"
+        ],
+        "sha": "b1dd4853a53331d6e910c997216f2dfbf481591d",
+        "timestamp": 1666791758
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "a567b8e7f7f1716abd7c6ce7322544dcd0e70c3a",
+        "timestamp": 1666791918
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "3e997e81bee021f60b3fc2adcd313f972b489a7b",
+        "timestamp": 1666792043
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "f19bb2e0553d1361b33c91e2e36dd1d8e6fa96d9",
+        "timestamp": 1666866183
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "b2e2777becb868864a0a914009c389ae502986f4",
+        "timestamp": 1666980223
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "7dfd7cc2d90575c88f4fcab2e675f492d79cf33e",
+        "timestamp": 1667045370
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "50dffb6969ef54672e2ad7a8912bc090b22597a1",
+        "timestamp": 1667128475
+      },
+      {
+        "files": [
+          "tests/test_backwards_compatibility.py"
+        ],
+        "sha": "71a1afe49454b4ce4d73df5b7e3bd8aaae937740",
+        "timestamp": 1667213172
+      },
+      {
+        "files": [
+          "tests/test_dill_pickle.py"
+        ],
+        "sha": "1df0706d7c6218ea4b94605f14b36908ee75e68b",
+        "timestamp": 1667213307
+      },
+      {
+        "files": [
+          "tests/test_wrappingio.py"
+        ],
+        "sha": "f9fc657d2252c5510faad73a5f498fae5023bf68",
+        "timestamp": 1667213318
+      },
+      {
+        "files": [
+          "progressbar/__about__.py",
+          "progressbar/bar.py",
+          "progressbar/base.py",
+          "progressbar/shortcuts.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "0e21c5b499b8947ad7f40b2b9b0faaf42d280e30",
+        "timestamp": 1667217086
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "cc2cfb727c3b705a36209a168e51d867150e41d3",
+        "timestamp": 1667258993
+      },
+      {
+        "files": [
+          "tests/test_utils.py"
+        ],
+        "sha": "7ff98d7f4fe6ededd3137d933dce0fb85a64b23e",
+        "timestamp": 1667299320
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "36c796f2bf1654353df530717629b2ca0e0b7156",
+        "timestamp": 1667299357
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "a51deccd4969a021ade8567f8966f96fa874c6d4",
+        "timestamp": 1667299397
+      },
+      {
+        "files": [
+          "tests/test_dill_pickle.py",
+          "tests/test_wrappingio.py"
+        ],
+        "sha": "e36b73a75d28d381d8519dfb6d5b1a82bb2cca53",
+        "timestamp": 1667299545
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "ed889f2bb21445247ceb117b8666d06548ced16f",
+        "timestamp": 1667299578
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "fd7f1fceeaf61ed35269023db949fa5e63f5cf46",
+        "timestamp": 1667301818
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "b2876025bd8b1b180ac35d7c0b0db1df49ade955",
+        "timestamp": 1667302678
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/base.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "3edbeb05a292d4b0d210a8cba5e33d0caff89a90",
+        "timestamp": 1667307014
+      },
+      {
+        "files": [
+          "progressbar/base.py"
+        ],
+        "sha": "9bda71d9be0728ce1e05a3cffff90e7cabc95dc5",
+        "timestamp": 1667307185
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/base.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "3cb06e5e7b0417f45eb4bc9846e7c1be8e4020a5",
+        "timestamp": 1667316190
+      },
+      {
+        "files": [
+          "pyrightconfig.json"
+        ],
+        "sha": "c83073c30b790cbb29a593ea0a0d1bd0d9158e5e",
+        "timestamp": 1667316996
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "db8727dcf87f440bdd36b3992abc7413162c7a83",
+        "timestamp": 1667317127
+      },
+      {
+        "files": [
+          ".github/workflows/stale.yml"
+        ],
+        "sha": "418bef55a7f7bebffa889a06230a8df936620200",
+        "timestamp": 1692580140
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "ae146fd15f9286a6edb6d3fe661f92aacd32e6c6",
+        "timestamp": 1599657918
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c60f241dfa98898d4a66cbfd1e25c2986ad5f293",
+        "timestamp": 1615768840
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "76492c7e0cb42ce74787c98d8fca9c46ac28f571",
+        "timestamp": 1627836024
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "ca93ec72e8bf0cd5ba1505329151959bade0c3d6",
+        "timestamp": 1631149918
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "39cb9e42e795234b57739893d4008af88e39ae0f",
+        "timestamp": 1631149929
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "5abbe4971d9154ad9849d34ae5814e7ddefc69c9",
+        "timestamp": 1631560849
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "110b5fb63ec19bf22f26cce62e2023ab54cf3094",
+        "timestamp": 1631659362
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "f6c14050ef6446e2cb1b376ccd293be36520476b",
+        "timestamp": 1633377722
+      },
+      {
+        "files": [
+          "progressbar/widgets.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "033e8c17b94b19e059bd0543ce93126379148eca",
+        "timestamp": 1633377826
+      },
+      {
+        "files": [
+          "progressbar/__init__.py",
+          "progressbar/widgets.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "f9e515233850cc686eff93a63b008ea425b41a38",
+        "timestamp": 1633382351
+      },
+      {
+        "files": [
+          "README.rst",
+          "examples.py"
+        ],
+        "sha": "470483bafb938429f602d71425913b71f9f9daee",
+        "timestamp": 1633383294
+      },
+      {
+        "files": [
+          "progressbar/base.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "0dbdb8581c76d2c9004a09fbbfe925c9ec9a7fec",
+        "timestamp": 1633903354
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "README.rst"
+        ],
+        "sha": "b64a78d63e3c7484df1e7704d4d2f3b955bcb776",
+        "timestamp": 1634074589
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "e7f4d1e41ece173f73b24265083d91c5797959d0",
+        "timestamp": 1634074958
+      },
+      {
+        "files": [
+          "README.rst",
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "0ad8251f0bb6ea41cfe6839bc78f62c8e097914c",
+        "timestamp": 1634179864
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "c1fcabf83d0539a57fac7223cf21945a4cfda7fa",
+        "timestamp": 1634291057
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "ca6d555dded686b074a6d09d01d841c776bf0a9f",
+        "timestamp": 1634300411
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py",
+          "setup.py"
+        ],
+        "sha": "d8f684ca7b0bb322056f627dd02950f09ed8c567",
+        "timestamp": 1641353205
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "bec6a33a8524b6906dda6ede665e3cb3c5b40978",
+        "timestamp": 1641381221
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tox.ini"
+        ],
+        "sha": "16234f2b0d9ca170e71312eaa1c22b4fda8183d2",
+        "timestamp": 1641381414
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "37831993c5d3a3980919ec8cefdba795c2a6c51d",
+        "timestamp": 1641381452
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "5e1087a11d76b77a0972a4720166e3f434f9c0d4",
+        "timestamp": 1641382049
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "b1c19c713f8a75070097b3a65a526c496b5bcd6b",
+        "timestamp": 1641382382
+      },
+      {
+        "files": [
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "251c7a4f616f9f9b44d49e9adf2984c29c510a8c",
+        "timestamp": 1641382865
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tox.ini"
+        ],
+        "sha": "69eb5d4f0b27a056e63c92be50de82943402a9b4",
+        "timestamp": 1641383103
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "9081722d83dcc049b8e8287f24c0a077ea1408e0",
+        "timestamp": 1641390087
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "63cd190818e03edf783583955dd2baf082645808",
+        "timestamp": 1654700672
+      },
+      {
+        "files": [
+          ".coveragerc",
+          ".github/workflows/main.yml",
+          "progressbar/py.typed",
+          "tox.ini"
+        ],
+        "sha": "48d5c77f12cc0ba18d2ebfbd7c4d85dabd017657",
+        "timestamp": 1666090043
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "94ca752ef39ac61f89945bfaf897e778b77000db",
+        "timestamp": 1666091058
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "8d81738ddf3818ccdf6457422360e8167279d049",
+        "timestamp": 1666093286
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "86dc62ad6cb781ce42f820515be47b5ba716f87e",
+        "timestamp": 1666093912
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "32c41ed1d81b39be8afa3f79f50eba6cf549b66a",
+        "timestamp": 1666094068
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "a19340ef77b4d95631af6a2eb644d18de071634f",
+        "timestamp": 1666097097
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "1022974f44f9b853e07fe6f0065ebd7aea3672c3",
+        "timestamp": 1666097127
+      },
+      {
+        "files": [
+          "LICENSE.txt"
+        ],
+        "sha": "2191f63aa72ab5ea20a8269ba09c8ea7efdbe2a4",
+        "timestamp": 1666221641
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/progressbar.bar.rst",
+          "progressbar/bar.py"
+        ],
+        "sha": "7374b1928475addc2f4e2db563881054ceec3326",
+        "timestamp": 1666785282
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_failure.py"
+        ],
+        "sha": "9e7d716eb6c6816ad6b8f01ce5c47ed9404eca5b",
+        "timestamp": 1666785299
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_iterators.py"
+        ],
+        "sha": "3fa2c2de41e280c156549dc1f3a9781aecdeddaa",
+        "timestamp": 1666786481
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "cad33aaed2acbec526b3e6717448e18378493dcc",
+        "timestamp": 1666791576
+      },
+      {
+        "files": [
+          "docs/history.rst"
+        ],
+        "sha": "aea3ec338a4b76a71be75e17e09d1ff80044d416",
+        "timestamp": 1666791758
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "ec8e228e0d03e43eb917e790e833bfefe6dbd899",
+        "timestamp": 1666791918
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "0a099b01b206cd3415b94688e72f4c4c72797dec",
+        "timestamp": 1666792043
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "2330478c0e7b284dc6b443f9390e7075ea494353",
+        "timestamp": 1666866183
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "633585091b53ae08c2c1f174e6eacf0f1880bafa",
+        "timestamp": 1666980223
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "5b74652fe17b572aed3223b64368b2d0e1ddffac",
+        "timestamp": 1667045370
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "82e08695035975237475bfb5c77b0d43b6eca23c",
+        "timestamp": 1667128475
+      },
+      {
+        "files": [
+          "tests/test_backwards_compatibility.py"
+        ],
+        "sha": "0253fc0b76e480ed2c48f8e2691af5d3ff5504f8",
+        "timestamp": 1667213172
+      },
+      {
+        "files": [
+          "tests/test_dill_pickle.py"
+        ],
+        "sha": "f10fa70bb37bd2887794dd37741517d0e4fc65cc",
+        "timestamp": 1667213307
+      },
+      {
+        "files": [
+          "tests/test_wrappingio.py"
+        ],
+        "sha": "e2129d65217c3a09589a2322c58e9ee069167770",
+        "timestamp": 1667213318
+      },
+      {
+        "files": [
+          "progressbar/__about__.py",
+          "progressbar/bar.py",
+          "progressbar/base.py",
+          "progressbar/shortcuts.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "5e749c57074544cdcdd4d552d5930cd680de01a5",
+        "timestamp": 1667217086
+      },
+      {
+        "files": [
+          "progressbar/utils.py"
+        ],
+        "sha": "b84bdf4ca1b575b7913ce4c315c340f5eab70b64",
+        "timestamp": 1667258993
+      },
+      {
+        "files": [
+          "tests/test_utils.py"
+        ],
+        "sha": "33c27f0a6758d80bb87eeb5c0b2ab6d11a03ed0c",
+        "timestamp": 1667299320
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "56989899a690936df22f572a371226e48da2f28f",
+        "timestamp": 1667299357
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "9b5b0414e1a57ecf626ac553b6485ab328e0231d",
+        "timestamp": 1667299397
+      },
+      {
+        "files": [
+          "tests/test_dill_pickle.py",
+          "tests/test_wrappingio.py"
+        ],
+        "sha": "9619bdc2181122408e45451e9671e1407631cdc7",
+        "timestamp": 1667299545
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "3ab12743fce6073c7f8a34e37095dd625dad16e6",
+        "timestamp": 1667299578
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "62459cc5eebbe8f79c7f279b2a1bfb1567ad692a",
+        "timestamp": 1667301818
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "f48bfee31c46bc6f89860edc3c53d32b3e03ae1b",
+        "timestamp": 1667302678
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/base.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "02021b95311d21056d5cebc6a28152681b956010",
+        "timestamp": 1667307014
+      },
+      {
+        "files": [
+          "progressbar/base.py"
+        ],
+        "sha": "23affbaf7871dc654996414666be34e88ace2087",
+        "timestamp": 1667307185
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/base.py",
+          "progressbar/utils.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "98a46c6d3bc0bf46a9a46a4ffd2d70d81f5963f8",
+        "timestamp": 1667316190
+      },
+      {
+        "files": [
+          "pyrightconfig.json"
+        ],
+        "sha": "a0259d1fcdcff118ba288198f612cb7f4a717e01",
+        "timestamp": 1667316996
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "8f01c632b36657494807c311698c5be2194e9139",
+        "timestamp": 1667317127
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "10b8eaf26f760255737329775590466725f0f590",
+        "timestamp": 1667318076
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tests/test_custom_widgets.py",
+          "tests/test_failure.py"
+        ],
+        "sha": "78c95b649984b1610d1d4420143baeaa31252d00",
+        "timestamp": 1667338701
+      },
+      {
+        "files": [
+          "progressbar/bar.py"
+        ],
+        "sha": "b23c93e7d5a8abe6af9e13b7bdb62a6c3e884f12",
+        "timestamp": 1667353678
+      },
+      {
+        "files": [
+          ".github/workflows/codeql.yml"
+        ],
+        "sha": "8a86cb4fedb0a9f31c11b21e88d8b9c01d66e2d6",
+        "timestamp": 1667982047
+      },
+      {
+        "files": [
+          "progressbar/ansi.py"
+        ],
+        "sha": "aa06fd39205c78d7597cf114874e26966751c703",
+        "timestamp": 1668374572
+      },
+      {
+        "files": [
+          "progressbar/terminal/os_specific/__init__.py",
+          "progressbar/terminal/os_specific/posix.py"
+        ],
+        "sha": "982aa343f33c59fb097d47358a3cee4ecf0ad72e",
+        "timestamp": 1668302674
+      },
+      {
+        "files": [
+          "progressbar/terminal/os_specific/windows.py"
+        ],
+        "sha": "566ba280010953ede9511c397f8227a8b83e779b",
+        "timestamp": 1668913303
+      },
+      {
+        "files": [
+          "progressbar/ansi.py"
+        ],
+        "sha": "db63a3cfa605b0608a0f5139f8052d87831f76f5",
+        "timestamp": 1669739875
+      },
+      {
+        "files": [
+          "progressbar/terminal/os_specific/__init__.py",
+          "progressbar/terminal/os_specific/posix.py",
+          "progressbar/terminal/os_specific/windows.py"
+        ],
+        "sha": "f7e0e5109dc49d99b532d88d773c4c30cfe60756",
+        "timestamp": 1669739900
+      },
+      {
+        "files": [
+          "progressbar/ansi.py",
+          "progressbar/terminal/__init__.py",
+          "progressbar/terminal/base.py",
+          "progressbar/terminal/colors.py"
+        ],
+        "sha": "af1c00b73e244c8960779bababb7d61782a06e0d",
+        "timestamp": 1670291574
+      },
+      {
+        "files": [
+          "progressbar/terminal/os_specific/__init__.py",
+          "progressbar/terminal/os_specific/posix.py",
+          "progressbar/terminal/os_specific/windows.py"
+        ],
+        "sha": "fd708bfea3105912b06e4c1307c8f162ade4363a",
+        "timestamp": 1670292674
+      },
+      {
+        "files": [
+          "progressbar/terminal/base.py",
+          "progressbar/terminal/os_specific/__init__.py",
+          "progressbar/terminal/os_specific/posix.py",
+          "progressbar/terminal/os_specific/windows.py",
+          "pytest.ini"
+        ],
+        "sha": "203c4873ad5a7be295e3544cf89577c46531bffc",
+        "timestamp": 1670538762
+      },
+      {
+        "files": [
+          "README.rst",
+          "progressbar/__init__.py",
+          "progressbar/bar.py",
+          "progressbar/multi.py"
+        ],
+        "sha": "ac9859535179a8cc6621ff84e52f97c2c7b5c3be",
+        "timestamp": 1673527213
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f0533d65d8355e2abbe1e744b7af4381b5f6998d",
+        "timestamp": 1674484855
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/terminal/base.py",
+          "progressbar/terminal/colors.py",
+          "progressbar/widgets.py",
+          "tox.ini"
+        ],
+        "sha": "803d72a434a88418ec5711daad034f628bba19a9",
+        "timestamp": 1674872710
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "1c432ff584af57bed6fe59afd3eab9c27ea065c3",
+        "timestamp": 1674873081
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/terminal/base.py",
+          "progressbar/terminal/colors.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "58724abfa2c75445660306c58c570dc2a89b1969",
+        "timestamp": 1674940983
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ff65a296b3483ad37714a404d777090e3f6d1d3a",
+        "timestamp": 1675004276
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a11c353aa8cc89412fed4d3249b1146a803d822c",
+        "timestamp": 1678742041
+      },
+      {
+        "files": [
+          "progressbar/multi.py",
+          "progressbar/terminal/base.py"
+        ],
+        "sha": "a66da3402334a9fbc30f8fc1f4028e197f13dd38",
+        "timestamp": 1679138749
+      },
+      {
+        "files": [
+          ".github/workflows/stale.yml"
+        ],
+        "sha": "041dab30b8eba243b19ea685c77ebc13f43ad124",
+        "timestamp": 1693271366
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "progressbar/terminal/base.py",
+          "progressbar/widgets.py",
+          "tests/conftest.py"
+        ],
+        "sha": "1e549e4752b26724c946c98b98e2067eefb6d251",
+        "timestamp": 1692589491
+      },
+      {
+        "files": [
+          ".github/stale.yml"
+        ],
+        "sha": "f8af70e1399ec0b8385fe3f8983fff7f1f265296",
+        "timestamp": 1692580702
+      },
+      {
+        "files": [
+          ".github/workflows/stale.yml"
+        ],
+        "sha": "43fc6dbb567c4461340bdde4cceea0e5ed7b2528",
+        "timestamp": 1693271358
+      },
+      {
+        "files": [
+          ".github/workflows/stale.yml"
+        ],
+        "sha": "ad9dda9d1c81612719ec8ee5baae02035e97eb24",
+        "timestamp": 1693345802
+      },
+      {
+        "files": [
+          "progressbar/multi.py",
+          "tests/test_multibar.py"
+        ],
+        "sha": "870942405ad178a11078d9b94eb2be3e951141b8",
+        "timestamp": 1694998215
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/multi.py",
+          "pyproject.toml"
+        ],
+        "sha": "d2d13443d010e6bdf963555b8ce7f46fabcd0b28",
+        "timestamp": 1695293003
+      },
+      {
+        "files": [
+          "docs/_theme/flask_theme_support.py",
+          "docs/conf.py"
+        ],
+        "sha": "ffca1aef62190efa6485c23bbbc07d6bc6b9540b",
+        "timestamp": 1695690376
+      },
+      {
+        "files": [
+          "progressbar/multi.py"
+        ],
+        "sha": "4f1efba8577c225d5b4e4280ae004d8762674f0b",
+        "timestamp": 1700757846
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "200aaf78842536f15c60c081451c6fc688534c61",
+        "timestamp": 1700757877
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/base.py",
+          "progressbar/utils.py"
+        ],
+        "sha": "94f2e789e4008c824dfd5f38f2e0ee694af584c3",
+        "timestamp": 1700759270
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "docs/conf.py",
+          "progressbar/bar.py",
+          "progressbar/shortcuts.py",
+          "progressbar/widgets.py",
+          "tox.ini"
+        ],
+        "sha": "c66f275d3d8cd71e3911a715a0b77d0ccf558c3e",
+        "timestamp": 1700759879
+      },
+      {
+        "files": [
+          "progressbar/multi.py",
+          "pytest.ini",
+          "tests/test_multibar.py",
+          "tests/test_progressbar.py"
+        ],
+        "sha": "609cfc17b895a1a343c75d48d229c70cefbf3a20",
+        "timestamp": 1702253255
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "d6e2849961c076a0b65d6da8de1786d5762edb3f",
+        "timestamp": 1702779672
+      },
+      {
+        "files": [
+          "progressbar/multi.py",
+          "progressbar/terminal/base.py",
+          "progressbar/terminal/stream.py",
+          "progressbar/widgets.py",
+          "pyproject.toml",
+          "pyrightconfig.json"
+        ],
+        "sha": "ffdcfc9d3d890d152fdc1a0e18842f6cbbb50b55",
+        "timestamp": 1702858232
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "e26bb00038500a03dc4209b5a8d27fc72cbc7b6e",
+        "timestamp": 1702863701
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tox.ini"
+        ],
+        "sha": "13e33da933e88e99a23450450dcb9232d4296829",
+        "timestamp": 1702864697
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "83f88d42edeb134a7a2e609daa46a8f6ee23d7ea",
+        "timestamp": 1702865036
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "4116c07ee9fcf52b1c08cd03fa13d89f1e9c40be",
+        "timestamp": 1702865332
+      },
+      {
+        "files": [
+          "progressbar/terminal/base.py"
+        ],
+        "sha": "37d9ee55d8b54feec3bfad6e38cb772480d07243",
+        "timestamp": 1702865830
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "f0c5fa60a3fa6832fd332e909ebc546357aaff0e",
+        "timestamp": 1702867474
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "2b346d0176b513f46d2930edeb39866dccbee0f2",
+        "timestamp": 1702875882
+      },
+      {
+        "files": [
+          "progressbar/terminal/os_specific/windows.py"
+        ],
+        "sha": "e1c4e428c45761a11a4644f64c134a3e73e08029",
+        "timestamp": 1702889536
+      },
+      {
+        "files": [
+          ".readthedocs.yaml"
+        ],
+        "sha": "fdd8ca10469152409f80f77e46af89d337fd9e89",
+        "timestamp": 1702905655
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "4a945d5737e99c351b7d27f4ec7dc6cced3cbd29",
+        "timestamp": 1702905700
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "145830507e398f1429d3485e26e31e215250fd13",
+        "timestamp": 1702905982
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "058086139ac66f0c941f8c981c850ebb7291b649",
+        "timestamp": 1702905991
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2a1679ad20196708dac0326f838626200fd8cb9c",
+        "timestamp": 1702930155
+      },
+      {
+        "files": [
+          "examples.py"
+        ],
+        "sha": "c7c62ff86ad775f4741176da820bc067eadf68ee",
+        "timestamp": 1706150961
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__init__.py",
+          "progressbar/bar.py",
+          "progressbar/widgets.py"
+        ],
+        "sha": "698457627e6c4e0eb05b0f08d83ff32fecea137a",
+        "timestamp": 1706150962
+      },
+      {
+        "files": [
+          "progressbar/algorithms.py",
+          "tests/test_algorithms.py",
+          "tests/test_monitor_progress.py",
+          "tests/test_windows.py"
+        ],
+        "sha": "a45d669fd2e5bcf6990c7eb1e721bdc74d564434",
+        "timestamp": 1706150962
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "tests/test_windows.py"
+        ],
+        "sha": "320bb54a82de1d991b4fe59d2526d79f537628af",
+        "timestamp": 1706150962
+      },
+      {
+        "files": [
+          "progressbar/env.py",
+          "progressbar/terminal/base.py",
+          "progressbar/terminal/os_specific/__init__.py",
+          "progressbar/terminal/os_specific/windows.py"
+        ],
+        "sha": "a9c677021e963cb419d0eac764ada0ee2f6add79",
+        "timestamp": 1706150962
+      },
+      {
+        "files": [
+          "tests/test_color.py",
+          "tests/test_stream.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "9a16b73f48320422de3115a2e3532e614cfc69f1",
+        "timestamp": 1706150962
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/terminal/base.py",
+          "pyproject.toml",
+          "tests/test_color.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "16c4fcef97882c4fbecefe66516a05e6b80696cf",
+        "timestamp": 1706174215
+      },
+      {
+        "files": [
+          "docs/progressbar.algorithms.rst",
+          "progressbar/__main__.py",
+          "pyproject.toml",
+          "tests/test_progressbar_command.py"
+        ],
+        "sha": "5707548cc9dc677c6b66f119bc09bf595eaecb79",
+        "timestamp": 1708295088
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/__main__.py",
+          "progressbar/bar.py",
+          "progressbar/env.py",
+          "progressbar/terminal/os_specific/__init__.py",
+          "progressbar/terminal/os_specific/windows.py"
+        ],
+        "sha": "0046fdf0ec79e42ed9a07ecd1fb2e80d311b885c",
+        "timestamp": 1708699368
+      },
+      {
+        "files": [
+          "docs/progressbar.env.rst"
+        ],
+        "sha": "76fb9b1da33bbbdedb7e7021eebb6419062c74ef",
+        "timestamp": 1708845623
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/env.py",
+          "progressbar/terminal/os_specific/__init__.py",
+          "pyproject.toml"
+        ],
+        "sha": "3b2fe80afeb0fe6b13f163ec7c6c9e81d4ab5a73",
+        "timestamp": 1708846354
+      },
+      {
+        "files": [
+          "docs/progressbar.terminal.os_specific.posix.rst",
+          "docs/progressbar.terminal.os_specific.rst",
+          "docs/progressbar.terminal.os_specific.windows.rst",
+          "pyproject.toml"
+        ],
+        "sha": "d6e4c1fc65b8d3dac4fe1665ac30201d06abe172",
+        "timestamp": 1708846614
+      },
+      {
+        "files": [
+          "tests/test_color.py"
+        ],
+        "sha": "9fdfe74c09a104ed4960f439ea64d122eb45bb41",
+        "timestamp": 1708851129
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "0a3c1bd906fd782a6d3ba762d1ec7ec3216628a5",
+        "timestamp": 1708851231
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "6ca37b5b2937cfac2fe6f02b7c4a7b788a8c2393",
+        "timestamp": 1708851764
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "a17235046cb92e3052348ae5a7f0e6e04606e5bd",
+        "timestamp": 1708851788
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/env.py"
+        ],
+        "sha": "20f1bbb41f751824a28bbe7ea88cedf718b7a12a",
+        "timestamp": 1709392944
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "73e6f7aef47be8932410e6ad68f451b348ef18f8",
+        "timestamp": 1709563981
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5d53d59a37247dd9e4663dd86ca79b16cbc92d9b",
+        "timestamp": 1714431229
+      },
+      {
+        "files": [
+          "progressbar/widgets.py"
+        ],
+        "sha": "abcba3ace7c2bd088a1e9bc7dd7bf67c75147b6d",
+        "timestamp": 1717277656
+      },
+      {
+        "files": [
+          ".github/workflows/stale.yml"
+        ],
+        "sha": "cd19e8a5c09615852b94e7c16e08b38389967650",
+        "timestamp": 1723945905
+      },
+      {
+        "files": [
+          "examples.py",
+          "progressbar/bar.py",
+          "progressbar/utils.py",
+          "tests/original_examples.py",
+          "tests/test_utils.py",
+          "tests/test_widgets.py"
+        ],
+        "sha": "ece74b8709352bab212cee2d52b8027ebe2fe62d",
+        "timestamp": 1724370848
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "604342dab49b1fdb9373d2485bc449122196e14d",
+        "timestamp": 1724373316
+      },
+      {
+        "files": [
+          "progressbar/__main__.py",
+          "progressbar/base.py",
+          "progressbar/widgets.py",
+          "tests/test_color.py",
+          "tests/test_monitor_progress.py",
+          "tests/test_progressbar_command.py"
+        ],
+        "sha": "4af10c75c0faba70cf307921f0947c64f208be53",
+        "timestamp": 1724547923
+      },
+      {
+        "files": [
+          "progressbar/__main__.py",
+          "progressbar/widgets.py",
+          "tests/test_color.py"
+        ],
+        "sha": "6adf464973ee3381d720299a86b2d5c377d1438b",
+        "timestamp": 1724549599
+      },
+      {
+        "files": [
+          "docs/progressbar.terminal.os_specific.posix.rst",
+          "docs/progressbar.terminal.os_specific.rst",
+          "docs/progressbar.terminal.os_specific.windows.rst",
+          "progressbar/bar.py",
+          "ruff.toml"
+        ],
+        "sha": "1c4b639153e89b6453ff6a34b902f638550e0059",
+        "timestamp": 1724849305
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tox.ini"
+        ],
+        "sha": "23170eef1c67c512c7d1fac4578a986a755a089a",
+        "timestamp": 1724876456
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "tox.ini"
+        ],
+        "sha": "958450615428e196bd3e8b3de2c59225a871154f",
+        "timestamp": 1724884514
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "4b0a14cc3bf3c19d90f0b82169ab7e413b9b9681",
+        "timestamp": 1724885066
+      },
+      {
+        "files": [
+          "progressbar/__about__.py"
+        ],
+        "sha": "32b70971d8cd50da5e6b9453bde9f5da416004ee",
+        "timestamp": 1724885391
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "sha": "3e63b24dd6936d0036498a032a292bf1586d98ba",
+        "timestamp": 1732883671
+      },
+      {
+        "files": [
+          "CONTRIBUTING.rst"
+        ],
+        "sha": "e9e019d712c51fb222ed7179954678cd1e3fe5a1",
+        "timestamp": 1732883736
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "progressbar/multi.py",
+          "progressbar/terminal/stream.py",
+          "progressbar/utils.py",
+          "ruff.toml"
+        ],
+        "sha": "039a239d4885a04df52f76d75f0d27b9bd7728f6",
+        "timestamp": 1733494943
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "ef3c0455107a0fb2bdbaaf8a1bbf8840488f00ec",
+        "timestamp": 1733497058
+      },
+      {
+        "files": [
+          "README.rst",
+          "progressbar/widgets.py",
+          "tests/test_monitor_progress.py"
+        ],
+        "sha": "2a304ff04c3290a0943a071615793d839bb32f84",
+        "timestamp": 1775566932
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "8520d8c4c455f691c21d3d4f258e989bb09e43ed",
+        "timestamp": 1776434066
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "0c153cf573aa3b2c8bbb0108d3ed3e4af1750690",
+        "timestamp": 1776477225
+      },
+      {
+        "files": [
+          "progressbar/__main__.py"
+        ],
+        "sha": "44f6f12618d30eaae0e28567c4eceff035690366",
+        "timestamp": 1776477479
+      },
+      {
+        "files": [
+          "progressbar/bar.py",
+          "pyproject.toml",
+          "tests/test_stream.py"
+        ],
+        "sha": "47e4c3e7749e12800eb033ac234a404e32924ec5",
+        "timestamp": 1776477502
+      },
+      {
+        "files": [
+          "progressbar/__main__.py",
+          "progressbar/bar.py",
+          "progressbar/env.py"
+        ],
+        "sha": "0104aea296de50dd31dcc08b2d555f88ee1d4e80",
+        "timestamp": 1776477621
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "79ea558bc0948ad3d0d8df515b19ae9d5a52219a",
+        "timestamp": 1776479761
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "23671b899197e1cbcc6e3cff5c384e763d0aa14a",
+        "timestamp": 1776479997
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "1938296522915baf149aaf476b749e0744f50838",
+        "timestamp": 1776480008
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "AGENTS.md",
+          "appveyor.yml",
+          "pyproject.toml",
+          "tox.ini",
+          "uv.lock"
+        ],
+        "sha": "b8a2f249fdeea9980bba89a46e62316e0e1b9675",
+        "timestamp": 1781187371
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "fa737bb311e5e6d93e56777f543bb993efe2bb6d",
+        "timestamp": 1781264154
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 6,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".coveragerc": 0,
+      ".github/FUNDING.yml": 1,
+      ".github/ci-reporter.yml": 2,
+      ".github/stale.yml": 3,
+      ".github/workflows/codeql.yml": 4,
+      ".github/workflows/main.yml": 5,
+      ".github/workflows/stale.yml": 6,
+      ".gitignore": 7,
+      ".pre-commit-config.yaml": 8,
+      ".readthedocs.yaml": 9,
+      ".travis.yml": 10,
+      "AGENTS.md": 11,
+      "CHANGES.rst": 12,
+      "CONTRIBUTING.rst": 13,
+      "ChangeLog.yaml": 14,
+      "ISSUE_TEMPLATE": 15,
+      "LICENSE.txt": 16,
+      "MANIFEST.in": 17,
+      "Makefile": 18,
+      "README.rst": 19,
+      "appveyor.yml": 20,
+      "circle.yml": 21,
+      "docs/_theme/LICENSE": 22,
+      "docs/_theme/flask_theme_support.py": 23,
+      "docs/_theme/wolph/theme.conf": 24,
+      "docs/conf.py": 25,
+      "docs/history.rst": 26,
+      "docs/index.rst": 27,
+      "docs/progressbar.algorithms.rst": 28,
+      "docs/progressbar.bar.rst": 29,
+      "docs/progressbar.env.rst": 30,
+      "docs/progressbar.metadata.rst": 31,
+      "docs/progressbar.rst": 32,
+      "docs/progressbar.six.rst": 33,
+      "docs/progressbar.terminal.os_specific.posix.rst": 34,
+      "docs/progressbar.terminal.os_specific.rst": 35,
+      "docs/progressbar.terminal.os_specific.windows.rst": 36,
+      "docs/requirements.txt": 37,
+      "docs/usage.rst": 38,
+      "examples.py": 39,
+      "progressbar/__about__.py": 40,
+      "progressbar/__init__.py": 41,
+      "progressbar/__main__.py": 42,
+      "progressbar/_six.py": 43,
+      "progressbar/algorithms.py": 44,
+      "progressbar/ansi.py": 45,
+      "progressbar/bar.py": 46,
+      "progressbar/base.py": 47,
+      "progressbar/compat.py": 48,
+      "progressbar/env.py": 49,
+      "progressbar/metadata.py": 50,
+      "progressbar/multi.py": 51,
+      "progressbar/py.typed": 52,
+      "progressbar/shortcuts.py": 53,
+      "progressbar/terminal/__init__.py": 54,
+      "progressbar/terminal/base.py": 55,
+      "progressbar/terminal/colors.py": 56,
+      "progressbar/terminal/os_specific/__init__.py": 57,
+      "progressbar/terminal/os_specific/posix.py": 58,
+      "progressbar/terminal/os_specific/windows.py": 59,
+      "progressbar/terminal/stream.py": 60,
+      "progressbar/utils.py": 61,
+      "progressbar/widgets.py": 62,
+      "pyproject.toml": 63,
+      "pyrightconfig.json": 64,
+      "pytest.ini": 65,
+      "requirements.txt": 66,
+      "requirements_test.txt": 67,
+      "ruff.toml": 68,
+      "setup.cfg": 69,
+      "setup.py": 70,
+      "tests/conftest.py": 71,
+      "tests/original_examples.py": 72,
+      "tests/requirements.txt": 73,
+      "tests/test_algorithms.py": 74,
+      "tests/test_backwards_compatibility.py": 75,
+      "tests/test_color.py": 76,
+      "tests/test_custom_widgets.py": 77,
+      "tests/test_data.py": 78,
+      "tests/test_data_transfer_bar.py": 79,
+      "tests/test_dill_pickle.py": 80,
+      "tests/test_end.py": 81,
+      "tests/test_failure.py": 82,
+      "tests/test_flush.py": 83,
+      "tests/test_iterators.py": 84,
+      "tests/test_large_values.py": 85,
+      "tests/test_monitor_progress.py": 86,
+      "tests/test_multibar.py": 87,
+      "tests/test_progressbar.py": 88,
+      "tests/test_progressbar_command.py": 89,
+      "tests/test_samples.py": 90,
+      "tests/test_speed.py": 91,
+      "tests/test_stream.py": 92,
+      "tests/test_terminal.py": 93,
+      "tests/test_timed.py": 94,
+      "tests/test_timer.py": 95,
+      "tests/test_unicode.py": 96,
+      "tests/test_unknown_length.py": 97,
+      "tests/test_utils.py": 98,
+      "tests/test_widgets.py": 99,
+      "tests/test_windows.py": 100,
+      "tests/test_wrappingio.py": 101,
+      "tox.ini": 102,
+      "uv.lock": 103
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1229912818,
+      "last_commit_ts": 1781264154,
+      "n_cochange_pairs": 153,
+      "n_commits_dropped_as_bulk": 41,
+      "n_commits_used": 822,
+      "n_files": 104
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "fa737bb311e5e6d93e56777f543bb993efe2bb6d",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
