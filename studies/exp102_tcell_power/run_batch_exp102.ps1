@@ -32,7 +32,7 @@ $repos = @(
     [pscustomobject]@{ id="D006"; slug="python-attrs/cattrs" },
     [pscustomobject]@{ id="D007"; slug="pallets/jinja" },
     [pscustomobject]@{ id="D008"; slug="pallets/markupsafe" },
-    [pscustomobject]@{ id="D009"; slug="pallets/blinker" },
+    [pscustomobject]@{ id="D009"; slug="pallets-eco/blinker" },
     [pscustomobject]@{ id="D010"; slug="PyCQA/pyflakes" },
     [pscustomobject]@{ id="D011"; slug="hhatto/autopep8" },
     [pscustomobject]@{ id="D012"; slug="google/yapf" },

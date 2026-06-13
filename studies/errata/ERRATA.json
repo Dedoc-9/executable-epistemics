@@ -211,5 +211,16 @@
     "hash_new": "ac9995225e59ba156d2163a33d940f9290d34f2ca3bfa8fd809b46ddb1d946dd",
     "corrected_statement": "TRUNCATION REPAIR for compute_moderators_exp101.py: the E-018 write operation truncated the file at line 177 (mid-function body), leaving a syntactically invalid file on disk. Repair rewrites the complete file. The only content differences from the E-018 intent are docstring-level: Unicode subscript characters (M1, M2, M3 rendered as Unicode subscripts) and arrow glyphs replaced with ASCII equivalents (M1, M2, M3; '-->' and '--') to avoid encoding issues in the bash heredoc write path. All computation is identical: gini(), git_author_commit_counts(), git_file_author_matrix(), compute_m3(), and main() logic are byte-for-byte equivalent in computational content. T-cell thresholds, M3 formula, classification logic unchanged. Filed pre-execution: compute_moderators_exp101.py has not been run yet. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining).",
     "supersedes": "compute_moderators_exp101.py E-018 version (hash b55547a -- truncated on disk)"
+  },
+  {
+    "erratum_id": "E-025",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-102",
+    "repo_id": "D009",
+    "slug_declared": "pallets/blinker",
+    "slug_corrected": "pallets-eco/blinker",
+    "corrected_statement": "pallets/blinker does not exist on GitHub (clone returned 'Repository not found'). The blinker library is hosted under the pallets-eco organization: pallets-eco/blinker. Corrected pre-clone (D009 was the first attempt). Non-instrument erratum. Declaration hash updates accordingly.",
+    "filed": "pre-clone",
+    "instrument_affected": false
   }
 ]
