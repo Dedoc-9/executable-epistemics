@@ -1,0 +1,103 @@
+{
+  "study": "EXP-002",
+  "instrument_family": ["ownership"],
+  "declaration_date": "2026-06-12",
+  "protocol_version": "exp002_v1",
+  "criteria_ref": "MCL_OBS2/studies/exp002_ownership_replication/POPULATION_CRITERIA.md",
+  "hypothesis_ref": "MCL_OBS2/studies/exp002_ownership_replication/HYPOTHESIS.md",
+  "update_commitments_ref": "MCL_OBS2/studies/exp002_ownership_replication/UPDATE_COMMITMENTS_exp002.md",
+
+  "source_provenance": {
+    "primary_pool": "Operator-curated candidate pool, domain-balanced per non-binding diversity target (POPULATION_CRITERIA.md §Diversity target). Submitted 2026-06-12. Original pool: 50 candidates.",
+    "replacement_source": "GitHub Python topic search sorted by stars, mechanical criteria applied; skipping wave-1 repos and primary-pool repos already passing. Applied 2026-06-12.",
+    "audit_method": "GitHub REST API (api.github.com) mechanical checks: archived=false, language=Python, not in EXP-001 wave-1, not monorepo. Python file count from git tree API where size was ambiguous.",
+    "fails_removed": [
+      {"slug": "tornadoweb/tornado",           "reason": "EXP-001 wave-1 repeat"},
+      {"slug": "pallets/click",                "reason": "EXP-001 wave-1 repeat"},
+      {"slug": "celery/celery",                "reason": "EXP-001 wave-1 repeat"},
+      {"slug": "python/mypy",                  "reason": "EXP-001 wave-1 repeat"},
+      {"slug": "googleapis/google-cloud-python","reason": "monorepo: ≥5 distinct top-level packages"},
+      {"slug": "bear/python-twitter",          "reason": "archived: 2024-08-07"},
+      {"slug": "terrencepreilly/darglint",     "reason": "archived: confirmed via API"},
+      {"slug": "schematics/schematics",        "reason": "inaccessible: GitHub API 404 at declaration date 2026-06-12"},
+      {"slug": "econchick/interrogate",        "reason": "size criterion: 22 tracked Python files < 50 required (git tree API count)"},
+      {"slug": "mitmproxy/pdoc",              "reason": "inaccessible: GitHub API 404 at declaration date 2026-06-12"}
+    ],
+    "slug_corrections": [
+      {"original": "nicolaiarocci/cerberus", "corrected_to": "pyeve/cerberus",
+       "reason": "repo transferred to pyeve org; API redirect confirmed"}
+    ]
+  },
+
+  "forbidden_interpretations_at_declaration": [
+    "post_hoc_repo_exclusion",
+    "cherry_picked_subsets"
+  ],
+
+  "repos": [
+    {"id":"R001","slug":"tortoise/tortoise-orm",         "category":"orm",          "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R002","slug":"coleifer/peewee",               "category":"orm",          "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R003","slug":"ponyorm/pony",                  "category":"orm",          "eligibility":"CONFIRMED",  "notes":"API: last pushed 2026-05-27"},
+    {"id":"R004","slug":"piccolo-orm/piccolo",           "category":"orm",          "eligibility":"CONFIRMED",  "notes":"API: last pushed 2026-05-26"},
+    {"id":"R005","slug":"python-gino/gino",              "category":"orm",          "eligibility":"PASS",       "notes":"Dormant since 2022-02-12; passes all written criteria (≥500 commits 2017-2022, ≥50 py files, public). Dormancy may trigger mechanical unavailability during campaign; replacement queue available."},
+    {"id":"R006","slug":"psycopg/psycopg2",             "category":"db_driver",    "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R007","slug":"redis/redis-py",               "category":"db_client",    "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R008","slug":"MagicStack/asyncpg",           "category":"db_driver",    "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R009","slug":"pydantic/pydantic",            "category":"validation",   "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R010","slug":"marshmallow-code/marshmallow", "category":"validation",   "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R011","slug":"pyeve/cerberus",               "category":"validation",   "eligibility":"CONFIRMED",  "notes":"Canonical slug pyeve/cerberus; API redirect from nicolaiarocci/cerberus confirmed. Last pushed 2026-01-01."},
+    {"id":"R012","slug":"python-jsonschema/jsonschema", "category":"validation",   "eligibility":"REPLACEMENT","notes":"Replaces schematics/schematics (inaccessible). Source: GitHub Python topic sorted by stars."},
+    {"id":"R013","slug":"encode/starlette",            "category":"web_framework","eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R014","slug":"sanic-org/sanic",             "category":"web_framework","eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R015","slug":"falconry/falcon",             "category":"web_framework","eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R016","slug":"aio-libs/aiohttp",            "category":"http",         "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R017","slug":"pallets/werkzeug",            "category":"web_toolkit",  "eligibility":"REPLACEMENT","notes":"Replaces tornadoweb/tornado (wave-1). Source: GitHub Python topic sorted by stars."},
+    {"id":"R018","slug":"encode/httpx",               "category":"http_client",  "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R019","slug":"mitmproxy/mitmproxy",        "category":"network_tool", "eligibility":"REPLACEMENT","notes":"Replaces mitmproxy/pdoc (inaccessible). Source: GitHub Python topic sorted by stars."},
+    {"id":"R020","slug":"tiangolo/typer",             "category":"cli",          "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R021","slug":"httpie/httpie",              "category":"cli",          "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R022","slug":"Textualize/rich",            "category":"cli_ui",       "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R023","slug":"tqdm/tqdm",                  "category":"dev_tool",     "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R024","slug":"rq/rq",                      "category":"task_queue",   "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R025","slug":"Bogdanp/dramatiq",           "category":"task_queue",   "eligibility":"CONFIRMED",  "notes":"API: last pushed 2026-04-03"},
+    {"id":"R026","slug":"coleifer/huey",              "category":"task_queue",   "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R027","slug":"taskiq-python/taskiq",       "category":"task_queue",   "eligibility":"CONFIRMED",  "notes":"API: active (last commit 2026-05-16, PR #623 merged). Created 2022; commit count estimated ≥500 from PR count and 4-year history."},
+    {"id":"R028","slug":"agronholm/apscheduler",      "category":"scheduling",   "eligibility":"REPLACEMENT","notes":"Replaces celery/celery (wave-1). Source: GitHub Python topic sorted by stars."},
+    {"id":"R029","slug":"PyCQA/isort",               "category":"code_quality", "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R030","slug":"PyCQA/flake8",              "category":"code_quality", "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R031","slug":"PyCQA/bandit",              "category":"security",     "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R032","slug":"PyCQA/pycodestyle",         "category":"code_quality", "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R033","slug":"PyCQA/pylint",              "category":"code_quality", "eligibility":"REPLACEMENT","notes":"Replaces terrencepreilly/darglint (archived). Source: GitHub Python topic sorted by stars."},
+    {"id":"R034","slug":"pre-commit/pre-commit",     "category":"dev_tool",     "eligibility":"REPLACEMENT","notes":"Replaces pallets/click (wave-1). Source: GitHub Python topic sorted by stars."},
+    {"id":"R035","slug":"pypa/setuptools",           "category":"packaging",    "eligibility":"REPLACEMENT","notes":"Replaces python/mypy (wave-1). Source: GitHub Python topic sorted by stars."},
+    {"id":"R036","slug":"boto/boto3",               "category":"cloud_sdk",    "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R037","slug":"urllib3/urllib3",           "category":"http",         "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R038","slug":"psf/cryptography",         "category":"security",     "eligibility":"REPLACEMENT","notes":"Replaces googleapis/google-cloud-python (monorepo). Source: GitHub Python topic sorted by stars."},
+    {"id":"R039","slug":"HypothesisWorks/hypothesis","category":"testing",     "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R040","slug":"joke2k/faker",             "category":"testing",      "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R041","slug":"getsentry/responses",      "category":"testing",      "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R042","slug":"spulec/freezegun",         "category":"testing",      "eligibility":"CONFIRMED",  "notes":"API: last pushed 2025-08-19"},
+    {"id":"R043","slug":"kevin1024/vcrpy",          "category":"testing",      "eligibility":"CONFIRMED",  "notes":"API: last pushed 2026-06-09"},
+    {"id":"R044","slug":"mkdocs/mkdocs",            "category":"docs",         "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R045","slug":"rubik/radon",              "category":"analysis",     "eligibility":"CONFIRMED",  "notes":"API: last pushed 2024-10-20"},
+    {"id":"R046","slug":"jazzband/pip-tools",       "category":"packaging",    "eligibility":"REPLACEMENT","notes":"Replaces bear/python-twitter (archived). Source: GitHub Python topic sorted by stars."},
+    {"id":"R047","slug":"mongodb/motor",            "category":"db_driver",    "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R048","slug":"elastic/elasticsearch-py", "category":"db_client",   "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R049","slug":"Pylons/colander",          "category":"validation",   "eligibility":"CONFIRMED",  "notes":""},
+    {"id":"R050","slug":"arrow-py/arrow",           "category":"utility",      "eligibility":"REPLACEMENT","notes":"Replaces econchick/interrogate (22 Python files < 50 required). Source: GitHub Python topic sorted by stars."}
+  ],
+
+  "repo_count": 50,
+  "replacement_count": 10,
+
+  "replacement_queue": [
+    {"slot":"RQ1","slug":"dateutil/dateutil",   "source":"GitHub Python topic sorted by stars","notes":"Activated if any primary repo becomes mechanically unavailable during campaign."},
+    {"slot":"RQ2","slug":"python-attrs/attrs",  "source":"GitHub Python topic sorted by stars","notes":""},
+    {"slot":"RQ3","slug":"encode/broadcaster",  "source":"GitHub Python topic sorted by stars","notes":""}
+  ],
+
+  "declaration_hash": "8d2577eed52d16068ea5c1c5767af5a8e6d00e1fd94ae2731b85ed9bdca1df25",
+  "hash_input_spec": "SHA-256 of JSON-serialized {slugs_sorted: sorted(50 slugs), replacement_queue_sorted: sorted(3 queue slugs), protocol_version: 'exp002_v1', declaration_date: '2026-06-12'} with sort_keys=True, separators=(',',':')",
+
+  "pre_cloning_attestation": "This file committed and pushed BEFORE any wave-2 repository is cloned. Per POPULATION_CRITERIA.md §Selection process rule 4: commit first, clone after."
+}
