@@ -1,0 +1,3960 @@
+{
+  "chain_hash": "ecab6874de5d38f0",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".bumpversion.cfg||cachecontrol/__init__.py": 24,
+      ".bumpversion.cfg||docs/conf.py": 24,
+      ".bumpversion.cfg||setup.py": 44,
+      ".github/workflows/release.yml||.github/workflows/tests.yml": 20,
+      ".github/workflows/release.yml||.github/workflows/zizmor.yml": 9,
+      ".github/workflows/tests.yml||.github/workflows/zizmor.yml": 9,
+      ".github/workflows/tests.yml||tests/test_etag.py": 2,
+      ".github/workflows/tests.yml||tox.ini": 3,
+      ".travis.yml||tox.ini": 3,
+      "MANIFEST.in||setup.py": 2,
+      "Makefile||dev_requirements.txt": 3,
+      "Makefile||docs/index.rst": 2,
+      "cachecontrol/__init__.py||cachecontrol/adapter.py": 2,
+      "cachecontrol/__init__.py||cachecontrol/caches/__init__.py": 2,
+      "cachecontrol/__init__.py||cachecontrol/controller.py": 2,
+      "cachecontrol/__init__.py||cachecontrol/patch_requests.py": 2,
+      "cachecontrol/__init__.py||cachecontrol/wrapper.py": 2,
+      "cachecontrol/__init__.py||docs/conf.py": 24,
+      "cachecontrol/__init__.py||docs/release_notes.rst": 4,
+      "cachecontrol/__init__.py||httpcache/tests/integration/test_caching_conditions.py": 2,
+      "cachecontrol/__init__.py||httpcache/tests/server.py": 2,
+      "cachecontrol/__init__.py||setup.py": 23,
+      "cachecontrol/__init__.py||tests/conftest.py": 2,
+      "cachecontrol/__init__.py||tests/test_cache_control.py": 3,
+      "cachecontrol/__init__.py||tests/test_pickle_patching.py": 2,
+      "cachecontrol/_cmd.py||setup.py": 2,
+      "cachecontrol/adapter.py||cachecontrol/controller.py": 11,
+      "cachecontrol/adapter.py||cachecontrol/wrapper.py": 4,
+      "cachecontrol/adapter.py||tests/conftest.py": 2,
+      "cachecontrol/adapter.py||tests/test_adapter.py": 4,
+      "cachecontrol/cache.py||cachecontrol/controller.py": 2,
+      "cachecontrol/cache.py||tests/test_cache_control.py": 2,
+      "cachecontrol/caches/__init__.py||cachecontrol/caches/file_cache.py": 4,
+      "cachecontrol/caches/file_cache.py||cachecontrol/controller.py": 2,
+      "cachecontrol/caches/file_cache.py||tests/test_storage_filecache.py": 7,
+      "cachecontrol/caches/redis_cache.py||cachecontrol/heuristics.py": 2,
+      "cachecontrol/caches/redis_cache.py||tests/test_storage_redis.py": 3,
+      "cachecontrol/compat.py||cachecontrol/serialize.py": 2,
+      "cachecontrol/controller.py||cachecontrol/serialize.py": 4,
+      "cachecontrol/controller.py||cachecontrol/wrapper.py": 4,
+      "cachecontrol/controller.py||tests/conftest.py": 2,
+      "cachecontrol/controller.py||tests/test_adapter.py": 2,
+      "cachecontrol/controller.py||tests/test_cache_control.py": 10,
+      "cachecontrol/controller.py||tests/test_etag.py": 2,
+      "cachecontrol/controller.py||tests/test_serialization.py": 2,
+      "cachecontrol/filewrapper.py||tests/test_regressions.py": 2,
+      "cachecontrol/heuristics.py||docs/custom_heuristics.rst": 2,
+      "cachecontrol/heuristics.py||tests/test_expires_heuristics.py": 5,
+      "cachecontrol/patch_requests.py||tests/test_pickle_patching.py": 2,
+      "cachecontrol/serialize.py||docs/release_notes.rst": 3,
+      "cachecontrol/serialize.py||setup.py": 2,
+      "cachecontrol/serialize.py||tests/conftest.py": 2,
+      "cachecontrol/serialize.py||tests/test_cache_control.py": 2,
+      "cachecontrol/serialize.py||tests/test_serialization.py": 7,
+      "cachecontrol/tests/__init__.py||tests/conftest.py": 2,
+      "dev_requirements.txt||setup.py": 2,
+      "docs/conf.py||docs/index.rst": 2,
+      "docs/conf.py||setup.py": 23,
+      "docs/index.rst||docs/release_notes.rst": 2,
+      "docs/index.rst||docs/storage.rst": 3,
+      "docs/index.rst||docs/usage.rst": 2,
+      "docs/release_notes.rst||setup.py": 2,
+      "docs/release_notes.rst||tests/test_serialization.py": 2,
+      "docs/storage.rst||setup.py": 2,
+      "httpcache/tests/integration/test_caching_conditions.py||httpcache/tests/server.py": 3,
+      "tests/conftest.py||tests/test_cache_control.py": 2,
+      "tests/conftest.py||tests/test_expires_heuristics.py": 2,
+      "tests/test_cache_control.py||tests/test_max_age.py": 4,
+      "tests/test_etag.py||tests/test_max_age.py": 3
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "cachecontrol/tests/__init__.py",
+          "httpcache/tests/integration/test_caching_conditions.py",
+          "httpcache/tests/server.py",
+          "tests/conftest.py"
+        ],
+        "sha": "812a0adfaf6c26a91b6f6aa360bf469ba49f1e26",
+        "timestamp": 1339720953
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py",
+          "tests/test_cache_control.py",
+          "tests/test_max_age.py"
+        ],
+        "sha": "f6ac18e2402392b9c88bd21a30285c4da0fbabda",
+        "timestamp": 1340139266
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "httpcache/tests/integration/test_caching_conditions.py",
+          "httpcache/tests/server.py"
+        ],
+        "sha": "6c721fbf068ae0afe0d38972a49fa39a663de4f2",
+        "timestamp": 1340139287
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "e8b11a0a42035860f28b40bebbb467a8df81d5dd",
+        "timestamp": 1340140986
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "38f5ca9cb85e20d64d3dc72c9e34fa1a31e29a60",
+        "timestamp": 1340292464
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "da1e32a03e3f185b796c6d92c6e12f673e2fc0b6",
+        "timestamp": 1340292818
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9f58917e561d3a1c97c341cd6b4da1f0b21a4763",
+        "timestamp": 1340293262
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "448bf375069b67bde2527ad91cf91f5a03b2c867",
+        "timestamp": 1340293882
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7def5778d81f053776c8899acbc490398fb4be54",
+        "timestamp": 1340295701
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "63bcdd08b916b340f09ad0edeada2ef12c574d62",
+        "timestamp": 1340295769
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "tests/conftest.py",
+          "tests/test_cache_control.py"
+        ],
+        "sha": "eda7217d32a38fc2f6939e2a33985328a1ddc5fc",
+        "timestamp": 1340299549
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "tests/test_cache_control.py"
+        ],
+        "sha": "fe5c226bdb97cea5a24a272af17237157bc3228b",
+        "timestamp": 1340300122
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1874008751e23794cc8dca6d55df0b5afc2c6b2f",
+        "timestamp": 1340300174
+      },
+      {
+        "files": [
+          "httpcache/tests/integration/test_caching_conditions.py"
+        ],
+        "sha": "24b3914fe89294a48fd3a0eeb8cbfb20bc8ca85b",
+        "timestamp": 1340302580
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py"
+        ],
+        "sha": "d1c6e120ac72f2a42443926e8f0874d2dee2c287",
+        "timestamp": 1340302614
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "cfb13d143ff01649f95961b47ad187916bc84663",
+        "timestamp": 1340302657
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "cachecontrol/tests/test_cache_invalidation.py"
+        ],
+        "sha": "6ae4ac06ef4fb57068fc400f39b3ce32859298b1",
+        "timestamp": 1340302680
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8ca69d07a1aa3b1d41a23039e722c64f94de1124",
+        "timestamp": 1340303799
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py"
+        ],
+        "sha": "12619a95d20cf2ecec62abf4fbf470b57cccd685",
+        "timestamp": 1340385035
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py"
+        ],
+        "sha": "5524c4adcc621c3cd26a13caec94448b625145ac",
+        "timestamp": 1340681367
+      },
+      {
+        "files": [
+          "httpcache/tests/test_cache.py"
+        ],
+        "sha": "393fd34a559c7c5d44c81f54af31d928cc8fe7d6",
+        "timestamp": 1340681386
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py",
+          "httpcache/tests/test_cache.py"
+        ],
+        "sha": "16646bcb6803cacd7ba98775ffdc091a680a15f5",
+        "timestamp": 1340957162
+      },
+      {
+        "files": [
+          "httpcache/tests/integration/test_caching_conditions.py",
+          "httpcache/tests/server.py"
+        ],
+        "sha": "eacc1eaa4186d940e380a96b089fccb65e4ba861",
+        "timestamp": 1341080934
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f0f0ffa126746d58e3296454073a504ee131b642",
+        "timestamp": 1341085258
+      },
+      {
+        "files": [
+          ".hgignore",
+          "cachecontrol/__init__.py"
+        ],
+        "sha": "beb95460ec7839db251834bcb2dc3c775c615692",
+        "timestamp": 1369537037
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4340403978c3fe8dc5eabf98b256021203e414c2",
+        "timestamp": 1369537801
+      },
+      {
+        "files": [
+          ".hgignore",
+          "dev_requirements.txt",
+          "pavement.py",
+          "setup.py"
+        ],
+        "sha": "ca19d9047c92715bb709d286fc6c70ffc9829fdc",
+        "timestamp": 1371421753
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "168d826f16d8e9ef3d22eb419da081621f5bf212",
+        "timestamp": 1371421798
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "1954aca58277b36fa074d1b3c83165704377675c",
+        "timestamp": 1371421872
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "f0a5993bbc35f988064828087131e481d395bd52",
+        "timestamp": 1371549226
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "tests/test_cache_control.py",
+          "tests/test_max_age.py"
+        ],
+        "sha": "fac1247f6fbaacb1a9f0c5f02e1f4d77c8f3a608",
+        "timestamp": 1371684091
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a1aa55403071653ffecb244b7af9eb0a67c52c9d",
+        "timestamp": 1371684145
+      },
+      {
+        "files": [
+          "cachecontrol/tests/test_cache_invalidation.py"
+        ],
+        "sha": "4d9fa1feed7b605527f6cf4b8961c70d3b202ba8",
+        "timestamp": 1371711031
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "tests/test_adapter.py"
+        ],
+        "sha": "93efc321edcbd09ac9b7ec157bbf4902678c78b4",
+        "timestamp": 1371711154
+      },
+      {
+        "files": [
+          "README.rst",
+          "cachecontrol/__init__.py",
+          "cachecontrol/adapter.py",
+          "cachecontrol/controller.py",
+          "cachecontrol/wrapper.py"
+        ],
+        "sha": "5360df61222b1496b4fa3494a1df1f92d3f6a666",
+        "timestamp": 1371713877
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4f634bd02dc95e46999db943a0e7cb8603a86b31",
+        "timestamp": 1371770300
+      },
+      {
+        "files": [
+          "pavement.py"
+        ],
+        "sha": "e300aa9a620abf50823f9c7c13bbff6707541c95",
+        "timestamp": 1371770389
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py"
+        ],
+        "sha": "9907e0ea790a73a6b3f4e666b143a8a41135e426",
+        "timestamp": 1377577595
+      },
+      {
+        "files": [
+          "examples/benchmark.py"
+        ],
+        "sha": "b3e9ae05a4262332d2ca336e6d8e1c98990e81d7",
+        "timestamp": 1377577692
+      },
+      {
+        "files": [
+          "examples/redis_cache.py"
+        ],
+        "sha": "e8ce252beabeaf4a6f09e4ee0c57aa335f6ed293",
+        "timestamp": 1377578490
+      },
+      {
+        "files": [
+          "cachecontrol/wrapper.py"
+        ],
+        "sha": "3f67348763d3e101fb21352d4ed0c2718674cb00",
+        "timestamp": 1377578514
+      },
+      {
+        "files": [
+          "cachecontrol/patch_requests.py"
+        ],
+        "sha": "ad28e342de118c0d88f1a11b152f03c076a923c5",
+        "timestamp": 1383597035
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "tests/test_cache_control.py"
+        ],
+        "sha": "55e1311cd1d282cd9d30eb672b3593ed9f8f145c",
+        "timestamp": 1383597598
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "b1aee00e7ee512f7d384e4ee81d17711efd423ad",
+        "timestamp": 1383597633
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py"
+        ],
+        "sha": "cf0eb046a2cc3bf7c4350196ff34cbbcc0cade66",
+        "timestamp": 1383597660
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "cachecontrol/caches/__init__.py",
+          "cachecontrol/caches/file_cache.py",
+          "cachecontrol/caches/redis_cache.py"
+        ],
+        "sha": "ebc3a7cefc050321fec330fa9c3b970075ac775b",
+        "timestamp": 1383597880
+      },
+      {
+        "files": [
+          "examples/redis_cache.py"
+        ],
+        "sha": "717779e3cce000edf8d95690094f9ecd375ff071",
+        "timestamp": 1383597930
+      },
+      {
+        "files": [
+          "dev_requirements.txt"
+        ],
+        "sha": "eae75d7f3559ebe7abb1ec6f5a2b7c8235fce740",
+        "timestamp": 1383597964
+      },
+      {
+        "files": [
+          "pavement.py",
+          "tasks.py"
+        ],
+        "sha": "583163633b079631506aa7719cbc7d72ebae32b6",
+        "timestamp": 1383598028
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "b251440fe88965f53e00cf6eaa194aca834c5168",
+        "timestamp": 1383598581
+      },
+      {
+        "files": [
+          "cachecontrol/caches/__init__.py",
+          "cachecontrol/caches/file_cache.py",
+          "dev_requirements.txt"
+        ],
+        "sha": "5e8e8a6b87655dd9875fc6afd2ad3004c9077324",
+        "timestamp": 1383803112
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "df7e7dd07133c4a1647dfeff4b857dec5ce4df20",
+        "timestamp": 1383803154
+      },
+      {
+        "files": [
+          "docs/Makefile",
+          "docs/conf.py",
+          "docs/index.rst",
+          "docs/storage.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "e01afd74dad94b41f20132c00790c7697f0dd5bc",
+        "timestamp": 1383803558
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "05832a7007a3fc53083657c79ac7f49b24db2210",
+        "timestamp": 1383803575
+      },
+      {
+        "files": [
+          "tasks.py"
+        ],
+        "sha": "d9d7e3fc948048a58af220679b1c25394081e4e4",
+        "timestamp": 1383803583
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "dev_requirements.txt",
+          "setup.py"
+        ],
+        "sha": "8a15ff8ab8731cf3c9bf3704030d50c973a2959b",
+        "timestamp": 1383803959
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "af0c986bfb183ab9eb1b3390f8053d578943e98c",
+        "timestamp": 1383803973
+      },
+      {
+        "files": [
+          "docs/storage.rst"
+        ],
+        "sha": "f4f742d1c2239e1021ed9a8c1ec966358f694218",
+        "timestamp": 1383804526
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4fb63ee45989b0ab32d130c72d7b7c952b10680f",
+        "timestamp": 1383804929
+      },
+      {
+        "files": [
+          "tasks.py"
+        ],
+        "sha": "a116fd745901e863052b2cc2db04d6edd095386d",
+        "timestamp": 1383804981
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "6ad14a5371dda0f5f85e13406381c5c9445eaeac",
+        "timestamp": 1383805005
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "e4e696054b38c44a907b6340f69ccb427edb76fb",
+        "timestamp": 1383805781
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "f2af79fdc7dba7d7509365ccb7e712c16da39610",
+        "timestamp": 1383806450
+      },
+      {
+        "files": [
+          "cachecontrol/tests/__init__.py",
+          "tests/conftest.py",
+          "tests/test_adapter.py",
+          "tests/test_cache_control.py",
+          "tests/test_max_age.py"
+        ],
+        "sha": "5b00691c3c76b88d7f322e62f5445b42652ae6b2",
+        "timestamp": 1383879860
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "tests/test_vary.py"
+        ],
+        "sha": "705606eb3adc8d1ef49face599a2b152528efd40",
+        "timestamp": 1383879871
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "d674b35f1c0c44a92b63ade31f11e8e16f286433",
+        "timestamp": 1383881779
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "4994bdb546ed38e867e35052d074e7e47e13001e",
+        "timestamp": 1383931328
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "142d51ff2bd2ff6f2609248ab9147b2086474abf",
+        "timestamp": 1384377849
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "d04783bea918927505568618da330111182a6b10",
+        "timestamp": 1384378227
+      },
+      {
+        "files": [
+          "tasks.py"
+        ],
+        "sha": "1cd79ccd5f238dfb9ee5e113393a947f8a31fdb1",
+        "timestamp": 1384382251
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "5e3efe0ad512e89f512b6a3a10f67f6c80716400",
+        "timestamp": 1384382275
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/controller.py",
+          "tests/conftest.py",
+          "tests/test_etag.py"
+        ],
+        "sha": "977e5865faee54fad20df53414a6cdc0e84c44ab",
+        "timestamp": 1384465233
+      },
+      {
+        "files": [
+          "CONTRIBUTORS.rst"
+        ],
+        "sha": "428ca2da5c38c84a8c780427a94d3894956337ba",
+        "timestamp": 1385357447
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "6f3ef5b0998a6e6eb26238273d8f4e08c6a9c533",
+        "timestamp": 1385429759
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "e94ccc6f3ce5177b1e035bec573a8a9964b6e474",
+        "timestamp": 1385441157
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "5e1486f844851bc56a42bb34857aea510266a7ce",
+        "timestamp": 1385441702
+      },
+      {
+        "files": [
+          "tasks.py"
+        ],
+        "sha": "f4f5a94ed142c868d0cd16953a0d53caf1e42c4b",
+        "timestamp": 1385441735
+      },
+      {
+        "files": [
+          "docs/etags.rst"
+        ],
+        "sha": "72b97db57233601571c12378e239bae4bc1dd96e",
+        "timestamp": 1385442007
+      },
+      {
+        "files": [
+          "docs/etags.rst"
+        ],
+        "sha": "b44830fd8ccb335d4e4ce66731e5f7f48d91c7e5",
+        "timestamp": 1385442282
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "2e78cde99c89d2ec4e36f3396f301da3e2944e7d",
+        "timestamp": 1385442482
+      },
+      {
+        "files": [
+          ".hgignore",
+          ".hgtags"
+        ],
+        "sha": "d69571dfa0365d8e29774cdc858435dc5da71c95",
+        "timestamp": 1385442586
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "bcc2d4b4872fd408fa234c144a3a3ae1dc34c477",
+        "timestamp": 1385443462
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "7e30735d093414dfc7151ce75282f811ecafb636",
+        "timestamp": 1385448126
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4b3cbae7b5f1787f0b1584d350790d5cc6500800",
+        "timestamp": 1385449160
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "29a6be0f582aa4a9471fd912c0dc9afa626428ce",
+        "timestamp": 1385449850
+      },
+      {
+        "files": [
+          "cachecontrol/compat.py",
+          "tox.ini"
+        ],
+        "sha": "18da78b902c375cacf27b3d16baf5404646faab5",
+        "timestamp": 1385491885
+      },
+      {
+        "files": [
+          ".gitignore",
+          ".travis.yml",
+          "dev_requirements.txt",
+          "tasks.py"
+        ],
+        "sha": "4eb54144f9eb01e2c138de2a44cc94a1a72838dd",
+        "timestamp": 1385492819
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "295f0cbdfded755ec78f9b7ea9d4127b220a0c25",
+        "timestamp": 1385493436
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "7d39410681ea6e0c6e97b6ed9d40a25428f55851",
+        "timestamp": 1385493945
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "9703d95013ec78a71475c800a87cb41d60a5a09e",
+        "timestamp": 1385494582
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "1bf043af64513e4cc48f275c3d9ad0ab4895ad7d",
+        "timestamp": 1385495563
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py",
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "8cb7ad42395b10cb76bedec4e52e8b5b59cda4af",
+        "timestamp": 1387735253
+      },
+      {
+        "files": [
+          "CONTRIBUTORS.rst"
+        ],
+        "sha": "a5dd1b6f536907eb728c71b797d7fd099b62e337",
+        "timestamp": 1387817776
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "cachecontrol/patch_requests.py",
+          "tests/test_pickle_patching.py"
+        ],
+        "sha": "a8e6c769c51b9d9bf44febec5f18b1ab6968b558",
+        "timestamp": 1389490144
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/storage.rst"
+        ],
+        "sha": "62f939bcadef6b5fcbdbca87e76c51922ae0aaef",
+        "timestamp": 1389490808
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "f5d095ec2bfea301d1aa77b6ed276cd7af69e3e0",
+        "timestamp": 1389491012
+      },
+      {
+        "files": [
+          "cachecontrol/patch_requests.py"
+        ],
+        "sha": "cb1466cd3dc83490e6bd408491d895f835ca7a27",
+        "timestamp": 1389491126
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "af25a4d4c8ff6211bfae8aebd46c0af79624ef20",
+        "timestamp": 1389491162
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "324627c151fc3057bf7c0e9df2f1af4764a7a88d",
+        "timestamp": 1389491603
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a1dc2f9dce8393e09647a21c83642fe1667e4398",
+        "timestamp": 1389587446
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "e6d34deef99ee88c227cffb22e3469b1d65064a1",
+        "timestamp": 1393430146
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py",
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "0365d9a3db199e12962783db3db1c18b76a55241",
+        "timestamp": 1393532792
+      },
+      {
+        "files": [
+          "cachecontrol/caches/redis_cache.py"
+        ],
+        "sha": "23881581f181037199143a6557724d90a66cef8c",
+        "timestamp": 1393868276
+      },
+      {
+        "files": [
+          "cachecontrol/caches/redis_cache.py",
+          "tests/test_storage_redis.py"
+        ],
+        "sha": "3ceccdd520dd8fa679fa35f54de66efc669f6f87",
+        "timestamp": 1393868367
+      },
+      {
+        "files": [
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "b33a3f0200429822a0b006afb42cefebee44b661",
+        "timestamp": 1394664535
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "f63a4323c4c44b4ba82ca84ea161da5c7faa1762",
+        "timestamp": 1394665102
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/tips.rst"
+        ],
+        "sha": "4f526233905c8b762e44d855508fbefa347ec1e2",
+        "timestamp": 1394668293
+      },
+      {
+        "files": [
+          "cachecontrol/caches/redis_cache.py"
+        ],
+        "sha": "bfaf9ad60c08a13ecb50140e8a1b440fa4a5b440",
+        "timestamp": 1394668717
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "abdaa11d5c965ff95a68dfb9dc56cdc41b9d5a4b",
+        "timestamp": 1394669112
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "e96f75d2b470476157b037f86d1f2006a89daf37",
+        "timestamp": 1395269464
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "3c058debc17ef7cc8b1abecd34a8bb60b81dede4",
+        "timestamp": 1395395013
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "f7b89d3b9cc28265e70ee7d2cd0c40fe466f30cb",
+        "timestamp": 1395407314
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "6069e02cdf343a2643b163c93b5d282341488c20",
+        "timestamp": 1395743217
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "f07621ed0b50c294eb87dad8bed71f49849c50de",
+        "timestamp": 1395743289
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "5c1d969b4891ebee9c4146de973ddad7cbf22e40",
+        "timestamp": 1395744888
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "07ef57a9ee18ccb373fae9a815513a64e4f270e3",
+        "timestamp": 1397225136
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "cachecontrol/adapter.py",
+          "cachecontrol/caches/__init__.py",
+          "cachecontrol/controller.py",
+          "cachecontrol/wrapper.py"
+        ],
+        "sha": "058a567f68a0a45710d08f8a58410c33332c92d2",
+        "timestamp": 1398116724
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "064fe81b68ba35f4b084389060c1491d0c97913f",
+        "timestamp": 1398120908
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "da62fd4d267bddb712126e463c7c52004b684d70",
+        "timestamp": 1398124036
+      },
+      {
+        "files": [
+          "cachecontrol/wrapper.py"
+        ],
+        "sha": "1cca299e963f6302a04dee7e450cae6578f971b4",
+        "timestamp": 1398137521
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py"
+        ],
+        "sha": "891951b25e1540b3dceedbf8a47acd1aed17c7d5",
+        "timestamp": 1398135379
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/controller.py"
+        ],
+        "sha": "229cb8e5cc2fa63357719b6973b5c471c4110d8d",
+        "timestamp": 1398137158
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "cachecontrol/patch_requests.py",
+          "tests/test_pickle_patching.py"
+        ],
+        "sha": "a362ecb00e39f9021a8c363b64a3b2ec2402fcec",
+        "timestamp": 1398138203
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "f016469389eea2e29d10cad506ccc3684183a9a7",
+        "timestamp": 1398138949
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/controller.py"
+        ],
+        "sha": "f188d2e05b82b75ab516f3d0d9825adf552afba9",
+        "timestamp": 1398167417
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "51c729dd0537650363e40075c50db6388376a023",
+        "timestamp": 1398175831
+      },
+      {
+        "files": [
+          "cachecontrol/filewrapper.py"
+        ],
+        "sha": "f362edfd4239a58d8bd73509c696c5c8b70257a5",
+        "timestamp": 1398262325
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "454bb175f7f6a61b2d9b5cfbd0b3b9627e9731c0",
+        "timestamp": 1398266576
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "tests/test_cache_control.py"
+        ],
+        "sha": "e3a14ba9133a150c7f0aca5a3f7cb4f15ab8d336",
+        "timestamp": 1398267121
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "c191b83dd4b6918a2b1307213e9adc31863881af",
+        "timestamp": 1398299090
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/release_notes.rst"
+        ],
+        "sha": "01951a67928cc5f53bc453866d8557e9ac7c14c5",
+        "timestamp": 1398309828
+      },
+      {
+        "files": [
+          "Makefile",
+          "tasks.py"
+        ],
+        "sha": "1c7e3ab4cf84d1acfa3223e149932b201d029800",
+        "timestamp": 1398310946
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "001ccb8f82a031c7971b02d0d8d189d72e464f7d",
+        "timestamp": 1398311314
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "537fcc6280941962546f4469553e40ad81e5c785",
+        "timestamp": 1399518987
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "fb054e45dc1bb578cead3b227d810d1ffbaf0b5e",
+        "timestamp": 1399401643
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "3002527770a33a2841d7f2f00bab819201cd4188",
+        "timestamp": 1399558144
+      },
+      {
+        "files": [
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "8d88736a15556c7518769d58fd067116e4232ec9",
+        "timestamp": 1399157439
+      },
+      {
+        "files": [
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "443a11370e4cf216ac4c5bcbdc14d54a580bcd48",
+        "timestamp": 1399993552
+      },
+      {
+        "files": [
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "6e7bc6f013eb756a6c955f4a0a66b949cc995814",
+        "timestamp": 1399998431
+      },
+      {
+        "files": [
+          "cachecontrol/filewrapper.py"
+        ],
+        "sha": "5018be3d6e260af09ab9e96f6227d531259ac004",
+        "timestamp": 1404357908
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "1c2b94da1e7c31ea1ef6a161a1b52139e325ef9e",
+        "timestamp": 1404383534
+      },
+      {
+        "files": [
+          "CONTRIBUTORS.rst"
+        ],
+        "sha": "edf34f2d291065a0bbcc84eb50b7ef1f4250d148",
+        "timestamp": 1405969813
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "f2ba21be8e5c44a524562fdee64b42c77ca9ea6c",
+        "timestamp": 1406125592
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f98d44dfeac0a8f97320bc1ebd572d7ad277d31a",
+        "timestamp": 1406473819
+      },
+      {
+        "files": [
+          "cachecontrol/compat.py",
+          "cachecontrol/controller.py"
+        ],
+        "sha": "2969780928aa66d12418e9fcc2545c3d0e811827",
+        "timestamp": 1406473969
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "5e61adcdaf5261f7ccec561a3624065f24884fdb",
+        "timestamp": 1406567103
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e011ac98f43ec1d3d6d5488c270e569737113ec9",
+        "timestamp": 1406568933
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8a47329aee002dc62eaf7c4db3d8eba59e5955cb",
+        "timestamp": 1406578570
+      },
+      {
+        "files": [
+          "docs/tips.rst"
+        ],
+        "sha": "4e8f6ac121ddb52cb938eb8be8633b71385b4911",
+        "timestamp": 1406984580
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "3fd00e9c556bf25b03130a4b733428ce0ef193a7",
+        "timestamp": 1408636296
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "196f023464df673168289ef96aa8936ae3b7e371",
+        "timestamp": 1408661348
+      },
+      {
+        "files": [
+          "tests/test_etag.py"
+        ],
+        "sha": "688c5a9bdea6cef8a3967e11d893ff5584288109",
+        "timestamp": 1408661369
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py",
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "cf78275137a69820f367014a1e0946635daaaf83",
+        "timestamp": 1408823543
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "db68fe3521446d72949625cde8d4464bc06073da",
+        "timestamp": 1409290497
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "5e4697377ca19d73e50937c1d710b91e2b516a27",
+        "timestamp": 1409290534
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "e0409a1033162485f42bbc453c3fb8e5a231cbe3",
+        "timestamp": 1410373306
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "e64c67072ce25326eba7c6f12fdbc881a9b4a3af",
+        "timestamp": 1410373337
+      },
+      {
+        "files": [
+          "cachecontrol/filewrapper.py",
+          "tests/test_regressions.py"
+        ],
+        "sha": "5544616339ce05123c54fd5fba43fbbc79f8839c",
+        "timestamp": 1410373372
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py",
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "15119f6fa40f055123b07e9abda6d86e0182d968",
+        "timestamp": 1410374425
+      },
+      {
+        "files": [
+          "tests/test_regressions.py"
+        ],
+        "sha": "2de77c8e6d3f6ff25266fa299c821f60ea7d9181",
+        "timestamp": 1410374785
+      },
+      {
+        "files": [
+          "cachecontrol/filewrapper.py"
+        ],
+        "sha": "a1f6fd06809e8da9e209ea652a6db4c8fab3effd",
+        "timestamp": 1410376009
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "0963434b007a85e47a6b5ce5a415ecc6ed2f722e",
+        "timestamp": 1410376248
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "b50b809ef2d62f5d3b4858c48162f2c335bcf5ec",
+        "timestamp": 1410381993
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/compat.py"
+        ],
+        "sha": "5d8bf4a800d5e27429b6460d51b0891757f534e3",
+        "timestamp": 1410383775
+      },
+      {
+        "files": [
+          "cachecontrol/filewrapper.py",
+          "tests/test_regressions.py"
+        ],
+        "sha": "7534ba43f2391f356f9289ebcf5cf5f87d698f66",
+        "timestamp": 1410907562
+      },
+      {
+        "files": [
+          "cachecontrol/filewrapper.py"
+        ],
+        "sha": "eb3d9e7d558384685d10282f50b5e1538ba272d5",
+        "timestamp": 1410920819
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "5f3ef2c2ff786b7c27c9b8cff804d63d0024b133",
+        "timestamp": 1410962964
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/cache.py",
+          "cachecontrol/caches/redis_cache.py",
+          "tests/test_adapter.py"
+        ],
+        "sha": "d576f2bbc3bce0d22509df169db0bad477ec0a8e",
+        "timestamp": 1411752904
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py"
+        ],
+        "sha": "f7096117920f573fb7129d8387d5ee252dba0305",
+        "timestamp": 1412285036
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "0d9f858e632fe79e192a8d9e581d412906123477",
+        "timestamp": 1415491529
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "0fd273ce9958672d4e59dad15d364afe04d9a7a0",
+        "timestamp": 1415491562
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "174f70765180741d0d7622fff80926db6f0331cc",
+        "timestamp": 1417709799
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "4ab6edc5368a2d6e2ff193caf0f7d57033de397a",
+        "timestamp": 1418871617
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "setup.py"
+        ],
+        "sha": "48fda5457b7da4c62bd1e1bcbd1e6a6d7d2ec4ed",
+        "timestamp": 1418872347
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "03ee81a58e3a32c422f86d0c31564dc8d0d98b84",
+        "timestamp": 1419193950
+      },
+      {
+        "files": [
+          "cachecontrol/heuristics.py",
+          "tests/conftest.py",
+          "tests/test_expires_heuristics.py"
+        ],
+        "sha": "eb28322e400ad8fc6c13d459446de7e03f3e3a7d",
+        "timestamp": 1419194020
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py"
+        ],
+        "sha": "38fd284448ff1aef79bd71868b6bca1cf2395447",
+        "timestamp": 1419261054
+      },
+      {
+        "files": [
+          "cachecontrol/heuristics.py",
+          "docs/custom_heuristics.rst"
+        ],
+        "sha": "8e61751b8d0ae128598fa88be851f311ef93a8c4",
+        "timestamp": 1420650291
+      },
+      {
+        "files": [
+          "docs/storage.rst",
+          "setup.py"
+        ],
+        "sha": "57dddb23ff220e4bac2df5ad5ff5df8304098ff5",
+        "timestamp": 1422174162
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py"
+        ],
+        "sha": "055c10968f8e38fe8f40a61f12d1e2f4c3e4396a",
+        "timestamp": 1422283216
+      },
+      {
+        "files": [
+          "tests/test_serialization.py"
+        ],
+        "sha": "20372e0236dba8bcd8c52164716ed3c4d02acd0f",
+        "timestamp": 1422395454
+      },
+      {
+        "files": [
+          "docs/release_notes.rst"
+        ],
+        "sha": "c3d8eb688a73d3fdebbf0785e144a8611fe91c90",
+        "timestamp": 1422396165
+      },
+      {
+        "files": [
+          "docs/custom_heuristics.rst"
+        ],
+        "sha": "0be76c9ba3ef49e2575fbca7401087529be8ef92",
+        "timestamp": 1422396581
+      },
+      {
+        "files": [
+          "tests/test_serialization.py"
+        ],
+        "sha": "0efa1d8299d54ea9693f5fc6278f0b0333df4e6f",
+        "timestamp": 1422396717
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py"
+        ],
+        "sha": "0872ae4dbc7d581861e5c3997d35ddefce1835f1",
+        "timestamp": 1422401634
+      },
+      {
+        "files": [
+          "tests/test_serialization.py"
+        ],
+        "sha": "7d39a0e1aa5b87778a5c3f17a18d967ba2f742fb",
+        "timestamp": 1422401644
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "2acf762006935cd4913213073e22b5848d908d5f",
+        "timestamp": 1422410230
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py"
+        ],
+        "sha": "dd5f2aa610391105323527a8b757da13c8124f56",
+        "timestamp": 1422410257
+      },
+      {
+        "files": [
+          "tests/test_serialization.py"
+        ],
+        "sha": "7d139480d9c3c0b84e008d5e25c0b1e27675159e",
+        "timestamp": 1422410302
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f72e9ea8d388adead6dd30a66a0b5625a5407482",
+        "timestamp": 1422410351
+      },
+      {
+        "files": [
+          "tests/test_serialization.py"
+        ],
+        "sha": "ebe1ddc479c60b0332d4bf842b788222ff745972",
+        "timestamp": 1422411627
+      },
+      {
+        "files": [
+          "Makefile",
+          "dev_requirements.txt"
+        ],
+        "sha": "5fc994a6abef18bdbd44a7db0e14c2965ae27ed6",
+        "timestamp": 1422413556
+      },
+      {
+        "files": [
+          ".bumpversion.cfg"
+        ],
+        "sha": "d93f0cc34201b8738118fd0e29b2c25e971b3ab1",
+        "timestamp": 1422413862
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "2ffc41a0902b096f324e8f40362e39485f25203f",
+        "timestamp": 1422414114
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "5c0d573e68757da9b2de41614541f90d416541c7",
+        "timestamp": 1422414155
+      },
+      {
+        "files": [
+          "docs/custom_heuristics.rst"
+        ],
+        "sha": "2643d157a41c4e969c51c8ecd5eb2450725456ea",
+        "timestamp": 1422414281
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "73ce6c433f6684d578a724bf2b599ea49c061249",
+        "timestamp": 1422415201
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py"
+        ],
+        "sha": "a5b9d98c1f425429a3abe955aea01969a7f87633",
+        "timestamp": 1422469640
+      },
+      {
+        "files": [
+          "tests/test_serialization.py"
+        ],
+        "sha": "28d5b591837e46831f15f99d55df2f956e950e58",
+        "timestamp": 1422470979
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "c0a47e16f02e84bb86a62b529856e9d99285630b",
+        "timestamp": 1422471131
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/controller.py",
+          "tests/conftest.py",
+          "tests/test_redirects.py"
+        ],
+        "sha": "68b6ec8c7fd4af36833b279008aa6a4b55a2a055",
+        "timestamp": 1423380482
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/controller.py"
+        ],
+        "sha": "ae8f840ed0e3e37f287fcb2bd6ca219956f49e4b",
+        "timestamp": 1423375646
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "4e80a52d87febe2429b23f541e9f0da23609a409",
+        "timestamp": 1423778851
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "9fb395a28a6f6191878b026fe95f4fb99563f397",
+        "timestamp": 1423778927
+      },
+      {
+        "files": [
+          "tests/test_etag.py"
+        ],
+        "sha": "15dc48ecc1380393e2bdd781b19a1ded1919be54",
+        "timestamp": 1423778937
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "ee172eac397ac8d08286dd78697c990076e83104",
+        "timestamp": 1423871508
+      },
+      {
+        "files": [
+          "cachecontrol/heuristics.py",
+          "docs/custom_heuristics.rst",
+          "tests/test_expires_heuristics.py"
+        ],
+        "sha": "f8279bd7951a0e208e5fcb71b7539f1d5488f3d3",
+        "timestamp": 1424401749
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "e26716dd18e2848d7e04a3aebe48272b03c6b8bb",
+        "timestamp": 1425705198
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d49ee32b2e3213813c2a06f2aa049d4a1d51cf3e",
+        "timestamp": 1425705891
+      },
+      {
+        "files": [
+          "tests/test_expires_heuristics.py"
+        ],
+        "sha": "9f0ee8ff7980302a694dde35a2456cb5e57135c3",
+        "timestamp": 1425723696
+      },
+      {
+        "files": [
+          "cachecontrol/heuristics.py",
+          "tests/test_expires_heuristics.py"
+        ],
+        "sha": "45d82da224787abaee1175b0633d7ddbbf974584",
+        "timestamp": 1425724515
+      },
+      {
+        "files": [
+          "cachecontrol/heuristics.py"
+        ],
+        "sha": "d2e4470eed12e6b2d561b2a4af2526fe9729cdc0",
+        "timestamp": 1425724684
+      },
+      {
+        "files": [
+          "CONTRIBUTORS.rst",
+          "docs/release_notes.rst"
+        ],
+        "sha": "e39e811a8bf37de08b735da1bdbe873d1633e3d6",
+        "timestamp": 1425724993
+      },
+      {
+        "files": [
+          "cachecontrol/heuristics.py",
+          "tests/test_expires_heuristics.py"
+        ],
+        "sha": "e2934387508ffe6460473449bd0160ce7348a662",
+        "timestamp": 1426214441
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "fe13c531d6bca374bf51f267b69fbfef03d6c1e8",
+        "timestamp": 1426215655
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py",
+          "cachecontrol/controller.py"
+        ],
+        "sha": "c48d538ba0f38858326fee5c30d29afedb2a9cf5",
+        "timestamp": 1426216058
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "tests/test_cache_control.py"
+        ],
+        "sha": "567810887e61b17adf7a17f0004f5ec50a01c715",
+        "timestamp": 1426539366
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "43860b4d0f75cea78f89ff73648c67a52193355d",
+        "timestamp": 1426543299
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "61785193e0bf59c0c50fca43a183360aab35bda2",
+        "timestamp": 1426547887
+      },
+      {
+        "files": [
+          "tests/test_serialization.py"
+        ],
+        "sha": "b9b0fb612e7b45c1f761ac54c7b276028fdc28a0",
+        "timestamp": 1426543751
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py"
+        ],
+        "sha": "1d026fb91fd6674693998c539c368faac475ff39",
+        "timestamp": 1426549211
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4c3d061bc979ccc916b9bdabc9774f4873aeec51",
+        "timestamp": 1426764589
+      },
+      {
+        "files": [
+          "docs/etags.rst"
+        ],
+        "sha": "39a8997f3389f9b623f85338f73927fbbe737444",
+        "timestamp": 1426769756
+      },
+      {
+        "files": [
+          "docs/release_notes.rst"
+        ],
+        "sha": "96cda510e731a6b841532cb1d2ead134efd7066d",
+        "timestamp": 1426802865
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "c1cce5cea79cbc96d314fa0052a69d53b614d653",
+        "timestamp": 1426802972
+      },
+      {
+        "files": [
+          "LICENSE.txt"
+        ],
+        "sha": "b86f00d7203b811f31a5d82348ea7399162013d5",
+        "timestamp": 1431383851
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "50dc74438306d935d7698c7639c6f4ad565a6c03",
+        "timestamp": 1431383937
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "089b246a1a90640b37a00c085be77163dad0cbc6",
+        "timestamp": 1431384662
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "a860feb67ea3c831b9f2725d10072ad4d8aea40a",
+        "timestamp": 1431385905
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "setup.py"
+        ],
+        "sha": "7ad7f11965a51d06b06cc3c7414400e272110449",
+        "timestamp": 1431746410
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "e1bbe80a50a9b71e3c04f41efb095054087ba592",
+        "timestamp": 1431746772
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py",
+          "setup.py",
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "45b0f1b67149ba1b39acf536a428c3d2c8f6b585",
+        "timestamp": 1432136020
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "632d050f24953e01a02e4b36e51a1f455a5042a8",
+        "timestamp": 1432144227
+      },
+      {
+        "files": [
+          "cachecontrol/compat.py",
+          "cachecontrol/serialize.py"
+        ],
+        "sha": "f52d8dc9cbefc98d87778d9dfbbe5f8529f0a8dc",
+        "timestamp": 1438351077
+      },
+      {
+        "files": [
+          "tests/test_serialization.py"
+        ],
+        "sha": "a4f3383958ae2cab32371406cf12b6cd2324593f",
+        "timestamp": 1438362267
+      },
+      {
+        "files": [
+          "tests/test_serialization.py"
+        ],
+        "sha": "a7db77f6efcffe82ad334dce9e540a9ce4b9da21",
+        "timestamp": 1438363633
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "418d9900c2209e9cc2063b67da946c2a9675ccb7",
+        "timestamp": 1438363660
+      },
+      {
+        "files": [
+          "tests/test_serialization.py"
+        ],
+        "sha": "bc89ecc8aad7bf0ce0b4c0a384a15668db5eff46",
+        "timestamp": 1438376676
+      },
+      {
+        "files": [
+          "docs/custom_heuristics.rst"
+        ],
+        "sha": "ffe10a311b92c0e4bc7770e6c603d4997f341327",
+        "timestamp": 1438601176
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "54e330434bcd83abd71656903d8878169ba04be3",
+        "timestamp": 1438805322
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "50a76aa0f022a47d34c65c13c4c813ecb1f2c086",
+        "timestamp": 1438861742
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "075545f094c0c8af6767aeb9429dfce03b027d04",
+        "timestamp": 1438864428
+      },
+      {
+        "files": [
+          "cachecontrol/_cmd.py",
+          "setup.py"
+        ],
+        "sha": "8cc00eef1ef7503846037177f0dfae0016009e40",
+        "timestamp": 1441254356
+      },
+      {
+        "files": [
+          "cachecontrol/_cmd.py"
+        ],
+        "sha": "b7598009fb186ac8e6f849c0b5d9d92b584dcfdb",
+        "timestamp": 1441256797
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "f815d363b8070e7c241b3dd28050a1c15d207b50",
+        "timestamp": 1441256831
+      },
+      {
+        "files": [
+          "cachecontrol/_cmd.py"
+        ],
+        "sha": "79f8513d3fbf2fb5af84d1f7016f65fcea3c2ced",
+        "timestamp": 1441256941
+      },
+      {
+        "files": [
+          "cachecontrol/_cmd.py"
+        ],
+        "sha": "2283a5eb4a1daac15327cb6cc8819a99f88a6959",
+        "timestamp": 1441257351
+      },
+      {
+        "files": [
+          "docs/custom_heuristics.rst"
+        ],
+        "sha": "390df8b6451a288d218dea119e7bc3c71259b871",
+        "timestamp": 1448242466
+      },
+      {
+        "files": [
+          "cachecontrol/_cmd.py",
+          "setup.py"
+        ],
+        "sha": "c47980e73a2be1cbae9d93734034754e9b99969b",
+        "timestamp": 1448493596
+      },
+      {
+        "files": [
+          "docs/custom_heuristics.rst"
+        ],
+        "sha": "a46aff4860d8989ca2b63b2f01f959de2cd28cee",
+        "timestamp": 1438601176
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "474aeff6b192824d6431a3181d46e6ac837eeca5",
+        "timestamp": 1440593619
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "tests/test_cache_control.py"
+        ],
+        "sha": "f1fd421e207ed34dfb96ac1f0905249b6ea28449",
+        "timestamp": 1448699083
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "f4fd789531cb243c23d8cfe3378dea11e56fd442",
+        "timestamp": 1448700812
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "tests/test_cache_control.py"
+        ],
+        "sha": "7b106e580c31a0932a7018232dcd54fa42c422c5",
+        "timestamp": 1453227315
+      },
+      {
+        "files": [
+          "cachecontrol/heuristics.py"
+        ],
+        "sha": "f60a1353e3909049e25f62e113ba6efdc78957cd",
+        "timestamp": 1453228642
+      },
+      {
+        "files": [
+          "tests/test_expires_heuristics.py"
+        ],
+        "sha": "fdcd6a70132efcdafbfdca7a84c90e8dcbad097e",
+        "timestamp": 1453241148
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "5ffe35d289b5ecad30f68752511c7557810a011d",
+        "timestamp": 1453241185
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "d5adde5196729a4118b6c251c10cec0a498d1e7a",
+        "timestamp": 1448488638
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "cachecontrol/adapter.py",
+          "cachecontrol/filewrapper.py",
+          "cachecontrol/serialize.py"
+        ],
+        "sha": "e17055379e2c6c373f65fcf9eee09b7b828b202d",
+        "timestamp": 1448345197
+      },
+      {
+        "files": [
+          "tests/conftest.py",
+          "tests/test_stream.py"
+        ],
+        "sha": "aa56c854113544983b61230d319ff6672c3a3879",
+        "timestamp": 1448345197
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "ebf2871aa84af980cf750de2867b8b1c9c1f2589",
+        "timestamp": 1458765650
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "9878166e51ced6223b1f414fdafb349cc58a7912",
+        "timestamp": 1458765980
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "a5ed3569957ea7fc8838813518df05ad0cb82e22",
+        "timestamp": 1458830258
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4746b906ae9b2e7ada8e732688cb9571a33a3fa5",
+        "timestamp": 1459802120
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "db28cafcdb1237309fd6b619c6c3319a014fd353",
+        "timestamp": 1462737790
+      },
+      {
+        "files": [
+          "tests/conftest.py",
+          "tests/test_expires_heuristics.py"
+        ],
+        "sha": "44b5974ff2a3607581332693095776385c595df2",
+        "timestamp": 1464753330
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "07a251bab676874e5d9cdd508969c91d990a4fc3",
+        "timestamp": 1466169503
+      },
+      {
+        "files": [
+          "docs/storage.rst"
+        ],
+        "sha": "ffd0ba936e4cb54fcef7d0d1b1b7a0656036dab9",
+        "timestamp": 1469488113
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "075c01b1304a1ee7cfb26b691230034c6366acc2",
+        "timestamp": 1473048460
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "30fc4e35df5257869b6c611758944c2e820efc09",
+        "timestamp": 1473737732
+      },
+      {
+        "files": [
+          "cachecontrol/caches/__init__.py"
+        ],
+        "sha": "9ac52cdf8d2c54296618963d287c26ba5c9a7d20",
+        "timestamp": 1473738056
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py",
+          "tests/test_serialization.py"
+        ],
+        "sha": "b3640e4a0a13272371cb387f3ee9feb0346685e8",
+        "timestamp": 1481649495
+      },
+      {
+        "files": [
+          "tests/test_etag.py",
+          "tests/test_max_age.py"
+        ],
+        "sha": "72d032bc39daf4125663dddf879ee6502042dbb8",
+        "timestamp": 1481657846
+      },
+      {
+        "files": [
+          "cachecontrol/caches/redis_cache.py"
+        ],
+        "sha": "85ac9a5f88abe85b725109c2a8416e61babe287d",
+        "timestamp": 1483970432
+      },
+      {
+        "files": [
+          "cachecontrol/caches/__init__.py",
+          "cachecontrol/caches/file_cache.py",
+          "tests/test_regressions.py"
+        ],
+        "sha": "a561ac9c1ef15db9bc6ead5d08443e6198cc69e1",
+        "timestamp": 1475850209
+      },
+      {
+        "files": [
+          "docs/storage.rst",
+          "setup.py"
+        ],
+        "sha": "3a2b9137e4f38fc013b1c01f7d5b96789526bf0c",
+        "timestamp": 1475850228
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "6c20a3b5dd88bbe13a946db1c6f932e769ebf9ed",
+        "timestamp": 1484137850
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py",
+          "docs/release_notes.rst",
+          "setup.py",
+          "tests/test_serialization.py"
+        ],
+        "sha": "2ae417deab1787ec213865b30cbc63fcf9a7e530",
+        "timestamp": 1478649007
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "f66639fef560120a03a2dc78a8000298b6fdeb66",
+        "timestamp": 1485752711
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "c34dfbada7fbabdcbb9ca34fdf99a019dff16b14",
+        "timestamp": 1488936387
+      },
+      {
+        "files": [
+          "cachecontrol/wrapper.py"
+        ],
+        "sha": "fbc288d89382d172e2ef6353eff61b14a2ab2b5c",
+        "timestamp": 1489116918
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "d338acc971887c557184f46be7e31dca2f19502f",
+        "timestamp": 1489117709
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "8c3c547ff7b7bd36690a6ced0dcbb2e506661061",
+        "timestamp": 1489117991
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/controller.py",
+          "cachecontrol/wrapper.py"
+        ],
+        "sha": "58cee33059d80a3ebe7e15298d3c1053d9aa1401",
+        "timestamp": 1489174869
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "6abf01652133e94e3c0ccf464bd6e548000b9f57",
+        "timestamp": 1489527745
+      },
+      {
+        "files": [
+          "cachecontrol/compat.py",
+          "cachecontrol/serialize.py",
+          "tests/test_serialization.py"
+        ],
+        "sha": "d1dd9dca550f50a9ade3b5583c081667d6660a9e",
+        "timestamp": 1490097616
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "8a8d0e12cde87f8314c157cd0d5ad42d7e60f72e",
+        "timestamp": 1490629745
+      },
+      {
+        "files": [
+          "cachecontrol/caches/redis_cache.py"
+        ],
+        "sha": "1c8a892917b6ecdd2ede85a14c21303cfd1b90c5",
+        "timestamp": 1491569185
+      },
+      {
+        "files": [
+          "cachecontrol/caches/redis_cache.py"
+        ],
+        "sha": "9d2135b06ccee51d3967ffce3ca4117d5cf837dc",
+        "timestamp": 1491569349
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "5ed4b96d95ca91ab02e79f1dda7bf62651cc7e9d",
+        "timestamp": 1495463977
+      },
+      {
+        "files": [
+          "tests/test_adapter.py",
+          "tests/test_chunked_response.py",
+          "tests/test_etag.py",
+          "tests/test_regressions.py",
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "043204384d763ba60c84bbf61d5fc1265d7e6208",
+        "timestamp": 1495715754
+      },
+      {
+        "files": [
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "a992b930465b14b360564cbed14ecbe86513c0a1",
+        "timestamp": 1495717034
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "fcb631acc29cabd1c9bc2c052551e4652a8c1b9d",
+        "timestamp": 1495719926
+      },
+      {
+        "files": [
+          "cachecontrol/caches/redis_cache.py",
+          "cachecontrol/heuristics.py"
+        ],
+        "sha": "66be5d02b9e8fec461554b5891a8b04b5a407ea2",
+        "timestamp": 1496932742
+      },
+      {
+        "files": [
+          "docs/tips.rst"
+        ],
+        "sha": "d318c1b3bc42187761f2a91be84f172594488c37",
+        "timestamp": 1499684949
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "109f3d4b68f8292bffac354144c2af342eb85733",
+        "timestamp": 1499690315
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "1fa6fedf1517e9ee661144f8d7ce50b2f9fe3c8e",
+        "timestamp": 1500003138
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "171876bfb4d482980b49f25a06145688d752cd30",
+        "timestamp": 1501361863
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "6cb8f8ee5258d632408a4abd8c4d062087043640",
+        "timestamp": 1501654767
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "606c06ab07e9622917b490fb847772502ce59019",
+        "timestamp": 1501654779
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "edd2061881742868c37a89b7c9aba2acb3033a56",
+        "timestamp": 1517012030
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "53138fb0837abed64e4d0c9e39c476526eb82ca2",
+        "timestamp": 1517012045
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "8000ea6f9dd0e285db5b543f86342426f98e1012",
+        "timestamp": 1517012899
+      },
+      {
+        "files": [
+          "Makefile",
+          "dev_requirements.txt"
+        ],
+        "sha": "75b8001a3325c13144b747cccbbc046433a2b373",
+        "timestamp": 1517034301
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "df18d01d82c67005eb29f25cb32ceefc8713d028",
+        "timestamp": 1517443570
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py"
+        ],
+        "sha": "bd94f7e2e06c609571f0227823661c65e8f8ba0c",
+        "timestamp": 1518814366
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "5569c80ae269bef57baedcb2c5ab3cb933f4a3d0",
+        "timestamp": 1522062345
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "e1e20d7ea44face61cfee1fd85507ffaeb71e366",
+        "timestamp": 1522065064
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "tests/test_cache_control.py"
+        ],
+        "sha": "a954e2418f2864c06d27d4eb18e1d2935ff44d19",
+        "timestamp": 1523196855
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "79d080298d5ee1bded9538ee41a5e8d174ce9b6c",
+        "timestamp": 1523292069
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "2bdfb28823aa110ea273fd6837ef2ff34b599a1f",
+        "timestamp": 1525170137
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "67722fe67a14bfbe8bdedc9cfd0fcdbb6fb2e852",
+        "timestamp": 1527329383
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py"
+        ],
+        "sha": "09ff7394916c988f27884a73acd673fa92703025",
+        "timestamp": 1528205182
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6ebc779ec2b7bc39dac5ca2fc66ac1eb289ddd6c",
+        "timestamp": 1528356393
+      },
+      {
+        "files": [
+          "cachecontrol/caches/redis_cache.py"
+        ],
+        "sha": "b18292043990d989f9bd68d26386c23101c2c785",
+        "timestamp": 1528356591
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/heuristics.py"
+        ],
+        "sha": "5c9c70f4a98932415bd829a98ee3af5f6ad73343",
+        "timestamp": 1528357554
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "c47be6f0c35dfc69e71a579e52267c0bfc377c0e",
+        "timestamp": 1528359581
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py",
+          "examples/benchmark.py",
+          "tests/conftest.py",
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "0758e12ebaa5ae5e7ebd0c006ab1304d9dfc3e8c",
+        "timestamp": 1528359752
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "1c8839d5c9095d3306c1d23bee561b006ebcd3ff",
+        "timestamp": 1528359884
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "cd91309d7def068395b42f9431daa2f334c0a2cc",
+        "timestamp": 1528383184
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/controller.py",
+          "cachecontrol/wrapper.py"
+        ],
+        "sha": "c60fb2fc31d5980ab78b2b109791e3d3f1d82f17",
+        "timestamp": 1536666674
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "00e072bbd95018a70ea5ba16c8de1cd152fa04e1",
+        "timestamp": 1542883614
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "2b886af2a3d0271bf5598ba3917e39395bb8f4b5",
+        "timestamp": 1548449633
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "b09b6a125d4fe6148d4998ea1c09fd97a2b23c2b",
+        "timestamp": 1548600981
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "cachecontrol/serialize.py",
+          "tests/test_cache_control.py"
+        ],
+        "sha": "0234b807e13081e717107adb1a9471fc452d34ff",
+        "timestamp": 1548456701
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py",
+          "setup.py"
+        ],
+        "sha": "89f1bfb4b3454ebb566344729d2f57b88548f7ab",
+        "timestamp": 1542947498
+      },
+      {
+        "files": [
+          "docs/storage.rst"
+        ],
+        "sha": "d3b1b862f7e66933d0889be537dd9e5e3c15162a",
+        "timestamp": 1550241939
+      },
+      {
+        "files": [
+          "docs/storage.rst"
+        ],
+        "sha": "827dfd90f0a847ffc5a9d2c6c480e8176e48c778",
+        "timestamp": 1550241996
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst",
+          "docs/storage.rst"
+        ],
+        "sha": "5b2040261e850310ceca8528a797e89794008ee5",
+        "timestamp": 1560618531
+      },
+      {
+        "files": [
+          "docs/storage.rst"
+        ],
+        "sha": "2627720fafed44ee989c8e9647806b0bfc455254",
+        "timestamp": 1569578760
+      },
+      {
+        "files": [
+          "Makefile",
+          "dev_requirements.txt",
+          "setup.cfg"
+        ],
+        "sha": "8219c56d06fad7283aa3b5b3c7a86c2faec6d590",
+        "timestamp": 1576291355
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "9d5c1f5e71900d200c3bebe995de9f6435d39b72",
+        "timestamp": 1577036615
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "tests/test_adapter.py"
+        ],
+        "sha": "7ed0b1b35d131f3852ba4d5ec69036c2e3c898f8",
+        "timestamp": 1584008380
+      },
+      {
+        "files": [
+          "examples/benchmark.py"
+        ],
+        "sha": "9b912394658930619937db0623570cc6dd7c214f",
+        "timestamp": 1587144974
+      },
+      {
+        "files": [
+          "tests/test_stream.py"
+        ],
+        "sha": "1fd17a75b4ecb15f0e0e3b8e39bb3de73a679cd4",
+        "timestamp": 1587129762
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "979460c81e4efd3534d67c63e07700888dc15bbb",
+        "timestamp": 1587150728
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "c63c4da2baab2379fda5d9017ad013d66769295c",
+        "timestamp": 1586814926
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/controller.py",
+          "tests/test_cache_control.py"
+        ],
+        "sha": "9a4c054542ae316d2692eb1d81d9a5b9ad601664",
+        "timestamp": 1586815023
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "cachecontrol/serialize.py",
+          "tests/test_cache_control.py",
+          "tests/test_serialization.py"
+        ],
+        "sha": "add2e5246130ca2738057aa6ff6d219cf763014d",
+        "timestamp": 1586817478
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py"
+        ],
+        "sha": "5a12fed164379335df9990be0ddff4059921a3bb",
+        "timestamp": 1599383093
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py",
+          "cachecontrol/caches/file_cache.py",
+          "cachecontrol/controller.py",
+          "tests/test_cache_control.py"
+        ],
+        "sha": "c74b99407ca0522d38c4fbd0997d557292ab46eb",
+        "timestamp": 1601414277
+      },
+      {
+        "files": [
+          "docs/etags.rst"
+        ],
+        "sha": "c2dee4e251f26f409875a78492566a7e4914eb89",
+        "timestamp": 1606084884
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "efed1946d836c640f3aff4ce1ad63e17dfeaf685",
+        "timestamp": 1607579657
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "ccadca219c41d9089556ca3e2d12ab99ce0e0eb4",
+        "timestamp": 1613915678
+      },
+      {
+        "files": [
+          "tests/conftest.py",
+          "tests/test_regressions.py"
+        ],
+        "sha": "34741e3ab11292f299c01729c878ba181e79c7e3",
+        "timestamp": 1631750223
+      },
+      {
+        "files": [
+          "cachecontrol/filewrapper.py"
+        ],
+        "sha": "d3ef52fbf32796ccde58dc06eac0d54e2a4716af",
+        "timestamp": 1491960452
+      },
+      {
+        "files": [
+          "cachecontrol/filewrapper.py"
+        ],
+        "sha": "1e545d0a3944061593dc3f1a16d76dea39fdab79",
+        "timestamp": 1634222805
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yml",
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "619607365c5ed63025eb321f6c87a16448b403cb",
+        "timestamp": 1634224013
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "0f223b1c492f0bd653194763fd19f10ecd32a4ec",
+        "timestamp": 1634224293
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yml",
+          "tox.ini"
+        ],
+        "sha": "7297155c3fe3e00bc25c108722eb2ef4e79f19d2",
+        "timestamp": 1634224551
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yml",
+          "docs/release_notes.rst",
+          "setup.py"
+        ],
+        "sha": "71ff6acf51085f531b2e54a8ace98223dad8ae09",
+        "timestamp": 1635264207
+      },
+      {
+        "files": [
+          "docs/release_notes.rst"
+        ],
+        "sha": "d9d6083f744440981b6420333ea1c78d76ff7c21",
+        "timestamp": 1635279910
+      },
+      {
+        "files": [
+          "cachecontrol/filewrapper.py"
+        ],
+        "sha": "b32bc270822e6e764756bab845ebafaca8516d68",
+        "timestamp": 1635280103
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "4f81aa1b27edcaba848f0ca1e5f01f9ee10b7f1c",
+        "timestamp": 1635474503
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "c88462c7bdfb939a32b7844c0e8cabb7fd6d6072",
+        "timestamp": 1635474555
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "783226652c8914ae76950d117a713c99d96c0526",
+        "timestamp": 1635525579
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "6661c3b975d8ae68630786e060b0ebc5f0bead3c",
+        "timestamp": 1635537528
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "09992a140edca2602cf8230370fc8b28566a069b",
+        "timestamp": 1635647395
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "cachecontrol/serialize.py",
+          "tests/test_serialization.py"
+        ],
+        "sha": "d085f509811a9dcd83c416897553883b4fe7c29e",
+        "timestamp": 1635649322
+      },
+      {
+        "files": [
+          "tests/issue_263.py"
+        ],
+        "sha": "0fa7749c01c4865608a3103450ab56733de62657",
+        "timestamp": 1635649466
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "0310f4abae4061c7be6eb6886fadf1a8dcd40364",
+        "timestamp": 1635873540
+      },
+      {
+        "files": [
+          "cachecontrol/filewrapper.py"
+        ],
+        "sha": "139cd4e34ff0b59a14b94090e6fc6e004750fb22",
+        "timestamp": 1636123356
+      },
+      {
+        "files": [
+          "LICENSE.txt",
+          "LICENSES/Apache-2.0.txt",
+          "setup.cfg"
+        ],
+        "sha": "25c86d97df6b2649f787c6a4a56c46325ffca11f",
+        "timestamp": 1636121785
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "3bd694551d28445723c18f4ad8c44bce55ff9b5f",
+        "timestamp": 1636132029
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py"
+        ],
+        "sha": "9fa3ae4de71bded0fa2ad6f119ae95bfd6a6eaa1",
+        "timestamp": 1637782461
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "7289a2a90f8ebe02655f4f371f7344681f51b0d9",
+        "timestamp": 1637782524
+      },
+      {
+        "files": [
+          "cachecontrol/cache.py",
+          "cachecontrol/controller.py",
+          "cachecontrol/serialize.py"
+        ],
+        "sha": "ec67f07e437fb044a0002d199128bace010af95e",
+        "timestamp": 1637783219
+      },
+      {
+        "files": [
+          "cachecontrol/caches/redis_cache.py",
+          "tests/test_storage_redis.py"
+        ],
+        "sha": "8597f013ebcad801216cbe9d62786cdddb7f4d6b",
+        "timestamp": 1638206362
+      },
+      {
+        "files": [
+          "tests/test_storage_redis.py"
+        ],
+        "sha": "e28436d6338ae47c76d0fe08b1daa44b60688234",
+        "timestamp": 1638206661
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "6e45481f9e233aeb83e8870e03cb0956d7dd09dc",
+        "timestamp": 1638207928
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py"
+        ],
+        "sha": "f51c13a5e3fcb1df6bc892dad06302ddc7c81589",
+        "timestamp": 1638291421
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "5f39ba4822c3d809d94e90362e74bd313036a3e8",
+        "timestamp": 1638294033
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py",
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "f3e17f8d77c8d71f9a64584cdc9c2254185e98cc",
+        "timestamp": 1638294057
+      },
+      {
+        "files": [
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "8fdf72873f9479ed980034feed498568380e9041",
+        "timestamp": 1638294741
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py",
+          "tests/test_etag.py",
+          "tests/test_max_age.py"
+        ],
+        "sha": "16d8e8befa6af41929b02d0af36f3270b5172469",
+        "timestamp": 1638294816
+      },
+      {
+        "files": [
+          "docs/release_notes.rst"
+        ],
+        "sha": "625cc5eba4718e3f841a29eb904a32b19be95e5b",
+        "timestamp": 1638294888
+      },
+      {
+        "files": [
+          "cachecontrol/caches/__init__.py",
+          "cachecontrol/caches/file_cache.py",
+          "tests/test_storage_filecache.py"
+        ],
+        "sha": "767fc5aa20f8b41ba7eb37ec0eae00c6d65794e0",
+        "timestamp": 1639150676
+      },
+      {
+        "files": [
+          "docs/release_notes.rst"
+        ],
+        "sha": "d6a3a842876697495f260bcbc8bf0b5f5484e668",
+        "timestamp": 1639151388
+      },
+      {
+        "files": [
+          "docs/storage.rst"
+        ],
+        "sha": "511197dbd7de9faa0b869bb635dc8d578fc756c8",
+        "timestamp": 1639151743
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "2e0fbc251d619d8aa843e59aa81dca7d7b007f3c",
+        "timestamp": 1650388849
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "f93d8af93e6dcc98f6867d2a09d4f68f6acc135f",
+        "timestamp": 1650388944
+      },
+      {
+        "files": [
+          "tests/__init__.py",
+          "tests/test_etag.py",
+          "tests/test_expires_heuristics.py",
+          "tests/test_max_age.py",
+          "tests/utils.py"
+        ],
+        "sha": "c343e20a142d78ac4f1cd57be973eba1940f6f20",
+        "timestamp": 1653416890
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "916458e6d20d8cef585a50d2b8984db3a4626ebf",
+        "timestamp": 1653417276
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "7024361abba11430ce3482e857dff1a246e9c179",
+        "timestamp": 1653417730
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "11fbcfe502949b81a72d5e3d9128915f146ef022",
+        "timestamp": 1653417961
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "5f3cc1e1e134838b5b17c2b9590f84daef2f6a60",
+        "timestamp": 1662993105
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "cachecontrol/__init__.py",
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "c05ef9eff1c9ac176481fb99e7a7188aa5b4e17b",
+        "timestamp": 1663039468
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yml",
+          "cachecontrol/serialize.py",
+          "tests/test_etag.py",
+          "tests/test_vary.py"
+        ],
+        "sha": "8f037ba1650c446759d6db581012714f6109850f",
+        "timestamp": 1684984755
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py",
+          "tests/conftest.py",
+          "tests/test_serialization.py"
+        ],
+        "sha": "6a74972a25a7cdced09211cbc3603a5d70e7b3f6",
+        "timestamp": 1685346531
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "setup.py"
+        ],
+        "sha": "81ef6ba27d3c2c81298a3fbad54bc3a8e44c22fe",
+        "timestamp": 1685346601
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yml",
+          "tests/test_etag.py",
+          "tox.ini"
+        ],
+        "sha": "7190d586638c84a5e3095685243fd1c6fe41550e",
+        "timestamp": 1685432839
+      },
+      {
+        "files": [
+          "cachecontrol/caches/redis_cache.py",
+          "cachecontrol/heuristics.py",
+          "tests/test_expires_heuristics.py",
+          "tests/test_storage_redis.py"
+        ],
+        "sha": "93544edb437c781096a5e8171e37604e7a6628dc",
+        "timestamp": 1685578501
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py",
+          "docs/release_notes.rst",
+          "tests/test_serialization.py"
+        ],
+        "sha": "6aba616923855d64f68d17b8424e10dd48e1dbec",
+        "timestamp": 1685593967
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py",
+          "docs/release_notes.rst"
+        ],
+        "sha": "03d2ed57df5a2e2225ee85ffede80bf5a320d2c8",
+        "timestamp": 1686127623
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py",
+          "dev_requirements.txt"
+        ],
+        "sha": "6ba72292ee3cb13d9d5ec10b21e7d7c87a49c012",
+        "timestamp": 1686195490
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py"
+        ],
+        "sha": "db710af8f3e177cca1070924b8a0b44e8d78a03b",
+        "timestamp": 1686198520
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "docs/release_notes.rst"
+        ],
+        "sha": "fd70c1b61e79d12609b3cf3db5c165dffcf932fa",
+        "timestamp": 1686201991
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/index.rst",
+          "docs/release_notes.rst",
+          "docs/requirements.txt",
+          "pyproject.toml"
+        ],
+        "sha": "ffdfe8dd65715573911925a5d231bc530f2db4e9",
+        "timestamp": 1686379953
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "23471ad32d1759eadb88ae242273ea0bf5f1ae5a",
+        "timestamp": 1687529154
+      },
+      {
+        "files": [
+          "cachecontrol/serialize.py"
+        ],
+        "sha": "f5f2327bfc1d1ae24d7a5884704d94188b744388",
+        "timestamp": 1688086675
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "1ee0f9d6cec0063a5fadd3b9ed4a93dd1b2428c4",
+        "timestamp": 1690945785
+      },
+      {
+        "files": [
+          ".bumpversion.cfg",
+          "Makefile",
+          "docs/index.rst"
+        ],
+        "sha": "5c2430714899cc80b0961e5dbe3ae1646eec7ad0",
+        "timestamp": 1690948745
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "65cf31506fe6ac09e8d8639c89620b29bb1bff11",
+        "timestamp": 1692582617
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "783a338ec41de7babee8e9fe2c75af572208f935",
+        "timestamp": 1693321453
+      },
+      {
+        "files": [
+          "docs/storage.rst"
+        ],
+        "sha": "7e3edbf61fa8d6cd2db1a0eed3a2e1c2fbc67d18",
+        "timestamp": 1706542646
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "tests/test_etag.py"
+        ],
+        "sha": "4e267a8c32ef2bac6a745db0c6e77eb0719dcd76",
+        "timestamp": 1706833037
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "docs/release_notes.rst"
+        ],
+        "sha": "e2be0c2f8e7c61ab5e2611dd58748f803f520d4d",
+        "timestamp": 1706842204
+      },
+      {
+        "files": [
+          "docs/release_notes.rst"
+        ],
+        "sha": "9e666c40df6e4816a9c67fab646add9d2137e103",
+        "timestamp": 1706842482
+      },
+      {
+        "files": [
+          ".github/dependabot.yml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "6ab9979cd6581d429b15553c615685605c843cad",
+        "timestamp": 1706843378
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "0e091c6524fae758b6c422a9e1aa16f99483e65c",
+        "timestamp": 1706843575
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "24a3b36f1d12e6465cc0b362049f008594d6f62b",
+        "timestamp": 1714316427
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          "cachecontrol/adapter.py"
+        ],
+        "sha": "37780354027aff38496ec6cd69b097dc43d94e7d",
+        "timestamp": 1721063059
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml",
+          "pyproject.toml"
+        ],
+        "sha": "9c4579355f53c8f9497007587d98ee75e255af85",
+        "timestamp": 1730757989
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "docs/release_notes.rst"
+        ],
+        "sha": "8cfe98e594eb796238eeb469ac05a96dff1baf19",
+        "timestamp": 1730758128
+      },
+      {
+        "files": [
+          "tests/test_cache_control.py"
+        ],
+        "sha": "f01cfef4a4939233c89fdbcd4c15d67f8be1caa7",
+        "timestamp": 1731193456
+      },
+      {
+        "files": [
+          "cachecontrol/caches/file_cache.py"
+        ],
+        "sha": "34564d8b0005b2878b58d23a1d0c3e41ce52516e",
+        "timestamp": 1731454268
+      },
+      {
+        "files": [
+          "cachecontrol/adapter.py",
+          "cachecontrol/controller.py",
+          "tests/test_adapter.py"
+        ],
+        "sha": "904ff9a239d67d969be73f91c5610bf6d6ffb236",
+        "timestamp": 1734394109
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml",
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "5200de89141aa3aeedb7ae3175f3281958b528d7",
+        "timestamp": 1734394233
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "bee45236710962f5b4ca5dbbcee8f3e6f63da703",
+        "timestamp": 1734465334
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "29039225d429a0e2c80913a978bceebd35f3f451",
+        "timestamp": 1734810112
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "aec8079b37c3dfdba306864d6815ae8f476e0583",
+        "timestamp": 1734981313
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "2ac01e0cb4a4714d2032358e9a83b900f539f066",
+        "timestamp": 1735069361
+      },
+      {
+        "files": [
+          "cachecontrol/__init__.py",
+          "docs/release_notes.rst"
+        ],
+        "sha": "928422d240d1f63284c8149903540d916705c31d",
+        "timestamp": 1736264826
+      },
+      {
+        "files": [
+          "tests/test_adapter.py"
+        ],
+        "sha": "19ccb8b23b6232698f661a023c2fdcfc3a5f2e58",
+        "timestamp": 1736391871
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "1001d66142b871b5bc184fe6f3d95ca89f1423a9",
+        "timestamp": 1736786532
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "38767c2cd1c2076f188d58c599cfed12c4d7f520",
+        "timestamp": 1737044987
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "6c2bd8372ebfaa94625520b2c4b89e2051d6c8c9",
+        "timestamp": 1737564591
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "2f07261a0c61d09e55e1f27bd335f3199d53f35d",
+        "timestamp": 1737654762
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "3538500be844f809a87cd4254fe6c876c9f7d67a",
+        "timestamp": 1737737979
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "b71ffa475071d0b031a7fc38017aa783d2ebfb18",
+        "timestamp": 1737997867
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml",
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "62111feb21496742e0545378c81c4b5e209f16ac",
+        "timestamp": 1738082014
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "3d0d0c28b3efd1a56c2e5e87938c1ec0bc8e518e",
+        "timestamp": 1738169134
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "29a7789a1faa0dbb2c5a7c988d678c9b780cf035",
+        "timestamp": 1738256524
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "31a2718a3b25dcda88654647bee724764c5bdbc5",
+        "timestamp": 1739114303
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "4cfe8783c80125ae71863e1b8d47bb1c0305f9d2",
+        "timestamp": 1740155656
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "fbff5c217d07e66cdf278d9b0dc73c98a319b003",
+        "timestamp": 1741022329
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "a9df0c9cdbdd092aff12fc41f1c4d4215bb45a20",
+        "timestamp": 1741366558
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "b1872da7fb808b8b0185192f4217427ea7ece0a2",
+        "timestamp": 1742403046
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "1c965741d86fb455fe0e4ff4e30b6d51f12e86e5",
+        "timestamp": 1742602997
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml",
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "e08453744611e7694b7e42eb0ed8c32ebbb6c30f",
+        "timestamp": 1742943056
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "e04b1f3c26bf28fc8fec8b70b59adf58052497aa",
+        "timestamp": 1743445641
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "c358a6099ad2fcc68c4c6f8585c71c63ea120ec6",
+        "timestamp": 1744047595
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "761aae7492518a5adeac07efc1e96fa9d509f84b",
+        "timestamp": 1744136115
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "1a01a305482f9fedb1fb44e5d01ec9b77fd9f4a0",
+        "timestamp": 1744822979
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "15fd5e62da66c5ca99c2de9e5135c90ebd9ed5e6",
+        "timestamp": 1745427311
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml",
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "e2c753df5e7d091ba39da6abf487b0cd84838b24",
+        "timestamp": 1745516646
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "25d30a2211613833e3a1142fae9739c55561e463",
+        "timestamp": 1745545188
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "cc3f42f8506872822e51d8de1e190732c83835ef",
+        "timestamp": 1746030259
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml",
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "bc67be7fc2f4b91bf3003d48c31b2f584e9fad4c",
+        "timestamp": 1746030491
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "3e0c8f2fbd85bc1d64ecaac7d6b0e838a8dae8f7",
+        "timestamp": 1746205084
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "3f169f69e3871340833535380306b43735b5b0a9",
+        "timestamp": 1747496893
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "9af76f749721ef7ee27e692c5c62a19aedab7731",
+        "timestamp": 1748020051
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "e8a968302db0bab1d8016b1da07440803eb230c6",
+        "timestamp": 1762631450
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "sha": "aba0315599d7d4200074ab3606384732be7bbc25",
+        "timestamp": 1763094662
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "a286f6b184227e62447410a8c0d9c084c1bbb4c0",
+        "timestamp": 1763272110
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "00d940052734d98a3448adf4f6726346b6c2722b",
+        "timestamp": 1763486100
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml",
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "9605256affa9f33c9ca2572bace3c664d1401d25",
+        "timestamp": 1764349529
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "f02e2308c7d046c482cba796f16632597f45814b",
+        "timestamp": 1764696099
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml",
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "221023a0e9e94fba55d87c1596c7c0d995c73155",
+        "timestamp": 1765298338
+      },
+      {
+        "files": [
+          "SECURITY.md"
+        ],
+        "sha": "2c9d79ffb410131d5a2d9c96b2cf922913ac1af6",
+        "timestamp": 1765584082
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "78531adf2accb9cfdf7093874988ffc07cc2bafa",
+        "timestamp": 1766420357
+      },
+      {
+        "files": [
+          ".readthedocs.yaml"
+        ],
+        "sha": "f6f7d3eb75cc39650bc9179132435d49d1008866",
+        "timestamp": 1766439175
+      },
+      {
+        "files": [
+          ".readthedocs.yaml"
+        ],
+        "sha": "184ed034c2d2cc743ca4a29031ed390630e7d2f2",
+        "timestamp": 1766439353
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py",
+          "tests/test_adapter.py"
+        ],
+        "sha": "b4f1ab5a78bec0ab97b9d45f77b792b22e0d22e4",
+        "timestamp": 1767735887
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "7b950e16acac04644a88bba178bba45b9dd31c3b",
+        "timestamp": 1768410662
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml",
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "900b4e6c30681c8a12fe1ed73bf46e0700a3522a",
+        "timestamp": 1769101050
+      },
+      {
+        "files": [
+          "Makefile",
+          "docs/hacking.rst",
+          "docs/index.rst",
+          "docs/security.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "344a3f65774694ec36c29f8406367d8b127e2415",
+        "timestamp": 1769383495
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "ad121281e036f939d934081063fb5059b8d5d6c9",
+        "timestamp": 1769454020
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "a4b8109d10125b1fdd901f4505833bf438d84da2",
+        "timestamp": 1770668792
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "385618ef9e04277b2d219e8f13c86cfb22c4fee1",
+        "timestamp": 1771001757
+      },
+      {
+        "files": [
+          "cachecontrol/controller.py"
+        ],
+        "sha": "2d4710cb2bd622cc96b47a593dea9c9afe96fbe0",
+        "timestamp": 1771001932
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "5c8a4e0ebf18e68f34b7641b54922c90d9ae9db6",
+        "timestamp": 1771854535
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "141de6fb33a6911f3ae48e1d590522f2ab119d52",
+        "timestamp": 1773097818
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "20629c1113ecf28c990f692d31c56f8a0d9ff93c",
+        "timestamp": 1773703147
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "14017619cb9189400f3418833ed40e851bb05b20",
+        "timestamp": 1774308262
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "e48e30f52b5a8fa734d4e4e972e11f65ee17fd7c",
+        "timestamp": 1775494522
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "c919708419f98a0b7ca03698c6f10fd489829191",
+        "timestamp": 1775581019
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "ba32b488e53b580ccbc61402b99351b10db46772",
+        "timestamp": 1776712876
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "a4b13be88528e43e6c5a35dc21505e45778310a1",
+        "timestamp": 1776966819
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "04dfd1f3e83a02d8e22048b851be94b38a8c881a",
+        "timestamp": 1779409765
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "4e128fe176acc0474e6ee1d2fda14cfbe84d256f",
+        "timestamp": 1779410213
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "626616033d6a6e69b73ac0a17a85fb1baaefcc6a",
+        "timestamp": 1779410229
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "11d43b88c5bee78edc6112ef73f40500bbd7d637",
+        "timestamp": 1779410237
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "231ba8c6a946061755e19a507b54971337243dbb",
+        "timestamp": 1779410247
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "7c0989737a60399a065ce20eb3f668f4a94420ca",
+        "timestamp": 1779410266
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "67cd3b0dbf759832e60459de68bfc7337dc41572",
+        "timestamp": 1779411656
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "8b9425f3dee98577bc486af9f8354518010eab31",
+        "timestamp": 1779411675
+      },
+      {
+        "files": [
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "15aa947921c24c84dcc7d8e27bc45fad9cacc5b8",
+        "timestamp": 1779753367
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml",
+          ".github/workflows/zizmor.yml"
+        ],
+        "sha": "d7a57d29fbe7e4eb46db76237a5f9638549c0bcd",
+        "timestamp": 1781036634
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/tests.yml"
+        ],
+        "sha": "495b215d25568432aeb983c31f696447a777b4b5",
+        "timestamp": 1781112776
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 5,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".bumpversion.cfg": 0,
+      ".github/dependabot.yml": 1,
+      ".github/workflows/release.yml": 2,
+      ".github/workflows/tests.yml": 3,
+      ".github/workflows/zizmor.yml": 4,
+      ".gitignore": 5,
+      ".hgignore": 6,
+      ".hgtags": 7,
+      ".readthedocs.yaml": 8,
+      ".travis.yml": 9,
+      "CONTRIBUTORS.rst": 10,
+      "LICENSE.txt": 11,
+      "LICENSES/Apache-2.0.txt": 12,
+      "MANIFEST.in": 13,
+      "Makefile": 14,
+      "README.rst": 15,
+      "SECURITY.md": 16,
+      "cachecontrol/__init__.py": 17,
+      "cachecontrol/_cmd.py": 18,
+      "cachecontrol/adapter.py": 19,
+      "cachecontrol/cache.py": 20,
+      "cachecontrol/caches/__init__.py": 21,
+      "cachecontrol/caches/file_cache.py": 22,
+      "cachecontrol/caches/redis_cache.py": 23,
+      "cachecontrol/compat.py": 24,
+      "cachecontrol/controller.py": 25,
+      "cachecontrol/filewrapper.py": 26,
+      "cachecontrol/heuristics.py": 27,
+      "cachecontrol/patch_requests.py": 28,
+      "cachecontrol/serialize.py": 29,
+      "cachecontrol/tests/__init__.py": 30,
+      "cachecontrol/tests/test_cache_invalidation.py": 31,
+      "cachecontrol/wrapper.py": 32,
+      "dev_requirements.txt": 33,
+      "docs/Makefile": 34,
+      "docs/conf.py": 35,
+      "docs/custom_heuristics.rst": 36,
+      "docs/etags.rst": 37,
+      "docs/hacking.rst": 38,
+      "docs/index.rst": 39,
+      "docs/release_notes.rst": 40,
+      "docs/requirements.txt": 41,
+      "docs/security.rst": 42,
+      "docs/storage.rst": 43,
+      "docs/tips.rst": 44,
+      "docs/usage.rst": 45,
+      "examples/benchmark.py": 46,
+      "examples/redis_cache.py": 47,
+      "httpcache/tests/integration/test_caching_conditions.py": 48,
+      "httpcache/tests/server.py": 49,
+      "httpcache/tests/test_cache.py": 50,
+      "pavement.py": 51,
+      "pyproject.toml": 52,
+      "setup.cfg": 53,
+      "setup.py": 54,
+      "tasks.py": 55,
+      "tests/__init__.py": 56,
+      "tests/conftest.py": 57,
+      "tests/issue_263.py": 58,
+      "tests/test_adapter.py": 59,
+      "tests/test_cache_control.py": 60,
+      "tests/test_chunked_response.py": 61,
+      "tests/test_etag.py": 62,
+      "tests/test_expires_heuristics.py": 63,
+      "tests/test_max_age.py": 64,
+      "tests/test_pickle_patching.py": 65,
+      "tests/test_redirects.py": 66,
+      "tests/test_regressions.py": 67,
+      "tests/test_serialization.py": 68,
+      "tests/test_storage_filecache.py": 69,
+      "tests/test_storage_redis.py": 70,
+      "tests/test_stream.py": 71,
+      "tests/test_vary.py": 72,
+      "tests/utils.py": 73,
+      "tox.ini": 74,
+      "uv.lock": 75
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1339720953,
+      "last_commit_ts": 1781112776,
+      "n_cochange_pairs": 69,
+      "n_commits_dropped_as_bulk": 25,
+      "n_commits_used": 490,
+      "n_files": 76
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "495b215d25568432aeb983c31f696447a777b4b5",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
