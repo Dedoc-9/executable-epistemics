@@ -222,5 +222,16 @@
     "corrected_statement": "pallets/blinker does not exist on GitHub (clone returned 'Repository not found'). The blinker library is hosted under the pallets-eco organization: pallets-eco/blinker. Corrected pre-clone (D009 was the first attempt). Non-instrument erratum. Declaration hash updates accordingly.",
     "filed": "pre-clone",
     "instrument_affected": false
+  },
+  {
+    "erratum_id": "E-026",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-102",
+    "repo_id": "D022",
+    "slug_declared": "pypa/pyOpenSSL",
+    "slug_corrected": "pyca/pyopenssl",
+    "corrected_statement": "pypa/pyOpenSSL does not exist on GitHub (clone returned 'Repository not found'). PyOpenSSL is hosted under the pyca organization: pyca/pyopenssl (lowercase). Corrected pre-clone. Non-instrument erratum. Declaration hash updates accordingly.",
+    "filed": "pre-clone",
+    "instrument_affected": false
   }
 ]

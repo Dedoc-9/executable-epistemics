@@ -32,7 +32,7 @@ of n_T >= 50, excluding all prior experiment populations.
 | n_target_tcell   | >= 50                                                    |
 | scorer_hash      | cd6bf9a6c3f3ab36                                         |
 | population       | fresh repos; none in EXP-001/EXP-002/EXP-101 cohorts    |
-| declaration_hash | c1894c405a36a522b87aabb6b79750b7d860ac0df496d921188a7b11acd6ba50 (E-025) |
+| declaration_hash | 2b97e7906a085cf86eab11c602aad3097ec995a6a80569ca483601d2a4d3dec3 (E-026) |
 
 Component A (EXP-002 T-cells, n=11) and Component B (wave-1 T-cell, n=7) are NOT
 included in the primary test — their classifications are known and including them would

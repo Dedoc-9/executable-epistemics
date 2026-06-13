@@ -5,7 +5,7 @@
   "instrument_family": "ownership",
   "scorer_hash": "cd6bf9a6c3f3ab36",
   "hypothesis_ref": "studies/exp102_tcell_power/HYPOTHESIS_exp102.md",
-  "declaration_hash": "c1894c405a36a522b87aabb6b79750b7d860ac0df496d921188a7b11acd6ba50",
+  "declaration_hash": "2b97e7906a085cf86eab11c602aad3097ec995a6a80569ca483601d2a4d3dec3",
   "pivot": "A",
   "pivot_rationale": "M3 retrocompute (m3_retroactive.json, commit f0be383) produced a null finding: cohort-level M3 does not predict detection rate ordering. B(0.911) > A(0.874) > C_T(0.773). An M3 gate is not supported as a mechanism. EXP-102 uses M1^M2 gate only, n_T>=50, to force a definitive statistical resolution. If Wilson_upper < 0.60 at n_T>=50, the ownership claim class is retired.",
   "m1_threshold": 0.858675,
@@ -158,9 +158,9 @@
     },
     {
       "id": "D022",
-      "slug": "pypa/pyOpenSSL",
+      "slug": "pyca/pyopenssl",
       "eligibility": "CONFIRMED",
-      "notes": "pyOpenSSL; small team"
+      "notes": "pyOpenSSL; pyca org (E-026: pypa/pyOpenSSL -> pyca/pyopenssl)"
     },
     {
       "id": "D023",
@@ -631,5 +631,6 @@
       "notes": "Small team; exception groups backport"
     }
   ],
-  "declaration_hash_pre_E025": "970f4c4f330e629e5b18d0d0f5cc68cd738e7bbea8d0bc3aba4e4f54376a25ca"
+  "declaration_hash_pre_E025": "970f4c4f330e629e5b18d0d0f5cc68cd738e7bbea8d0bc3aba4e4f54376a25ca",
+  "declaration_hash_pre_E026": "c1894c405a36a522b87aabb6b79750b7d860ac0df496d921188a7b11acd6ba50"
 }

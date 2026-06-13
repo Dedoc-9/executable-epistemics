@@ -45,7 +45,7 @@ $repos = @(
     [pscustomobject]@{ id="D019"; slug="pyca/bcrypt" },
     [pscustomobject]@{ id="D020"; slug="lepture/authlib" },
     [pscustomobject]@{ id="D021"; slug="oauthlib/oauthlib" },
-    [pscustomobject]@{ id="D022"; slug="pypa/pyOpenSSL" },
+    [pscustomobject]@{ id="D022"; slug="pyca/pyopenssl" },
     [pscustomobject]@{ id="D023"; slug="kvesteri/sqlalchemy-utils" },
     [pscustomobject]@{ id="D024"; slug="tiangolo/sqlmodel" },
     [pscustomobject]@{ id="D025"; slug="omnilib/aiosqlite" },
