@@ -233,5 +233,16 @@
     "corrected_statement": "pypa/pyOpenSSL does not exist on GitHub (clone returned 'Repository not found'). PyOpenSSL is hosted under the pyca organization: pyca/pyopenssl (lowercase). Corrected pre-clone. Non-instrument erratum. Declaration hash updates accordingly.",
     "filed": "pre-clone",
     "instrument_affected": false
+  },
+  {
+    "erratum_id": "E-027",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-102",
+    "repo_id": "D061",
+    "slug_declared": "bitarray/bitarray",
+    "slug_corrected": "ilanschnell/bitarray",
+    "corrected_statement": "bitarray/bitarray does not exist on GitHub (clone returned 'Repository not found'). The bitarray library is hosted under the ilanschnell user account: ilanschnell/bitarray. Corrected pre-clone. Non-instrument erratum. Declaration hash updates accordingly.",
+    "filed": "pre-clone",
+    "instrument_affected": false
   }
 ]

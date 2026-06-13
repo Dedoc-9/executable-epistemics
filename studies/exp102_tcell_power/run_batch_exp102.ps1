@@ -84,7 +84,7 @@ $repos = @(
     [pscustomobject]@{ id="D058"; slug="maxbachmann/RapidFuzz" },
     [pscustomobject]@{ id="D059"; slug="LuminosoInsight/python-ftfy" },
     [pscustomobject]@{ id="D060"; slug="jquast/wcwidth" },
-    [pscustomobject]@{ id="D061"; slug="bitarray/bitarray" },
+    [pscustomobject]@{ id="D061"; slug="ilanschnell/bitarray" },
     [pscustomobject]@{ id="D062"; slug="ifduyue/python-xxhash" },
     [pscustomobject]@{ id="D063"; slug="WoLpH/python-progressbar" },
     [pscustomobject]@{ id="D064"; slug="pypa/flit" },
