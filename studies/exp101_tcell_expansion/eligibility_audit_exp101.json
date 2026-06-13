@@ -1,0 +1,226 @@
+{
+  "candidates": [
+    {
+      "slug": "paramiko/paramiko",
+      "notes": "SSH library; Jeff Forcier primary author",
+      "eligibility": "CONFIRMED",
+      "fail_reason": "",
+      "archived": false,
+      "language": "Python",
+      "n_commits_approx": 4068,
+      "n_python_files": 69
+    },
+    {
+      "slug": "fabric/fabric",
+      "notes": "Deployment tool; Jeff Forcier primary",
+      "eligibility": "FAILED",
+      "fail_reason": "only 49 Python files < 50",
+      "archived": false,
+      "language": "Python",
+      "n_commits_approx": null,
+      "n_python_files": 49
+    },
+    {
+      "slug": "invoke/invoke",
+      "notes": "Task execution; Jeff Forcier primary",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "cython/cython",
+      "notes": "Cython compiler; Stefan Behnel primary",
+      "eligibility": "CONFIRMED",
+      "fail_reason": "",
+      "archived": false,
+      "language": "Cython",
+      "n_commits_approx": 20255,
+      "n_python_files": 472
+    },
+    {
+      "slug": "pyparsing/pyparsing",
+      "notes": "Parsing library; Paul McGuire primary",
+      "eligibility": "CONFIRMED",
+      "fail_reason": "",
+      "archived": false,
+      "language": "Python",
+      "n_commits_approx": 1681,
+      "n_python_files": 154
+    },
+    {
+      "slug": "pygments/pygments",
+      "notes": "Syntax highlighting; Georg Brandl era",
+      "eligibility": "CONFIRMED",
+      "fail_reason": "",
+      "archived": false,
+      "language": "Python",
+      "n_commits_approx": 7182,
+      "n_python_files": 403
+    },
+    {
+      "slug": "ipython/ipython",
+      "notes": "Interactive Python; Fernando Perez era",
+      "eligibility": "CONFIRMED",
+      "fail_reason": "",
+      "archived": false,
+      "language": "Python",
+      "n_commits_approx": 28426,
+      "n_python_files": 297
+    },
+    {
+      "slug": "networkx/networkx",
+      "notes": "Graph library; structured committer history",
+      "eligibility": "CONFIRMED",
+      "fail_reason": "",
+      "archived": false,
+      "language": "Python",
+      "n_commits_approx": 8161,
+      "n_python_files": 690
+    },
+    {
+      "slug": "statsmodels/statsmodels",
+      "notes": "Statistics; Josef Perktold + Skipper Seabold",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "joblib/joblib",
+      "notes": "Parallel utilities; Olivier Grisel primary",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "twisted/twisted",
+      "notes": "Networking framework; Glyph era",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "numba/numba",
+      "notes": "JIT compiler; small core team",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "pyzmq/pyzmq",
+      "notes": "ZeroMQ bindings; Min Ragan-Kelley primary",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "bokeh/bokeh",
+      "notes": "Visualization; Bryan Van de Ven era",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "pexpect/pexpect",
+      "notes": "Terminal automation; Thomas Kluyver",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "gitpython/gitpython",
+      "notes": "Git Python interface",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "plumbum/plumbum",
+      "notes": "CLI and remote commands",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "pyserial/pyserial",
+      "notes": "Serial communications; Chris Liechti primary",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "pytest-dev/pluggy",
+      "notes": "pytest plugin hook machinery",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "nox/nox",
+      "notes": "Test session management",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "docutils/docutils",
+      "notes": "reStructuredText; David Goodger primary",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    },
+    {
+      "slug": "astropy/astropy",
+      "notes": "Astronomy; large structured team",
+      "eligibility": "FAILED",
+      "fail_reason": "API unreachable or 404",
+      "archived": null,
+      "language": null,
+      "n_commits_approx": null,
+      "n_python_files": null
+    }
+  ],
+  "n_confirmed": 6,
+  "n_failed": 16
+}
