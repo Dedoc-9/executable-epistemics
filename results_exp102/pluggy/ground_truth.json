@@ -1,0 +1,5571 @@
+{
+  "chain_hash": "11fc7b4b6249e97c",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".coveragerc||src/pluggy/_hooks.py": 2,
+      ".coveragerc||tox.ini": 2,
+      ".github/workflows/deploy.yml||.github/workflows/test.yml": 4,
+      ".github/workflows/test.yml||.pre-commit-config.yaml": 3,
+      ".github/workflows/test.yml||.travis.yml": 3,
+      ".github/workflows/test.yml||README.rst": 2,
+      ".github/workflows/test.yml||pyproject.toml": 3,
+      ".github/workflows/test.yml||scripts/upload-coverage.sh": 2,
+      ".github/workflows/test.yml||setup.cfg": 3,
+      ".github/workflows/test.yml||setup.py": 2,
+      ".github/workflows/test.yml||tox.ini": 10,
+      ".gitignore||pyproject.toml": 2,
+      ".gitignore||setup.py": 2,
+      ".gitignore||tox.ini": 2,
+      ".pre-commit-config.yaml||src/pluggy/_hooks.py": 2,
+      ".pre-commit-config.yaml||testing/test_pluginmanager.py": 2,
+      ".pre-commit-config.yaml||tox.ini": 4,
+      ".travis.yml||README.rst": 2,
+      ".travis.yml||appveyor.yml": 9,
+      ".travis.yml||setup.py": 4,
+      ".travis.yml||tox.ini": 10,
+      "CHANGELOG.rst||docs/conf.py": 2,
+      "CHANGELOG.rst||docs/index.rst": 2,
+      "CHANGELOG.rst||src/pluggy/__init__.py": 3,
+      "CHANGELOG.rst||tox.ini": 2,
+      "CHANGELOG||setup.py": 2,
+      "CHANGELOG||src/pluggy/__init__.py": 6,
+      "CHANGELOG||testing/test_pluggy.py": 4,
+      "CHANGELOG||tox.ini": 3,
+      "appveyor.yml||setup.py": 2,
+      "appveyor.yml||tox.ini": 7,
+      "docs/api_reference.rst||docs/conf.py": 3,
+      "docs/api_reference.rst||docs/index.rst": 8,
+      "docs/api_reference.rst||src/pluggy/__init__.py": 2,
+      "docs/api_reference.rst||src/pluggy/_hooks.py": 3,
+      "docs/api_reference.rst||src/pluggy/_manager.py": 3,
+      "docs/api_reference.rst||src/pluggy/_result.py": 2,
+      "docs/conf.py||docs/index.rst": 5,
+      "docs/conf.py||setup.py": 4,
+      "docs/conf.py||src/pluggy/_manager.py": 6,
+      "docs/conf.py||testing/test_pluginmanager.py": 4,
+      "docs/conf.py||tox.ini": 2,
+      "docs/examples/eggsample-spam/eggsample_spam.py||docs/examples/eggsample/eggsample/hookspecs.py": 2,
+      "docs/examples/eggsample-spam/eggsample_spam.py||docs/examples/eggsample/eggsample/host.py": 4,
+      "docs/examples/eggsample-spam/eggsample_spam.py||docs/examples/eggsample/eggsample/lib.py": 3,
+      "docs/examples/eggsample-spam/eggsample_spam.py||docs/index.rst": 4,
+      "docs/examples/eggsample/eggsample/hookspecs.py||docs/examples/eggsample/eggsample/host.py": 2,
+      "docs/examples/eggsample/eggsample/hookspecs.py||docs/examples/eggsample/eggsample/lib.py": 2,
+      "docs/examples/eggsample/eggsample/hookspecs.py||docs/index.rst": 2,
+      "docs/examples/eggsample/eggsample/host.py||docs/examples/eggsample/eggsample/lib.py": 3,
+      "docs/examples/eggsample/eggsample/host.py||docs/index.rst": 4,
+      "docs/examples/eggsample/eggsample/lib.py||docs/index.rst": 3,
+      "docs/index.rst||src/pluggy/__init__.py": 2,
+      "docs/index.rst||src/pluggy/_hooks.py": 4,
+      "docs/index.rst||src/pluggy/_manager.py": 5,
+      "docs/index.rst||testing/test_details.py": 2,
+      "downstream/README.md||downstream/run_downstream.py": 2,
+      "downstream/recipes/conda.bash||downstream/run_downstream.py": 2,
+      "pyproject.toml||setup.cfg": 2,
+      "pyproject.toml||setup.py": 3,
+      "pyproject.toml||tox.ini": 5,
+      "setup.cfg||setup.py": 2,
+      "setup.cfg||tox.ini": 4,
+      "setup.py||src/pluggy/__init__.py": 5,
+      "setup.py||src/pluggy/_hooks.py": 2,
+      "setup.py||src/pluggy/_manager.py": 5,
+      "setup.py||testing/test_pluggy.py": 2,
+      "setup.py||testing/test_pluginmanager.py": 4,
+      "setup.py||tox.ini": 9,
+      "src/pluggy/__init__.py||src/pluggy/_callers.py": 7,
+      "src/pluggy/__init__.py||src/pluggy/_hooks.py": 6,
+      "src/pluggy/__init__.py||src/pluggy/_manager.py": 6,
+      "src/pluggy/__init__.py||src/pluggy/_tracing.py": 2,
+      "src/pluggy/__init__.py||testing/test_pluggy.py": 21,
+      "src/pluggy/__init__.py||testing/test_pluginmanager.py": 2,
+      "src/pluggy/__init__.py||tox.ini": 8,
+      "src/pluggy/_callers.py||src/pluggy/_hooks.py": 5,
+      "src/pluggy/_callers.py||src/pluggy/_manager.py": 4,
+      "src/pluggy/_callers.py||src/pluggy/_result.py": 4,
+      "src/pluggy/_callers.py||src/pluggy/_tracing.py": 3,
+      "src/pluggy/_callers.py||testing/test_details.py": 2,
+      "src/pluggy/_callers.py||testing/test_invocations.py": 2,
+      "src/pluggy/_callers.py||testing/test_multicall.py": 2,
+      "src/pluggy/_hooks.py||src/pluggy/_manager.py": 25,
+      "src/pluggy/_hooks.py||src/pluggy/_result.py": 5,
+      "src/pluggy/_hooks.py||src/pluggy/_tracing.py": 2,
+      "src/pluggy/_hooks.py||testing/benchmark.py": 3,
+      "src/pluggy/_hooks.py||testing/test_details.py": 5,
+      "src/pluggy/_hooks.py||testing/test_helpers.py": 7,
+      "src/pluggy/_hooks.py||testing/test_hookcaller.py": 9,
+      "src/pluggy/_hooks.py||testing/test_pluginmanager.py": 8,
+      "src/pluggy/_hooks.py||testing/test_warnings.py": 2,
+      "src/pluggy/_manager.py||src/pluggy/_result.py": 5,
+      "src/pluggy/_manager.py||src/pluggy/_tracing.py": 4,
+      "src/pluggy/_manager.py||testing/benchmark.py": 2,
+      "src/pluggy/_manager.py||testing/test_details.py": 3,
+      "src/pluggy/_manager.py||testing/test_hookcaller.py": 2,
+      "src/pluggy/_manager.py||testing/test_pluginmanager.py": 21,
+      "src/pluggy/_tracing.py||testing/test_tracer.py": 4,
+      "testing/benchmark.py||testing/test_hookcaller.py": 2,
+      "testing/benchmark.py||testing/test_multicall.py": 2,
+      "testing/test_deprecations.py||testing/test_pluginmanager.py": 2,
+      "testing/test_details.py||testing/test_hookcaller.py": 2,
+      "testing/test_details.py||testing/test_pluginmanager.py": 2,
+      "testing/test_helpers.py||testing/test_hookcaller.py": 2,
+      "testing/test_helpers.py||testing/test_warnings.py": 2,
+      "testing/test_hookcaller.py||testing/test_invocations.py": 4,
+      "testing/test_hookcaller.py||testing/test_pluginmanager.py": 6,
+      "testing/test_hookcaller.py||testing/test_warnings.py": 2,
+      "testing/test_pluggy.py||tox.ini": 5
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore",
+          "LICENSE"
+        ],
+        "sha": "913dd37f3062ea2227ca99f6cf15a5c7ba79cba2",
+        "timestamp": 1430235146
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "90a717b797fe954fc829638306855aec5dbcb109",
+        "timestamp": 1430237180
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "06193a486fe2acac7008697a95f9a0eb1c211180",
+        "timestamp": 1430287223
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "7e868d3486e2b6de183d657f8bff8696403dfc76",
+        "timestamp": 1430295899
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "04b31004a2d2f73b2ad0e7bbb0616c3c55a157a0",
+        "timestamp": 1430300089
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py",
+          "tox.ini"
+        ],
+        "sha": "ff8a3dc9dd0b0fec083a889ef3ebbf612462473c",
+        "timestamp": 1430300866
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "a1434344b6414ed0f63fd99a38084cecd4585afe",
+        "timestamp": 1430306751
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "8c976f69113db132d69827919342997ceccd5880",
+        "timestamp": 1430318275
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "56c422f3ff206720a94ea3397da8028ecc95bfeb",
+        "timestamp": 1430389845
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "8b7bebaadc5a26939e09353f4aaee4038b54fe9d",
+        "timestamp": 1430393241
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "19e06557f8461c9b66fca6867383ce2acde5bf03",
+        "timestamp": 1430393638
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "2dc02003fc404ecb315452ca9329b42a10eb7dc7",
+        "timestamp": 1430744880
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "e02fe00f7d9c37e546b313bfd76c8d41cbb9e4a7",
+        "timestamp": 1430831215
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "f128f0f2711067217a51bbde04654007d0b2cac6",
+        "timestamp": 1430854344
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "091de53181270cd75b3f835cf8bb4a63ff6445f0",
+        "timestamp": 1430861157
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "7fe9ec85cfc725bf5456fbd465a142c7bdb44afe",
+        "timestamp": 1430899077
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "532d2234e2debc0d70312009ad6b560635500732",
+        "timestamp": 1430916213
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py",
+          "tox.ini"
+        ],
+        "sha": "4c26c7a694cd02e71063266e1b3be124e1dce87a",
+        "timestamp": 1430988211
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "8cbcf03874b03f28f277108157fa0f8466fb7cb2",
+        "timestamp": 1430989071
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "475a38ee6a6692c8148f65357343aeda7663cdbc",
+        "timestamp": 1430989322
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "setup.py"
+        ],
+        "sha": "4ac1a992cdf065e9af3e0062a9c8a4955e80d4e9",
+        "timestamp": 1430991800
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "12863fcbab1167ff28c28fca731e82dd0a0bc2b0",
+        "timestamp": 1432812633
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "6d009de9befddd35d0fdce5548f3089886dda651",
+        "timestamp": 1441965576
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "d6f71fe0af62ad74efe6922592e81b3b403c283f",
+        "timestamp": 1442436642
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "setup.py",
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py",
+          "tox.ini"
+        ],
+        "sha": "e454c0806fca1ae573e1238bc742350b48de2c0f",
+        "timestamp": 1442479180
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "7d4c9cdccba2f55045a1a799f7c7763b1b32d8b8",
+        "timestamp": 1442479291
+      },
+      {
+        "files": [
+          "testing/test_pluggy.py",
+          "tox.ini"
+        ],
+        "sha": "60d81f25bf86c5fe39fc24f0d4cd5d7e5f63998b",
+        "timestamp": 1442488165
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "f8b0f34ade3d5dde87b599ed6baa0c4f3b5f559e",
+        "timestamp": 1442947314
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "2c3039021670c8ea53d81dd40983f285faaa03b9",
+        "timestamp": 1442948413
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "f714cb68e195eb834b83dd71bca934714dfcf844",
+        "timestamp": 1439160811
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py",
+          "tox.ini"
+        ],
+        "sha": "5a75b1e5b63e9fb7d58b276f6c1c493ee9b27829",
+        "timestamp": 1443403339
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f56164fc5d77e7df3157e4e7897a3f9988c8bf1d",
+        "timestamp": 1443551050
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "9dcb3a4ae65d70a17b9285bf9b86d2e9d21bd08e",
+        "timestamp": 1443946788
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e308975dba52af129424e615c4d8f75e6e5853d0",
+        "timestamp": 1445328883
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "e7baa82cc1601470da74b4fd04536fade163f32a",
+        "timestamp": 1457035444
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "src/pluggy/__init__.py",
+          "tox.ini"
+        ],
+        "sha": "ff5fd182f36d782c84213e9f19d88d31fbec6b77",
+        "timestamp": 1466846741
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "48ff0aaa919dc862555d4dc118051308d7710230",
+        "timestamp": 1469205817
+      },
+      {
+        "files": [
+          "testing/test_pluggy.py"
+        ],
+        "sha": "8786933fd8c623a729c5d039a48e5dd51fd138c1",
+        "timestamp": 1472255957
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "98792926207b43c554d155198be6812f2ea16343",
+        "timestamp": 1473670331
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "03c23feadd62c891849fb9848150529723e46fac",
+        "timestamp": 1474749994
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "d870c9d670b86e120ce62bcb1ec44e5c428f4759",
+        "timestamp": 1474750102
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "c4c7361ded0a1049490b5bc38ce443c28dbb4cd9",
+        "timestamp": 1474842055
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "477669819cea3f5f9248182fc36976c313a2be0b",
+        "timestamp": 1478854363
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "8623aa118c19656e78a7deb7280f79b6c6c471d4",
+        "timestamp": 1478858692
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "03d24b3cf19bcd74a996fb2f859a8112f7099f27",
+        "timestamp": 1478858703
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "04b0fda3ebebc5b8fca533fc0cf15addbadcc52f",
+        "timestamp": 1478859387
+      },
+      {
+        "files": [
+          "testing/test_pluggy.py"
+        ],
+        "sha": "6aaaf0eaca09c6402c09839fe762d8026f4ce89f",
+        "timestamp": 1478863089
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "src/pluggy/__init__.py",
+          "testing/test_pluggy.py"
+        ],
+        "sha": "df1f335a2c18a7a0ae801b1f21ff92557d5fd28e",
+        "timestamp": 1478863816
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "7102c74039f02cfb15a93e4c553695ef85a80acd",
+        "timestamp": 1478872320
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "CHANGELOG.rst",
+          "tox.ini"
+        ],
+        "sha": "420e9b35d52b377c81529eb28895f6312db21a5d",
+        "timestamp": 1478875145
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "cac9657c28c836eca845735da48bb0309534acfc",
+        "timestamp": 1478876810
+      },
+      {
+        "files": [
+          "docs/api_reference.rst",
+          "docs/conf.py",
+          "docs/index.rst",
+          "tox.ini"
+        ],
+        "sha": "2b015278ab85bee09d6d0eaad2fec3e6fbb09708",
+        "timestamp": 1479119333
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "86f3aa49dcac0a43330134feb2ab397488a086ed",
+        "timestamp": 1479145109
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "51825821f6e27024310483fbbf592c7700987357",
+        "timestamp": 1479461437
+      },
+      {
+        "files": [
+          "docs/calling.rst",
+          "docs/define.rst",
+          "docs/index.rst",
+          "docs/manage.rst"
+        ],
+        "sha": "4d7decb1f48aa9f8c09ab9f866cd8dca4ff34ecf",
+        "timestamp": 1486251719
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "9476b02a9a04e070f9176ecf1efc29774634803c",
+        "timestamp": 1485844796
+      },
+      {
+        "files": [
+          "docs/_static/img/plug.png",
+          "docs/conf.py"
+        ],
+        "sha": "04d7b295c59f7ac0d3d9f96e91d2e4eebecb7db0",
+        "timestamp": 1486319905
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "dfcbf3f4f78527fb73aaa7fd1aad3ba33393e7fe",
+        "timestamp": 1486320983
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_details.py",
+          "testing/test_helpers.py"
+        ],
+        "sha": "26ddfe43f78cf3264895cbb16f39dc4fded1445d",
+        "timestamp": 1487992760
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "4a2478ce825eada98aa55d773e2d3dc72483d110",
+        "timestamp": 1499227432
+      },
+      {
+        "files": [
+          "testing/benchmark.py"
+        ],
+        "sha": "6babb6e64e93ed74a72203fdc67955ae8ca3bfb3",
+        "timestamp": 1499227981
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "8dae27d3f0305397dc9ed5c7b5301945e1888408",
+        "timestamp": 1499405414
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "23060805668bee46c87a47470cfe8843c03a4d5c",
+        "timestamp": 1499405439
+      },
+      {
+        "files": [
+          "testing/benchmark.py"
+        ],
+        "sha": "4a8bf5cd22fce4c9e31b40d259ce0b201df5b73b",
+        "timestamp": 1499408943
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9faa0ba7baf5c0a8457c10ff1d23fdb264a6b512",
+        "timestamp": 1499415033
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "0278dee26634d508aa0fbb766fec7e0d3d143b82",
+        "timestamp": 1499447200
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9e63b56088b3176a09159ab3fdd4b4538d7fb8b3",
+        "timestamp": 1499465768
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "73741d7459c813bd20854435de7285ea6a4b99e3",
+        "timestamp": 1499465906
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "fb00c4e7619d5b75415a917871a607cdba4ffc16",
+        "timestamp": 1485915398
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "845c502532d4b9e2dca42bfc451df5f0e0d6383f",
+        "timestamp": 1499640213
+      },
+      {
+        "files": [
+          "testing/test_multicall.py"
+        ],
+        "sha": "09d75893ccab20ffea9528682575e7f2f1fcccd3",
+        "timestamp": 1499662547
+      },
+      {
+        "files": [
+          "testing/benchmark.py"
+        ],
+        "sha": "21fd6c4d681191b5399ed4bc57f69ba0455d4e67",
+        "timestamp": 1499663433
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "88f1b73fda287571df3d92e46ae0098793c5a2e9",
+        "timestamp": 1499795166
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_invocations.py"
+        ],
+        "sha": "7748ba01bb5acb9333bcafc442a04fda975143c6",
+        "timestamp": 1503509736
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py",
+          "testing/test_invocations.py"
+        ],
+        "sha": "20c352cb17debf4753135950740b80e3a956534e",
+        "timestamp": 1503586112
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "0f9f1ef47b1b6d98adae43b3b5fc8b75c70b413e",
+        "timestamp": 1503935616
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "b289c9e646245fddcd6e4cc897ea3466d9aa2c2d",
+        "timestamp": 1503965761
+      },
+      {
+        "files": [
+          "testing/test_invocations.py"
+        ],
+        "sha": "5ab312cc07408138e15b6b1f00ce45bf2d7e9319",
+        "timestamp": 1504015566
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py",
+          "testing/test_invocations.py"
+        ],
+        "sha": "f1a227086408437dd9e52350200bdabc8e6fe22f",
+        "timestamp": 1504015742
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "40ffe7244fd0535c66b244b62155dac52c5abb5a",
+        "timestamp": 1504022090
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "557cd3f0245347c1cd359c6deb4b25cde944e98a",
+        "timestamp": 1504025930
+      },
+      {
+        "files": [
+          "testing/test_invocations.py"
+        ],
+        "sha": "f087c1ee7415200428fd0cbe9b12b550da6e6172",
+        "timestamp": 1504118611
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "dc1d67d00c02cb7848a967a88a1d8260c4c88f15",
+        "timestamp": 1504118919
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "9c7246ffd8e9f366af9b30fa114a77e64a81bf11",
+        "timestamp": 1504124269
+      },
+      {
+        "files": [
+          "testing/test_invocations.py"
+        ],
+        "sha": "5c6846f0a9632015e99661515d40f0f523350573",
+        "timestamp": 1504126436
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "f0f254ad399de29bd4e54384fc8ab7d425aa7fd4",
+        "timestamp": 1504132265
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "672a98b4fce837957506e2b2ea4ea3e4ceefd5fd",
+        "timestamp": 1504136394
+      },
+      {
+        "files": [
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "dc6ae62f6f92d250a18a4dfc7a9b2bc9607bcb1d",
+        "timestamp": 1504137235
+      },
+      {
+        "files": [
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "bf3f0bab059abd1ce8078602603459987be86b2c",
+        "timestamp": 1504141625
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "tox.ini"
+        ],
+        "sha": "8ff2e9de3c9c814035992e1b754b3687449f8718",
+        "timestamp": 1504214380
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "0b79d02b4c7d66460cff2a98a0d033312bc11f93",
+        "timestamp": 1504303371
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "04a02571e41e04536a11dd5e46b12fb952712ec1",
+        "timestamp": 1504649755
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "2e1b5e902fbb4777ac2c9db1956d5f3f74011fb3",
+        "timestamp": 1504666555
+      },
+      {
+        "files": [
+          "testing/test_invocations.py"
+        ],
+        "sha": "84fb9ea33da186c24652a84e854960091927fcd6",
+        "timestamp": 1504753775
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "428ab8040d0abe21afed56c69aaec754cd37ab96",
+        "timestamp": 1504753815
+      },
+      {
+        "files": [
+          "docs/api_reference.rst",
+          "docs/index.rst",
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "4cfa3a574c63930c604bca4957233398c8928e76",
+        "timestamp": 1504756565
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "6cf1842808282d97fd23a0c24d37a1876d76c799",
+        "timestamp": 1504767208
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "fe2f64794bded114f54d6e32f2366227062d59d0",
+        "timestamp": 1504819215
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "eda95cae44b6cbee2bd91ba9b4a56f25e9b73bc7",
+        "timestamp": 1504841644
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "566271525879c2b4e1f5d273af924e355591ae65",
+        "timestamp": 1504843057
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py",
+          "testing/test_details.py"
+        ],
+        "sha": "8b9fd3a432d65f3b85066c21abe8af785315e5cf",
+        "timestamp": 1505249231
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "testing/test_hookcaller.py",
+          "testing/test_pluginmanager.py",
+          "tox.ini"
+        ],
+        "sha": "1f6dc215338747f596f6df664ef2f7cd500c658f",
+        "timestamp": 1505250947
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "0d5fd6a4119e5a3c8a2e54d7b9b87349835dd357",
+        "timestamp": 1505430214
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "dee4fd903b9fb8d43c08b4b7e1271f5f65c42b2d",
+        "timestamp": 1505883712
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "fa9c5aec4c8ae31356a2f3f8cdcf9982834b0ab4",
+        "timestamp": 1506030964
+      },
+      {
+        "files": [
+          "testing/test_multicall.py"
+        ],
+        "sha": "1ec0408cb9f6caca3ea4fbae896c7f6ed3dd6774",
+        "timestamp": 1506031291
+      },
+      {
+        "files": [
+          "testing/benchmark.py"
+        ],
+        "sha": "2f5109ac339353e7018711374843a4b5909d594a",
+        "timestamp": 1506094819
+      },
+      {
+        "files": [
+          "testing/benchmark.py"
+        ],
+        "sha": "7791b9c3ae22f76fcdd869a0db2426df14475a88",
+        "timestamp": 1506194277
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "tox.ini"
+        ],
+        "sha": "5758ba098b670604c94d709d507d51ceaf0d94e4",
+        "timestamp": 1509288540
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py",
+          "testing/test_invocations.py",
+          "testing/test_multicall.py",
+          "testing/test_pluginmanager.py",
+          "testing/test_tracer.py"
+        ],
+        "sha": "1b2a86ad7e901203a9b3df0d38fd58324b3122b8",
+        "timestamp": 1509290207
+      },
+      {
+        "files": [
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "8ce916192661de319295aaae8fa79a8775c3ba48",
+        "timestamp": 1510508952
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "f335bb559ec2eba9015a59202b86b14ce6d18838",
+        "timestamp": 1510603631
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "550f4b24b60c4b71ec0f85dbf7850049b9a08812",
+        "timestamp": 1511025011
+      },
+      {
+        "files": [
+          "testing/test_multicall.py"
+        ],
+        "sha": "19055e53471c7a34a91be8267d766f7e4a9d4c83",
+        "timestamp": 1511028961
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "setup.py",
+          "src/pluggy/__init__.py",
+          "tox.ini"
+        ],
+        "sha": "6fdb034a61d27848d2b4c7298fcb8cc815eeaca2",
+        "timestamp": 1511209312
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "3a8bb9929d9abf6d56ab9914b52344d22b50d3b8",
+        "timestamp": 1511212843
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "CHANGELOG.rst",
+          "setup.py"
+        ],
+        "sha": "1732d7579005806db3a09899115092d5fddec926",
+        "timestamp": 1511246595
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5eb3346b146684c02fba0dcb02825adab1678e01",
+        "timestamp": 1511479077
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "9a2430ffebf5394c333c7c28354ca5368aa2a411",
+        "timestamp": 1511506239
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "f8c6e8e043b23821004c4c1ee56f5ec170566635",
+        "timestamp": 1511536278
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "843d4b93e3d3fb41de66911792640dbd8d59ba8e",
+        "timestamp": 1511540989
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "e587897dcc0766e801acc1fdaad8148edfcb5cf8",
+        "timestamp": 1515088112
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "a8ae202fb240c4e2156d0247b4cc61ea56155020",
+        "timestamp": 1515091621
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "9cbd220e4774558e45efa0e121e3c1538764a207",
+        "timestamp": 1515096241
+      },
+      {
+        "files": [
+          "docs/api_reference.rst",
+          "docs/index.rst"
+        ],
+        "sha": "316cc6a8c22d1ef4a6c6232986431d2f5a61b404",
+        "timestamp": 1515300273
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_tracing.py",
+          "testing/test_tracer.py"
+        ],
+        "sha": "d2e19a4f9f72d48d5eb724acc4d4177e0b4ca74f",
+        "timestamp": 1510848759
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "8984e86069a6aa82a1900e07569913f11ac4fc8e",
+        "timestamp": 1515296260
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "3f1eda532d0914fa6ffc7c165ce1239ef6a3824b",
+        "timestamp": 1515297740
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "dfedf4a6ca2d7165b45dbdab643371fee2215365",
+        "timestamp": 1515299118
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py",
+          "src/pluggy/_tracing.py"
+        ],
+        "sha": "bfc2ae35973e54ec32fec95aa05772ecf90acb64",
+        "timestamp": 1515299453
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "2100bbf5c5dccb0d83a711649fd6e762f1e89596",
+        "timestamp": 1515360704
+      },
+      {
+        "files": [
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "cc223378a19ecb040a5a80521fed4fd8d08cfb99",
+        "timestamp": 1515562801
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "dcde058f93a509b9c39409fca02100e43bb43485",
+        "timestamp": 1515564505
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "54248d5a72ad30b2c4257ea32595241ccc6139b3",
+        "timestamp": 1517377080
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "6486ee8811c13b8563d1fb47421200f082d3ec28",
+        "timestamp": 1517420448
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/index.rst"
+        ],
+        "sha": "91e38d286fe538bbd5eb85743d8ab8be7a8413bd",
+        "timestamp": 1520465483
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "6334e37c41af672ed26a65c06d657cc2e6579db4",
+        "timestamp": 1520977711
+      },
+      {
+        "files": [
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "2a2c97193ee0e5f75e6edb56b8f3c99100186f61",
+        "timestamp": 1521440195
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "140d6b54a271d47f829cf7206074fdd3e533cfdd",
+        "timestamp": 1521685456
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "fcdc245333f90e14790b285a05bd5a418ec40f1b",
+        "timestamp": 1523898132
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "26f8a94d37f528ae8eeb7a8d48c7604e3e026ecc",
+        "timestamp": 1523919732
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "2f6831b0b021fd83d5c6e8b5aa695420b33d9dcb",
+        "timestamp": 1523920403
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "0381424c150fe4fc842cdf4a40c926b3b29ffed3",
+        "timestamp": 1523920507
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "5b77f41f12b5132a2953cbf90d8775292e6d05be",
+        "timestamp": 1523921328
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "b59e917135fa7fd6257a913662bebdf641455ff8",
+        "timestamp": 1523990738
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "e51039deb2dfc06d87bfaeefebeb918ab54261ab",
+        "timestamp": 1523991259
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "a58b8b0fba6817353c64f5ab1a1f06acccc82811",
+        "timestamp": 1524058565
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "testing/test_details.py"
+        ],
+        "sha": "a400a2cb9f9f7cac5a936d540c42abdc95348290",
+        "timestamp": 1524130234
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "56e6ce01eee2d0809b98a3897311db9f4afae5aa",
+        "timestamp": 1524343218
+      },
+      {
+        "files": [
+          ".gitignore",
+          "setup.py",
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "8029ab004ddd7e863980419d1adeacb9b819d437",
+        "timestamp": 1524343504
+      },
+      {
+        "files": [
+          "RELEASING.rst"
+        ],
+        "sha": "9f4f954bb28f54784f96432900473bb38dab3a38",
+        "timestamp": 1524345177
+      },
+      {
+        "files": [
+          "docs/examples/toy-example.py"
+        ],
+        "sha": "2b3933998096e0d3af9044a8b626fac2ddad42dd",
+        "timestamp": 1524412261
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "ffe2caad9f6caa9627904d072d3955ff2c28891e",
+        "timestamp": 1524435191
+      },
+      {
+        "files": [
+          "docs/examples/eggsample-spam/eggsample_spam.py",
+          "docs/examples/eggsample/eggsample/__init__.py",
+          "docs/examples/eggsample/eggsample/host.py",
+          "docs/index.rst"
+        ],
+        "sha": "c2286a9ce6665b287da94ea7e48504e65ff62298",
+        "timestamp": 1524520619
+      },
+      {
+        "files": [
+          "docs/examples/eggsample/eggsample/host.py"
+        ],
+        "sha": "d2baceeeaf9369be92122dd666bca2790bbe6163",
+        "timestamp": 1524520752
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "115f1fca638d04cc00b8186a991e8abd589f785b",
+        "timestamp": 1524749457
+      },
+      {
+        "files": [
+          "docs/examples/eggsample-spam/eggsample_spam.py",
+          "docs/examples/eggsample/eggsample/host.py",
+          "docs/examples/eggsample/eggsample/lib.py",
+          "docs/index.rst"
+        ],
+        "sha": "653a1e9bedb83db0a1c878093d3671226cc2a613",
+        "timestamp": 1526243389
+      },
+      {
+        "files": [
+          "docs/examples/eggsample-spam/eggsample_spam.py",
+          "docs/examples/eggsample/eggsample/hookspecs.py",
+          "docs/examples/eggsample/eggsample/host.py",
+          "docs/examples/eggsample/eggsample/lib.py",
+          "docs/index.rst"
+        ],
+        "sha": "e84fdfa07a07290afd9fcd62052f6f4a6f4d9eec",
+        "timestamp": 1526375650
+      },
+      {
+        "files": [
+          "docs/examples/eggsample-spam/eggsample_spam.py",
+          "docs/examples/eggsample/eggsample/hookspecs.py",
+          "docs/examples/eggsample/eggsample/host.py",
+          "docs/examples/eggsample/eggsample/lib.py",
+          "docs/index.rst"
+        ],
+        "sha": "a20a6670c1b9288e199b6959566c4969728ee474",
+        "timestamp": 1526378596
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "645cef35875373c9ba07aece00a9004f2c5a6f98",
+        "timestamp": 1526597395
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c5a50d6c046093afa29ab1facc8fbb000ddeda03",
+        "timestamp": 1526597495
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "e54fc41595a01170b314fa172e675135518dda2a",
+        "timestamp": 1526599610
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "f47d9d6f1efc6c771fd1784bbbf15ff2e14da19f",
+        "timestamp": 1526599694
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "eed63e0f09f7c478af84a209afc7b709aca86372",
+        "timestamp": 1526603182
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "6b296c23f9704a702cdb910535efd5300f64c8ed",
+        "timestamp": 1526600943
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "0faf6cb6699dddf520ce36beff2873b1e6be470d",
+        "timestamp": 1526657502
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "49968c25c9afe42778026a745ed0af8e9ea3c52c",
+        "timestamp": 1526602703
+      },
+      {
+        "files": [
+          "testing/test_details.py"
+        ],
+        "sha": "39f2136ee85857599bee46526381399587aad90f",
+        "timestamp": 1526602752
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "77578ad5721957cbbec195415456f6c26a7ad161",
+        "timestamp": 1527002154
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py",
+          "testing/test_invocations.py"
+        ],
+        "sha": "4c19d8da3ddca373e4bff8274002d6d173f89870",
+        "timestamp": 1527024655
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py",
+          "testing/test_invocations.py"
+        ],
+        "sha": "32a02876aba75104129861472fb0efd733149f48",
+        "timestamp": 1527026315
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "b093f9eec0183172bf2b9b484d60a9cd3bb115ae",
+        "timestamp": 1527026981
+      },
+      {
+        "files": [
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "8573118599004b0f1d3d4038e6e5ad344c9a64e6",
+        "timestamp": 1527027479
+      },
+      {
+        "files": [
+          "testing/test_deprecations.py",
+          "testing/test_details.py",
+          "testing/test_hookcaller.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "dbda5aa8848170c19192d11998245316efc47772",
+        "timestamp": 1527028282
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "f05da839678839583d6c0b2261f2e40d3f996001",
+        "timestamp": 1530461932
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_details.py"
+        ],
+        "sha": "df14939f50b8d0e84974c1d28bb3a6822a92f8b0",
+        "timestamp": 1530472668
+      },
+      {
+        "files": [
+          "changelog/_template.rst"
+        ],
+        "sha": "7161f978567d1df7ba02c1f29c65c24273f40a23",
+        "timestamp": 1532311715
+      },
+      {
+        "files": [
+          "changelog/131.trivial.rst",
+          "changelog/66.trivial.rst"
+        ],
+        "sha": "b22cf1c244cdc619005f7ec4e98f442a97a176ae",
+        "timestamp": 1532654615
+      },
+      {
+        "files": [
+          "scripts/release.py"
+        ],
+        "sha": "b607b015329d3fc03f0bf5eacc604f436ddb4aec",
+        "timestamp": 1532655021
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9555f4fd5618f14b4740db5c3b673d10afeb6041",
+        "timestamp": 1532691266
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "d0441594834270afda82475137bfe78133022064",
+        "timestamp": 1532694295
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "53af86d380ed651cbc2995c02ae15bedcb20b819",
+        "timestamp": 1532694631
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8b95e0ff3640ee8331b35000c2c9309b7ed3b136",
+        "timestamp": 1532695063
+      },
+      {
+        "files": [
+          "changelog/160.bugfix.rst",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "72e4c2597e705618427a8c9ec35b4f0c1455ffb1",
+        "timestamp": 1532712856
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/160.bugfix.rst"
+        ],
+        "sha": "9b48efb3f9a379d103c3c17d1d05a557896f1b26",
+        "timestamp": 1532794065
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "5d37d7a3510eb680c570369b8439905a0c72968a",
+        "timestamp": 1532913442
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "docs/index.rst",
+          "setup.py"
+        ],
+        "sha": "a07b42492943f83ca96557b68445f3e2ca940e04",
+        "timestamp": 1533255743
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "tox.ini"
+        ],
+        "sha": "e413c70d0180ec7b02ffa43cd7f552b9b6cfd269",
+        "timestamp": 1533258278
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "851a02d5af0cd4387948b2e9501debe36789f535",
+        "timestamp": 1533258351
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2e87aefb6e322a1a83fd8f6a4eb06dd3a9fb4f6c",
+        "timestamp": 1533258401
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "98ae1986252970530ea304a93c93c98ae9c690b0",
+        "timestamp": 1533258466
+      },
+      {
+        "files": [
+          "LICENSE",
+          "RELEASING.rst"
+        ],
+        "sha": "9940cf2a4ad148ba8eb0b575b96389674b700e9a",
+        "timestamp": 1533258812
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "96543a53944687842012ec2b3f0f52410125e1fe",
+        "timestamp": 1533734015
+      },
+      {
+        "files": [
+          "changelog/172.trivial.rst",
+          "testing/test_invocations.py"
+        ],
+        "sha": "429c5fc05263aa2d027d7451852dc8766441859c",
+        "timestamp": 1533733026
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "testing/benchmark.py",
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "894b5e2599f0800ec48cb36cd9a36ae40d7461bb",
+        "timestamp": 1499468118
+      },
+      {
+        "files": [
+          "changelog/57.trivial.rst"
+        ],
+        "sha": "c967e91814e70839029e0739e5150487ef4fdd3b",
+        "timestamp": 1534695653
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "bcd551d76d6d9db0a3fba80ce7dfdbb35f4ec1e7",
+        "timestamp": 1537058663
+      },
+      {
+        "files": [
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "5e1ee9552f8d386a9a677f959c15cba858e9084e",
+        "timestamp": 1537059308
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "17783a5504ca1ff619c5d7b0222ad4002829c4b6",
+        "timestamp": 1537059426
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "163ff505cd8c69810d287708b6e248bab3249993",
+        "timestamp": 1537100818
+      },
+      {
+        "files": [
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "ca0d07136e21370cf04cfea84682c8e4c226a083",
+        "timestamp": 1537101202
+      },
+      {
+        "files": [
+          "changelog/177.feature.rst",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "e1fcf6041e63fe8635d798488c338a04fa0d7c85",
+        "timestamp": 1538260558
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "c85f15449c4ebe188e693d01cdfddbc999f5386f",
+        "timestamp": 1538261198
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "21dec08835384fcbc8359fe2c83c4cd966e60fd2",
+        "timestamp": 1538261358
+      },
+      {
+        "files": [
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "a5c17ec664367debcb21abbbfd29877937782d29",
+        "timestamp": 1538320648
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f0d6f87a2ad6d8fd65de962f998e907b39e189b1",
+        "timestamp": 1538321088
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/165.trivial.rst",
+          "changelog/172.trivial.rst",
+          "changelog/177.feature.rst",
+          "changelog/57.trivial.rst"
+        ],
+        "sha": "758fd7cc04dc894f53f7707ffdf9bb4b3e54654d",
+        "timestamp": 1539603820
+      },
+      {
+        "files": [
+          "changelog/166.trivial.rst",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "bee289c9b8685561f4aaee0b6f34be3863640a59",
+        "timestamp": 1539668155
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3e21bfea86ab894688ac1377d0eb31bbc8b26069",
+        "timestamp": 1539691678
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/166.trivial.rst"
+        ],
+        "sha": "317e99212f99d50edd052e08fa02717095546d35",
+        "timestamp": 1541760936
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "a2939c044b64b9445fab85fcc02a66b237c035e4",
+        "timestamp": 1546405919
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "666bb4b9a939eaff12324417cf269254f0347cb9",
+        "timestamp": 1548677108
+      },
+      {
+        "files": [
+          "changelog/189.feature.rst",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "1d6b381d0556b1efb5f7aadece2cb5c8bfae74c8",
+        "timestamp": 1549582053
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "893b546aabfd5c4512c635df0ac52d56c5014075",
+        "timestamp": 1549664310
+      },
+      {
+        "files": [
+          "changelog/187.bugfix.rst",
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "0e0f0544b44f2495878f30196f7fb71776a6ae31",
+        "timestamp": 1549668938
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/187.bugfix.rst",
+          "changelog/189.feature.rst"
+        ],
+        "sha": "b6a6c721a6317725ea055dbb85c234f51abed988",
+        "timestamp": 1550788026
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f32dee0d406a304c1fe1fa0440ff67c94f3cd9e0",
+        "timestamp": 1551022077
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "1874468e21c3a14feb594c9f71ab52b331410609",
+        "timestamp": 1551354304
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "086784741b5f6ea5b7fec1e48513939e3335bf4d",
+        "timestamp": 1551354435
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "52c98abcf625382c16e16ecd3ae7118e6bf2ee14",
+        "timestamp": 1551435652
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "ee26b8d62840f309e791bd4224fd6c796f678584",
+        "timestamp": 1551887088
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "70cb0264338cee72fd799c0b9b413226a3e8b974",
+        "timestamp": 1553353980
+      },
+      {
+        "files": [
+          ".coveragerc",
+          ".travis.yml",
+          "README.rst",
+          "tox.ini"
+        ],
+        "sha": "e0ad9554751117fc15e2417af44254810304d729",
+        "timestamp": 1553353269
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "e654da40944befda1b211ced26570f11e7b4819e",
+        "timestamp": 1553354000
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "4223913f11d986dba7edfb9665979b122cef5d18",
+        "timestamp": 1553354072
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "29c1a969d97a2865df64a0dcd6224e64803900a5",
+        "timestamp": 1553354108
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "setup.py",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "9550fc30e06bf7037e7747356e58bc53d1d6e33b",
+        "timestamp": 1554596893
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "491cefe68887eb190348b29556cfc0a42a692c08",
+        "timestamp": 1554670052
+      },
+      {
+        "files": [
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "e3875879865100e86cad88050e63f4f0df9671a7",
+        "timestamp": 1555801735
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "66b2a1308af3ce16081ae95c61f8d35371f3e264",
+        "timestamp": 1555801859
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "f282a42a22aee250b09c3e6be91a2faae2253858",
+        "timestamp": 1555807030
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "0706fbaa708a532d5ad1533b29cad5fe92d8e061",
+        "timestamp": 1555808533
+      },
+      {
+        "files": [
+          "changelog/199.feature.rst"
+        ],
+        "sha": "b1d68ba0cf57af3a34ef72b6ea44ba5fa30d8e44",
+        "timestamp": 1557151946
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "f1f2e3c7bd1b0bf66ed06b195b28d2a90f606e2f",
+        "timestamp": 1557152707
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/199.feature.rst"
+        ],
+        "sha": "97262e812c67cbf19b117cfedf04e9ca18135f3a",
+        "timestamp": 1557187239
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "6469325373924033718ca9efb2f9c0ef73898f3c",
+        "timestamp": 1557231517
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "setup.py",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "45b64240dc02349b757b4e63a487af80b021983d",
+        "timestamp": 1557240564
+      },
+      {
+        "files": [
+          "changelog/205.bugfix.rst"
+        ],
+        "sha": "2b06ab4d962d9ccfc80358c26670e42a30172f56",
+        "timestamp": 1557241115
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/205.bugfix.rst"
+        ],
+        "sha": "e85335cbb0ee86436b5276d046b4fa039bfae922",
+        "timestamp": 1557242679
+      },
+      {
+        "files": [
+          "scripts/release.py"
+        ],
+        "sha": "e28defcbcf73b6ddb1c8a16228a9bfe87acb98a2",
+        "timestamp": 1557242610
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_callers.py",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "src/pluggy/_tracing.py"
+        ],
+        "sha": "b46ac5f7a3c26de44b5e6bef117a1b5f2217c96d",
+        "timestamp": 1557247257
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pyproject.toml",
+          "setup.py"
+        ],
+        "sha": "c86cc29a799ccd0c9633fde33a8132bf2229f6e0",
+        "timestamp": 1557188864
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "ec28f027180961cdf86b21c8433d3b2f4c41af13",
+        "timestamp": 1557747823
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml"
+        ],
+        "sha": "04ef19308ecd2df532746fb35bce691b9d3278c5",
+        "timestamp": 1557832778
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml"
+        ],
+        "sha": "6504cb358a2556d3cef0cf33e9d8803b8e125d11",
+        "timestamp": 1557834067
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "62f28acac8d1249e5b907c16256594b5a6697474",
+        "timestamp": 1557849069
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "68e56e553d69228e25ffab54d2bcc234433c3069",
+        "timestamp": 1557850819
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "0a7fec29cf7ba0e70868196ab9306e5a698da6be",
+        "timestamp": 1557867714
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "2008a3d5d164f745fb0d9550d3576dce6bf6c59f",
+        "timestamp": 1557867757
+      },
+      {
+        "files": [
+          "changelog/209.trivial.rst"
+        ],
+        "sha": "39c6247294029447045f97d91d5a1a2af9be92ce",
+        "timestamp": 1557867964
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_helpers.py"
+        ],
+        "sha": "bebd02418f67d7a0f01ab27b9cfe7d0d7650faa9",
+        "timestamp": 1558007731
+      },
+      {
+        "files": [
+          "changelog/209.trivial.rst",
+          "setup.py",
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "4e728aa40aeae69c763499333a79e3e35aa92395",
+        "timestamp": 1558624782
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "setup.py",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "b0f3b6d616fbb5235ad5f9757b712173c4ace45e",
+        "timestamp": 1558823013
+      },
+      {
+        "files": [
+          "changelog/215.feature.rst",
+          "setup.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "94ab205d2179bcf223b470ca4413587d18854bb5",
+        "timestamp": 1558823237
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/215.feature.rst"
+        ],
+        "sha": "a878c473a66c2574615d943d78e3af67fe995169",
+        "timestamp": 1558982646
+      },
+      {
+        "files": [
+          "changelog/222.trivial.rst",
+          "docs/conf.py",
+          "setup.py",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "c66077d8c017c2728517be74701ebf06859c980d",
+        "timestamp": 1562107864
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "763b661fc15c04f85bcf6b501280641b88041d0a",
+        "timestamp": 1562108561
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "tox.ini"
+        ],
+        "sha": "1bf30d695d13c656015eaf0b29d9445d3788da68",
+        "timestamp": 1562108966
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "b2ffeb99627f1bdd18330fcde8451d33cdd683eb",
+        "timestamp": 1563535028
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "92c31e159be23fad79ea074ad815f49b3f4d17a1",
+        "timestamp": 1563736610
+      },
+      {
+        "files": [
+          "testing/test_multicall.py"
+        ],
+        "sha": "0194e630c6b115595c0c99d0a7f3b900a4974327",
+        "timestamp": 1563659692
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "95dd65f538236395efb06109a2f1525ec689629b",
+        "timestamp": 1563735205
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py",
+          "src/pluggy/_tracing.py"
+        ],
+        "sha": "69c3255f7e57af33ac916e24656365f1b912b616",
+        "timestamp": 1564084177
+      },
+      {
+        "files": [
+          "src/pluggy/_tracing.py",
+          "testing/test_tracer.py"
+        ],
+        "sha": "92e72be06e7a472d7cf529056ec47e3433bf6c3d",
+        "timestamp": 1564086200
+      },
+      {
+        "files": [
+          "src/pluggy/_tracing.py",
+          "testing/test_tracer.py"
+        ],
+        "sha": "a05bdd56e19085bbb48dc9e8cb8c56df26e81fe7",
+        "timestamp": 1564134306
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "1f8fdd861ccc004421824b7626fb8172021bc61a",
+        "timestamp": 1564134735
+      },
+      {
+        "files": [
+          "src/pluggy/_tracing.py"
+        ],
+        "sha": "f0535d2683710e056b6c512f3decbcab0ada5108",
+        "timestamp": 1564135485
+      },
+      {
+        "files": [
+          "src/pluggy/_tracing.py"
+        ],
+        "sha": "1be7c25235f8e336d68945f17fe1345d1d0aa6cc",
+        "timestamp": 1564135585
+      },
+      {
+        "files": [
+          "src/pluggy/_tracing.py",
+          "testing/test_tracer.py"
+        ],
+        "sha": "8900b4c09ed0ea31c448d900800d58be3ea47477",
+        "timestamp": 1566044783
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "tox.ini"
+        ],
+        "sha": "2ef00909176fe6776e42eabb2dccabe4e5a8f4d3",
+        "timestamp": 1566276863
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "12133da6cbb2956f9730caedfcf13ca025e45f48",
+        "timestamp": 1566276927
+      },
+      {
+        "files": [
+          "src/pluggy/_tracing.py"
+        ],
+        "sha": "4497278ec224c8a1eaddc3c2686f92ed2a58db38",
+        "timestamp": 1567106051
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4d546fe47975bab99927b5e3bd0bb2c61300ee35",
+        "timestamp": 1567122782
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "c8872e2b2391926954b48a1329bda8fb091e0723",
+        "timestamp": 1567494965
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/222.trivial.rst"
+        ],
+        "sha": "93a6b837696f5da053dc3be33610679e649fa8c5",
+        "timestamp": 1568132617
+      },
+      {
+        "files": [
+          "docs/api_reference.rst",
+          "docs/conf.py",
+          "docs/index.rst"
+        ],
+        "sha": "7f5213ea9a179dc1c925eb449434cdc1faa1312f",
+        "timestamp": 1568579380
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "ca1ddebd3be40525ff800bdd6ec8d224ae4dea1c",
+        "timestamp": 1568581299
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "0e57e28df218596612ae52f046ce5ffa74b2d24a",
+        "timestamp": 1571261878
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "d5b871dee32c13d91decd7bddd69bb26730517d0",
+        "timestamp": 1571261997
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "39a6d690312c505eea06986c61339f972da36368",
+        "timestamp": 1574302563
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "742f4705fbe3d42c755a3e5bb3ba176abd1f5caa",
+        "timestamp": 1574302575
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "b1b07a309653a42a5311810f71d0addd09a4ec81",
+        "timestamp": 1574302817
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c07892101de6a73e53e54c8ba355d16f1c7cf74d",
+        "timestamp": 1578798777
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "97b36c94b4fd8f2b377b6ae31fa46933ac0be946",
+        "timestamp": 1578794621
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "bc9ae10b7fa1d9507c3f5cdd17614e67cb265fc7",
+        "timestamp": 1578798604
+      },
+      {
+        "files": [
+          "codecov.yml"
+        ],
+        "sha": "87b454eafc762682bdff36278bb359f76fcabf59",
+        "timestamp": 1578799280
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "72af209b601f1c56d44d34ce69cc3148361b26fe",
+        "timestamp": 1578799359
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "9fddd543a093ad49b25354e4a07e1a0171742cc4",
+        "timestamp": 1580084644
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "372fc9251817e12ee6054f6575198c0c8c145e6a",
+        "timestamp": 1580084794
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "a568a9fe545df0c7e5310bf1fd7dd70f19ca7a30",
+        "timestamp": 1580085113
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "a3b11f74b4e55a2c8d171646a608756a6a551b36",
+        "timestamp": 1580086086
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "a10dbae8ffd427f56cc0e1f4445615a1814d6baf",
+        "timestamp": 1580129924
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "fc608edd6f3d29e3b44d63b7bb0b9ec8168391fb",
+        "timestamp": 1580146147
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "306639844ef9bc12f6519aa71413242ba2f81d56",
+        "timestamp": 1580906355
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "64ec41f45bc885508e98ef51be6c6c45ce42bd35",
+        "timestamp": 1580906377
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "a57f279592c32b291a523c1d14defc3eeda08c8a",
+        "timestamp": 1580907045
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "ef768f28d572b83e068adfd3789183c712291042",
+        "timestamp": 1580907338
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "dbb1c44495f01568b7a572fc7eb1ae866c75991f",
+        "timestamp": 1580924086
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "e37c8d0c4e6609d58b5b0875a4d431613cd21636",
+        "timestamp": 1580924565
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "dfe89258774fb275bf008d1072c0db1d1c1c0f6b",
+        "timestamp": 1581040802
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "4cdc6e0b65cbe8cd4c64d3eba723eeebf4196cad",
+        "timestamp": 1581042982
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "tox.ini"
+        ],
+        "sha": "30a2f7c691c32e7ceb29ce52063773c21d3a2a0e",
+        "timestamp": 1585894741
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py",
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "b267687f4a16a1938286748ac24b03ddcfed9f25",
+        "timestamp": 1526606934
+      },
+      {
+        "files": [
+          "testing/benchmark.py",
+          "testing/test_multicall.py"
+        ],
+        "sha": "d59403bf817f015ec24af96eaffacbdf6ac0b475",
+        "timestamp": 1526607088
+      },
+      {
+        "files": [
+          "testing/benchmark.py"
+        ],
+        "sha": "accb6d66b349b374d6b9f817f9ad33fc4c792859",
+        "timestamp": 1591201091
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "62dae61b7cdd3c28d83ed0964f0d68ed8fcd92fa",
+        "timestamp": 1591204162
+      },
+      {
+        "files": [
+          "testing/test_deprecations.py"
+        ],
+        "sha": "74cde77bfca8ecb237594f432607bb8b36363a87",
+        "timestamp": 1591204194
+      },
+      {
+        "files": [
+          "docs/examples/eggsample-spam/eggsample_spam.py",
+          "scripts/release.py"
+        ],
+        "sha": "95bbf5ebe9662f826dee9130a5b0271287f96d06",
+        "timestamp": 1591204765
+      },
+      {
+        "files": [
+          "changelog/59.removal.rst"
+        ],
+        "sha": "b39f37305f9f17529791bf240b5b6c7b3808449a",
+        "timestamp": 1591206014
+      },
+      {
+        "files": [
+          "testing/benchmark.py"
+        ],
+        "sha": "72948afada60cd9d6474b4631fabb864731de578",
+        "timestamp": 1591214712
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "bcbcdc072c91d7149181a8a36329860becbfd746",
+        "timestamp": 1591218396
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "c4e5971df7d7a399b0ce8c77302f483601b96af4",
+        "timestamp": 1591290033
+      },
+      {
+        "files": [
+          "src/pluggy/_result.py"
+        ],
+        "sha": "393309ed43fbf852a698fe7dcd763d282a761590",
+        "timestamp": 1591299177
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "a8afb703465444139de68f568ffc603521c6d2d6",
+        "timestamp": 1591299891
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "changelog/267.removal.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "505aa8de63d078142e94a06432a3063051c2c28b",
+        "timestamp": 1591339896
+      },
+      {
+        "files": [
+          "changelog/265.removal.rst",
+          "src/pluggy/_result.py",
+          "testing/test_deprecations.py"
+        ],
+        "sha": "de2669fae04ba83b5206620e2a6518df145af7d0",
+        "timestamp": 1591286367
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "tox.ini"
+        ],
+        "sha": "0e020634ab51375740d171b7ea9194b94c00e2fb",
+        "timestamp": 1591287523
+      },
+      {
+        "files": [
+          "changelog/116.removal.rst",
+          "src/pluggy/_manager.py",
+          "testing/test_deprecations.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "d19c9bf89fe176c00756a3f9a97c67b1e4a6c2ba",
+        "timestamp": 1591341196
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          ".travis.yml"
+        ],
+        "sha": "8936b0fc3fa29660fc060e46b30aa7b163558997",
+        "timestamp": 1591481828
+      },
+      {
+        "files": [
+          "src/pluggy/_result.py"
+        ],
+        "sha": "1507ec488f7ff395510434ed934666bcf085a8d4",
+        "timestamp": 1591481893
+      },
+      {
+        "files": [
+          "changelog/120.removal.rst",
+          "src/pluggy/_hooks.py",
+          "testing/test_deprecations.py"
+        ],
+        "sha": "673ab430c4f51174d805d29d21da7f8b61dc1aa5",
+        "timestamp": 1591549951
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "9f2678a248a0a0e3305b0cf5924eb74a3cec620d",
+        "timestamp": 1591550314
+      },
+      {
+        "files": [
+          "changelog/120.removal.rst"
+        ],
+        "sha": "8e8e50e98a68aedcf9dd84b2f3a16a0d07fbf13c",
+        "timestamp": 1591596714
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "3efa95f9757f680d9ab983de15aab49df9ce7019",
+        "timestamp": 1591782069
+      },
+      {
+        "files": [
+          "README.rst",
+          "appveyor.yml"
+        ],
+        "sha": "7f64a7767c29b0ae3284d137e4f0df2aa2ececd3",
+        "timestamp": 1591426807
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "8e6412772f53167d049b0c8d9571208e243ce93d",
+        "timestamp": 1593168210
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "6011c43de0a1ba729e950f066a44ea8932cecb05",
+        "timestamp": 1593169113
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "0999f64a8c2ab7c7d968ab2e8c8849629a6d891c",
+        "timestamp": 1593170881
+      },
+      {
+        "files": [
+          "src/pluggy/_result.py"
+        ],
+        "sha": "f203602b5c5e901f54895c1872becf0b48438628",
+        "timestamp": 1593176593
+      },
+      {
+        "files": [
+          "testing/test_details.py"
+        ],
+        "sha": "5a5cf4e577b7fa4b12c26d5e707a240db8e0a25e",
+        "timestamp": 1593171789
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "d176cfab34de3499329e4ab20b1a6237a030a56f",
+        "timestamp": 1593172489
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "98f1b58bf3650e529373dbcc203fcca9619637ec",
+        "timestamp": 1593434973
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "bc79719ebbdf14d0a1b637b91418438d146539fe",
+        "timestamp": 1593434975
+      },
+      {
+        "files": [
+          "testing/benchmark.py"
+        ],
+        "sha": "d22672d954866276e04c8a6e4d3a4ba822604314",
+        "timestamp": 1593434976
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "testing/benchmark.py",
+          "testing/test_multicall.py"
+        ],
+        "sha": "0aa2462ebd8639fe888a7a632b2f16727c2702b3",
+        "timestamp": 1593434977
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "a100acfdb971c616e04bb9b350058ba898bcf120",
+        "timestamp": 1616858506
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "61712f89f47248a9a009f8465c90c545ae8a9779",
+        "timestamp": 1617366756
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "3e9ff3e98074de28ad0a7c3acf182d257194c09d",
+        "timestamp": 1617366961
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          ".travis.yml",
+          "README.rst",
+          "docs/conf.py",
+          "scripts/upload-coverage.sh"
+        ],
+        "sha": "96c99518a396f0f264e2815f096ed77da15ca98e",
+        "timestamp": 1617367684
+      },
+      {
+        "files": [
+          "changelog/282.feature.rst",
+          "src/pluggy/_manager.py",
+          "testing/test_details.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "204737edf0226eed9b865883ce2e983b7708e1c1",
+        "timestamp": 1593499827
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "changelog/308.removal.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "3f51f2ab0e42192777ca0e0d8111620243ad98b7",
+        "timestamp": 1628510680
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "changelog/309.feature.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "c5e0a829b164eb59eb485a1275319cb6d73db792",
+        "timestamp": 1628510850
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "9f38f39fe21c2bccb38ce20642af3058db7b8df6",
+        "timestamp": 1628511889
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "8f79f665549373035923c4d8488c09c74d2bc6e9",
+        "timestamp": 1628512215
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "8cea267099a1979d962f6b91bb60a22b13292bc5",
+        "timestamp": 1628514482
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "ff3a5e06ced16240c53b2d32cdc2f254bb5d862b",
+        "timestamp": 1628525924
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "2e562d44c5fbee4853448fb0d9b06d2d9a4417d7",
+        "timestamp": 1628846325
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "569aaf32a708f6f1c90835c1603ec34a2e2abdde",
+        "timestamp": 1628955588
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "05c3bbd07c7186d3c124f1009aa6c8999ba70c2c",
+        "timestamp": 1629122756
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "testing/benchmark.py"
+        ],
+        "sha": "1424ab0a6a54a878b171c806a39c79d54817c531",
+        "timestamp": 1629125763
+      },
+      {
+        "files": [
+          "scripts/release.py"
+        ],
+        "sha": "fc6395ca27d5deb008db250da57a23dd40bc93a4",
+        "timestamp": 1629903966
+      },
+      {
+        "files": [
+          "RELEASING.rst"
+        ],
+        "sha": "56eb23c89aa0a43fa7b139894fbf6142684c2969",
+        "timestamp": 1629903994
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "4259fdd799d64f953631e47ddcb69c3074a15c13",
+        "timestamp": 1629904249
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "23c7dab262cad824986319248ac5558ee2176db4",
+        "timestamp": 1630006012
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "ec55412ecbf9f22ec140b0989a95f9fe264d5497",
+        "timestamp": 1630526307
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "140f77bf379d7dacafd5d7b7e6ed8334b0d31f9a",
+        "timestamp": 1630528344
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "84ef60ed0205cafd2ed0b98130981af5a417789a",
+        "timestamp": 1634029371
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "989b3fcf7dab7048bbcc250ebc3b548fba4a863b",
+        "timestamp": 1634029519
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/index.rst"
+        ],
+        "sha": "f5e6b7c7b92795dc9e98e27ae9dd871bf8c994df",
+        "timestamp": 1635073336
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "550676344f7b8bf6926f65389c073e7429bb4dc5",
+        "timestamp": 1635078495
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "0db4f93179d1b9847d61f0c4acf3571f8fa2a0ca",
+        "timestamp": 1638294836
+      },
+      {
+        "files": [
+          "testing/test_details.py",
+          "tox.ini"
+        ],
+        "sha": "9a476aa33e15cb1f3e71c9909ff9db99af9a1aaf",
+        "timestamp": 1641738462
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "b8f8844f045fdc4261083d0ae8edc7aec6cd8b9e",
+        "timestamp": 1641752514
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "c5d57862985bd25752b1c6eae88f56fd1fa4455f",
+        "timestamp": 1641899184
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "9ee5a1e5fbb7f6de9e135835a7ad94bb35de4190",
+        "timestamp": 1641926550
+      },
+      {
+        "files": [
+          "testing/test_invocations.py"
+        ],
+        "sha": "4a0153e51b477429d366f65ceb1711797cc45e93",
+        "timestamp": 1641935023
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_details.py"
+        ],
+        "sha": "e77787bb8fb91d797b315a482216ee1b11bfc5ee",
+        "timestamp": 1642009318
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "17fa868367454308434e3df1658bade41353b6ab",
+        "timestamp": 1642010711
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "8a5c80b2ac3b37aab8a13f3299925d6d9ae76eae",
+        "timestamp": 1642011573
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "src/pluggy/_result.py"
+        ],
+        "sha": "0b45952cf9f8fece53a5efd1cf40466b5714c17f",
+        "timestamp": 1642012233
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "a489e0c6aa68239049e86fd68c10a6075f715a08",
+        "timestamp": 1642014048
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_details.py",
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "63b7e908b4b22c30d86cd2cff240b3b7aa6da596",
+        "timestamp": 1642169082
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "ddb9161c3185f24fec785456b57d348f4def1146",
+        "timestamp": 1642001010
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "12ea858f2624f951c7924db7f0e1310717c177c7",
+        "timestamp": 1641936387
+      },
+      {
+        "files": [
+          "docs/api_reference.rst",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "src/pluggy/_result.py"
+        ],
+        "sha": "e73533604f133aab2b4b72a16ef9a3405b13e5c4",
+        "timestamp": 1642263846
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_invocations.py"
+        ],
+        "sha": "5deb645dd303d2d96597a23370bd8c4531290a26",
+        "timestamp": 1645452368
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "b45841c99dac15f0c2008b36295359c50f29a46d",
+        "timestamp": 1646599307
+      },
+      {
+        "files": [
+          "testing/test_invocations.py"
+        ],
+        "sha": "25a84da5865cd10d2867c72bcfb29a1e0b251e53",
+        "timestamp": 1652277641
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_helpers.py"
+        ],
+        "sha": "51e8df2ea682aeaef4ee42871c09479d699fa2de",
+        "timestamp": 1659508852
+      },
+      {
+        "files": [
+          "testing/test_helpers.py"
+        ],
+        "sha": "d32e6c9c04f8793387a5b5811509e3abe0b53668",
+        "timestamp": 1659510774
+      },
+      {
+        "files": [
+          "testing/test_helpers.py"
+        ],
+        "sha": "11443b4007895d7d9d560a7aa6bdbe8b6cda243b",
+        "timestamp": 1659515751
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "11aeef490f0b9ba614ff09fd10dc7b6f2b0d35ac",
+        "timestamp": 1667686491
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2f47a2e8e4acf26c80b74d22c8c68a8f269497cf",
+        "timestamp": 1667686905
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "1766a944e3790bd47847ab2ac70b1618ebc305b5",
+        "timestamp": 1667686941
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          ".pre-commit-config.yaml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "ea6a31f9f8bb559cb73bc9548933a78e793321e6",
+        "timestamp": 1667687422
+      },
+      {
+        "files": [
+          "changelog/364.removal.rst"
+        ],
+        "sha": "290d98f7723b88603b9a25a24080a41bdf6b546e",
+        "timestamp": 1667691443
+      },
+      {
+        "files": [
+          "changelog/364.feature.rst"
+        ],
+        "sha": "600f29896f64642c3838d6f3cd8b8ff392886bd2",
+        "timestamp": 1667691473
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_helpers.py"
+        ],
+        "sha": "7372a055bf5752297d35262be62e568aa98b5c31",
+        "timestamp": 1667746711
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9ca47f38de11143e35f191a84a40ba05d67fac11",
+        "timestamp": 1668471412
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "6e3fc5fb262df1133d693334425af7aedf3056f3",
+        "timestamp": 1668475205
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          ".pre-commit-config.yaml",
+          "tox.ini"
+        ],
+        "sha": "d128bc5872e2c2ec16da5abdf2c0163267985b4f",
+        "timestamp": 1668475465
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "84be7410e9630d6e8ac0aee96cea2828c09b7dd2",
+        "timestamp": 1669074422
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "fa6924e53bfd7a347f20f50e5c9874f77a5b4697",
+        "timestamp": 1669687271
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "8f7af7cc3bedc002e908fbd27a6d7a035d2efaa5",
+        "timestamp": 1670286993
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ba53b14851d0623e07736f89c334a969e11fa697",
+        "timestamp": 1670894913
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d74a5e7e65a0227d14f37be4248384f9cbb40c1a",
+        "timestamp": 1673922920
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "25745524bdb1a93d5dd97f280b7c8a3bbeaa0a7b",
+        "timestamp": 1675745169
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d0f495edf0d03bf37375de5319c24fd4e2f8aaab",
+        "timestamp": 1676344932
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c18d5da87f33bc5359c6eeccf4e85a194842d907",
+        "timestamp": 1676948604
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5c0e5aa39916e6a49962e662002c23f578e897c9",
+        "timestamp": 1678767420
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "c5277e4e9d374ca99d20d4f92fa42e17d48da678",
+        "timestamp": 1679635748
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "c501a32b34f177a7cf1f0511bbaecc2110b237bb",
+        "timestamp": 1679636394
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "aac593436a655905e77ce63dd6446d7503834e8d",
+        "timestamp": 1679638534
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "33a6936813009208a97e6b194216a3dbe7ab2e57",
+        "timestamp": 1679640306
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b5f8fb9b2bb80468ed63ab03bea57767953933cf",
+        "timestamp": 1680590072
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "84fd85b23963705737214b871776dc4d66b0fac6",
+        "timestamp": 1681185421
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "fa18a7f1339ece7b72b089d0fc2213ab7dcb47e3",
+        "timestamp": 1681786676
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e10881dc84e4f62cab902c1abbcb93955a6599b9",
+        "timestamp": 1682396939
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ace2dbb2ce28c106ea04a1fd0de401b79724c5e3",
+        "timestamp": 1684211189
+      },
+      {
+        "files": [
+          "testing/benchmark.py"
+        ],
+        "sha": "64d79154df0a36ba0782cf7438f32949d599eca7",
+        "timestamp": 1686513584
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "857d155d932b377f64b260bfa0ff7d017b480ef5",
+        "timestamp": 1686513998
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "09560deb64b21997420e272de92dc3a92fecd44d",
+        "timestamp": 1686514158
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "src/pluggy/_result.py",
+          "src/pluggy/_tracing.py"
+        ],
+        "sha": "0673c99034d1d770e2403558a776bc14b86dad7e",
+        "timestamp": 1686549882
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d705f8b4fe823c0c725332c3e4a9c63612dfdfc6",
+        "timestamp": 1686551701
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "56a38ac84eb19c319ed6d735c8ee824de2b2ed77",
+        "timestamp": 1686575139
+      },
+      {
+        "files": [
+          ".gitignore",
+          "CHANGELOG.rst",
+          "docs/conf.py",
+          "scripts/towncrier-draft-to-file.py",
+          "tox.ini"
+        ],
+        "sha": "1cefdbaf430da88032f0b98ca1ce814bf17a81bd",
+        "timestamp": 1686574774
+      },
+      {
+        "files": [
+          "changelog/394.feature.rst",
+          "docs/api_reference.rst",
+          "docs/index.rst",
+          "src/pluggy/_result.py",
+          "testing/test_multicall.py"
+        ],
+        "sha": "195289ba26e04b2a9155386998dd6583a510e8b5",
+        "timestamp": 1686571154
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "20b5224743c424d3ea1d5815d9138c1aab502084",
+        "timestamp": 1686633157
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "efe096a2b4013c18b1c63856319fc1f74957f625",
+        "timestamp": 1687013813
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "01bfb3ee69df0de23d571fe95e3ecffbe0436f2b",
+        "timestamp": 1686637765
+      },
+      {
+        "files": [
+          "scripts/release.py"
+        ],
+        "sha": "159d95ae56ecadd5b12a06e0cb400bc4f281a2a8",
+        "timestamp": 1687033967
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "bbd21e8e6d31ca8a9e3456df12d0f98e5830a955",
+        "timestamp": 1687034506
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "a33c9260d71a49f76e1e61a23f4f4dccc80baceb",
+        "timestamp": 1687037326
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/260.feature.rst",
+          "changelog/364.feature.rst",
+          "changelog/364.removal.rst",
+          "changelog/394.feature.rst"
+        ],
+        "sha": "09aa2e3aa3e16f02669f5df8013e81bfb9daec16",
+        "timestamp": 1687037032
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "8c9866dd8367f32c4277af310f5aff7e4170f5b1",
+        "timestamp": 1687191593
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6f93a995be7ddf39eaa1617ffba2cde4de0a8257",
+        "timestamp": 1687240336
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "3a7a0157dfb2b6369866b75ddb99d50ce7b15f59",
+        "timestamp": 1687246772
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "b56b4c3a7e9cdcd8b94709f805a2865a08cc6218",
+        "timestamp": 1687255154
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/405.feature.rst"
+        ],
+        "sha": "9060a4e466a8ef08bd737dd75acf1e976b76dc07",
+        "timestamp": 1687330369
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6b77f40d7ea8caee8bed85a976abe1fb0437ab7f",
+        "timestamp": 1687842374
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "16d56e93000df1aa3a775b34bdad78b88a03f59b",
+        "timestamp": 1688452781
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "126b3aeedcb01d3636cc969da90e54691e4e8f03",
+        "timestamp": 1689058365
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "36c3dbcdfbafba858aac8885abecb8ef06a22254",
+        "timestamp": 1689081066
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "758941c3ef93d44b621f8be83999e8dd9690ea82",
+        "timestamp": 1689081226
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/api_reference.rst",
+          "docs/conf.py",
+          "docs/index.rst",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "e507275d33b03b7e7161b2d8c9b184939973bc91",
+        "timestamp": 1689079145
+      },
+      {
+        "files": [
+          "src/pluggy/_tracing.py"
+        ],
+        "sha": "ad2f915b6a68c4f4e1f04fb6cd1fad44dcb64e99",
+        "timestamp": 1689853125
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3485eb2f7bfcd10b5b860a66ff88d64143ef5bc4",
+        "timestamp": 1690879760
+      },
+      {
+        "files": [
+          ".readthedocs.yml",
+          "docs/requirements.txt",
+          "tox.ini"
+        ],
+        "sha": "9abeeba57d1bbf183cd81b28ae083fff11fa3385",
+        "timestamp": 1691135864
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "6f28953a8590c22064c141e9ebb5b996677090e2",
+        "timestamp": 1691219957
+      },
+      {
+        "files": [
+          "docs/api_reference.rst",
+          "docs/index.rst",
+          "src/pluggy/__init__.py",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "9a9e3c274141a25ef617195b4ccc67cd68497465",
+        "timestamp": 1691218248
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "04e9a9b9c766ff597df3ea45eb7f9b5879acdebd",
+        "timestamp": 1691214348
+      },
+      {
+        "files": [
+          "docs/api_reference.rst"
+        ],
+        "sha": "f6a96ecade003c4a1fbbe61df2a330466f3ea04d",
+        "timestamp": 1691951029
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "9538f2a75d248afafeecfd7dbb44a28d4d12aba9",
+        "timestamp": 1691949112
+      },
+      {
+        "files": [
+          "docs/api_reference.rst"
+        ],
+        "sha": "de915b08f37e6dbed8822abb77ae91763d061529",
+        "timestamp": 1691949207
+      },
+      {
+        "files": [
+          "docs/api_reference.rst",
+          "docs/index.rst",
+          "src/pluggy/__init__.py",
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "739fcd4e8aa61c6a2dea845bfe44f45245e2ff8a",
+        "timestamp": 1691950708
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "b4c214659c61f8c6746755af70aab58bd78372cc",
+        "timestamp": 1691952086
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "src/pluggy/_result.py"
+        ],
+        "sha": "80a73dcf58eb0bf8e707c89bd572a46cc69eb141",
+        "timestamp": 1691951716
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "20b419d7711ec84c5357efa2d6eefbd8ca1c4112",
+        "timestamp": 1691948889
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "aea172a01824e6d8963ba78f70965174bfec9eb7",
+        "timestamp": 1692084176
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ba6fb4ab03adbd5c47ad47b3d39822b15622bae0",
+        "timestamp": 1692690263
+      },
+      {
+        "files": [
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "b5fb741127471a98d5cb91264640218e3bbe83ff",
+        "timestamp": 1693032421
+      },
+      {
+        "files": [
+          "src/pluggy/_tracing.py"
+        ],
+        "sha": "973fb561869c315a269281817f3b3de4be6f9c43",
+        "timestamp": 1693033348
+      },
+      {
+        "files": [
+          "changelog/428.feature.rst",
+          "docs/api_reference.rst",
+          "setup.cfg",
+          "src/pluggy/py.typed"
+        ],
+        "sha": "62da97c2d6cc0821774bc3cb2fa210f8592f7d13",
+        "timestamp": 1692038615
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/426.removal.rst",
+          "changelog/428.feature.rst"
+        ],
+        "sha": "e13a58c5039bf7a8aa6a46a77244aea48b210510",
+        "timestamp": 1693065842
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "136bbe8c98b66cbcefdc2438bf3c59705678249b",
+        "timestamp": 1693902161
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e9490ff64d0c838c1ec3e63e197be2dbf1614236",
+        "timestamp": 1694511126
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "8dadaf63b881e506af5e04ca439a90e625221dd0",
+        "timestamp": 1695112780
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "681cd107636504587eb23775a79be1724b5fb9a9",
+        "timestamp": 1695718644
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e8bc94c772040e138f6acdf0fdfffb22fa8eba46",
+        "timestamp": 1696330094
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/index.rst"
+        ],
+        "sha": "718c27e757723c371ebf8b2dbc1a1b5374887d91",
+        "timestamp": 1695943159
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1c906c93492f9632b23f7ad6f5bb7ef9cceb44cb",
+        "timestamp": 1696885151
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c73880f31409af3fe0d0c38368b5a5baaebdb1b8",
+        "timestamp": 1697487849
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "46fec3f17869dafa21accab7835bdd36871ecd04",
+        "timestamp": 1698094350
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3396f7bf88ed2a7dcbfc44abf1647b135cee1282",
+        "timestamp": 1699909246
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "94ec1b5125ebb9bec2dd05e2b6210f53e83b0c2c",
+        "timestamp": 1701116470
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e474438efb2306cca47162a7f115009d8ade9e7f",
+        "timestamp": 1702933267
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py",
+          "src/pluggy/_result.py"
+        ],
+        "sha": "d3877d47a0cd2a142c9d63c97c46d73b97d1b423",
+        "timestamp": 1703154712
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "59e0ca3d7a35e60bdd769cfd97678b801b9472a4",
+        "timestamp": 1703415232
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "29912d77ba24aa4ddfb3d9ff1e9d8a4a783e56b6",
+        "timestamp": 1703537014
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "0abac7520e060f479dbf84c0336b0dff23a14c9c",
+        "timestamp": 1704992340
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "4b5b2d4ede425742d99ebb6539c42517a4401dc0",
+        "timestamp": 1704993930
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "13b3661080cd3f6dcae1dedbceac6814b740c6dc",
+        "timestamp": 1705135151
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "4577b459a9043ba283e0d7a39beeddd627cc54a0",
+        "timestamp": 1705748304
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "443fee6d7a30ca694aa2eec77bde4aea9356efa0",
+        "timestamp": 1702492629
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "7aef3e608fddc57648daffaec23432e6893f26ff",
+        "timestamp": 1705769233
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/463.feature.rst"
+        ],
+        "sha": "2efd28ef5dcd8b7ad44a41777ce640debbbf9c39",
+        "timestamp": 1706086133
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "0d0ddf5b00e7b0e3bfe8fc113a1640710c34aa4e",
+        "timestamp": 1706648362
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "253a624e08c2d906c7cc736d7e6b210525da53df",
+        "timestamp": 1706728001
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "22485d139deaf544d100e10363afd169ddfd09db",
+        "timestamp": 1707262062
+      },
+      {
+        "files": [
+          "changelog/481.bugfix.rst",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "4326ced299cc37f4abc57c22c6298362b5379602",
+        "timestamp": 1708387094
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "c65e5d9824caa8c3f4c32d0050e9c248c27c4d8d",
+        "timestamp": 1709828889
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "src/pluggy/_hooks.py",
+          "testing/test_hookcaller.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "afb9f7514c6f4df8820eb714d8f7e8b2e925207e",
+        "timestamp": 1710323824
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f74e94b17d986c18e9039af87ecded9c9546ac32",
+        "timestamp": 1710857314
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "04d1bcdbc751a90ff79b72caf85dc96e1664ae45",
+        "timestamp": 1711406278
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2b533c9d9f7421c9353aa32da967733bfe4c1c85",
+        "timestamp": 1712009617
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml",
+          "README.rst",
+          "SECURITY.md",
+          "TIDELIFT.rst"
+        ],
+        "sha": "29f104d21f06f0bf1415a8e872657bc10a768954",
+        "timestamp": 1712595551
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "scripts/upload-coverage.sh"
+        ],
+        "sha": "89ce829b44274569de83173867ce29828b620fe8",
+        "timestamp": 1713528290
+      },
+      {
+        "files": [
+          "changelog/178.feature.rst",
+          "docs/index.rst",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "testing/test_details.py"
+        ],
+        "sha": "6f6ea680ca5a1f73dca356eb23c0dd6bd5f7190e",
+        "timestamp": 1713466055
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/178.feature.rst",
+          "changelog/481.bugfix.rst"
+        ],
+        "sha": "f8aa4a009716a7994f2f6c1947d9fa69feccbdd5",
+        "timestamp": 1713530632
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "52165925fa955e8b20fbedc61a685f3f2c78fc08",
+        "timestamp": 1713531512
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "c5ba2d87f1153c61ae8e64e82d1d587f55093f30",
+        "timestamp": 1713646094
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "c69578c87773e42fffd47d5626c159cb8cf912ea",
+        "timestamp": 1713646566
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "367f9324c407f92e41d9ad273276f09e95ac162c",
+        "timestamp": 1713651095
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "68750fb9dd7976bfa29c8f2f0694fbb195bfbd3b",
+        "timestamp": 1713651098
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "f74bbc46dfd20c3e98723c14b959f4dc13b2b2fa",
+        "timestamp": 1713651101
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f16327f1dcb116c267bc4cf73427ddff6b0d3d49",
+        "timestamp": 1713870685
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py",
+          "src/pluggy/_result.py"
+        ],
+        "sha": "480c975ebcacece75b43000cff7df07bc8afdf40",
+        "timestamp": 1714296775
+      },
+      {
+        "files": [
+          "changelog/504.bugfix.rst",
+          "src/pluggy/_result.py",
+          "testing/test_result.py"
+        ],
+        "sha": "93ac1e9c468c733fb632237836766795f647d755",
+        "timestamp": 1714296967
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "313eace19509f6d5cff75836cad12a58e895c07e",
+        "timestamp": 1714433684
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a0e9d3079cdc1b6658cfe05cff872b5577d69a10",
+        "timestamp": 1715059733
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "40148f482c6d90a2d88b945cdaf307f94bb12ca2",
+        "timestamp": 1715638448
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "aff6f99ba91879a16e2bf943c6a5bfa810e5c335",
+        "timestamp": 1716847685
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5b7171825a68174f7e25f4a8e6de59bfa9983851",
+        "timestamp": 1717484812
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "91e58da9f79381be6a78e2399a41c69c1b9a1459",
+        "timestamp": 1718058219
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "f979ba477da224f207393183e1d274a53dea820d",
+        "timestamp": 1718644119
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b59399cb0a4e3e8858442d7ec97cc6df26a9dcfb",
+        "timestamp": 1718700002
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3bec2cf6bc170e83805efb09d67d0af0bd3183ac",
+        "timestamp": 1719289410
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "69fca325d5fbbcc8bb760f90c58570e6e2663c3e",
+        "timestamp": 1719893574
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c493a84c0ce6df8380bedec092973807a3d90af6",
+        "timestamp": 1720505988
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2e546fb39f391426dd7cbacbe3a9baab4cb9d70c",
+        "timestamp": 1721082456
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "aee9fd17d2a181fb51757e6f897b1171c24c5e76",
+        "timestamp": 1721713277
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "14d3419e1d0389d0bdac2491b6fe33a9766f972e",
+        "timestamp": 1722301021
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3fde0aece728642652c52fb9773aa99ab31e803f",
+        "timestamp": 1722921328
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5c16e15a963d5e66f37d05b1ccfb90adf71e8e0f",
+        "timestamp": 1723523158
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "setup.cfg",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "5f220037a86adfd5a90395579808a4c618eaf706",
+        "timestamp": 1723875982
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9727415ac75906157e04e7e3b05858d10f986ba4",
+        "timestamp": 1724127467
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "29da5dceb78499c50ac49bd0a3c8c116c39af82a",
+        "timestamp": 1724725664
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py"
+        ],
+        "sha": "a34c2d52d7fae4ac7f2e6b04f18d22ec8ade029b",
+        "timestamp": 1725197983
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "e1ebbe6ab6fd70bf1f640c095bb91c53ccbd029b",
+        "timestamp": 1725300846
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "af228c06fa3cac79452104c30066ba2dedb78573",
+        "timestamp": 1725346163
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c6f01354bfde5c841f3a2b93b5b74311bb57b1dc",
+        "timestamp": 1725346455
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "74045901420ad3332256ab33182ed66563df3a26",
+        "timestamp": 1725924503
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "45e37ad7af254d5fd6d67c29cd7e30a23edb2c8e",
+        "timestamp": 1726549796
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "5d0334c96699ccbe8fb31a859b64572fd7423624",
+        "timestamp": 1727109533
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b2cf1ff1753c256d4b22107aa7b8d2a391f807bc",
+        "timestamp": 1727153430
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a21d3da650ba81dc239a2d73848cc971d04a9144",
+        "timestamp": 1727771564
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "4cad939438b473cc76e9b2b140f8b32ae7f1a16e",
+        "timestamp": 1728288686
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "dca0d26dcc976b15869cac674eddd3e667b4fefe",
+        "timestamp": 1728288789
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "7cc85277f7094a8ac6e4d4c52b8195e8a0ce3567",
+        "timestamp": 1728288841
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "7ce56a785aa04e7a0dfe4f07e8800b8446472403",
+        "timestamp": 1728288915
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "11a7f04718b2e5874655cca2f2289089afd74853",
+        "timestamp": 1728324438
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ba61e3c5b43ee0a43db95fedeb01dc8fa6377d8b",
+        "timestamp": 1728362778
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2cfa25b756fedcd108f7e11c20913db87b7ef4cd",
+        "timestamp": 1728967276
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "22ee79c02d6356b920d295bcc56fc5af6422f75a",
+        "timestamp": 1729574464
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4ba6441e046ff9d0d2dbea5087c5bfd81cc37f5c",
+        "timestamp": 1730179385
+      },
+      {
+        "files": [
+          "changelog/544.bugfix.rst",
+          "src/pluggy/_callers.py",
+          "testing/test_multicall.py"
+        ],
+        "sha": "9cf2eaa50dd1ad3ebf042978629e78c695197095",
+        "timestamp": 1730380638
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "7ea948a5c7e38b81c1cced9ea34c08ac05c0dee0",
+        "timestamp": 1730740187
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "53c14326b5dce2ed49af65aa6523b2ace5fa8b9e",
+        "timestamp": 1730762358
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "20381ec62767eedbdcd8310df619959fb87c8cf1",
+        "timestamp": 1731344958
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "06d92b8350072a79f6110468ebf91aa58a593ab3",
+        "timestamp": 1731366063
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "94c2001d2ed9202e974bd7a68b93cc7c5532ed83",
+        "timestamp": 1731947352
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ad684fbec66aaa27ba7df88cdef5ab9a4b41f56b",
+        "timestamp": 1731997919
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          ".pre-commit-config.yaml",
+          "changelog/556.removal.rst",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "d04211d31c543651902ffdfdfaafb2f5d28eb70e",
+        "timestamp": 1733573767
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "d069f54f88ae310e25f411ec5f6fee36ad079db5",
+        "timestamp": 1733763344
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "9ef53eefa5d6016dec48ee02a2b385a320898471",
+        "timestamp": 1733837830
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "86c04e772a70b2d124ce640bad566b696223406f",
+        "timestamp": 1734415449
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a2294ed5007dbb9d97186b108185faf2922f04d8",
+        "timestamp": 1735021418
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b8a00b51cb8638b4c9639281fcfba335d7d8c486",
+        "timestamp": 1736227655
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          ".readthedocs.yml",
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "e2dcf96dbfa1e40166feebd51301d076e37bca6b",
+        "timestamp": 1736856786
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b16af23d3185ed1f36c97418de4104390c08c3f7",
+        "timestamp": 1737432272
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9847ab8910a0527d8ba757419d3d1eb095936a0b",
+        "timestamp": 1738019279
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4eb41bb532fe1edc4efe756367d145f626b82a95",
+        "timestamp": 1738656832
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7f2fe828e65be6607d064aa7d63b6abaececc370",
+        "timestamp": 1740427490
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "8867b1c9c66e52255b4acf0ff45353484969d92e",
+        "timestamp": 1740427840
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "be0c99df8b4b09ffd0ce4db43247902ace083b57",
+        "timestamp": 1741036754
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "63fb3ada33c9b57a78ca7a30209f253fa05de48c",
+        "timestamp": 1741641620
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "e7cd449a83f09064de35c4d5b907c52517fdf0b2",
+        "timestamp": 1741698292
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9c74bceac07055cbb12331483501503746402dd2",
+        "timestamp": 1742244510
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "832b21f282c7a5fba1ce27cf7e6af1f889a393dd",
+        "timestamp": 1742848128
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "3875ea55ce4949fc89d8875ed5ef7275d2d2f890",
+        "timestamp": 1734776021
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "85e1d742c616c24ca3e8c82461cde09cf62e6426",
+        "timestamp": 1730737860
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "5a1297356847937323494deed67bcabe0b88a1f0",
+        "timestamp": 1742155139
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "25af101747d61479fd31f507a4122da377150db7",
+        "timestamp": 1742155291
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e8089c0f2e88603c7db333282d63629e670d2ff0",
+        "timestamp": 1744085955
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "2f428b93072c43702ab648e21b0f58fc32b7934e",
+        "timestamp": 1744228102
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "6b044a673b8447cc1184d91e45f5aa0c278cc68b",
+        "timestamp": 1744228124
+      },
+      {
+        "files": [
+          ".coveragerc"
+        ],
+        "sha": "3202c881e60d18f8ae6c7bb886de4cc354bc33be",
+        "timestamp": 1744228159
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "d0ab3611f662ec5c8809fee50b304ec7af672365",
+        "timestamp": 1744231918
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "src/pluggy/_callers.py",
+          "testing/test_details.py",
+          "testing/test_invocations.py"
+        ],
+        "sha": "eb70fb9b484022da2587ee5967bdbb39a75cd38c",
+        "timestamp": 1744278318
+      },
+      {
+        "files": [
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "cfa7ed15797c8b85477f35043132de4d861f4945",
+        "timestamp": 1744280406
+      },
+      {
+        "files": [
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "6a417de0f060e421008ab9ebbc066111a4bc6705",
+        "timestamp": 1744281107
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "d4437645b3c537939cae8a091694b0cc40896071",
+        "timestamp": 1744281695
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1e1862fe458b663728b7523bee2c407455836931",
+        "timestamp": 1744662563
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "dfd250bcfc3d73f72693d4f14cf48bb737ded9f0",
+        "timestamp": 1745266113
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ea5ada08d36d71bbd1f4e0c8472f8f9a4b210a2d",
+        "timestamp": 1745874018
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2acc644f2ead34ac3a154bff2566037480b5c310",
+        "timestamp": 1746477148
+      },
+      {
+        "files": [
+          "changelog/573.bugfix.rst"
+        ],
+        "sha": "4be0c554ea22ca01c7dc30ecccac413a412c1ea7",
+        "timestamp": 1746798957
+      },
+      {
+        "files": [
+          "changelog/573.bugfix.rst"
+        ],
+        "sha": "1f4872e8cb2547dacea155a27f94f75e7e8f66ae",
+        "timestamp": 1746799060
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c240362152d6f354a4056bfd6d28560e226fb70b",
+        "timestamp": 1747081484
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "changelog/504.bugfix.rst",
+          "changelog/544.bugfix.rst",
+          "changelog/556.removal.rst",
+          "changelog/573.bugfix.rst"
+        ],
+        "sha": "fd08ab5f811a9b2fa9124ae8cbbd393221151e2c",
+        "timestamp": 1747296863
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "fd946455151983d9ea80735c5fad12e7875bce54",
+        "timestamp": 1747297326
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "638d24edb544b156667b7978878e4ff409c2bb17",
+        "timestamp": 1747686979
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f0d094072e19388f8f96c5f5d61db8ff72ca2933",
+        "timestamp": 1748290673
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "cc9671debbcc699841ec7e1205578cf79211a706",
+        "timestamp": 1748900281
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1d607117ff037f2f4d407b89a243d91d80edfea6",
+        "timestamp": 1749500564
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "827475e5dc629207bd62e348472142de52efd429",
+        "timestamp": 1750764185
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "d6dc360833cc7203d5646e0cbdfb152f9b6757ce",
+        "timestamp": 1734777156
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "cf46a2abdc364b296497ade18c92b7ca38f727bd",
+        "timestamp": 1734777845
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b22e4fe5881477e2057f81fd7e88fe84ff2da356",
+        "timestamp": 1750522016
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "bd9ecb32f19f38685d8e2dcf3e2a7a817fec644d",
+        "timestamp": 1750417906
+      },
+      {
+        "files": [
+          "changelog/590.trivial.rst",
+          "pyproject.toml",
+          "src/pluggy/__init__.py"
+        ],
+        "sha": "96e05d6bae463a1b2dfc46dedcfed95d201a622e",
+        "timestamp": 1750497124
+      },
+      {
+        "files": [
+          "changelog/590.trivial.rst"
+        ],
+        "sha": "cb69bac7a523825a04f486e1097bca4d54b14e74",
+        "timestamp": 1750882195
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "189e3353b8f8f48bd958ef80cc9914edae52be43",
+        "timestamp": 1751319272
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "08743295e5c6ee24c27ec36c9986866123deca86",
+        "timestamp": 1751957084
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "646fc4ae76b17f26d26a58369223b7f4548cbc95",
+        "timestamp": 1752526231
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "63fba35fd0f2973066cc7fac6c98b533052b614a",
+        "timestamp": 1753172619
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "bd4e24e10a7def69189ac68045da4a05871ee77d",
+        "timestamp": 1753735229
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f403ace3050c9d1580f705e899a5d3cffc62e2c2",
+        "timestamp": 1754368659
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "5440d6e37ad2ba5b7a36f3e2036e64d66706a3f0",
+        "timestamp": 1754976350
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "519f1e5a770aa5f185f1d1cb7dad96e46a6ac634",
+        "timestamp": 1754978116
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "67096f3f523996718567d260e85081733adb206c",
+        "timestamp": 1754980290
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2d54873369527b5880923ffcd83e4dbbad380837",
+        "timestamp": 1755550800
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f2e9fa2575cc9db3f7bbe81204f2910c86a64715",
+        "timestamp": 1756161555
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2d0d4772e8afeb8ec19240af1cd3db621cacef5f",
+        "timestamp": 1756790112
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "a1514939a240bc72567281e30d000bed9fe7e057",
+        "timestamp": 1757012720
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "1434d9a0cced694123394df7f6bcbbbe16f7168f",
+        "timestamp": 1757349002
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6ccaabcaf2d84da187c48f357b5099386fd1279e",
+        "timestamp": 1757368094
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "92cacb28476c9df7447213ec0c796d02923a4a3c",
+        "timestamp": 1758025379
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4d6eb2cbda97fa3d214ba77e68e6af783f052446",
+        "timestamp": 1759787868
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "74a8288192d8a8b6f32175579414dc00d6d93ade",
+        "timestamp": 1759838378
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "205264598c30b181413e522d6741580b085b288c",
+        "timestamp": 1759838508
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "37d3aa31989112a1cc602e68c14ea86c786b6610",
+        "timestamp": 1760400331
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "252184c5da930e86ff96afb7adec237ca456b2fa",
+        "timestamp": 1761004621
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pyproject.toml",
+          "tox.ini",
+          "uv.lock"
+        ],
+        "sha": "6c9d274e6267049247db019b8d8026f6f20d73fb",
+        "timestamp": 1761553544
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "eddd37a3565b951128b9168cbf56b3f20fffa322",
+        "timestamp": 1761583898
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9762d31b68501e4b1af6448bb781fa9890002f8f",
+        "timestamp": 1761599234
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e03e818114e46eac403383ca3ca1a70caeaa9cad",
+        "timestamp": 1762428239
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "d26b1c5ee543b5c8ae583dc29f646669d833bcd3",
+        "timestamp": 1762705114
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b7a7e8a600b5d2bad44d928677c9afbcb41d68cd",
+        "timestamp": 1762810777
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5b24a4df70d963ee2dc92f663d3ac83155ba0bad",
+        "timestamp": 1763413690
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "42098afb6c3ef6bb78bf439099b774960c0ae8e3",
+        "timestamp": 1764008183
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b455996566f7070b9a82d4e3a584cf576b3c4b8d",
+        "timestamp": 1764020392
+      },
+      {
+        "files": [
+          ".claude/settings.json",
+          "AGENTS.md",
+          "CLAUDE.md"
+        ],
+        "sha": "8f1f6af56af5d04573b0973d579b0314eb7d6f0b",
+        "timestamp": 1761553572
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py",
+          "src/pluggy/_tracing.py"
+        ],
+        "sha": "f842d957a58088d0711515e8037e88eabe39ca74",
+        "timestamp": 1761403771
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "src/pluggy/_result.py",
+          "uv.lock"
+        ],
+        "sha": "009bdc311ef27a2e3a7e7c4c379aa0136b73a687",
+        "timestamp": 1761558257
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2173e7b856941116f48d97dae8fcb9a9cd73f0ac",
+        "timestamp": 1765229196
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5d57ff37b31e5cee8686076e2a0fd942e57f9b62",
+        "timestamp": 1765351618
+      },
+      {
+        "files": [
+          "testing/test_hookcaller.py"
+        ],
+        "sha": "587848d2f5aa9630a69fe94bfcf800bc44c6bdbc",
+        "timestamp": 1765351695
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "9e04451d7f8a06e14dcc825b12a276f2dc16737a",
+        "timestamp": 1765819961
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "0b047fdeea3bcc5448ba808a1582ccff73a23cda",
+        "timestamp": 1765834908
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "b18141489d98ff34211e3a36c369b1adec1a1255",
+        "timestamp": 1766227148
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "387c7422d4724133085ec8f7aa6f3e7a44a40410",
+        "timestamp": 1766227787
+      },
+      {
+        "files": [
+          "src/pluggy/_callers.py"
+        ],
+        "sha": "12880913bf3114f84a5af63b3f6a5ac5c5a6eb7b",
+        "timestamp": 1766240356
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "fc40456932ec7fb258b0c48ef3789b7cd7747647",
+        "timestamp": 1766809404
+      },
+      {
+        "files": [
+          "downstream/python-lsp-server.sh"
+        ],
+        "sha": "fcee3970d10a2a443d6f9d15c611f88686abbff4",
+        "timestamp": 1767548591
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c74ddbc0d4d8e412bb50df9ee5c47dd2ef797272",
+        "timestamp": 1768259073
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2a4718a84c9330dd1f468dbcde1458296e8c5890",
+        "timestamp": 1768862562
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "fd68617c03586508b1b9d1fa4b7027a74c333264",
+        "timestamp": 1769462526
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4cc08c153344b0d15e96cb196e5f2d7ac2fe847e",
+        "timestamp": 1770707191
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6ab917ba3b2dc1dceba6a260a0c30cb947f6a69c",
+        "timestamp": 1771280065
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6e1d0f13a259776bbf137f90bd7ab8b4474f68e7",
+        "timestamp": 1771928993
+      },
+      {
+        "files": [
+          "changelog/431.bugfix.rst",
+          "src/pluggy/_hooks.py",
+          "src/pluggy/_manager.py",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "20d8143f127a4d7526dbbea441857b4b80ec8bdd",
+        "timestamp": 1772012017
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "0fc95864e6a4121233093a3ceec324664241836e",
+        "timestamp": 1772479212
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "dec0d3ec97075000b9d6ea3b836434f108a67631",
+        "timestamp": 1772515989
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "97355a5a464af9c9eef51328ef43fb67145413dd",
+        "timestamp": 1773094894
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1b1cb23cff136d93f098f3c05199a73c17cda560",
+        "timestamp": 1773699266
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1872864a418b2e666795f74a7cb7c87d176a20c1",
+        "timestamp": 1774301312
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "720204d214dab50ff4f23583074ed94c5833cc46",
+        "timestamp": 1774895674
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c22cc33410597b14abf1905cabce3b48009c8702",
+        "timestamp": 1774905043
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "testing/test_pluginmanager.py"
+        ],
+        "sha": "4cef8cb44734f3641ab09a58590198931b67a997",
+        "timestamp": 1775586127
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "53f1fd1aa19606443c8af523fa3dce5e34ab7f67",
+        "timestamp": 1776115008
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "7c173c816a81201a03a667bb447ded5feb6526e1",
+        "timestamp": 1776115248
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2a7fa51bb49d71c97af29daf6a7d180a8c6e8aff",
+        "timestamp": 1776718473
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "06e6b3b4f63ae5175ddfb2a4df482c09b085bbaf",
+        "timestamp": 1777353254
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "src/pluggy/_hooks.py",
+          "tox.ini"
+        ],
+        "sha": "2c1fd62786aeb465bc17331ff5aee320cb58ad95",
+        "timestamp": 1777478733
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "06beb14133d23dc32f87696765a3a8d12c46fa92",
+        "timestamp": 1777621516
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml",
+          "README.rst"
+        ],
+        "sha": "ac70302e7d56ce3d1646399eef80051546cea309",
+        "timestamp": 1668513593
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "63470b32f1ff87d98b1d6caf1d27b7208b72176e",
+        "timestamp": 1777623855
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "85173a014051422133e7c2d2e05c522c7ab0ee12",
+        "timestamp": 1777623893
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "fbe42b595abd6453ea1ab801e5bb0916b1b8d1e5",
+        "timestamp": 1777624191
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "bbe0b33d2a5b04d78437993a208feac7766b92bf",
+        "timestamp": 1777624297
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "6a422b705e475060ef08f2364d20da951135353d",
+        "timestamp": 1777624862
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "00ba43196801d43f87a3d3d54d72a61e13ebbd19",
+        "timestamp": 1777625291
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ab1d07e27841a4003fbe8c61eeb8e90a4aedfaa3",
+        "timestamp": 1778534828
+      },
+      {
+        "files": [
+          ".github/workflows/downstream.yml"
+        ],
+        "sha": "df2257b0ac6574bec9960beee451a3c6e2a2fa46",
+        "timestamp": 1778060680
+      },
+      {
+        "files": [
+          ".github/workflows/downstream.yml"
+        ],
+        "sha": "9b120a95789360234f35db70460d94ce79a116f3",
+        "timestamp": 1778061341
+      },
+      {
+        "files": [
+          ".github/workflows/downstream.yml"
+        ],
+        "sha": "82b714ce9f90fd2e4077974a1bb5fc06c0eb61b3",
+        "timestamp": 1778069956
+      },
+      {
+        "files": [
+          ".github/workflows/downstream.yml"
+        ],
+        "sha": "895d3fe22f83711aed30e00db500dfec9e41cbc1",
+        "timestamp": 1778070173
+      },
+      {
+        "files": [
+          "downstream/recipes/hatch.toml"
+        ],
+        "sha": "f8fb1ee39494a2ab48b579047beaad729a2f19fd",
+        "timestamp": 1778395948
+      },
+      {
+        "files": [
+          "downstream/recipes/conda.toml",
+          "downstream/recipes/devpi.toml",
+          "downstream/recipes/tox.toml"
+        ],
+        "sha": "9102a492997f67fa3034a7bdc0e2388956de56ec",
+        "timestamp": 1778530134
+      },
+      {
+        "files": [
+          "downstream/README.md",
+          "downstream/recipes/tox.toml",
+          "downstream/run_downstream.py"
+        ],
+        "sha": "198eb6aba335adf79c4ffe7c51669783cff5ea0a",
+        "timestamp": 1778571077
+      },
+      {
+        "files": [
+          "downstream/recipes/conda.toml"
+        ],
+        "sha": "e56d97709a1e0ceee5ec19cc978eef80d88becf7",
+        "timestamp": 1778577993
+      },
+      {
+        "files": [
+          "downstream/recipes/conda.toml"
+        ],
+        "sha": "f418924fc5f19609d45d912e11443e97fcdc0b12",
+        "timestamp": 1778586558
+      },
+      {
+        "files": [
+          "downstream/README.md",
+          "downstream/recipes/conda.bash",
+          "downstream/recipes/conda.toml",
+          "downstream/recipes/pytest.toml",
+          "downstream/run_downstream.py"
+        ],
+        "sha": "b8fceda01a5e5879dfeead83a526c890f47095bd",
+        "timestamp": 1778589779
+      },
+      {
+        "files": [
+          "downstream/run_downstream.py"
+        ],
+        "sha": "fa2af2b84a3c164b7a16ac340119d42668a7da40",
+        "timestamp": 1778591380
+      },
+      {
+        "files": [
+          "downstream/run_downstream.py"
+        ],
+        "sha": "40f3ab1293c48d2a149a5328be893dc3fa08b395",
+        "timestamp": 1778697539
+      },
+      {
+        "files": [
+          "changelog/522.doc.rst",
+          "docs/index.rst"
+        ],
+        "sha": "8da58915b3554b396e06695bb80ec1819c30f9ff",
+        "timestamp": 1778996537
+      },
+      {
+        "files": [
+          "changelog/186.doc.rst",
+          "docs/index.rst"
+        ],
+        "sha": "e7ea79695ed7510571d741bc0461007e25dd9e50",
+        "timestamp": 1778996596
+      },
+      {
+        "files": [
+          "RELEASING.rst",
+          "downstream/recipes/conda.bash",
+          "downstream/run_downstream.py"
+        ],
+        "sha": "5b9a37cbf43fee0f3bbf8ed03586e5dd0695bf56",
+        "timestamp": 1778998038
+      },
+      {
+        "files": [
+          "downstream/recipes/conda.bash"
+        ],
+        "sha": "2ca24191aa61372ecd5c166164e4152f0fcfc5fe",
+        "timestamp": 1778998881
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ffa27787c612606f66bfd0ed6c6f6f2d300549e9",
+        "timestamp": 1779141996
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "aedcad60cbb2635a6d201378bd54d6e1293305d2",
+        "timestamp": 1779770567
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "59e66fdb231bf47ce5e0b8ed75b788820b135c34",
+        "timestamp": 1779770880
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_helpers.py"
+        ],
+        "sha": "74876c40efa3137aee8ebf5d53d9542d65a13381",
+        "timestamp": 1764363469
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "c4e254ca53d02f969c81586dc50c83cc8bb3dea9",
+        "timestamp": 1764363829
+      },
+      {
+        "files": [
+          "testing/benchmark.py"
+        ],
+        "sha": "fd62ef81595f84c08e35a80fa5834ef51d9c37fe",
+        "timestamp": 1777451274
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "c1dfc0b9ca32355c214883471d15ecc5133cd2b8",
+        "timestamp": 1777490865
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/test_helpers.py"
+        ],
+        "sha": "0b7790eb2adf436c6df39c9a2256aa8a31ba3893",
+        "timestamp": 1777490899
+      },
+      {
+        "files": [
+          "testing/test_helpers.py"
+        ],
+        "sha": "a90470fe3f1661438405b3dad642ca2206a2abb3",
+        "timestamp": 1777490999
+      },
+      {
+        "files": [
+          "changelog/629.bugfix.rst"
+        ],
+        "sha": "5656caaa69e5df8912f465597610c415237f7f5e",
+        "timestamp": 1777492381
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py"
+        ],
+        "sha": "5631ed96fb7f9f7cec6f981483325236cd5cceee",
+        "timestamp": 1777617777
+      },
+      {
+        "files": [
+          "changelog/629.bugfix.rst"
+        ],
+        "sha": "1990b19c3a6adf1a22ace3b39b5fad8fd08189f4",
+        "timestamp": 1777617808
+      },
+      {
+        "files": [
+          "src/pluggy/_hooks.py",
+          "testing/benchmark.py",
+          "testing/test_helpers.py",
+          "testing/test_hookcaller.py",
+          "testing/test_warnings.py"
+        ],
+        "sha": "dd20a85e38af556e1c818b03391eab1480438e0c",
+        "timestamp": 1777892049
+      },
+      {
+        "files": [
+          "changelog/632.removal.rst",
+          "src/pluggy/_hooks.py",
+          "testing/test_helpers.py",
+          "testing/test_hookcaller.py",
+          "testing/test_warnings.py"
+        ],
+        "sha": "0258484dc180a0c28705de83783b269f4fed4873",
+        "timestamp": 1779867461
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6e518c734bdd50294897307f3ff20f5be75ba17a",
+        "timestamp": 1780392975
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e2c9b6f101ee1a2ce1de5162c03f75d56635b415",
+        "timestamp": 1780974217
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 5,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".claude/settings.json": 0,
+      ".coveragerc": 1,
+      ".github/FUNDING.yml": 2,
+      ".github/dependabot.yml": 3,
+      ".github/workflows/deploy.yml": 4,
+      ".github/workflows/downstream.yml": 5,
+      ".github/workflows/test.yml": 6,
+      ".gitignore": 7,
+      ".pre-commit-config.yaml": 8,
+      ".readthedocs.yml": 9,
+      ".travis.yml": 10,
+      "AGENTS.md": 11,
+      "CHANGELOG": 12,
+      "CHANGELOG.rst": 13,
+      "CLAUDE.md": 14,
+      "LICENSE": 15,
+      "MANIFEST.in": 16,
+      "README.rst": 17,
+      "RELEASING.rst": 18,
+      "SECURITY.md": 19,
+      "TIDELIFT.rst": 20,
+      "appveyor.yml": 21,
+      "changelog/116.removal.rst": 22,
+      "changelog/120.removal.rst": 23,
+      "changelog/131.trivial.rst": 24,
+      "changelog/160.bugfix.rst": 25,
+      "changelog/165.trivial.rst": 26,
+      "changelog/166.trivial.rst": 27,
+      "changelog/172.trivial.rst": 28,
+      "changelog/177.feature.rst": 29,
+      "changelog/178.feature.rst": 30,
+      "changelog/186.doc.rst": 31,
+      "changelog/187.bugfix.rst": 32,
+      "changelog/189.feature.rst": 33,
+      "changelog/199.feature.rst": 34,
+      "changelog/205.bugfix.rst": 35,
+      "changelog/209.trivial.rst": 36,
+      "changelog/215.feature.rst": 37,
+      "changelog/222.trivial.rst": 38,
+      "changelog/260.feature.rst": 39,
+      "changelog/265.removal.rst": 40,
+      "changelog/267.removal.rst": 41,
+      "changelog/282.feature.rst": 42,
+      "changelog/308.removal.rst": 43,
+      "changelog/309.feature.rst": 44,
+      "changelog/364.feature.rst": 45,
+      "changelog/364.removal.rst": 46,
+      "changelog/394.feature.rst": 47,
+      "changelog/405.feature.rst": 48,
+      "changelog/426.removal.rst": 49,
+      "changelog/428.feature.rst": 50,
+      "changelog/431.bugfix.rst": 51,
+      "changelog/463.feature.rst": 52,
+      "changelog/481.bugfix.rst": 53,
+      "changelog/504.bugfix.rst": 54,
+      "changelog/522.doc.rst": 55,
+      "changelog/544.bugfix.rst": 56,
+      "changelog/556.removal.rst": 57,
+      "changelog/57.trivial.rst": 58,
+      "changelog/573.bugfix.rst": 59,
+      "changelog/59.removal.rst": 60,
+      "changelog/590.trivial.rst": 61,
+      "changelog/629.bugfix.rst": 62,
+      "changelog/632.removal.rst": 63,
+      "changelog/66.trivial.rst": 64,
+      "changelog/_template.rst": 65,
+      "codecov.yml": 66,
+      "docs/_static/img/plug.png": 67,
+      "docs/api_reference.rst": 68,
+      "docs/calling.rst": 69,
+      "docs/conf.py": 70,
+      "docs/define.rst": 71,
+      "docs/examples/eggsample-spam/eggsample_spam.py": 72,
+      "docs/examples/eggsample/eggsample/__init__.py": 73,
+      "docs/examples/eggsample/eggsample/hookspecs.py": 74,
+      "docs/examples/eggsample/eggsample/host.py": 75,
+      "docs/examples/eggsample/eggsample/lib.py": 76,
+      "docs/examples/toy-example.py": 77,
+      "docs/index.rst": 78,
+      "docs/manage.rst": 79,
+      "docs/requirements.txt": 80,
+      "downstream/README.md": 81,
+      "downstream/python-lsp-server.sh": 82,
+      "downstream/recipes/conda.bash": 83,
+      "downstream/recipes/conda.toml": 84,
+      "downstream/recipes/devpi.toml": 85,
+      "downstream/recipes/hatch.toml": 86,
+      "downstream/recipes/pytest.toml": 87,
+      "downstream/recipes/tox.toml": 88,
+      "downstream/run_downstream.py": 89,
+      "pyproject.toml": 90,
+      "scripts/release.py": 91,
+      "scripts/towncrier-draft-to-file.py": 92,
+      "scripts/upload-coverage.sh": 93,
+      "setup.cfg": 94,
+      "setup.py": 95,
+      "src/pluggy/__init__.py": 96,
+      "src/pluggy/_callers.py": 97,
+      "src/pluggy/_hooks.py": 98,
+      "src/pluggy/_manager.py": 99,
+      "src/pluggy/_result.py": 100,
+      "src/pluggy/_tracing.py": 101,
+      "src/pluggy/py.typed": 102,
+      "testing/benchmark.py": 103,
+      "testing/test_deprecations.py": 104,
+      "testing/test_details.py": 105,
+      "testing/test_helpers.py": 106,
+      "testing/test_hookcaller.py": 107,
+      "testing/test_invocations.py": 108,
+      "testing/test_multicall.py": 109,
+      "testing/test_pluggy.py": 110,
+      "testing/test_pluginmanager.py": 111,
+      "testing/test_result.py": 112,
+      "testing/test_tracer.py": 113,
+      "testing/test_warnings.py": 114,
+      "tox.ini": 115,
+      "uv.lock": 116
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1430235146,
+      "last_commit_ts": 1780974217,
+      "n_cochange_pairs": 110,
+      "n_commits_dropped_as_bulk": 36,
+      "n_commits_used": 696,
+      "n_files": 117
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "e2c9b6f101ee1a2ce1de5162c03f75d56635b415",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
