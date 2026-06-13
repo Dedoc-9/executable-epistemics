@@ -1,0 +1,2552 @@
+{
+  "chain_hash": "2ac849a07e5cd567",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      "AUTHORS.txt||CHANGES.txt": 13,
+      "AUTHORS.txt||docs/index.rst": 2,
+      "AUTHORS.txt||pyautogui/__init__.py": 13,
+      "AUTHORS.txt||pyautogui/_pyautogui_win.py": 3,
+      "AUTHORS.txt||setup.py": 12,
+      "CHANGES.txt||README.md": 2,
+      "CHANGES.txt||docs/index.rst": 2,
+      "CHANGES.txt||pyautogui/__init__.py": 35,
+      "CHANGES.txt||pyautogui/_pyautogui_osx.py": 2,
+      "CHANGES.txt||pyautogui/_pyautogui_win.py": 4,
+      "CHANGES.txt||setup.py": 26,
+      "CHANGES.txt||tests/test_pyautogui.py": 3,
+      "MANIFEST.in||setup.py": 2,
+      "Pipfile||pyautogui/__init__.py": 2,
+      "Pipfile||setup.py": 2,
+      "README.md||pyautogui/__init__.py": 2,
+      "README.md||pyautogui/_pyautogui_osx.py": 2,
+      "README.md||setup.py": 4,
+      "docs/index.rst||pyautogui/__init__.py": 6,
+      "docs/index.rst||setup.py": 4,
+      "docs/install.rst||docs/roadmap.rst": 2,
+      "docs/install.rst||docs/screenshot.rst": 2,
+      "docs/install.rst||pyautogui/__init__.py": 2,
+      "docs/introduction.rst||docs/keyboard.rst": 2,
+      "docs/introduction.rst||pyautogui/__init__.py": 2,
+      "docs/introduction.rst||tests/test_pyautogui.py": 2,
+      "docs/roadmap.rst||pyautogui/__init__.py": 3,
+      "docs/roadmap.rst||pyautogui/_pyautogui_osx.py": 3,
+      "docs/roadmap.rst||pyautogui/_pyautogui_win.py": 3,
+      "docs/roadmap.rst||pyautogui/_pyautogui_x11.py": 2,
+      "docs/roadmap.rst||setup.py": 2,
+      "pyautogui/__init__.py||pyautogui/_pyautogui_osx.py": 15,
+      "pyautogui/__init__.py||pyautogui/_pyautogui_win.py": 16,
+      "pyautogui/__init__.py||pyautogui/_pyautogui_x11.py": 9,
+      "pyautogui/__init__.py||pyautogui/keynames.py": 2,
+      "pyautogui/__init__.py||pyautogui/screenshotUtil.py": 5,
+      "pyautogui/__init__.py||pyautogui/tweens.py": 2,
+      "pyautogui/__init__.py||pyautogui/util.py": 2,
+      "pyautogui/__init__.py||setup.py": 29,
+      "pyautogui/__init__.py||tests/test_pyautogui.py": 22,
+      "pyautogui/_pyautogui_osx.py||pyautogui/_pyautogui_win.py": 12,
+      "pyautogui/_pyautogui_osx.py||pyautogui/_pyautogui_x11.py": 13,
+      "pyautogui/_pyautogui_osx.py||pyautogui/util.py": 2,
+      "pyautogui/_pyautogui_osx.py||setup.py": 4,
+      "pyautogui/_pyautogui_osx.py||tests/test_pyautogui.py": 6,
+      "pyautogui/_pyautogui_win.py||pyautogui/_pyautogui_x11.py": 11,
+      "pyautogui/_pyautogui_win.py||pyautogui/util.py": 3,
+      "pyautogui/_pyautogui_win.py||tests/test_pyautogui.py": 7,
+      "pyautogui/_pyautogui_x11.py||pyautogui/util.py": 2,
+      "pyautogui/_pyautogui_x11.py||tests/test_pyautogui.py": 5,
+      "pyautogui/screenshotUtil.py||tests/test_pyautogui.py": 4,
+      "pyautogui/util.py||tests/test_pyautogui.py": 2,
+      "setup.py||tests/test_pyautogui.py": 5
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "LICENSE.txt",
+          "README.md"
+        ],
+        "sha": "92843777a660cd4f05cb4b1e5fff457e8ca4065d",
+        "timestamp": 1405639838
+      },
+      {
+        "files": [
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "7f6eaeca86982f88dc7860bc4883798533a2ec78",
+        "timestamp": 1405740862
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "a88dd4a2a7e7f55e3448b13674c0b8ff6cf198fa",
+        "timestamp": 1405893668
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_pyautogui_x11.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "c463f687af6741cd6a9abd0b9c9bcb7337fea4bc",
+        "timestamp": 1406082918
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_pyautogui_x11.py",
+          "pyautogui/util.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "83525e78c93568e2b3ac0b8c257d0dc83420a394",
+        "timestamp": 1406096709
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "4b3ee7d7c3d829e2d3d5eeea6ef98dd19fab0c64",
+        "timestamp": 1406120219
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_win.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "fb44c497099bc3654e512977e18c7c19d6079495",
+        "timestamp": 1406121376
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "60c9f5366c755fdc55c0acdf5a249f6756f643ed",
+        "timestamp": 1406142214
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_pyautogui_x11.py",
+          "pyautogui/util.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "cee6661e094fe317cbeb3d6dbd95a2979fa474ac",
+        "timestamp": 1406148454
+      },
+      {
+        "files": [
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "a734de59351c473c27c3118bb9116e1c681ea115",
+        "timestamp": 1406149220
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_osx.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "a54837f8b55e442d3355df42df0b42670cfa1092",
+        "timestamp": 1406150371
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "6e1ab3498d5054e104075c0b7bf9b4c4801095a6",
+        "timestamp": 1406171987
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/util.py"
+        ],
+        "sha": "107d59d5e263271a0604c2f3789ca3eb817e8cf2",
+        "timestamp": 1406179810
+      },
+      {
+        "files": [
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "9fdde698b54422b06fff0fddf9efb8d28d488d75",
+        "timestamp": 1406221030
+      },
+      {
+        "files": [
+          "docs/roadmap.rst",
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "7e5d72134b4c8f18ada70d92c52ad78ca9386d6f",
+        "timestamp": 1406242872
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "98e6f383970674bf73518b8d6777aacabb8ee48f",
+        "timestamp": 1406312125
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "4db9157e6334ad73c3f4d3bf60e78e35db74a108",
+        "timestamp": 1406312135
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "README.md",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_x11.py",
+          "setup.py"
+        ],
+        "sha": "60c4eae1bb4a154ac84ffb0a302716a995932974",
+        "timestamp": 1406597873
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "de96852e6a8649bbb6ccdcab7d95ddcd0d51a10a",
+        "timestamp": 1407130523
+      },
+      {
+        "files": [
+          "docs/introduction.rst",
+          "docs/keyboard.rst"
+        ],
+        "sha": "6f4885ce6b54c81f6c49e71a22cf81dd9113c8ee",
+        "timestamp": 1408426560
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/tweens.py"
+        ],
+        "sha": "3ecb184b49e2675b2aa4bc1da5ca232e9526975d",
+        "timestamp": 1408472375
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "44a9d7e9bf19a1b7c91461a533fe5cd8186dbb8c",
+        "timestamp": 1408486127
+      },
+      {
+        "files": [
+          "docs/introduction.rst"
+        ],
+        "sha": "ca53e1767b1d0197b9322655b0d6f97b3dc4f339",
+        "timestamp": 1408592907
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.md",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "720f3a9de5ded8cfd39018bdd1d6c7b4775aaa6b",
+        "timestamp": 1408608089
+      },
+      {
+        "files": [
+          "docs/introduction.rst",
+          "docs/keyboard.rst"
+        ],
+        "sha": "24602c477b1937efef3bdec8b1718fb0254dc3af",
+        "timestamp": 1408609284
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "8e8976e40a950e6be68bc3d5a33b3875e506afc4",
+        "timestamp": 1409282750
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "8b2dd52da07c4a5b9a52901b02431436abe1c051",
+        "timestamp": 1409284309
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "a020446a8765f3ba0579e6224dce82aaf6c2b60c",
+        "timestamp": 1409374684
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "04937e5e7dae3c4696324cb0e89ac51acf8329dc",
+        "timestamp": 1409374981
+      },
+      {
+        "files": [
+          "pyautogui/tweens.py"
+        ],
+        "sha": "c528f1c3a731de8aa0f3ea455a02287ac8b1c49a",
+        "timestamp": 1409440151
+      },
+      {
+        "files": [
+          "docs/install.rst",
+          "docs/roadmap.rst",
+          "pyautogui/msgbox.py",
+          "pyautogui/screenshot.py",
+          "pyautogui/window.py"
+        ],
+        "sha": "a64aa67ae61144745c91eefd73a7d92c262fbe13",
+        "timestamp": 1409685555
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "86470398421628c49647fa86e697875d210fd5a7",
+        "timestamp": 1409704558
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "docs/index.rst",
+          "docs/msgbox.rst",
+          "docs/tests.rst",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "0ca16ddf3ce3b44c08e48a37d5ba33e3bdcea18d",
+        "timestamp": 1409728703
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/tweens.py",
+          "setup.py"
+        ],
+        "sha": "0efa7c288e7a0be34a88c3da0f99968476bcb897",
+        "timestamp": 1409729218
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "2387a9923332a9dd402ef15af5c2a27ff3bf810b",
+        "timestamp": 1409779518
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "a21d9a488628cf2fe8ac3766681d79ac083226b6",
+        "timestamp": 1409788073
+      },
+      {
+        "files": [
+          "CHANGES.txt"
+        ],
+        "sha": "7b561e55cd4220aa5f939bd6d139d29670cbd6d9",
+        "timestamp": 1409867596
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_pyautogui_x11.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "0a5381b0f9e6d5e9d644e9336626a094ae192b69",
+        "timestamp": 1410143054
+      },
+      {
+        "files": [
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "89f3fbab3cd5ff68b3e284c9f16245fe849af654",
+        "timestamp": 1410143651
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "92d2e2ff0df69039afa0745ea5c7e1f3c080aea6",
+        "timestamp": 1410163680
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "f382c0c0c80f8378c7bde96c83a00cfd92ab7c67",
+        "timestamp": 1410232844
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "4efcbde0d8416acf9bf5010950cf6abb209b0e9a",
+        "timestamp": 1410242496
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "fe520b8844e396e94044fa207fc77bdbbe35443c",
+        "timestamp": 1410242568
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "bae3690eccdd7f7c7041e2dc3599f78fe4f2e598",
+        "timestamp": 1410370053
+      },
+      {
+        "files": [
+          "docs/introduction.rst",
+          "docs/square_spiral.png",
+          "pyautogui/screenshot.py",
+          "pyautogui/screenshotUtil.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "690592da6bcfdbd7aa25f7055a6b77536f657384",
+        "timestamp": 1410370076
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "f44093aeae31ac04e4652738fa30a5883d63c770",
+        "timestamp": 1410370283
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "966a36cf266ff3466474ef23976a24c8bf79a977",
+        "timestamp": 1410372636
+      },
+      {
+        "files": [
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "6d558a671bae8fac495488a0a698fa74d3e8ef70",
+        "timestamp": 1410372883
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/screenshotUtil.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "a6ccd137a69975cd668350314c4671c81da1a234",
+        "timestamp": 1410476911
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "0b8b625e3cc98aab2e9fce397d13ecbbe60b2e0a",
+        "timestamp": 1410485925
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "MANIFEST.in",
+          "pyautogui/screenshotUtil.py",
+          "setup.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "6ec63348dfb38b7a24418d4963f677c2da079947",
+        "timestamp": 1410486119
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "6d692b3eabaca8674dd68406aa875aa6d5a1a053",
+        "timestamp": 1410486232
+      },
+      {
+        "files": [
+          "docs/screenshot.rst"
+        ],
+        "sha": "41011e628ba16e5501ca012b4ff27d7004490c1a",
+        "timestamp": 1410494983
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "c1981c2d1c3c89a3cfc53c92211bcd32097e6472",
+        "timestamp": 1410495106
+      },
+      {
+        "files": [
+          "docs/install.rst",
+          "docs/roadmap.rst",
+          "docs/screenshot.rst"
+        ],
+        "sha": "53b6ed95f27ec9609be7555369dd5a67ca27a87c",
+        "timestamp": 1410564822
+      },
+      {
+        "files": [
+          "docs/introduction.rst",
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_win.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "a59946c8eebc012cabff03acabba03393112ef7b",
+        "timestamp": 1410568835
+      },
+      {
+        "files": [
+          "docs/introduction.rst"
+        ],
+        "sha": "dce588d4def8919c0c826d2c521b703cea050444",
+        "timestamp": 1410570027
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "e05b3c9aead9dfc830f6dded291ae76e63c42687",
+        "timestamp": 1410570126
+      },
+      {
+        "files": [
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "eed09572c7390d01d8705a5a9a4789f22891dfcb",
+        "timestamp": 1410813715
+      },
+      {
+        "files": [
+          "docs/install.rst",
+          "docs/screenshot.rst",
+          "pyautogui/__init__.py",
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "49cb543320df135757eceb8c5033be256212de49",
+        "timestamp": 1410814906
+      },
+      {
+        "files": [
+          "docs/screenshot.rst"
+        ],
+        "sha": "6881d9d503361adb8f625f6aa60e4cb2bbcb1a2d",
+        "timestamp": 1410814995
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "33e4d8d4b0af4ebd2f3ad060fc0edcc34786cc79",
+        "timestamp": 1410815271
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "acbdfc6fb7fd9b48e9eb78610eb630539ee30dab",
+        "timestamp": 1410815393
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "e0bc2551fb51b3b9513321977e3c230a6344dde9",
+        "timestamp": 1410828466
+      },
+      {
+        "files": [
+          "docs/keyboard.rst"
+        ],
+        "sha": "f16d55579b6935b9873d17b68d06d7253ebb0ab4",
+        "timestamp": 1410828496
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "2ab217430a6d711358de3b3d47a8b805d27fd8cf",
+        "timestamp": 1410829993
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "c91d1da91fc6b8d1a543cc00f7c264724927c217",
+        "timestamp": 1410830703
+      },
+      {
+        "files": [
+          "docs/screenshot.rst"
+        ],
+        "sha": "c408a8e1cd92181d5048ba2a8b7d04449a3c9c50",
+        "timestamp": 1410830800
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "4d2926dedacde247607007c0dcee922e347ed0db",
+        "timestamp": 1410830892
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/screenshotUtil.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "ffb7b286ed9ea4122d58e9eaa75e19fedf44a4d1",
+        "timestamp": 1410896555
+      },
+      {
+        "files": [
+          "LICENSE.txt",
+          "docs/roadmap.rst",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_pyautogui_x11.py",
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "a7d72d8fe9f1802cd3ade087c4835e06f17a9c4e",
+        "timestamp": 1410902990
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "07d18a3496e052b24c5dd9df85bd5f91c166e317",
+        "timestamp": 1410911499
+      },
+      {
+        "files": [
+          "docs/calc7key.png",
+          "docs/calculator.png",
+          "docs/index.rst",
+          "docs/screenshot.rst"
+        ],
+        "sha": "619b6b55c65d94ebbc0e32d81d44b45595ff1a4e",
+        "timestamp": 1410912374
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "17f1addbda0bafb5d6e6c24dfa14300c81508c8d",
+        "timestamp": 1410913724
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "6101176811d89865258186ff06edaf0c846f0cb7",
+        "timestamp": 1410914212
+      },
+      {
+        "files": [
+          "docs/screenshot.rst"
+        ],
+        "sha": "8e69c865653b3c5412161ad9f2ff8d7263121e7f",
+        "timestamp": 1410914382
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/quickstart.rst"
+        ],
+        "sha": "a884a08e9fcc52a2bdb23c53f43c12e4c840b4ec",
+        "timestamp": 1410923543
+      },
+      {
+        "files": [
+          "docs/quickstart.rst"
+        ],
+        "sha": "8dcc6fd302adf00d2cf70d0289176ec3292a65f4",
+        "timestamp": 1410924471
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "dc817eac82927545b91c74b9b4cb8fd86b389753",
+        "timestamp": 1410930335
+      },
+      {
+        "files": [
+          "docs/quickstart.rst"
+        ],
+        "sha": "17064512264a3ab038a8e7f5db9facee7e60dd4f",
+        "timestamp": 1410983079
+      },
+      {
+        "files": [
+          "docs/quickstart.rst"
+        ],
+        "sha": "68740b48a8037109b3d7f8e305c7397887fe6b52",
+        "timestamp": 1410994697
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "docs/introduction.rst",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "e0e3626f042790d6af59aea077653f2b72df58f5",
+        "timestamp": 1411595782
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "ab0c19d17c80e46fff791eb4efa7ba474da19d9b",
+        "timestamp": 1412046387
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/__main__.py"
+        ],
+        "sha": "2c61a912698148856acbf20aa36533f249bf2634",
+        "timestamp": 1412047285
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "7c8b5621f53dfe35a6ba545f5e9e72aaf92bab18",
+        "timestamp": 1412157637
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "0f97499f92ebbbc7d9eaaa5ff085fc80d3656ec3",
+        "timestamp": 1413020801
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "39fe97cadbe33f8602f89872bdaa665398f0176c",
+        "timestamp": 1416342862
+      },
+      {
+        "files": [
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "c3708a03478cb7a090db66cd252b7db7b18b5975",
+        "timestamp": 1416508107
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "4990096e207af51dc888cc9f5a3075c923b6a4ac",
+        "timestamp": 1418447840
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "fbb604429fa4267ff0e7b6631bf32679ce15aeb4",
+        "timestamp": 1418686440
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "38a11f07207659126900f71c843562c2caf30138",
+        "timestamp": 1418693032
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "d378c0f7588a1892a58b65d3494a0750ea62cc6f",
+        "timestamp": 1418693333
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "a771c042488815de20e50971e97afb0b0deb0dd5",
+        "timestamp": 1420503149
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "2c0d40c0d301942ea8c9c559d1bae2b8261e94d3",
+        "timestamp": 1420506006
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "44572188957a579e9fa4158746b9543d3b123584",
+        "timestamp": 1420506381
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "14e1283ffaed3f624a75cd09b9641cded060801c",
+        "timestamp": 1420523130
+      },
+      {
+        "files": [
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "16c52b1057ed16a4f1b8c8a687a5a017a89ea162",
+        "timestamp": 1420573140
+      },
+      {
+        "files": [
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "f7ff5cd8c4e61e85fdec3dee470bbc637bb69d09",
+        "timestamp": 1420582004
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "93c3e2d8eb7ee3e44b605227b3004ae3d20fd493",
+        "timestamp": 1420582369
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "93ead081e38e9865ecfabce948589eaf49c86e4a",
+        "timestamp": 1422353141
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "c71c387a623f2b0945dcee36801b3d9fc1afbca0",
+        "timestamp": 1422407070
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "5020f3fcd69c17d24749d098400bf7cf12886534",
+        "timestamp": 1422899375
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "88a9d2b9fa393a52b9a69a3846c34da5ece1e87b",
+        "timestamp": 1422900037
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "b6f609a0a7b69f6950e70d8e2e1b1ca5b2e66426",
+        "timestamp": 1422916593
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "2414c0c0c8d86e171f7679e40a3daafb92df302a",
+        "timestamp": 1422917070
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "94d3e31eaedcdc844ce55a3d3bd9e7251e0682d6",
+        "timestamp": 1422917150
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "3eeecdf065022567cd101938f0ae37e6b27bcf4a",
+        "timestamp": 1423075547
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "3cfc8f71e2dbe911f0bbaa400693d4ccae22a648",
+        "timestamp": 1423146203
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "setup.py"
+        ],
+        "sha": "1612c1edecb6edc9d0c845ac724a358db6a3862d",
+        "timestamp": 1424890677
+      },
+      {
+        "files": [
+          "docs/screenshot.rst"
+        ],
+        "sha": "7f57aa2699b9934d85bae23aa43cc190cd61c7a7",
+        "timestamp": 1426008542
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "e546319b529e72be63fda94e9b6a12b0cc8ea32b",
+        "timestamp": 1427289615
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "a22fda04f09c9f545aefa43f1d4088e9ebbe5850",
+        "timestamp": 1430605788
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "setup.py"
+        ],
+        "sha": "fc661d0d7d9cdea2378e0f114b66810d31d8efe7",
+        "timestamp": 1430606263
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "50d6e37e7ea904bff89743a370e6be4f36f2b575",
+        "timestamp": 1430639227
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "4e128f7dba8774e0b8750a00a0ebdda553fc9d23",
+        "timestamp": 1430811695
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "248d0071b0eba4995409084ef42b5725971d50de",
+        "timestamp": 1430870391
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "setup.py"
+        ],
+        "sha": "c7e80163ebbd2b1068a38bc63a1d218471224ffc",
+        "timestamp": 1430870549
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "5b7d1bcedc73e21da5a0ab87f6657cf0823cb801",
+        "timestamp": 1430924458
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "145713f142037d800ff3129c76d0d4647ec498ef",
+        "timestamp": 1430975415
+      },
+      {
+        "files": [
+          "docs/install.rst"
+        ],
+        "sha": "9f0c93265b2b1d46e3d7aab7e00dfb57b52dc0e7",
+        "timestamp": 1431212328
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6f877ae7f4c147aa249d8dd713808bd13c7d3bfd",
+        "timestamp": 1433206755
+      },
+      {
+        "files": [
+          "docs/screenshot.rst"
+        ],
+        "sha": "eaf20238fa2b935fe122ebdad381558e1e045728",
+        "timestamp": 1438621617
+      },
+      {
+        "files": [
+          "docs/quickstart.rst"
+        ],
+        "sha": "e2b2a01c9e0ceacabea8afb31bb17c38fff05fc6",
+        "timestamp": 1439085622
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "4fa394b6cb6dd081aae82e23701b5e569a07f8f0",
+        "timestamp": 1439085824
+      },
+      {
+        "files": [
+          "docs/mouse.rst"
+        ],
+        "sha": "c504327f29868ab08fbb65be5f538683f5dc1800",
+        "timestamp": 1439095259
+      },
+      {
+        "files": [
+          "docs/keyboard.rst"
+        ],
+        "sha": "4d32c2aa90a8e12d948840decb23c0fb957f49e8",
+        "timestamp": 1439104580
+      },
+      {
+        "files": [
+          "docs/quickstart.rst"
+        ],
+        "sha": "6f1820b6e3a2f9381784dc5b91afa0ab20fd2d61",
+        "timestamp": 1439105148
+      },
+      {
+        "files": [
+          "docs/msgbox.rst"
+        ],
+        "sha": "0d5b0b33b384cf7ec5bc86908e5a11bc24808d8d",
+        "timestamp": 1439107099
+      },
+      {
+        "files": [
+          "docs/mouse.rst"
+        ],
+        "sha": "360deab4e09868f9ac6b5197e52c66c38fd7fd87",
+        "timestamp": 1439274554
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "ec0c036004c116b9f6e2e5dcf1c5a3f4d3954a9f",
+        "timestamp": 1439344978
+      },
+      {
+        "files": [
+          "docs/install.rst",
+          "docs/introduction.rst"
+        ],
+        "sha": "dad7d740c6b4826273b5f188cbd2e2322cc4702d",
+        "timestamp": 1439929983
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "d99cccae5ebc17bf168a27ea0a63a32244b09300",
+        "timestamp": 1441369885
+      },
+      {
+        "files": [
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "5a13dafeb956ed05bc7cc308b76936620943b60c",
+        "timestamp": 1441369901
+      },
+      {
+        "files": [
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "9f6d0bfb946353ece8762664a3247e98b31f90b3",
+        "timestamp": 1441375244
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "318e186cd4f8ca76183a97227359d2f0ee2336c3",
+        "timestamp": 1441378337
+      },
+      {
+        "files": [
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "3471c5141ac0f59e8a25fe5d4c00cdee715985ba",
+        "timestamp": 1441402076
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "a4dd4cb82a3372271b1d0ea29fdc7573656193ef",
+        "timestamp": 1441402104
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "796055cf045c887e2977f309a1aa09e578c632de",
+        "timestamp": 1441416752
+      },
+      {
+        "files": [
+          "pyautogui/util.py"
+        ],
+        "sha": "04bf66096217df2f534b9a1f8ac984f72a039c79",
+        "timestamp": 1441417282
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "5bdcd37abbbf2b55ae7455cc86b6e292c495c829",
+        "timestamp": 1441419090
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "a55f551a218b928e92af2d4f4d82ed4613d19e23",
+        "timestamp": 1441419884
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "d76304937b91d6026138ebedb608c2ac5e54d44b",
+        "timestamp": 1441420490
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "166cd714de2d854b9d113b48581008a3c25ba23e",
+        "timestamp": 1441421225
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/tweens.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "1441fc99e337f704de0ba53227d45a19cc8a3bc4",
+        "timestamp": 1441422818
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "a4190c40131406c1cdd32d9f3b7ea2840e2677a1",
+        "timestamp": 1441423403
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "2c41896f2bee172680268c8d87431fbcf33026fd",
+        "timestamp": 1441428318
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "72a5da512b46ae98fdbb68ce4a94077d5ab900ab",
+        "timestamp": 1441428919
+      },
+      {
+        "files": [
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "c76d9ccc746e7dfbf8ab7f95b2703994a869b62a",
+        "timestamp": 1441553896
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "ac7043c1ec5b810e7227e2490535047e7a297309",
+        "timestamp": 1441554005
+      },
+      {
+        "files": [
+          "docs/install.rst"
+        ],
+        "sha": "9cdb72510f2c5694622384bd56fcf054f38b0e51",
+        "timestamp": 1445270259
+      },
+      {
+        "files": [
+          "docs/msgbox.rst"
+        ],
+        "sha": "94335815fdb9537cfe7a19b558dcb3c21d0c9eb2",
+        "timestamp": 1445270322
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "e0568261be764e2fe44ebe6b6baf01c40c201872",
+        "timestamp": 1446149391
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "96350bd7aa67cab9e8f01667ea63c167efea94c9",
+        "timestamp": 1446151952
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "docs/faq.rst",
+          "docs/index.rst",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "298911222e0ca3adad4b68fc515a7eb7e870be39",
+        "timestamp": 1446159682
+      },
+      {
+        "files": [
+          ".idea/vcs.xml",
+          "pyautogui/__init__.py",
+          "pyautogui/_window_win.py"
+        ],
+        "sha": "8031edb9c83e8aff17181036cf6d0a712322192e",
+        "timestamp": 1451378055
+      },
+      {
+        "files": [
+          ".idea/vcs.xml"
+        ],
+        "sha": "5d06eaa8c09f1f2d14d536e4a5d0d15dc6dfcdbe",
+        "timestamp": 1451379043
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "dc06c7ab4eccd8ecb6bd667297c3f828a1a12795",
+        "timestamp": 1452185562
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "76fd735542e41e6cad22dc2793b83a7c1f7c0107",
+        "timestamp": 1452295967
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "2025150bdd17f03e938cecce5879cb6c46c7986b",
+        "timestamp": 1454231173
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "2dede35c13bc08ce1d345420ef5ae8b9a4f8e386",
+        "timestamp": 1457608716
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "dce333d617e945175601c4f56bcf3dcf49ccda0a",
+        "timestamp": 1457608808
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "a6557577e7d6ebbf3839b25fa88e93f13da2822b",
+        "timestamp": 1457609861
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "14e2ad0bd5412b336fb4d32b8d79f957ebd985fb",
+        "timestamp": 1457609908
+      },
+      {
+        "files": [
+          "docs/install.rst"
+        ],
+        "sha": "7937826f4c9b701898c04f44ae517059b13b10fc",
+        "timestamp": 1457846937
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "a5a3b11d430385fb07a37aac0754e0b490895d4b",
+        "timestamp": 1457987067
+      },
+      {
+        "files": [
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "bc79ce1dd28a3a17cbd76a4b20e84993a3664070",
+        "timestamp": 1461940287
+      },
+      {
+        "files": [
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "fe39116aa752e1a541ae005faba54475913724dc",
+        "timestamp": 1461941170
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "0ad648808f1dfea1493318bdc45cd446cbad38cc",
+        "timestamp": 1462274394
+      },
+      {
+        "files": [
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "125626773787620a01c0cacc68de00b7659e699a",
+        "timestamp": 1462610371
+      },
+      {
+        "files": [
+          "pyautogui/window.py"
+        ],
+        "sha": "f1f0c0bc2966a068e5249ac22a8c029d351feceb",
+        "timestamp": 1464366886
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "386e6fbb01495ac91dc7c44ff45badd5c0077802",
+        "timestamp": 1464412405
+      },
+      {
+        "files": [
+          "docs/install.rst"
+        ],
+        "sha": "bffd333384485ceb04bea2de6d19c9da4d302020",
+        "timestamp": 1465345521
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "1314cf856a1ec921ba59aa3250b9137e0f1ea2a7",
+        "timestamp": 1466999800
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "49c7702063050bb356150151b8ea4eab4822f02f",
+        "timestamp": 1468328087
+      },
+      {
+        "files": [
+          "docs/quickstart.rst"
+        ],
+        "sha": "868e3921e607d74104c2f04c403b9288c2972079",
+        "timestamp": 1468569812
+      },
+      {
+        "files": [
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "a0f1c15d1ae618af5f587c8d132ea0eba9ddf287",
+        "timestamp": 1471594757
+      },
+      {
+        "files": [
+          "docs/keyboard.rst"
+        ],
+        "sha": "f5ac550cd037c32abd1d01cb4bd7f686bb8aa217",
+        "timestamp": 1477311626
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "2c7fc7bf341cf91188fd47defe55215662cbebbe",
+        "timestamp": 1489865094
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "c663e9e380437d80d3c6d6fb1d75b5306e23b7f2",
+        "timestamp": 1489865119
+      },
+      {
+        "files": [
+          "docs/roadmap.rst"
+        ],
+        "sha": "4f33e6ce00213aa2db93ba71f7122a1d8c2918b7",
+        "timestamp": 1489865179
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "cf0ab1f6282df45617da07933e2568592cb2f655",
+        "timestamp": 1489871079
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "b53b659a00882dea013c9948383f859a27d0dc52",
+        "timestamp": 1489871865
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "93e961e8511f6e6dd063ce96846c1b3987772d87",
+        "timestamp": 1489885639
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "33e6c59968f9144afc2937c4f62bab1014067784",
+        "timestamp": 1489886639
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "25813f567241770d22e13308d8b7476b463d7653",
+        "timestamp": 1489888653
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "fe22305883136ba3487a1d41cff62417a564b1ff",
+        "timestamp": 1489889562
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "9cd04d3405d3bbb2c477f9b35ae5fbaabc3acce2",
+        "timestamp": 1489947150
+      },
+      {
+        "files": [
+          "docs/introduction.rst",
+          "docs/mouse.rst"
+        ],
+        "sha": "166b8283192840a2b650edf05f41cf56f7396cfd",
+        "timestamp": 1490077703
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "ad7609c6c277831e5fb5809272139f7db8ccdbeb",
+        "timestamp": 1492657440
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "181a555071f736a88703d672585d1468adfe5ac2",
+        "timestamp": 1492711452
+      },
+      {
+        "files": [
+          "docs/keyboard.rst"
+        ],
+        "sha": "42b4df9e9f74b4611c1f21aa32cc44f624b328aa",
+        "timestamp": 1499889810
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "10cdedc95359e1e58a75fd62f3e38cf8f33dcafa",
+        "timestamp": 1508741861
+      },
+      {
+        "files": [
+          "docs/roadmap.rst"
+        ],
+        "sha": "dd60711cad0e3e4800733efff3bbc2cf73bf2a2d",
+        "timestamp": 1522272802
+      },
+      {
+        "files": [
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "c6dc761bf510b9edae588712c12f808d167393cb",
+        "timestamp": 1527714879
+      },
+      {
+        "files": [
+          "docs/screenshot.rst"
+        ],
+        "sha": "13a73e99cab5423881884968cd95ee7f1f29cc0b",
+        "timestamp": 1529693225
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "README.md",
+          "docs/roadmap.rst",
+          "setup.py"
+        ],
+        "sha": "8d7c89632334182d990dfa90b4dd82ffd96567ad",
+        "timestamp": 1531957988
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "27e44dda8a3e2dd5993a7f4e9b45a2068841f90b",
+        "timestamp": 1531960524
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "71dcabc26ec39e9b5592f97482183749e16b1118",
+        "timestamp": 1531960567
+      },
+      {
+        "files": [
+          "CHANGES.txt"
+        ],
+        "sha": "adabd030b219fb41cafca5ef23c09ea09c43d994",
+        "timestamp": 1531960612
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "61f14d7632f80267232098edd71be98a30c1339b",
+        "timestamp": 1531960683
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "012abd0f684d191206af028b35a44c39d006b439",
+        "timestamp": 1532081339
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "305de19dd21f67d3802dbbd9c417ee2361739cfe",
+        "timestamp": 1532121921
+      },
+      {
+        "files": [
+          "pyautogui/screenshotUtil.py"
+        ],
+        "sha": "979d8596afa9acf47ab6167b6719a8f38229fb3b",
+        "timestamp": 1538123250
+      },
+      {
+        "files": [
+          ".gitignore",
+          "CHANGES.txt",
+          "README.md",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "25c467962bbe978eb2902b98476a59b6b369479a",
+        "timestamp": 1541731072
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "450ab65fbddb557747098da3ad7cc76e7da3e4d3",
+        "timestamp": 1541731183
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "97c38e374b348bb62b9cab3cdbbeb03e1c6a4653",
+        "timestamp": 1546063691
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "03797cd55de7dd70f80d73e0e5ee328fa67e8bff",
+        "timestamp": 1546462225
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "c6a26d7d0ce5a6275231ab074e8bd0097d3aca35",
+        "timestamp": 1546462318
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "8bb840eb8329b723573e11c9224c6d76eacf4ee0",
+        "timestamp": 1546716221
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "docs/mouse.rst",
+          "docs/screenshot.rst",
+          "setup.py",
+          "tests/test_pyautogui.py",
+          "tox.ini"
+        ],
+        "sha": "40fe0122dbd998fbff5546e3b9860b3f9cb254b7",
+        "timestamp": 1546717231
+      },
+      {
+        "files": [
+          "docs/screenshot.rst"
+        ],
+        "sha": "2744449d389a5cf4f6f54391faf903f832869198",
+        "timestamp": 1547773980
+      },
+      {
+        "files": [
+          "docs/screenshot.rst"
+        ],
+        "sha": "e86b098b5800452d947ad294ec97e41ea5e7a8c8",
+        "timestamp": 1548104281
+      },
+      {
+        "files": [
+          "docs/roadmap.rst",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "3893e7dd4979c08f541eb468c75cd93e1f0c9814",
+        "timestamp": 1551999371
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "77524bd47334a89024013fd48e05151c3ac9289a",
+        "timestamp": 1552354991
+      },
+      {
+        "files": [
+          "docs/mouse.rst"
+        ],
+        "sha": "1b0dcd2b13b730f8b0799f0f57e4fea50f0faad2",
+        "timestamp": 1552978661
+      },
+      {
+        "files": [
+          "docs/keyboard.rst"
+        ],
+        "sha": "9cb335e6ad1986e8fc0bea86f296eb2de86fe845",
+        "timestamp": 1554674005
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "0e31129629a85e816a14a00efa28e8a72f5c3ddc",
+        "timestamp": 1554674610
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "75263fedd1d67f674766238a023f4a8d0c7e31a3",
+        "timestamp": 1558276299
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "07b7cb782a8bf1cff35cc359f3f580e60f5de452",
+        "timestamp": 1558977678
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "94142803de748a01e26b461dbde6dcdba78887a1",
+        "timestamp": 1559238170
+      },
+      {
+        "files": [
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "7bf4d713bdce051b30759efff6fe988374574c67",
+        "timestamp": 1560805840
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "docs/roadmap.rst",
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "setup.py"
+        ],
+        "sha": "967bdc3d8d24ee4bf1e558b70d49a9d2dd4fe31e",
+        "timestamp": 1561261630
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "f33591084822f072a0b6c669230e7ccec982081d",
+        "timestamp": 1561263877
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "c2c0a4933549cbf5eb2b748d405b6466a4a57f4a",
+        "timestamp": 1561267994
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "746c85a1f2e6a2bdacd724c33ed544786e17cf65",
+        "timestamp": 1561326353
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "9c9569bf0b0b20a099abef228e1b90a800cd9c07",
+        "timestamp": 1561357885
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "93e0948e86c1e17fc8c57799300fdac82f3a6285",
+        "timestamp": 1562646295
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "setup.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "5a842d88ceaa217a9e48873405b0135bce60c938",
+        "timestamp": 1563328468
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "338ae00f489bb423506c21269bd13078d697c59d",
+        "timestamp": 1564077678
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "b2486223bc6df669e747019470330f3d04b382c8",
+        "timestamp": 1564077742
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "efcd80a09e84538fcb7b1856a471c8af7493f5af",
+        "timestamp": 1564341701
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "b1ffe062f7a6dedad7c3bd3ff9569f190591f2eb",
+        "timestamp": 1565224277
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "6010a01237b9047da5c9a1a8308a7b9383cac19e",
+        "timestamp": 1565224457
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "aeb74011d0443184cbcaa23beaf862f6e98bcd95",
+        "timestamp": 1565225085
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "bd5f3bfa7a4f035cf58d80033730c678b5b077d8",
+        "timestamp": 1565915704
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "8bdbc788a87af6ae958ea457b83eeff5088d8080",
+        "timestamp": 1569723092
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "094204ca6d93f9c041fb13b12f8ed9a6dc2a4aa3",
+        "timestamp": 1569745421
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "0c4cf8768c5ea34e35c71fb03485dd6ded435698",
+        "timestamp": 1570606848
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "07338e34f4534b9b087b532dcc8e5a945b6bb5bb",
+        "timestamp": 1570608832
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "setup.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "b754da6c50f1548f99f72340f49f1d2d8e42b219",
+        "timestamp": 1570664440
+      },
+      {
+        "files": [
+          "pyautogui/screenshotUtil.py",
+          "pyautogui/tweens.py"
+        ],
+        "sha": "615ff157387bef466b8a7b773651337609dd975a",
+        "timestamp": 1570665691
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/install.rst",
+          "pyautogui/__init__.py",
+          "pyautogui/keynames.py",
+          "setup.py"
+        ],
+        "sha": "080c2daab2fdf9df5eca3b4dcf33d312b31d4f0a",
+        "timestamp": 1570669879
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "b147ed3176afeb0a1b1d0117bd948a176c91befb",
+        "timestamp": 1570821594
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "19506a96cd11791420f5496ad804504715b0f7f3",
+        "timestamp": 1570830263
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "beac31658ddf2d2c13eade53dcd5e93701e2a167",
+        "timestamp": 1570830384
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "886ef02eaeb5b1296af2125bd53e42cb24df9704",
+        "timestamp": 1570891196
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "b3e5b3ee879aac9efa9e2ddbe68fa373c402114f",
+        "timestamp": 1571175552
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "dcd878ebc05920b7c1efe86a4ed02b1e3018f5d6",
+        "timestamp": 1571177485
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "tests/100x100blueimage.png",
+          "tests/100x100redimage.png",
+          "tests/25x25blueimage.png",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "7808cd574349994a5b507d8d3f2d860092e1bca9",
+        "timestamp": 1571183698
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "d82a69d21ab7ec077d842fce64e22a846eadbf56",
+        "timestamp": 1571184044
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/keynames.py"
+        ],
+        "sha": "737192e18878aa81d922b592c99e32073aee0f54",
+        "timestamp": 1571185453
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "622a60fa96ba252f2d52b03c2d8128ea61e3610e",
+        "timestamp": 1573326820
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "5647f87ee02021a336805ceafac4b1bf16151f45",
+        "timestamp": 1574747990
+      },
+      {
+        "files": [
+          "docs/mouse.rst"
+        ],
+        "sha": "7730575f1376e08fca995c65e1d23dae0391c87d",
+        "timestamp": 1574748218
+      },
+      {
+        "files": [
+          "docs/keyboard.rst"
+        ],
+        "sha": "7a873984eaf4e89889dc8ab59bbb59fa5e6b43d9",
+        "timestamp": 1574748418
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "d2d68c0152c024983d6a9efbcf2c5b653ccf1c7d",
+        "timestamp": 1577614958
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "docs/conf.py",
+          "docs/index.rst",
+          "docs/source/modules.rst",
+          "docs/source/pyautogui.rst",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "ae061293a76a9a8fc6bc40d37f8f298f8ac00ccc",
+        "timestamp": 1578622477
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "667d23962c568c0ae7f0a35569ca73349081a49e",
+        "timestamp": 1578626078
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "1d3204664ae2b776b7989797c6a4256321c24c56",
+        "timestamp": 1578627791
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "23c15c690d35b9efa338b9284b1304ac83266edf",
+        "timestamp": 1578628263
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "setup.py"
+        ],
+        "sha": "13c83ce3acb8e6218f9a0c5b609c447972480d5d",
+        "timestamp": 1578631757
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "b82cc33ae1b0265efc91fbc7b519d454c4cefc02",
+        "timestamp": 1578632068
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "63af11d81ffa542ba3e43fd639512c938a267d42",
+        "timestamp": 1578633740
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "295ee214df9e1021c420bf082cca3ecc08649aab",
+        "timestamp": 1499883941
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "docs/index.rst",
+          "setup.py"
+        ],
+        "sha": "6ebf8474c62c55caf9402a2fd73b13159e691e89",
+        "timestamp": 1578946069
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_window_win.py"
+        ],
+        "sha": "a5b1d1eca6cbcb134186893b03e86bc960597d8b",
+        "timestamp": 1578985972
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/keyboard.rst",
+          "pyautogui/__init__.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "6b28e2d26c044e5eb1b5042cd796ba5d9a8559db",
+        "timestamp": 1582260078
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "3e01789af0ca4fa8883b082e150e1ff3f15b36f2",
+        "timestamp": 1582659652
+      },
+      {
+        "files": [
+          "README.md",
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "6bfa7a23b8ccba80d3211a473d7c496ff869d3a2",
+        "timestamp": 1585271659
+      },
+      {
+        "files": [
+          "README.md",
+          "pyautogui/_pyautogui_osx.py",
+          "setup.py"
+        ],
+        "sha": "970caae056e409310e46f7489f5cd962c514fc50",
+        "timestamp": 1585347910
+      },
+      {
+        "files": [
+          "CHANGES.txt"
+        ],
+        "sha": "1ac16fcb93e004e62893d133e09bfbd39857b563",
+        "timestamp": 1585347948
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py",
+          "setup.py"
+        ],
+        "sha": "b1a5608da4303b6446852a866076eaa2e3feb8fe",
+        "timestamp": 1585783797
+      },
+      {
+        "files": [
+          "CHANGES.txt"
+        ],
+        "sha": "57a98be5fc1c33f077ca499f7836741faf31d463",
+        "timestamp": 1585783865
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_x11.py"
+        ],
+        "sha": "2f2573a6b985e199dd07c39aad8ebacda38e2d33",
+        "timestamp": 1586387664
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "0e2c4b31323f9a696cea0af42f0a74049e4aa0a5",
+        "timestamp": 1600648784
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "e869e5dd9c36022631888555776749ca2f70382b",
+        "timestamp": 1601782326
+      },
+      {
+        "files": [
+          "docs/screenshot.rst"
+        ],
+        "sha": "a62027c63fdeccfaaa0e8eda9e999cdea28a1a02",
+        "timestamp": 1601799221
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "470f961c661984a472089289c8797c8ceb020f19",
+        "timestamp": 1602022398
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyautogui/__init__.py"
+        ],
+        "sha": "bc3ab0fa10f2c604bec5881a06c2d600241b644b",
+        "timestamp": 1602022506
+      },
+      {
+        "files": [
+          "docs/install.rst"
+        ],
+        "sha": "861c59fb2937f6def278ee1675740c42259d3fb4",
+        "timestamp": 1603478688
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "f1aaf9e3d6694cea94d30e1d63a661d8482195a0",
+        "timestamp": 1608174727
+      },
+      {
+        "files": [
+          "docs/roadmap.rst"
+        ],
+        "sha": "b6969d4f0cc930360528029b25d753873e691ec0",
+        "timestamp": 1608179269
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "de9c5d706333e37005961a3d9ccb1249ab6632b4",
+        "timestamp": 1613050570
+      },
+      {
+        "files": [
+          "docs/install.rst"
+        ],
+        "sha": "686c9eddafb296a8cebdd90d57a34142121aeca1",
+        "timestamp": 1613383102
+      },
+      {
+        "files": [
+          "docs/install.rst"
+        ],
+        "sha": "f692e75ab21b5a39497ca00bf001fc020f333c58",
+        "timestamp": 1613846234
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "4829f70903e1f103c833933630f077c7a6570f79",
+        "timestamp": 1617493254
+      },
+      {
+        "files": [
+          "docs/install.rst"
+        ],
+        "sha": "d5a916c1570faa56409276f517739635db912224",
+        "timestamp": 1617698035
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "74f931bd40766c53fb13d16b3b36ae6aeb908982",
+        "timestamp": 1617733066
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "29c408fb58cdf454ea90b231aeee14433fc4c362",
+        "timestamp": 1618071070
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "c54b919860e1a4c6decedfffb755733a4052fdf5",
+        "timestamp": 1618714535
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "9bae043786ab92fada3a5e27c4c35db406417c21",
+        "timestamp": 1618719502
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "eb30f07ee64f76c1201f4f477fb66d1d183709f9",
+        "timestamp": 1618722311
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py"
+        ],
+        "sha": "280870089726561224122e7bb350f2b9e05de560",
+        "timestamp": 1624544858
+      },
+      {
+        "files": [
+          ".gitignore",
+          "Pipfile"
+        ],
+        "sha": "33c13732a0bebaee36aeabb07740d68c50c1f3e3",
+        "timestamp": 1625671568
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_win.py"
+        ],
+        "sha": "2f7cc3366246c22dd4819d34a9a7e1a78d35ad74",
+        "timestamp": 1625676257
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "Pipfile",
+          "pyautogui/__init__.py",
+          "setup.py"
+        ],
+        "sha": "9de7b3ebf8817a846b03caec0775ecbf4596452b",
+        "timestamp": 1625677427
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "57fb278a207bd7e923cd72695c59abad5b8fd37a",
+        "timestamp": 1630531543
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9f833ba5c48f6488a592c1e05b5206dcf8cb12ec",
+        "timestamp": 1631595350
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "673389cec03649144ac5ca5dc25491f886e5ee4c",
+        "timestamp": 1631597219
+      },
+      {
+        "files": [
+          "docs/simplified-chinese.ipynb"
+        ],
+        "sha": "433b3dbfa7d2187874cf65775cecae646de59c86",
+        "timestamp": 1631597539
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "24d638dc726a8805b692ff57360003db29780613",
+        "timestamp": 1631597616
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "667161b072e89b4a25b806c5f2ca616e6c0aeec3",
+        "timestamp": 1631641267
+      },
+      {
+        "files": [
+          "pyautogui/__init__.py",
+          "pyautogui/_pyautogui_osx.py",
+          "pyautogui/_pyautogui_win.py",
+          "pyautogui/_pyautogui_x11.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "44e8c3ab24a61b007da59d31e37f5bf926e0b509",
+        "timestamp": 1683243352
+      },
+      {
+        "files": [
+          "pyautogui/_pyautogui_osx.py"
+        ],
+        "sha": "b6b2c4c4f94471bcef0785e236dda0046ff190b0",
+        "timestamp": 1683662199
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "Pipfile",
+          "pyautogui/__init__.py",
+          "setup.py",
+          "tests/test_pyautogui.py"
+        ],
+        "sha": "5fee761f90e69f47dd3af6439f3a1a6b4ac806d8",
+        "timestamp": 1684959072
+      },
+      {
+        "files": [
+          "docs/mouse.rst"
+        ],
+        "sha": "28d30f1361c135596fe1675f72ad5a47ee326850",
+        "timestamp": 1685024094
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "b4255d0be42c377154c7d92337d7f8515fc63234",
+        "timestamp": 1686136583
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 6,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".gitignore": 0,
+      ".idea/vcs.xml": 1,
+      "AUTHORS.txt": 2,
+      "CHANGES.txt": 3,
+      "LICENSE.txt": 4,
+      "MANIFEST.in": 5,
+      "Pipfile": 6,
+      "README.md": 7,
+      "docs/calc7key.png": 8,
+      "docs/calculator.png": 9,
+      "docs/conf.py": 10,
+      "docs/faq.rst": 11,
+      "docs/index.rst": 12,
+      "docs/install.rst": 13,
+      "docs/introduction.rst": 14,
+      "docs/keyboard.rst": 15,
+      "docs/mouse.rst": 16,
+      "docs/msgbox.rst": 17,
+      "docs/quickstart.rst": 18,
+      "docs/roadmap.rst": 19,
+      "docs/screenshot.rst": 20,
+      "docs/simplified-chinese.ipynb": 21,
+      "docs/source/modules.rst": 22,
+      "docs/source/pyautogui.rst": 23,
+      "docs/square_spiral.png": 24,
+      "docs/tests.rst": 25,
+      "pyautogui/__init__.py": 26,
+      "pyautogui/__main__.py": 27,
+      "pyautogui/_pyautogui_osx.py": 28,
+      "pyautogui/_pyautogui_win.py": 29,
+      "pyautogui/_pyautogui_x11.py": 30,
+      "pyautogui/_window_win.py": 31,
+      "pyautogui/keynames.py": 32,
+      "pyautogui/msgbox.py": 33,
+      "pyautogui/screenshot.py": 34,
+      "pyautogui/screenshotUtil.py": 35,
+      "pyautogui/tweens.py": 36,
+      "pyautogui/util.py": 37,
+      "pyautogui/window.py": 38,
+      "setup.cfg": 39,
+      "setup.py": 40,
+      "tests/100x100blueimage.png": 41,
+      "tests/100x100redimage.png": 42,
+      "tests/25x25blueimage.png": 43,
+      "tests/test_pyautogui.py": 44,
+      "tox.ini": 45
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1405639838,
+      "last_commit_ts": 1686136583,
+      "n_cochange_pairs": 53,
+      "n_commits_dropped_as_bulk": 11,
+      "n_commits_used": 307,
+      "n_files": 46
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "b4255d0be42c377154c7d92337d7f8515fc63234",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
