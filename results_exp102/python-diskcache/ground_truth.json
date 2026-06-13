@@ -1,0 +1,5497 @@
+{
+  "chain_hash": "e544d37b2c3f2aba",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/workflows/integration.yml||.github/workflows/release.yml": 4,
+      ".github/workflows/integration.yml||tox.ini": 2,
+      ".github/workflows/release.yml||tox.ini": 2,
+      ".pylintrc||diskcache/core.py": 5,
+      ".pylintrc||diskcache/djangocache.py": 2,
+      ".pylintrc||diskcache/fanout.py": 3,
+      ".pylintrc||diskcache/persistent.py": 2,
+      ".pylintrc||diskcache/recipes.py": 2,
+      ".travis.yml||README.rst": 3,
+      ".travis.yml||appveyor.yml": 4,
+      ".travis.yml||docs/development.rst": 2,
+      ".travis.yml||docs/index.rst": 4,
+      ".travis.yml||requirements.txt": 2,
+      ".travis.yml||setup.py": 3,
+      ".travis.yml||tox.ini": 6,
+      "LICENSE||README.rst": 5,
+      "LICENSE||diskcache/__init__.py": 3,
+      "LICENSE||docs/conf.py": 2,
+      "LICENSE||docs/index.rst": 2,
+      "README.rst||diskcache/__init__.py": 5,
+      "README.rst||docs/conf.py": 3,
+      "README.rst||docs/development.rst": 3,
+      "README.rst||docs/index.rst": 12,
+      "README.rst||setup.py": 4,
+      "appveyor.yml||requirements.txt": 3,
+      "appveyor.yml||tox.ini": 4,
+      "diskcache/__init__.py||diskcache/core.py": 12,
+      "diskcache/__init__.py||diskcache/djangocache.py": 6,
+      "diskcache/__init__.py||diskcache/fanout.py": 4,
+      "diskcache/__init__.py||diskcache/persistent.py": 3,
+      "diskcache/__init__.py||diskcache/recipes.py": 2,
+      "diskcache/__init__.py||diskcache/stampede.py": 2,
+      "diskcache/__init__.py||docs/api.rst": 3,
+      "diskcache/__init__.py||docs/conf.py": 3,
+      "diskcache/__init__.py||docs/index.rst": 3,
+      "diskcache/__init__.py||docs/tutorial.rst": 3,
+      "diskcache/__init__.py||setup.py": 10,
+      "diskcache/__init__.py||tests/test_core.py": 2,
+      "diskcache/__init__.py||tests/test_ordered.py": 2,
+      "diskcache/__init__.py||tox.ini": 3,
+      "diskcache/core.py||diskcache/djangocache.py": 17,
+      "diskcache/core.py||diskcache/fanout.py": 24,
+      "diskcache/core.py||diskcache/memo.py": 3,
+      "diskcache/core.py||diskcache/ordered.py": 2,
+      "diskcache/core.py||diskcache/persistent.py": 12,
+      "diskcache/core.py||diskcache/recipes.py": 7,
+      "diskcache/core.py||docs/api.rst": 5,
+      "diskcache/core.py||docs/tutorial.rst": 9,
+      "diskcache/core.py||setup.py": 2,
+      "diskcache/core.py||tests/stress_test_core.py": 2,
+      "diskcache/core.py||tests/test_core.py": 36,
+      "diskcache/core.py||tests/test_djangocache.py": 4,
+      "diskcache/core.py||tests/test_doctest.py": 2,
+      "diskcache/core.py||tests/test_fanout.py": 11,
+      "diskcache/core.py||tests/test_ordered.py": 2,
+      "diskcache/core.py||tox.ini": 2,
+      "diskcache/djangocache.py||diskcache/fanout.py": 18,
+      "diskcache/djangocache.py||diskcache/memo.py": 5,
+      "diskcache/djangocache.py||diskcache/persistent.py": 6,
+      "diskcache/djangocache.py||diskcache/recipes.py": 3,
+      "diskcache/djangocache.py||diskcache/stampede.py": 2,
+      "diskcache/djangocache.py||setup.py": 2,
+      "diskcache/djangocache.py||tests/test_core.py": 7,
+      "diskcache/djangocache.py||tests/test_djangocache.py": 6,
+      "diskcache/djangocache.py||tests/test_doctest.py": 2,
+      "diskcache/djangocache.py||tests/test_fanout.py": 5,
+      "diskcache/fanout.py||diskcache/persistent.py": 6,
+      "diskcache/fanout.py||diskcache/recipes.py": 3,
+      "diskcache/fanout.py||docs/tutorial.rst": 4,
+      "diskcache/fanout.py||tests/test_core.py": 7,
+      "diskcache/fanout.py||tests/test_djangocache.py": 5,
+      "diskcache/fanout.py||tests/test_fanout.py": 10,
+      "diskcache/memo.py||diskcache/persistent.py": 2,
+      "diskcache/memo.py||tests/plot_early_recompute.py": 3,
+      "diskcache/memo.py||tests/test_core.py": 2,
+      "diskcache/memo.py||tests/test_djangocache.py": 2,
+      "diskcache/memo.py||tests/test_fanout.py": 4,
+      "diskcache/memo.py||tests/test_memo.py": 3,
+      "diskcache/ordered.py||tests/test_ordered.py": 2,
+      "diskcache/persistent.py||diskcache/recipes.py": 4,
+      "diskcache/persistent.py||tests/stress_test_deque_mp.py": 2,
+      "diskcache/persistent.py||tests/test_core.py": 3,
+      "diskcache/persistent.py||tests/test_deque.py": 4,
+      "diskcache/persistent.py||tests/test_index.py": 7,
+      "diskcache/recipes.py||tests/test_core.py": 2,
+      "diskcache/recipes.py||tests/test_doctest.py": 3,
+      "docs/api.rst||docs/tutorial.rst": 12,
+      "docs/cache-benchmarks.rst||docs/djangocache-benchmarks.rst": 3,
+      "docs/cache-benchmarks.rst||docs/index.rst": 3,
+      "docs/conf.py||docs/index.rst": 2,
+      "docs/development.rst||docs/index.rst": 3,
+      "docs/development.rst||docs/tutorial.rst": 2,
+      "docs/development.rst||setup.py": 3,
+      "docs/djangocache-benchmarks.rst||docs/index.rst": 3,
+      "docs/index.rst||setup.py": 2,
+      "docs/index.rst||tests/stress_test_core.py": 2,
+      "docs/index.rst||tox.ini": 2,
+      "docs/tutorial.rst||tests/test_core.py": 5,
+      "docs/tutorial.rst||tests/test_doctest.py": 2,
+      "docs/tutorial.rst||tests/test_fanout.py": 3,
+      "requirements.txt||tests/test_core.py": 2,
+      "requirements.txt||tests/test_fanout.py": 2,
+      "requirements.txt||tox.ini": 7,
+      "setup.py||tests/test_core.py": 2,
+      "setup.py||tox.ini": 2,
+      "tests/benchmark_core.py||tests/benchmark_djangocache.py": 3,
+      "tests/benchmark_core.py||tests/stress_test_core.py": 2,
+      "tests/benchmark_core.py||tests/utils.py": 2,
+      "tests/stress_test_core.py||tests/stress_test_fanout.py": 6,
+      "tests/stress_test_core.py||tests/test_core.py": 3,
+      "tests/stress_test_core.py||tests/utils.py": 2,
+      "tests/stress_test_deque_mp.py||tests/stress_test_index_mp.py": 4,
+      "tests/test_core.py||tests/test_djangocache.py": 5,
+      "tests/test_core.py||tests/test_fanout.py": 20,
+      "tests/test_core.py||tests/test_index.py": 2,
+      "tests/test_deque.py||tests/test_index.py": 5,
+      "tests/test_djangocache.py||tests/test_fanout.py": 6,
+      "tests/test_djangocache.py||tox.ini": 2,
+      "tests/timings_core_p1.txt||tests/timings_core_p8.txt": 4,
+      "tests/timings_core_p1.txt||tests/timings_djangocache.txt": 4,
+      "tests/timings_core_p1.txt||tests/timings_glob.txt": 2,
+      "tests/timings_core_p8.txt||tests/timings_djangocache.txt": 4,
+      "tests/timings_core_p8.txt||tests/timings_glob.txt": 2,
+      "tests/timings_djangocache.txt||tests/timings_glob.txt": 2
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "diskcache/core.py",
+          "setup.py",
+          "tests/test_core.py",
+          "tox.ini"
+        ],
+        "sha": "17a9e303a7df8ab40299dbec65a8a04995867413",
+        "timestamp": 1454549281
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "c508c3759533648b15f0f890a9814512bbc3e5ad",
+        "timestamp": 1454549993
+      },
+      {
+        "files": [
+          "README.rst",
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "setup.py",
+          "tests/stress_test_core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "9b8e2bce4edeeda5075cd052a2942dceef22e3af",
+        "timestamp": 1455133770
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "diskcache/__init__.py",
+          "diskcache/cli.py",
+          "diskcache/djangocache.py",
+          "setup.py"
+        ],
+        "sha": "5c001df0bdbbd3f00f17a0731d0f87527fc5bb0f",
+        "timestamp": 1455141726
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/djangocache.py",
+          "diskcache/stampede.py"
+        ],
+        "sha": "d68cf116b0c4f390583fd3dc30825fd0252448e5",
+        "timestamp": 1455143655
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "6139fa8e4c510b52d40e08cb8aecc7f9e24feb18",
+        "timestamp": 1455144504
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e69567efceb7af796f5c501b519957a9bbb7e2ed",
+        "timestamp": 1455144564
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "9f9c6de4892989608d79f1f1e3d329ea4d926c32",
+        "timestamp": 1455144573
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "a30edca8b8a108cfd53135bd2d21fe563f9980b6",
+        "timestamp": 1455145232
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "dabfc989d28f4ebea336b25ffb61c00feb0fa177",
+        "timestamp": 1455145246
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "4b586227a5e283316e1c22dd35c8ab5c63bb01e9",
+        "timestamp": 1455145271
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "1176f1ca467f0471ed949d71f8c31665ea1d466f",
+        "timestamp": 1455148629
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "6e28c02f0979d89a4909aa329f9556339c56a0ba",
+        "timestamp": 1455148661
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "eb142d02b10558dc311bc28a25454ade539f1113",
+        "timestamp": 1455148695
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "3556fe2e34134b9049b09663003babce0e58f5c7",
+        "timestamp": 1455148713
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0f99ff6880f991e45c9fbdbf5f78abc8a039d606",
+        "timestamp": 1455152959
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "c93057d41e55945669a17cee56b1380692221d2a",
+        "timestamp": 1455152977
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5f6fdc3158bd34ea8e50c1d751135e3032ca3298",
+        "timestamp": 1455161842
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "c69ad65e6931bf62b00575ead5975bd83f234025",
+        "timestamp": 1455161868
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "3045e802b7792012c1faa6eb5bf5a509a8b21c5b",
+        "timestamp": 1455162092
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "12b1b963d992c5c9b1b89362f44149076da361ce",
+        "timestamp": 1455162110
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "689001137b88757e4556d3f61d7545be092e0b8b",
+        "timestamp": 1455166557
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "8f506334d0b9740aea156548901e9318c1fb746d",
+        "timestamp": 1455166576
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e0213691f4e43c528e4a23cf83ed5a4803727469",
+        "timestamp": 1455166747
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "df3f689f95a48f87c0543297ef3ec59a0a7ec259",
+        "timestamp": 1455166814
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "e22de316f0e28dc8a4c9d67beb0a02e0e396fd9a",
+        "timestamp": 1455167054
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "85bc860a8f2ad8a246b12e9b045d7ef210f2a484",
+        "timestamp": 1455167077
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "ddf8d8740192f0954cd436e9ac67b3c0fbdffe4f",
+        "timestamp": 1455167836
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "454435b0bd688c636f210aa31c321eb41c6dcce0",
+        "timestamp": 1455167849
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "setup.py"
+        ],
+        "sha": "7f7d12634ae0b775506bd58b79ff788a0651ed66",
+        "timestamp": 1455168076
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "setup.py"
+        ],
+        "sha": "3fd7e39c3ddee5c62a7be24497147a8f239fe8b2",
+        "timestamp": 1455168438
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "setup.py"
+        ],
+        "sha": "b44449a83afa936e13058dbd2241c3cd63c97f69",
+        "timestamp": 1455168597
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "setup.py"
+        ],
+        "sha": "36eb4ba378553c3d9c95478f4cb789789710f0c4",
+        "timestamp": 1455168820
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "setup.py"
+        ],
+        "sha": "e24dabcd7239ff50e46ca027c34de7042c2e9590",
+        "timestamp": 1455170252
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "setup.py"
+        ],
+        "sha": "b5806224733826f788dbd0ab1c3a2095203af54e",
+        "timestamp": 1455170605
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "setup.py"
+        ],
+        "sha": "9a7eda034d90c36ceb4cdf729ba86d8721a867a0",
+        "timestamp": 1455170699
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "setup.py"
+        ],
+        "sha": "7b136463f008e2767ac803d928cf5154e42616c5",
+        "timestamp": 1455170829
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "setup.py"
+        ],
+        "sha": "eadb2946029aefa08864165dfbe49c9a9ce73a4d",
+        "timestamp": 1455171125
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "15264189d6d0cc875bd55ae9cd168ac26f9d9080",
+        "timestamp": 1455317295
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "421a829c24192f3c1a1478bbbbed87974339d061",
+        "timestamp": 1455317339
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "b5029632caa665b3908239d79a96b7114a7561c0",
+        "timestamp": 1455779193
+      },
+      {
+        "files": [
+          "diskcache/stampede.py"
+        ],
+        "sha": "0789929f1fdaadbd85f7916686c6d0d639070a8e",
+        "timestamp": 1455779210
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "cd1047de944d2f53bc0cc7d46b24b3d791327935",
+        "timestamp": 1455779229
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py"
+        ],
+        "sha": "aff16d5ba12a053e1b4d6deec7084b0d5363582a",
+        "timestamp": 1455779282
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "9590571d973974fd6aec91e9ea58e010299738c9",
+        "timestamp": 1455779308
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "18e8c5e74693f16686a5a70688f3724af8ddab56",
+        "timestamp": 1455779346
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "ac8a04b48e6aa245f85c7923ce8ac44ee065c713",
+        "timestamp": 1455822156
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "51e377596e669c9c46e127b38038e2869c42812d",
+        "timestamp": 1455822404
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "102a9aa05ba33e4334e7893c44cc05faaddcd032",
+        "timestamp": 1455822546
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "tests/stress_test_core.py"
+        ],
+        "sha": "e33fdddb64662df870fa3856d0f09d835c1f221b",
+        "timestamp": 1455826370
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "16cdb3599de082da6ef540727080908c8382c510",
+        "timestamp": 1455915333
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "4af6d6cf98db293c7da27b774a4dfc60f94a4801",
+        "timestamp": 1455915345
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "6b30f4836169ba8c04c095e857895cc4bf7cdbd0",
+        "timestamp": 1455915395
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py"
+        ],
+        "sha": "2ad5672e6ce505de1c272bc6965d50b160e8be0e",
+        "timestamp": 1455916731
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/index.rst",
+          "tox.ini"
+        ],
+        "sha": "02feec9399ab724c4f8015822d9525f8f6952a78",
+        "timestamp": 1455916749
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "cd5a2f0bef2870d65c17b66562ed48f92dc0a892",
+        "timestamp": 1455917852
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/core.py"
+        ],
+        "sha": "25e393154c661272c7c2a0032ad441e18b092e31",
+        "timestamp": 1456033887
+      },
+      {
+        "files": [
+          ".pylintrc"
+        ],
+        "sha": "46da885b7f830efcffb3f2d6b925b33009a06d21",
+        "timestamp": 1456033905
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "bd4bd030325cb522d391f6f959376c637e79a97c",
+        "timestamp": 1456033936
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "488c5fe32be5a0de6c09b4c0718c54aa343b1ee0",
+        "timestamp": 1456033976
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "13891f9d05e36e02c193344ca6050d1e4ea3e684",
+        "timestamp": 1456034001
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "b08a090100f849dc5b6a6ae3cadcac750a0dd01d",
+        "timestamp": 1456034049
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "e61882e87e61049d2df59bf18778a3a724df1910",
+        "timestamp": 1456202645
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "diskcache/__init__.py",
+          "docs/index.rst"
+        ],
+        "sha": "0cb0f5f0ef7fdca77f5663264c3bcdca1fa82cca",
+        "timestamp": 1456203160
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "f73f9d3bb3511b33592d6c2f06a43a93abe21ef8",
+        "timestamp": 1456423264
+      },
+      {
+        "files": [
+          "tests/benchmark_core.py",
+          "tests/benchmark_djangocache.py",
+          "tests/stress_test_core.py",
+          "tests/utils.py"
+        ],
+        "sha": "1c425b12ab048575d26f1e5fb54e116b4b231627",
+        "timestamp": 1456423302
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "4b4b7fba7bf3cdd9b68d4319bbcb194e203f8322",
+        "timestamp": 1456423320
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "requirements.txt",
+          "tests/benchmark_core.py",
+          "tests/stress_test_core.py",
+          "tests/utils.py",
+          "tox.ini"
+        ],
+        "sha": "43f36135c0e4eaf110d82bd82451d6723d692bc8",
+        "timestamp": 1456425463
+      },
+      {
+        "files": [
+          "tests/db.sqlite3",
+          "tests/settings.py"
+        ],
+        "sha": "634ba72fe4f11a8837a145f0659909061c9a3ee9",
+        "timestamp": 1456425736
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "538fa74f03cb71c33045e4e8395fac90df444c42",
+        "timestamp": 1456426049
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "46888aa7ea26d782ced08c714ffc32ff87883dd2",
+        "timestamp": 1456427571
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "97995032720e8d8c368f27c968b3b8cd25e6b2c4",
+        "timestamp": 1456446548
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "7d3be5a943d8d8171b716d24f65566b45855a193",
+        "timestamp": 1456446572
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "36dad6d3b0e152d6979adef87666bfe3f63c75b9",
+        "timestamp": 1456446593
+      },
+      {
+        "files": [
+          "tests/benchmark_core.py"
+        ],
+        "sha": "55bc146ee63ea6b2a2e7875d50822917791feeb8",
+        "timestamp": 1456446653
+      },
+      {
+        "files": [
+          "tests/test_core.py",
+          "tests/utils.py"
+        ],
+        "sha": "04c68d22b39da6f8630439cffe9e2ee043b52be7",
+        "timestamp": 1456446664
+      },
+      {
+        "files": [
+          "tests/utils.py"
+        ],
+        "sha": "6ed8864d7a0275597518c10aeb2b2c29a16a7e49",
+        "timestamp": 1456447954
+      },
+      {
+        "files": [
+          "docs/cache-benchmarks.rst",
+          "docs/index.rst"
+        ],
+        "sha": "bd12a2664684a415ac2e3c6b53a8d829ed8b824b",
+        "timestamp": 1456447969
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "b7a6b3a79762bcc5528034f760b8eae5484c410e",
+        "timestamp": 1456448000
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "776ccafd685764ef302a49f0f08ac36be32e3aec",
+        "timestamp": 1456769815
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "21cc12b145705bba6705a08442a6fed6a512c2aa",
+        "timestamp": 1456772269
+      },
+      {
+        "files": [
+          "tests/benchmark_core.py"
+        ],
+        "sha": "905985838ea3b19c7855dd96319389bede476e7c",
+        "timestamp": 1456772400
+      },
+      {
+        "files": [
+          "tests/benchmark_djangocache.py"
+        ],
+        "sha": "6c9552106648d6a155458c5166fe8c1bbf82bd8a",
+        "timestamp": 1456772430
+      },
+      {
+        "files": [
+          "tests/utils.py"
+        ],
+        "sha": "c1f41e28abcf64fe0da9b0b94b8f691e2146e60b",
+        "timestamp": 1456772495
+      },
+      {
+        "files": [
+          "tests/models.py",
+          "tests/test_djangocache.py"
+        ],
+        "sha": "65fac4cdafafdb7ff4a3d6fbbeeba1a3c1441307",
+        "timestamp": 1456772522
+      },
+      {
+        "files": [
+          "tests/settings.py"
+        ],
+        "sha": "f6ce7d6f729b544a9903a77935b2f8902c307662",
+        "timestamp": 1456772542
+      },
+      {
+        "files": [
+          "tests/plot.py"
+        ],
+        "sha": "a00876280571ef523060afee5be75b71b4b65695",
+        "timestamp": 1456772560
+      },
+      {
+        "files": [
+          "docs/cache-benchmarks.rst",
+          "docs/djangocache-benchmarks.rst"
+        ],
+        "sha": "a513696a1c5b52fd50c5c7718456334731c58e42",
+        "timestamp": 1456772591
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "9361b31ed8d0e230e32c75b7b61b3668ce3a6e9a",
+        "timestamp": 1456772645
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "diskcache/core.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "5bf8f9146561ecf9e4157988f2f6cef945797cf7",
+        "timestamp": 1456777283
+      },
+      {
+        "files": [
+          "tests/test_fanout.py"
+        ],
+        "sha": "36ef297502133e7954cc9bee86bb0397ce1a5eae",
+        "timestamp": 1456779626
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "35a98021ac5d5a6fd66fd9accab0371f177dec8c",
+        "timestamp": 1456779661
+      },
+      {
+        "files": [
+          "tests/benchmark_core.py",
+          "tests/benchmark_djangocache.py"
+        ],
+        "sha": "4404d37642e15b78ffff0ac877b7c8260a20691a",
+        "timestamp": 1456779836
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py"
+        ],
+        "sha": "b3b40d1fb2581f5b627b3f46c608cc09f8091615",
+        "timestamp": 1456780224
+      },
+      {
+        "files": [
+          "docs/djangocache-benchmarks.rst",
+          "docs/index.rst"
+        ],
+        "sha": "6d71e2f5057290ea3a3dc5c68b45ad09d07f5f39",
+        "timestamp": 1456780283
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "e21c42e3c6647d2ae419cc4290f9222fdca130a7",
+        "timestamp": 1456780305
+      },
+      {
+        "files": [
+          "tests/stress_test_fanout.py"
+        ],
+        "sha": "9078b6a071ce4349609e4c59f174dcc8d92093cb",
+        "timestamp": 1456858191
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py"
+        ],
+        "sha": "058b1c9fb7f7e14efeeecefd376abe1c45ae14f7",
+        "timestamp": 1456858233
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "d015aa9db110e1bbe2bfe095e5222f1bdd0e6a78",
+        "timestamp": 1456859081
+      },
+      {
+        "files": [
+          "tests/benchmark_glob.py"
+        ],
+        "sha": "d2ac3674aee6d5b26fb23eba622166bea0348352",
+        "timestamp": 1456859806
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "586199a609b748de27dfa806e2356a8423aca060",
+        "timestamp": 1456865869
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/core.py"
+        ],
+        "sha": "e96ab5924498a0dbe1e131612334557f73c9c8a6",
+        "timestamp": 1456965483
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py",
+          "tests/stress_test_fanout.py"
+        ],
+        "sha": "3a0ba80765d25630323ee88d0017329534a23886",
+        "timestamp": 1456965585
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "9df9d690b4981df3a00b49cb3c195f7f263b07c4",
+        "timestamp": 1456968273
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py",
+          "tests/benchmark_core.py"
+        ],
+        "sha": "2da601def6d7ea2028ae003e951edf77ef6f4cfb",
+        "timestamp": 1456968305
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "d60f4974af67e9991104eb3995c165c7d3bdcd01",
+        "timestamp": 1456968342
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py",
+          "tests/stress_test_fanout.py"
+        ],
+        "sha": "3d4cd1bc5a140ecefb8f41dde80f1967f6cf7b85",
+        "timestamp": 1456968871
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "docs/conf.py",
+          "docs/index.rst"
+        ],
+        "sha": "95ee37fcc7beb4527b3a6eb3c168183a547ee024",
+        "timestamp": 1456969316
+      },
+      {
+        "files": [
+          "tests/timings_core_p1.txt",
+          "tests/timings_core_p8.txt",
+          "tests/timings_djangocache.txt",
+          "tests/timings_glob.txt"
+        ],
+        "sha": "45e94c9b83d4485aea81e9a06ecbd1ee3e0d316b",
+        "timestamp": 1457027143
+      },
+      {
+        "files": [
+          "tests/benchmark_glob.py"
+        ],
+        "sha": "6806d5dbeb09371d0da34e9d3b63ca896b74cf9d",
+        "timestamp": 1457027164
+      },
+      {
+        "files": [
+          "tests/timings_djangocache.txt"
+        ],
+        "sha": "57c26525115e785a6d55dbf000ecc740245feefe",
+        "timestamp": 1457027190
+      },
+      {
+        "files": [
+          "tests/benchmark_djangocache.py"
+        ],
+        "sha": "9b3758705debdb6d4326b3eb7ee65ec61e2b8830",
+        "timestamp": 1457027212
+      },
+      {
+        "files": [
+          "tests/timings_core_p1.txt",
+          "tests/timings_core_p8.txt",
+          "tests/timings_djangocache.txt",
+          "tests/timings_glob.txt"
+        ],
+        "sha": "4ab98a5873f6f62de2893deed772fbfb92b02c3d",
+        "timestamp": 1457027703
+      },
+      {
+        "files": [
+          "tests/plot.py"
+        ],
+        "sha": "8ee7eb5f9f4e9401013bb8f7d1951ddff8aafd24",
+        "timestamp": 1457031576
+      },
+      {
+        "files": [
+          "docs/cache-benchmarks.rst",
+          "docs/djangocache-benchmarks.rst",
+          "docs/index.rst"
+        ],
+        "sha": "c9d29cf7435aca20cde2eedc69927d02ca2ecc1f",
+        "timestamp": 1457033102
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "146a88bf1340e83938347a2b8e80ff2f6494eb68",
+        "timestamp": 1457033137
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py",
+          "tests/stress_test_fanout.py"
+        ],
+        "sha": "674565e80bcda77ea73990985a0855acb7d97988",
+        "timestamp": 1457033897
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "73055eda0d98af6632606fcb99cfe01a97dad4b2",
+        "timestamp": 1457240204
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "2c812e4e5a2437fb4b1c2a3ab30c75f5d5693518",
+        "timestamp": 1457240247
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "0c44126eaaa367338432d5092a844e9b4dce9d40",
+        "timestamp": 1457240318
+      },
+      {
+        "files": [
+          ".pylintrc"
+        ],
+        "sha": "71d4ed7e0144403aa6e0493139abd1cd4cd5a09a",
+        "timestamp": 1457240367
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py",
+          "tests/stress_test_fanout.py"
+        ],
+        "sha": "2f92b825be84362f37072b9d44855ee4946cf3bd",
+        "timestamp": 1457240520
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "875dfbee3a8c3bc7891fbae1fb42e0d1fdfee68b",
+        "timestamp": 1457240537
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "2d0aabfefe2cb43a3d3d0d0d703c59a5b476ca3b",
+        "timestamp": 1457241137
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "83a425b91a71223fc523481f19be5f042c6add8d",
+        "timestamp": 1457241158
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "353116993851b6882996930003b31205c4692494",
+        "timestamp": 1457241176
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "657b64fdc1fec04f0840c823c5aa2ee2b0e806ed",
+        "timestamp": 1457241300
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "b98e9b0c7854646121f1736209a18357d429b704",
+        "timestamp": 1457241657
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "124563b36918198ad7668b9d24b00ea6e4d8680f",
+        "timestamp": 1457241683
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "633b2f23e1a92922eaddf1cb9822daf20cd558ed",
+        "timestamp": 1457242185
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "0a0e6ba781470c15976292293edeb626d79355e1",
+        "timestamp": 1457242201
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "0774726506c67359e74f5a2113a0571ec1a59869",
+        "timestamp": 1457242431
+      },
+      {
+        "files": [
+          "docs/development.rst"
+        ],
+        "sha": "f522dea9e9660f8c3fb291cf4628a77083554203",
+        "timestamp": 1457371789
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "25d2760595156d357cdd36dcebdadb9bf700b78c",
+        "timestamp": 1457371808
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "eb8350e2103f6a1fc67d6413c57bc91d5ade75a6",
+        "timestamp": 1457371898
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "6dca076071b7d099fab72242e1e647d9251e35ca",
+        "timestamp": 1457371943
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py"
+        ],
+        "sha": "f77eae7d6c19e551d7168bd612b068c04bcd11e7",
+        "timestamp": 1457395125
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "9340260bf9fa79d265573ba7f4457b2d2e0905a6",
+        "timestamp": 1457395143
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "b529b4d6588f86f60a4b415be91c932336b5a4ac",
+        "timestamp": 1457395179
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "6f700e3889ad075bd94bc8534674eca7cf1728ed",
+        "timestamp": 1457402569
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "49fa5304266d86090290178f5c4857407dff7cdb",
+        "timestamp": 1457402593
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "05dc3224c28ddc329bf9c8cbf3b37fc1a54dc662",
+        "timestamp": 1457402827
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "7364f98586544a18712b34cf0107ccf7acf3cc36",
+        "timestamp": 1457402844
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/fanout.py",
+          "docs/tutorial.rst",
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "cd244ffc43c08129cddf1c730ea57ce15a1504b9",
+        "timestamp": 1457584076
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "102a2a71fdaf8414b772b6fda2cf2fb4eb295208",
+        "timestamp": 1457584105
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/fanout.py",
+          "docs/tutorial.rst",
+          "tests/test_fanout.py"
+        ],
+        "sha": "3ed6fb7d47aff9a552023c52f097ced1251e6e09",
+        "timestamp": 1457636370
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "2b4436b5382967e7356dff270879250dfd1f27e5",
+        "timestamp": 1457637365
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "102d1f7cd1dcdfa9a8ea5e119e2233f4551409b2",
+        "timestamp": 1457637402
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py"
+        ],
+        "sha": "6871c85d0ed872d6596830dbc3727728ceef7fef",
+        "timestamp": 1457641348
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "4a3ae69dda9b6568e8d5971a4c5c21bc5597d1b1",
+        "timestamp": 1457641375
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "ae9af7e486d95bd60eae93319dbcd738d86bc09c",
+        "timestamp": 1457659702
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "0860910ad7e811a1b58c90a8070ff3bcf8a6ff7b",
+        "timestamp": 1457659724
+      },
+      {
+        "files": [
+          "docs/djangocache-benchmarks.rst"
+        ],
+        "sha": "00c56fd2bd80bf4b41df957276629d39f07fafc0",
+        "timestamp": 1458582360
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "9b6fab7f897f415e703e2d949d3f2b6dcce142ff",
+        "timestamp": 1458588646
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py"
+        ],
+        "sha": "f78a34c8848d8de897d9290565f55bb23a6dbe5c",
+        "timestamp": 1458945375
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "3e9924e49c89a8afcee255a94feeaba119ebc875",
+        "timestamp": 1458946326
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "0e4818639116719c071dda56bd072179c8c99025",
+        "timestamp": 1458946393
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py"
+        ],
+        "sha": "b3658b56370671df1688311501b1858d002b1ac1",
+        "timestamp": 1458946510
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "a15a02312e19cd3b0fc21c90b916b3a620dfdb85",
+        "timestamp": 1459246065
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "af2ac31276a9496c296b1fde47e133767ffdac17",
+        "timestamp": 1459272076
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "1efdaddbade7245ff1ec89bb8d32ce7ab2cee635",
+        "timestamp": 1459272231
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "b3a2922d9b72e7ff375074f6734aa5dc9d37ccf1",
+        "timestamp": 1459722232
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "f125f8ee5254b7e1ed82c292f170f07720ee613e",
+        "timestamp": 1459722268
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a743b0687891947c2bc11cdcae3bff5b5c9d8f00",
+        "timestamp": 1468118982
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "4fc872da99506fc052ffa07137d16a6e7d0ac092",
+        "timestamp": 1468119023
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py",
+          "tests/test_core.py"
+        ],
+        "sha": "e48b94d3a6658129f2fa7a373ca434ee6841a4d0",
+        "timestamp": 1468522487
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "a05ae9ebf9f76ad4db499739a283d8dad80d6e7f",
+        "timestamp": 1468525669
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "aba4cd12cbda53d06bcbf276d04076b052782572",
+        "timestamp": 1468526523
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/ordered.py",
+          "tests/test_ordered.py"
+        ],
+        "sha": "84e9ebf844c4dc9dc57f3e12a5612cdc286096aa",
+        "timestamp": 1469573052
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/ordered.py",
+          "tests/test_ordered.py"
+        ],
+        "sha": "c0fb452688f5cec033bde7c5209b1201f2d63d50",
+        "timestamp": 1469587900
+      },
+      {
+        "files": [
+          "tests/test_ordered.py"
+        ],
+        "sha": "28cd6d7fef208a9169b55f78e259ab7ba18a9975",
+        "timestamp": 1469588023
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "97cdec7aa2ac31bb45f65aa0bd8622d19d4367ec",
+        "timestamp": 1469648301
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "332d356323939fd42e13ec8fb6a3aa15f684e4d4",
+        "timestamp": 1469652102
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "dfc166650fd80b4bd44cde0588edec45df39fc6b",
+        "timestamp": 1469677025
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/ordered.py"
+        ],
+        "sha": "997c4672c225477829900e8a7accf5016153c3ab",
+        "timestamp": 1469677626
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/core.py",
+          "tests/test_ordered.py"
+        ],
+        "sha": "e380c40d1fd032392346bae3a5cf15eec8b2d963",
+        "timestamp": 1469677945
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "f2abf5d6b744ea75f62fb88fe24a69d3685cbb4a",
+        "timestamp": 1469681807
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "802c3ba0abc7526e40fa2dfb259306d780e08fde",
+        "timestamp": 1469681844
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "a53d9ccb498ebe177e1fa7c4bdf307ac3e874599",
+        "timestamp": 1470430429
+      },
+      {
+        "files": [
+          "tests/benchmark_djangocache.py",
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "5572cdd3da3d7f24a9ca28d7bca52f18e24a149d",
+        "timestamp": 1470430439
+      },
+      {
+        "files": [
+          ".pylintrc"
+        ],
+        "sha": "5de9ecb4d27b6858349d014e0db3a93bcf5c6ca4",
+        "timestamp": 1470430449
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "baff1ab82e669672b8d8ccafdbca91b8562ae909",
+        "timestamp": 1470435977
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py"
+        ],
+        "sha": "0b86888505a0f740e6298b48b9e897eb1e784433",
+        "timestamp": 1470435988
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "55d4ae19c1d1d8638f67efc68e52a04c52f41627",
+        "timestamp": 1470436005
+      },
+      {
+        "files": [
+          "tests/test_fanout.py"
+        ],
+        "sha": "6c76bd1de4499e5877f1fd7b61a47f909bc883c2",
+        "timestamp": 1471540057
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "86075a03122a7921183b441723cb291d56aa4457",
+        "timestamp": 1471540474
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py",
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "6dff15bd72c2a00ee12c73ac6e7c4a82b88724c3",
+        "timestamp": 1472060042
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/conf.py",
+          "docs/development.rst",
+          "docs/index.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "0d08c1df07d5ce55c9c40bd88b9ee9f924ddab22",
+        "timestamp": 1472147000
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "0937a71129e571c11e8947bd9990c8c137b31ee1",
+        "timestamp": 1472147178
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "bfab19a51c359c34bb4df5e55645552aed34e003",
+        "timestamp": 1472238408
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "93380fd3e58a25696e2e795461f7e1b9755fbac9",
+        "timestamp": 1472238484
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "8150cde55b070e20f7e36f6454cd7ba94c356c01",
+        "timestamp": 1472585141
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "3737de99c3382c6e5c505fa2980f85a3b562b1d6",
+        "timestamp": 1472585189
+      },
+      {
+        "files": [
+          "tests/test_fanout.py"
+        ],
+        "sha": "1699f6bccb6241e5614b98fac8c24e68f5978e69",
+        "timestamp": 1472585230
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "59df1a3a65d974b1d73322b90e5a09b8c759af0a",
+        "timestamp": 1472585280
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "tests/test_djangocache.py"
+        ],
+        "sha": "b7c8f32626e411927367265f446e85254b9cd376",
+        "timestamp": 1473182969
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/core.py",
+          "diskcache/fanout.py",
+          "diskcache/stampede.py"
+        ],
+        "sha": "6e303e4057591c3c9163b1459de125775febd753",
+        "timestamp": 1473183006
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "9b5b1363b979906413093124f2f41d62b438cc93",
+        "timestamp": 1473265105
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "cab7780df2807c1974e0b38ac85c594aa64d7ad5",
+        "timestamp": 1473265139
+      },
+      {
+        "files": [
+          "diskcache/fanout.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "46173bcd9d22d63d47f9f6e83b9a56c2593dcaee",
+        "timestamp": 1473268329
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "fab6e7f72ccf280e68bdef22de3dc040587fd940",
+        "timestamp": 1473268359
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "e773ce82f3ad32d2da74f29ed479534169b9101e",
+        "timestamp": 1473361578
+      },
+      {
+        "files": [
+          "tests/timings_core_p1.txt",
+          "tests/timings_core_p8.txt",
+          "tests/timings_djangocache.txt"
+        ],
+        "sha": "4a92d56ed82fe8b3508b1ca8a5d7e7f9a0fac1ab",
+        "timestamp": 1473439645
+      },
+      {
+        "files": [
+          "tests/benchmark_djangocache.py"
+        ],
+        "sha": "fd671ff49f7c8d29299ce6af0346dc5ae9065183",
+        "timestamp": 1473440223
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "c3d92b5eb1338633f2421809ebcf3a170f989c63",
+        "timestamp": 1473703092
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/cache-benchmarks.rst",
+          "docs/djangocache-benchmarks.rst",
+          "docs/index.rst"
+        ],
+        "sha": "408698a44441bfdbf299107ad6768c2676051111",
+        "timestamp": 1473705325
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "676b752ea2139d5000060f3bcd9391b90551df51",
+        "timestamp": 1473705383
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "377a9f7f55993e21f2fd087bfc86fe7b569e32fa",
+        "timestamp": 1473705768
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "d069e43dcac7a2cdda0a51d95215be2067833cf5",
+        "timestamp": 1473705897
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "7d1397be0b415810326e85d7c2532b647c06a41f",
+        "timestamp": 1473706160
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "9948c239d5aae6bd0b63e852b83a5e8d35805dee",
+        "timestamp": 1473706279
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py",
+          "tests/test_core.py",
+          "tests/test_djangocache.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "bff2d6b6ab2d9c07445bd5e11fad434d3b272bf1",
+        "timestamp": 1480028651
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "7208c6861a8086173279784e06ae423933d1fb6c",
+        "timestamp": 1480032762
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "f0e9b71fdc747730b261e33d21092110757fe785",
+        "timestamp": 1480032826
+      },
+      {
+        "files": [
+          "tests/settings.py"
+        ],
+        "sha": "c7aeb36d60fc4c1c847875e62f64d9ca6cd8a64f",
+        "timestamp": 1480202976
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "fb2b204901da63fd53f4e704612b60b3feb1b2fd",
+        "timestamp": 1480203784
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "9bf701500f9a39d0c919db0e141437a2f19a222d",
+        "timestamp": 1480207203
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "19c960378c66837dd84ff59ec195767904b85cb9",
+        "timestamp": 1480208436
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "6af2213f4e616794db6f8eea582543dd7fd2c902",
+        "timestamp": 1480208814
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py"
+        ],
+        "sha": "678f41585de86932cb54e8a793a7d382a6df3a7c",
+        "timestamp": 1480222640
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "f58a4b62a4ffcb6aea33f732f1d8b363d296ae98",
+        "timestamp": 1480224278
+      },
+      {
+        "files": [
+          "tests/stress_test_fanout.py"
+        ],
+        "sha": "efaf3ad976886a0491583fabc506f6f298917d55",
+        "timestamp": 1480224825
+      },
+      {
+        "files": [
+          "tests/test_fanout.py"
+        ],
+        "sha": "d78453cc5e4653dd98970df8854a541a224b928f",
+        "timestamp": 1480225250
+      },
+      {
+        "files": [
+          "tests/test_djangocache.py"
+        ],
+        "sha": "75be9547e7691e3a7164325b215368e07e2377bc",
+        "timestamp": 1480226027
+      },
+      {
+        "files": [
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "2bdb079dfda298ee7dea94b995cdd8f5419e3f15",
+        "timestamp": 1480226278
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "2dda1ccf4f6724039dc217ca53d6e3dc7568e606",
+        "timestamp": 1480286118
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5552b9d232ece4f04d9e85e59faab039acc714b1",
+        "timestamp": 1480288484
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "94140f0cce9eee1cd11032abfb71a75444896248",
+        "timestamp": 1480288554
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "86dffb78e6fadc7eecf64a76f4e8f5f7a45deed6",
+        "timestamp": 1480288692
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "f62e38bffe7a0a373192f42f18884066228ed48f",
+        "timestamp": 1480289667
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "ecd42cb57189d2d705f07ead234564e9c90e5ad2",
+        "timestamp": 1480289842
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "260553f10624e8b3257d11e36692e94135834a66",
+        "timestamp": 1480291079
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "9b57e7252bf06f2aa5d40c529e26dcc57aca7b40",
+        "timestamp": 1480296141
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "699f893a54197492d42dd1f09fd3391f243b5c7f",
+        "timestamp": 1480296238
+      },
+      {
+        "files": [
+          "tests/benchmark_incr.py"
+        ],
+        "sha": "a79f279a9bae42342f8b5ff125b4a281516b8338",
+        "timestamp": 1480723672
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "89fbf60af65e55213d6389cb821a4bab9f692499",
+        "timestamp": 1480724053
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "docs/tutorial.rst",
+          "tests/test_core.py"
+        ],
+        "sha": "180aa99e31d788b1cf0e39445247c5a100fb0874",
+        "timestamp": 1481144225
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "a7f1e9d6dd0367e98bd5cdf40f65dae9d7b1624e",
+        "timestamp": 1481144240
+      },
+      {
+        "files": [
+          "docs/development.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "55d36b056f22d5e03dd8526b1dbd9e173408467a",
+        "timestamp": 1487602458
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "78f237aecbc97248cf1c0b6bf7442d51fdb551ac",
+        "timestamp": 1487958413
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "36f18dc556725862bc02ede4cf7e1b970e184362",
+        "timestamp": 1487961071
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "17d38b2863c70b88bd42dd6bcf8c51ccf672970d",
+        "timestamp": 1490499477
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "fb46dc6a62e24c954ed590b100d4014c6ffde1b7",
+        "timestamp": 1490643716
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "a77e7f6e440d331aeefd7070827424bc07715e17",
+        "timestamp": 1490643772
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "tests/test_djangocache.py",
+          "tox.ini"
+        ],
+        "sha": "26050bb8a64ba43e5c33934058e4e145c519c3ad",
+        "timestamp": 1490650176
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "d7765a618aa1b7f975e77887cbbd997f1bd78491",
+        "timestamp": 1490650213
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "docs/development.rst",
+          "docs/index.rst",
+          "setup.py"
+        ],
+        "sha": "cfa517f1ed6e7a368f2742ba4118b01812a4ff30",
+        "timestamp": 1490651059
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "18c981219b243d3a7093916b280d2dbf992d1af5",
+        "timestamp": 1490651082
+      },
+      {
+        "files": [
+          "docs/development.rst"
+        ],
+        "sha": "bed6f168f43ed36fba9a7aa154d51481948884c2",
+        "timestamp": 1490651274
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "9b8d1832af23dc800a9d82a2f8f611be6d068f58",
+        "timestamp": 1494300640
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "53dd1e532f0bd32c65127e824e2e593ba70821c3",
+        "timestamp": 1494301130
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "c68fbfaa8664d189a6055ed2ab8ab673bcbc329e",
+        "timestamp": 1494351586
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "a6caf688a72cffe9bd9d9e5a0d9016c015968c82",
+        "timestamp": 1494352537
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "1b0ab8abb6f85da4148567e8b960adda8d3089c0",
+        "timestamp": 1494352862
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "e867c6bed19fa177b45913be73764d3e0aa1d5be",
+        "timestamp": 1494353814
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "53473d13176fc2c0501b7a9d643d440e7e7fc0aa",
+        "timestamp": 1494356197
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "9e5892094d4332a75b1140b2c97b00c73944ae9c",
+        "timestamp": 1494356224
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "708b06da5e85cddb4c1b45b72dce6c40f55080a2",
+        "timestamp": 1495041933
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "2eb1437b17b0e03343a71e49736da5e53ac3ddaf",
+        "timestamp": 1495044754
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py",
+          "tests/test_core.py",
+          "tests/test_djangocache.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "14cd2858ccd216a94e85f9fc5c74b44120a3830a",
+        "timestamp": 1495046524
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/stress_test_core.py",
+          "tests/stress_test_fanout.py"
+        ],
+        "sha": "db4f389de8090b8f66eee7020b8c6a8f223b8d0b",
+        "timestamp": 1495047588
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "b08652f4a96941a8ec87aa078f4db69159904807",
+        "timestamp": 1496162997
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "692ddb19e6b195efd97d8da404f97bcdce47dba3",
+        "timestamp": 1496254298
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "d51f6fe65ec85193da8d96644293d06c5e337d1b",
+        "timestamp": 1501178087
+      },
+      {
+        "files": [
+          "tests/test_doctest.py"
+        ],
+        "sha": "0d9deeb5a7a00be9bfc3dc0d027283225ccfb262",
+        "timestamp": 1501178153
+      },
+      {
+        "files": [
+          "docs/web-crawler-case-study.rst"
+        ],
+        "sha": "1dc791759e7d8287db63f27b25a4d32e80c1db82",
+        "timestamp": 1501178286
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "1dbbd6b5765555a2c8dc3c9a9e522b8f74469ff5",
+        "timestamp": 1501534100
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "f9ab7fc916bca69bf0ca16b2a70d206452ba7ba1",
+        "timestamp": 1501535380
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "e6a08be3c858bed5d1dae6b2b05070eb07f9313e",
+        "timestamp": 1501535401
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "f47b80b6db28f4d23784c276c1bd270975be6aca",
+        "timestamp": 1501535524
+      },
+      {
+        "files": [
+          "tests/test_doctest.py"
+        ],
+        "sha": "985746dd7376caa7a94888ac8c25a9510d37ff29",
+        "timestamp": 1501535636
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "4bc176c9f5172df087d5b3f797313661f2e6e4b1",
+        "timestamp": 1501535949
+      },
+      {
+        "files": [
+          "diskcache/memo.py",
+          "tests/test_memo.py"
+        ],
+        "sha": "d529d95b5e86475911ba9aeb6d667e89f9b988cc",
+        "timestamp": 1501539236
+      },
+      {
+        "files": [
+          "diskcache/persistent.py",
+          "tests/stress_test_deque_mp.py",
+          "tests/test_deque.py",
+          "tests/test_index.py"
+        ],
+        "sha": "07b3ff9e762cc8906f9f3d325e4318d1ee1dac19",
+        "timestamp": 1501559823
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "8aa1c2a7000fff300ac8df4de2c38d955935424e",
+        "timestamp": 1501559846
+      },
+      {
+        "files": [
+          "tests/stress_test_deque_mp.py",
+          "tests/stress_test_index_mp.py"
+        ],
+        "sha": "b50fcd227efc8378f948ce40d8da875f6904e426",
+        "timestamp": 1501561543
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "8390a97425caa905601c52fc9bb513d8f15f11d6",
+        "timestamp": 1501561690
+      },
+      {
+        "files": [
+          "tests/stress_test_deque_mp.py",
+          "tests/stress_test_index_mp.py"
+        ],
+        "sha": "11f5587297d0964479e5a574f80bc820907b096a",
+        "timestamp": 1501565827
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "ec73dc41072988c6cd624a232dfef65e59472edb",
+        "timestamp": 1501566461
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "c539a9d3f0b4c19ab3104509a3ddde95db5e397d",
+        "timestamp": 1501566796
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py",
+          "tests/stress_test_fanout.py",
+          "tests/test_core.py",
+          "tests/test_djangocache.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "9efeb43b0b501d6448be7d02c1f019876ec77432",
+        "timestamp": 1501607904
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "25ec375973f6fb5a5a4c4dcf24c03ac34588e0f2",
+        "timestamp": 1501617684
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "41281fa8e1966143bfbc7f2ad5900b4be50dea27",
+        "timestamp": 1501617709
+      },
+      {
+        "files": [
+          "diskcache/persistent.py",
+          "tests/test_index.py"
+        ],
+        "sha": "899282b9422fc0dd232f539b49519420e4fd33c6",
+        "timestamp": 1501628910
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "95327e73be8d74f6c76bb3c7d3c5809e6958aa78",
+        "timestamp": 1501628941
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "2983529c7722fb49dc1184de679996a1e61dac47",
+        "timestamp": 1501629095
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "48cb849486209869791e34d00c6c618910858e05",
+        "timestamp": 1501629119
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "f0fdeb898aa3cde575590ced4a636fde6213d93e",
+        "timestamp": 1501629353
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "fd75d514397cd782c72515b62abdcdb9ac3cdd46",
+        "timestamp": 1501629372
+      },
+      {
+        "files": [
+          "tests/test_index.py"
+        ],
+        "sha": "8ae83c474674fa5e497a5ba06f9357d2e024fdd8",
+        "timestamp": 1501629704
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "4e707e4b57700a66ee6f28bf49a1b4a355004ce2",
+        "timestamp": 1501629717
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "requirements.txt"
+        ],
+        "sha": "8940c20be4484b83997a835e41a4ac9dc49797d0",
+        "timestamp": 1501729775
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/core.py",
+          "docs/api.rst"
+        ],
+        "sha": "63bd2c82732bc7bfe43b742657535cb23895d06e",
+        "timestamp": 1501730303
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "requirements.txt"
+        ],
+        "sha": "b7af8a637f119d9aeb019b36835b46057ef4ef51",
+        "timestamp": 1501730645
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "735886af4bda81045e7fbeaf378a9cb411388e64",
+        "timestamp": 1501731017
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "17ed536368c3d44861d6059cf0ecc6feb38de73c",
+        "timestamp": 1501731048
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "7d129372becdcd86884526937c11b4fd11213772",
+        "timestamp": 1501780553
+      },
+      {
+        "files": [
+          "diskcache/persistent.py",
+          "tests/test_deque.py"
+        ],
+        "sha": "aa803c09cb555f24b9a923296788586ec194fa3a",
+        "timestamp": 1501781782
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "c46cbc3ea4f253467d12a9ba13646d4728f6582f",
+        "timestamp": 1501781849
+      },
+      {
+        "files": [
+          "diskcache/persistent.py",
+          "tests/test_index.py"
+        ],
+        "sha": "a2339c858223c7cbe9fdd60c1c3d19fb270c20d3",
+        "timestamp": 1501781988
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/persistent.py"
+        ],
+        "sha": "7f1f0406378c5e0d0c9cfacf9c82ee5bc88606e8",
+        "timestamp": 1501782863
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "a21f01b0fddd7008b404fbea373935eb639dd86e",
+        "timestamp": 1501783342
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "47cf28c1b2a1166a66327905568e3f62b8520697",
+        "timestamp": 1501783937
+      },
+      {
+        "files": [
+          "tests/test_deque.py"
+        ],
+        "sha": "c6861e98042e363cdea0afdf9007e82371b8a32e",
+        "timestamp": 1501784582
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "5fbb0ab7e913512372996dc641e9f9ca003828fc",
+        "timestamp": 1501786775
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "871b51aebb432ab676a5e00ffb1c22f71acfc720",
+        "timestamp": 1501786928
+      },
+      {
+        "files": [
+          "docs/web-crawler-case-study.rst"
+        ],
+        "sha": "4a6e2b9218c6855c694a68483887dcba672c2ca0",
+        "timestamp": 1501909820
+      },
+      {
+        "files": [
+          "diskcache/memo.py",
+          "tests/test_memo.py"
+        ],
+        "sha": "aa179ce5e1900a78287d3ac09c2618ed81d4491e",
+        "timestamp": 1501949316
+      },
+      {
+        "files": [
+          "diskcache/memo.py",
+          "tests/test_memo.py"
+        ],
+        "sha": "6d2f1d9ad8bd9cd51c1ea07c32987d2423a4307f",
+        "timestamp": 1502123808
+      },
+      {
+        "files": [
+          "tests/test_memo.py"
+        ],
+        "sha": "fa950b8b17529b44acbb1c853da9b4851cadcbd4",
+        "timestamp": 1502129505
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py",
+          "diskcache/memo.py",
+          "tests/test_djangocache.py",
+          "tests/test_doctest.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "b55a73dcbb849c4b9ee3d199a1fd94bd7a82a032",
+        "timestamp": 1502132286
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "845f7625b04fb2dbb31018eee828d6861f49fa72",
+        "timestamp": 1502132317
+      },
+      {
+        "files": [
+          "diskcache/memo.py"
+        ],
+        "sha": "ca4a0db3d6d2008d7962578da6f1b0da00347fd4",
+        "timestamp": 1502132454
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "5cfa1ff7d0b93f0eb841940329b289a53ca4719b",
+        "timestamp": 1502132468
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py"
+        ],
+        "sha": "4d8ddeda90a993e76daad4c07be49a53270d2a9a",
+        "timestamp": 1502132515
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "f5bd40afd515ea8e36851a2331558173f3aac37f",
+        "timestamp": 1502132525
+      },
+      {
+        "files": [
+          "diskcache/memo.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "bea0e3a7fe0035bf5fab7ec2395165cbadb071de",
+        "timestamp": 1502141907
+      },
+      {
+        "files": [
+          "docs/development.rst"
+        ],
+        "sha": "5802a2a2324f283f3c043a0c13ee8b7d6db06b16",
+        "timestamp": 1502142015
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "ba364886fcfa25b0870b30e266137ea8ed3bbc73",
+        "timestamp": 1502143250
+      },
+      {
+        "files": [
+          "diskcache/memo.py"
+        ],
+        "sha": "39a6e7b478227b07115929abcd1ce76254ce3200",
+        "timestamp": 1502143309
+      },
+      {
+        "files": [
+          "diskcache/memo.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "c7474b97a803c2a68ce4f2e0d3c940cc1175e04a",
+        "timestamp": 1502143508
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "96cfc5e1ed53348b380113f80e9230f01c07c519",
+        "timestamp": 1502143539
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "86fe08716d907a4e8f56d1938b2d74e413ea00e7",
+        "timestamp": 1502144937
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/case-study-web-crawler.rst",
+          "docs/index.rst"
+        ],
+        "sha": "4f9655a9a3ecf1a30863958c66c1907d6b1804b9",
+        "timestamp": 1502160285
+      },
+      {
+        "files": [
+          "docs/case-study-web-crawler.rst"
+        ],
+        "sha": "fde72a188357dc08053999126638688e8de2aec6",
+        "timestamp": 1502160413
+      },
+      {
+        "files": [
+          "tests/utils.py"
+        ],
+        "sha": "d554e77e84a15e3cbd5fc2f683c1b913f34ca549",
+        "timestamp": 1502577627
+      },
+      {
+        "files": [
+          "docs/case-study-delay-fuzzer.rst"
+        ],
+        "sha": "830449b466b4492bcadb7fcbed64ad8ce37c45a3",
+        "timestamp": 1502584783
+      },
+      {
+        "files": [
+          "tests/plot.py"
+        ],
+        "sha": "5a25731e02ca013591c3292cc673beb9ac7fe11f",
+        "timestamp": 1503507694
+      },
+      {
+        "files": [
+          "docs/_static/custom.css",
+          "docs/conf.py"
+        ],
+        "sha": "5601a1e4ad43118d5097f5d7d3989d3a21e6fd7e",
+        "timestamp": 1503507745
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "e8b9c4a8c1d9d8fdb55e937f31eaf2053f518ab2",
+        "timestamp": 1503509028
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "c41a0c17d0829dfca1653ef40ee228bbd26a3e62",
+        "timestamp": 1503509520
+      },
+      {
+        "files": [
+          "docs/case-study-delay-fuzzer.rst"
+        ],
+        "sha": "2484f506e5820e1cc272019d880d0727241f6311",
+        "timestamp": 1503509649
+      },
+      {
+        "files": [
+          "docs/case-study-delay-fuzzer.rst"
+        ],
+        "sha": "ac478babd07ad38223598728d8a3dad16aca9a86",
+        "timestamp": 1503509695
+      },
+      {
+        "files": [
+          "docs/case-study-delay-fuzzer.rst"
+        ],
+        "sha": "afd241bd74557f35f1f4cf8a606ff16067eb8675",
+        "timestamp": 1503515948
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "5d65c3823784d2d403113cb494bd001f19525d93",
+        "timestamp": 1503516259
+      },
+      {
+        "files": [
+          "docs/sf-python-2017-meetup-talk.rst",
+          "tests/talk/benchmark.py"
+        ],
+        "sha": "9061712bc5042a6e066c8db6241ab64dce501193",
+        "timestamp": 1505348016
+      },
+      {
+        "files": [
+          "tests/talk/crawler.py",
+          "tests/talk/talk/urls.py",
+          "tests/talk/talk/views.py"
+        ],
+        "sha": "e260fed34b31bd61bd0497a04255c2bb1d82ec34",
+        "timestamp": 1505349563
+      },
+      {
+        "files": [
+          "docs/sf-python-2017-meetup-talk.rst"
+        ],
+        "sha": "76c6c7234cf335a7c97fb6796c2107021e26b222",
+        "timestamp": 1505349858
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst",
+          "docs/sf-python-2017-meetup-talk.rst"
+        ],
+        "sha": "2bd0950c9be83dec897369f292609b97c5cce7b3",
+        "timestamp": 1505360312
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "591d4cba5658e1040b333fdbb296aa96c5cb8665",
+        "timestamp": 1510602577
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "d790dc5081220f0b922493e6c7a179892d88bbaf",
+        "timestamp": 1510619002
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "docs/api.rst",
+          "docs/tutorial.rst",
+          "tests/test_core.py"
+        ],
+        "sha": "666f39448a8207ed8b4f4191a7bca8ff03d9562f",
+        "timestamp": 1513102875
+      },
+      {
+        "files": [
+          "diskcache/persistent.py",
+          "diskcache/stampede.py",
+          "tests/test_index.py"
+        ],
+        "sha": "b01c97be474228da19c718182a507c6de9da2ee2",
+        "timestamp": 1513109978
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "0bd9d611d05a47f56ab13d95fc9cac1d2775fcc9",
+        "timestamp": 1513110421
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "0edf10228e8e3d05fff608a594e5393c6e7322ae",
+        "timestamp": 1513136336
+      },
+      {
+        "files": [
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "d0936a58432853bc2fbf53346293c3ef61bf5889",
+        "timestamp": 1513187288
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "2d7f403918c3583854035b8cd392c4fec8c53572",
+        "timestamp": 1513188006
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/core.py",
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "c8aecac512d7fba0de9b1c32312434c00e5db724",
+        "timestamp": 1513190615
+      },
+      {
+        "files": [
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "b6c12bb253deabf7b6f36e0e0f430912ecacbe38",
+        "timestamp": 1513215311
+      },
+      {
+        "files": [
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "4db0721f7d5e2a1bb06a7371b14afa3e2bf20f16",
+        "timestamp": 1513274176
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "c6c5b27d0cb751058d06b64a13bc50b2602ee037",
+        "timestamp": 1513274200
+      },
+      {
+        "files": [
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "5c81820e4f0aab2265b904ff0a51812de8ec20b0",
+        "timestamp": 1513275099
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "docs/api.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "2920247674a7c86bfd6a4153a08b1187d941b2e5",
+        "timestamp": 1513275714
+      },
+      {
+        "files": [
+          "diskcache/persistent.py",
+          "tests/stress_test_deque_mp.py"
+        ],
+        "sha": "d8f79d5a660a9ed25355f4dabbd1b04b32e163e1",
+        "timestamp": 1513296339
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "24fadab14ba311b97a32b9e02bd0dc1892bd88ad",
+        "timestamp": 1513296368
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "693c655f9a2eb6a0d883dc24452b004379ab5007",
+        "timestamp": 1513296646
+      },
+      {
+        "files": [
+          "tests/benchmark_core.py",
+          "tests/benchmark_djangocache.py",
+          "tests/plot.py"
+        ],
+        "sha": "97b960d921da89e44ef9e95cb410702661fa4c12",
+        "timestamp": 1513297544
+      },
+      {
+        "files": [
+          "tests/timings_core_p1.txt",
+          "tests/timings_core_p8.txt",
+          "tests/timings_djangocache.txt"
+        ],
+        "sha": "9f7000b166ffcf7a4c7011baa0345e4deee5ef86",
+        "timestamp": 1513299093
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "0af6216536521e25afa54f880462d41f865377dd",
+        "timestamp": 1513299799
+      },
+      {
+        "files": [
+          "tests/timings_core_p1.txt"
+        ],
+        "sha": "34304475a157d1fd51561f01239c37ecd25d5086",
+        "timestamp": 1513300579
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "1f0391062dad8a0480d74bebc9345b5cc41339b7",
+        "timestamp": 1513301658
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "docs/api.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "12969484f45c205701b3fbcc4217ee4d4f10c69e",
+        "timestamp": 1513302774
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "f51d29ad7da758ad72cf0c1e67dfc9d1bd4b1899",
+        "timestamp": 1513302861
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "70b320b4803d6ad1159d42ba99712529023b2114",
+        "timestamp": 1513302883
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "3b9dfbff60ae3b6865497fe89c19804b3361bac6",
+        "timestamp": 1524082569
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "e45cc787ce9e4b7cbb8c65ec396b2e4d783c3123",
+        "timestamp": 1524083610
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/test_djangocache.py",
+          "tox.ini"
+        ],
+        "sha": "f61404d6b58dd308d659a6f0ad10f141eb4081c4",
+        "timestamp": 1524085750
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "426d431280db4c7d0249498f4624f99ae84d1533",
+        "timestamp": 1524086210
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/persistent.py"
+        ],
+        "sha": "bef9a7955421b377f834b244a146103e2f08c20d",
+        "timestamp": 1524087364
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "f6ef7e677435dce47e56ed9b4f3cdf2ef572abd5",
+        "timestamp": 1524087391
+      },
+      {
+        "files": [
+          "LICENSE",
+          "README.rst",
+          "diskcache/__init__.py",
+          "docs/index.rst"
+        ],
+        "sha": "161000ed03537fec41291cd8d54785a3250be65c",
+        "timestamp": 1524088105
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "bc1ca5489606d5ce34406a4321c057474143e844",
+        "timestamp": 1524088121
+      },
+      {
+        "files": [
+          "tests/test_djangocache.py"
+        ],
+        "sha": "7c0acc2e5f7c6663803642ee34aaf2040ce34f36",
+        "timestamp": 1524089201
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "1f0f06a379bc3c456444c08f3e7fbc1059bc2c2b",
+        "timestamp": 1524089221
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "e36f3f00f502d364ce8964e5510801c4a6033b13",
+        "timestamp": 1524181205
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "63972690e6f21b0cd8b69057b2e53a358e6ee124",
+        "timestamp": 1524181224
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "dc9b97a615610ecd874376b098dd98372b0deb7b",
+        "timestamp": 1532198868
+      },
+      {
+        "files": [
+          "tests/issue_85.py"
+        ],
+        "sha": "b9e1408521ab6f1fedb95267b715b5353f1617fb",
+        "timestamp": 1540573367
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "d0d58d2fc3864d7d07ca825b347a9db6c9a7c728",
+        "timestamp": 1540573397
+      },
+      {
+        "files": [
+          "tests/issue_85.py"
+        ],
+        "sha": "71cbe4facbca56bf8fb53ad2c7002f8f7e6bd568",
+        "timestamp": 1540705808
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "43029175ed9579e2e8cf89167c2039caa8e1584c",
+        "timestamp": 1540706726
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "f17c945d0a651eda8ce5fb6fe1fe07b1bc5cb21b",
+        "timestamp": 1541135533
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "6373b641bc2273d9abfb9648b883d61151ead7ac",
+        "timestamp": 1541372118
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "d3cb88ada7865dd3550f51ea7010f6e00e19406a",
+        "timestamp": 1541372687
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "9ed818969277045ad9503650fafec0a37abb9b38",
+        "timestamp": 1541373860
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "b5f5ef6634cdfd21f88437030ba597593720592c",
+        "timestamp": 1541373881
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "32da631ad777156e11e5d190cddcb30489f42d04",
+        "timestamp": 1541374310
+      },
+      {
+        "files": [
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "4c4b3305a632655a43892e585ddbbcd99180478e",
+        "timestamp": 1541437110
+      },
+      {
+        "files": [
+          "tests/test_fanout.py"
+        ],
+        "sha": "21ae73fca23a833a6ddbdcfa94088a3c4e8c2db7",
+        "timestamp": 1541438419
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "fb3e78568d47802199df8a83aa1d3742ec566711",
+        "timestamp": 1541441919
+      },
+      {
+        "files": [
+          "tests/stress_test_core.py"
+        ],
+        "sha": "76735e03a386ac2741e39755330271f3def99faa",
+        "timestamp": 1541443127
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "c1514c6343801d4ec1a7aecdff7fae9aebb49d21",
+        "timestamp": 1541542777
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "ce0c2ae09357d59609164e47d4fb9ef5540db724",
+        "timestamp": 1541545170
+      },
+      {
+        "files": [
+          "docs/_static/custom.css"
+        ],
+        "sha": "a43b45700a7527675ab421ee051d010d2e0b1674",
+        "timestamp": 1541550848
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "3effaa9b80858fd65fcae1d322b97cafb46a891f",
+        "timestamp": 1541567936
+      },
+      {
+        "files": [
+          "docs/development.rst"
+        ],
+        "sha": "6511693b4a534203d1f39828a9854f80a3d04451",
+        "timestamp": 1541637371
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "1d466a38b3be39a822cc2e7c2f1fc286dc454f4f",
+        "timestamp": 1541637549
+      },
+      {
+        "files": [
+          "diskcache/fanout.py",
+          "docs/tutorial.rst"
+        ],
+        "sha": "ea45793c8ca1b51d0c41878921eac63f5db9d6d9",
+        "timestamp": 1541639145
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "docs/tutorial.rst"
+        ],
+        "sha": "a08bf815964a134a87cfa18b47ac72a1e7a88766",
+        "timestamp": 1541724290
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "769b36aa5d6e259e4926332a1d0a37406f964d83",
+        "timestamp": 1542396847
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "2e3af05c435023213353fa6084252059b03acd92",
+        "timestamp": 1542912292
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "05cac6ab51dc723200a158ecb7b58e0ddcd662ce",
+        "timestamp": 1543432183
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "50a80fe1662e80b14be1f28db34d22a6ab86aa04",
+        "timestamp": 1547680274
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "2774689c60bac3ebd06246943bca2014779ee2c6",
+        "timestamp": 1547680965
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "445afdc53c73c65a929bb8b780de2f2e63cc2775",
+        "timestamp": 1552454623
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "5458892614dd9c1a844c1daa797c24872d1eee28",
+        "timestamp": 1552539685
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "bf407f1fd3cbaf62d2c15783866ab70def731ecd",
+        "timestamp": 1542398719
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "docs/development.rst",
+          "docs/index.rst",
+          "setup.py"
+        ],
+        "sha": "f921f6981a177a3af5580ab0b2069de9007b1c90",
+        "timestamp": 1542907813
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "requirements.txt"
+        ],
+        "sha": "936a086919499089b3f0d1ea595d227c12f7820d",
+        "timestamp": 1542908103
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "MANIFEST.in",
+          "appveyor.yml",
+          "requirements.txt",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "d66035887ff5ada119f216c110216f794d2f6897",
+        "timestamp": 1542910392
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e2c5c464c77507d7234b108cccf1535099d35d83",
+        "timestamp": 1552971522
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "7ca8e375691c6ffc56b0816558edebf489153316",
+        "timestamp": 1552973429
+      },
+      {
+        "files": [
+          ".pylintrc"
+        ],
+        "sha": "02f9902b84fafa6bc825ce1335da8d632c462258",
+        "timestamp": 1552973441
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "63e3d77c35bbc928e201ce9c1bde0303680ba8fe",
+        "timestamp": 1552973461
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "85a79b0149d20ffa728a65e1c2d0992c43308b7c",
+        "timestamp": 1552975485
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "452d956898190685be18131a2ab0f1a0a1010d0c",
+        "timestamp": 1552975517
+      },
+      {
+        "files": [
+          "tests/test_deque.py"
+        ],
+        "sha": "2aa9ee2722d3632f05847672f8fbf4507edb36a2",
+        "timestamp": 1553040135
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tox.ini"
+        ],
+        "sha": "a455fe83b172942e0de863c67e50eb806f95ae66",
+        "timestamp": 1553040153
+      },
+      {
+        "files": [
+          "tests/test_index.py"
+        ],
+        "sha": "faf962ae990b8c21ce7f7e09d9d2197d9d49a024",
+        "timestamp": 1553040378
+      },
+      {
+        "files": [
+          "tests/test_fanout.py"
+        ],
+        "sha": "fdee183bb71c56ec002b38351cfa4bc93537b20e",
+        "timestamp": 1553041465
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "24de717f406966e2d57a399df0e4059a53a9a82b",
+        "timestamp": 1553051762
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "dd58adc7b0ff5168b5392c3d9d64b77073235f4f",
+        "timestamp": 1553051781
+      },
+      {
+        "files": [
+          ".pylintrc"
+        ],
+        "sha": "787f856c535a3dff2597b49bcd81a7ad080110bb",
+        "timestamp": 1553057931
+      },
+      {
+        "files": [
+          "docs/tutorial.rst",
+          "tests/test_doctest.py"
+        ],
+        "sha": "c91272d6b78cf3f7178e24d418d8d82e22c3192f",
+        "timestamp": 1553058178
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "8e8f556c08e37781fd7bc880777894b7f71c0cc8",
+        "timestamp": 1553058274
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "6a797078d51e36a8da5b281ec3f39611fc4cde68",
+        "timestamp": 1553058347
+      },
+      {
+        "files": [
+          "LICENSE",
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "8d33162fda890384eb58a1725c075eb7efd790a3",
+        "timestamp": 1553058813
+      },
+      {
+        "files": [
+          "tests/benchmark_djangocache.py",
+          "tests/settings.py",
+          "tests/settings_benchmark.py",
+          "tox.ini"
+        ],
+        "sha": "20345385e6c01c49b59cbedb27eea05009f0f324",
+        "timestamp": 1553060593
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "08f3afa4f119436bef8b77f8e7ed0ef2adfcb38e",
+        "timestamp": 1552689004
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "e967a66435582f696881b9c1f6c48af1a73996b3",
+        "timestamp": 1553137859
+      },
+      {
+        "files": [
+          "tests/test_fanout.py"
+        ],
+        "sha": "b41c965c9bde17f6065987247fb7eda42909ad9b",
+        "timestamp": 1553143677
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "88c1da99d94bcb7e72dd18c052661d9adebb107b",
+        "timestamp": 1553144109
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "e4589f925ae6d1119f046e267cc1be8a993d0bfa",
+        "timestamp": 1553145404
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "7487054fab527bf8cde02420faac923389e499ae",
+        "timestamp": 1553147191
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "aeda91ea4215c652a2f4b321bbdeaf4ca0bbe33d",
+        "timestamp": 1553210710
+      },
+      {
+        "files": [
+          "diskcache/fanout.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "ffd46ba18ea76baad03e148fb9143baa20bdc975",
+        "timestamp": 1553223663
+      },
+      {
+        "files": [
+          "diskcache/persistent.py",
+          "tests/test_deque.py",
+          "tests/test_index.py"
+        ],
+        "sha": "10ba4e6773a19db490a898c4782e511267815c3d",
+        "timestamp": 1553229490
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/memo.py",
+          "diskcache/persistent.py",
+          "tests/test_core.py",
+          "tests/test_index.py"
+        ],
+        "sha": "d05369b66ae5319859ce1308b718fa6cda16ba73",
+        "timestamp": 1553231355
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/memo.py"
+        ],
+        "sha": "a8c9259377072cf0ac15d7c7b72e57ce58cbb464",
+        "timestamp": 1553272585
+      },
+      {
+        "files": [
+          "diskcache/persistent.py",
+          "tests/test_index.py"
+        ],
+        "sha": "e2eb35dd09c086a36183d692a3b14575eb6c82b4",
+        "timestamp": 1553272605
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/persistent.py"
+        ],
+        "sha": "661de4afa7cf327899db7ba1d1b328ce3a9279b4",
+        "timestamp": 1553274975
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "26c2768f8da5a0d436688b6180106c0e039637e7",
+        "timestamp": 1553289683
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "89a6fe4a05c569f1d5fea88b5845fc4eef6a718e",
+        "timestamp": 1553289726
+      },
+      {
+        "files": [
+          "tests/test_deque.py"
+        ],
+        "sha": "a81c393b2a85e9dd99282ca4884fc4a0da81ffc8",
+        "timestamp": 1553289772
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "45aaad0facb56d3882b8a952699bf2db79394dd0",
+        "timestamp": 1553289814
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "78692a8cc879d370ac7e4ac31b152018b4270442",
+        "timestamp": 1553289836
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "2446f4dd1f8927590ac9ab410a2e49066764dd09",
+        "timestamp": 1553289858
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "e1171b259f9cd3203dd1b38183c9650421844f9d",
+        "timestamp": 1553289900
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/persistent.py"
+        ],
+        "sha": "c17698806708913313973f834e426d3ba9633bd0",
+        "timestamp": 1553298150
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "27af7e9f377a9b7fb6e5f9ef1bf9c528aebc3204",
+        "timestamp": 1553314504
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "a2b707ed813b9203e66ed15bec5b27493fb83333",
+        "timestamp": 1553314543
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "1dfae1c397e4e2f2e6cc2474678c20ee35736aa3",
+        "timestamp": 1553315141
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "e1b24a18eed2971eeef7dd57282bff8d64954d2c",
+        "timestamp": 1553315161
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "f22dba80df105605df6f9585a7f9e29db598a782",
+        "timestamp": 1553315224
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "75ee2a44a8f83d53aea62375ccc9344fd44b020b",
+        "timestamp": 1553317229
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "diskcache/core.py",
+          "diskcache/fanout.py",
+          "diskcache/persistent.py"
+        ],
+        "sha": "7c0a54621ff52ee52204a8eff5a7c0d9b19a0324",
+        "timestamp": 1553321468
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "ac07b05e7e70ba95a357abe560296afd28a7799c",
+        "timestamp": 1553656855
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "987184f48bf3cee0fe29d7698a80eaabaf1a61f3",
+        "timestamp": 1553659953
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "2b22f38de9c8a74b2bd293baa4ce381c64651513",
+        "timestamp": 1553660111
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "7c5d398e26f4c84e752da17bc67a1b35efe86ba4",
+        "timestamp": 1553660144
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "6f7db0a33f7c08c319f0126eadf8d00f9156b895",
+        "timestamp": 1553663127
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py",
+          "tests/test_core.py",
+          "tests/test_djangocache.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "9820c701b4addd67d2d721371e8c82de8e92009b",
+        "timestamp": 1553704131
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py"
+        ],
+        "sha": "85be791009bdb0ed730fba5fe8822d495c4f2ba7",
+        "timestamp": 1553710760
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/recipes.py",
+          "tests/test_doctest.py"
+        ],
+        "sha": "2649ac9054e5761a487e8488640c091ce14b5bb2",
+        "timestamp": 1553719464
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "303099dcbe0dce170bce943f744c238b52d520b5",
+        "timestamp": 1553818908
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "2e91dc6e1d1dbdc0985ece3241df1889bb788954",
+        "timestamp": 1553875032
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "1277747b0c5ad80d5132b08f4ce2987932cd4ce6",
+        "timestamp": 1553875306
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "15bbb1d4a4de512da760a695db819ab4dd7afe7f",
+        "timestamp": 1553875686
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "8ef124ff6547a6a2d210573d19fb8d18df974ca9",
+        "timestamp": 1553875815
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/memo.py",
+          "diskcache/recipes.py"
+        ],
+        "sha": "1d0ee0f80a4da1ce50e0de6ff8545be232e48c86",
+        "timestamp": 1553877971
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "diskcache/recipes.py"
+        ],
+        "sha": "bf7196dbc6d0a5da20f7afc0be74b8950dac8e24",
+        "timestamp": 1553878365
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py",
+          "tests/test_djangocache.py"
+        ],
+        "sha": "a902c663837098cfdbebf52d1625a82d93feb41d",
+        "timestamp": 1553880847
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/memo.py",
+          "diskcache/persistent.py",
+          "tests/test_core.py",
+          "tests/test_djangocache.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "a1619c0ca322f7d0ca8583d1621d0412aa838e50",
+        "timestamp": 1554261876
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tox.ini"
+        ],
+        "sha": "cfff0ff316d02c1d34fd814d8cc42fc2122741d6",
+        "timestamp": 1554313087
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/memo.py"
+        ],
+        "sha": "62417f84e3c3b76c92fe7286f9816cf9b6e98842",
+        "timestamp": 1554314928
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "d1591ff5f390377099b028191143a45b6c87d11c",
+        "timestamp": 1554484865
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/memo.py",
+          "diskcache/stampede.py"
+        ],
+        "sha": "6cf31dc840e7c2e6e209fb3b54840cb0b0f02320",
+        "timestamp": 1554508162
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/memo.py",
+          "tests/plot_early_recompute.py"
+        ],
+        "sha": "ce44c40a548abc524dad540e41887e15991e2e44",
+        "timestamp": 1554837381
+      },
+      {
+        "files": [
+          "tests/issue_109.py"
+        ],
+        "sha": "78977bf2ab2d9de84ccc09d32ed735da0b061ffb",
+        "timestamp": 1555693561
+      },
+      {
+        "files": [
+          "tests/issue_109.py"
+        ],
+        "sha": "65b648e4a3174a2178533a4b0bcd9bf52cdc0a96",
+        "timestamp": 1555734974
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "1e56fd5152aac53d41738d872bc33ecf0c2f357c",
+        "timestamp": 1559941011
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "docs/tutorial.rst",
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "b482ea1a19f2ad8169962232d59254790acf2ed7",
+        "timestamp": 1559946352
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py"
+        ],
+        "sha": "8051922d19cd80be0f89133efd036bf28071484e",
+        "timestamp": 1559946381
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "bec534c9ad54fe48bd11e0702c7d04f70a06e985",
+        "timestamp": 1559946399
+      },
+      {
+        "files": [
+          "diskcache/memo.py",
+          "tests/plot_early_recompute.py"
+        ],
+        "sha": "9f5232c3faea20d9379eae761fa4450035d7a5d0",
+        "timestamp": 1559948392
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "b40c0c7af5c426ed316a5cb1b0ba47e97376f46a",
+        "timestamp": 1559950026
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "c250a0243800ca03ad59c4f5610654bb63d02157",
+        "timestamp": 1559951293
+      },
+      {
+        "files": [
+          "diskcache/memo.py",
+          "tests/plot_early_recompute.py"
+        ],
+        "sha": "8c77394aa4417cd45aee2dbf5c596938b36f481c",
+        "timestamp": 1559931500
+      },
+      {
+        "files": [
+          "tests/plot_early_recompute.py"
+        ],
+        "sha": "c6703b6d4c4f46aaf67e58b9fb60513232b30034",
+        "timestamp": 1559931500
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/persistent.py",
+          "diskcache/recipes.py",
+          "tests/test_doctest.py"
+        ],
+        "sha": "1f9731c4bbe1bf05e522dfb27923fdf9d5136542",
+        "timestamp": 1560274423
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/_static/custom.css",
+          "tests/benchmark_kv_store.py"
+        ],
+        "sha": "024c4d9573313869c5dd713f0914eeb71977b53a",
+        "timestamp": 1541804318
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "05aa1000f7103705ef4ec1c7dd3d1b670628a39f",
+        "timestamp": 1560372641
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "509b0986c3bae7a584a1517c3498819813ca6cfc",
+        "timestamp": 1560372657
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py"
+        ],
+        "sha": "48f2c5a088b445ec885a0937a9483947933774cd",
+        "timestamp": 1560372673
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "012f311653c107d76c44ab60cb4bac7debc49034",
+        "timestamp": 1560373328
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "5e69d5b66e52373e9b5fbe4a51eb8811bb766df7",
+        "timestamp": 1560378199
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "c8f125d93af209743a39bf71ad15b6e471bfdcb8",
+        "timestamp": 1560378214
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "54744b946263d410372020bfe8c86b6c26e701aa",
+        "timestamp": 1560379275
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "912f96c6895e48f78e6e4d9020aeedac02fd4d35",
+        "timestamp": 1560379552
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "a60b54108ddd6c71f3cbc0fa83bc03c7429a35bf",
+        "timestamp": 1560445166
+      },
+      {
+        "files": [
+          "tests/test_djangocache.py"
+        ],
+        "sha": "56927b51098395cb1ff9c45a4fbfb5d109bb8806",
+        "timestamp": 1560445993
+      },
+      {
+        "files": [
+          "diskcache/recipes.py",
+          "tests/test_doctest.py"
+        ],
+        "sha": "bce5a77b607781b30702a22b31730604e08fcda4",
+        "timestamp": 1560447530
+      },
+      {
+        "files": [
+          "docs/tutorial.rst",
+          "tests/test_doctest.py"
+        ],
+        "sha": "8701cf901e07f145d5307eb8c9a9dd0cb6fb8e65",
+        "timestamp": 1560448472
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "f5422b4f774bfe98510b120c007b72816064b407",
+        "timestamp": 1560449101
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "00dced81389745759b455e813ff7f41a6c6e1f54",
+        "timestamp": 1560449136
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "03a5f67de75d925f6c2bf4ac3f8c78fad94549e6",
+        "timestamp": 1560449154
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "665683c2f35021ee4b03146cc75112012634c1e2",
+        "timestamp": 1560450914
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "325a525145fb511aad8b6c570c44a51af2c2774d",
+        "timestamp": 1560451899
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py",
+          "diskcache/persistent.py"
+        ],
+        "sha": "2be5bac6cf9a640829bd8e75ace8f5ccbc24c012",
+        "timestamp": 1560452445
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "a1feac48c11bb9f199324298a7b91c1f2a44a6ec",
+        "timestamp": 1560467340
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "f3866d21b74d506bf86bf83d480c4e826a820162",
+        "timestamp": 1560796785
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "c61a7c6fa32a0010385a13767d1bbfe6c4c345fe",
+        "timestamp": 1560796865
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "24a6299b4a8bd03d84cc0ff4d85d23c4440e9d09",
+        "timestamp": 1560796886
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "7c9b6f73e67d4a288d6ca8d6c92e7c6a4db7163b",
+        "timestamp": 1560796927
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "c66f0b21214cda18bf6d4b62e85351a3f5cc984c",
+        "timestamp": 1560796975
+      },
+      {
+        "files": [
+          "tests/test_deque.py",
+          "tests/test_index.py"
+        ],
+        "sha": "892b53e186abe479fa36446f065fc2ec1014d988",
+        "timestamp": 1560797014
+      },
+      {
+        "files": [
+          "tests/plot_early_recompute.py"
+        ],
+        "sha": "0bf521c6a6cf2268fa4856b454b95e48ea10ec82",
+        "timestamp": 1560802129
+      },
+      {
+        "files": [
+          "tests/test_recipes.py"
+        ],
+        "sha": "13a59228f2c918d200acfeafa703b7805dcd9d0a",
+        "timestamp": 1560802150
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "bb750fbf629c1d93f0f0ac7bab931669ec45a98c",
+        "timestamp": 1560802164
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "fb1bc6738a9cf1510e08bdc3db092730c2d9df44",
+        "timestamp": 1560802203
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "ac3a3b619c0e5b6eaca429e93cd0d3678fb1ec0c",
+        "timestamp": 1560802237
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "713600acd72d86cabb18d16361ebef27bb72a55d",
+        "timestamp": 1560802737
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e8ce121d4fc4eccec6ddc3b7fdc919348e30c305",
+        "timestamp": 1561159998
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4be3e397af2bdc9f7e11e359d583afb833f70ca7",
+        "timestamp": 1561163783
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "docs/api.rst"
+        ],
+        "sha": "99454781f23af5a4cabf03a18ae00b29451b8b89",
+        "timestamp": 1561163815
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "379ef3cfb1e152ec2bc061cc812ccb6802ca5ed0",
+        "timestamp": 1561399980
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d4a0afd23e26bded1ce557e89069b67a572557c1",
+        "timestamp": 1561481949
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "1266d7ebe957d531e77b509b46400e9b5c762931",
+        "timestamp": 1561481983
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "28409c65d71f03015e2bd92777860a5e887f1755",
+        "timestamp": 1561481999
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "e572d198ee3ca72093224a3d4c894ecbca7a24dd",
+        "timestamp": 1561482034
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "47fc277de355024bafd54511f21c6a19e331dee3",
+        "timestamp": 1561482046
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "ef087b93e98f5c9692df04db3a9f44e443ae24b6",
+        "timestamp": 1561482069
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "40612613ff92beec9613fcd4e85dfdcf8f8b3f2f",
+        "timestamp": 1561482090
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "8e44b090639563fe05638bc8963953c8febc332d",
+        "timestamp": 1561482099
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "cdc59c1b06ee0b34fd69b0b57e642bbe42b26643",
+        "timestamp": 1561482239
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "71d1b47c00602e50c3be46b5534257debdbb6c80",
+        "timestamp": 1561483069
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "07f6e5ff25f22a4485c5390d6e66f8a00bb1edb0",
+        "timestamp": 1561483556
+      },
+      {
+        "files": [
+          "docs/case-study-delay-fuzzer.rst"
+        ],
+        "sha": "df66e3eae295133c0c785194a2045ecf22d9ec79",
+        "timestamp": 1561484062
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "935cc3933bed14c57ec8785ee4f87aa877439491",
+        "timestamp": 1561484076
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "8d950e5e4762c576ca381ed554a378f24670a287",
+        "timestamp": 1561999367
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "6ed398b4d615c46f47b63c1a0a889eb5ff14c66e",
+        "timestamp": 1561999389
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "1506b722dd6ed6107f2b0640eeb24df22d853bae",
+        "timestamp": 1561999404
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "2e344cdd1c754ae0ac3c7210fc89a364dcef88ca",
+        "timestamp": 1561999452
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "55ce695ce0b80363ddce5e09bc5ce1f9c6c4658a",
+        "timestamp": 1561999471
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "616f848dcb61f6820714606a377fdffccec5cdc5",
+        "timestamp": 1561999707
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "4b7e395a0cdf99033c4cbd5dd36b30c9a66a8166",
+        "timestamp": 1562004406
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "e4cd4dc0daf7ff9e56fb3d564fcc060147dc48ad",
+        "timestamp": 1562004432
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "126b033c5715fd058a258fc3c104b7c8d0858fbb",
+        "timestamp": 1562004464
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "5eff80e019de2158d126997655481030223a744b",
+        "timestamp": 1562004485
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "dfad0aa27362354901d90457e465b8b246570c3e",
+        "timestamp": 1562005421
+      },
+      {
+        "files": [
+          "docs/case-study-landing-page-caching.rst"
+        ],
+        "sha": "5682d1dbf3fa1a1c91aa95b917c541c386ebc754",
+        "timestamp": 1562007932
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "4b721b3bad706e049548bb17a435e26e93e28891",
+        "timestamp": 1562028159
+      },
+      {
+        "files": [
+          "diskcache/recipes.py",
+          "docs/case-study-landing-page-caching.rst"
+        ],
+        "sha": "2d1f43ea2be4c82a430d245de6260c3e18059ba1",
+        "timestamp": 1562087635
+      },
+      {
+        "files": [
+          "docs/case-study-landing-page-caching.rst"
+        ],
+        "sha": "1149e822c4a9b8bb8eaf27874c228100ddc380b1",
+        "timestamp": 1562089140
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "c7f826a22f27e7e70ac431b37d5689e7da705e60",
+        "timestamp": 1562091738
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "845ae3ed8e28c51eee3403adc2c927a72d37daa6",
+        "timestamp": 1562091875
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "tox.ini"
+        ],
+        "sha": "2c79bb981ea812f775331f758b07ce30fb0f864c",
+        "timestamp": 1562111700
+      },
+      {
+        "files": [
+          ".deepsource.toml"
+        ],
+        "sha": "ab8713e271ec8e7fdef9513c31a3a38544ecb5dd",
+        "timestamp": 1569648808
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "ee47430ce388e4373caa2033307c8b2f321c4638",
+        "timestamp": 1562127645
+      },
+      {
+        "files": [
+          ".deepsource.toml"
+        ],
+        "sha": "798c3ea4052a78f02bdaa6c52dc73646cd155746",
+        "timestamp": 1569695963
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py"
+        ],
+        "sha": "912f5b6c310ae62c6bd0bf12b196b2a11fd57e63",
+        "timestamp": 1562128717
+      },
+      {
+        "files": [
+          ".gitignore",
+          "diskcache/__init__.py",
+          "diskcache/core.py",
+          "docs/tutorial.rst",
+          "tests/test_core.py"
+        ],
+        "sha": "9cfe5df3fa0a3d98b522bb3426aa9934bb481b2c",
+        "timestamp": 1571006568
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/core.py",
+          "docs/api.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "19f908bd5d6d90c4f69710b27a1cbad22eb93e31",
+        "timestamp": 1571008068
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py"
+        ],
+        "sha": "9bee7b9ff43f2caf6f84fc6bdf1b6d7a695c0fe8",
+        "timestamp": 1571008160
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "0e273fb54f9bfec6a33e6be7cdf9a68f0ea2adaa",
+        "timestamp": 1571011155
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "b0451e084ea403c29980f683b8f0d8c9ac2a2dea",
+        "timestamp": 1574287870
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tox.ini"
+        ],
+        "sha": "727037065e64a698147171f9553a6ee08be02950",
+        "timestamp": 1593281953
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "tox.ini"
+        ],
+        "sha": "eb8033c61b59f23772801c8bfa22e269e70cb115",
+        "timestamp": 1593282078
+      },
+      {
+        "files": [
+          "tests/test_djangocache.py"
+        ],
+        "sha": "8130ebca2c72a90b9d25feeecfeed8efa547025f",
+        "timestamp": 1593282675
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/test_core.py",
+          "tests/test_deque.py",
+          "tests/test_fanout.py",
+          "tests/test_index.py",
+          "tests/test_recipes.py"
+        ],
+        "sha": "e8f965945e5e82353080bb3454de68084c7e34db",
+        "timestamp": 1593282913
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "7e917912f3d1eb1b5263110687b25ce8d231505a",
+        "timestamp": 1593985546
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "de987e377616806303a166f27715c468a4421b86",
+        "timestamp": 1593985561
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "a6212df9d45b7df157044b1b1720cd997ef0f69f",
+        "timestamp": 1598158769
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "82b45e8e342ee597dba56f0a42c0d6088b0c2037",
+        "timestamp": 1598158799
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/persistent.py"
+        ],
+        "sha": "83fe89c80371278d45917b6adde58c179fc5f5e2",
+        "timestamp": 1598158896
+      },
+      {
+        "files": [
+          "LICENSE",
+          "README.rst",
+          "docs/conf.py"
+        ],
+        "sha": "e197a93e60a10fb8ed6030fc6b556b122a664573",
+        "timestamp": 1598160317
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/development.rst",
+          "setup.py"
+        ],
+        "sha": "2ba5b7985d17141afa7fb5fb3bf5913b0e496fe6",
+        "timestamp": 1598161472
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/fanout.py",
+          "diskcache/persistent.py",
+          "diskcache/recipes.py"
+        ],
+        "sha": "4497cfc85197d57298120dbd238d263bfb9e9557",
+        "timestamp": 1598162287
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/core.py",
+          "diskcache/fanout.py",
+          "diskcache/persistent.py",
+          "diskcache/recipes.py",
+          "tox.ini"
+        ],
+        "sha": "8e0f545a986c8dbb514aaa3c526472e1961934b6",
+        "timestamp": 1598163225
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "4f2ff540155c0182ff07a5a3408aceb8c10cff1e",
+        "timestamp": 1596245183
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "a8a014cb96ed0d96c12d07b6b7d4729b54c0c011",
+        "timestamp": 1598222869
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "b1ab12c7a85bf5473fdc491d2d03c9adc6de5bba",
+        "timestamp": 1598223379
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "38bd9019e1b8d5adec52f7bc893a6f662c49cd20",
+        "timestamp": 1598224982
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/persistent.py"
+        ],
+        "sha": "cdeee61aa15335fd95ef923f6807cc451d05209b",
+        "timestamp": 1598225449
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "1f339c12fec3baf6955cd6e1596a16bb6bba447b",
+        "timestamp": 1598417672
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d6c3a4950beeca124575a5b6d039af381ec00ba0",
+        "timestamp": 1599626745
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "9670fbb957af8caac826ddc1144da913682de447",
+        "timestamp": 1599626772
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "49205f5fc25bb0886e9dcc764ec2dcc3d8afe36d",
+        "timestamp": 1604892354
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "77ca254ae2fda78550ffd678c7666d62ea0c0af1",
+        "timestamp": 1604892371
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/fanout.py"
+        ],
+        "sha": "c5259bd6b6046789ae2bcdf1955e1781adb07bd4",
+        "timestamp": 1604892447
+      },
+      {
+        "files": [
+          "tests/test_deque.py",
+          "tests/test_index.py"
+        ],
+        "sha": "40ce0dedb90ccefacaea41ac11c19ddd491d5a6d",
+        "timestamp": 1604895842
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "c4ba1f78bb8494bcf6aba9d7d1c3aa49a1093508",
+        "timestamp": 1607704561
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "ce44a42cfe01ac48e167efeff2612a6e768fdf55",
+        "timestamp": 1611160442
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "9a300bd4ab4896cfc4eb90703d155d84924be447",
+        "timestamp": 1611203247
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "8b0f68b8c208ddd5a6c06e5c6a9d55ef37f5fb1a",
+        "timestamp": 1611203875
+      },
+      {
+        "files": [
+          ".github/workflows/integration.yml",
+          ".github/workflows/release.yml",
+          ".travis.yml",
+          "appveyor.yml",
+          "tox.ini"
+        ],
+        "sha": "fcd31646cf81b6762d1d31cffafb8fd97510f024",
+        "timestamp": 1611340147
+      },
+      {
+        "files": [
+          "tests/benchmark_kv_store.py"
+        ],
+        "sha": "8d2009abd1e92875a31b21bdf2799ea757fb6b24",
+        "timestamp": 1611343185
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b7ecbe9e9d9d51d78b49058c6bea68400ff1ecf5",
+        "timestamp": 1611343380
+      },
+      {
+        "files": [
+          ".pylintrc"
+        ],
+        "sha": "c40b57facd5d9d167a645cb55a4b69257ef20299",
+        "timestamp": 1611345033
+      },
+      {
+        "files": [
+          "mypy.ini"
+        ],
+        "sha": "58227d18dbdd885fd27ba74a9a34e74fb72222d3",
+        "timestamp": 1611345046
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "db76f111e43ebacc392443b861565bfed14e87b7",
+        "timestamp": 1611345058
+      },
+      {
+        "files": [
+          "diskcache/fanout.py",
+          "diskcache/persistent.py"
+        ],
+        "sha": "b2c0ae421ccdf332698431f1dd29eb6e9936d375",
+        "timestamp": 1611345117
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "585f47f1084581e8d2fa0aed8ce0dd8a2e0a9162",
+        "timestamp": 1611345178
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "945ee10ca54871032196a0b468ce17d8e0711dcb",
+        "timestamp": 1611345194
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "4bbe73fb251830a2b2e7d78c21a67f2ab9b18804",
+        "timestamp": 1611345216
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "diskcache/core.py",
+          "diskcache/fanout.py",
+          "diskcache/recipes.py"
+        ],
+        "sha": "4b0fc2342d87f59ca1a024d3f74332dd53e3cb9e",
+        "timestamp": 1611346588
+      },
+      {
+        "files": [
+          "docs/Makefile",
+          "docs/conf.py",
+          "docs/make.bat"
+        ],
+        "sha": "c654aeda6a969eeadc5fd81e1de5faab24a832a4",
+        "timestamp": 1611347478
+      },
+      {
+        "files": [
+          "LICENSE",
+          "README.rst",
+          "diskcache/__init__.py"
+        ],
+        "sha": "d1cf8c528ae21fc8d2dff7afe91299df7e5cd1f7",
+        "timestamp": 1611347565
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6df650543aa3834af84346aefd4be85b74d993af",
+        "timestamp": 1611347652
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "72127020640a383149b643933e89c7ebc577cc5f",
+        "timestamp": 1611349881
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e49358a20ee359614a39d94047b27b9cfaf4ab1a",
+        "timestamp": 1611351238
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "0d41722a030695f4d988ac21383513c52f2aa073",
+        "timestamp": 1611351284
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "a5d1c73e38fbc917c5503e2e8bcd9a2f834efc3f",
+        "timestamp": 1611351573
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "fc38bd97009bd9ce352e8bf01950a2a22b5604b5",
+        "timestamp": 1611351811
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "6b6944750acdaf80c6ce28eb8e7a35320ea3a3c0",
+        "timestamp": 1611352645
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "619eb6904810440ef952ea425421315a7353ba12",
+        "timestamp": 1611369988
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "e1d7c4aaa6729178ca3216f4c8a75b835f963022",
+        "timestamp": 1611370075
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "12c1db268d03699de86cf114facd2a5091bfc257",
+        "timestamp": 1611825093
+      },
+      {
+        "files": [
+          ".github/workflows/integration.yml"
+        ],
+        "sha": "660e53d3afe5789babcf461e4cf7764e90dcf15a",
+        "timestamp": 1612038010
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2ba659ece1cb7a2b99430cc805c5631f79ec9e8a",
+        "timestamp": 1616903984
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "12400ec12eb32be37c41a4940b545797aae036a6",
+        "timestamp": 1621633458
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "tests/stress_test_deque_mp.py",
+          "tests/stress_test_index_mp.py"
+        ],
+        "sha": "b460e7409d8d299e208500d640d69e55c1faccec",
+        "timestamp": 1623071494
+      },
+      {
+        "files": [
+          "tests/stress_test_deque_mp.py",
+          "tests/stress_test_index_mp.py"
+        ],
+        "sha": "d20ddb3b2273dee41e73aa72ba182f4331ccba83",
+        "timestamp": 1623143103
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "d9b9d06614a41beff9ebce9b1bc8038d5540394e",
+        "timestamp": 1623213774
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "fac9ad3ffdc289336b7c280e50ca26712f65f8ea",
+        "timestamp": 1630386445
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "ceff81cde5ecacaf7ff79b50bd90250e988a5db0",
+        "timestamp": 1630386693
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "aefb2feda735b1f602eee290cac3a1baa95c8c8c",
+        "timestamp": 1630386756
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "49c5979190bd33b134ab8acfe5b5c95823d567e2",
+        "timestamp": 1630474394
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "1acab3b7b0809180b7c5b0863751e18662662cc3",
+        "timestamp": 1630474418
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "b86aa9e0ba840821f2b5bcbc064a1283fd4d3e1e",
+        "timestamp": 1630474443
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "879a65a1932377d017cc187661fd880346459b0d",
+        "timestamp": 1630990941
+      },
+      {
+        "files": [
+          "tests/test_recipes.py"
+        ],
+        "sha": "226a5cfd2ec68a726a1f6d535d6bc5c055cf226f",
+        "timestamp": 1630993169
+      },
+      {
+        "files": [
+          "tests/test_recipes.py"
+        ],
+        "sha": "9d5c0b7ebf43bea02eae968f75a9104a699fba46",
+        "timestamp": 1630993187
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "14094b31006d2951b64a8b87f2a07bd57efa6525",
+        "timestamp": 1630993223
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "2f18867705a536d8a6f54404856f029923204f08",
+        "timestamp": 1630993236
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "094b873e1a780004d6b07dd3ebbb216898d803e4",
+        "timestamp": 1630993253
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "b92f2fd3abaf9c30a921ee7d287f573f2d6546a6",
+        "timestamp": 1630993267
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "f9503321a78ecffabac670bdd147bb6026af78fa",
+        "timestamp": 1630993576
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "587f00d97724ef9bd2f66fcfa4935fecfc1f86a3",
+        "timestamp": 1630993641
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "28aa595a662754e88a0d2665b4a9c5eaeadd93fd",
+        "timestamp": 1631589934
+      },
+      {
+        "files": [
+          "diskcache/__init__.py",
+          "diskcache/djangocache.py",
+          "tox.ini"
+        ],
+        "sha": "a2e461ad93f7fa99a0d861db614cea2f7e521a6c",
+        "timestamp": 1631590715
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "72bbd73d29184e095df248efd48c31eeeb8e992c",
+        "timestamp": 1631591923
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "3e87128d4154acf90bd64c6630b1200108dc1ed2",
+        "timestamp": 1631592274
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/djangocache.py",
+          "diskcache/persistent.py",
+          "diskcache/recipes.py",
+          "tests/test_core.py"
+        ],
+        "sha": "fbc537a7138330652d0d42aa09caa5531746b302",
+        "timestamp": 1631595090
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/recipes.py",
+          "tests/test_core.py"
+        ],
+        "sha": "bd800aa069ad6bc15aa3f6fec84ae92d2f644de5",
+        "timestamp": 1631595125
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "606d8f2b12e8022e6d5b509d7c41439c4242043d",
+        "timestamp": 1623385494
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c22d3ee59ee28bd58aec59182d375b1eccd191f2",
+        "timestamp": 1631595837
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_core.py"
+        ],
+        "sha": "d55a50ee083784afa9c85e14e41c4a2d132f3111",
+        "timestamp": 1631596550
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "b10b3866f4d64ea197e3fb40c0ebe25aa32900d6",
+        "timestamp": 1631597361
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "3ad6c0e4365ef93e60a75aee75740e6551e279f9",
+        "timestamp": 1631598026
+      },
+      {
+        "files": [
+          ".github/workflows/integration.yml"
+        ],
+        "sha": "4de3c0ed99dd2bcebffad8e6e0cb7a2885210a97",
+        "timestamp": 1631653620
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "6ed012a655673c54468beb7ff00038443ed2595e",
+        "timestamp": 1632909456
+      },
+      {
+        "files": [
+          ".pylintrc"
+        ],
+        "sha": "20f1d93a6e3852bac4289cb94e27585d9c23330c",
+        "timestamp": 1632928264
+      },
+      {
+        "files": [
+          ".github/workflows/integration.yml",
+          ".github/workflows/release.yml",
+          "LICENSE",
+          "README.rst",
+          "diskcache/__init__.py",
+          "docs/conf.py"
+        ],
+        "sha": "7bfbce63ba127d601ddfbf2838539e34cad87616",
+        "timestamp": 1638255528
+      },
+      {
+        "files": [
+          "tests/test_djangocache.py"
+        ],
+        "sha": "78a5cc690e0aa53ad3537a72b2f52f3c161da1ae",
+        "timestamp": 1640914544
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py"
+        ],
+        "sha": "f3836f9f1938ede1eaf32d474be0311d0c7a3183",
+        "timestamp": 1640914555
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tox.ini"
+        ],
+        "sha": "8da6634877178ff3704d8468aa5a95b9baf4f9ac",
+        "timestamp": 1640914658
+      },
+      {
+        "files": [
+          "tests/test_djangocache.py"
+        ],
+        "sha": "221f3d38cea69e33ba9a83cde0e2e202f3d3d70e",
+        "timestamp": 1640915126
+      },
+      {
+        "files": [
+          "tests/test_djangocache.py"
+        ],
+        "sha": "5ac77969c88df42eece83be2e4ce85d2e277109d",
+        "timestamp": 1640915288
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "1cb1425b1ba24f26fb1e37349c4c2658c2a46d8f",
+        "timestamp": 1640915904
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "c9844bba9de039ab64858073d8864f7e40172c9e",
+        "timestamp": 1645390061
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "2d2cc8b39db3e0c0785dd304bde7902219d85ffe",
+        "timestamp": 1645393334
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c1774469b8d4c4906fe24f7b5afd637795af48d9",
+        "timestamp": 1681189948
+      },
+      {
+        "files": [
+          "diskcache/fanout.py"
+        ],
+        "sha": "f3fcdffee88af7923740b9864d533524a79d1222",
+        "timestamp": 1681190868
+      },
+      {
+        "files": [
+          "diskcache/recipes.py"
+        ],
+        "sha": "ee7a248e5c09e6fb9145b2e4a1777a345114b71d",
+        "timestamp": 1681191459
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "fb2fa2c401bb88ecbbc58009d02cbe65f2fc594a",
+        "timestamp": 1681192372
+      },
+      {
+        "files": [
+          "README.rst",
+          "diskcache/__init__.py",
+          "docs/conf.py"
+        ],
+        "sha": "0a9783353ff7dc9f874154ef98b23de27e4aba8d",
+        "timestamp": 1681192397
+      },
+      {
+        "files": [
+          ".github/workflows/integration.yml",
+          ".github/workflows/release.yml",
+          "tox.ini"
+        ],
+        "sha": "712cc1827b29fb8f6a76803d32f87a5fb57f3c6e",
+        "timestamp": 1681192576
+      },
+      {
+        "files": [
+          "requirements-dev.txt",
+          "requirements.txt"
+        ],
+        "sha": "a53283d554fbe7bd678067f24d6f45d57de3f83b",
+        "timestamp": 1681194316
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "diskcache/core.py"
+        ],
+        "sha": "b22a7d58c3dbf3f71fa4f9156ccbd4892ebf3fe2",
+        "timestamp": 1681194335
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "471aa5e551aed186dd34d5bc7d345be835efd6f3",
+        "timestamp": 1681194398
+      },
+      {
+        "files": [
+          "tests/test_djangocache.py"
+        ],
+        "sha": "c14345f105f14eba45986b09ec96d87b8997c9cc",
+        "timestamp": 1681195358
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "0294d58cd0cb72dd6affbbc46b3ff05d96d015cc",
+        "timestamp": 1681195395
+      },
+      {
+        "files": [
+          ".github/workflows/integration.yml"
+        ],
+        "sha": "6cd6888a16be1d531a19ca91d5e0daa6edac9718",
+        "timestamp": 1681195514
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "bbac13b54f9ac0a5c45b7cfbd242869b41042cac",
+        "timestamp": 1681195977
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "0f5d8ed63406e26de96701f98aa585b4fb26f6dd",
+        "timestamp": 1681196000
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "fe5ee43ac5df1847556f280c696ab921f0910be2",
+        "timestamp": 1681706533
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "9380c784d9e2954611b2ea309f1c657602085f25",
+        "timestamp": 1681711344
+      },
+      {
+        "files": [
+          "diskcache/persistent.py"
+        ],
+        "sha": "f5a17ff0959a4cc7147d45a4cc8d8eef8d7416b0",
+        "timestamp": 1681783234
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "ef94856d2447fa9662bc62557f9b96ba6f131e15",
+        "timestamp": 1681783285
+      },
+      {
+        "files": [
+          ".github/workflows/integration.yml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "74e554c5d9340765f6fd6f7891da49a420e92b70",
+        "timestamp": 1681783501
+      },
+      {
+        "files": [
+          "diskcache/djangocache.py",
+          "diskcache/fanout.py",
+          "diskcache/persistent.py",
+          "docs/tutorial.rst",
+          "tests/test_deque.py"
+        ],
+        "sha": "35dbeabd283b242e9afd33713a5cea5cd260f51d",
+        "timestamp": 1681789084
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "4beffe892a6c4352098a79614de40649d7e9f88e",
+        "timestamp": 1681789255
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "cffbcec2b198e3a296ec294bd43da37fc559645b",
+        "timestamp": 1681795826
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "diskcache/fanout.py",
+          "tests/test_core.py",
+          "tests/test_fanout.py"
+        ],
+        "sha": "f81160f22af9e8af0e07e179808280188146a020",
+        "timestamp": 1681796804
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "4d3068625a3edcd2f5a1f6f104ef621f1f7ea395",
+        "timestamp": 1681796842
+      },
+      {
+        "files": [
+          "diskcache/core.py",
+          "tests/test_deque.py"
+        ],
+        "sha": "17a5f42facc312dae6e98b7b53345e2ed02be21d",
+        "timestamp": 1693461398
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "63a5f6068b77fe9c02c8f310758fa1f05ae1ae04",
+        "timestamp": 1693461491
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "23d10dce8f4be9c00df4786d508964b3b7d72b27",
+        "timestamp": 1693462194
+      },
+      {
+        "files": [
+          "diskcache/__init__.py"
+        ],
+        "sha": "323787f507a6456c56cce213156a78b17073fe00",
+        "timestamp": 1693462227
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "9cd3816333fa34cb30d6cc2a7f227b6b1cdb793c",
+        "timestamp": 1708990246
+      },
+      {
+        "files": [
+          "diskcache/core.py"
+        ],
+        "sha": "ebfa37cd99d7ef716ec452ad8af4b4276a8e2233",
+        "timestamp": 1709428769
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 6,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".deepsource.toml": 0,
+      ".github/workflows/integration.yml": 1,
+      ".github/workflows/release.yml": 2,
+      ".gitignore": 3,
+      ".pylintrc": 4,
+      ".travis.yml": 5,
+      "LICENSE": 6,
+      "MANIFEST.in": 7,
+      "README.rst": 8,
+      "appveyor.yml": 9,
+      "diskcache/__init__.py": 10,
+      "diskcache/cli.py": 11,
+      "diskcache/core.py": 12,
+      "diskcache/djangocache.py": 13,
+      "diskcache/fanout.py": 14,
+      "diskcache/memo.py": 15,
+      "diskcache/ordered.py": 16,
+      "diskcache/persistent.py": 17,
+      "diskcache/recipes.py": 18,
+      "diskcache/stampede.py": 19,
+      "docs/Makefile": 20,
+      "docs/_static/custom.css": 21,
+      "docs/api.rst": 22,
+      "docs/cache-benchmarks.rst": 23,
+      "docs/case-study-delay-fuzzer.rst": 24,
+      "docs/case-study-landing-page-caching.rst": 25,
+      "docs/case-study-web-crawler.rst": 26,
+      "docs/conf.py": 27,
+      "docs/development.rst": 28,
+      "docs/djangocache-benchmarks.rst": 29,
+      "docs/index.rst": 30,
+      "docs/make.bat": 31,
+      "docs/sf-python-2017-meetup-talk.rst": 32,
+      "docs/tutorial.rst": 33,
+      "docs/web-crawler-case-study.rst": 34,
+      "mypy.ini": 35,
+      "requirements-dev.txt": 36,
+      "requirements.txt": 37,
+      "setup.py": 38,
+      "tests/benchmark_core.py": 39,
+      "tests/benchmark_djangocache.py": 40,
+      "tests/benchmark_glob.py": 41,
+      "tests/benchmark_incr.py": 42,
+      "tests/benchmark_kv_store.py": 43,
+      "tests/db.sqlite3": 44,
+      "tests/issue_109.py": 45,
+      "tests/issue_85.py": 46,
+      "tests/models.py": 47,
+      "tests/plot.py": 48,
+      "tests/plot_early_recompute.py": 49,
+      "tests/settings.py": 50,
+      "tests/settings_benchmark.py": 51,
+      "tests/stress_test_core.py": 52,
+      "tests/stress_test_deque_mp.py": 53,
+      "tests/stress_test_fanout.py": 54,
+      "tests/stress_test_index_mp.py": 55,
+      "tests/talk/benchmark.py": 56,
+      "tests/talk/crawler.py": 57,
+      "tests/talk/talk/urls.py": 58,
+      "tests/talk/talk/views.py": 59,
+      "tests/test_core.py": 60,
+      "tests/test_deque.py": 61,
+      "tests/test_djangocache.py": 62,
+      "tests/test_doctest.py": 63,
+      "tests/test_fanout.py": 64,
+      "tests/test_index.py": 65,
+      "tests/test_memo.py": 66,
+      "tests/test_ordered.py": 67,
+      "tests/test_recipes.py": 68,
+      "tests/timings_core_p1.txt": 69,
+      "tests/timings_core_p8.txt": 70,
+      "tests/timings_djangocache.txt": 71,
+      "tests/timings_glob.txt": 72,
+      "tests/utils.py": 73,
+      "tox.ini": 74
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1454549281,
+      "last_commit_ts": 1709428769,
+      "n_cochange_pairs": 124,
+      "n_commits_dropped_as_bulk": 28,
+      "n_commits_used": 692,
+      "n_files": 75
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "ebfa37cd99d7ef716ec452ad8af4b4276a8e2233",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
