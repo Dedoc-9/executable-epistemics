@@ -1,0 +1,390 @@
+{
+  "chain_hash": "66cf70609f27c4cf",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      "exceptiongroup/__init__.py||exceptiongroup/_monkeypatch.py": 3,
+      "exceptiongroup/__init__.py||exceptiongroup/_tests/test_tools.py": 9,
+      "exceptiongroup/__init__.py||exceptiongroup/_tools.py": 4,
+      "exceptiongroup/_monkeypatch.py||exceptiongroup/_tests/test_tools.py": 3,
+      "exceptiongroup/_monkeypatch.py||exceptiongroup/_tools.py": 3,
+      "exceptiongroup/_tests/test_scripts/ipython_custom_exc.py||exceptiongroup/_tests/test_scripts/simple_excepthook.py": 2,
+      "exceptiongroup/_tests/test_scripts/ipython_custom_exc.py||exceptiongroup/_tests/test_tools.py": 2,
+      "exceptiongroup/_tests/test_scripts/ipython_custom_exc.py||exceptiongroup/_tools.py": 2,
+      "exceptiongroup/_tests/test_scripts/simple_excepthook.py||exceptiongroup/_tests/test_tools.py": 2,
+      "exceptiongroup/_tests/test_scripts/simple_excepthook.py||exceptiongroup/_tools.py": 2,
+      "exceptiongroup/_tests/test_tools.py||exceptiongroup/_tools.py": 9
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "62ea46223eccbc1bda0f26b4ea4bbb9d054abe5d",
+        "timestamp": 1536716186
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/conftest.py",
+          "exceptiongroup/_tests/test_example.py",
+          "test-requirements.txt"
+        ],
+        "sha": "8954524543fa4974f9b22eb97d3aaa1aea2a89ba",
+        "timestamp": 1536716251
+      },
+      {
+        "files": [
+          "CHEATSHEET.rst",
+          "CODE_OF_CONDUCT.md",
+          "CONTRIBUTING.md"
+        ],
+        "sha": "3eeeee56193f4efa2025a67421e554c93e78bcb1",
+        "timestamp": 1536716293
+      },
+      {
+        "files": [
+          "CHEATSHEET.rst"
+        ],
+        "sha": "980aea2839abfaf8c7a25665afe9332862cd6e5f",
+        "timestamp": 1536716850
+      },
+      {
+        "files": [
+          "ci/travis.sh"
+        ],
+        "sha": "0cdac1df6731729529ee4ea9aec1eaf14d19c912",
+        "timestamp": 1536729871
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyproject.toml",
+          "setup.py"
+        ],
+        "sha": "f14bdf79310e9c0887eb1005673c9d8f13285a2b",
+        "timestamp": 1536731438
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py",
+          "exceptiongroup/_monkeypatch.py",
+          "exceptiongroup/_tests/test_scripts/__init__.py",
+          "exceptiongroup/_tests/test_scripts/_common.py",
+          "exceptiongroup/_tests/test_scripts/custom_excepthook.py",
+          "exceptiongroup/_tests/test_scripts/ipython_custom_exc.py",
+          "exceptiongroup/_tests/test_scripts/simple_excepthook.py",
+          "exceptiongroup/_tests/test_scripts/simple_excepthook_IPython.py",
+          "exceptiongroup/_tests/test_tools.py",
+          "exceptiongroup/_tools.py"
+        ],
+        "sha": "91a286fca6c7b3daf11c11d2d70ee680a9b92a28",
+        "timestamp": 1538998043
+      },
+      {
+        "files": [
+          "exceptiongroup/_tools.py"
+        ],
+        "sha": "501a0d6d7d86148fda459dd732918680b72341e9",
+        "timestamp": 1547805271
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py"
+        ],
+        "sha": "2a22cd5c0e1c6427f05965ee2b3bd096ca4446e4",
+        "timestamp": 1547806621
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py",
+          "exceptiongroup/_tools.py"
+        ],
+        "sha": "96b7da2253d20a3c49acfb368b741f21b14463f0",
+        "timestamp": 1547810542
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/test_tools.py",
+          "exceptiongroup/_tools.py"
+        ],
+        "sha": "a45781c20c0c5367953916bae7d04287df000954",
+        "timestamp": 1547824581
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/test_tools.py",
+          "exceptiongroup/_tools.py"
+        ],
+        "sha": "e0ab8de716e0008a614de6d81ed9d131378b6f51",
+        "timestamp": 1547862486
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py",
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "ee3e826cdfe1bff58633ed6fa53ad2f2bcf72af0",
+        "timestamp": 1547878929
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py",
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "eef4d66f32733a7bd7a0a0cb3607553ac92708b9",
+        "timestamp": 1547892807
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py",
+          "exceptiongroup/_monkeypatch.py",
+          "exceptiongroup/_tests/test_tools.py",
+          "exceptiongroup/_tools.py"
+        ],
+        "sha": "0d7edafc87c8f1dab166000ffaac7b018b01ff20",
+        "timestamp": 1548154374
+      },
+      {
+        "files": [
+          "exceptiongroup/_tools.py"
+        ],
+        "sha": "a3cfd8f1f1b762cbdf63a12df36f31c35c6eeb4c",
+        "timestamp": 1548256290
+      },
+      {
+        "files": [
+          ".flake8",
+          "mypy.ini"
+        ],
+        "sha": "657bb65b951bf324a1fa7efeb591908fee774e69",
+        "timestamp": 1548256345
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/test_tools.py",
+          "exceptiongroup/_tools.py",
+          "mypy.ini"
+        ],
+        "sha": "7a537d6af430af34d1ff751614f42d0217587525",
+        "timestamp": 1548322851
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py",
+          "exceptiongroup/_monkeypatch.py",
+          "exceptiongroup/_tests/test_tools.py",
+          "exceptiongroup/_tools.py"
+        ],
+        "sha": "c94bf59bf07012fc75ea4be09d911e04e778d0b8",
+        "timestamp": 1548323170
+      },
+      {
+        "files": [
+          ".flake8"
+        ],
+        "sha": "6c877351314eb202bc98760f9132b51c27bdd441",
+        "timestamp": 1548323230
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/test_tools.py",
+          "exceptiongroup/_tools.py"
+        ],
+        "sha": "b5f59cac63fca1f21b7ebbe0b958b53319bb5c63",
+        "timestamp": 1548471606
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "f3cc801a64656c74f3240aba88f5da4ccb89e6ed",
+        "timestamp": 1548471716
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "4024274a07e22d981015bd31331976abbf1d0982",
+        "timestamp": 1548471799
+      },
+      {
+        "files": [
+          ".flake8",
+          "exceptiongroup/_tests/test_tools.py",
+          "exceptiongroup/_tools.py"
+        ],
+        "sha": "f36f48609826a6b57e0038b1d95853c067e0011b",
+        "timestamp": 1548504976
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py",
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "6a8832ead3a9ecd30db9dd0490161be4ee6ac847",
+        "timestamp": 1548571555
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "3756f4235b35b175bcb7b8d7fa8c0f85162b0851",
+        "timestamp": 1548572321
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py",
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "eb9e920e1a6b6bf57225855c7dd570c982de93f5",
+        "timestamp": 1548637674
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "dfe4d6a5736b287c70c8184caf8a64a83795aa00",
+        "timestamp": 1548671221
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "2ecc8f08e4c954028680e53f9dad763e1d0d5b7e",
+        "timestamp": 1548671484
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py",
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "ffe3bf147074d5388b320fa6fccd2f0c74a1f553",
+        "timestamp": 1548803377
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py",
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "b1b3096ef6a658338e223484864b1b7fd6c5c45d",
+        "timestamp": 1548822973
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/test_tools.py"
+        ],
+        "sha": "13c732fa67fce6693ac32f4fc53d265b64a05f74",
+        "timestamp": 1548823312
+      },
+      {
+        "files": [
+          "exceptiongroup/__init__.py"
+        ],
+        "sha": "1df86e8620f37086a3435ff785db95b6f20fad7e",
+        "timestamp": 1548828505
+      },
+      {
+        "files": [
+          "ci/travis.sh"
+        ],
+        "sha": "557efc31fd0b84b1033b93fa8f29190b0bd43281",
+        "timestamp": 1549266328
+      },
+      {
+        "files": [
+          "exceptiongroup/_tests/test_scripts/ipython_custom_exc.py",
+          "exceptiongroup/_tests/test_scripts/simple_excepthook.py",
+          "exceptiongroup/_tests/test_tools.py",
+          "exceptiongroup/_tools.py",
+          "setup.py"
+        ],
+        "sha": "a3f50a0952c57dde0a3129721817bbc5261a3530",
+        "timestamp": 1549266435
+      },
+      {
+        "files": [
+          "ci/travis.sh",
+          "pyproject.toml"
+        ],
+        "sha": "9f5b3839ff8670141546eefb6199ae7a534c5cad",
+        "timestamp": 1549269645
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6d142adf1ee5c54d85e542d57d58c9a167811952",
+        "timestamp": 1613024110
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 10,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".appveyor.yml": 0,
+      ".flake8": 1,
+      "CHEATSHEET.rst": 2,
+      "CODE_OF_CONDUCT.md": 3,
+      "CONTRIBUTING.md": 4,
+      "README.rst": 5,
+      "ci/travis.sh": 6,
+      "exceptiongroup/__init__.py": 7,
+      "exceptiongroup/_monkeypatch.py": 8,
+      "exceptiongroup/_tests/conftest.py": 9,
+      "exceptiongroup/_tests/test_example.py": 10,
+      "exceptiongroup/_tests/test_scripts/__init__.py": 11,
+      "exceptiongroup/_tests/test_scripts/_common.py": 12,
+      "exceptiongroup/_tests/test_scripts/custom_excepthook.py": 13,
+      "exceptiongroup/_tests/test_scripts/ipython_custom_exc.py": 14,
+      "exceptiongroup/_tests/test_scripts/simple_excepthook.py": 15,
+      "exceptiongroup/_tests/test_scripts/simple_excepthook_IPython.py": 16,
+      "exceptiongroup/_tests/test_tools.py": 17,
+      "exceptiongroup/_tools.py": 18,
+      "mypy.ini": 19,
+      "pyproject.toml": 20,
+      "setup.py": 21,
+      "test-requirements.txt": 22
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1536716186,
+      "last_commit_ts": 1613024110,
+      "n_cochange_pairs": 11,
+      "n_commits_dropped_as_bulk": 1,
+      "n_commits_used": 37,
+      "n_files": 23
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "dd8fe794d54f058c3bf06f4b06f2f5723879209e",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
