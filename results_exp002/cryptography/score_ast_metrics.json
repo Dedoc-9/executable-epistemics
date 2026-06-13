@@ -1,0 +1,42 @@
+{
+  "chain_hash": "72b3c5707c7e46ca",
+  "claim_class": "exp001_scored_observation",
+  "data": {
+    "activity_baseline_capture": 0.226681,
+    "classification": "NOT_DETECTED",
+    "e007_margin": 0.0,
+    "e007_yardstick": 0.002219,
+    "exceeds_activity_baseline": true,
+    "exceeds_null_p95": false,
+    "ground_truth_chain": "e0b478eb2a23093d",
+    "n_null_draws": 1000,
+    "null_median": 0.265361,
+    "null_p95": 0.26758,
+    "observed_capture": 0.226681
+  },
+  "forbidden_interpretations": [
+    "geometry_truth",
+    "causal_coupling",
+    "design_quality"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "scorer.py": "cd6bf9a6c3f3ab36"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "seeds": {
+      "null_seed": 0
+    },
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "frozen-metric score vs preregistered null on one repository",
+    "detection_rule": "E-004_dual_baseline",
+    "does_not_certify": [
+      "cross-repository generality",
+      "EXP-001 success (requires >=60% of >=20 repos)"
+    ],
+    "single_repository": true
+  }
+}
