@@ -255,5 +255,16 @@
     "corrected_statement": "pyca/pyotp does not exist on GitHub (clone returned 'Repository not found'). The pyotp library is hosted under the pyauth organization: pyauth/pyotp. Corrected pre-clone. Non-instrument erratum. Declaration hash updates accordingly.",
     "filed": "pre-clone",
     "instrument_affected": false
+  },
+  {
+    "erratum_id": "E-029",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-102",
+    "repo_id": "D091",
+    "slug_declared": "pypa/cachecontrol",
+    "slug_corrected": "psf/cachecontrol",
+    "corrected_statement": "pypa/cachecontrol does not exist on GitHub (clone returned 'Repository not found'). The CacheControl library moved to the Python Software Foundation organization: psf/cachecontrol. Corrected pre-clone. Non-instrument erratum. Declaration hash updates accordingly.",
+    "filed": "pre-clone",
+    "instrument_affected": false
   }
 ]
