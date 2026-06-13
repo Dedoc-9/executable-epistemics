@@ -1,0 +1,6891 @@
+{
+  "chain_hash": "1ea0fbe859475ba2",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/workflows/docs.yml||docs/theme/layout.html": 2,
+      ".gitignore||gino/record.pyx": 2,
+      ".gitignore||setup.py": 2,
+      ".gitignore||src/gino/dialects/asyncpg.py": 2,
+      ".travis.yml||tox.ini": 3,
+      "AUTHORS.rst||HISTORY.rst": 18,
+      "AUTHORS.rst||src/gino/loader.py": 2,
+      "AUTHORS.rst||tests/models.py": 2,
+      "AUTHORS.rst||tests/test_loader.py": 2,
+      "CONTRIBUTING.rst||README.rst": 2,
+      "HISTORY.rst||poetry.lock": 2,
+      "HISTORY.rst||pyproject.toml": 3,
+      "HISTORY.rst||setup.cfg": 2,
+      "HISTORY.rst||setup.py": 2,
+      "HISTORY.rst||src/gino/__init__.py": 3,
+      "HISTORY.rst||src/gino/api.py": 2,
+      "HISTORY.rst||src/gino/engine.py": 2,
+      "HISTORY.rst||src/gino/loader.py": 2,
+      "HISTORY.rst||tests/test_transaction.py": 2,
+      "Makefile||docs/conf.py": 2,
+      "Makefile||docs/explanation/why.rst": 2,
+      "README.rst||docs/how-to/faq.rst": 4,
+      "README.rst||docs/index.rst": 3,
+      "README.rst||docs/tutorials/tutorial.rst": 2,
+      "README.rst||examples/basic.py": 4,
+      "README.rst||examples/bind.py": 2,
+      "README.rst||poetry.lock": 2,
+      "README.rst||pyproject.toml": 3,
+      "README.rst||setup.py": 2,
+      "README.rst||src/gino/__init__.py": 2,
+      "README.rst||src/gino/declarative.py": 4,
+      "README.rst||src/gino/dialects/asyncpg.py": 2,
+      "docs/adv_topics.rst||docs/conf.py": 2,
+      "docs/adv_topics.rst||docs/explanation/why.rst": 2,
+      "docs/adv_topics.rst||docs/index.rst": 2,
+      "docs/adv_topics.rst||src/gino/dialects/asyncpg.py": 2,
+      "docs/conf.py||docs/explanation/why.rst": 3,
+      "docs/conf.py||docs/index.rst": 2,
+      "docs/conf.py||docs/tutorials/tutorial.rst": 2,
+      "docs/conf.py||environment.yml": 3,
+      "docs/conf.py||requirements_dev.txt": 2,
+      "docs/explanation/why.rst||docs/index.rst": 3,
+      "docs/explanation/why.rst||docs/json.rst": 2,
+      "docs/explanation/why.rst||docs/tutorials/tutorial.rst": 2,
+      "docs/how-to/faq.rst||docs/theme/static/css/gino.css": 2,
+      "docs/how-to/loaders.rst||docs/index.rst": 2,
+      "docs/index.rst||docs/theme/static/js/gino.js": 2,
+      "docs/reference/extensions/sanic.rst||gino/ext/aiohttp.py": 2,
+      "docs/theme/layout.html||docs/theme/static/css/gino.css": 6,
+      "docs/theme/layout.html||docs/theme/static/js/gino.js": 2,
+      "docs/theme/static/css/gino.css||docs/theme/static/js/gino.js": 4,
+      "docs/tutorials/tutorial.rst||src/gino/api.py": 2,
+      "docs/tutorials/tutorial.rst||src/gino/declarative.py": 2,
+      "examples/basic.py||examples/bind.py": 3,
+      "examples/basic.py||examples/sanic/sanic_basic.py": 2,
+      "examples/basic.py||gino/asyncpg_delegate.py": 2,
+      "examples/basic.py||gino/ext/sanic.py": 2,
+      "examples/basic.py||src/gino/declarative.py": 4,
+      "examples/basic.py||src/gino/dialects/asyncpg.py": 2,
+      "examples/bind.py||examples/json_property.py": 2,
+      "examples/bind.py||src/gino/declarative.py": 4,
+      "examples/delegated.py||gino/asyncpg_delegate.py": 3,
+      "examples/delegated.py||src/gino/declarative.py": 3,
+      "examples/execution_options.py||src/gino/dialects/asyncpg.py": 4,
+      "examples/json_property.py||src/gino/json_support.py": 2,
+      "examples/sanic/sanic_basic.py||gino/asyncpg_delegate.py": 2,
+      "examples/sanic/sanic_basic.py||gino/ext/sanic.py": 2,
+      "gino/asyncpg_delegate.py||gino/ext/sanic.py": 4,
+      "gino/asyncpg_delegate.py||src/gino/__init__.py": 3,
+      "gino/asyncpg_delegate.py||src/gino/crud.py": 2,
+      "gino/asyncpg_delegate.py||src/gino/declarative.py": 8,
+      "gino/asyncpg_delegate.py||src/gino/dialects/asyncpg.py": 6,
+      "gino/connection.py||src/gino/api.py": 2,
+      "gino/connection.py||src/gino/dialects/asyncpg.py": 2,
+      "gino/ext/aiohttp.py||gino/ext/quart.py": 3,
+      "gino/ext/aiohttp.py||gino/ext/sanic.py": 4,
+      "gino/ext/aiohttp.py||gino/ext/tornado.py": 4,
+      "gino/ext/aiohttp.py||tests/test_aiohttp.py": 5,
+      "gino/ext/aiohttp.py||tests/test_sanic.py": 2,
+      "gino/ext/quart.py||gino/ext/sanic.py": 2,
+      "gino/ext/quart.py||gino/ext/tornado.py": 2,
+      "gino/ext/quart.py||requirements_dev.txt": 2,
+      "gino/ext/quart.py||tests/test_quart.py": 2,
+      "gino/ext/sanic.py||gino/ext/tornado.py": 5,
+      "gino/ext/sanic.py||src/gino/api.py": 2,
+      "gino/ext/sanic.py||src/gino/declarative.py": 3,
+      "gino/ext/sanic.py||src/gino/engine.py": 2,
+      "gino/ext/sanic.py||tests/test_sanic.py": 2,
+      "gino/ext/starlette.py||tests/test_starlette.py": 2,
+      "gino/ext/tornado.py||requirements_dev.txt": 2,
+      "gino/ext/tornado.py||tests/test_tornado.py": 2,
+      "gino/local.py||src/gino/__init__.py": 2,
+      "gino/pool.py||src/gino/api.py": 2,
+      "gino/pool.py||src/gino/dialects/asyncpg.py": 2,
+      "gino/record.pyx||setup.py": 2,
+      "gino/record.pyx||src/gino/dialects/asyncpg.py": 2,
+      "mysql_tests/conftest.py||mysql_tests/test_crud.py": 2,
+      "mysql_tests/conftest.py||src/gino/crud.py": 2,
+      "mysql_tests/conftest.py||src/gino/dialects/aiomysql.py": 3,
+      "mysql_tests/test_bakery.py||src/gino/dialects/aiomysql.py": 2,
+      "mysql_tests/test_crud.py||src/gino/dialects/aiomysql.py": 2,
+      "mysql_tests/test_json.py||src/gino/crud.py": 2,
+      "mysql_tests/test_json.py||src/gino/dialects/aiomysql.py": 3,
+      "mysql_tests/test_loader.py||tests/test_loader.py": 3,
+      "mysql_tests/test_schema.py||src/gino/dialects/aiomysql.py": 2,
+      "poetry.lock||pyproject.toml": 26,
+      "pyproject.toml||src/gino/__init__.py": 2,
+      "requirements.txt||requirements_dev.txt": 2,
+      "requirements.txt||src/gino/engine.py": 2,
+      "requirements_dev.txt||setup.py": 3,
+      "requirements_dev.txt||src/gino/dialects/asyncpg.py": 2,
+      "requirements_dev.txt||src/gino/engine.py": 3,
+      "requirements_dev.txt||tests/test_quart.py": 2,
+      "requirements_dev.txt||tests/test_sanic.py": 3,
+      "requirements_dev.txt||tests/test_tornado.py": 2,
+      "requirements_dev.txt||tox.ini": 3,
+      "setup.cfg||setup.py": 38,
+      "setup.cfg||src/gino/__init__.py": 37,
+      "setup.py||src/gino/__init__.py": 37,
+      "setup.py||src/gino/dialects/asyncpg.py": 3,
+      "setup.py||tox.ini": 2,
+      "src/gino/__init__.py||src/gino/api.py": 2,
+      "src/gino/__init__.py||src/gino/declarative.py": 6,
+      "src/gino/__init__.py||src/gino/dialects/asyncpg.py": 4,
+      "src/gino/__init__.py||src/gino/engine.py": 2,
+      "src/gino/__init__.py||src/gino/strategies.py": 3,
+      "src/gino/__init__.py||tests/test_engine.py": 2,
+      "src/gino/api.py||src/gino/crud.py": 3,
+      "src/gino/api.py||src/gino/declarative.py": 3,
+      "src/gino/api.py||src/gino/dialects/asyncpg.py": 10,
+      "src/gino/api.py||src/gino/engine.py": 6,
+      "src/gino/api.py||src/gino/exceptions.py": 2,
+      "src/gino/api.py||src/gino/schema.py": 2,
+      "src/gino/api.py||tests/conftest.py": 3,
+      "src/gino/api.py||tests/test_bind.py": 3,
+      "src/gino/api.py||tests/test_declarative.py": 2,
+      "src/gino/api.py||tests/test_engine.py": 5,
+      "src/gino/api.py||tests/test_iterate.py": 2,
+      "src/gino/api.py||tests/test_schema.py": 2,
+      "src/gino/api.py||tests/test_transaction.py": 3,
+      "src/gino/crud.py||src/gino/declarative.py": 6,
+      "src/gino/crud.py||src/gino/dialects/aiomysql.py": 6,
+      "src/gino/crud.py||src/gino/dialects/asyncpg.py": 5,
+      "src/gino/crud.py||src/gino/dialects/base.py": 10,
+      "src/gino/crud.py||src/gino/engine.py": 4,
+      "src/gino/crud.py||src/gino/loader.py": 4,
+      "src/gino/crud.py||tests/models.py": 3,
+      "src/gino/crud.py||tests/test_crud.py": 6,
+      "src/gino/crud.py||tests/test_declarative.py": 4,
+      "src/gino/crud.py||tests/test_engine.py": 3,
+      "src/gino/crud.py||tests/test_json.py": 4,
+      "src/gino/crud.py||tests/test_loader.py": 7,
+      "src/gino/declarative.py||src/gino/dialects/aiomysql.py": 2,
+      "src/gino/declarative.py||src/gino/dialects/asyncpg.py": 4,
+      "src/gino/declarative.py||src/gino/exceptions.py": 4,
+      "src/gino/declarative.py||src/gino/json_support.py": 2,
+      "src/gino/declarative.py||tests/models.py": 5,
+      "src/gino/declarative.py||tests/test_declarative.py": 13,
+      "src/gino/declarative.py||tests/test_engine.py": 2,
+      "src/gino/declarative.py||tests/test_json.py": 4,
+      "src/gino/dialects/aiomysql.py||src/gino/dialects/base.py": 5,
+      "src/gino/dialects/aiomysql.py||src/gino/strategies.py": 2,
+      "src/gino/dialects/asyncpg.py||src/gino/dialects/base.py": 6,
+      "src/gino/dialects/asyncpg.py||src/gino/engine.py": 18,
+      "src/gino/dialects/asyncpg.py||src/gino/schema.py": 2,
+      "src/gino/dialects/asyncpg.py||src/gino/strategies.py": 5,
+      "src/gino/dialects/asyncpg.py||src/gino/transaction.py": 2,
+      "src/gino/dialects/asyncpg.py||tests/conftest.py": 3,
+      "src/gino/dialects/asyncpg.py||tests/test_engine.py": 13,
+      "src/gino/dialects/asyncpg.py||tests/test_executemany.py": 2,
+      "src/gino/dialects/asyncpg.py||tests/test_execution_options.py": 2,
+      "src/gino/dialects/asyncpg.py||tests/test_iterate.py": 2,
+      "src/gino/dialects/asyncpg.py||tests/test_json.py": 3,
+      "src/gino/dialects/asyncpg.py||tests/test_prepared_stmt.py": 2,
+      "src/gino/dialects/asyncpg.py||tests/test_schema.py": 2,
+      "src/gino/dialects/asyncpg.py||tests/test_statement.py": 4,
+      "src/gino/dialects/asyncpg.py||tests/test_transaction.py": 5,
+      "src/gino/dialects/base.py||src/gino/engine.py": 4,
+      "src/gino/dialects/base.py||src/gino/loader.py": 3,
+      "src/gino/dialects/base.py||tests/models.py": 3,
+      "src/gino/dialects/base.py||tests/test_json.py": 2,
+      "src/gino/dialects/base.py||tests/test_loader.py": 3,
+      "src/gino/dialects/base.py||tests/test_prepared_stmt.py": 2,
+      "src/gino/engine.py||src/gino/strategies.py": 4,
+      "src/gino/engine.py||tests/conftest.py": 3,
+      "src/gino/engine.py||tests/test_engine.py": 19,
+      "src/gino/engine.py||tests/test_executemany.py": 3,
+      "src/gino/engine.py||tests/test_execution_options.py": 2,
+      "src/gino/engine.py||tests/test_iterate.py": 2,
+      "src/gino/engine.py||tests/test_transaction.py": 2,
+      "src/gino/ext/__init__.py||tests/test_ext.py": 2,
+      "src/gino/json_support.py||tests/test_json.py": 4,
+      "src/gino/loader.py||tests/models.py": 4,
+      "src/gino/loader.py||tests/test_execution_options.py": 2,
+      "src/gino/loader.py||tests/test_loader.py": 14,
+      "src/gino/schema.py||tests/test_schema.py": 2,
+      "src/gino/strategies.py||tests/test_engine.py": 4,
+      "src/gino/transaction.py||tests/test_transaction.py": 3,
+      "tests/conftest.py||tests/models.py": 6,
+      "tests/conftest.py||tests/test_bind.py": 2,
+      "tests/conftest.py||tests/test_engine.py": 4,
+      "tests/conftest.py||tests/test_loader.py": 2,
+      "tests/models.py||tests/test_bind.py": 2,
+      "tests/models.py||tests/test_declarative.py": 2,
+      "tests/models.py||tests/test_engine.py": 3,
+      "tests/models.py||tests/test_execution_options.py": 2,
+      "tests/models.py||tests/test_loader.py": 4,
+      "tests/test_aiohttp.py||tests/test_sanic.py": 2,
+      "tests/test_bind.py||tests/test_engine.py": 2,
+      "tests/test_crud.py||tests/test_json.py": 2,
+      "tests/test_declarative.py||tests/test_json.py": 3,
+      "tests/test_engine.py||tests/test_executemany.py": 2,
+      "tests/test_engine.py||tests/test_iterate.py": 2,
+      "tests/test_engine.py||tests/test_statement.py": 2,
+      "tests/test_execution_options.py||tests/test_loader.py": 2
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "24cc89d34f95728a9db9753e2ae6ee9d5266a1d1",
+        "timestamp": 1500606626
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "3ba3ca2a411a55fc0f2e12b22fea5fce6405bbc5",
+        "timestamp": 1500611386
+      },
+      {
+        "files": [
+          "README.rst",
+          "examples/basic.py",
+          "gino/gino.py",
+          "src/gino/__init__.py",
+          "src/gino/declarative.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "c9ac512ded5fb8abc3871459246b83bd65262c85",
+        "timestamp": 1500636583
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f81b0b3ec834777e83b7375c21848e666b4dba81",
+        "timestamp": 1500637379
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "71ebc3a3493e7a3f273418a03f36174bc43207b0",
+        "timestamp": 1500685134
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1da60735ce26eb883b12d67ec5a3f7ef14919554",
+        "timestamp": 1500686279
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4b7239a1d51585ca6448378c077b2eeb507f65a5",
+        "timestamp": 1500686604
+      },
+      {
+        "files": [
+          "README.rst",
+          "examples/basic.py"
+        ],
+        "sha": "48d0311342c2675fa3241e328d5920c569307bab",
+        "timestamp": 1500690916
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "598c4efbd03027d598f318f481e3ac0154c524ea",
+        "timestamp": 1500702391
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "f045bf1c65034c853a6825a6ff2af21423afa40b",
+        "timestamp": 1500781038
+      },
+      {
+        "files": [
+          "README.rst",
+          "examples/basic.py",
+          "examples/bind.py",
+          "src/gino/declarative.py"
+        ],
+        "sha": "de0657ce53db436f6a30282c8fb9330a2d83f702",
+        "timestamp": 1500781697
+      },
+      {
+        "files": [
+          "examples/delegated.py",
+          "gino/asyncpg_delegate.py",
+          "src/gino/declarative.py"
+        ],
+        "sha": "45220a7304a6910c71ebf385cefaae40a5f5808d",
+        "timestamp": 1500783584
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "4e59e717d8bb3cbbcebe7faf13eb3836e29e2c6e",
+        "timestamp": 1500791853
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "src/gino/__init__.py",
+          "src/gino/declarative.py"
+        ],
+        "sha": "b806b88762581432ca952421dad2de5e03de0914",
+        "timestamp": 1500818141
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "fb4ab93845f1a9ad34ebe9294a84bbe6a39cb30f",
+        "timestamp": 1500818158
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "src/gino/declarative.py"
+        ],
+        "sha": "ac6775166ee57accdbe2d6e5ba3f08b8536657da",
+        "timestamp": 1500818851
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "4e811f604b230f205330f6d2860b0b748eaeeadc",
+        "timestamp": 1500818986
+      },
+      {
+        "files": [
+          "tests/test_gino.py"
+        ],
+        "sha": "6298d048aef1ea56775f8b6883094ec66af866d0",
+        "timestamp": 1500819026
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "3c38a878e5bc8b7fc5b1ede885e6c8271ee5cad3",
+        "timestamp": 1500820746
+      },
+      {
+        "files": [
+          "requirements_dev.txt",
+          "tox.ini"
+        ],
+        "sha": "c71872621ac80f884bb56663779fd9df125820ae",
+        "timestamp": 1500821278
+      },
+      {
+        "files": [
+          "requirements_dev.txt",
+          "tests/conftest.py",
+          "tests/models.py",
+          "tests/test_bind.py"
+        ],
+        "sha": "10fc222fe8557a5a5769e2f736ff17d2e24815a3",
+        "timestamp": 1500866385
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "187f9d9f38de4f123477da4188be593d5db2d594",
+        "timestamp": 1500882614
+      },
+      {
+        "files": [
+          "examples/delegated.py",
+          "gino/asyncpg_delegate.py"
+        ],
+        "sha": "a8f75eb9bd3b7178765724ac88ef8f5fcdbfc00c",
+        "timestamp": 1500896613
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "fecb27ff5e1013f0cd02f6c1971e7eba1044914c",
+        "timestamp": 1500973558
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "9d9973ccd831a3be7f3c755c07e39b4e22c88ba9",
+        "timestamp": 1500974090
+      },
+      {
+        "files": [
+          "examples/delegated.py",
+          "gino/asyncpg_delegate.py",
+          "src/gino/declarative.py"
+        ],
+        "sha": "dff08899a1cdafd0501d2b6f36aa6eceb21f5622",
+        "timestamp": 1501156760
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "b6a1a3f98346973275d1b0e3ee322d15a15d51a7",
+        "timestamp": 1501223527
+      },
+      {
+        "files": [
+          "examples/bind.py",
+          "src/gino/declarative.py"
+        ],
+        "sha": "09e0977ab20f4ba83033eeeb8de273a8a0d366cc",
+        "timestamp": 1501225561
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "4584c8c6001b29358f866f69932e42427f3b749d",
+        "timestamp": 1501225622
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "a22c4c3bbeb471f15c615a5c9a9aa639e707bda4",
+        "timestamp": 1501306577
+      },
+      {
+        "files": [
+          "pytest.ini"
+        ],
+        "sha": "d6d7115cc93711df9bd815b178fbc372c849eb09",
+        "timestamp": 1501567628
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "2cbf2fd32dbfd2a5418bfa22cbdde22ccd896d16",
+        "timestamp": 1501588532
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "133ec989f2fd979c17fe16bccc4a99957e94e5ca",
+        "timestamp": 1501588798
+      },
+      {
+        "files": [
+          "gino/jsonb.py"
+        ],
+        "sha": "0b29317df4a60f4a3edf9181d3eb6afc87414cbf",
+        "timestamp": 1501588825
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "bbe4b1ccc17a10d64f69d12b820806117bdcae31",
+        "timestamp": 1501588850
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "0aac690cdf8db5bbe859cd9fbdce7066fb90505e",
+        "timestamp": 1501639280
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "d12d8992403112a92f51ce6d11c81712c59d537b",
+        "timestamp": 1501639304
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5a768930ee8757ce0b97f703c941dc2f237d2f16",
+        "timestamp": 1501642104
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "bf035ca6400f5f23db470bed6147b896e4dae270",
+        "timestamp": 1501654757
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "tests/models.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "e030659b8305ff03f1b0e3bbe7ce9760fc1899d3",
+        "timestamp": 1501740817
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "efe95c3444984c06c7e06da11319eaf52d4bb503",
+        "timestamp": 1501757308
+      },
+      {
+        "files": [
+          "tests/conftest.py",
+          "tests/models.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "9ce02776152bb51bdb708977b2f2bac63b4887dc",
+        "timestamp": 1501761623
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "ed6f2db24c655d44a760fc4ac211cc083be650eb",
+        "timestamp": 1501734666
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "303e79619f3a94c172dc5d2adfc0dbe6eab5083e",
+        "timestamp": 1501816961
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "42abfc8d661c8077c102a76df5d1fc2b87bfc8b7",
+        "timestamp": 1501816985
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "1d2455a8458d7449505cc9b32a43955e0d443283",
+        "timestamp": 1501826656
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "gino/local.py",
+          "src/gino/declarative.py"
+        ],
+        "sha": "b3cbe1493c24dedfc68de2a1f6bfaccfefbf1841",
+        "timestamp": 1501912042
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py"
+        ],
+        "sha": "13ff5ad8d52c3332cd9be2d9b831dfca0bd36e70",
+        "timestamp": 1501912268
+      },
+      {
+        "files": [
+          "gino/local.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "2e5bd8a24cd5db9a70da62065949051a13a4a16d",
+        "timestamp": 1501914139
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "f2f9b8ffbe253663cedb0ab860d079723d083ed4",
+        "timestamp": 1501934342
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py"
+        ],
+        "sha": "bf13bffcc030b9a0cc42465b127da28b78cc0846",
+        "timestamp": 1501934914
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4b30ff7a95ee391471690c837270485bcdf19668",
+        "timestamp": 1501935464
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0c8287996b0b0201332804af8392cb90cc761266",
+        "timestamp": 1501983571
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "b8887bbab653f72403404d5cd58309f5ca2555a0",
+        "timestamp": 1502002870
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "62db6739dfbc1e76d8e0f9cb832d746ac703d434",
+        "timestamp": 1502028075
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "f11ba41f838fe14d5d2395a1ab78e5bdc67a8ae0",
+        "timestamp": 1502071237
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "e7f8ecfe382fc14f16cdcd2bfb7a343aae35ce13",
+        "timestamp": 1501034007
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "src/gino/declarative.py"
+        ],
+        "sha": "1716cdedaa361be90a80781e5c102bf0f77d3540",
+        "timestamp": 1501601819
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py"
+        ],
+        "sha": "87dc1795f548d12c4688a03497cba1680050e841",
+        "timestamp": 1501851655
+      },
+      {
+        "files": [
+          "README.rst",
+          "gino/asyncpg_delegate.py"
+        ],
+        "sha": "6dc46df9ae5fef818ea43839c6a8b46cb444c26e",
+        "timestamp": 1502083706
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "59207e6de37a29eb531f521943dc1cd5d0c8c4ee",
+        "timestamp": 1502086042
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "3c18b1edf79c3620a2aa1d772adc97d42de23b19",
+        "timestamp": 1502086277
+      },
+      {
+        "files": [
+          "src/gino/__init__.py",
+          "src/gino/declarative.py",
+          "src/gino/exceptions.py"
+        ],
+        "sha": "314369b4f33bca21abaa3118a3556a05272866a7",
+        "timestamp": 1502115549
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "src/gino/exceptions.py"
+        ],
+        "sha": "4ceddae5b2a4b9ad6c3f27d63574bbf631bb1749",
+        "timestamp": 1502167668
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "f706ed4ee7c5a8819ad5c7421ea957098be28c59",
+        "timestamp": 1502169923
+      },
+      {
+        "files": [
+          "examples/basic.py",
+          "examples/bind.py",
+          "examples/delegated.py",
+          "src/gino/declarative.py",
+          "tests/models.py"
+        ],
+        "sha": "0a82b95cf193f1cc0187476a71b59ee540f30ec7",
+        "timestamp": 1502375747
+      },
+      {
+        "files": [
+          "gino/jsonb.py"
+        ],
+        "sha": "022ac78e4aabb861696a0794897375f058e30ac4",
+        "timestamp": 1502449853
+      },
+      {
+        "files": [
+          "examples/basic.py",
+          "examples/sanic/sanic_basic.py",
+          "gino/asyncpg_delegate.py",
+          "gino/ext/sanic.py",
+          "src/gino/declarative.py"
+        ],
+        "sha": "cf34077724acfc9b3b69488a24bdd888f301634b",
+        "timestamp": 1502358311
+      },
+      {
+        "files": [
+          "examples/basic.py",
+          "examples/sanic/sanic_basic.py",
+          "gino/asyncpg_delegate.py",
+          "gino/ext/sanic.py"
+        ],
+        "sha": "b4bfcdc3a9eee8d16561ba7fe46a3a000be49bf6",
+        "timestamp": 1502678144
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py"
+        ],
+        "sha": "8a9c92d11db8c8cfd6b64b79ae45c9de5ebce878",
+        "timestamp": 1502682372
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "gino/ext/sanic.py"
+        ],
+        "sha": "a2e2a49a0063881142904def036e4a29eca8a70e",
+        "timestamp": 1502684727
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py"
+        ],
+        "sha": "4d9a5615af2c4b72139d1638cb56745791630c4d",
+        "timestamp": 1502685742
+      },
+      {
+        "files": [
+          "README.rst",
+          "gino/ext/sanic.py",
+          "src/gino/declarative.py",
+          "src/gino/ext/__init__.py"
+        ],
+        "sha": "e220bddbc55ada790f08c91944848394e126ee53",
+        "timestamp": 1502759619
+      },
+      {
+        "files": [
+          "gino/ext/sanic.py"
+        ],
+        "sha": "ce0e51c671c1a92a9f13a9729ea112aea14ad4b6",
+        "timestamp": 1502763729
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "2068201e83d6b0b6c6741e5f0f351c701cb4f67b",
+        "timestamp": 1502694094
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "src/gino/exceptions.py"
+        ],
+        "sha": "50fc6dea3bfdccae2d6fb716f99cee9feaeb525d",
+        "timestamp": 1502694166
+      },
+      {
+        "files": [
+          "gino/local.py"
+        ],
+        "sha": "fecc0aad699fc476c735dc33c1256bd386244133",
+        "timestamp": 1502698627
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "08d3aee4a41b017a2ccad74ffe556d259610fc6a",
+        "timestamp": 1502761741
+      },
+      {
+        "files": [
+          "README.rst",
+          "examples/bind.py",
+          "examples/json_property.py",
+          "gino/jsonb.py",
+          "src/gino/declarative.py",
+          "src/gino/json_support.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "5013315b9dd88df689f1ec05bf4a86b252ce0e15",
+        "timestamp": 1502764109
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "74f6aa61ded42ccc22ed31b34f9706cc2e57fad8",
+        "timestamp": 1502764935
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py"
+        ],
+        "sha": "f28e2614179529fb367f86d5dc2801e2d58c6b78",
+        "timestamp": 1502766527
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "baa5bc1e7a6f857c10ef82cc26ab81ce891e05ee",
+        "timestamp": 1502767540
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b3ba3037b4f7d175cbdc0214d8c29607472b683b",
+        "timestamp": 1502769196
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "6d173965fe07ad029f70e61a425ba0fbe804cbdf",
+        "timestamp": 1502769516
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/gino/declarative.py"
+        ],
+        "sha": "96cd8f7de8221b01bca807467b22e59f2bce0e59",
+        "timestamp": 1503227593
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "4c45d97dbd146b58eec4e96be7ac03621cad3c1a",
+        "timestamp": 1503227685
+      },
+      {
+        "files": [
+          "CODE_OF_CONDUCT.md"
+        ],
+        "sha": "f2cc7333aaed9ea93f31af5a6e08cec806cdd220",
+        "timestamp": 1503305212
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "src/gino/__init__.py",
+          "src/gino/crud.py",
+          "src/gino/declarative.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "f4154b3e9e3deaa95004fe728b3cb1f1d7043585",
+        "timestamp": 1503459969
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "src/gino/crud.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "a1faafd71e645810b176f407b84fdfbdbda43f48",
+        "timestamp": 1503725660
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "gino/ext/sanic.py"
+        ],
+        "sha": "00ad1590321a096b9eb71276000118996548734a",
+        "timestamp": 1503740884
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "c96f82841fdd0747809d2c09514d3246e642f07c",
+        "timestamp": 1503741529
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "12dbe8a764df959894e4bdcae9bedce5ae24ba42",
+        "timestamp": 1503742044
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "47c6e37bd4f71a0023b5cab32715338d7255fe06",
+        "timestamp": 1503744498
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py"
+        ],
+        "sha": "cc256427e5dee509c0d96e38a1541d0bea913d70",
+        "timestamp": 1503825631
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py"
+        ],
+        "sha": "ce7cf9da0ff59a9595b0eea7265300eb563d41d7",
+        "timestamp": 1503826834
+      },
+      {
+        "files": [
+          "examples/execution_options.py",
+          "gino/asyncpg_delegate.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "0284822b11d74d8c0d11560fce7e3177fbe9fece",
+        "timestamp": 1503826942
+      },
+      {
+        "files": [
+          "gino/asyncpg_delegate.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "20eff3769eab48104e048dcd689c70148ad06a2e",
+        "timestamp": 1503828442
+      },
+      {
+        "files": [
+          "examples/execution_options.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "5e629680b8df136ebd3a93f8d3fb1d74941a0566",
+        "timestamp": 1503830305
+      },
+      {
+        "files": [
+          "examples/basic.py",
+          "examples/bind.py",
+          "examples/json_property.py",
+          "src/gino/crud.py"
+        ],
+        "sha": "08bd56a9f2c0f66b6c0977736fedbf77fae7d7df",
+        "timestamp": 1503831599
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "62f00857254694cb2d995ee65d6802acf855db24",
+        "timestamp": 1504057223
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "da287433d1f709e8c9a4b7342b6cec039da0df23",
+        "timestamp": 1504057873
+      },
+      {
+        "files": [
+          "src/gino/api.py"
+        ],
+        "sha": "72579f3418c636c78f5335b4abdd4b696893df6a",
+        "timestamp": 1504058167
+      },
+      {
+        "files": [
+          "src/gino/crud.py"
+        ],
+        "sha": "0789477bf9f2d42e15cf26e69ee847182693c3b3",
+        "timestamp": 1504058291
+      },
+      {
+        "files": [
+          "gino/ext/sanic.py",
+          "src/gino/api.py",
+          "src/gino/crud.py",
+          "src/gino/declarative.py",
+          "src/gino/exceptions.py"
+        ],
+        "sha": "01217685d4ce31fb5863365b48e3c44e2691f806",
+        "timestamp": 1504059020
+      },
+      {
+        "files": [
+          "gino/pool.py"
+        ],
+        "sha": "e9af410faa98b311ac1c436eabc86c159a92f2bb",
+        "timestamp": 1504061866
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "91cb339116b489eccda5ae9dd843fe593d43054e",
+        "timestamp": 1504091997
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "a2e1d43b81084866d0a9d34d55a561ecfd5fd6fa",
+        "timestamp": 1504092270
+      },
+      {
+        "files": [
+          "gino/ext/sanic.py",
+          "gino/ext/tornado.py"
+        ],
+        "sha": "93f43de4a56196574f0f2ab58f559de6ef7b546c",
+        "timestamp": 1504172238
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "dcffe8b6e6a6211eead07eef0e449a02739c5ec2",
+        "timestamp": 1504251058
+      },
+      {
+        "files": [
+          "src/gino/crud.py"
+        ],
+        "sha": "529a53c07dc68fce85755d53b1e12ebd4b743e0c",
+        "timestamp": 1504258258
+      },
+      {
+        "files": [
+          "gino/ext/tornado.py"
+        ],
+        "sha": "de091823b3bd990a6cd4f0b1631e346566aba209",
+        "timestamp": 1504261691
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "6b58e95865dccf5a123668f7bcacc7c3a38acdbd",
+        "timestamp": 1504346978
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "dc2e5f746f33e7a2af06bae35b04db2e804d0110",
+        "timestamp": 1504346979
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "95d330b42938bdb4335c080876b88cadeaff45fe",
+        "timestamp": 1504346981
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "20118a6a1f1dc5a9daf3065502ea5be96ed695bc",
+        "timestamp": 1504346982
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "64d2f2c29598baeab79c72303fb14356efa12132",
+        "timestamp": 1504346984
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "0854bb70e033ed6f9263d2bbf2d2006e0c0406fe",
+        "timestamp": 1504346985
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "687263f3fcea2fd11fb745ef83a09194304805df",
+        "timestamp": 1504346987
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "7f60ac099c408763ccd69b833d99638a933ec28f",
+        "timestamp": 1504346990
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "8d4ea9a142435bf73c3ca568ec24bc7be09b226f",
+        "timestamp": 1504346992
+      },
+      {
+        "files": [
+          ".gitignore",
+          "examples/execution_options.py",
+          "gino/record.pyx",
+          "setup.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "4ee88675bd5d291004c38d7da4b9fb1f98a54740",
+        "timestamp": 1504343390
+      },
+      {
+        "files": [
+          "src/gino/__init__.py"
+        ],
+        "sha": "f4969875ca7ff79b72fdf53a48ebbe3a82930e9b",
+        "timestamp": 1504344123
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "requirements.txt",
+          "requirements_dev.txt",
+          "setup.py"
+        ],
+        "sha": "4131ba3f2bf5b59f070fdb5832f1ddd7519a2572",
+        "timestamp": 1504347994
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "cc039454ed9598232125aca30a76e1eece656a43",
+        "timestamp": 1504405351
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "92e6e9b9097e05d75ccd1c86e2f2a3987b56a5fe",
+        "timestamp": 1504408610
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/conf.py",
+          "environment.yml",
+          "readthedocs.yml"
+        ],
+        "sha": "80103f1915d0ae47b2046ce35c1a7481460cf804",
+        "timestamp": 1504408043
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6221866c8192e5cc83f7f1b8c237eff170e45a0d",
+        "timestamp": 1504412384
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "environment.yml"
+        ],
+        "sha": "114589a901281596b9a98b93bd5e7a8ccb00f186",
+        "timestamp": 1504420130
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "779f61f83e4625eee01b86120dd4c2debda551f8",
+        "timestamp": 1504420799
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f4ced8ba5511c0493236224b889f74ea14a3f5dc",
+        "timestamp": 1504421116
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "ab906edcd4233347941f837c9a81176584d11cdc",
+        "timestamp": 1504421134
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "a866d3b270b657eb7cf127566cf085734d04f2ff",
+        "timestamp": 1504424722
+      },
+      {
+        "files": [
+          "gino/ext/sanic.py",
+          "gino/ext/tornado.py",
+          "src/gino/api.py"
+        ],
+        "sha": "d9d8342457d32b13d2d6add6120ebd9026394e81",
+        "timestamp": 1504430059
+      },
+      {
+        "files": [
+          "gino/pool.py"
+        ],
+        "sha": "15cc07e7e7fc6b0699b126e79d949df6eef88dc6",
+        "timestamp": 1504432130
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "c7cb4e43926b75232e38fbc190f1472721faf957",
+        "timestamp": 1504458187
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "175cb156ceebbf40aace57b7b1d22609bd3467d5",
+        "timestamp": 1504533907
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "0e838c3785839b32d66568783018dccbde5cbe25",
+        "timestamp": 1504630876
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "74a053c683237ac5d03e844c363de0a42612d413",
+        "timestamp": 1504751592
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "5c291c3dcd18bbe588cbe0d1bfe7e5734979446e",
+        "timestamp": 1504844576
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "85561b85cb4333700c403a5df662d9156d66e928",
+        "timestamp": 1504903514
+      },
+      {
+        "files": [
+          ".gitignore",
+          "gino/record.pyx",
+          "requirements_dev.txt",
+          "setup.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "171a9b59572efc42196c279ffcf2753e7f267b94",
+        "timestamp": 1504938759
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "2056e7d437b3dfaeaca33327e0e94fc6b056f104",
+        "timestamp": 1504939097
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "78329e1ec2e14528100ca9c1a59ab4a92b34bcf1",
+        "timestamp": 1504939170
+      },
+      {
+        "files": [
+          "gino/pool.py",
+          "src/gino/api.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "b589d764d5d8713987e51f0db68660c6ddcdfb5f",
+        "timestamp": 1504938897
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "README.rst"
+        ],
+        "sha": "9ccc5f93945ba6754fbfca9bd17d9655512bba41",
+        "timestamp": 1504940265
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "d7a9a89ee66a7135fc6ba816494e5b2b0b5c3dae",
+        "timestamp": 1504942571
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "15f32208b7989113ce7d4afcd619c0a4b2ab7e13",
+        "timestamp": 1505037243
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "60454ef3abc0581ed3d29c21f06227e543ae2121",
+        "timestamp": 1505040402
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "6510af238645d342a0dfcd36f1b5fab21e42b8fd",
+        "timestamp": 1505040418
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "fe338da52be1c5da5eec4ca8c40dd36bf89feba1",
+        "timestamp": 1505055978
+      },
+      {
+        "files": [
+          "docs/reference/extensions/sanic.rst"
+        ],
+        "sha": "c4cd96c4b6c196933efe3a437d383efd0a0fb35f",
+        "timestamp": 1505061228
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "a80e70470ebb33b41dc60f3970d04a94b7b131b0",
+        "timestamp": 1505089759
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "714725e651353004fbf7e688a1f67b349dc4f32a",
+        "timestamp": 1504796515
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "2eb8cc3adbdee79f405400b3c458c48da7d299f4",
+        "timestamp": 1504929287
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "1f5e06052b1442a0d1d14787135d395da7ea27bd",
+        "timestamp": 1505227651
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "902b71b24868d705031b4aed4d204b81add1612c",
+        "timestamp": 1506086659
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "9648df973fa7fcb09346e65206f892b20e685ddd",
+        "timestamp": 1506130770
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "0b0b2eda53775562c407e7ad0fde2d8c789e70cc",
+        "timestamp": 1506130791
+      },
+      {
+        "files": [
+          "examples/basic.py"
+        ],
+        "sha": "40da5590f92577af4d507ea8bfbf30392e316eaf",
+        "timestamp": 1506149467
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "f65c844a39949980c3b5fd66db96cf058daa945c",
+        "timestamp": 1506154472
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "d28609425d62db897ca51fb461dba281566ae80d",
+        "timestamp": 1506168036
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "82308a908e36ee5c762ecdd8e72163b2b80de69a",
+        "timestamp": 1506316878
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "56f676020fd451a1179bb3e9a16dcc5fe96bc7ba",
+        "timestamp": 1506398082
+      },
+      {
+        "files": [
+          "gino/pool.py",
+          "tests/conftest.py",
+          "tests/test_pool.py"
+        ],
+        "sha": "17b8bd20660d4564f831f9499a0a43aba97d1a3f",
+        "timestamp": 1506519941
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "6d9d285f8607920849f8b9b553c85fd4db4c610f",
+        "timestamp": 1506721479
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "3511f01bb41aa0074f365d3a0675b1d8cc0a3f60",
+        "timestamp": 1507088757
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "adf9f3930c14b714c8a526f544e229afc3d5c542",
+        "timestamp": 1507088771
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "fa8f2e36841af498b7444f82b4a4f9dd6f5e4d97",
+        "timestamp": 1507159917
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "58b49cad92583a9715c2cbd4168bda3b5ff86e0b",
+        "timestamp": 1507732688
+      },
+      {
+        "files": [
+          "src/gino/api.py"
+        ],
+        "sha": "61b492ddd7f4c3c56db4c706b2675f266ac86dc3",
+        "timestamp": 1507751655
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "c09a3de0b039098cbce6c2605a25b7ecd32f79f9",
+        "timestamp": 1507792150
+      },
+      {
+        "files": [
+          "gino/local.py",
+          "src/gino/__init__.py",
+          "tests/test_local.py"
+        ],
+        "sha": "33f8baf0e1f1d47de4604661afd27cc53ab1a76b",
+        "timestamp": 1507701653
+      },
+      {
+        "files": [
+          "gino/pool.py"
+        ],
+        "sha": "86526b6270e0e5f22bc2a1641594b4f7fec6ff7e",
+        "timestamp": 1508043141
+      },
+      {
+        "files": [
+          "examples/json_property.py",
+          "src/gino/json_support.py"
+        ],
+        "sha": "146b64ec7d1aa18e721b7c839db9fa1b199e17b2",
+        "timestamp": 1508291680
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "tests/test_statement.py"
+        ],
+        "sha": "77b7cf0db84d91d2afab0bdec6929790b0c6bd1c",
+        "timestamp": 1508231073
+      },
+      {
+        "files": [
+          "src/gino/crud.py"
+        ],
+        "sha": "dc8078a4a0cc16ce71a6b4bb76637ee17206da16",
+        "timestamp": 1508322267
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "4a4d9b7faff25a9b31a55daf138ac64dc4c8d9b1",
+        "timestamp": 1508322629
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "6c3adf1c617b437dc3b09fc13e3ac4c1cc8c14b6",
+        "timestamp": 1508322639
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "3a9bb0b94c98a32dc26ffbb704542d7510ef4305",
+        "timestamp": 1508511803
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "f09c58b11cbdd5a4ae442f41ba4ffa73316fc87c",
+        "timestamp": 1508739805
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "b50e14951cf44fbf8969e6e40cc4c9ed1051fe65",
+        "timestamp": 1508866990
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "bcabbc0715ae7c87d8e5fbf4745efce2a39b4ddf",
+        "timestamp": 1508893690
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "500334bc74d5f4c972cbf65447fb99b3d7d4f53b",
+        "timestamp": 1509116435
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "7cc73bb6b4bb11da96100f5efeb88ede06ad7755",
+        "timestamp": 1509656385
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "37edca10e43cc8be76533422c84a7101df2df2b3",
+        "timestamp": 1509904251
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "cfafbbeed0a5ae4751fb5cfaa086c7990ff5df5f",
+        "timestamp": 1510031761
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "cb0507f0ab8a49d6a6cb6e3773cc670033c01c7d",
+        "timestamp": 1510703049
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "a5071abfa0b4303569f4fc5ecb8908960a90ccde",
+        "timestamp": 1510717035
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "098eb73d48278507c4b7e21f8a1b314c5566aede",
+        "timestamp": 1510756812
+      },
+      {
+        "files": [
+          "examples/2_file_example/app.py",
+          "examples/2_file_example/database.py"
+        ],
+        "sha": "79c0ff22257498313d52c1b481c63c866762380a",
+        "timestamp": 1510765511
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "293747aa388aa4268416a53ab1658482c44b8571",
+        "timestamp": 1510814464
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "36d73c9f5654e7b8d59fb7627c8ae6be8f95b41d",
+        "timestamp": 1510999719
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "2651649c7f7036f0a8f1a2c565317100a94c2aef",
+        "timestamp": 1511422092
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "e3bf3f736d119c266a1d5e435b9195ec8a9a01a3",
+        "timestamp": 1511424743
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "5c11a26b874bd33c8ba26628a893d515c41283e7",
+        "timestamp": 1511424774
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "fa5992145831c79f093ad1afc36d45d011dcc87a",
+        "timestamp": 1511425208
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d84bfa6d1bb69f2a0695e3ebe798cea2f2df9a3f",
+        "timestamp": 1511425663
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "1388794b1b75be9fba0f05a98793ace4d89cd740",
+        "timestamp": 1511427735
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "bc39cb56c58010c9a47a806c05c9935ac8215f4d",
+        "timestamp": 1511429208
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "9dc882c37d8b905bdcd331a363ad60e6c5082a66",
+        "timestamp": 1511488815
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "9b8c45ecd73a48a0248e719bf49d73ea2e06f0d6",
+        "timestamp": 1511488828
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "f6dba75a4c527070f13cbfb865ab487969183d59",
+        "timestamp": 1511830416
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "14e14ab894b695196942c6ce5e5f3cf2777d18ee",
+        "timestamp": 1512013784
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "95d64dbd0cf9bd7d842e40eef20aa32423d3850d",
+        "timestamp": 1512532133
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "df2774c0681b5e2f114788a30b8800f47490e1d1",
+        "timestamp": 1514408145
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "4db8abbfc6e65b5543054379287b0a34392612c1",
+        "timestamp": 1514571648
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "249da7cc326b6ce9c91aa9b3cdd02c8843f9c1e9",
+        "timestamp": 1515109219
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "88f453261300a28c5397cf8e2aca01c4141a3d0c",
+        "timestamp": 1515427578
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "fbc53c259ded938473e4cc3d23f3361a974428f1",
+        "timestamp": 1515637358
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "46debedf76cc9e9901f9dbeded4ed49a731d6cbf",
+        "timestamp": 1515638512
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "135a71246caa172f55c1cb6f2ec4d6900b3242ec",
+        "timestamp": 1516030167
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7a23dffaff27bb413f97722d74030c3b74049490",
+        "timestamp": 1516850023
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "1f56c8e4ef837d05d8c0385d66d0a70b70807f06",
+        "timestamp": 1517364832
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "tests/models.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "a017775b78d008684b2857646ca3c98294b63c62",
+        "timestamp": 1517391688
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "88915175a7a25901ff6e4af18fbb56909a0bd9d2",
+        "timestamp": 1517712659
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "ba4e247ab3c26b22dfca3945a29415f4cb665717",
+        "timestamp": 1518111248
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "abc3843a113324b19ce5cb7fcd4b88d62dba3c71",
+        "timestamp": 1518176557
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "eb8f4373077f5748f7a9caf218e1b22701c15c9b",
+        "timestamp": 1518298211
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "9b83c7a7993ce2848b9e1cc65355cbd08260e83d",
+        "timestamp": 1518298215
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "ede7f9636e827da689755206c79bc69a5e383c32",
+        "timestamp": 1518432316
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "7a2e9b71e34bc84101e24afadd6cb4757660891f",
+        "timestamp": 1518603693
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "6432cef5dd5cf56ba1dddf26ac8d7cf50755c9de",
+        "timestamp": 1518579485
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "1815d1cdcbfd4150f186714b12795d4989b1b008",
+        "timestamp": 1518604017
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "67cf00c290d21df486097d7abd64359bb290f543",
+        "timestamp": 1518604060
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "dc61013f15a07f39ef94ce5e38df123257c2f54b",
+        "timestamp": 1518717322
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "69df072a22a11ca2843ebbe2064970cc32a71638",
+        "timestamp": 1518861442
+      },
+      {
+        "files": [
+          "README.rst",
+          "requirements_dev.txt",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "5bb586e36f33ed4ff5646560aa7bbc420e1063f1",
+        "timestamp": 1518870724
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "5f0acdd77e1589a7e060c77c7da4f38114692fc1",
+        "timestamp": 1518936692
+      },
+      {
+        "files": [
+          "gino/connection.py",
+          "setup.py",
+          "src/gino/api.py",
+          "src/gino/dialects/__init__.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "772a01ded4d2ed62d7d632c3405ee1d5c7cd9dc2",
+        "timestamp": 1518574028
+      },
+      {
+        "files": [
+          "src/gino/__init__.py",
+          "src/gino/engine.py",
+          "src/gino/strategies.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "67ba9b928e9fca72afec19f7894f5fb670b514e4",
+        "timestamp": 1518576024
+      },
+      {
+        "files": [
+          "src/gino/api.py",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/strategies.py"
+        ],
+        "sha": "2dc25813d5c9ba54c030a2e2228bf8bc6c2d3f7e",
+        "timestamp": 1518578115
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "18eab3ef7b161c8ac1a01fb12cf23d30fea16558",
+        "timestamp": 1518579457
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "6de278aa99e5e4e5eb027866ef3ce84d0948a48a",
+        "timestamp": 1518602499
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/conftest.py",
+          "tests/test_engine.py",
+          "tests/test_statement.py"
+        ],
+        "sha": "320c36b9b6619ae86b6806b968e288f2eb3e74ea",
+        "timestamp": 1518923370
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "src/gino/engine.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "bfcf7c7521f8c20c389aecee7127e09f3d0ac719",
+        "timestamp": 1518924450
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/conftest.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "73d0aec1b4d4869633b2398b0256b908492bfa2e",
+        "timestamp": 1518928651
+      },
+      {
+        "files": [
+          "src/gino/api.py",
+          "tests/conftest.py",
+          "tests/models.py",
+          "tests/test_bind.py"
+        ],
+        "sha": "ae146436cf7f8d4c86893418b3a11120c6eed0c4",
+        "timestamp": 1518929503
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "tests/test_pool.py"
+        ],
+        "sha": "7d48c5638e8dbe6fbbb25f5ded7a620768386463",
+        "timestamp": 1518936647
+      },
+      {
+        "files": [
+          "src/gino/api.py",
+          "src/gino/dialects/asyncpg.py",
+          "tests/test_statement.py"
+        ],
+        "sha": "427167039d4655272719a20811f4f9b022f36c18",
+        "timestamp": 1518941007
+      },
+      {
+        "files": [
+          "src/gino/api.py",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/test_bind.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "430b4790b3a7d3f1494540fda4970b07d3d06455",
+        "timestamp": 1518945981
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "cd6247e1a4cad7fd76e0da8a008e49385d1a33f5",
+        "timestamp": 1519175611
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "5bafc3bf976b5ace6bcf3e3a534705192215d1c5",
+        "timestamp": 1519337648
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/gino/engine.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "49fd9b25551b6d1a29de374de69231f160d749de",
+        "timestamp": 1519359066
+      },
+      {
+        "files": [
+          "src/gino/engine.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "a8701bc29ca00d53a89d359f668a87ab0714910a",
+        "timestamp": 1519380210
+      },
+      {
+        "files": [
+          "gino/connection.py",
+          "gino/pool.py",
+          "src/gino/__init__.py",
+          "src/gino/api.py",
+          "src/gino/dialects/asyncpg.py",
+          "tests/test_transaction.py"
+        ],
+        "sha": "f1398ca0c18b9ed09d513c2557ca6add55d8193b",
+        "timestamp": 1519381567
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "cd4e7ac8fee046af36e395f437b1bb8082ab4343",
+        "timestamp": 1519383711
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "cdd1793bb5192057e6d76eac1e08199623b1f187",
+        "timestamp": 1519409826
+      },
+      {
+        "files": [
+          "examples/delegated.py",
+          "src/gino/api.py",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/conftest.py",
+          "tests/test_engine.py",
+          "tests/test_iterate.py"
+        ],
+        "sha": "d38a7b99f94028426a6b369786734ffe0972985f",
+        "timestamp": 1519536959
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "2bea05a3434883c92184c82de46be7803d70e099",
+        "timestamp": 1519538122
+      },
+      {
+        "files": [
+          "examples/execution_options.py",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/test_execution_options.py"
+        ],
+        "sha": "44696014f6e7aa111757894ff4a0697f9aec021e",
+        "timestamp": 1519540900
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/test_engine.py",
+          "tests/test_executemany.py"
+        ],
+        "sha": "b471c32b73a749fc9d77db56dcc238e34369cd02",
+        "timestamp": 1519629705
+      },
+      {
+        "files": [
+          "README.rst",
+          "examples/basic.py",
+          "src/gino/api.py",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "src/gino/schema.py",
+          "tests/test_schema.py"
+        ],
+        "sha": "6ab2e45abeeb997e558b9754afd804637c1e69d8",
+        "timestamp": 1519644929
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b9848ba4d355297a1b711ca94144f5ca126048c0",
+        "timestamp": 1519645412
+      },
+      {
+        "files": [
+          "LICENSE",
+          "docs/conf.py"
+        ],
+        "sha": "a276502aad947179d7fa0db00c064bb85f6671a1",
+        "timestamp": 1519650673
+      },
+      {
+        "files": [
+          "src/gino/crud.py"
+        ],
+        "sha": "0811610b21378bfade9ff4a61471d55c9f02a001",
+        "timestamp": 1519656401
+      },
+      {
+        "files": [
+          "Makefile",
+          "docs/.gitignore",
+          "docs/conf.py",
+          "docs/explanation/why.rst",
+          "docs/index.rst",
+          "docs/readme.rst"
+        ],
+        "sha": "fcb5b91ca28600e431790feab18637ea926f5277",
+        "timestamp": 1519656772
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "docs/adv_topics.rst",
+          "docs/conf.py",
+          "docs/explanation/why.rst",
+          "docs/index.rst",
+          "docs/installation.rst",
+          "docs/tutorials/tutorial.rst"
+        ],
+        "sha": "2b71b0210e99eb77f322ca689af429444583ba1d",
+        "timestamp": 1519657737
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "CONTRIBUTING.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "5ec8054562de5411b70f2b5865198c0b41e41445",
+        "timestamp": 1519787399
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/strategies.py",
+          "tests/test_engine.py",
+          "tests/test_statement.py"
+        ],
+        "sha": "0bc5c3712183fb42a4e7ba045d62521f0735bdf5",
+        "timestamp": 1519788975
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "de32811f701931c4584c1c3be80af7d10b1e3696",
+        "timestamp": 1519795313
+      },
+      {
+        "files": [
+          "src/gino/api.py",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/test_engine.py",
+          "tests/test_executemany.py",
+          "tests/test_execution_options.py"
+        ],
+        "sha": "fbd8fd27ee69b27c9df148b9aa8f013650293585",
+        "timestamp": 1519823880
+      },
+      {
+        "files": [
+          "tests/test_schema.py"
+        ],
+        "sha": "07b1143f7acf536b236547887ad719c0eeed382f",
+        "timestamp": 1519824212
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/declarative.py",
+          "tests/test_declarative.py"
+        ],
+        "sha": "6549d3168c567dc881d9227a0bf9e56b7e198c51",
+        "timestamp": 1519827864
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "51947a52a02b804783730a3110cf9e85f1a6bae4",
+        "timestamp": 1519877905
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "src/gino/strategies.py",
+          "tests/models.py"
+        ],
+        "sha": "4e8323ee817e7e4b3844e8883ad8145b0aa113cc",
+        "timestamp": 1519889979
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/gino/__init__.py",
+          "src/gino/api.py",
+          "tests/conftest.py"
+        ],
+        "sha": "a7e4815955db668d34588bf99eaab9a52f14aa24",
+        "timestamp": 1519905711
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py",
+          "tests/test_transaction.py"
+        ],
+        "sha": "f80f647c8881f9183b798c52e5d33b7c1c12a176",
+        "timestamp": 1519910184
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "92c8b91e5cd2ba2a47fe8666a85aa0ee7a49231f",
+        "timestamp": 1520037147
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "c93bf348d00bc5e3894385eda0df5b6ebade8cbb",
+        "timestamp": 1520305700
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/gino/api.py",
+          "src/gino/engine.py",
+          "tests/test_engine.py",
+          "tests/test_transaction.py"
+        ],
+        "sha": "cc024dbeaf823d8aa4a85500829d5e65dac9cb86",
+        "timestamp": 1520336179
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "072c65688f8d93e298929413fd5d8560541e5a86",
+        "timestamp": 1520365646
+      },
+      {
+        "files": [
+          "gino/ext/sanic.py",
+          "requirements_dev.txt",
+          "src/gino/engine.py",
+          "src/gino/strategies.py",
+          "tests/test_sanic.py"
+        ],
+        "sha": "957a8a4b0616faf98a7625b0dc4a9ad305ca1424",
+        "timestamp": 1520390228
+      },
+      {
+        "files": [
+          "gino/ext/tornado.py",
+          "requirements_dev.txt",
+          "tests/test_tornado.py"
+        ],
+        "sha": "cd64721917229a9e8aa89eab0bb4304c872f1bac",
+        "timestamp": 1520392726
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "requirements_dev.txt"
+        ],
+        "sha": "48de59cb175eee037f77aed4c79c5f017b1cd74c",
+        "timestamp": 1520397357
+      },
+      {
+        "files": [
+          "environment.yml"
+        ],
+        "sha": "0b88e0d100e07e44e059ccdbfb36830ea692d753",
+        "timestamp": 1520478808
+      },
+      {
+        "files": [
+          ".gitignore",
+          ".tx/config",
+          "docs/locales/zh/LC_MESSAGES/index.po"
+        ],
+        "sha": "4912560227ed2c57d5b38ee426b1c69450e70dc7",
+        "timestamp": 1520480884
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "a011078fc55e0f7fa010558856d681cbfc9764bf",
+        "timestamp": 1520484963
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "e697ca2669d0dc1a0d9fe214d482ec536be473f6",
+        "timestamp": 1520538206
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py"
+        ],
+        "sha": "d00e976fccf743cf725a4c74fe2c5da341c2ea51",
+        "timestamp": 1520592063
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/dialects/base.py",
+          "src/gino/engine.py",
+          "tests/test_iterate.py"
+        ],
+        "sha": "808e0844706d522a106a3421f712080c59fb2aca",
+        "timestamp": 1520857802
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "2554d54746bb8ac2a3aac15ac03782fb28d42d7f",
+        "timestamp": 1520941233
+      },
+      {
+        "files": [
+          "docs/tutorials/tutorial.rst",
+          "src/gino/api.py",
+          "src/gino/crud.py"
+        ],
+        "sha": "cc81b28f0617b7497ae1da2c7c530cf094f72cf6",
+        "timestamp": 1521015763
+      },
+      {
+        "files": [
+          "src/gino/transaction.py",
+          "tests/test_transaction.py"
+        ],
+        "sha": "a0ee9d1c5e11ec535bbd01cb3393cb7e1ee6d534",
+        "timestamp": 1521019332
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "f90d4e22ca3e26a2ec0e6ae3eda642863bea43a2",
+        "timestamp": 1521022021
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "df11637251921aac13af35481a68b824b62a82fa",
+        "timestamp": 1521041072
+      },
+      {
+        "files": [
+          "src/gino/api.py",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/schema.py",
+          "tests/test_schema.py",
+          "tests/test_transaction.py"
+        ],
+        "sha": "749e3855621ec573cc407d1bfe4d71cba62ffe1a",
+        "timestamp": 1521212650
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "7272f24044730575f441eccfb0ef2b3f227ff63a",
+        "timestamp": 1521269504
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "cd0fc257aa5983953cdaabc9f28117c8449e5cc4",
+        "timestamp": 1521317684
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/how-to/faq.rst",
+          "docs/index.rst"
+        ],
+        "sha": "8817190ea52cd67fb1c6dcd14086026b1831dd00",
+        "timestamp": 1521364336
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "493392d06c9b8e136fdb537224c3632393a62292",
+        "timestamp": 1521370360
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "5324a1b7f956e9ac41c88dd68cf19c578bd409b1",
+        "timestamp": 1521370378
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "53501f71bc91211d7efdda6c8a7deced12af43db",
+        "timestamp": 1521382485
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "5ff4c42bc68a7a44ed371092847a0dce9fdbaa6d",
+        "timestamp": 1521436067
+      },
+      {
+        "files": [
+          "docs/how-to/schema.rst",
+          "tests/test_core.py"
+        ],
+        "sha": "c1cff04dd65a2f900d16d7b180271932b1168438",
+        "timestamp": 1521455970
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "36a385121d7bb9a9d628c5972c0d0f2a46f8e3f8",
+        "timestamp": 1521456284
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/locales/zh/LC_MESSAGES/index.po"
+        ],
+        "sha": "6ee4a73db734ff7e6e95b6436379304879561c54",
+        "timestamp": 1521465474
+      },
+      {
+        "files": [
+          "docs/explanation/engine.rst",
+          "docs/locale/zh/LC_MESSAGES/tutorials/tutorial.po"
+        ],
+        "sha": "591c135608e36f6c1f42d5fbd2946736cb0849a1",
+        "timestamp": 1521467569
+      },
+      {
+        "files": [
+          "docs/how-to/schema.rst",
+          "gino/ext/sanic.py",
+          "setup.py"
+        ],
+        "sha": "ff9d0d5de2fd06e10af44e78267a3c33c964fa91",
+        "timestamp": 1521549370
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "7b82556f8c14a2c87c51990431ae269a98c88a00",
+        "timestamp": 1521554736
+      },
+      {
+        "files": [
+          "docs/explanation/engine.rst",
+          "docs/images/engine.png"
+        ],
+        "sha": "c4dff64e9393547ef9ed310dc7f9316b858da6d6",
+        "timestamp": 1521560964
+      },
+      {
+        "files": [
+          "docs/explanation/engine.rst",
+          "src/gino/__init__.py",
+          "src/gino/engine.py",
+          "src/gino/strategies.py"
+        ],
+        "sha": "2ef6609acdae005118a8d01c3b9985bbb75d5846",
+        "timestamp": 1521563813
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "5763cc8dd3f717adc0a588ceee97b8d306494961",
+        "timestamp": 1521598131
+      },
+      {
+        "files": [
+          "docs/explanation/engine.rst"
+        ],
+        "sha": "26dc73194395faf93c221d2b16dab583ae7b5ad7",
+        "timestamp": 1521600759
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "f1d27cd0a57f4def853da663ba34f1af7522daf6",
+        "timestamp": 1521647039
+      },
+      {
+        "files": [
+          "docs/explanation/engine.rst",
+          "docs/images/connection.png"
+        ],
+        "sha": "0b222d91cfb0b449a89489eb47122a9a28daa19b",
+        "timestamp": 1521648279
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "fa6bd4f73187bbe86bd9d56c285c6905912a329e",
+        "timestamp": 1521689031
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "0510fdb72e42b604c8a7acfae4eaa38862135e81",
+        "timestamp": 1521777593
+      },
+      {
+        "files": [
+          "docs/explanation/engine.rst",
+          "docs/how-to/schema.rst"
+        ],
+        "sha": "74bb0fb31110e6e66ff93c302c8d7fc4f15a0bff",
+        "timestamp": 1521795107
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "9f2891b90356e90dd7b5f8c831c38bdd3c40a762",
+        "timestamp": 1521795275
+      },
+      {
+        "files": [
+          "docs/explanation/why.rst",
+          "docs/images/why_coroutine.png",
+          "docs/images/why_multicore.png",
+          "docs/images/why_multithreading.png",
+          "docs/images/why_single_task.png",
+          "docs/images/why_throughput.png"
+        ],
+        "sha": "be60639d53a991a8abf91f9d3080c05a17c4a6d7",
+        "timestamp": 1521812654
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "tests/test_declarative.py"
+        ],
+        "sha": "0a1a2b0acf234658ff45d8fb3a18e99dd639742c",
+        "timestamp": 1521855462
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "7fec24049935627acaab745989c9bb2c46e7d96d",
+        "timestamp": 1521876255
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "5fc22fa0c2fbdf98bfe1b85784402f9b62fa688a",
+        "timestamp": 1521876407
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "6b6c7775f7c2d03271c2ea9343eabce07381a9af",
+        "timestamp": 1522167124
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "25c9a8a2ca96819e2ab5a1063fab080fd221b3a8",
+        "timestamp": 1522176844
+      },
+      {
+        "files": [
+          "tests/test_crud.py"
+        ],
+        "sha": "3b373dd537ccd2e812785b3852fc8204a3b9f33e",
+        "timestamp": 1522309822
+      },
+      {
+        "files": [
+          "tests/test_crud.py"
+        ],
+        "sha": "32b9f57d60ab692d98af57d8bdbff2f0d7f3db75",
+        "timestamp": 1522361072
+      },
+      {
+        "files": [
+          "src/gino/crud.py"
+        ],
+        "sha": "cda2836b9f5e2ba62facdfc9f310657702172660",
+        "timestamp": 1522361083
+      },
+      {
+        "files": [
+          "docs/tutorials/tutorial.rst"
+        ],
+        "sha": "71fabbb6218b2e7ba05714707d65e8e2bd5ffc4f",
+        "timestamp": 1522361087
+      },
+      {
+        "files": [
+          "CONTRIBUTING.rst",
+          "tests/test_engine.py",
+          "tests/test_tornado.py"
+        ],
+        "sha": "d3d19fdad47d30ea90be93ce7715fa8c12ec121d",
+        "timestamp": 1522365458
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py",
+          "gino/ext/sanic.py",
+          "tests/test_aiohttp.py",
+          "tests/test_sanic.py"
+        ],
+        "sha": "d894719989850f899de7fb6bdd83cb9cbe406cd0",
+        "timestamp": 1522395357
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f637a09dbe89f2d1d67202ec47faf06450ca5dad",
+        "timestamp": 1522396635
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "tests/test_crud.py"
+        ],
+        "sha": "98d6ea289c55f9256745ae1f30f2540f09a7523a",
+        "timestamp": 1522399130
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f988eef319c008db76014623897152de81797440",
+        "timestamp": 1522444571
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "f307bf4ff035a4995557ddc531900a40d465daea",
+        "timestamp": 1522557468
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "2488f30bee222736fd1b769a24951df3fab2d242",
+        "timestamp": 1522570756
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "a528df0d2a96317ed583357f2f9045a702482f8b",
+        "timestamp": 1522625354
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "870449af06bc6720c9321ffd9ae714f323d163b8",
+        "timestamp": 1522706594
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "tests/models.py",
+          "tests/test_crud.py"
+        ],
+        "sha": "e3b4ab5938db5822a6e74360b356a08c63a9e35a",
+        "timestamp": 1522890508
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "e595ecd1ab469114afa1cbfa7197728450d3ac38",
+        "timestamp": 1522970047
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "92e1234a46105d3a1d5ce773879201486adda443",
+        "timestamp": 1523075833
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "tests/test_crud.py"
+        ],
+        "sha": "41d1a9b11b66f6916e66d4c2ff0a6bfb83c2ba89",
+        "timestamp": 1523086129
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "3e60476eabce07a5beb0dd137ab4ff32a2f4b31b",
+        "timestamp": 1522832277
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "334ce387aca3c50b3eca6ba7d49e886562283775",
+        "timestamp": 1523153316
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "285e60f03a0aa8868690880c7017ca18fe9f9814",
+        "timestamp": 1523153331
+      },
+      {
+        "files": [
+          "src/gino/dialects/base.py",
+          "src/gino/loader.py",
+          "tests/conftest.py",
+          "tests/models.py",
+          "tests/test_execution_options.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "ccc019bb3009d0364f754244f344b8d80d87f0f6",
+        "timestamp": 1522333955
+      },
+      {
+        "files": [
+          "docs/how-to/loaders.rst",
+          "docs/index.rst",
+          "src/gino/api.py",
+          "src/gino/crud.py",
+          "src/gino/dialects/base.py",
+          "src/gino/engine.py"
+        ],
+        "sha": "a0f381bd524b2043871124aaf360a7c59fed69cb",
+        "timestamp": 1522336474
+      },
+      {
+        "files": [
+          "tests/test_loader.py"
+        ],
+        "sha": "84ff8d6bb3db9a76dfb5f006a106cbbdeea7d967",
+        "timestamp": 1522338405
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/loader.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "2eaaf2ac48d407d44185e7ee54c46edd4c47bd21",
+        "timestamp": 1522340393
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/dialects/base.py",
+          "src/gino/loader.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "0a0dd062211cbed769c434319a208bb7a5695638",
+        "timestamp": 1522673223
+      },
+      {
+        "files": [
+          "src/gino/loader.py"
+        ],
+        "sha": "194d37aaac2005db81a7bb797c922478b54245f7",
+        "timestamp": 1522673327
+      },
+      {
+        "files": [
+          "tests/test_loader.py"
+        ],
+        "sha": "d77f519382e235068138b510456ff9d269e343c0",
+        "timestamp": 1523154041
+      },
+      {
+        "files": [
+          "docs/explanation/engine.rst",
+          "docs/index.rst"
+        ],
+        "sha": "aad102e9c791bcf678cd78d3856b0f5560b0f1fc",
+        "timestamp": 1523155273
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "8b6ff7fe53ebe45dd863ae84288e3dbbfa1b7ca1",
+        "timestamp": 1523156070
+      },
+      {
+        "files": [
+          "docs/how-to/transaction.rst"
+        ],
+        "sha": "6b290c52d7ea3b89bf61b8359bf9251ab4cb8f5e",
+        "timestamp": 1523163460
+      },
+      {
+        "files": [
+          "docs/how-to/loaders.rst"
+        ],
+        "sha": "ecbcfcc18759a66bd2b7d653caea0cf72a7a1f4d",
+        "timestamp": 1523182349
+      },
+      {
+        "files": [
+          "docs/tutorials/tutorial.rst",
+          "src/gino/declarative.py"
+        ],
+        "sha": "fe57bc538b4224932153ec4218d7f6e3d5d15f57",
+        "timestamp": 1523279278
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "8db46b1598a59423418f001a5b1fa8c57ebf476d",
+        "timestamp": 1523332337
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "94d2d3f697279ed92e74815d13df1e4699504bd6",
+        "timestamp": 1523623523
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "d3936f93771e60eefd5cc55e308e1b8229293fc8",
+        "timestamp": 1523713884
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "22746d8e10746e1537a64d2ab9d3a25fe144fa20",
+        "timestamp": 1523842889
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "7f500a8be37843fb7cd83d11cfdaebb99995944a",
+        "timestamp": 1524018904
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "8d897e52bd6875089a1fba6ccbc555a3c5e45cd6",
+        "timestamp": 1524037272
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "9e02d652f5238ec4d96446e95eafaa6d77eb5d7e",
+        "timestamp": 1524037335
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "setup.py"
+        ],
+        "sha": "154d8ed791ca74cb9693253a17fbf0f9ac5aca4e",
+        "timestamp": 1524039521
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "e8b5abe0175e537afc29f8d1acd233b2eb02a020",
+        "timestamp": 1524038267
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "tests/conftest.py",
+          "tests/models.py",
+          "tests/test_declarative.py"
+        ],
+        "sha": "ab1379f5a2c527e42c9b3d5b2fc242d73e5ca11d",
+        "timestamp": 1524114750
+      },
+      {
+        "files": [
+          "docs/tutorials/tutorial.rst"
+        ],
+        "sha": "1da0dda95f828fc1aad2e63c6ba96cfe2f4b7e69",
+        "timestamp": 1524150659
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "06854e7c88b2803f52341af0999299032b47484b",
+        "timestamp": 1524172833
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "tests/models.py",
+          "tests/test_declarative.py"
+        ],
+        "sha": "daa58c4b48242cef61ea562671ef97425e3d8633",
+        "timestamp": 1524204963
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "cf5081081a023979f5b21e78e02fc9674a271968",
+        "timestamp": 1524260015
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "651d2da490c184d2ebc7a27feb54a7693dbaeb17",
+        "timestamp": 1524428979
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "17e56edc9449a5a61e28edc5330673ef75278064",
+        "timestamp": 1524622907
+      },
+      {
+        "files": [
+          "docs/how-to/faq.rst",
+          "tests/test_engine.py"
+        ],
+        "sha": "54fd22c0ed2fb7a55306d38e02a650f6aad6ff9f",
+        "timestamp": 1524215908
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "8daedae3c1f152d33e7e87140070c73d436f350b",
+        "timestamp": 1524647037
+      },
+      {
+        "files": [
+          "docs/tutorials/tutorial.rst",
+          "src/gino/api.py",
+          "src/gino/declarative.py",
+          "tests/test_declarative.py"
+        ],
+        "sha": "108ad30fb37ec3f818f1d29645a6e6217ba418d7",
+        "timestamp": 1524654311
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "ea8cf26f916cf36b92d356031987680a52256c46",
+        "timestamp": 1524687408
+      },
+      {
+        "files": [
+          "docs/locale/zh/LC_MESSAGES/tutorials/tutorial.po",
+          "docs/locales/zh/LC_MESSAGES/index.po",
+          "docs/tutorials/tutorial.rst"
+        ],
+        "sha": "868ae64a686fa762a73bff066e4e69cf71e4bb95",
+        "timestamp": 1524718130
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "555285820519514fbdd4ccd9fa28bbb6b69caa91",
+        "timestamp": 1524722299
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "d242629b277f321ff521ded02c4eb1c3946dc3bb",
+        "timestamp": 1524724113
+      },
+      {
+        "files": [
+          "docs/adv_topics.rst",
+          "docs/conf.py",
+          "environment.yml",
+          "requirements_dev.txt",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/engine.py"
+        ],
+        "sha": "8d8dad59914412afe6c57194abe88b00ca2a86b4",
+        "timestamp": 1524727049
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "6bb6235444a7836c3cafb8149099af0780a34176",
+        "timestamp": 1525198078
+      },
+      {
+        "files": [
+          "src/gino/loader.py",
+          "tests/test_execution_options.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "eff6297a7bc222e3d91369ac1d27721cb4fabd74",
+        "timestamp": 1525246633
+      },
+      {
+        "files": [
+          "src/gino/loader.py"
+        ],
+        "sha": "bb73118563b00c7155aa36bac0540ca94e6d0fee",
+        "timestamp": 1525248764
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "afa75876578b14d555ac8703645b067f19d09ea2",
+        "timestamp": 1525279921
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "7a93bceafe150ec8d7b7e8cae65abf2a43c792ff",
+        "timestamp": 1525317609
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "5c7f194f7b0fa82c1fb8f68d19eb6329f6afe807",
+        "timestamp": 1525317620
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "6748d8d20ae390c0ad6d363a5b9fb407914880ba",
+        "timestamp": 1525319503
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "573af236fa6d697f79948552a4711086c0c477ad",
+        "timestamp": 1525326490
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6a4bc7f858fafc4424ff6686ace8e3a1cb4c6293",
+        "timestamp": 1525403315
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/tutorials/tutorial.rst"
+        ],
+        "sha": "e9036a45b2860d8f4fa596fbd47081b61124fe07",
+        "timestamp": 1525405685
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "3f9e32e41bd8e0457dd925b5fb074586fe320fb3",
+        "timestamp": 1525651389
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "18fb92758e37e322b242e5aefd3d974876f96a23",
+        "timestamp": 1525951992
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/adv_topics.rst",
+          "docs/explanation/why.rst",
+          "docs/index.rst",
+          "docs/json.rst",
+          "docs/reference/extensions/sanic.rst"
+        ],
+        "sha": "2bb7f515ff48d37991f63487e9f593a12ed33019",
+        "timestamp": 1525956223
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "f232f297547e1656f22d86d4fe49e72f0a3fcc60",
+        "timestamp": 1526243300
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/dialects/base.py",
+          "src/gino/engine.py",
+          "tests/test_engine.py",
+          "tests/test_prepared_stmt.py"
+        ],
+        "sha": "615a91782fe6df0fcbe9c24759976ff62c70c1af",
+        "timestamp": 1525431462
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/dialects/base.py",
+          "tests/test_prepared_stmt.py"
+        ],
+        "sha": "3868ea5c7fa906cec12aeecb6027b5009ee10f61",
+        "timestamp": 1526370716
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py",
+          "gino/ext/sanic.py",
+          "gino/ext/tornado.py"
+        ],
+        "sha": "d7e44b91f900b6e40b1b466d15686b20169f7782",
+        "timestamp": 1525210872
+      },
+      {
+        "files": [
+          "gino/ext/tornado.py"
+        ],
+        "sha": "ac7158dbe57e8b36e188223f5367814246c1a413",
+        "timestamp": 1525211494
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "gino/ext/aiohttp.py",
+          "gino/ext/tornado.py",
+          "tests/test_aiohttp.py",
+          "tests/test_sanic.py"
+        ],
+        "sha": "18cb7fb8bcda428d9164cbdbe4fecd20d34b826e",
+        "timestamp": 1526374936
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "e70318524eb39f9a32432d1939622e2746483c38",
+        "timestamp": 1526375709
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "226576a0be35f0585f58441c908ad7c763d84f3a",
+        "timestamp": 1526375734
+      },
+      {
+        "files": [
+          "src/gino/crud.py"
+        ],
+        "sha": "63b1f96f87ccfe4d57807de47b11a85f293a3e75",
+        "timestamp": 1526565098
+      },
+      {
+        "files": [
+          "src/gino/dialects/base.py",
+          "tests/models.py",
+          "tests/test_dialect.py"
+        ],
+        "sha": "4b0042ce5faad07c88f7ce6782697a24e3341cbb",
+        "timestamp": 1526647108
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "a18cd31f97f3d3d0689df611b77759814c691e18",
+        "timestamp": 1526648198
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "50d3ba3020496f349f0aae0b4f6975db0da002e2",
+        "timestamp": 1526705104
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "fa02c8a7630a1533e97c08daab174957f6a1b90a",
+        "timestamp": 1526705114
+      },
+      {
+        "files": [
+          "CONTRIBUTING.rst",
+          "requirements_dev.txt"
+        ],
+        "sha": "4c751389f9f9e18ccbfb33fa3fd5f231fec4341d",
+        "timestamp": 1526918392
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/dialects/base.py",
+          "src/gino/loader.py",
+          "tests/models.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "4a8c36e5654ca6960a5902171244ad3a312e89b3",
+        "timestamp": 1527073417
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "3dba9dcf7224236960a2897e58554615abbdd69e",
+        "timestamp": 1527073498
+      },
+      {
+        "files": [
+          "src/gino/loader.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "a1a7fb0358e44563c65ce0499d7f32466abfc5d8",
+        "timestamp": 1527079538
+      },
+      {
+        "files": [
+          "docs/how-to/faq.rst"
+        ],
+        "sha": "7a383300f91685b5125c7c0fc309f2cf64da2f3a",
+        "timestamp": 1527135107
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE.md"
+        ],
+        "sha": "1ac107391bd1d8cca11072c1f3ed4a42f183684f",
+        "timestamp": 1527135426
+      },
+      {
+        "files": [
+          "Makefile",
+          "docs/conf.py",
+          "docs/explanation/why.rst",
+          "docs/json.rst",
+          "docs/tutorials/tutorial.rst"
+        ],
+        "sha": "12c14522f053d461669672bf00a2b2298b06b4d6",
+        "timestamp": 1527142011
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "de27707ed22163b735b53d55ef41ad2e26b58c7b",
+        "timestamp": 1527440203
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "3a9c506de63597425eb7aefef667fe6ed3fea703",
+        "timestamp": 1527529059
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "168950dab82f77961756cee9bb54d412a6acd74a",
+        "timestamp": 1527538249
+      },
+      {
+        "files": [
+          "tests/test_tornado.py"
+        ],
+        "sha": "0f04897d32a1d61469495fc76bce29612f503571",
+        "timestamp": 1527600557
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/declarative.py",
+          "tests/test_declarative.py"
+        ],
+        "sha": "d05cab42a3a0ccaabd7ae15e643ffd665cada840",
+        "timestamp": 1527605103
+      },
+      {
+        "files": [
+          "docs/how-to/loaders.rst"
+        ],
+        "sha": "eac36a8d70693396f135931e86600cd861ab8861",
+        "timestamp": 1527843335
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "ce7d5c3826335e40bc701f876608233dd70fe940",
+        "timestamp": 1528217227
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "194d07e76627f2d8de9ac64da9235b2f09dfbd40",
+        "timestamp": 1528238047
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "4548c281542c93b74d6db60c0205f4fa57e777b5",
+        "timestamp": 1528246694
+      },
+      {
+        "files": [
+          "gino/ext/quart.py",
+          "requirements_dev.txt",
+          "tests/test_quart.py",
+          "tests/test_sanic.py"
+        ],
+        "sha": "f812b85d21de991e44af751dd1462630a942da48",
+        "timestamp": 1528209205
+      },
+      {
+        "files": [
+          "tests/test_quart.py"
+        ],
+        "sha": "b75303643a33868f8a70636a1f38ece834c649d6",
+        "timestamp": 1528257913
+      },
+      {
+        "files": [
+          "gino/ext/quart.py",
+          "tests/test_quart.py"
+        ],
+        "sha": "ccfca21a1fd1da957f1bc6d20790def1b72247bf",
+        "timestamp": 1528261242
+      },
+      {
+        "files": [
+          ".coveragerc"
+        ],
+        "sha": "f0f83b14173e8ca4b072d6cf86bc845242e8923b",
+        "timestamp": 1528265504
+      },
+      {
+        "files": [
+          "tests/test_quart.py"
+        ],
+        "sha": "2c676bc80ddb54f3b5119083ba637caad928ceed",
+        "timestamp": 1528292123
+      },
+      {
+        "files": [
+          ".coveragerc",
+          ".travis.yml",
+          "requirements_dev.txt",
+          "tox.ini"
+        ],
+        "sha": "f57a8729e9ec4960f6994697f3877f0a725e7233",
+        "timestamp": 1528307197
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "814407988daae0ca9c4e8e7a4c27554451d93990",
+        "timestamp": 1528319349
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "e8836426eae8d2acde03147df381b1f2b4c52dcc",
+        "timestamp": 1528386357
+      },
+      {
+        "files": [
+          "docs/tutorials/tutorial.rst"
+        ],
+        "sha": "934aab25af4322ac344a8679b13aede0d23f8668",
+        "timestamp": 1528451348
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "requirements_dev.txt",
+          "src/gino/engine.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "1c4867b98cb15e71ae8b2ea37f88aa12282e5e3f",
+        "timestamp": 1528523572
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "6a2370bd8e42e4d4ed83132493a6495ae9730b1b",
+        "timestamp": 1528621666
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "ba885b3717c2c0c33fd17af586318a367c0ec476",
+        "timestamp": 1528624570
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "0602c4142555d503b9364d265d5aab9499908e5a",
+        "timestamp": 1528646367
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "f30fa92b0f6e6ad75022ac2876fa5c5ac6522352",
+        "timestamp": 1528646399
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "ceac8964d49f23f010b7bb91fc6b635a67e69c7b",
+        "timestamp": 1528734456
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "0d57b5f2b83e56ce24f3422149019b577f27f0ad",
+        "timestamp": 1528774063
+      },
+      {
+        "files": [
+          "docs/how-to/loaders.rst"
+        ],
+        "sha": "455cb4f0f6d62e4f170b772d7d0bacae8dc755fd",
+        "timestamp": 1528809416
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "4cfd1df334f66f5a24af73f49f5481882c778ab1",
+        "timestamp": 1528815919
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "d66e91d73d5a77c802035b6d4b5c74fac57c1df6",
+        "timestamp": 1529261487
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "0226b5e7fe891c1661d8bc5877d456f26464462b",
+        "timestamp": 1529353650
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "b2522802c30edb8a2d7040e74064e22b271b717a",
+        "timestamp": 1529510494
+      },
+      {
+        "files": [
+          "docs/how-to/faq.rst",
+          "docs/how-to/loaders.rst"
+        ],
+        "sha": "494480cf4b7bd789ecf65e06947032c66369b8d4",
+        "timestamp": 1529756204
+      },
+      {
+        "files": [
+          "docs/how-to/schema.rst"
+        ],
+        "sha": "28e9c55e27d0e0b237ae91e4840adf3c14380ba3",
+        "timestamp": 1529757108
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "ad5f9991fde64973a0922d0913ed6d8c893e0a29",
+        "timestamp": 1529874824
+      },
+      {
+        "files": [
+          "docs/tutorials/tutorial.rst"
+        ],
+        "sha": "65033938c9b1793be79bfe8d32ad736667ae8005",
+        "timestamp": 1529902609
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "15a18e1f54c62c02a1684a299e898dc82a09e85d",
+        "timestamp": 1530062987
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "ea0a515f222f99ab88d905fba4b3f660bd6fe9d3",
+        "timestamp": 1530550411
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "179f8a6842294fc9cf7febdcae3b7638d31bbcc4",
+        "timestamp": 1530493524
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "825b031c9d658fcd8666f9b8ffbe25a5bb396893",
+        "timestamp": 1530757571
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "0c625a7c1b8a9d6176316e1687d19bfe5923d42c",
+        "timestamp": 1530816246
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "077bafda001782db107ab1446b58be49ec73f28a",
+        "timestamp": 1530632457
+      },
+      {
+        "files": [
+          "gino/ext/tornado.py"
+        ],
+        "sha": "1c1b1f531c4a362be8ed760d5e8d53ab17f02365",
+        "timestamp": 1530847002
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2993d3806cd176bc78e95cb87d19aaa56b83bacf",
+        "timestamp": 1530847670
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "b741f609b353ada48ae4bc69078163806dd28af8",
+        "timestamp": 1531161313
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "c305939810ed8847fdf338fe6820d70abf2c6313",
+        "timestamp": 1531260850
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "7237874d67943def3c63e4c42e31699a933fc2b5",
+        "timestamp": 1531431316
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "2e3d0fc47441c1529a727a937bf93539437d7d78",
+        "timestamp": 1531526598
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "eeedc212a6cf74735fdb049270d4080b8371420d",
+        "timestamp": 1531682960
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "59bd18997ad26a11ad4cb4a2cf514fe22e53976d",
+        "timestamp": 1531770507
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "c7f54807a34685b89dc3ab4374cea49a4079939d",
+        "timestamp": 1531923206
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "638d4e63fdac6216d06a5bab2a93b38bc558858e",
+        "timestamp": 1532254654
+      },
+      {
+        "files": [
+          "src/gino/loader.py"
+        ],
+        "sha": "7340f6347f4ecfea61eeb319491a9466cd16624c",
+        "timestamp": 1532600999
+      },
+      {
+        "files": [
+          "tests/test_loader.py"
+        ],
+        "sha": "480f4e09c6ae0e5c855a62f21e00afeecf6564e8",
+        "timestamp": 1532602795
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "a52ea15b4dcde0b8463ef07ee1b85223e0994da7",
+        "timestamp": 1532603892
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "12b43c1231aa0ca9ed5c4bb7ca6efab5c100e024",
+        "timestamp": 1532603973
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b09161c23600d01db4de81ede864bd14cf1aad50",
+        "timestamp": 1532605480
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/loader.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "789888a449099b0531450998cd9d40bf2254c583",
+        "timestamp": 1532681804
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "tests/test_loader.py"
+        ],
+        "sha": "ace5ef2c907348c057fb22b298ac167aff4a6cf8",
+        "timestamp": 1532685747
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "64e411f51db947507ba9736f93e21cfcda982d27",
+        "timestamp": 1532791006
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "9f2ede35d99acbbbaf38afabc1ec1bde4511709e",
+        "timestamp": 1532811887
+      },
+      {
+        "files": [
+          "tests/test_quart.py"
+        ],
+        "sha": "9cab25606e702dad6485933df01b0364494c73fe",
+        "timestamp": 1532852523
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "8a6b0d7aa5d856bfcb972caf419ec56f5715288d",
+        "timestamp": 1532853367
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "1e9d3a8b9fa4a6ddc3f4402739a04206b1b28f70",
+        "timestamp": 1532715944
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "6c0afc21f7de0cc4aa369ce40b7986359aed587a",
+        "timestamp": 1533121318
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "5437259d4fa23a79f72145c779d0598067380de0",
+        "timestamp": 1533125775
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "tests/test_crud.py",
+          "tests/test_declarative.py",
+          "tests/test_json.py"
+        ],
+        "sha": "65141cb5a3a97b400dafd513983e7059fea12e05",
+        "timestamp": 1533026999
+      },
+      {
+        "files": [
+          "src/gino/crud.py"
+        ],
+        "sha": "80a8ccf3f1402353f0667750849e045f287453be",
+        "timestamp": 1533028199
+      },
+      {
+        "files": [
+          "tests/test_crud.py",
+          "tests/test_json.py"
+        ],
+        "sha": "2ec69432ce9aac9d07a3caf3cfdecc5853ab18a3",
+        "timestamp": 1533192598
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "f427f4e630dbab16f2d0e04049f62339caa11f1e",
+        "timestamp": 1533349080
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "fa2d70503f9357a433a815e2ce819d597575cf5c",
+        "timestamp": 1533466800
+      },
+      {
+        "files": [
+          "docs/reference/extensions/sanic.rst",
+          "gino/ext/aiohttp.py",
+          "gino/ext/quart.py",
+          "gino/ext/sanic.py",
+          "gino/ext/tornado.py"
+        ],
+        "sha": "9f59093462e8f19b410a3bd00f28f342d8f82faf",
+        "timestamp": 1533573899
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "1ffb91c0a1a22b9cc0ce49e745d125830407a75b",
+        "timestamp": 1533918953
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/transaction.py",
+          "tests/test_transaction.py"
+        ],
+        "sha": "f75dfa62ab0333a59e6f96775c5563894e386d57",
+        "timestamp": 1534049280
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/dialects/base.py",
+          "tests/test_json.py"
+        ],
+        "sha": "6e929b4564af9aba20eac16cc4c2490d3f0d4901",
+        "timestamp": 1534087589
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/transaction.py",
+          "tests/test_transaction.py"
+        ],
+        "sha": "f87d49b21c96c46b9bec0e60c3867941ae31b109",
+        "timestamp": 1534164443
+      },
+      {
+        "files": [
+          "src/gino/transaction.py"
+        ],
+        "sha": "b31db8dd42de24f6c6fe2c61b6833cb5453c7f7b",
+        "timestamp": 1534165821
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "4e8dac2545e1c0f778fea0588ee785c7a56af512",
+        "timestamp": 1534275707
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "db71a283a21266c75e471c277f0229d2ac475474",
+        "timestamp": 1534621318
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/declarative.py",
+          "tests/test_declarative.py",
+          "tests/test_json.py"
+        ],
+        "sha": "9587e758fe17be2a72b67d342b6fb0cba818887b",
+        "timestamp": 1534686372
+      },
+      {
+        "files": [
+          "tests/conftest.py",
+          "tests/models.py"
+        ],
+        "sha": "c5b2d051c6755e5de18153a1ef34ffb4853a42e1",
+        "timestamp": 1534687356
+      },
+      {
+        "files": [
+          "src/gino/api.py",
+          "src/gino/exceptions.py",
+          "tests/test_bind.py",
+          "tests/test_engine.py",
+          "tests/test_iterate.py"
+        ],
+        "sha": "3aef427d2916911d5aa15fbfc608cf9460d55e6b",
+        "timestamp": 1534690292
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "bad345bcb1edacf0ec512d9dc2b5d5316cb331b1",
+        "timestamp": 1534704839
+      },
+      {
+        "files": [
+          "src/gino/api.py"
+        ],
+        "sha": "fb202feeaeabcefccb2672dc0182e230c3f6cb95",
+        "timestamp": 1534732690
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "4529cc342e4a2032ecc53a4165ae6dd2cbab8f90",
+        "timestamp": 1534802698
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "de4b97a68aae8546889296fb69eec217fceddc91",
+        "timestamp": 1535234648
+      },
+      {
+        "files": [
+          "tests/test_aiohttp.py",
+          "tests/test_executemany.py"
+        ],
+        "sha": "cf73072caaa1b428b9d65c1f83feda0a5b6bac8b",
+        "timestamp": 1535262733
+      },
+      {
+        "files": [
+          "docs/how-to/schema.rst"
+        ],
+        "sha": "31a387844a4cc72ac812ad34b7e388fa78a34581",
+        "timestamp": 1535268679
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "7a0f2750a6cf2b149d9a8ff4ed1353be78e084ed",
+        "timestamp": 1535330531
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "4eabd01495bc4ce123488ea04a9b8439ef154c50",
+        "timestamp": 1535381113
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "d46fcd7adb5fd55e4683c1bec4a0524c30efbc28",
+        "timestamp": 1535489121
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "465c03b308fe7b470585c11c09b7257d7824bde7",
+        "timestamp": 1535489126
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "a3f67b4def60286af15f7a2981d69192296a59f9",
+        "timestamp": 1535592798
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "1293dc3d90e6b471c87a5802a7e25d1861c38b4d",
+        "timestamp": 1535870064
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "7159851dc245b0c0ef6d20f49c58db647a9aed0a",
+        "timestamp": 1536027626
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "af04a19750b26bfec6a43c97da3acc06b58fb97a",
+        "timestamp": 1536082466
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "06ce9ac3a074f16bc1962ef48546cc07a9b63eaa",
+        "timestamp": 1536172410
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "5217ccbc5a94acfed8c4ce5a6e921c598225f1ce",
+        "timestamp": 1536172421
+      },
+      {
+        "files": [
+          "src/gino/loader.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "03c9f90d0dcfc128032d3bf61f3cb32944b22cb2",
+        "timestamp": 1535736104
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "02b2fa1ae5335247bcba54327cce7013c9447dc9",
+        "timestamp": 1536255194
+      },
+      {
+        "files": [
+          "src/gino/loader.py"
+        ],
+        "sha": "7d7b9c40de638e14b2febd16193585c478dab5b2",
+        "timestamp": 1536255641
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "52c51dbf77056e8e10a3fa7337be0abd7271e850",
+        "timestamp": 1536477276
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py",
+          "gino/ext/quart.py",
+          "gino/ext/sanic.py",
+          "gino/ext/tornado.py",
+          "requirements.txt",
+          "src/gino/engine.py"
+        ],
+        "sha": "07a11b049733f90521a1df9fdb8c18f3c7440836",
+        "timestamp": 1536544713
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "64b28c70aaaf5cad3dec0bf3186f36d0955ba478",
+        "timestamp": 1536546217
+      },
+      {
+        "files": [
+          "src/gino/engine.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "0a8a19983cc57c948b199160b7fe5cae8add13ed",
+        "timestamp": 1536564778
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "196b8493bbd0259d6000feb02118917511477887",
+        "timestamp": 1536566925
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/explanation/engine.rst",
+          "docs/how-to/faq.rst",
+          "docs/tutorials/tutorial.rst"
+        ],
+        "sha": "a810d510c97a00a9a9c21f4bb723fc3f8c02b671",
+        "timestamp": 1536569091
+      },
+      {
+        "files": [
+          "docs/how-to/faq.rst"
+        ],
+        "sha": "94779db92a6b1abb629138dbf83173a79bc047d5",
+        "timestamp": 1536569616
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "260596abf70f97455acf2737097032f8b9529c70",
+        "timestamp": 1536768851
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "9c57cadb8cf1a82477316f10c3d7068018d45233",
+        "timestamp": 1536832004
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "0fb3ad483714008a2e6963850fd30254ad3a4f5a",
+        "timestamp": 1537384921
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "8bcb07c5b49f10d8f4cd488d94cd489aa42de4b3",
+        "timestamp": 1537622522
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "e57c785700419bcecfcecf3913012050d1676fd5",
+        "timestamp": 1537664347
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "7a047f5c1ee6444a1eca6ccbbd1f2052fb7b3fec",
+        "timestamp": 1537716667
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "94eee28453e2a71f73725097cb81b13b9fdc4e15",
+        "timestamp": 1537446781
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "51213c78aa949bfbb3f0b2355274828446ebe2df",
+        "timestamp": 1536546217
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "7c026d4d3ca71204588020621c4ee993fa653343",
+        "timestamp": 1538211937
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "09f594151672dbb96718eadb8be44a1f22fb7231",
+        "timestamp": 1538218431
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "ed91fef99b87402a6aca41964d363b53f9612a4d",
+        "timestamp": 1538247680
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst",
+          "src/gino/loader.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "91dadf4cf4b819f04bd1444e48816327eae3e295",
+        "timestamp": 1538274672
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "9d5fde1604f5f58e3c63b0b2f3ccc4907bc3c3eb",
+        "timestamp": 1538534068
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "b5bb911c63c6e5cb3b8e035bf13d2cbbd00f3448",
+        "timestamp": 1538648068
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "440a375184fadf786083226c8125910f02c6e2a9",
+        "timestamp": 1538748209
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "24ed25d474074f8649c07a168278bd2934ff5c53",
+        "timestamp": 1538748214
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "fc5a9eab7e4d6d10e4aea8e6a44c160eb44deb0c",
+        "timestamp": 1539224172
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "d072e65c22d39b6b613852e54d0fab77fd7b5b56",
+        "timestamp": 1539701546
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "aec640a445c72c20794a126a47d5f3035b0371d9",
+        "timestamp": 1539701522
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "2a8ac0fd29fcad1f151c2ad7ad6c52ae33a263e3",
+        "timestamp": 1539742671
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "fad50cc3dd13e47d1a57e9f1ec843de1cc0f70d1",
+        "timestamp": 1540078258
+      },
+      {
+        "files": [
+          "src/gino/api.py"
+        ],
+        "sha": "4c59ad8b42f10e8c7995a8cfc714f5a5e8432e84",
+        "timestamp": 1540129568
+      },
+      {
+        "files": [
+          "tests/models.py",
+          "tests/test_quart.py"
+        ],
+        "sha": "e9deab9fed13d563911ab7b5c029089043d6b961",
+        "timestamp": 1540129808
+      },
+      {
+        "files": [
+          "src/gino/loader.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "126feccc1ca3fc14b8a59505f05a646c3e88a77f",
+        "timestamp": 1540135763
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "e474bbb200c95fdb9eda430520a30cd59d0c4ca9",
+        "timestamp": 1540157462
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "6df2822e2e80516f352c7c4281ba3ab51c2e5deb",
+        "timestamp": 1540095349
+      },
+      {
+        "files": [
+          "tests/test_loader.py"
+        ],
+        "sha": "a282cd2d1f41e292470fb6e096835a160997ef97",
+        "timestamp": 1540224818
+      },
+      {
+        "files": [
+          "tests/test_loader.py"
+        ],
+        "sha": "be1f37c8c6471791d7e7b13ba81f096df015c023",
+        "timestamp": 1540265426
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "5d81b7e5ed1c0b4391df93dbc2da182f4baa76de",
+        "timestamp": 1540364464
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "c645f64211d5050daa555f69b502db06f5415dea",
+        "timestamp": 1540400547
+      },
+      {
+        "files": [
+          "docs/how-to/loaders.rst",
+          "docs/index.rst"
+        ],
+        "sha": "5c192a37073315d842b5a9a9d9ed7172cd8f2ca1",
+        "timestamp": 1540451691
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "15e2104938d237a8eb59bc66883fb43eb8233e22",
+        "timestamp": 1540994542
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f39aa6b1adef2b94c9a9ecfb9ed06a22beadd045",
+        "timestamp": 1541343262
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "7ad4b0afe4c785518b2083778d768e8de0e3ac7c",
+        "timestamp": 1541366007
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "6597e79b5b4add7d89221af746a41b2fda789178",
+        "timestamp": 1541764295
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "dcf52499674f08f004d9f843d622c7f5c7d4f999",
+        "timestamp": 1541844997
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e5710626db24b88040a1e47d3aa8942748239413",
+        "timestamp": 1541878355
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "b583c2395e4827abee7efc5173685446c7c85ff8",
+        "timestamp": 1541950598
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "cfa17854f654c6d5a6431dea8b794bcfb229315d",
+        "timestamp": 1542061002
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py",
+          "tests/test_aiohttp.py"
+        ],
+        "sha": "6a254cc5ffcee7fc3a8e439bf6500985f8dadd04",
+        "timestamp": 1542188614
+      },
+      {
+        "files": [
+          "PATRONS.md"
+        ],
+        "sha": "deef57c1d177fb13f7e4736798eb9c106b69f309",
+        "timestamp": 1542199834
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "b4c64887a8f79513177c4ec7437e7a37be543964",
+        "timestamp": 1541990199
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "96bd689fb820a25e0b7ce69ea309360eda44398a",
+        "timestamp": 1542449409
+      },
+      {
+        "files": [
+          "PATRONS.md"
+        ],
+        "sha": "357245331daa0273fde8cc674e2f0ad889225f00",
+        "timestamp": 1542506921
+      },
+      {
+        "files": [
+          "gino/ext/tornado.py",
+          "requirements_dev.txt",
+          "tests/test_tornado.py"
+        ],
+        "sha": "12b0e5c992f7ee105444adef4adaecc0931c5a74",
+        "timestamp": 1542805818
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "a07bec5018f16999020dbdf6b9a96a3120b373ab",
+        "timestamp": 1542806826
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "b3a724bd8f1d87d128acc6b9983dde1a6074af9e",
+        "timestamp": 1543168210
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "74445c8636a81c060f697b8aa0d809a13d31253c",
+        "timestamp": 1544043659
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/dialects/base.py",
+          "tests/test_json.py"
+        ],
+        "sha": "8947074177d302079ee14067421f0f7ec8246cda",
+        "timestamp": 1544235430
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "4db5371f6c9b15081a2c81e74600d21e2549a1b9",
+        "timestamp": 1544253017
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "6759256eddd81027870b67509cc5b9aac674fc2e",
+        "timestamp": 1544252863
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "3a1f6b87a40e4d08c67bf62da2c7937876187bba",
+        "timestamp": 1544253126
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "add3ce1a061c224bb9bc1138cc9691803d6361b1",
+        "timestamp": 1544410888
+      },
+      {
+        "files": [
+          "src/gino/exceptions.py",
+          "src/gino/json_support.py",
+          "tests/test_json.py"
+        ],
+        "sha": "2bbf93078236afc12b9a65f918a2eafede6a3b01",
+        "timestamp": 1544462535
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "5dd1084f7fe1065741ea6c066d41b25b431cf6dc",
+        "timestamp": 1544754149
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "f6da2aae33b4ae8975e214f10689d6c840e45de1",
+        "timestamp": 1544995069
+      },
+      {
+        "files": [
+          "requirements_dev.txt",
+          "tests/test_quart.py"
+        ],
+        "sha": "723551a573d8727613db7cc0b536a0aecec9dfa1",
+        "timestamp": 1545098185
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "f18d09d0e054f0327dd9f9ccdedaf04c621e1afa",
+        "timestamp": 1545570006
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "07d3ddde599c6e9042c8d6b015ccbc3904cffea1",
+        "timestamp": 1546012451
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "b7612767e2fb07f1c3283d78c218578b77e24eda",
+        "timestamp": 1546921019
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "c1016f4e2b55d2f072bb9867773c66277de9cc33",
+        "timestamp": 1546808793
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "61e3fb4e5900a4b0fcad442840e7ba9e724b9099",
+        "timestamp": 1546926779
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "bfdd9da0dc27a1919673edaab74f48627bf93272",
+        "timestamp": 1546927024
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "7aa7f0d1a5a0bb4702d46fdddd8ae1373889a6e3",
+        "timestamp": 1547256185
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "e5919c03a5653d3a5e7e553e8481adff42f3df28",
+        "timestamp": 1548262939
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "dc1dfdd13925e686b083e7807bb464b2e102151e",
+        "timestamp": 1548263193
+      },
+      {
+        "files": [
+          "docs/aiohttp.rst",
+          "docs/quart.rst",
+          "docs/reference/extensions/sanic.rst",
+          "gino/ext/aiohttp.py"
+        ],
+        "sha": "31ef4634373d00c976f5c33290965135f6755e04",
+        "timestamp": 1548508001
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "1d80a1203d5ad97c8e365d3c28a2e36a3b3c2e48",
+        "timestamp": 1548778964
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "059a8cb6e79c369cef09f8bc3ef32dc394100eaf",
+        "timestamp": 1548849078
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "f1480fb0291c620a8841943ffb70af322f192403",
+        "timestamp": 1548853054
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "e0fec27d5c1d671ad36700bb960c98c5f3cec79f",
+        "timestamp": 1548943811
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/images/pycharm.svg"
+        ],
+        "sha": "3969c273c63cd489edb85d430ef41322c6b39ca8",
+        "timestamp": 1549036349
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "b97a106ff59642e7f91f6b70bf32832833e13118",
+        "timestamp": 1550066185
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py"
+        ],
+        "sha": "fa73223b66c626857476eabf024adc2b4a6eb965",
+        "timestamp": 1550153458
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py"
+        ],
+        "sha": "eec8f7a3d2faa27e915d0c68567f1ab77e0ac1bf",
+        "timestamp": 1550154726
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py"
+        ],
+        "sha": "53e5f08189cae480c3a9706af85ac9a8f5bd0b6f",
+        "timestamp": 1550156871
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py"
+        ],
+        "sha": "b64ff758fd7ae804e91dff547ef8f44836760135",
+        "timestamp": 1550157728
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py"
+        ],
+        "sha": "73ca4e99669fca893d8dbd410fc039b4e41a9b07",
+        "timestamp": 1550158544
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py",
+          "tests/test_aiohttp.py"
+        ],
+        "sha": "083f7856a97b3ae112f54ddcc20692ea46e1efa1",
+        "timestamp": 1550160942
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "c6088cac8029f93e73364db2712aec68bc9380ac",
+        "timestamp": 1550285269
+      },
+      {
+        "files": [
+          "docs/adv_topics.rst",
+          "docs/how-to/pool.rst",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/strategies.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "40b676709674d3f7f09d8cae3dc76ea9a95b6cb9",
+        "timestamp": 1550422660
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "f70627e560af6dbefe213228e465b575b6786f9b",
+        "timestamp": 1550549215
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "40d6c8e3db524126d727eb81134b150def94915b",
+        "timestamp": 1551369853
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "650f00118a3d1e3354aeed82ce5e13142e7c92ab",
+        "timestamp": 1551488878
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "3df8831846559362e9fa54fa9e0deed3aa1228c0",
+        "timestamp": 1551604169
+      },
+      {
+        "files": [
+          ".pyup.yml"
+        ],
+        "sha": "b77253d9e1f960e3fd210ec6f40d9b0aa1fa833d",
+        "timestamp": 1551708711
+      },
+      {
+        "files": [
+          "Pipfile",
+          "Pipfile.lock"
+        ],
+        "sha": "88985091db1dcd2e53a0878a3065d431f2ab129b",
+        "timestamp": 1551709641
+      },
+      {
+        "files": [
+          "Pipfile.lock",
+          "requirements.txt",
+          "src/gino/schema.py"
+        ],
+        "sha": "2d800c4c8a1f136711c1d689ef5784c5ba661f20",
+        "timestamp": 1551758690
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst",
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "9aefefafd4510bd6a0fea51d767f34a5cb5eef54",
+        "timestamp": 1552019189
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py",
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "8721357ab3abf2d910a76a8d8bbbc71036a32cc7",
+        "timestamp": 1553014665
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "gino/ext/aiohttp.py",
+          "tests/test_aiohttp.py"
+        ],
+        "sha": "6aed2f184881d35d2922b267241e04f565c2398c",
+        "timestamp": 1553133705
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "26a9beb44ef7fad44f556e46319dd00388939712",
+        "timestamp": 1553312251
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "572d59e0325c9352d74df68d0a098ca36a971411",
+        "timestamp": 1554365571
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "e22cc720aa4ed1fff0e0ffb27d858870e2d293f7",
+        "timestamp": 1554365592
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "73b6a31cc42d93d63ea801a918880fe91bc76d82",
+        "timestamp": 1554394108
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "fdae27d740a4755101653ab513404e924d60eded",
+        "timestamp": 1554881620
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "a8521f667c61449aae7d28f7f7cb04bcdcd13e9b",
+        "timestamp": 1555526339
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "487f5e07198a71e144f980a39f4da47d04a57784",
+        "timestamp": 1556083569
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "367587cf82e25aa9a89f52284ab44060973dcddf",
+        "timestamp": 1557035785
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "f761c6a41a387c2945ea5e084c62a438fc47f6f8",
+        "timestamp": 1557674294
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "7aecd9fcdadc16158aa8d1fee918b700f4e764bb",
+        "timestamp": 1557674342
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "c710e55bdc9501dea4a0f9c46d59dc333736d691",
+        "timestamp": 1557674368
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "28efac9b451122c145a6fc84946951fa1518d723",
+        "timestamp": 1558711142
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "b4ad66a99d29c920111c9a4845d09aaa492e1b4b",
+        "timestamp": 1558712771
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "e12eaafdad3f05776776ca40c681492154a7fa45",
+        "timestamp": 1559267423
+      },
+      {
+        "files": [
+          "gino/ext/aiohttp.py",
+          "gino/ext/quart.py",
+          "gino/ext/starlette.py",
+          "requirements_dev.txt",
+          "tests/test_starlette.py"
+        ],
+        "sha": "e23939fb59467b5331ed626262b7ff96fe6eb534",
+        "timestamp": 1559496787
+      },
+      {
+        "files": [
+          "gino/ext/starlette.py",
+          "tests/test_sanic.py"
+        ],
+        "sha": "aa01c83336a607e52aecc315fe217556ef4dc19c",
+        "timestamp": 1559577697
+      },
+      {
+        "files": [
+          "tests/test_starlette.py"
+        ],
+        "sha": "e384f25936ba3425166838b40f43a8d4903530bb",
+        "timestamp": 1559578659
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "2a1b5e2488ebefd94d6c5beb4bad4d2708b46b5a",
+        "timestamp": 1559832906
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "dbf50472811744a1c6f6c48f1071a6e83c3ac6ff",
+        "timestamp": 1559832929
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "af6fd4e5c7dfba72a36fc0e3357a939e51d6c99a",
+        "timestamp": 1560963008
+      },
+      {
+        "files": [
+          "docs/explanation/why.rst"
+        ],
+        "sha": "c162f8e32c9aeeea5e2f60afed6bf90fcb05c34b",
+        "timestamp": 1561121553
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "c3ba03376db51e2a3a94f9d1a49b8f420df3cd79",
+        "timestamp": 1561149234
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "c82cf3fb5de50a4d1c8b608086a18c767877af73",
+        "timestamp": 1561801271
+      },
+      {
+        "files": [
+          "docs/how-to/transaction.rst"
+        ],
+        "sha": "d944cba3414b6c26faad25affec00f1e207999cf",
+        "timestamp": 1562517563
+      },
+      {
+        "files": [
+          "gino/ext/sanic.py"
+        ],
+        "sha": "f50b6cc9f5f8d4d9eb326b1a5b2bb0c18b49970c",
+        "timestamp": 1565271588
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "0f1a919975be7598aefbacd9018711e7c0324740",
+        "timestamp": 1566180769
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "4a1cb27e426ae1818becfc72bacd48365203b317",
+        "timestamp": 1566180783
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "f8b39f70b53432752857b6e668ad2f60f979232e",
+        "timestamp": 1566180807
+      },
+      {
+        "files": [
+          "gino/ext/starlette.py"
+        ],
+        "sha": "3032d29e1de9184055036c77b9774eb55b0d5b50",
+        "timestamp": 1566998691
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "8b0b19ac76bcc63791dd3e7f716f31171819d587",
+        "timestamp": 1567344213
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "04e84ec483ec8ad6d6769052f994c05596363cac",
+        "timestamp": 1567344299
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "82901f422d9ae26ae88d4f9b316769b20672ac3e",
+        "timestamp": 1567542889
+      },
+      {
+        "files": [
+          "gino/ext/starlette.py",
+          "tests/test_starlette.py"
+        ],
+        "sha": "f5e2db31bdeb40899f5ab4e2da746eba2172c9b5",
+        "timestamp": 1567908328
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "bc64653828d4d0bb60c568a89945e1bdc0382caf",
+        "timestamp": 1567964142
+      },
+      {
+        "files": [
+          "src/gino/api.py",
+          "src/gino/declarative.py",
+          "tests/test_declarative.py"
+        ],
+        "sha": "d0e51d60ee60e5b114a541794652ee7ef6913a8f",
+        "timestamp": 1567964214
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "b239388aa6fadbfd4858c48f2e8679926f860605",
+        "timestamp": 1567970436
+      },
+      {
+        "files": [
+          "tests/test_sanic.py"
+        ],
+        "sha": "4aad906f1032fb744b704ed7424761e53e20eedb",
+        "timestamp": 1567971097
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "93ca341a20061ae26f6ad37db8166b3ae0663622",
+        "timestamp": 1567971929
+      },
+      {
+        "files": [
+          "requirements_dev.txt",
+          "tests/test_sanic.py"
+        ],
+        "sha": "7a1094a7b53ae3d4d1f4507ccfd15805888173b7",
+        "timestamp": 1567972255
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "e3b0ccbc12989576a35d2e26113bf3214da2941c",
+        "timestamp": 1570380768
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "d742b8e40cd0c31e45945d8816b6742edaa2b7b2",
+        "timestamp": 1570381730
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "tests/test_declarative.py"
+        ],
+        "sha": "6e35ac63194fc4669ba8d51c8d6d28380cb4791a",
+        "timestamp": 1572031157
+      },
+      {
+        "files": [
+          "gino/ext/sanic.py"
+        ],
+        "sha": "232505fc9ad60aa6f85198c9039a1e07c637200a",
+        "timestamp": 1572075984
+      },
+      {
+        "files": [
+          "src/gino/engine.py",
+          "tests/test_executemany.py"
+        ],
+        "sha": "6e9013953e5ac57749ac8338f952b7838e73b89d",
+        "timestamp": 1572076294
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "0f34a845f6f91037da79e8faf31c2dfd179f3278",
+        "timestamp": 1572076347
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "77e19f58e4295729937a46996c0630020b29b9a3",
+        "timestamp": 1572076365
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "e629da8f5ddc1211711056633311e733b2df7dcf",
+        "timestamp": 1572076375
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "a57f3e1188390ec0567b4e7d85d488a49be142be",
+        "timestamp": 1572076401
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "5be5256a5b43b5529b14138c47bdbe713f2c2c66",
+        "timestamp": 1572077208
+      },
+      {
+        "files": [
+          "requirements_dev.txt"
+        ],
+        "sha": "c59d0de2af6fe8b0190ecb44be25cb48205e14aa",
+        "timestamp": 1572077229
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "42adff2c97107e8a57c5fc942ce4815831c6eae2",
+        "timestamp": 1572721700
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "5c821fa1ac1714d2ef723ec7863b8df31bf39f56",
+        "timestamp": 1572785703
+      },
+      {
+        "files": [
+          "CONTRIBUTING.rst",
+          "README.rst"
+        ],
+        "sha": "06c641e65384e57cf0b6e3f6ed5f583a9829e0cb",
+        "timestamp": 1573211216
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "26119f5c680dc9378263ee42ff2f4d3354d09f8b",
+        "timestamp": 1573276863
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "1aa75feee48d2603def31db11270f2f6bf47022a",
+        "timestamp": 1573276888
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "72588ae78de9066eeb3c509bfc1186e7fdc6bd5c",
+        "timestamp": 1573441294
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "tests/test_declarative.py"
+        ],
+        "sha": "4a7a2182c05f377758d276b1136bfd7e4e9fa87f",
+        "timestamp": 1573547604
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "4e052b98a8d5e7c6d07f856ae4f6a4560a27b777",
+        "timestamp": 1573632779
+      },
+      {
+        "files": [
+          "tests/test_declarative.py"
+        ],
+        "sha": "0bae7cdec10ba2f59245b1852b5535b12652f920",
+        "timestamp": 1573822568
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "b50818fec608a05b1c2ef3832091425053331e2e",
+        "timestamp": 1574098569
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst"
+        ],
+        "sha": "b0d54dc60c020201c84d29c82e881c1b6537a0a7",
+        "timestamp": 1574178260
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "src/gino/__init__.py"
+        ],
+        "sha": "3109577271e59ab9cde169b5884403d8f41caa8b",
+        "timestamp": 1574178268
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py",
+          "tests/test_json.py"
+        ],
+        "sha": "515062fef50a978084cb0700a485124643146947",
+        "timestamp": 1576013836
+      },
+      {
+        "files": [
+          ".codacy.yml"
+        ],
+        "sha": "f4f5d5742eddbcb79ecc2a50fb1536a800dfe033",
+        "timestamp": 1577402202
+      },
+      {
+        "files": [
+          ".readthedocs.yml",
+          "docs/conf.py",
+          "docs/requirements.txt"
+        ],
+        "sha": "f76a4935750a82cdbc6d61c100d4d58768f5be77",
+        "timestamp": 1577403194
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "tests/test_crud.py"
+        ],
+        "sha": "119c92006a726200ccf634490257a58595975cfc",
+        "timestamp": 1574257836
+      },
+      {
+        "files": [
+          "src/gino/crud.py"
+        ],
+        "sha": "a63b2afdad43e230c07d2212331b9e32a90cac97",
+        "timestamp": 1574266026
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "src/gino/crud.py",
+          "tests/test_crud.py"
+        ],
+        "sha": "6a61f0cce2a626c30a7a5fce063f19fe80b62d5f",
+        "timestamp": 1577404251
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "src/gino/__init__.py"
+        ],
+        "sha": "14b5766a284d5fc894f5a8ff6645e1c9f0560e8b",
+        "timestamp": 1577404662
+      },
+      {
+        "files": [
+          "README.rst",
+          "poetry.lock",
+          "pyproject.toml",
+          "src/gino/__init__.py"
+        ],
+        "sha": "17560207c636676484aa0ca62a8038f28cb2c9d6",
+        "timestamp": 1577410254
+      },
+      {
+        "files": [
+          ".github/workflows/docs.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "79e7d4cbea162e464893feccdb492d08cd18ffd6",
+        "timestamp": 1577427937
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/theme/static/js/gino.js"
+        ],
+        "sha": "b346379e4e35e13382d2b9a7cd5427151e99a6a1",
+        "timestamp": 1577681618
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "25e9089353b2f0bfe147f6ab9c20b0ca4a1c853e",
+        "timestamp": 1577683577
+      },
+      {
+        "files": [
+          ".github/workflows/docs.yml",
+          "docs/theme/layout.html"
+        ],
+        "sha": "c34fa103e406b67ab8961553cf95b6a1117d48c1",
+        "timestamp": 1577691117
+      },
+      {
+        "files": [
+          "docs/how-to/loaders.rst"
+        ],
+        "sha": "fc97911364c1414665689efb9449e03a9e4db42d",
+        "timestamp": 1580457533
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "326231057dd4b786667c181d20f6dfc52e492dc4",
+        "timestamp": 1580834858
+      },
+      {
+        "files": [
+          "src/gino/loader.py",
+          "tests/models.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "96c934aff6880aa2bc53418010858ca18e845c24",
+        "timestamp": 1580808511
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "src/gino/loader.py",
+          "tests/models.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "74b3082d4fe380359521187c3383a291a84c26ae",
+        "timestamp": 1580935256
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "6f99b15806378bc122bbc47cf1624c6a21bb0d71",
+        "timestamp": 1580935511
+      },
+      {
+        "files": [
+          "tests/test_loader.py"
+        ],
+        "sha": "cb8a7ae92d67eb3a45429f50596c3dcfc0fdc839",
+        "timestamp": 1581379024
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "0891261d3307b417c7ba45b74e28efd5d863ecfe",
+        "timestamp": 1581380154
+      },
+      {
+        "files": [
+          ".gitignore",
+          "docs/reference/extensions/starlette.rst"
+        ],
+        "sha": "6471c1831af6b9dd20a00feb4a7b0feb672901cf",
+        "timestamp": 1581016417
+      },
+      {
+        "files": [
+          "src/gino/ext/__init__.py",
+          "tests/stub1.py",
+          "tests/stub2.py",
+          "tests/test_ext.py"
+        ],
+        "sha": "c741c695e120d075894f56422463e7b612cffc71",
+        "timestamp": 1581958649
+      },
+      {
+        "files": [
+          "poetry.lock"
+        ],
+        "sha": "af5244f4ccf95440999a946f0c4c3b71ff68b038",
+        "timestamp": 1581958992
+      },
+      {
+        "files": [
+          "src/gino/ext/__init__.py"
+        ],
+        "sha": "8874f50ffb76d0c4bcc3ce1540753802728aa20e",
+        "timestamp": 1581996866
+      },
+      {
+        "files": [
+          ".github/workflows/docs.yml"
+        ],
+        "sha": "ebfd1d847c0baa5cc75184a15e78a800f9951200",
+        "timestamp": 1581997296
+      },
+      {
+        "files": [
+          "src/gino/loader.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "5d408fe4bd4d20b17bd578da2d3630620610fded",
+        "timestamp": 1583644084
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyproject.toml"
+        ],
+        "sha": "ccf003e7b152b9f06c31b7f3b1c0c91d77e3f9b7",
+        "timestamp": 1583644301
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "fd165aca08592768beb91dae1081f2aed26e4215",
+        "timestamp": 1585127291
+      },
+      {
+        "files": [
+          "poetry.lock"
+        ],
+        "sha": "8f50e929d84a9e69312e377422517a2e1c408e5f",
+        "timestamp": 1585127328
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "2dd54af3419427f72120b6d9df1d9a8f20e0b705",
+        "timestamp": 1585243054
+      },
+      {
+        "files": [
+          "poetry.lock"
+        ],
+        "sha": "3dedaf45f03f93a8f9ccc95146f8cd15dbadf6ad",
+        "timestamp": 1585187669
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "2d6ed227d61a2a2e8fac0f5fe6c616e4f8019d9a",
+        "timestamp": 1585243164
+      },
+      {
+        "files": [
+          "poetry.lock"
+        ],
+        "sha": "6174f98edb366b54d7dc2d066a4791ca04fc3bda",
+        "timestamp": 1585308399
+      },
+      {
+        "files": [
+          "src/gino/json_support.py",
+          "tests/test_json.py"
+        ],
+        "sha": "fabd32531b3f2a13447a82c2527ab8d85de2efd8",
+        "timestamp": 1584685061
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "bf6ae5c75d3b7b005f038642f41cdf5dc34d75e6",
+        "timestamp": 1585680562
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "3da62f18ecac8cc7753dd333a45a75f9c46e4b4a",
+        "timestamp": 1586104552
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "963e16d80ea539a57c043d07cafe3e49a0304ac3",
+        "timestamp": 1586166883
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "e36e6443d61e5f90eac0af3ea5d6edd78c6f5ec4",
+        "timestamp": 1586318160
+      },
+      {
+        "files": [
+          "docs/theme/layout.html",
+          "docs/theme/static/css/gino.css",
+          "docs/theme/static/favicon.ico",
+          "docs/theme/static/js/gino.js",
+          "docs/theme/static/logo-name.png",
+          "docs/theme/static/logo.png",
+          "docs/theme/static/logo.svg"
+        ],
+        "sha": "fe0c71cd4fcd0ed1b26a543e751b810481eb124f",
+        "timestamp": 1586665181
+      },
+      {
+        "files": [
+          "src/gino/ext/__init__.py",
+          "tests/test_ext.py"
+        ],
+        "sha": "eaae1f91d2299c227156888a265a51d868bab179",
+        "timestamp": 1586665818
+      },
+      {
+        "files": [
+          "docs/images/gino-fastapi.svg",
+          "docs/tutorials/fastapi.rst"
+        ],
+        "sha": "7e25322dc61ee38cea85cc2db3f765887dce2045",
+        "timestamp": 1586746155
+      },
+      {
+        "files": [
+          "src/gino/strategies.py",
+          "tests/test_bind.py"
+        ],
+        "sha": "cc3938259045c2a21c3e8b4d0522d31ac8c34985",
+        "timestamp": 1586842034
+      },
+      {
+        "files": [
+          "docs/tutorials/fastapi.rst"
+        ],
+        "sha": "1fa453b1afbece67cb4a1307af2765fd2ab03902",
+        "timestamp": 1586842724
+      },
+      {
+        "files": [
+          "docs/images/gino-fastapi-layout.svg"
+        ],
+        "sha": "8c32e04806c7744f0af55ffa28083adc66648801",
+        "timestamp": 1586842962
+      },
+      {
+        "files": [
+          "docs/tutorials/fastapi.rst",
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "37a47bacb635df874c43245d046c74dcd5a12244",
+        "timestamp": 1586843139
+      },
+      {
+        "files": [
+          "docs/tutorials/fastapi.rst"
+        ],
+        "sha": "06b8045eb2c4185e8596cfc4baa8d173d2588b5f",
+        "timestamp": 1586885966
+      },
+      {
+        "files": [
+          "docs/.tx/config",
+          "docs/theme/layout.html",
+          "docs/theme/static/css/gino.css",
+          "docs/tutorials/fastapi.rst"
+        ],
+        "sha": "87bc072224b0866bfa756ef4c33a05214fa383ba",
+        "timestamp": 1587011179
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "f75f6d46f6c8ec0c86f7b36dbca09404ec349be4",
+        "timestamp": 1586531827
+      },
+      {
+        "files": [
+          "docs/explanation/engine.rst",
+          "docs/explanation/why.rst",
+          "docs/theme/layout.html",
+          "docs/theme/static/css/gino.css"
+        ],
+        "sha": "12ed9c91dcd5627019a0f58b980c3a4edb135eb7",
+        "timestamp": 1587086463
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "e3b0339d9a11c5d0fb4f45295b3147813d872115",
+        "timestamp": 1587234532
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/how-to/faq.rst",
+          "docs/theme/static/css/gino.css"
+        ],
+        "sha": "f2c273a43a3ed893a767d4239046f2befabf510d",
+        "timestamp": 1587235529
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "b5090402dc35679419df1a4e3580aa8a79510ce4",
+        "timestamp": 1587308051
+      },
+      {
+        "files": [
+          "src/gino/dialects/base.py",
+          "src/gino/transaction.py"
+        ],
+        "sha": "956bcc2a2e17acce936e84d7d24e095aa4e0c88f",
+        "timestamp": 1587419805
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "src/gino/dialects/aiomysql.py",
+          "src/gino/strategies.py"
+        ],
+        "sha": "e49b98d34071727965ceadf97a37f0fbd1529251",
+        "timestamp": 1587573345
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "3fc46f8a9a398f1db56c933a608c32ba9f8a920c",
+        "timestamp": 1587910111
+      },
+      {
+        "files": [
+          "src/gino/declarative.py"
+        ],
+        "sha": "dd8e8040f33535ca82bc61665a9393b2075feaf1",
+        "timestamp": 1587927077
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/theme/static/css/gino.css",
+          "docs/theme/static/images/box-bg-dec-2.svg",
+          "docs/theme/static/images/box-bg-dec-3.svg",
+          "docs/theme/static/images/box-bg-dec.svg",
+          "docs/theme/static/js/gino.js"
+        ],
+        "sha": "858b2ca0d69e5c788f7f079c8a4c00ab3cbbc25b",
+        "timestamp": 1587931774
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "22862739b64f2998aef40112c5c128f17277db01",
+        "timestamp": 1587932502
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "51831f714fdb1248247db3ccf3558e09fd35fcc5",
+        "timestamp": 1587932991
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "55ff98eca2c2ebf7ef845881bc3dbb9d2ead5449",
+        "timestamp": 1586962539
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "6297ae5e77444640d494f9e59a4e1423bcae2916",
+        "timestamp": 1587290955
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "pyproject.toml"
+        ],
+        "sha": "0b2c04920ecb78b6cda5efbc4381b68fd60c6845",
+        "timestamp": 1587935486
+      },
+      {
+        "files": [
+          "docs/tutorials/fastapi.rst"
+        ],
+        "sha": "7514b07113ba502f274864e28f8ffc97f75c7ea6",
+        "timestamp": 1587937123
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "b76b4f01df080d363302cfe75035a38881c9df0a",
+        "timestamp": 1588014657
+      },
+      {
+        "files": [
+          "docs/how-to/faq.rst",
+          "docs/theme/static/css/gino.css",
+          "docs/theme/static/js/gino.js"
+        ],
+        "sha": "7753503d46863dba60993777658228d5375896ae",
+        "timestamp": 1588026370
+      },
+      {
+        "files": [
+          "docs/theme/static/js/gino.js"
+        ],
+        "sha": "55aa03e5e97da2e7944b13fc56229f8dd3029a9a",
+        "timestamp": 1588038631
+      },
+      {
+        "files": [
+          "docs/theme/layout.html"
+        ],
+        "sha": "f0888a8217c0261048788662165b2d749a843c52",
+        "timestamp": 1588124607
+      },
+      {
+        "files": [
+          ".github/workflows/docs.yml",
+          "docs/theme/layout.html",
+          "docs/theme/static/css/gino.css",
+          "docs/theme/static/js/gino.js"
+        ],
+        "sha": "bb5c6bae72892422a9aaa57f363d4714fb27f93d",
+        "timestamp": 1588303861
+      },
+      {
+        "files": [
+          "src/gino/crud.py"
+        ],
+        "sha": "dcac5faac4920e092b811b88207b5cf672eb9ed6",
+        "timestamp": 1588342105
+      },
+      {
+        "files": [
+          "src/gino/dialects/aiomysql.py",
+          "src/gino/strategies.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "a41df1883f5f86ab798110b4652eee3f3b87b576",
+        "timestamp": 1588397621
+      },
+      {
+        "files": [
+          "docs/theme/layout.html",
+          "docs/theme/static/css/gino.css"
+        ],
+        "sha": "43d205c8633a32a4d4e7e8b288b57851e56bb9b7",
+        "timestamp": 1588477609
+      },
+      {
+        "files": [
+          "docs/Makefile",
+          "docs/theme/static/css/gino.css"
+        ],
+        "sha": "6a253b84a1691e7ccabdea2bef71755dff296c82",
+        "timestamp": 1588606291
+      },
+      {
+        "files": [
+          "docs/how-to/json-props.rst",
+          "src/gino/crud.py",
+          "src/gino/declarative.py",
+          "tests/test_json.py"
+        ],
+        "sha": "7781848cf035e8a2afedc53d653e48c112c80e90",
+        "timestamp": 1588459970
+      },
+      {
+        "files": [
+          ".github/workflows/docs.yml",
+          "docs/.tx/config"
+        ],
+        "sha": "c4f8ba8e971f46553ed1b4ecd995f9570247e807",
+        "timestamp": 1588622503
+      },
+      {
+        "files": [
+          "docs/.tx/config",
+          "docs/how-to/bakery.rst",
+          "docs/how-to/loaders.rst"
+        ],
+        "sha": "07abebde9645237f3b2978917c327e7b7da3766a",
+        "timestamp": 1588699303
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "6e3e4a488d3f6af871542d3599ccd9ecc8c38d2d",
+        "timestamp": 1588483135
+      },
+      {
+        "files": [
+          "docs/.tx/config",
+          "docs/explanation/async.rst",
+          "docs/explanation/why.rst",
+          "docs/images/263px-Minimum-Tonne.svg.png"
+        ],
+        "sha": "1ce1c9cf1f941dea0144854ccde35629ec732f58",
+        "timestamp": 1588733872
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "011cc6c8aac05e8e01637c6769f6bca5845db921",
+        "timestamp": 1588913744
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "5c1e6ef742a27303f9cdd20385e4ac8dc59d7d19",
+        "timestamp": 1588915685
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "ce4e763d3c2b8109a48fc7cec173301653644d28",
+        "timestamp": 1588917386
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "5b1d8e7ef9f2d322393abffdc6759ae50b3fb4ab",
+        "timestamp": 1588918176
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "3f52ff11a8a07192e60c2e015c8d4ba71bbf62ab",
+        "timestamp": 1588918723
+      },
+      {
+        "files": [
+          "mysql_tests/conftest.py",
+          "mysql_tests/test_crud.py",
+          "src/gino/crud.py",
+          "src/gino/dialects/aiomysql.py",
+          "src/gino/dialects/base.py"
+        ],
+        "sha": "6ace0edef6dcd26be4c9ccbb1734e44ca354c75b",
+        "timestamp": 1589121221
+      },
+      {
+        "files": [
+          "mysql_tests/test_declarative.py"
+        ],
+        "sha": "56a2d3717a815ef5b30bda0fd88881e6188c3b68",
+        "timestamp": 1589122317
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "docs/how-to/alembic.rst"
+        ],
+        "sha": "42ac8f74d7af9cc3d9c34cecc6b1d43c3de54e18",
+        "timestamp": 1589647043
+      },
+      {
+        "files": [
+          "docs/how-to/bakery.rst",
+          "src/gino/__init__.py",
+          "src/gino/declarative.py",
+          "src/gino/dialects/asyncpg.py",
+          "src/gino/dialects/base.py",
+          "src/gino/strategies.py",
+          "tests/test_bakery.py"
+        ],
+        "sha": "7f09156c995d975669a023342c2382d605081f5e",
+        "timestamp": 1589127671
+      },
+      {
+        "files": [
+          "poetry.lock"
+        ],
+        "sha": "ac4febfb16d7db25bfa34b3ae99baaefcaecce46",
+        "timestamp": 1590039605
+      },
+      {
+        "files": [
+          "tests/test_schema.py"
+        ],
+        "sha": "f5108222c30767210a3d74d0740f39313093c5a0",
+        "timestamp": 1590039301
+      },
+      {
+        "files": [
+          "mysql_tests/models.py",
+          "mysql_tests/test_executemany.py",
+          "mysql_tests/test_execution_options.py",
+          "mysql_tests/test_iterate.py",
+          "src/gino/dialects/aiomysql.py",
+          "src/gino/dialects/base.py"
+        ],
+        "sha": "6f571fa394d9048071e7ce41f8030816cbaf646b",
+        "timestamp": 1590382797
+      },
+      {
+        "files": [
+          "mysql_tests/test_json.py",
+          "src/gino/crud.py",
+          "src/gino/dialects/aiomysql.py",
+          "src/gino/json_support.py",
+          "tests/test_json.py"
+        ],
+        "sha": "f154234a65a9ed809ca0237a6a62a3de895e3b93",
+        "timestamp": 1590433251
+      },
+      {
+        "files": [
+          "mysql_tests/models.py",
+          "mysql_tests/test_loader.py"
+        ],
+        "sha": "0f7e26eabaddc9aabe31ab9bba999d5edfab2c14",
+        "timestamp": 1590505101
+      },
+      {
+        "files": [
+          "mysql_tests/test_prepared_stmt.py",
+          "mysql_tests/test_statement.py"
+        ],
+        "sha": "21ab49a439c62d849d718405c83e0456fb06872e",
+        "timestamp": 1590505129
+      },
+      {
+        "files": [
+          "mysql_tests/test_engine.py",
+          "mysql_tests/test_schema.py",
+          "src/gino/dialects/aiomysql.py"
+        ],
+        "sha": "92fa73b9849628101daf398a118fc2742e929502",
+        "timestamp": 1590509768
+      },
+      {
+        "files": [
+          "mysql_tests/conftest.py",
+          "mysql_tests/test_transaction.py",
+          "src/gino/crud.py",
+          "src/gino/dialects/aiomysql.py"
+        ],
+        "sha": "6782febbbbad6453101fc49531f4080ee15f1125",
+        "timestamp": 1590513136
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/dialects/base.py"
+        ],
+        "sha": "b989a4115d4d6de644b5efe14125c88a5ee5b4d0",
+        "timestamp": 1590519162
+      },
+      {
+        "files": [
+          "src/gino/dialects/aiomysql.py"
+        ],
+        "sha": "7c458abec716351535ed6dd42442eaccc08e004f",
+        "timestamp": 1590519785
+      },
+      {
+        "files": [
+          "pytest.ini"
+        ],
+        "sha": "0304fe4027e21d903b0dff69ef745563de47d6e4",
+        "timestamp": 1590520237
+      },
+      {
+        "files": [
+          ".codacy.yml"
+        ],
+        "sha": "2ec005ef8d747a8ad59ce6a5fcf39902fcc55297",
+        "timestamp": 1590546388
+      },
+      {
+        "files": [
+          "src/gino/dialects/aiomysql.py",
+          "src/gino/dialects/base.py"
+        ],
+        "sha": "91f93364e73a150d9bbb60de76668b487283332e",
+        "timestamp": 1590548968
+      },
+      {
+        "files": [
+          "docs/how-to/alembic.rst"
+        ],
+        "sha": "429c4d23f278b6dabe1ba0c93513eaf98aca5489",
+        "timestamp": 1590927812
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "tests/test_declarative.py"
+        ],
+        "sha": "65aed1308eca57a3a787728442dce6b1ad8fe7f8",
+        "timestamp": 1591331837
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "tests/test_declarative.py",
+          "tests/test_json.py"
+        ],
+        "sha": "804fdc8f2c57d35fb466ff476cda467ec3a11506",
+        "timestamp": 1591412825
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "src/gino/declarative.py",
+          "src/gino/json_support.py",
+          "tests/models.py",
+          "tests/test_execution_options.py",
+          "tests/test_json.py"
+        ],
+        "sha": "f811c928f165fb01656ae56ddbf4a18d87b3381f",
+        "timestamp": 1591474734
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst",
+          "poetry.lock"
+        ],
+        "sha": "473e6e1321944f93c7b621c1f063eb801441efc5",
+        "timestamp": 1591659741
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "a0bbeac57034c8c84bfc29b9597090dfd64c7580",
+        "timestamp": 1591660838
+      },
+      {
+        "files": [
+          "docs/theme/static/css/gino.css"
+        ],
+        "sha": "7edfc9e1c510ecfd7dc1c19c75f70c21b700506e",
+        "timestamp": 1592075141
+      },
+      {
+        "files": [
+          "docs/theme/layout.html",
+          "docs/theme/static/css/gino.css"
+        ],
+        "sha": "161cbb88d7fa984c4e8ce0cd1f0853db62857225",
+        "timestamp": 1592149400
+      },
+      {
+        "files": [
+          "docs/how-to/faq.rst"
+        ],
+        "sha": "ae78c121e752fab1c3a6958eda4655d2604f6060",
+        "timestamp": 1592151989
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "docs/how-to/faq.rst"
+        ],
+        "sha": "849616e852ef94dc103957e70107b40ce17b38bf",
+        "timestamp": 1592151522
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "tests/test_declarative.py"
+        ],
+        "sha": "b8ecbdedce4d495a20fc2cea8ce5a2345ed70024",
+        "timestamp": 1592157416
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "8131fb09c47e8045c3a8e4a8bc771caf83f31d27",
+        "timestamp": 1592158113
+      },
+      {
+        "files": [
+          "src/gino/schema.py"
+        ],
+        "sha": "839ee1a08d9557b3061481590c1cea5b71f2d056",
+        "timestamp": 1592674614
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/dialects/aiomysql.py",
+          "src/gino/dialects/base.py"
+        ],
+        "sha": "3774ba00dd99c9de545d4fe097c6ae69305b6aec",
+        "timestamp": 1592730279
+      },
+      {
+        "files": [
+          "mysql_tests/test_bakery.py",
+          "mysql_tests/test_json.py",
+          "mysql_tests/test_schema.py",
+          "src/gino/__init__.py",
+          "src/gino/declarative.py",
+          "src/gino/dialects/aiomysql.py"
+        ],
+        "sha": "6fb12ed2893258be9f1986bd67d4c3e121dba1d2",
+        "timestamp": 1592747714
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "mysql_tests/models.py"
+        ],
+        "sha": "0502a4efca73a099cefd6bccf5c16a726c7a033b",
+        "timestamp": 1592758503
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "src/gino/dialects/aiomysql.py"
+        ],
+        "sha": "231c9ba72a6db2e932d426edb8e4959b3937214a",
+        "timestamp": 1592762622
+      },
+      {
+        "files": [
+          "src/gino/declarative.py",
+          "src/gino/dialects/aiomysql.py"
+        ],
+        "sha": "3cf684be7e049d56e526c89d25c3f11dea2feff3",
+        "timestamp": 1592762650
+      },
+      {
+        "files": [
+          "mysql_tests/test_bind.py",
+          "mysql_tests/test_json.py",
+          "src/gino/crud.py",
+          "src/gino/dialects/aiomysql.py",
+          "src/gino/dialects/base.py",
+          "src/gino/engine.py"
+        ],
+        "sha": "100baab7f4ac3cae3b284267fc56080809fa2260",
+        "timestamp": 1598084953
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/dialects/base.py"
+        ],
+        "sha": "635d92e91e6068857ac0fa0e0c8896dbf94e2a14",
+        "timestamp": 1598096725
+      },
+      {
+        "files": [
+          "docs/how-to/faq.rst"
+        ],
+        "sha": "57c47787991400315311b32c16143de7ddc75098",
+        "timestamp": 1598161586
+      },
+      {
+        "files": [
+          "mysql_tests/conftest.py",
+          "mysql_tests/test_bakery.py",
+          "mysql_tests/test_core.py",
+          "mysql_tests/test_crud.py",
+          "src/gino/dialects/aiomysql.py"
+        ],
+        "sha": "f5232cb9d60f92599163b4015b8b6ab373a9dccf",
+        "timestamp": 1599992187
+      },
+      {
+        "files": [
+          "src/gino/crud.py"
+        ],
+        "sha": "e36553a111149aa00eed38e85d30e5e502b2ffd6",
+        "timestamp": 1599992241
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/dialects/aiomysql.py"
+        ],
+        "sha": "50daf3dac086bb9791c3a64b124e9e9d4d10e80d",
+        "timestamp": 1600016054
+      },
+      {
+        "files": [
+          "src/gino/crud.py",
+          "src/gino/dialects/base.py"
+        ],
+        "sha": "5db5874b91bb092c77f645e336d7d540b97b8d23",
+        "timestamp": 1600101828
+      },
+      {
+        "files": [
+          "src/gino/__init__.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "83b6ea5d3e98cb3cf020993bd47c47c57cac8515",
+        "timestamp": 1599509519
+      },
+      {
+        "files": [
+          "docs/explanation/sa20.rst",
+          "docs/theme/static/css/gino.css",
+          "docs/theme/static/images/OK.png",
+          "docs/theme/static/images/aha.png",
+          "docs/theme/static/images/fighting.png",
+          "docs/theme/static/images/hmm.png"
+        ],
+        "sha": "810c989f2c5a20fe1ff8cd073c179262ad2979d1",
+        "timestamp": 1600129068
+      },
+      {
+        "files": [
+          "docs/how-to/bakery.rst"
+        ],
+        "sha": "8f245ee9f3dbc1c084d86d20c19d471723837fb8",
+        "timestamp": 1603663536
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "src/gino/ext/__main__.py",
+          "tests/test_ext.py"
+        ],
+        "sha": "89c29b3aa15e5c1cac635cb7d53a2ca1683a20bc",
+        "timestamp": 1604276097
+      },
+      {
+        "files": [
+          "docs/how-to/bakery.rst"
+        ],
+        "sha": "e7bbc1bc73d093941cc03e8bad4ec76cab5d571c",
+        "timestamp": 1603860808
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "70e4bc1908c7f93bf93088a079168a882242488e",
+        "timestamp": 1605472810
+      },
+      {
+        "files": [
+          "mysql_tests/test_loader.py",
+          "src/gino/loader.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "526efd3e83aec8ebcf744303e10eb65cd5499cb7",
+        "timestamp": 1602406646
+      },
+      {
+        "files": [
+          "mysql_tests/test_loader.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "c16401e6ad04cb16d094b797bce4e0370dfc3b11",
+        "timestamp": 1602408410
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/gino/loader.py"
+        ],
+        "sha": "bbfb0eca2d50d4b1e3f153205ad67db22c93c420",
+        "timestamp": 1606042519
+      },
+      {
+        "files": [
+          "SECURITY.md"
+        ],
+        "sha": "5435155a0897c5e5d8ba432328c377f154ff5df6",
+        "timestamp": 1607547077
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE.md",
+          ".github/ISSUE_TEMPLATE/bug_report.md",
+          ".github/ISSUE_TEMPLATE/feature_request.md",
+          ".github/ISSUE_TEMPLATE/question.md",
+          ".github/workflows/ci.yml",
+          "README.rst"
+        ],
+        "sha": "7b05ac24baeec904afc9c8e023a84d920f48ee0d",
+        "timestamp": 1607701407
+      },
+      {
+        "files": [
+          "docs/reference/extensions/sanic.rst"
+        ],
+        "sha": "9b7b0c902b2900b64864852762300d57135fa4d2",
+        "timestamp": 1608675130
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "2e15c2c0b2f5ce7dabc8bcf971775bf2e75693cb",
+        "timestamp": 1613559999
+      },
+      {
+        "files": [
+          "src/gino/engine.py",
+          "tests/test_engine.py"
+        ],
+        "sha": "c43f8eed936bb5a8e60b69df2373739897ecc807",
+        "timestamp": 1612951054
+      },
+      {
+        "files": [
+          "mysql_tests/test_engine.py"
+        ],
+        "sha": "4b217b45eba07c951582ab34cbc319bf2012d8a4",
+        "timestamp": 1613574326
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst",
+          "pyproject.toml"
+        ],
+        "sha": "1145f244d777267506e969fb2d30a9e20ce6076b",
+        "timestamp": 1613581832
+      },
+      {
+        "files": [
+          "poetry.lock"
+        ],
+        "sha": "a476454a961f1a4c481bf1579d9325261deaa4c8",
+        "timestamp": 1616183183
+      },
+      {
+        "files": [
+          "poetry.lock"
+        ],
+        "sha": "e25faff0e6e9c1f516d33f4cabe06f137d8021ae",
+        "timestamp": 1616190994
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "15bcb41841da4d1fd1b16c9f6be913677ea25c34",
+        "timestamp": 1621699087
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "b495ebf8bbaee433eb8996e742e94c77b9a133f6",
+        "timestamp": 1621882154
+      },
+      {
+        "files": [
+          "src/gino/dialects/asyncpg.py"
+        ],
+        "sha": "087b1839f4cbf5d7865a91d150b121d56507820a",
+        "timestamp": 1620737646
+      },
+      {
+        "files": [
+          "CONTRIBUTING.rst",
+          "README.rst",
+          "docs/how-to/faq.rst",
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "7ce3e6036c3e19f15f5f68100a79e1258c6b3143",
+        "timestamp": 1624196672
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "2a3337ae13c06033acff4dab00ed93663e874167",
+        "timestamp": 1624197289
+      },
+      {
+        "files": [
+          "src/gino/loader.py"
+        ],
+        "sha": "e766dd370f7681145627ed1abcf8113c86731718",
+        "timestamp": 1624296776
+      },
+      {
+        "files": [
+          "src/gino/dialects/aiomysql.py"
+        ],
+        "sha": "968e8da3e92dfc071390261e6ab7e274bf0c3268",
+        "timestamp": 1633504113
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "82a0edb0d0de4e2598174e13babdf6524dfdc5d0",
+        "timestamp": 1644692676
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "dacd8ed114965ef4b75786cf25b43d70c8fd5a27",
+        "timestamp": 1644693202
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "76c54782dfdda6ff21ffc5578e7c2c5af02af429",
+        "timestamp": 1644693473
+      },
+      {
+        "files": [
+          ".github/workflows/cd.yml"
+        ],
+        "sha": "5c8aec9392ddd89554df80ce6994d53fac7e72ca",
+        "timestamp": 1644693720
+      },
+      {
+        "files": [
+          "mysql_tests/conftest.py",
+          "mysql_tests/test_loader.py",
+          "poetry.lock",
+          "pyproject.toml",
+          "tests/conftest.py",
+          "tests/test_loader.py"
+        ],
+        "sha": "eb15470eafec1ed4ea180cd825f168c3635541de",
+        "timestamp": 1644694775
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "8455c55aa1e06a96af5cb1fc762b343865cde196",
+        "timestamp": 1644694924
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "4ec78be8e4d4ae51611bd104cad26e019c59588b",
+        "timestamp": 1644696396
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "784f1279bb0eea3796e465ec55771d183d3e9010",
+        "timestamp": 1644697519
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "6218b902cc8a31198f1a0b42d67e689140b68c8b",
+        "timestamp": 1644697675
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 7,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".codacy.yml": 0,
+      ".coveragerc": 1,
+      ".github/ISSUE_TEMPLATE.md": 2,
+      ".github/ISSUE_TEMPLATE/bug_report.md": 3,
+      ".github/ISSUE_TEMPLATE/feature_request.md": 4,
+      ".github/ISSUE_TEMPLATE/question.md": 5,
+      ".github/workflows/cd.yml": 6,
+      ".github/workflows/ci.yml": 7,
+      ".github/workflows/docs.yml": 8,
+      ".github/workflows/test.yml": 9,
+      ".gitignore": 10,
+      ".pyup.yml": 11,
+      ".readthedocs.yml": 12,
+      ".travis.yml": 13,
+      ".tx/config": 14,
+      "AUTHORS.rst": 15,
+      "CODE_OF_CONDUCT.md": 16,
+      "CONTRIBUTING.rst": 17,
+      "HISTORY.rst": 18,
+      "LICENSE": 19,
+      "MANIFEST.in": 20,
+      "Makefile": 21,
+      "PATRONS.md": 22,
+      "Pipfile": 23,
+      "Pipfile.lock": 24,
+      "README.rst": 25,
+      "SECURITY.md": 26,
+      "docs/.gitignore": 27,
+      "docs/.tx/config": 28,
+      "docs/Makefile": 29,
+      "docs/adv_topics.rst": 30,
+      "docs/aiohttp.rst": 31,
+      "docs/conf.py": 32,
+      "docs/explanation/async.rst": 33,
+      "docs/explanation/engine.rst": 34,
+      "docs/explanation/sa20.rst": 35,
+      "docs/explanation/why.rst": 36,
+      "docs/how-to/alembic.rst": 37,
+      "docs/how-to/bakery.rst": 38,
+      "docs/how-to/faq.rst": 39,
+      "docs/how-to/json-props.rst": 40,
+      "docs/how-to/loaders.rst": 41,
+      "docs/how-to/pool.rst": 42,
+      "docs/how-to/schema.rst": 43,
+      "docs/how-to/transaction.rst": 44,
+      "docs/images/263px-Minimum-Tonne.svg.png": 45,
+      "docs/images/connection.png": 46,
+      "docs/images/engine.png": 47,
+      "docs/images/gino-fastapi-layout.svg": 48,
+      "docs/images/gino-fastapi.svg": 49,
+      "docs/images/pycharm.svg": 50,
+      "docs/images/why_coroutine.png": 51,
+      "docs/images/why_multicore.png": 52,
+      "docs/images/why_multithreading.png": 53,
+      "docs/images/why_single_task.png": 54,
+      "docs/images/why_throughput.png": 55,
+      "docs/index.rst": 56,
+      "docs/installation.rst": 57,
+      "docs/json.rst": 58,
+      "docs/locale/zh/LC_MESSAGES/tutorials/tutorial.po": 59,
+      "docs/locales/zh/LC_MESSAGES/index.po": 60,
+      "docs/quart.rst": 61,
+      "docs/readme.rst": 62,
+      "docs/reference/extensions/sanic.rst": 63,
+      "docs/reference/extensions/starlette.rst": 64,
+      "docs/requirements.txt": 65,
+      "docs/theme/layout.html": 66,
+      "docs/theme/static/css/gino.css": 67,
+      "docs/theme/static/favicon.ico": 68,
+      "docs/theme/static/images/OK.png": 69,
+      "docs/theme/static/images/aha.png": 70,
+      "docs/theme/static/images/box-bg-dec-2.svg": 71,
+      "docs/theme/static/images/box-bg-dec-3.svg": 72,
+      "docs/theme/static/images/box-bg-dec.svg": 73,
+      "docs/theme/static/images/fighting.png": 74,
+      "docs/theme/static/images/hmm.png": 75,
+      "docs/theme/static/js/gino.js": 76,
+      "docs/theme/static/logo-name.png": 77,
+      "docs/theme/static/logo.png": 78,
+      "docs/theme/static/logo.svg": 79,
+      "docs/tutorials/fastapi.rst": 80,
+      "docs/tutorials/tutorial.rst": 81,
+      "environment.yml": 82,
+      "examples/2_file_example/app.py": 83,
+      "examples/2_file_example/database.py": 84,
+      "examples/basic.py": 85,
+      "examples/bind.py": 86,
+      "examples/delegated.py": 87,
+      "examples/execution_options.py": 88,
+      "examples/json_property.py": 89,
+      "examples/sanic/sanic_basic.py": 90,
+      "gino/asyncpg_delegate.py": 91,
+      "gino/connection.py": 92,
+      "gino/ext/aiohttp.py": 93,
+      "gino/ext/quart.py": 94,
+      "gino/ext/sanic.py": 95,
+      "gino/ext/starlette.py": 96,
+      "gino/ext/tornado.py": 97,
+      "gino/gino.py": 98,
+      "gino/jsonb.py": 99,
+      "gino/local.py": 100,
+      "gino/pool.py": 101,
+      "gino/record.pyx": 102,
+      "mysql_tests/conftest.py": 103,
+      "mysql_tests/models.py": 104,
+      "mysql_tests/test_bakery.py": 105,
+      "mysql_tests/test_bind.py": 106,
+      "mysql_tests/test_core.py": 107,
+      "mysql_tests/test_crud.py": 108,
+      "mysql_tests/test_declarative.py": 109,
+      "mysql_tests/test_engine.py": 110,
+      "mysql_tests/test_executemany.py": 111,
+      "mysql_tests/test_execution_options.py": 112,
+      "mysql_tests/test_iterate.py": 113,
+      "mysql_tests/test_json.py": 114,
+      "mysql_tests/test_loader.py": 115,
+      "mysql_tests/test_prepared_stmt.py": 116,
+      "mysql_tests/test_schema.py": 117,
+      "mysql_tests/test_statement.py": 118,
+      "mysql_tests/test_transaction.py": 119,
+      "poetry.lock": 120,
+      "pyproject.toml": 121,
+      "pytest.ini": 122,
+      "readthedocs.yml": 123,
+      "requirements.txt": 124,
+      "requirements_dev.txt": 125,
+      "setup.cfg": 126,
+      "setup.py": 127,
+      "src/gino/__init__.py": 128,
+      "src/gino/api.py": 129,
+      "src/gino/crud.py": 130,
+      "src/gino/declarative.py": 131,
+      "src/gino/dialects/__init__.py": 132,
+      "src/gino/dialects/aiomysql.py": 133,
+      "src/gino/dialects/asyncpg.py": 134,
+      "src/gino/dialects/base.py": 135,
+      "src/gino/engine.py": 136,
+      "src/gino/exceptions.py": 137,
+      "src/gino/ext/__init__.py": 138,
+      "src/gino/ext/__main__.py": 139,
+      "src/gino/json_support.py": 140,
+      "src/gino/loader.py": 141,
+      "src/gino/schema.py": 142,
+      "src/gino/strategies.py": 143,
+      "src/gino/transaction.py": 144,
+      "tests/conftest.py": 145,
+      "tests/models.py": 146,
+      "tests/stub1.py": 147,
+      "tests/stub2.py": 148,
+      "tests/test_aiohttp.py": 149,
+      "tests/test_bakery.py": 150,
+      "tests/test_bind.py": 151,
+      "tests/test_core.py": 152,
+      "tests/test_crud.py": 153,
+      "tests/test_declarative.py": 154,
+      "tests/test_dialect.py": 155,
+      "tests/test_engine.py": 156,
+      "tests/test_executemany.py": 157,
+      "tests/test_execution_options.py": 158,
+      "tests/test_ext.py": 159,
+      "tests/test_gino.py": 160,
+      "tests/test_iterate.py": 161,
+      "tests/test_json.py": 162,
+      "tests/test_loader.py": 163,
+      "tests/test_local.py": 164,
+      "tests/test_pool.py": 165,
+      "tests/test_prepared_stmt.py": 166,
+      "tests/test_quart.py": 167,
+      "tests/test_sanic.py": 168,
+      "tests/test_schema.py": 169,
+      "tests/test_starlette.py": 170,
+      "tests/test_statement.py": 171,
+      "tests/test_tornado.py": 172,
+      "tests/test_transaction.py": 173,
+      "tox.ini": 174
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1500606626,
+      "last_commit_ts": 1644697675,
+      "n_cochange_pairs": 215,
+      "n_commits_dropped_as_bulk": 41,
+      "n_commits_used": 820,
+      "n_files": 175
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "6218b902cc8a31198f1a0b42d67e689140b68c8b",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
