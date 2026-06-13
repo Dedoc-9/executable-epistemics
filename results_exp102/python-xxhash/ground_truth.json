@@ -1,0 +1,2970 @@
+{
+  "chain_hash": "4eda5f8213013907",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".appveyor.py||.appveyor.yml": 2,
+      ".appveyor.yml||.travis.yml": 7,
+      ".github/workflows/build.yml||.github/workflows/test.yml": 8,
+      ".github/workflows/test.yml||setup.py": 5,
+      ".travis.yml||setup.py": 4,
+      "CHANGELOG.rst||README.rst": 3,
+      "CHANGELOG.rst||xxhash/__init__.py": 7,
+      "CHANGELOG.rst||xxhash/version.py": 3,
+      "LICENSE||README.rst": 2,
+      "README.rst||setup.py": 3,
+      "README.rst||src/_xxhash.c": 3,
+      "README.rst||xxhash/__init__.py": 6,
+      "deps/xxhash||setup.py": 6,
+      "deps/xxhash||src/_xxhash.c": 2,
+      "setup.py||src/_xxhash.c": 7,
+      "setup.py||xxhash/__init__.py": 3,
+      "src/_xxhash.c||tests/test.py": 3,
+      "src/_xxhash.c||tests/test_fastcall.py": 2,
+      "src/_xxhash.c||xxhash/version.py": 2,
+      "tests/test.py||xxhash/cffi.py": 4,
+      "tests/test_xxh3_128.py||tests/test_xxh3_64.py": 2
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitmodules",
+          "deps/xxhash"
+        ],
+        "sha": "b5dbd398a8c9017160461ca33cecbfcfea37b0e6",
+        "timestamp": 1406728272
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4009593cd9352a7a5d7622ea8df16c6b53a1ee68",
+        "timestamp": 1406734800
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "be4f564d8ce0d09aa4078d8d0d853184d195f35d",
+        "timestamp": 1406734999
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "61f15fe9c8d276f69bec31a3a0ffe61a6c00f077",
+        "timestamp": 1406735452
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "7bbf5e73d44f806ad6951e753e2bb9bf4a85fb04",
+        "timestamp": 1407074753
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "9f836f4a34bc48467ae2be1fc7de792b5160a195",
+        "timestamp": 1407075792
+      },
+      {
+        "files": [
+          "setup.py",
+          "tests/test.py"
+        ],
+        "sha": "8186eac26a70993fec260d7cd837f33095fc3429",
+        "timestamp": 1407076725
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8c94dc4d2e370790713b224da40d17756e2e6ce5",
+        "timestamp": 1407076769
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d6445ab465f204ce784a4906c544b1b47a70193c",
+        "timestamp": 1407076891
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst"
+        ],
+        "sha": "3216091da13dae6ac9c2ade863b737a50806aa2c",
+        "timestamp": 1407077138
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5be660f14ee5a29b51d7d9f12fc4fff9e5a1c4b8",
+        "timestamp": 1407077380
+      },
+      {
+        "files": [
+          "tests/test.py"
+        ],
+        "sha": "9890adf4e7d9bea81c0931720ae2150fb902db12",
+        "timestamp": 1407078063
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f8e590516d11c4fbf8a2af651b61e9507022ff52",
+        "timestamp": 1407113233
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "890c92b9a5e818772bbb80cba732f23dbccbc790",
+        "timestamp": 1407127841
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8c23af1457d879dd7296fd01cb2c7253fea97201",
+        "timestamp": 1407128743
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "16ba8fded42d89d31b346c0317a0a9aa95104e2f",
+        "timestamp": 1407130191
+      },
+      {
+        "files": [
+          "src/_xxhash.c",
+          "tests/test.py"
+        ],
+        "sha": "8eecb23caf4905d7e6c6dc7cf401aa4c0e4d1a3a",
+        "timestamp": 1407201823
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "b970e19c762e6c097b1a27b103161025ab4cc2cf",
+        "timestamp": 1407209404
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "463b2bda7893f28d3ce5cc817c9dab656f2f499b",
+        "timestamp": 1407209543
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "0128bb206820ef8cc540cfb3a781133234c80a3d",
+        "timestamp": 1407254056
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "de274ffe44eb23ab1faeab9aaae8ed687ef5ffe4",
+        "timestamp": 1407255403
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/_xxhash.c"
+        ],
+        "sha": "332c1beb4d8e546d4ae42a5c03402b1ed57b6095",
+        "timestamp": 1407286930
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "0f3b941e142c1569b13da9b0a945a35226dbc6be",
+        "timestamp": 1407350076
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "b29e628048cc35c633c3b783ac6cd57369262235",
+        "timestamp": 1407352303
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "52709e8c6c16af8b189b2215890c1d5d3152e5af",
+        "timestamp": 1407421731
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4dad6f08d5fd9c7b7a0cbaaf2728326b0266cdea",
+        "timestamp": 1407425359
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fcfe84acc2dbfd82e59c14cf53e95c812d75579f",
+        "timestamp": 1407425885
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "1228824fa60802949c0eff88d6577ce8aadbccbc",
+        "timestamp": 1407426353
+      },
+      {
+        "files": [
+          "deps/xxhash"
+        ],
+        "sha": "118d6aa779380804a3a4b4ff4981d4be443daeca",
+        "timestamp": 1413647757
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/_xxhash.c"
+        ],
+        "sha": "b4ab6fe7d274346ba39788738fdd30df3ea09c80",
+        "timestamp": 1413647905
+      },
+      {
+        "files": [
+          "deps/xxhash",
+          "setup.py",
+          "src/_xxhash.c"
+        ],
+        "sha": "a7874756454eb08c7ac419513fe168a1775bcf4f",
+        "timestamp": 1414072083
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5a5dd03bed4d5ed8af3f1b7dc22e635f564f0a1b",
+        "timestamp": 1414249879
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6b5d497b7a4d07237ba30fbdeb4e83e1b958331b",
+        "timestamp": 1414250711
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "fe0af7cacd70b4a7f32257e82e8a5bb4dbe5fbf4",
+        "timestamp": 1414508170
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/_xxhash.c"
+        ],
+        "sha": "ce942dd16d76084e0c32e3a79e808e1620f518dc",
+        "timestamp": 1415683502
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "950ddcca7ddcfc5f59bfbb7a7f597f6d689aa2d4",
+        "timestamp": 1415685039
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "3a57e8cb96aeb0f555fe827271040a9ddb386ed5",
+        "timestamp": 1415685217
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6ce1e611c65f47c6673e8ad040ba6d372619e9af",
+        "timestamp": 1415686010
+      },
+      {
+        "files": [
+          "deps/xxhash",
+          "setup.py"
+        ],
+        "sha": "7f73c7b7cc557783b3004aae5e43b1f2899a1d19",
+        "timestamp": 1422071351
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/_xxhash.c"
+        ],
+        "sha": "753fcc07bda0b405e880dbe3c90c213512316d8e",
+        "timestamp": 1422329558
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "09fff4f974b595c39600c0c62fb83840a541b372",
+        "timestamp": 1424410487
+      },
+      {
+        "files": [
+          "src/_xxhash.c",
+          "tests/test.py"
+        ],
+        "sha": "df6f2bffeca7e30e50df951be95d6e0ff19c8919",
+        "timestamp": 1438744546
+      },
+      {
+        "files": [
+          "deps/xxhash",
+          "setup.py"
+        ],
+        "sha": "ceac47a1e527a4f1a7e7addcef7a311c8a9131ca",
+        "timestamp": 1438744811
+      },
+      {
+        "files": [
+          "deps/xxhash",
+          "setup.py"
+        ],
+        "sha": "a6e8712f0f3f237a832262da7bc7e7ee9998d217",
+        "timestamp": 1439740263
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "26caa4fe7d7e77ad630a9cd9ea4215064ee723bc",
+        "timestamp": 1439859977
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "25635fe4aea6c9271f7a91ec386f78a38cc99990",
+        "timestamp": 1439879165
+      },
+      {
+        "files": [
+          "deps/xxhash",
+          "setup.py"
+        ],
+        "sha": "5fe9a0452302e2ec20804ef378a3209c478d29ff",
+        "timestamp": 1440166957
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "d6f11e694002500f8a41b178b18245ef8b8bf6db",
+        "timestamp": 1442771311
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "bfa5ee386695ad5b04109b835d1b036020cdbd29",
+        "timestamp": 1444197988
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0b0a39b0b53a0d3ae49631e89e6e86c0a42427c0",
+        "timestamp": 1445414704
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "69be09ab84a65d9c71ad14f929650ddcd1efed1a",
+        "timestamp": 1445434267
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ecfd36377f7dd4b14a9e3873872e783a27848943",
+        "timestamp": 1452312310
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "11d50652f9d3bd03d61369d3531cf5067b261398",
+        "timestamp": 1452526575
+      },
+      {
+        "files": [
+          "LICENSE"
+        ],
+        "sha": "1f01b08a113e5fcc600c2ff12e5fd6efa24c9da2",
+        "timestamp": 1452526870
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5cbce4dc13cfeaf908f90c4e79e8e4df2d6373b4",
+        "timestamp": 1453548901
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8a5d6769a4a098f937e4b90c2bcfef3d1ad4a74d",
+        "timestamp": 1457010289
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6cf4dcd8be827ecfeae43fe504d4512524f45a52",
+        "timestamp": 1462303515
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "dc1fe3c8417f0fb0dc258b95af9152ef088f9bb4",
+        "timestamp": 1462303609
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c2d936b142e950a49919ac4408d935ed7979e76e",
+        "timestamp": 1462335211
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "a7d7b34fb3311ea3891ffbcc2f1b0b71905b0b4e",
+        "timestamp": 1466399038
+      },
+      {
+        "files": [
+          "deps/xxhash",
+          "setup.py",
+          "src/_xxhash.c"
+        ],
+        "sha": "874721df77f979edcb26f9bdc752ec98a850d0cb",
+        "timestamp": 1466780056
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "44db7e5e89e75610a4114caba0ecdddd28281a48",
+        "timestamp": 1466780282
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4326902262c1f26078501012842e5ab7198235b5",
+        "timestamp": 1466934199
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "b644db399e51db47d7f5faa5498832a3603439a4",
+        "timestamp": 1484309239
+      },
+      {
+        "files": [
+          "deps/xxhash"
+        ],
+        "sha": "388978f0be8f3830289975b372282c6276d9444d",
+        "timestamp": 1484576271
+      },
+      {
+        "files": [
+          "tests/test.py",
+          "xxhash/cffi.py"
+        ],
+        "sha": "d2453086cb78804a0a92eb6c8e23cdf211d60eee",
+        "timestamp": 1486297086
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "1da4242d11dbcef3b903a32688577dfb49e9f4ec",
+        "timestamp": 1486297373
+      },
+      {
+        "files": [
+          "setup.py",
+          "xxhash/cffi.py"
+        ],
+        "sha": "a1e38070293fcc0669adad733120d7d05a5ccb7b",
+        "timestamp": 1486298749
+      },
+      {
+        "files": [
+          "xxhash/cffi.py"
+        ],
+        "sha": "fec9a6428c02f0dfc7c6500052acf1c9c8db2004",
+        "timestamp": 1486299090
+      },
+      {
+        "files": [
+          "xxhash/cffi.py"
+        ],
+        "sha": "b03051d1768617e3f38c4d49a4f617a8d99622fe",
+        "timestamp": 1486299568
+      },
+      {
+        "files": [
+          "xxhash/cffi.py"
+        ],
+        "sha": "1615efcf6b1f342cf1cd7a97c9258a90df0ce090",
+        "timestamp": 1486301457
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2364f2bacbdcb6bae6e1ead3ea6c4ad8321dccb0",
+        "timestamp": 1486301970
+      },
+      {
+        "files": [
+          "xxhash/cffi.py"
+        ],
+        "sha": "86156df37a9ac25ddc9d82c92e869b83fa451179",
+        "timestamp": 1486660006
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e4e2381df9cb9047ed507f9861a5059b7801af0e",
+        "timestamp": 1486706133
+      },
+      {
+        "files": [
+          "tests/test.py"
+        ],
+        "sha": "ab997eac1d0572b277e1ecb6f18e8cefa813067f",
+        "timestamp": 1486706663
+      },
+      {
+        "files": [
+          "xxhash/__init__.py"
+        ],
+        "sha": "c0f7186d082fcfbfce71ea8fdc5a19035694d152",
+        "timestamp": 1486707519
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "d94674013627efe84c9c32c7ec1830018d100ec4",
+        "timestamp": 1486709088
+      },
+      {
+        "files": [
+          "tests/test.py"
+        ],
+        "sha": "03430e8910a0f3a8325d197e80ca1f50fcf49d07",
+        "timestamp": 1486709120
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "xxhash/__init__.py"
+        ],
+        "sha": "41bb59c36a5dcda1e35cc873964dc835f9aa76de",
+        "timestamp": 1486712452
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "26afcc13f0b8c62806f029f0d7e48e119823fcb1",
+        "timestamp": 1486713165
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b911d13d4079a9c3a1117e168fc2cdd331d9fe15",
+        "timestamp": 1486721020
+      },
+      {
+        "files": [
+          "tests/test.py",
+          "xxhash/cffi.py"
+        ],
+        "sha": "95d917a0a9d3fa626aef108184b83de9d438bd03",
+        "timestamp": 1486728487
+      },
+      {
+        "files": [
+          "tests/test.py"
+        ],
+        "sha": "93c1d724bf61aeb6b5696a9fac357edf01a668bb",
+        "timestamp": 1486834016
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "39c97b9c1bc148e15fb2ae5ea21196108a6a7997",
+        "timestamp": 1487141277
+      },
+      {
+        "files": [
+          "xxhash/cffi.py"
+        ],
+        "sha": "75a3fec4345473b14909d8bc8fee65ea17916d42",
+        "timestamp": 1488333948
+      },
+      {
+        "files": [
+          "README.rst",
+          "tests/test.py"
+        ],
+        "sha": "0cc0260ec964a70cedd9d00f73b30ca1d66bf561",
+        "timestamp": 1488430373
+      },
+      {
+        "files": [
+          "tests/test.py"
+        ],
+        "sha": "3750dc80b95d441c2b00f0cca2aed6962987bc2c",
+        "timestamp": 1488430963
+      },
+      {
+        "files": [
+          "README.rst",
+          "xxhash/__init__.py"
+        ],
+        "sha": "28e0d83f11995d709e4837d2f3434256ff84281f",
+        "timestamp": 1488431418
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          "sizes.c"
+        ],
+        "sha": "447c5def42e570fb7bfa33541bd2891d4752d308",
+        "timestamp": 1488431771
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "32f67ce17574b888e41d7cbc07cec4ac89882fe5",
+        "timestamp": 1488431958
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "2dc61b740c97e4e1f017f9a4279de2237c47daa7",
+        "timestamp": 1488432026
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "4df0d34e894ce5d6ced1cde7e129087c547d43c7",
+        "timestamp": 1488434050
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f7907f9ac3efd06fc2269f2e04ca1b4f3fcdde9e",
+        "timestamp": 1489038516
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "0132c4ef9818e0072b6633cadcbd4478444cac42",
+        "timestamp": 1490533099
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a925e1c2f70ef7b76c362f290b43e2a9b799938c",
+        "timestamp": 1494118429
+      },
+      {
+        "files": [
+          ".appveyor.py",
+          ".appveyor.yml"
+        ],
+        "sha": "7c4fad4af22a6c10c40da2c1ad88b54b218643e4",
+        "timestamp": 1494118555
+      },
+      {
+        "files": [
+          "src/_xxhash.c",
+          "tests/test.py"
+        ],
+        "sha": "68f89c66ed1a665df6656f98e98ac88713de9790",
+        "timestamp": 1495726410
+      },
+      {
+        "files": [
+          "tests/test.py",
+          "xxhash/cffi.py"
+        ],
+        "sha": "4636ab5353e874b9569bf6b3f9c77cf6ac4fb8d8",
+        "timestamp": 1495728082
+      },
+      {
+        "files": [
+          "tests/test.py",
+          "xxhash/cffi.py"
+        ],
+        "sha": "2a4fc5b9cfe7154a30f07e2a11bda28ed02c14ae",
+        "timestamp": 1495728224
+      },
+      {
+        "files": [
+          "xxhash/cffi.py"
+        ],
+        "sha": "99e912ff3e629ee03fabf0b32fbea2f4dfabe098",
+        "timestamp": 1495728357
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "7926c3f577f652210f3fc5c1e27c35496dfa7ddf",
+        "timestamp": 1495730398
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "71ad8af243d261a5d58102bb9c7f26c68c1dfa58",
+        "timestamp": 1495764933
+      },
+      {
+        "files": [
+          ".appveyor.py",
+          ".appveyor.yml"
+        ],
+        "sha": "829f6f725d3ae031b44f5d7af355edb8a7adf1c6",
+        "timestamp": 1505014546
+      },
+      {
+        "files": [
+          "deps/xxhash"
+        ],
+        "sha": "d68d0729e55f42538b40f6758350f765248de3ac",
+        "timestamp": 1505028717
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "c6ed4a69a167b525687928f0138922dd3d13bcd3",
+        "timestamp": 1505040292
+      },
+      {
+        "files": [
+          "deps/xxhash"
+        ],
+        "sha": "03ebedea7827babe1f6f19ef975afd8897c333bf",
+        "timestamp": 1524091509
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ca8a065f8a63184b4eafc6349decf5e7e2bd01e9",
+        "timestamp": 1528878908
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d14f35eb38b3fae45fdaa591bcd50c47b2ce479b",
+        "timestamp": 1530294000
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "0ff80b75da4ee1bf9f4b4f8464d75a8c7570cb01",
+        "timestamp": 1530458904
+      },
+      {
+        "files": [
+          "LICENSE",
+          "README.rst"
+        ],
+        "sha": "50792ab3552943e6b1a3b2950df37ffde518857c",
+        "timestamp": 1530458934
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8136c9829efcd7f8c65cf3ceb76c02f813fc02fc",
+        "timestamp": 1530773487
+      },
+      {
+        "files": [
+          "xxhash/cffi.py"
+        ],
+        "sha": "6885afb62d151c8add7b7b4b96932beddd9e9796",
+        "timestamp": 1530775946
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "654e8d60ec7ead7760e5f4abfb06d77e14ba4ee9",
+        "timestamp": 1530778251
+      },
+      {
+        "files": [
+          "xxhash/__init__.py"
+        ],
+        "sha": "0fb1ca11ef72b7e9be0d46137498f42219fb430c",
+        "timestamp": 1530778721
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6e1da2727ca4ca4033af0c531b4a4088e156f6cd",
+        "timestamp": 1530778856
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "26e5ccbd404f06fcca4ba9636ff34403c04a9487",
+        "timestamp": 1531218177
+      },
+      {
+        "files": [
+          "xxhash/__init__.py"
+        ],
+        "sha": "a72b0bbac9a0409c71a6b9f214964d7d4b0eaf03",
+        "timestamp": 1531294137
+      },
+      {
+        "files": [
+          "README.rst",
+          "xxhash/__init__.py"
+        ],
+        "sha": "0fdf8a67031f0b0f4efd8a3a0122d0a7f3eae7ac",
+        "timestamp": 1531468583
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9aeb146fa91b59d399e956c1269cafbc4bd1eb94",
+        "timestamp": 1531631480
+      },
+      {
+        "files": [
+          "setup.py",
+          "tests/__init__.py"
+        ],
+        "sha": "b6985f52472f9f0d8451dec1be2079fec7f4e7ea",
+        "timestamp": 1531632109
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "d7a17ca071b31132d0264342582e1c8ada37a109",
+        "timestamp": 1531795417
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8b4a43d1a06df4219d5a9f96be0973bb4b7c7261",
+        "timestamp": 1531797673
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "3e95cc4d4146dc33213bc228af8f13ab9bea3ab9",
+        "timestamp": 1531800265
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "2eeb9b571966aad9636a32bb19fb66e1d302826b",
+        "timestamp": 1531800851
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9c481aafaf53a6a102845dcec9fa139d18815188",
+        "timestamp": 1532270269
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "e3cffb76c08b3af00109d8d82d20132f4d1fcde9",
+        "timestamp": 1532619099
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f755a5ef8ae84453c14930b8266cd14fa4e20543",
+        "timestamp": 1532620485
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "f2a16d2c77701a8f4672ab9fc344b0cc8f78b5e5",
+        "timestamp": 1532848627
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "949ff073da9365144f5e8247b27dc37b18a124ae",
+        "timestamp": 1533221457
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "76cc28fe977791a2f06e1288e49c6281e71b20df",
+        "timestamp": 1533563790
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "1d84ff93c44340a399dae167b1e3349a4975c10f",
+        "timestamp": 1536932050
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "638bbfd5d787e5a2d2a403671c8cfbbdeb530cd9",
+        "timestamp": 1536932568
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "d4ed9115fd79d884d0e47aef66970901e7432e53",
+        "timestamp": 1538651023
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "9a138e41b2569d09ed3a99ce239214fd4bb2a431",
+        "timestamp": 1540110796
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "753d8e14d1b2e06fb3ab5f750f78adc068d7c535",
+        "timestamp": 1540128952
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "662d9fcd630ba2832cecf8c6244d3fda05fcbf9b",
+        "timestamp": 1540131103
+      },
+      {
+        "files": [
+          "README.rst",
+          "xxhash/__init__.py"
+        ],
+        "sha": "1c170cf6186498a1f161880aab063589b609f534",
+        "timestamp": 1540137560
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "8d55c33595e97548cdd00d639643ecff77c1c07d",
+        "timestamp": 1540138075
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          ".travis.yml"
+        ],
+        "sha": "95e284c147105b44239c20764a4a8f530deb49dd",
+        "timestamp": 1540139760
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "4a5554e49f0da094afe1ef903ca7713f7344925a",
+        "timestamp": 1540140828
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          ".travis.yml"
+        ],
+        "sha": "7ba14228f8b6aa412e7c473cbf0271b8fd6d114b",
+        "timestamp": 1540190854
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2ebafeb68a290507028754bc945861102f1107c7",
+        "timestamp": 1540191041
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          ".travis.yml"
+        ],
+        "sha": "67a7689c842cf43d2bdd6df1a9e41e0bfa2eaa81",
+        "timestamp": 1540262405
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f6c978e3235ae8c7df27ea2220089583e70fd0ed",
+        "timestamp": 1544072355
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "5ef21184a94c97d351eca4217ba34443371b5391",
+        "timestamp": 1544072389
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "30239659e5a10219191d87b3e135145ef453617a",
+        "timestamp": 1544596774
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2bf46a2eccfe2801f1ba9ed6d1f6ee974ffa7195",
+        "timestamp": 1544596817
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b3d2bd5904c3d93b623a1967715ef1bc040c1652",
+        "timestamp": 1544598516
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "dc05c556b19a97d698629d89f0fa815cfddc0911",
+        "timestamp": 1544687161
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "6b7ae49f0e7ea00b777aa251d1cc0593cca9543b",
+        "timestamp": 1546625277
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "45b7ffa5006302549e9628b57bb422e80afa8b06",
+        "timestamp": 1546625439
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "dae7c7eac33e079ec94414589099313a49bc6dc7",
+        "timestamp": 1551027835
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d0a5dba4d07bfc08723773898e3dbd0ba3276c13",
+        "timestamp": 1551871710
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "fb79761e224967d7e868e8eeb9dcc6186695ca75",
+        "timestamp": 1552020582
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "1365d7ba786cc3e3108031e5cb0d42488fa71184",
+        "timestamp": 1552021823
+      },
+      {
+        "files": [
+          "LICENSE",
+          "README.rst",
+          "src/_xxhash.c"
+        ],
+        "sha": "913683c60fd3679fbf67b2755e9e3747dcb1bd78",
+        "timestamp": 1552026283
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "81aeb59f2b0ad86e73196d33419cc5a00897c4e9",
+        "timestamp": 1552273570
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/_xxhash.c",
+          "xxhash/__init__.py"
+        ],
+        "sha": "c5de7c8126481695c40d26f8edcfdd1ba9b96bbf",
+        "timestamp": 1553142843
+      },
+      {
+        "files": [
+          "bench.sh"
+        ],
+        "sha": "90a2f96bb1ed253d6b4d020155a56bb8521a441f",
+        "timestamp": 1566709174
+      },
+      {
+        "files": [
+          "deps/xxhash"
+        ],
+        "sha": "6f1b7538c4a161e7de566ace8fae99a85fc352c4",
+        "timestamp": 1566709369
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "d02ef5e272cea5237ed07e1a38b0144b9729c3b1",
+        "timestamp": 1566709515
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "3ff8cdd8144d8057c3c57c01c25bd2b7a9e03b19",
+        "timestamp": 1566709604
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "aeeceb11d2f99e9c221320bd31be8167f11c8d8d",
+        "timestamp": 1566710551
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "xxhash/__init__.py"
+        ],
+        "sha": "2ce10937a73ac0536cd6fb451e9f014de8e1a7ab",
+        "timestamp": 1566711153
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "e0c26b2b24d3de09e0d3196c08e56c6445d61c65",
+        "timestamp": 1566798615
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "xxhash/__init__.py"
+        ],
+        "sha": "0ed9fb8e9c44639bab7ff62b79c463b0159560f9",
+        "timestamp": 1566882047
+      },
+      {
+        "files": [
+          "bench.sh"
+        ],
+        "sha": "64630ad8829d7998b45341d1f9dd7a7db7bb220a",
+        "timestamp": 1566925049
+      },
+      {
+        "files": [
+          "setup.py",
+          "xxhash/__init__.py"
+        ],
+        "sha": "fa2bc598b19c1b088b38cbf18c45fc7d6e6b9fd7",
+        "timestamp": 1570728624
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "172eae47e691461bdaa34ec62bd6c12923b2e206",
+        "timestamp": 1570951326
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "536d100a47341c962319e207bfe100f65d8f79fc",
+        "timestamp": 1571493933
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "7e3777d44d25f19d21c1959c94d158848d3f918d",
+        "timestamp": 1572272297
+      },
+      {
+        "files": [
+          "deps/xxhash"
+        ],
+        "sha": "dbc78b8df531c9196c6cf4463818812d086d7350",
+        "timestamp": 1573089117
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          ".travis.yml"
+        ],
+        "sha": "ae5794ad4538fb9b6c3d8d6d7c727b0e7314f8e5",
+        "timestamp": 1573096145
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "22805dabd0e20e4f3a2fd4b0b0dcae75b9c263f0",
+        "timestamp": 1573532820
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "d957645c2da34d8a9d2096607621970a308807ca",
+        "timestamp": 1573533286
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          ".travis.yml"
+        ],
+        "sha": "eb6ae851fe62454c6d0d7b7e60e51cc40755d323",
+        "timestamp": 1573538879
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "fd608c5cd43093d196d8a9ff88474e412d1e1744",
+        "timestamp": 1574600800
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "3cad9ad39a20d90b268b5c1c1427890c6e76f81c",
+        "timestamp": 1592358645
+      },
+      {
+        "files": [
+          "deps/xxhash"
+        ],
+        "sha": "d96871df8f449cdb16a9324c3a11f52fe0d949ab",
+        "timestamp": 1592382284
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "4cc79511a19850df90da2489a9592c886b9458df",
+        "timestamp": 1592383517
+      },
+      {
+        "files": [
+          "xxhash/__init__.py"
+        ],
+        "sha": "63a712cdd697f7eb60815dbb060959f18ae86f9e",
+        "timestamp": 1592387485
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "adb2d31510d7d69cc16d07cef0eb0577c2a19847",
+        "timestamp": 1592466649
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "a98930687e25bd9157d964a9acebf181bfb76c13",
+        "timestamp": 1592466736
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ee014643589a1a3be2351ae851aa02ac462f0669",
+        "timestamp": 1592466857
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/_xxhash.c"
+        ],
+        "sha": "b42a46a2872c47f0a984635ea1316b9087cd6694",
+        "timestamp": 1592466872
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "979c9dca3b5cfeaf84002e6ff00fd380988e705a",
+        "timestamp": 1592638499
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "dda67113a5428e672cce98040d44de254826050c",
+        "timestamp": 1592639080
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "76754136c5e2f6aeedce9eca82036d2e5cdc2943",
+        "timestamp": 1592640879
+      },
+      {
+        "files": [
+          "xxhash/__init__.py"
+        ],
+        "sha": "b17e7dd86355ac7118f33f352b2149b4ef7b641e",
+        "timestamp": 1592641494
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "xxhash/__init__.py"
+        ],
+        "sha": "922ca97f1766fb2944cf9477dee10177b07a8691",
+        "timestamp": 1592659852
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "3a5b0da381ed96dd3570f68bf4c19cc2562464e3",
+        "timestamp": 1592725274
+      },
+      {
+        "files": [
+          "tests/test_xxh3_128.py",
+          "tests/test_xxh3_64.py"
+        ],
+        "sha": "68927f638ce1f05d4726cc24805f1f1b55dd1cf3",
+        "timestamp": 1592727515
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "131f5ad41fdfad0d9e22f40174e009a3a8462993",
+        "timestamp": 1592728589
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "83582cb00199d49436f8abe5b90b38838ec8235f",
+        "timestamp": 1592729743
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "80574f581c5d9232506eabe6c36d636e13b3aaa5",
+        "timestamp": 1592731226
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "b75d73a58cf640334661b2fdd277cefbb82cd50c",
+        "timestamp": 1592749237
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "4b91e1199403ce5b6ab191a346678309cda4f5f5",
+        "timestamp": 1592749796
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "630b06a92e0889fb3d07a9a17ee6de536a93382a",
+        "timestamp": 1592834053
+      },
+      {
+        "files": [
+          "deps/xxhash",
+          "tests/test_xxh3_128.py",
+          "tests/test_xxh3_64.py"
+        ],
+        "sha": "ea3b6f4aacef110951d7bfb858b7bcd55bbabb9f",
+        "timestamp": 1593961759
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "deaed3631e5097777c62f2897d80227b540e5205",
+        "timestamp": 1594817987
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8ffe3a879836f17721e7ff4064a0bedd207566c5",
+        "timestamp": 1594873866
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "9416b7730ae6e53936de389f0ad5cd46aa33089f",
+        "timestamp": 1595917208
+      },
+      {
+        "files": [
+          "deps/xxhash"
+        ],
+        "sha": "b6da1042865bcb5060efc8cf767bbbcacf103ef0",
+        "timestamp": 1596094211
+      },
+      {
+        "files": [
+          "README.rst",
+          "xxhash/__init__.py"
+        ],
+        "sha": "eb04bbe6f81c9a47d485c45c74ff520c0fc6c4ab",
+        "timestamp": 1596288112
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "9570e0a2bd55b585d196b6f0f6f9ae729e12f61b",
+        "timestamp": 1596288811
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "eca72f2c4c9d5b2776e6a9625848a2f9543135d1",
+        "timestamp": 1596289884
+      },
+      {
+        "files": [
+          "xxhash/__init__.py"
+        ],
+        "sha": "1ffa616ea2d8076bb8668da4d41d9df2eb2d865b",
+        "timestamp": 1596294984
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "167ef4274ac9f9700fc798ed21a9a91bc5e9acd0",
+        "timestamp": 1596342877
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "e51103f2417e72651a4de456f02c65b07a805e2a",
+        "timestamp": 1596345307
+      },
+      {
+        "files": [
+          "xxhash/__init__.py"
+        ],
+        "sha": "d1ed4ab449849e918e6ee1a3f6e6a9dafdb5fb30",
+        "timestamp": 1596371718
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "xxhash/__init__.py"
+        ],
+        "sha": "238dbd507cfc6b02b85590940ed908a383dbe963",
+        "timestamp": 1596463957
+      },
+      {
+        "files": [
+          "LICENSE"
+        ],
+        "sha": "02d204db6a386322ed889eac58c867c05184e9d9",
+        "timestamp": 1596475168
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "450809eef003232ed30f3d319629ba0ba6443f60",
+        "timestamp": 1606912602
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "01ff744290089a6fa5c280dd25c3173d5e5ffb2f",
+        "timestamp": 1607515804
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "xxhash/__init__.py"
+        ],
+        "sha": "e269e539626e3aa1a2f8447f4e090374faeb92f8",
+        "timestamp": 1618420236
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "CHANGELOG.rst",
+          "xxhash/__init__.py"
+        ],
+        "sha": "f987add4c7440c393ae11de789879e5e1dbef354",
+        "timestamp": 1618422780
+      },
+      {
+        "files": [
+          "tests/test_name.py"
+        ],
+        "sha": "5759f8772aeab097c47f1f0c6c81e7a1f9a4084a",
+        "timestamp": 1618457988
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "d97ea92dc020d9f3e916233507d661477572532a",
+        "timestamp": 1618458102
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "tests/test_algorithms_available.py",
+          "xxhash/__init__.py"
+        ],
+        "sha": "3c854667c4e8b1a0dea2e238ff03bab75628b485",
+        "timestamp": 1627572655
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/test.yml",
+          "README.rst"
+        ],
+        "sha": "fb699ee69d6f30dc5d201c4e2bb288c594688c85",
+        "timestamp": 1641216817
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          ".travis.yml"
+        ],
+        "sha": "7f097a0d5d4944e2f051656698dbc1b7477b2420",
+        "timestamp": 1641216837
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "setup.py"
+        ],
+        "sha": "e39c3a2939b950f86cb91369ccb06b0052a6958f",
+        "timestamp": 1641217512
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "ed4aad34528dfd3de78e66459b2ea472cc8b5c74",
+        "timestamp": 1641220468
+      },
+      {
+        "files": [
+          "deps/xxhash"
+        ],
+        "sha": "b74579589c746287d7e9ac6abc7bcb28f9a8312c",
+        "timestamp": 1641224488
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "b1384c87e7d81466d640f9ef0e4a94c7e83a444a",
+        "timestamp": 1641230569
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "a598a7d31b094ad84df602e82b19e0a084f07211",
+        "timestamp": 1641401137
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "91371fe0c33c39460248dd91f9c5ea24f1c589c5",
+        "timestamp": 1641905592
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "033969a54f800d1b8145a972afc58478b6e1f38a",
+        "timestamp": 1645719386
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6d985bca117733a72ca5e25bf1dbb5cba1981119",
+        "timestamp": 1658942250
+      },
+      {
+        "files": [
+          "setup.py",
+          "xxhash/__init__.pyi",
+          "xxhash/py.typed"
+        ],
+        "sha": "c2bd8164888d7647210e9eb73ad46a980678a392",
+        "timestamp": 1658529444
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c3d5d769130be4764dd5bf32a4b8791caeeaa5a6",
+        "timestamp": 1662227937
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          "pyproject.toml"
+        ],
+        "sha": "cfad3dbca797ddf0823cd6319b53dd37adcf598e",
+        "timestamp": 1665732683
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "88a3491f1f3fd927e69b64a75e3cda818da13479",
+        "timestamp": 1666157421
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/test.yml",
+          "setup.py"
+        ],
+        "sha": "ff80ee585c02a7686015ee786748b3cf768cbe9d",
+        "timestamp": 1666923444
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "setup.py"
+        ],
+        "sha": "70411dc6b0ae6a30e90439ec79fb469483ade0a2",
+        "timestamp": 1668312756
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e27b579dfdcfcad5a79110d969de8ce10f2911a5",
+        "timestamp": 1667898549
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "CHANGELOG.rst"
+        ],
+        "sha": "efdec30137b7f3ef107fa9d3818fd9a4744e259b",
+        "timestamp": 1672239725
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "setup.py"
+        ],
+        "sha": "f8086d4a8156c04b213366ce9a4e2b5f0f330dfe",
+        "timestamp": 1672242876
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "fab11b84b97c4cb7356a6dd4d1aae1f06b6bf18c",
+        "timestamp": 1683383966
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "0871891145cd0c1f80b5a0850ef95a44fc228158",
+        "timestamp": 1683384726
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "2d32bf2bc447608654cdf6047f2c11b8dbd9c9e1",
+        "timestamp": 1683384973
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "8860890de848312cb186c5d1cf677b9463a77860",
+        "timestamp": 1683389097
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "aa2c88dc00d9b47ebde4b8a18384923eaf199a38",
+        "timestamp": 1684579501
+      },
+      {
+        "files": [
+          "deps/xxhash"
+        ],
+        "sha": "48e1eef0cef699a8c691af7def90c56701f2dc42",
+        "timestamp": 1689948706
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4926ec8d691db39936ebf920ada0f4e0c829929c",
+        "timestamp": 1689951947
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "ad299942f809746f39ddeda824b217136eba4858",
+        "timestamp": 1690472719
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "19417cebc882313b2fc081fcc5fd07aa99200b5f",
+        "timestamp": 1690632175
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "a4fd2de17783fc7fe67f445e836cfb288fc7e014",
+        "timestamp": 1690633006
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "ede28e5055ce2493ad1bf5a50780844429f18c59",
+        "timestamp": 1690633339
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "setup.py",
+          "xxhash/version.py"
+        ],
+        "sha": "4d65b0ccb672859b5a44a648e2f20dd3156abbc8",
+        "timestamp": 1690904803
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "7f2d939fd8ea3a55536fa2772332c37843d89a72",
+        "timestamp": 1691763742
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "0fb2b8471dfe34e987b415d0130834b1e64fc524",
+        "timestamp": 1696309396
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "3e04ae927156baae932a98d368f7342964b611d1",
+        "timestamp": 1696325038
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "c391f1709b240939f40b75d4b4f10ceb675521fd",
+        "timestamp": 1696325061
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "d57e8f976420fe2edf4308e33a08421536d6285c",
+        "timestamp": 1696423528
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "2fe9b93ea75ff0bca4db4c9602d086b3604e3ef0",
+        "timestamp": 1696424609
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "2f7496c6dc8b39bdfc8e8a4d45b3e4b202bcd744",
+        "timestamp": 1696426950
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "79bfcece821a6adc6b765ecd5845073df7ff100c",
+        "timestamp": 1696430180
+      },
+      {
+        "files": [
+          "xxhash/version.py"
+        ],
+        "sha": "d8d0b338b79da2a41a2e18a1f5fe1f8536132db0",
+        "timestamp": 1696435973
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "c4580fd7b3d707ee89fe354d802359da81fd25bc",
+        "timestamp": 1696436111
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "02791fe23f07f719ff62a74c9ddfc6620b9ce921",
+        "timestamp": 1696465799
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "c540b9d97eac8d702b87a70e89e324219112acc4",
+        "timestamp": 1696474964
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "3826636899b47f7b1b624d98dfac60640c62b348",
+        "timestamp": 1696572362
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9f904753e2bf6ce791dd2ad1c369d63ee87588dc",
+        "timestamp": 1696573136
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "01e321e20fedffa26deb22970d0b03d31aa484f0",
+        "timestamp": 1701052665
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "965406dfdb6275293185c34d1269b54d81f2c76a",
+        "timestamp": 1704380897
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "cec88c54ba88fee93d087dcf1f43774536d4d358",
+        "timestamp": 1708964621
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "8c0e2776e42da7516bcc8bc9d357d8ec362d15fc",
+        "timestamp": 1708965023
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fa3ceda1b0684d346921a97b54a94d7d7e900de9",
+        "timestamp": 1709048531
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "b990c2860d605bb841d43e684b29fe6e3ccf0766",
+        "timestamp": 1709048639
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "ae380330684f9b1cdf85fb44d7bb9f61bbd3c63f",
+        "timestamp": 1709048713
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "16a8c719c686abc505a708ad73f8f4499e78ee9a",
+        "timestamp": 1714395834
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "3fa74ddaab65f1b5a034e3a768ccc945f7529cb8",
+        "timestamp": 1714395917
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "1d7cde8aa6bd27b0ec7c735747bbca3832ea28c1",
+        "timestamp": 1717234981
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "b94260e6899e0bef94eb8a1f1b80b0de228a8bc9",
+        "timestamp": 1717237540
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "6e0706a98f28a95b2bc65c3a40176fc95b5bcee3",
+        "timestamp": 1714395915
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "c193a25a8688dc83b13a7627cc036e7b2719b509",
+        "timestamp": 1717245626
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "a79eb391063c8f1df1817e181cd9df2535a7a9df",
+        "timestamp": 1717242365
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "d027da2acb2754380d5d081c699a652fc5003544",
+        "timestamp": 1720239465
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "ecd2c7cf9c363cf5471183f78f7a1e1798f2895e",
+        "timestamp": 1720241818
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "30a98412dbbee846b1d9e8e009f268cd2f2c795c",
+        "timestamp": 1720248657
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "d056df2ec42270060727dc2e3972eced9bc7a23c",
+        "timestamp": 1720241996
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "98c01840ad38f2cbcfcd5da855343ac77407d23b",
+        "timestamp": 1720250067
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "75fb113dccbe971c64637e02a610926f427b36c7",
+        "timestamp": 1720248747
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "e61a96c6d48434bbb3a9fda1c729a74e378a2c73",
+        "timestamp": 1720250551
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "0b1a20b2b00f329b01711c8c858364a2fae7c113",
+        "timestamp": 1720266870
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "43797eae653e938e835d496ee72b09fd88ab7632",
+        "timestamp": 1722821243
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7cce453e8e0a2262092d5fa50156d3501ef8ef52",
+        "timestamp": 1723136365
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "b30c066514a5098b425d91adb6821fd07771e282",
+        "timestamp": 1723136649
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "xxhash/version.py"
+        ],
+        "sha": "665a9f00db107b0f23cf9114ea2fa0e20e68ee5f",
+        "timestamp": 1723884485
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "cd0903d7024014fe0fa3f548cccd1060845e0092",
+        "timestamp": 1725239971
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "c691953f926403a1b7d5ea898a682ea5ec120687",
+        "timestamp": 1728265069
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "3eeff8e6a5942aaeccc07ae1d009eefcdd40e8af",
+        "timestamp": 1728265072
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "4c961c17175eef029c963921e60d5e5719b241ac",
+        "timestamp": 1728871517
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "73506a1b55315e9a98c995d97b745d6c956edefb",
+        "timestamp": 1730684741
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "1dc4b3f30140fa2dabea647ca65b6db56b10c82f",
+        "timestamp": 1731288976
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "4fe56577759a2c9ba479517fa54e7e4ff599ab46",
+        "timestamp": 1732498798
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "fc7b885fdaa10de43b739bbf6b345558e8b77675",
+        "timestamp": 1734527940
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "c87a48138511e6936123bf26edde3552cad0feac",
+        "timestamp": 1734311384
+      },
+      {
+        "files": [
+          "LICENSE"
+        ],
+        "sha": "2372c2e66aee92029745d3428664b65ab0a49ded",
+        "timestamp": 1734672476
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "69c17d9a9730879143f6ae5ee2b41186afb1b79f",
+        "timestamp": 1737940843
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "5a755f96a9f3ab871364241288d4104cc542fe41",
+        "timestamp": 1740967427
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "4a129b44bc2a1b93c7e6892925b6d0d6d57482c8",
+        "timestamp": 1743189293
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "52314860669f81f48baf26b5cecf9cac1545b3ec",
+        "timestamp": 1743384762
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "eceb45b19c2036eab4995f22f886627247f64e18",
+        "timestamp": 1744817190
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "a474f91e34489d9441f532389cc93f9b6589068c",
+        "timestamp": 1744813095
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "9ae85986692b3f07487320ffd490dcf7495e62e5",
+        "timestamp": 1744112877
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "8d867912b144e4bb3fc252ae825d0a5cef3c59ea",
+        "timestamp": 1744954239
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "50c0d5122710a4b9f5b6f9c7b1e99f29a63d8b11",
+        "timestamp": 1744882818
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "b3cc1b8bc1c27da0a0ed8bce2c1d92ae86966961",
+        "timestamp": 1745802638
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "f653eef5a9d9d2672df8e8e01600ba2eb341a462",
+        "timestamp": 1746817091
+      },
+      {
+        "files": [
+          "Pipfile.lock",
+          "tests/test.py",
+          "xxhash/__init__.pyi"
+        ],
+        "sha": "868d1584b2f0f782a98a150352436bdd82ea4c96",
+        "timestamp": 1750695224
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "950c014b23fac6ae8b770dd332787528f5f6e48a",
+        "timestamp": 1758956742
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/_xxhash.c"
+        ],
+        "sha": "a14d853d4027e409894535814a9fd4a7c5d4c958",
+        "timestamp": 1758958802
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "a7c833ad1827b77dab64ebd89671f39d8c040f3e",
+        "timestamp": 1759108181
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "d200a9dff5fc8508c78fac9963526d17fab22c7e",
+        "timestamp": 1759156430
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "4655adb69afb92fb34f925e8f955d09805aaa499",
+        "timestamp": 1757293754
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "c918900faa9485d902ffc856445618cba2dc06b7",
+        "timestamp": 1754876848
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "341b44bace94b3eb5f0afa619413dae6494a8745",
+        "timestamp": 1755483849
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "87e78a788089dbeb4722fb93f524037973548ad7",
+        "timestamp": 1759388493
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "3bfe9687eb721cd806e8bea8d4ce6190afa42285",
+        "timestamp": 1759388538
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "601c10361c962296085709add9bfbf27e3dd84c6",
+        "timestamp": 1759388730
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "7ff1c535f8e0d1d71d733ff60e1f99d33c0cfade",
+        "timestamp": 1759404949
+      },
+      {
+        "files": [
+          "xxhash/__init__.pyi",
+          "xxhash/version.py"
+        ],
+        "sha": "fdfcd18ca2a9aa753608fa71d50997be3661a36b",
+        "timestamp": 1759407202
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "xxhash/version.py"
+        ],
+        "sha": "4fad0dda0c54bd3f80769479fcb323731ebe6eef",
+        "timestamp": 1759412321
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "7b0981b60b099c493d803593351c6fc8b2df9b10",
+        "timestamp": 1759649157
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "setup.py"
+        ],
+        "sha": "f6b3f8a991acf2f4072976e9326c267b02d1b455",
+        "timestamp": 1759649982
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "51e970f3e9ad0ac55288037ca84000b388512ad3",
+        "timestamp": 1759651822
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "a7ef216a9a48516db54c9cc70d54d60f61f30a0e",
+        "timestamp": 1759911443
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "f0f623b2b11d4e2ea1780d2879817856af924dad",
+        "timestamp": 1759911575
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "a5e4f02bfe60aea176310bc149142d6b66f8ef2b",
+        "timestamp": 1760009470
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "4a4e5657a6c21f37b6c280d677398cee00694a0b",
+        "timestamp": 1760009881
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "1d147bae5ab866665e5076fdc65b05178485559f",
+        "timestamp": 1760317676
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "b9584441aa1157e53d78146dc8a974ff7c036d23",
+        "timestamp": 1761527587
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "e11eacd7b441a99817dda2efb3fe0281e1dceb4f",
+        "timestamp": 1761527543
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "b006cfefd0001cdd3917fc479abf78adac40ce60",
+        "timestamp": 1764246936
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "bb32e8b1af530e8535af5aa2ae91945c099a10f8",
+        "timestamp": 1763946777
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "1cfed0a6cefae65b370d70deea2bb7621e3c34e2",
+        "timestamp": 1763946780
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "5b60a4fb2017cf49a7aecd5bdb27a571f190c005",
+        "timestamp": 1764407328
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "9bbf9740448ac85b99c7275a8172fc036976bd97",
+        "timestamp": 1768549354
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "c35bf0125bfe2a11794d7d5440159ed8b124e0e1",
+        "timestamp": 1768551524
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "a7a3bd22f2a536220bd08c5765e2fe06e9210ba8",
+        "timestamp": 1768551535
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "43bb2030f1a7fd389cc876037e653674b850e9e7",
+        "timestamp": 1768551599
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "4ba9b0cc343c50f903ff67918032971e0d9842c3",
+        "timestamp": 1773020629
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "8faaa340c9a647dd78ce1c6515097b28f744352b",
+        "timestamp": 1773020625
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "1ae3e5b60e4cf1f5f78278183dde90dba932962a",
+        "timestamp": 1772415833
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "c4b8775fe0fd60598e4244ea0c522134cc3c3cf5",
+        "timestamp": 1772415827
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "0d7d943288e3ad86988d57002ec5ebd3ce8e61da",
+        "timestamp": 1775439825
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "d3cd66446da1bea6de24b4edebc31a84cee45aab",
+        "timestamp": 1776044639
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "xxhash/version.py"
+        ],
+        "sha": "404589e3d5735591755d2e7f32c87a15f8724c02",
+        "timestamp": 1777111231
+      },
+      {
+        "files": [
+          "src/_xxhash.c",
+          "xxhash/version.py"
+        ],
+        "sha": "9dc30e59333e6335ad2f9f0587bbccd3af9b8760",
+        "timestamp": 1777114625
+      },
+      {
+        "files": [
+          "src/_xxhash.c",
+          "xxhash/version.py"
+        ],
+        "sha": "052457d937a019cf98492d0f0be5010435f2fdf7",
+        "timestamp": 1776957717
+      },
+      {
+        "files": [
+          ".github/workflows/codspeed.yml",
+          "README.rst",
+          "tests/test_benchmark.py"
+        ],
+        "sha": "03f09e580707e774ee9c87af29b83430db745b25",
+        "timestamp": 1777179519
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "91883061337c24ba27036cfbcd2674ddb632ad84",
+        "timestamp": 1777198593
+      },
+      {
+        "files": [
+          "tests/test_benchmark.py"
+        ],
+        "sha": "65a54bd0aa206bdaa5aad5bb4603c95fcd5ae00e",
+        "timestamp": 1777199700
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "2bcd3757705888be189ab1ae2eb1b0ce7a1164b5",
+        "timestamp": 1777199989
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "30d733f85db48c9b3cd8d3f5e24a6e99ecd28007",
+        "timestamp": 1777226748
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "fb6de05092685cd774975570c2fc214d20a09ae7",
+        "timestamp": 1777226757
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "d0c6da1c570f0e43e1bb2afa99c06c58609aac84",
+        "timestamp": 1777226770
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "7e17586557cd1f02ca0e9c40d1a7e76a7ca454a0",
+        "timestamp": 1777226779
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "7a567a00d51c1b7d1506167cdba4ae1df66b447c",
+        "timestamp": 1777226789
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "b8d0b250e64e67f48f543333e753c8e5777950c6",
+        "timestamp": 1777226799
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "d7c09ceff00271801bcfb755b8b7faceecc4fb06",
+        "timestamp": 1777226816
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "7e47b385fba37967d744f7bd3bd94e0fd2cfd875",
+        "timestamp": 1777226834
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "8c9f50790c8988740c3dad3387e3120b0f7e036c",
+        "timestamp": 1777226847
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "8843146d11f6507f7d9e26240866aef5b3363496",
+        "timestamp": 1777226945
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "59e4844b967968845aef796c4c9c299ec4271a1e",
+        "timestamp": 1777227465
+      },
+      {
+        "files": [
+          "xxhash/version.py"
+        ],
+        "sha": "e251a255cd597cac0f09bb46959d2d7446825485",
+        "timestamp": 1777227727
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "b2698c2b92d363a6247b7c2864aac792616c3ead",
+        "timestamp": 1777228060
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "ce1cb9fcbeba7677c2ac5503e5d31edbab59b6b7",
+        "timestamp": 1777228305
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "3e76406154e18a035bdc2509cff7eca11fc840ef",
+        "timestamp": 1777234497
+      },
+      {
+        "files": [
+          "src/_xxhash.c",
+          "tests/test_fastcall.py"
+        ],
+        "sha": "cce45944a01b3121309500960c5d37efe8bac333",
+        "timestamp": 1777261239
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "19be73f6ffca5fd1544cfe119795642902cc8215",
+        "timestamp": 1777261678
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "80824730f5b9a4f36ba129d82d2b76876d386938",
+        "timestamp": 1777261969
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "279a855893170b8aa272656c3d8c30583a32b0d5",
+        "timestamp": 1777262407
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "560c87c9fee08c40e83cd1d532b873c58055e5e6",
+        "timestamp": 1777262909
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "fcdb5ee43b529b68d91e91cc76b056ca9dc39923",
+        "timestamp": 1777262998
+      },
+      {
+        "files": [
+          "tests/test_fastcall.py"
+        ],
+        "sha": "b1c6168e50845e25be071186cb43cb7eb03f1dd3",
+        "timestamp": 1777263069
+      },
+      {
+        "files": [
+          "src/_xxhash.c",
+          "tests/test_fastcall.py"
+        ],
+        "sha": "2526bd8007ae85d51bfcb02d0d28cb1f09cd6662",
+        "timestamp": 1777263381
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "7f2727abd7f520e643c38fa80dedf8a11af74567",
+        "timestamp": 1777264922
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "aaee11dd7dc80ea0327f46a1893e936527219c46",
+        "timestamp": 1777265354
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "b3466b5d946476f10e6825ae5398b38102f8e847",
+        "timestamp": 1777265729
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "1585d2b8b031e8d77543fa4d5a1a39d051b452a3",
+        "timestamp": 1777267301
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "2693286743925046ea07dc924ce660cac4d6ac45",
+        "timestamp": 1777267730
+      },
+      {
+        "files": [
+          "tests/test_benchmark.py"
+        ],
+        "sha": "a68419ce25a9a36a0a43aa38e16249f148adb4b9",
+        "timestamp": 1777267956
+      },
+      {
+        "files": [
+          "tests/test_benchmark.py"
+        ],
+        "sha": "671c6b39d838a6214620f7a558cd4a0feb70ed8f",
+        "timestamp": 1777268173
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "42eb0e067b78c4f35ff6863e3b464508467e919b",
+        "timestamp": 1777268595
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "9f40c566e6f0242ff8c93e6fb6f2219d426035e1",
+        "timestamp": 1777269320
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "7705e2a18bb66049790c36009b31b77f48a0bd44",
+        "timestamp": 1777271311
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "82d4c708cd1c5b930117f4793658b38ee4c87196",
+        "timestamp": 1777272398
+      },
+      {
+        "files": [
+          "tests/test_benchmark.py"
+        ],
+        "sha": "b24c8735e8a2e10af72304ba6ac6a44c27639fb4",
+        "timestamp": 1777272796
+      },
+      {
+        "files": [
+          "src/_xxhash.c"
+        ],
+        "sha": "7ddc05650c34f2004bef6e233b4d74c265624829",
+        "timestamp": 1777356770
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "9e822cdcbce2b0ca0d167423c8f890143ef62c6b",
+        "timestamp": 1777558673
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e3eb2c07eae9ee3895e229dd17f1344500534e4a",
+        "timestamp": 1779896099
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 3,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".appveyor.py": 0,
+      ".appveyor.yml": 1,
+      ".github/dependabot.yml": 2,
+      ".github/workflows/build.yml": 3,
+      ".github/workflows/codspeed.yml": 4,
+      ".github/workflows/test.yml": 5,
+      ".gitignore": 6,
+      ".gitmodules": 7,
+      ".travis.yml": 8,
+      "CHANGELOG.rst": 9,
+      "LICENSE": 10,
+      "MANIFEST.in": 11,
+      "Pipfile.lock": 12,
+      "README.rst": 13,
+      "bench.sh": 14,
+      "deps/xxhash": 15,
+      "pyproject.toml": 16,
+      "setup.py": 17,
+      "sizes.c": 18,
+      "src/_xxhash.c": 19,
+      "tests/__init__.py": 20,
+      "tests/test.py": 21,
+      "tests/test_algorithms_available.py": 22,
+      "tests/test_benchmark.py": 23,
+      "tests/test_fastcall.py": 24,
+      "tests/test_name.py": 25,
+      "tests/test_xxh3_128.py": 26,
+      "tests/test_xxh3_64.py": 27,
+      "xxhash/__init__.py": 28,
+      "xxhash/__init__.pyi": 29,
+      "xxhash/cffi.py": 30,
+      "xxhash/py.typed": 31,
+      "xxhash/version.py": 32
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1406728272,
+      "last_commit_ts": 1779896099,
+      "n_cochange_pairs": 21,
+      "n_commits_dropped_as_bulk": 19,
+      "n_commits_used": 394,
+      "n_files": 33
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "945da729d7081c256cab54788ff795a6ad3c9433",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
