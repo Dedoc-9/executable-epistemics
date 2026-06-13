@@ -45,7 +45,7 @@ $repos = @(
     [pscustomobject]@{ id="C019"; slug="docutils/docutils" },
     [pscustomobject]@{ id="C020"; slug="Supervisor/supervisor" },
     [pscustomobject]@{ id="C021"; slug="giampaolo/psutil" },
-    [pscustomobject]@{ id="C022"; slug="python-dateutil/dateutil" }
+    [pscustomobject]@{ id="C022"; slug="dateutil/dateutil" }
 )
 
 # ── Main loop ─────────────────────────────────────────────────────────────────

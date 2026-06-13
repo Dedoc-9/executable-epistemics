@@ -187,5 +187,18 @@
     "declaration_hash_new": "cc94c029e10bd93901d20f7ccd8d7f5bd4e9a346faa4278ff5075746a979a1c1",
     "corrected_statement": "SLUG CORRECTION for C021: REPO_DECLARATION_exp101.json listed psutil/psutil. The psutil organization does not exist on GitHub; the project is hosted under the personal org of Giampaolo Rodola (primary author). The correct slug is giampaolo/psutil (github.com/giampaolo/psutil). Filed PRE-CLONE based on observed pattern of org-prefix errors in this batch (E-014, E-017, E-019, E-020, E-021 all same defect class). NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). REPO_DECLARATION_exp101.json and run_batch_exp101.ps1 corrected. Declaration hash recomputed. NOT a mechanical unavailability event; replacement queue slots unchanged.",
     "supersedes": "REPO_DECLARATION_exp101.json C021 slug (psutil/psutil)"
+  },
+  {
+    "erratum_id": "E-023",
+    "hash": "f712d3b65ea8d50b",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-101",
+    "repo_id": "C022",
+    "slug_old": "python-dateutil/dateutil",
+    "slug_new": "dateutil/dateutil",
+    "declaration_hash_old": "cc94c029e10bd93901d20f7ccd8d7f5bd4e9a346faa4278ff5075746a979a1c1",
+    "declaration_hash_new": "f712d3b65ea8d50b8c4bed922609fcbecbf3cf0311c36b9e76da55412ffa7ace",
+    "corrected_statement": "SLUG CORRECTION for C022: REPO_DECLARATION_exp101.json listed python-dateutil/dateutil. The python-dateutil GitHub organization does not exist; the project is hosted under the dateutil organization. The correct slug is dateutil/dateutil (github.com/dateutil/dateutil). Discovered at C022 clone attempt during batch run. Same defect class as E-014, E-017, E-019, E-020, E-021, E-022 \u2014 org prefix used package/PyPI name instead of actual GitHub org. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). REPO_DECLARATION_exp101.json and run_batch_exp101.ps1 corrected. Declaration hash recomputed. NOT a mechanical unavailability event; replacement queue slots unchanged.",
+    "supersedes": "REPO_DECLARATION_exp101.json C022 slug (python-dateutil/dateutil)"
   }
 ]

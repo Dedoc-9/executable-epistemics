@@ -187,10 +187,10 @@
     },
     {
       "id": "C022",
-      "slug": "python-dateutil/dateutil",
+      "slug": "dateutil/dateutil",
       "eligibility": "CONFIRMED",
       "audit": "KNOWLEDGE",
-      "notes": "Replaces pytest-dev/pluggy (~20 py files). Paul Ganssle era. Focused datetime library. Est. ~500 commits, ~60 py files."
+      "notes": "python-dateutil library. REPLACEMENT for pluggy. E-023: slug corrected from python-dateutil/dateutil."
     }
   ],
   "repo_count": 22,
@@ -211,7 +211,7 @@
       "notes": "Character detection. Activates if second replacement needed."
     }
   ],
-  "declaration_hash": "cc94c029e10bd93901d20f7ccd8d7f5bd4e9a346faa4278ff5075746a979a1c1",
+  "declaration_hash": "f712d3b65ea8d50b8c4bed922609fcbecbf3cf0311c36b9e76da55412ffa7ace",
   "hash_input_spec": "SHA-256 of JSON-serialized {slugs_sorted: sorted(22 slugs), replacement_queue_sorted: sorted(2 queue slugs), protocol_version: exp101_v1, declaration_date: 2026-06-13} with sort_keys=True, separators=(,,:)",
   "pre_cloning_attestation": "This file committed and pushed BEFORE any Component C repository is cloned. Per HYPOTHESIS_exp101.md \u00a74: declare first, clone after. NEEDS_MANUAL repos must be resolved before their clone step.",
   "replacement_count": 3
