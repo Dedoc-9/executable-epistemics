@@ -92,13 +92,18 @@ for flagship/dominant-author architectures and is not a general-purpose populati
 ## 7. Compute script
 
 - File: studies/exp101_tcell_expansion/compute_moderators_exp101.py
-- SHA-256: 8c0d3236490093b9a27dea0c70a2837e013cf23efcf0fd34ba98804415a58547
+- SHA-256: b55547a20d7583aef171dad371acf608620653dd1665874c4d961a31f133de44
+- E-018: M₃ (Galois closure diameter) added as observational metadata field.
+  M₃ NOT used for T-cell classification in EXP-101. T-cell definition
+  unchanged: M₁ > 0.858675 AND M₂ < 7.702891. Threshold for M₃ to be
+  preregistered in EXP-102. §C budget unchanged (non-instrument erratum).
+- SHA-256 (pre-E-018): 8c0d3236490093b9a27dea0c70a2837e013cf23efcf0fd34ba98804415a58547
 - Inputs: REPO_DECLARATION_exp101.json, results_exp101/*/ground_truth.json,
           tests_epi/exp101/ clones (for git log)
 - Output: studies/exp101_tcell_expansion/moderators_exp101.json
-- Must run BEFORE ownership scoring begins
+- Must run AFTER all scoring is complete (compute reads ground_truth.json per repo)
 
-Execution order: compute_moderators_exp101.py → run_batch_exp101.ps1 → analyze_exp101.py
+Execution order: run_batch_exp101.ps1 → compute_moderators_exp101.py → analyze_exp101.py
 
 ---
 
