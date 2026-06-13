@@ -1,0 +1,634 @@
+{
+  "chain_hash": "bc4c732c255bc4ba",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/workflows/test-suite.yml||setup.py": 2,
+      "README.md||broadcaster/__init__.py": 5,
+      "README.md||broadcaster/_base.py": 4,
+      "README.md||broadcaster/backends/base.py": 2,
+      "README.md||broadcaster/backends/redis.py": 2,
+      "README.md||chatroom.py": 2,
+      "README.md||example/app.py": 2,
+      "README.md||setup.py": 3,
+      "README.md||templates/chatroom.html": 2,
+      "README.md||tests/test_broadcast.py": 4,
+      "broadcaster/__init__.py||broadcaster/_base.py": 6,
+      "broadcaster/__init__.py||broadcaster/backends/__init__.py": 3,
+      "broadcaster/__init__.py||broadcaster/backends/base.py": 4,
+      "broadcaster/__init__.py||broadcaster/backends/kafka.py": 2,
+      "broadcaster/__init__.py||broadcaster/backends/memory.py": 3,
+      "broadcaster/__init__.py||broadcaster/backends/postgres.py": 4,
+      "broadcaster/__init__.py||broadcaster/backends/redis.py": 3,
+      "broadcaster/__init__.py||chatroom.py": 2,
+      "broadcaster/__init__.py||subscribe/_backends/memory.py": 2,
+      "broadcaster/__init__.py||templates/chatroom.html": 2,
+      "broadcaster/__init__.py||tests/test_broadcast.py": 5,
+      "broadcaster/_base.py||broadcaster/backends/__init__.py": 3,
+      "broadcaster/_base.py||broadcaster/backends/base.py": 5,
+      "broadcaster/_base.py||broadcaster/backends/kafka.py": 3,
+      "broadcaster/_base.py||broadcaster/backends/memory.py": 3,
+      "broadcaster/_base.py||broadcaster/backends/postgres.py": 4,
+      "broadcaster/_base.py||broadcaster/backends/redis.py": 5,
+      "broadcaster/_base.py||chatroom.py": 2,
+      "broadcaster/_base.py||subscribe/_backends/memory.py": 2,
+      "broadcaster/_base.py||templates/chatroom.html": 2,
+      "broadcaster/_base.py||tests/test_broadcast.py": 6,
+      "broadcaster/_base.py||tests/test_unsubscribe.py": 2,
+      "broadcaster/backends/__init__.py||broadcaster/backends/base.py": 3,
+      "broadcaster/backends/__init__.py||broadcaster/backends/memory.py": 2,
+      "broadcaster/backends/__init__.py||broadcaster/backends/postgres.py": 3,
+      "broadcaster/backends/__init__.py||broadcaster/backends/redis.py": 3,
+      "broadcaster/backends/__init__.py||subscribe/_backends/memory.py": 2,
+      "broadcaster/backends/__init__.py||tests/test_broadcast.py": 3,
+      "broadcaster/backends/base.py||broadcaster/backends/kafka.py": 2,
+      "broadcaster/backends/base.py||broadcaster/backends/memory.py": 2,
+      "broadcaster/backends/base.py||broadcaster/backends/postgres.py": 3,
+      "broadcaster/backends/base.py||broadcaster/backends/redis.py": 4,
+      "broadcaster/backends/base.py||chatroom.py": 2,
+      "broadcaster/backends/base.py||subscribe/_backends/memory.py": 2,
+      "broadcaster/backends/base.py||templates/chatroom.html": 2,
+      "broadcaster/backends/base.py||tests/test_broadcast.py": 3,
+      "broadcaster/backends/kafka.py||broadcaster/backends/memory.py": 2,
+      "broadcaster/backends/kafka.py||broadcaster/backends/postgres.py": 2,
+      "broadcaster/backends/kafka.py||broadcaster/backends/redis.py": 2,
+      "broadcaster/backends/kafka.py||tests/test_broadcast.py": 3,
+      "broadcaster/backends/memory.py||broadcaster/backends/postgres.py": 4,
+      "broadcaster/backends/memory.py||broadcaster/backends/redis.py": 2,
+      "broadcaster/backends/memory.py||tests/test_broadcast.py": 3,
+      "broadcaster/backends/postgres.py||broadcaster/backends/redis.py": 3,
+      "broadcaster/backends/postgres.py||subscribe/_backends/memory.py": 2,
+      "broadcaster/backends/postgres.py||tests/test_broadcast.py": 4,
+      "broadcaster/backends/redis.py||subscribe/_backends/memory.py": 2,
+      "broadcaster/backends/redis.py||tests/test_broadcast.py": 5,
+      "chatroom.py||templates/chatroom.html": 2,
+      "pyproject.toml||requirements.txt": 3,
+      "pyproject.toml||scripts/check": 2,
+      "pyproject.toml||scripts/lint": 2,
+      "requirements.txt||scripts/check": 2,
+      "requirements.txt||scripts/coverage": 2,
+      "requirements.txt||scripts/lint": 2,
+      "requirements.txt||tests/test_broadcast.py": 2,
+      "scripts/check||scripts/lint": 3,
+      "scripts/check||setup.cfg": 2,
+      "scripts/lint||setup.cfg": 2,
+      "subscribe/_backends/memory.py||tests/test_broadcast.py": 2
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore",
+          "README.md",
+          "broadcaster/__init__.py",
+          "broadcaster/_base.py",
+          "broadcaster/backends/__init__.py",
+          "broadcaster/backends/base.py",
+          "broadcaster/backends/postgres.py",
+          "broadcaster/backends/redis.py",
+          "chatroom.py",
+          "subscribe/_backends/memory.py",
+          "templates/chatroom.html",
+          "tests/test_broadcast.py"
+        ],
+        "sha": "b1cfdd3bad98b1180ba1fcbef5df54539b1e2201",
+        "timestamp": 1582032798
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "dbdba2efb81a1bbcab547453f603bb4891ac021e",
+        "timestamp": 1582039029
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "9f8221ee97938aa4b6bdf79236882067e3c62ebc",
+        "timestamp": 1582110859
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "bb0c48f1da0da72862d702481d475267d4e697b3",
+        "timestamp": 1582111098
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "0f204fb28da1fe96edc2059d9df6786e51e7eb2a",
+        "timestamp": 1582111118
+      },
+      {
+        "files": [
+          "broadcaster/__init__.py",
+          "broadcaster/_base.py",
+          "broadcaster/backends/__init__.py",
+          "broadcaster/backends/base.py",
+          "broadcaster/backends/memory.py",
+          "broadcaster/backends/postgres.py",
+          "broadcaster/backends/redis.py",
+          "subscribe/_backends/memory.py",
+          "tests/test_broadcast.py"
+        ],
+        "sha": "d5572363f110800fc07254a3caba56f1a90b1e2c",
+        "timestamp": 1582205859
+      },
+      {
+        "files": [
+          "README.md",
+          "broadcaster/__init__.py",
+          "broadcaster/_base.py",
+          "broadcaster/backends/base.py",
+          "chatroom.py",
+          "example/app.py",
+          "example/templates/index.html",
+          "setup.py",
+          "templates/chatroom.html"
+        ],
+        "sha": "e5cc1c107f862a6400109ebd8e4094cdbcb5273e",
+        "timestamp": 1582215061
+      },
+      {
+        "files": [
+          "broadcaster/__init__.py",
+          "scripts/clean",
+          "scripts/publish"
+        ],
+        "sha": "7174eac7a5c2aa427d679c7e5a4cb01519d1c180",
+        "timestamp": 1582215293
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "2ed91d1a89b6b53c10f602ca5a69ddae99d56c6b",
+        "timestamp": 1582215887
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "5065d143cdf1d1783ad18ad9b50ccf7942822500",
+        "timestamp": 1582216008
+      },
+      {
+        "files": [
+          "docs/demo.gif"
+        ],
+        "sha": "f48d2a9554c89771929258449c54726e17ad4e3d",
+        "timestamp": 1582216378
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "5b332756dcae64d8af40143c991907a017670cbd",
+        "timestamp": 1582216438
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "3e8a8bc1dca9c31c33562e8a8802aa089e7688f7",
+        "timestamp": 1582217530
+      },
+      {
+        "files": [
+          "example/requirements.txt"
+        ],
+        "sha": "baa1656a9485a3ea5a25f287ef17949de66ea3f6",
+        "timestamp": 1582719071
+      },
+      {
+        "files": [
+          "README.md",
+          "broadcaster/__init__.py"
+        ],
+        "sha": "b0037ea309aedc993d010add14bc75de493827dd",
+        "timestamp": 1582719865
+      },
+      {
+        "files": [
+          "docker-compose.yaml",
+          "example/README.md"
+        ],
+        "sha": "ffb09a9449aa81417e5abff33428eeb82c7dc5ea",
+        "timestamp": 1582720049
+      },
+      {
+        "files": [
+          "README.md",
+          "tests/test_broadcast.py"
+        ],
+        "sha": "868ae82724a45555976b7d81c3655c4b71663a6e",
+        "timestamp": 1582905059
+      },
+      {
+        "files": [
+          "docker-compose.yaml"
+        ],
+        "sha": "61a47255fe1cf9ae9653b58015be7ed4cf5be42a",
+        "timestamp": 1583101127
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "3e4b3baec3326771ee06ba6d803cc1868e932a87",
+        "timestamp": 1583343995
+      },
+      {
+        "files": [
+          "README.md",
+          "setup.py"
+        ],
+        "sha": "1cd87dab122de8b0f4afd0b8ba199b72990ce406",
+        "timestamp": 1591620593
+      },
+      {
+        "files": [
+          "broadcaster/backends/memory.py",
+          "broadcaster/backends/postgres.py"
+        ],
+        "sha": "368dd52a6d1028f5afd5de16bb7859c6a3c348d8",
+        "timestamp": 1615651324
+      },
+      {
+        "files": [
+          "LICENSE.md",
+          "setup.py"
+        ],
+        "sha": "6f83395e79a53cb573f893d36d617dde0060eb64",
+        "timestamp": 1615735290
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "e66e5ee9ee727b6c3541251f96e943da2decc98e",
+        "timestamp": 1660939167
+      },
+      {
+        "files": [
+          "broadcaster/backends/kafka.py"
+        ],
+        "sha": "40af624b5cd1a5aab3889f4994bc8c3711756e6e",
+        "timestamp": 1660942455
+      },
+      {
+        "files": [
+          ".gitignore",
+          "scripts/check",
+          "scripts/lint",
+          "setup.cfg"
+        ],
+        "sha": "8c0382d2a33f67a5bf877b2cff3fd797c34e8a5d",
+        "timestamp": 1660974342
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "scripts/coverage",
+          "tests/test_broadcast.py"
+        ],
+        "sha": "25b364d039976fe70993c8bbf562d982ca49373b",
+        "timestamp": 1660975825
+      },
+      {
+        "files": [
+          "broadcaster/py.typed",
+          "setup.py"
+        ],
+        "sha": "e9fdd029816baac37c47cdeef43f7c60c5fc6c25",
+        "timestamp": 1660977498
+      },
+      {
+        "files": [
+          "broadcaster/backends/kafka.py"
+        ],
+        "sha": "956571d030d33d6cb820758ec5ed8fe79c3288c6",
+        "timestamp": 1660977774
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml"
+        ],
+        "sha": "ed15621858f88c2597c3d8ad06d3c2e9b2b55dd9",
+        "timestamp": 1660977872
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml",
+          "setup.py"
+        ],
+        "sha": "f11d94d85caa98ae9fb3cfd7aaf75fdcf3ee7468",
+        "timestamp": 1660978320
+      },
+      {
+        "files": [
+          "broadcaster/backends/redis.py"
+        ],
+        "sha": "e1f297796ae1b7f16522b013454cae546fc91fcd",
+        "timestamp": 1660995456
+      },
+      {
+        "files": [
+          "broadcaster/_base.py"
+        ],
+        "sha": "312fde9b3e7f2228bf14952dc3aad67b3c2afea2",
+        "timestamp": 1660995913
+      },
+      {
+        "files": [
+          "example/requirements.txt"
+        ],
+        "sha": "4d993ad31cc34975fa9b28763415678dfd559d20",
+        "timestamp": 1660996284
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "ccd476e1c03aa54541f966183f839278c34b0d3d",
+        "timestamp": 1660997699
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml",
+          "README.md",
+          "setup.py"
+        ],
+        "sha": "9aa890c61cf500d7a50f1607822ee70de07e9a91",
+        "timestamp": 1687125947
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "requirements.txt",
+          "scripts/build",
+          "setup.py"
+        ],
+        "sha": "2499fbd28397b065894706a09d24d0d636b7858a",
+        "timestamp": 1687195286
+      },
+      {
+        "files": [
+          "README.md",
+          "example/app.py"
+        ],
+        "sha": "94bf88721df859fe6e4b5dbaa4608c06fff24412",
+        "timestamp": 1687877363
+      },
+      {
+        "files": [
+          "example/app.py",
+          "pyproject.toml",
+          "requirements.txt",
+          "scripts/check",
+          "scripts/coverage",
+          "scripts/lint",
+          "setup.cfg"
+        ],
+        "sha": "377b4043814ac88a21255af1cc12d5650c785082",
+        "timestamp": 1688562205
+      },
+      {
+        "files": [
+          "broadcaster/backends/redis.py",
+          "pyproject.toml"
+        ],
+        "sha": "de6ef400220fc8942e4e22fec77532bb387ce77d",
+        "timestamp": 1711612495
+      },
+      {
+        "files": [
+          "broadcaster/_base.py",
+          "tests/test_unsubscribe.py"
+        ],
+        "sha": "eeba6a796d5ab523d21234f5870cef384c156553",
+        "timestamp": 1712172160
+      },
+      {
+        "files": [
+          "README.md",
+          "broadcaster/__init__.py",
+          "broadcaster/_base.py",
+          "tests/test_broadcast.py"
+        ],
+        "sha": "eeb09ded25ed47485b7aa2cd69d53bd6c625c88f",
+        "timestamp": 1712221620
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml",
+          "broadcaster/__init__.py",
+          "broadcaster/_base.py",
+          "broadcaster/backends/kafka.py",
+          "broadcaster/backends/memory.py",
+          "broadcaster/backends/postgres.py",
+          "pyproject.toml",
+          "requirements.txt",
+          "scripts/check",
+          "scripts/lint",
+          "tests/test_broadcast.py",
+          "tests/test_unsubscribe.py"
+        ],
+        "sha": "6dc07d6723cef7379ab057847387712afac05a0e",
+        "timestamp": 1712302329
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "672d10d91f49ba386ccfde8766094d4bf308d25d",
+        "timestamp": 1713800607
+      },
+      {
+        "files": [
+          "README.md",
+          "broadcaster/_base.py",
+          "broadcaster/backends/redis.py",
+          "tests/test_broadcast.py"
+        ],
+        "sha": "c4b4d599225a389f9ae5894020389163cbaa4ac8",
+        "timestamp": 1713800935
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "4ff8fa688e8c22881e0bd58a99a816fa276656b3",
+        "timestamp": 1717664919
+      },
+      {
+        "files": [
+          "broadcaster/backends/redis.py"
+        ],
+        "sha": "6daa0d246f8c0711f930d60bdefb8f278c1a777f",
+        "timestamp": 1718103438
+      },
+      {
+        "files": [
+          "broadcaster/backends/kafka.py",
+          "tests/test_broadcast.py"
+        ],
+        "sha": "399442d0677127284ce9263fc06bf7c9c81311a9",
+        "timestamp": 1718103450
+      },
+      {
+        "files": [
+          "README.md",
+          "broadcaster/__init__.py"
+        ],
+        "sha": "d6806ace2478daa5a4caaf78fa2487c0f55740ee",
+        "timestamp": 1719511713
+      },
+      {
+        "files": [
+          "scripts/publish"
+        ],
+        "sha": "22e8b2afb131321dcd0a9a06be2d860849cfbe5a",
+        "timestamp": 1719517243
+      },
+      {
+        "files": [
+          "broadcaster/backends/redis.py"
+        ],
+        "sha": "528cf42c809c172ae42036baea4bb8585820e4dc",
+        "timestamp": 1722545964
+      },
+      {
+        "files": [
+          "broadcaster/__init__.py"
+        ],
+        "sha": "23c9b40136231d0a78d1299588b62d7162067ff4",
+        "timestamp": 1722546862
+      },
+      {
+        "files": [
+          "broadcaster/_base.py",
+          "broadcaster/backends/base.py",
+          "broadcaster/backends/kafka.py",
+          "broadcaster/backends/redis.py"
+        ],
+        "sha": "69cf29a41066f53a45498f0dfa36288befd73dd7",
+        "timestamp": 1724424217
+      },
+      {
+        "files": [
+          "broadcaster/__init__.py",
+          "broadcaster/_base.py",
+          "broadcaster/backends/__init__.py",
+          "broadcaster/backends/base.py",
+          "broadcaster/backends/kafka.py",
+          "broadcaster/backends/memory.py",
+          "broadcaster/backends/postgres.py",
+          "broadcaster/backends/redis.py",
+          "tests/test_broadcast.py"
+        ],
+        "sha": "a422d8a378cfcf07e938473754f91edf34b0e0c2",
+        "timestamp": 1730561595
+      },
+      {
+        "files": [
+          "broadcaster/backends/redis.py",
+          "tests/test_broadcast.py"
+        ],
+        "sha": "c892e525d0794649065d541a707a1a4c459df574",
+        "timestamp": 1742130887
+      },
+      {
+        "files": [
+          "broadcaster/__init__.py"
+        ],
+        "sha": "6b3ea71d4f8fb038fa7d357a1fb3750d58ac614d",
+        "timestamp": 1744218556
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 12,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/FUNDING.yml": 0,
+      ".github/workflows/publish.yml": 1,
+      ".github/workflows/test-suite.yml": 2,
+      ".gitignore": 3,
+      "LICENSE.md": 4,
+      "README.md": 5,
+      "broadcaster/__init__.py": 6,
+      "broadcaster/_base.py": 7,
+      "broadcaster/backends/__init__.py": 8,
+      "broadcaster/backends/base.py": 9,
+      "broadcaster/backends/kafka.py": 10,
+      "broadcaster/backends/memory.py": 11,
+      "broadcaster/backends/postgres.py": 12,
+      "broadcaster/backends/redis.py": 13,
+      "broadcaster/py.typed": 14,
+      "chatroom.py": 15,
+      "docker-compose.yaml": 16,
+      "docs/demo.gif": 17,
+      "example/README.md": 18,
+      "example/app.py": 19,
+      "example/requirements.txt": 20,
+      "example/templates/index.html": 21,
+      "pyproject.toml": 22,
+      "requirements.txt": 23,
+      "scripts/build": 24,
+      "scripts/check": 25,
+      "scripts/clean": 26,
+      "scripts/coverage": 27,
+      "scripts/lint": 28,
+      "scripts/publish": 29,
+      "setup.cfg": 30,
+      "setup.py": 31,
+      "subscribe/_backends/memory.py": 32,
+      "templates/chatroom.html": 33,
+      "tests/test_broadcast.py": 34,
+      "tests/test_unsubscribe.py": 35
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1582032798,
+      "last_commit_ts": 1744218556,
+      "n_cochange_pairs": 70,
+      "n_commits_dropped_as_bulk": 2,
+      "n_commits_used": 55,
+      "n_files": 36
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "6b3ea71d4f8fb038fa7d357a1fb3750d58ac614d",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
