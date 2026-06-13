@@ -1,0 +1,4054 @@
+{
+  "chain_hash": "eb6e5cffbd674475",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".flake8||.github/workflows/test.yml": 3,
+      ".flake8||poetry.lock": 4,
+      ".flake8||pyproject.toml": 4,
+      ".flake8||taskiq/__init__.py": 2,
+      ".flake8||taskiq/__main__.py": 2,
+      ".flake8||taskiq/abc/broker.py": 7,
+      ".flake8||taskiq/abc/middleware.py": 2,
+      ".flake8||taskiq/abc/result_backend.py": 2,
+      ".flake8||taskiq/brokers/inmemory_broker.py": 2,
+      ".flake8||taskiq/cli/watcher.py": 3,
+      ".flake8||taskiq/cli/worker/args.py": 4,
+      ".flake8||taskiq/cli/worker/async_task_runner.py": 5,
+      ".flake8||taskiq/cli/worker/run.py": 4,
+      ".flake8||taskiq/decor.py": 2,
+      ".flake8||taskiq/kicker.py": 3,
+      ".flake8||taskiq/message.py": 2,
+      ".flake8||taskiq/receiver/receiver.py": 4,
+      ".flake8||taskiq/result/v1.py": 2,
+      ".flake8||taskiq/result_backends/dummy.py": 2,
+      ".flake8||taskiq/task.py": 2,
+      ".flake8||tests/conftest.py": 3,
+      ".flake8||tests/receiver/test_receiver.py": 5,
+      ".flake8||tests/test_serialization.py": 2,
+      ".github/workflows/release.yml||.github/workflows/release_docs.yaml": 3,
+      ".github/workflows/release.yml||.github/workflows/test.yml": 5,
+      ".github/workflows/release.yml||poetry.lock": 2,
+      ".github/workflows/release.yml||pyproject.toml": 3,
+      ".github/workflows/release_docs.yaml||.github/workflows/test.yml": 2,
+      ".github/workflows/test.yml||docs/guide/message-format.md": 2,
+      ".github/workflows/test.yml||poetry.lock": 5,
+      ".github/workflows/test.yml||pyproject.toml": 5,
+      ".github/workflows/test.yml||taskiq/abc/broker.py": 2,
+      ".github/workflows/test.yml||taskiq/brokers/inmemory_broker.py": 2,
+      ".github/workflows/test.yml||taskiq/receiver/receiver.py": 2,
+      ".github/workflows/test.yml||tests/conftest.py": 2,
+      ".github/workflows/test.yml||tests/middlewares/test_task_retry.py": 2,
+      ".github/workflows/test.yml||tests/receiver/test_receiver.py": 2,
+      ".gitignore||poetry.lock": 3,
+      ".gitignore||pyproject.toml": 3,
+      ".gitignore||taskiq/__init__.py": 2,
+      ".gitignore||tests/conftest.py": 2,
+      ".pre-commit-config.yaml||poetry.lock": 2,
+      ".pre-commit-config.yaml||pyproject.toml": 2,
+      ".python-version||poetry.lock": 2,
+      ".python-version||pyproject.toml": 2,
+      ".python-version||tox.ini": 2,
+      "README.md||poetry.lock": 2,
+      "README.md||pyproject.toml": 3,
+      "README.md||taskiq/__init__.py": 2,
+      "docs/.vuepress/config.ts||docs/README.md": 2,
+      "docs/.vuepress/config.ts||package.json": 3,
+      "docs/.vuepress/config.ts||pnpm-lock.yaml": 3,
+      "docs/.vuepress/styles/index.scss||package.json": 3,
+      "docs/.vuepress/styles/index.scss||pnpm-lock.yaml": 3,
+      "docs/README.md||package.json": 2,
+      "docs/README.md||pnpm-lock.yaml": 2,
+      "docs/available-components/README.md||docs/extending-taskiq/README.md": 2,
+      "docs/available-components/README.md||pnpm-lock.yaml": 2,
+      "docs/available-components/schedule-sources.md||docs/guide/architecture-overview.md": 2,
+      "docs/available-components/schedule-sources.md||docs/guide/scheduling-tasks.md": 2,
+      "docs/available-components/schedule-sources.md||docs/guide/testing-taskiq.md": 2,
+      "docs/available-components/schedule-sources.md||package.json": 2,
+      "docs/available-components/schedule-sources.md||pnpm-lock.yaml": 2,
+      "docs/contrib.md||pyproject.toml": 2,
+      "docs/contrib.md||tox.ini": 2,
+      "docs/examples/dynamics/dyn_receiver.py||docs/examples/dynamics/dyn_scheduler.py": 2,
+      "docs/examples/dynamics/dyn_receiver.py||docs/guide/dynamic-brokers.md": 2,
+      "docs/examples/dynamics/dyn_scheduler.py||docs/guide/dynamic-brokers.md": 2,
+      "docs/examples/extending/broker.py||docs/extending-taskiq/broker.md": 3,
+      "docs/examples/extending/broker.py||taskiq/abc/broker.py": 3,
+      "docs/examples/extending/broker.py||taskiq/brokers/inmemory_broker.py": 2,
+      "docs/examples/extending/broker.py||taskiq/brokers/shared_broker.py": 2,
+      "docs/examples/extending/broker.py||taskiq/brokers/zmq_broker.py": 2,
+      "docs/examples/extending/broker.py||taskiq/receiver/receiver.py": 2,
+      "docs/examples/extending/broker.py||tests/receiver/test_receiver.py": 2,
+      "docs/examples/extending/schedule_source.py||taskiq/abc/schedule_source.py": 5,
+      "docs/examples/extending/schedule_source.py||taskiq/cli/scheduler/run.py": 3,
+      "docs/examples/extending/schedule_source.py||taskiq/decor.py": 2,
+      "docs/examples/extending/schedule_source.py||taskiq/kicker.py": 2,
+      "docs/examples/extending/schedule_source.py||taskiq/schedule_sources/label_based.py": 3,
+      "docs/examples/extending/schedule_source.py||taskiq/scheduler/merge_functions.py": 2,
+      "docs/examples/extending/schedule_source.py||taskiq/scheduler/scheduled_task.py": 3,
+      "docs/examples/extending/schedule_source.py||taskiq/scheduler/scheduler.py": 4,
+      "docs/examples/extending/schedule_source.py||tests/cli/scheduler/test_task_delays.py": 2,
+      "docs/examples/extending/schedule_source.py||tests/schedule_sources/test_label_based.py": 4,
+      "docs/examples/extending/schedule_source.py||tests/scheduler/test_label_based_sched.py": 4,
+      "docs/examples/schedule/redis_schedule.py||docs/guide/scheduling-tasks.md": 2,
+      "docs/extending-taskiq/README.md||pnpm-lock.yaml": 2,
+      "docs/extending-taskiq/broker.md||taskiq/abc/broker.py": 3,
+      "docs/extending-taskiq/broker.md||taskiq/brokers/inmemory_broker.py": 2,
+      "docs/extending-taskiq/broker.md||taskiq/brokers/shared_broker.py": 2,
+      "docs/extending-taskiq/broker.md||taskiq/brokers/zmq_broker.py": 2,
+      "docs/extending-taskiq/broker.md||taskiq/receiver/receiver.py": 2,
+      "docs/extending-taskiq/broker.md||tests/receiver/test_receiver.py": 2,
+      "docs/extending-taskiq/schedule-sources.md||tests/schedule_sources/test_label_based.py": 2,
+      "docs/extending-taskiq/schedule-sources.md||tests/scheduler/test_label_based_sched.py": 2,
+      "docs/framework_integrations/taskiq-with-aiohttp.md||docs/framework_integrations/taskiq-with-fastapi.md": 2,
+      "docs/framework_integrations/taskiq-with-aiohttp.md||package.json": 2,
+      "docs/framework_integrations/taskiq-with-aiohttp.md||pnpm-lock.yaml": 2,
+      "docs/framework_integrations/taskiq-with-fastapi.md||package.json": 2,
+      "docs/framework_integrations/taskiq-with-fastapi.md||pnpm-lock.yaml": 2,
+      "docs/guide/architecture-overview.md||docs/guide/cli.md": 2,
+      "docs/guide/architecture-overview.md||docs/guide/scheduling-tasks.md": 3,
+      "docs/guide/architecture-overview.md||docs/guide/state-and-deps.md": 2,
+      "docs/guide/architecture-overview.md||package.json": 4,
+      "docs/guide/architecture-overview.md||pnpm-lock.yaml": 4,
+      "docs/guide/cli.md||package.json": 3,
+      "docs/guide/cli.md||pnpm-lock.yaml": 4,
+      "docs/guide/cli.md||taskiq/api/receiver.py": 2,
+      "docs/guide/cli.md||taskiq/cli/worker/args.py": 5,
+      "docs/guide/cli.md||taskiq/cli/worker/process_manager.py": 3,
+      "docs/guide/cli.md||taskiq/cli/worker/run.py": 4,
+      "docs/guide/cli.md||taskiq/receiver/receiver.py": 2,
+      "docs/guide/cli.md||tests/receiver/test_receiver.py": 2,
+      "docs/guide/getting-started.md||docs/guide/scheduling-tasks.md": 2,
+      "docs/guide/getting-started.md||package.json": 2,
+      "docs/guide/getting-started.md||pnpm-lock.yaml": 2,
+      "docs/guide/message-format.md||pyproject.toml": 2,
+      "docs/guide/scheduling-tasks.md||docs/guide/testing-taskiq.md": 2,
+      "docs/guide/scheduling-tasks.md||package.json": 4,
+      "docs/guide/scheduling-tasks.md||pnpm-lock.yaml": 4,
+      "docs/guide/scheduling-tasks.md||taskiq/cli/scheduler/run.py": 3,
+      "docs/guide/scheduling-tasks.md||taskiq/scheduler/scheduler.py": 2,
+      "docs/guide/state-and-deps.md||package.json": 2,
+      "docs/guide/state-and-deps.md||pnpm-lock.yaml": 2,
+      "docs/guide/state-and-deps.md||taskiq/receiver/receiver.py": 2,
+      "docs/guide/taskiq-with-fastapi.md||package.json": 2,
+      "docs/guide/taskiq-with-fastapi.md||pnpm-lock.yaml": 2,
+      "docs/guide/testing-taskiq.md||package.json": 2,
+      "docs/guide/testing-taskiq.md||pnpm-lock.yaml": 2,
+      "package.json||pnpm-lock.yaml": 9,
+      "pnpm-lock.yaml||pyproject.toml": 2,
+      "pnpm-lock.yaml||taskiq/receiver/receiver.py": 2,
+      "poetry.lock||pyproject.toml": 34,
+      "poetry.lock||taskiq/__init__.py": 7,
+      "poetry.lock||taskiq/__main__.py": 3,
+      "poetry.lock||taskiq/abc/broker.py": 6,
+      "poetry.lock||taskiq/abc/result_backend.py": 2,
+      "poetry.lock||taskiq/abc/schedule_source.py": 3,
+      "poetry.lock||taskiq/brokers/inmemory_broker.py": 4,
+      "poetry.lock||taskiq/brokers/shared_broker.py": 2,
+      "poetry.lock||taskiq/brokers/zmq_broker.py": 2,
+      "poetry.lock||taskiq/cli/scheduler/run.py": 4,
+      "poetry.lock||taskiq/cli/worker/args.py": 8,
+      "poetry.lock||taskiq/cli/worker/async_task_runner.py": 5,
+      "poetry.lock||taskiq/cli/worker/log_collector.py": 2,
+      "poetry.lock||taskiq/cli/worker/process_manager.py": 2,
+      "poetry.lock||taskiq/cli/worker/run.py": 7,
+      "poetry.lock||taskiq/compat.py": 2,
+      "poetry.lock||taskiq/decor.py": 2,
+      "poetry.lock||taskiq/exceptions.py": 2,
+      "poetry.lock||taskiq/formatters/json_formatter.py": 2,
+      "poetry.lock||taskiq/funcs.py": 2,
+      "poetry.lock||taskiq/kicker.py": 3,
+      "poetry.lock||taskiq/message.py": 3,
+      "poetry.lock||taskiq/receiver/receiver.py": 4,
+      "poetry.lock||taskiq/schedule_sources/label_based.py": 2,
+      "poetry.lock||taskiq/scheduler/created_schedule.py": 2,
+      "poetry.lock||taskiq/scheduler/scheduler.py": 2,
+      "poetry.lock||taskiq/serialization.py": 2,
+      "poetry.lock||taskiq/serializers/__init__.py": 3,
+      "poetry.lock||taskiq/serializers/cbor_serializer.py": 2,
+      "poetry.lock||taskiq/task.py": 2,
+      "poetry.lock||tests/cli/scheduler/test_task_delays.py": 2,
+      "poetry.lock||tests/conftest.py": 2,
+      "poetry.lock||tests/middlewares/test_task_retry.py": 2,
+      "poetry.lock||tests/receiver/test_receiver.py": 2,
+      "poetry.lock||tox.ini": 3,
+      "pyproject.toml||taskiq/__init__.py": 7,
+      "pyproject.toml||taskiq/__main__.py": 2,
+      "pyproject.toml||taskiq/abc/broker.py": 6,
+      "pyproject.toml||taskiq/abc/result_backend.py": 2,
+      "pyproject.toml||taskiq/abc/schedule_source.py": 3,
+      "pyproject.toml||taskiq/brokers/inmemory_broker.py": 4,
+      "pyproject.toml||taskiq/cli/scheduler/run.py": 4,
+      "pyproject.toml||taskiq/cli/worker/args.py": 5,
+      "pyproject.toml||taskiq/cli/worker/async_task_runner.py": 4,
+      "pyproject.toml||taskiq/cli/worker/log_collector.py": 2,
+      "pyproject.toml||taskiq/cli/worker/run.py": 6,
+      "pyproject.toml||taskiq/compat.py": 3,
+      "pyproject.toml||taskiq/decor.py": 2,
+      "pyproject.toml||taskiq/exceptions.py": 3,
+      "pyproject.toml||taskiq/formatters/json_formatter.py": 2,
+      "pyproject.toml||taskiq/funcs.py": 2,
+      "pyproject.toml||taskiq/kicker.py": 3,
+      "pyproject.toml||taskiq/message.py": 3,
+      "pyproject.toml||taskiq/middlewares/prometheus_middleware.py": 2,
+      "pyproject.toml||taskiq/middlewares/taskiq_admin_middleware.py": 2,
+      "pyproject.toml||taskiq/receiver/receiver.py": 6,
+      "pyproject.toml||taskiq/schedule_sources/label_based.py": 2,
+      "pyproject.toml||taskiq/scheduler/created_schedule.py": 3,
+      "pyproject.toml||taskiq/scheduler/scheduler.py": 2,
+      "pyproject.toml||taskiq/serialization.py": 2,
+      "pyproject.toml||taskiq/serializers/__init__.py": 3,
+      "pyproject.toml||taskiq/serializers/cbor_serializer.py": 2,
+      "pyproject.toml||taskiq/serializers/json_serializer.py": 2,
+      "pyproject.toml||taskiq/task.py": 2,
+      "pyproject.toml||tests/cli/scheduler/test_task_delays.py": 2,
+      "pyproject.toml||tests/conftest.py": 2,
+      "pyproject.toml||tests/receiver/test_receiver.py": 2,
+      "pyproject.toml||tests/serializers/test_json_serializer.py": 2,
+      "pyproject.toml||tox.ini": 4,
+      "pyproject.toml||uv.lock": 5,
+      "taskiq/__init__.py||taskiq/__main__.py": 2,
+      "taskiq/__init__.py||taskiq/abc/broker.py": 5,
+      "taskiq/__init__.py||taskiq/abc/middleware.py": 2,
+      "taskiq/__init__.py||taskiq/abc/result_backend.py": 2,
+      "taskiq/__init__.py||taskiq/abc/schedule_source.py": 3,
+      "taskiq/__init__.py||taskiq/acks.py": 2,
+      "taskiq/__init__.py||taskiq/cli/scheduler/run.py": 2,
+      "taskiq/__init__.py||taskiq/cli/worker/async_task_runner.py": 4,
+      "taskiq/__init__.py||taskiq/cli/worker/run.py": 2,
+      "taskiq/__init__.py||taskiq/decor.py": 3,
+      "taskiq/__init__.py||taskiq/exceptions.py": 2,
+      "taskiq/__init__.py||taskiq/kicker.py": 4,
+      "taskiq/__init__.py||taskiq/message.py": 2,
+      "taskiq/__init__.py||taskiq/middlewares/__init__.py": 3,
+      "taskiq/__init__.py||taskiq/middlewares/simple_retry_middleware.py": 2,
+      "taskiq/__init__.py||taskiq/middlewares/smart_retry_middleware.py": 2,
+      "taskiq/__init__.py||taskiq/receiver/receiver.py": 4,
+      "taskiq/__init__.py||taskiq/result/v1.py": 2,
+      "taskiq/__init__.py||taskiq/scheduler/scheduler.py": 2,
+      "taskiq/__init__.py||taskiq/serializers/__init__.py": 2,
+      "taskiq/__init__.py||taskiq/task.py": 2,
+      "taskiq/__init__.py||taskiq/utils.py": 2,
+      "taskiq/__init__.py||tests/cli/scheduler/test_task_delays.py": 2,
+      "taskiq/__init__.py||tests/receiver/test_receiver.py": 3,
+      "taskiq/__main__.py||taskiq/abc/broker.py": 2,
+      "taskiq/__main__.py||taskiq/cli/worker/args.py": 5,
+      "taskiq/__main__.py||taskiq/cli/worker/async_task_runner.py": 3,
+      "taskiq/__main__.py||taskiq/cli/worker/process_manager.py": 2,
+      "taskiq/__main__.py||taskiq/cli/worker/run.py": 5,
+      "taskiq/__main__.py||tests/receiver/test_receiver.py": 2,
+      "taskiq/abc/broker.py||taskiq/abc/formatter.py": 4,
+      "taskiq/abc/broker.py||taskiq/abc/middleware.py": 4,
+      "taskiq/abc/broker.py||taskiq/abc/result_backend.py": 6,
+      "taskiq/abc/broker.py||taskiq/brokers/inmemory_broker.py": 7,
+      "taskiq/abc/broker.py||taskiq/brokers/shared_broker.py": 8,
+      "taskiq/abc/broker.py||taskiq/brokers/zmq_broker.py": 6,
+      "taskiq/abc/broker.py||taskiq/cli/scheduler/run.py": 2,
+      "taskiq/abc/broker.py||taskiq/cli/watcher.py": 2,
+      "taskiq/abc/broker.py||taskiq/cli/worker/args.py": 4,
+      "taskiq/abc/broker.py||taskiq/cli/worker/async_task_runner.py": 13,
+      "taskiq/abc/broker.py||taskiq/cli/worker/run.py": 7,
+      "taskiq/abc/broker.py||taskiq/compat.py": 2,
+      "taskiq/abc/broker.py||taskiq/decor.py": 4,
+      "taskiq/abc/broker.py||taskiq/formatters/json_formatter.py": 5,
+      "taskiq/abc/broker.py||taskiq/kicker.py": 7,
+      "taskiq/abc/broker.py||taskiq/message.py": 4,
+      "taskiq/abc/broker.py||taskiq/middlewares/prometheus_middleware.py": 2,
+      "taskiq/abc/broker.py||taskiq/plugins/__init__.py": 2,
+      "taskiq/abc/broker.py||taskiq/receiver/receiver.py": 8,
+      "taskiq/abc/broker.py||taskiq/result/v1.py": 2,
+      "taskiq/abc/broker.py||taskiq/result_backends/dummy.py": 3,
+      "taskiq/abc/broker.py||taskiq/serializers/__init__.py": 2,
+      "taskiq/abc/broker.py||taskiq/serializers/cbor_serializer.py": 2,
+      "taskiq/abc/broker.py||taskiq/task.py": 4,
+      "taskiq/abc/broker.py||taskiq/types_helpers.py": 2,
+      "taskiq/abc/broker.py||taskiq/utils.py": 3,
+      "taskiq/abc/broker.py||tests/abc/test_broker.py": 3,
+      "taskiq/abc/broker.py||tests/conftest.py": 4,
+      "taskiq/abc/broker.py||tests/receiver/test_receiver.py": 6,
+      "taskiq/abc/formatter.py||taskiq/abc/middleware.py": 2,
+      "taskiq/abc/formatter.py||taskiq/abc/result_backend.py": 2,
+      "taskiq/abc/formatter.py||taskiq/brokers/inmemory_broker.py": 2,
+      "taskiq/abc/formatter.py||taskiq/brokers/shared_broker.py": 3,
+      "taskiq/abc/formatter.py||taskiq/cli/worker/async_task_runner.py": 3,
+      "taskiq/abc/formatter.py||taskiq/formatters/json_formatter.py": 4,
+      "taskiq/abc/formatter.py||taskiq/kicker.py": 3,
+      "taskiq/abc/formatter.py||taskiq/message.py": 2,
+      "taskiq/abc/formatter.py||taskiq/plugins/__init__.py": 2,
+      "taskiq/abc/middleware.py||taskiq/brokers/inmemory_broker.py": 2,
+      "taskiq/abc/middleware.py||taskiq/brokers/zmq_broker.py": 2,
+      "taskiq/abc/middleware.py||taskiq/cli/worker/async_task_runner.py": 4,
+      "taskiq/abc/middleware.py||taskiq/formatters/json_formatter.py": 2,
+      "taskiq/abc/middleware.py||taskiq/kicker.py": 3,
+      "taskiq/abc/middleware.py||taskiq/middlewares/simple_retry_middleware.py": 2,
+      "taskiq/abc/middleware.py||taskiq/receiver/receiver.py": 3,
+      "taskiq/abc/middleware.py||tests/conftest.py": 2,
+      "taskiq/abc/middleware.py||tests/receiver/test_receiver.py": 2,
+      "taskiq/abc/result_backend.py||taskiq/brokers/inmemory_broker.py": 2,
+      "taskiq/abc/result_backend.py||taskiq/brokers/shared_broker.py": 2,
+      "taskiq/abc/result_backend.py||taskiq/cli/worker/args.py": 2,
+      "taskiq/abc/result_backend.py||taskiq/cli/worker/async_task_runner.py": 6,
+      "taskiq/abc/result_backend.py||taskiq/cli/worker/run.py": 2,
+      "taskiq/abc/result_backend.py||taskiq/decor.py": 2,
+      "taskiq/abc/result_backend.py||taskiq/formatters/json_formatter.py": 2,
+      "taskiq/abc/result_backend.py||taskiq/kicker.py": 3,
+      "taskiq/abc/result_backend.py||taskiq/message.py": 3,
+      "taskiq/abc/result_backend.py||taskiq/result/v1.py": 2,
+      "taskiq/abc/result_backend.py||taskiq/task.py": 3,
+      "taskiq/abc/result_backend.py||taskiq/types_helpers.py": 2,
+      "taskiq/abc/schedule_source.py||taskiq/cli/scheduler/run.py": 3,
+      "taskiq/abc/schedule_source.py||taskiq/decor.py": 3,
+      "taskiq/abc/schedule_source.py||taskiq/kicker.py": 3,
+      "taskiq/abc/schedule_source.py||taskiq/schedule_sources/label_based.py": 3,
+      "taskiq/abc/schedule_source.py||taskiq/scheduler/created_schedule.py": 2,
+      "taskiq/abc/schedule_source.py||taskiq/scheduler/merge_functions.py": 2,
+      "taskiq/abc/schedule_source.py||taskiq/scheduler/scheduled_task.py": 2,
+      "taskiq/abc/schedule_source.py||taskiq/scheduler/scheduler.py": 4,
+      "taskiq/abc/schedule_source.py||tests/cli/scheduler/test_task_delays.py": 2,
+      "taskiq/abc/schedule_source.py||tests/schedule_sources/test_label_based.py": 4,
+      "taskiq/abc/schedule_source.py||tests/scheduler/test_label_based_sched.py": 4,
+      "taskiq/abc/schedule_source.py||tests/scheduler/test_scheduler.py": 2,
+      "taskiq/abc/schedule_source.py||tox.ini": 2,
+      "taskiq/abc/serializer.py||taskiq/compat.py": 2,
+      "taskiq/acks.py||taskiq/exceptions.py": 2,
+      "taskiq/acks.py||taskiq/receiver/receiver.py": 3,
+      "taskiq/acks.py||tests/receiver/test_receiver.py": 2,
+      "taskiq/api/receiver.py||taskiq/cli/worker/args.py": 4,
+      "taskiq/api/receiver.py||taskiq/cli/worker/run.py": 4,
+      "taskiq/api/receiver.py||taskiq/receiver/receiver.py": 4,
+      "taskiq/api/receiver.py||tests/receiver/test_receiver.py": 2,
+      "taskiq/api/scheduler.py||taskiq/cli/scheduler/run.py": 2,
+      "taskiq/api/scheduler.py||taskiq/schedule_sources/label_based.py": 2,
+      "taskiq/api/scheduler.py||tests/cli/scheduler/test_task_delays.py": 2,
+      "taskiq/api/scheduler.py||tests/schedule_sources/test_label_based.py": 2,
+      "taskiq/api/scheduler.py||tests/scheduler/test_label_based_sched.py": 2,
+      "taskiq/brokers/inmemory_broker.py||taskiq/brokers/shared_broker.py": 6,
+      "taskiq/brokers/inmemory_broker.py||taskiq/brokers/zmq_broker.py": 4,
+      "taskiq/brokers/inmemory_broker.py||taskiq/cli/worker/args.py": 7,
+      "taskiq/brokers/inmemory_broker.py||taskiq/cli/worker/async_task_runner.py": 9,
+      "taskiq/brokers/inmemory_broker.py||taskiq/cli/worker/run.py": 6,
+      "taskiq/brokers/inmemory_broker.py||taskiq/cli/worker/tests/test_context.py": 2,
+      "taskiq/brokers/inmemory_broker.py||taskiq/formatters/json_formatter.py": 2,
+      "taskiq/brokers/inmemory_broker.py||taskiq/receiver/params_parser.py": 3,
+      "taskiq/brokers/inmemory_broker.py||taskiq/receiver/receiver.py": 11,
+      "taskiq/brokers/inmemory_broker.py||taskiq/task.py": 3,
+      "taskiq/brokers/inmemory_broker.py||tests/brokers/test_inmemory.py": 2,
+      "taskiq/brokers/inmemory_broker.py||tests/cli/worker/test_parameters_parsing.py": 3,
+      "taskiq/brokers/inmemory_broker.py||tests/conftest.py": 2,
+      "taskiq/brokers/inmemory_broker.py||tests/receiver/test_receiver.py": 6,
+      "taskiq/brokers/shared_broker.py||taskiq/brokers/zmq_broker.py": 3,
+      "taskiq/brokers/shared_broker.py||taskiq/cli/worker/async_task_runner.py": 5,
+      "taskiq/brokers/shared_broker.py||taskiq/cli/worker/run.py": 2,
+      "taskiq/brokers/shared_broker.py||taskiq/decor.py": 2,
+      "taskiq/brokers/shared_broker.py||taskiq/formatters/json_formatter.py": 3,
+      "taskiq/brokers/shared_broker.py||taskiq/kicker.py": 3,
+      "taskiq/brokers/shared_broker.py||taskiq/receiver/receiver.py": 3,
+      "taskiq/brokers/shared_broker.py||taskiq/task.py": 3,
+      "taskiq/brokers/zmq_broker.py||taskiq/cli/worker/args.py": 2,
+      "taskiq/brokers/zmq_broker.py||taskiq/cli/worker/async_task_runner.py": 4,
+      "taskiq/brokers/zmq_broker.py||taskiq/cli/worker/run.py": 2,
+      "taskiq/brokers/zmq_broker.py||taskiq/receiver/receiver.py": 2,
+      "taskiq/brokers/zmq_broker.py||tests/conftest.py": 2,
+      "taskiq/brokers/zmq_broker.py||tests/receiver/test_receiver.py": 2,
+      "taskiq/cli/scheduler/args.py||taskiq/cli/scheduler/run.py": 8,
+      "taskiq/cli/scheduler/args.py||taskiq/cli/utils.py": 2,
+      "taskiq/cli/scheduler/args.py||taskiq/cli/worker/args.py": 4,
+      "taskiq/cli/scheduler/args.py||taskiq/cli/worker/run.py": 3,
+      "taskiq/cli/scheduler/args.py||taskiq/schedule_sources/label_based.py": 2,
+      "taskiq/cli/scheduler/args.py||tests/schedule_sources/test_label_based.py": 2,
+      "taskiq/cli/scheduler/args.py||tests/scheduler/test_label_based_sched.py": 2,
+      "taskiq/cli/scheduler/run.py||taskiq/cli/utils.py": 2,
+      "taskiq/cli/scheduler/run.py||taskiq/cli/worker/args.py": 3,
+      "taskiq/cli/scheduler/run.py||taskiq/cli/worker/run.py": 5,
+      "taskiq/cli/scheduler/run.py||taskiq/schedule_sources/label_based.py": 5,
+      "taskiq/cli/scheduler/run.py||taskiq/scheduler/merge_functions.py": 2,
+      "taskiq/cli/scheduler/run.py||taskiq/scheduler/scheduler.py": 9,
+      "taskiq/cli/scheduler/run.py||tests/cli/scheduler/test_task_delays.py": 7,
+      "taskiq/cli/scheduler/run.py||tests/cli/scheduler/test_updater.py": 2,
+      "taskiq/cli/scheduler/run.py||tests/conftest.py": 2,
+      "taskiq/cli/scheduler/run.py||tests/schedule_sources/test_label_based.py": 4,
+      "taskiq/cli/scheduler/run.py||tests/scheduler/test_label_based_sched.py": 4,
+      "taskiq/cli/utils.py||taskiq/cli/watcher.py": 2,
+      "taskiq/cli/utils.py||taskiq/cli/worker/args.py": 3,
+      "taskiq/cli/utils.py||taskiq/cli/worker/run.py": 2,
+      "taskiq/cli/utils.py||tests/cli/test_utils.py": 2,
+      "taskiq/cli/watcher.py||taskiq/cli/worker/args.py": 4,
+      "taskiq/cli/watcher.py||taskiq/cli/worker/async_task_runner.py": 3,
+      "taskiq/cli/watcher.py||taskiq/cli/worker/process_manager.py": 2,
+      "taskiq/cli/watcher.py||taskiq/cli/worker/run.py": 3,
+      "taskiq/cli/watcher.py||taskiq/receiver/receiver.py": 2,
+      "taskiq/cli/watcher.py||tests/receiver/test_receiver.py": 2,
+      "taskiq/cli/worker/args.py||taskiq/cli/worker/async_task_runner.py": 8,
+      "taskiq/cli/worker/args.py||taskiq/cli/worker/log_collector.py": 2,
+      "taskiq/cli/worker/args.py||taskiq/cli/worker/process_manager.py": 4,
+      "taskiq/cli/worker/args.py||taskiq/cli/worker/run.py": 24,
+      "taskiq/cli/worker/args.py||taskiq/decor.py": 2,
+      "taskiq/cli/worker/args.py||taskiq/message.py": 2,
+      "taskiq/cli/worker/args.py||taskiq/receiver/params_parser.py": 2,
+      "taskiq/cli/worker/args.py||taskiq/receiver/receiver.py": 9,
+      "taskiq/cli/worker/args.py||taskiq/result_backends/dummy.py": 2,
+      "taskiq/cli/worker/args.py||tests/cli/worker/test_parameters_parsing.py": 2,
+      "taskiq/cli/worker/args.py||tests/receiver/test_receiver.py": 5,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/cli/worker/log_collector.py": 2,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/cli/worker/run.py": 10,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/decor.py": 4,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/formatters/json_formatter.py": 3,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/kicker.py": 8,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/message.py": 4,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/plugins/__init__.py": 2,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/receiver/params_parser.py": 2,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/receiver/receiver.py": 3,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/result/v1.py": 2,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/result_backends/dummy.py": 3,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/task.py": 5,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/types_helpers.py": 2,
+      "taskiq/cli/worker/async_task_runner.py||taskiq/utils.py": 2,
+      "taskiq/cli/worker/async_task_runner.py||tests/cli/worker/test_parameters_parsing.py": 2,
+      "taskiq/cli/worker/async_task_runner.py||tests/receiver/test_receiver.py": 3,
+      "taskiq/cli/worker/process_manager.py||taskiq/cli/worker/run.py": 9,
+      "taskiq/cli/worker/run.py||taskiq/decor.py": 2,
+      "taskiq/cli/worker/run.py||taskiq/message.py": 2,
+      "taskiq/cli/worker/run.py||taskiq/middlewares/prometheus_middleware.py": 2,
+      "taskiq/cli/worker/run.py||taskiq/receiver/receiver.py": 10,
+      "taskiq/cli/worker/run.py||taskiq/result_backends/dummy.py": 2,
+      "taskiq/cli/worker/run.py||tests/conftest.py": 2,
+      "taskiq/cli/worker/run.py||tests/receiver/test_receiver.py": 4,
+      "taskiq/cli/worker/tests/test_context.py||taskiq/receiver/receiver.py": 2,
+      "taskiq/compat.py||taskiq/formatters/json_formatter.py": 2,
+      "taskiq/compat.py||taskiq/serialization.py": 2,
+      "taskiq/context.py||taskiq/receiver/receiver.py": 2,
+      "taskiq/context.py||tests/test_requeue.py": 2,
+      "taskiq/decor.py||taskiq/kicker.py": 10,
+      "taskiq/decor.py||taskiq/receiver/receiver.py": 2,
+      "taskiq/decor.py||taskiq/result/v1.py": 2,
+      "taskiq/decor.py||taskiq/scheduler/created_schedule.py": 3,
+      "taskiq/decor.py||taskiq/scheduler/scheduled_task.py": 2,
+      "taskiq/decor.py||taskiq/task.py": 7,
+      "taskiq/decor.py||taskiq/types_helpers.py": 2,
+      "taskiq/decor.py||taskiq/utils.py": 3,
+      "taskiq/decor.py||tests/schedule_sources/test_label_based.py": 2,
+      "taskiq/decor.py||tests/scheduler/test_label_based_sched.py": 2,
+      "taskiq/exceptions.py||taskiq/receiver/receiver.py": 5,
+      "taskiq/exceptions.py||taskiq/serialization.py": 2,
+      "taskiq/exceptions.py||taskiq/task.py": 2,
+      "taskiq/exceptions.py||tests/receiver/test_receiver.py": 4,
+      "taskiq/formatters/json_formatter.py||taskiq/kicker.py": 3,
+      "taskiq/formatters/json_formatter.py||taskiq/message.py": 4,
+      "taskiq/formatters/json_formatter.py||taskiq/plugins/__init__.py": 2,
+      "taskiq/formatters/json_formatter.py||taskiq/result/v1.py": 2,
+      "taskiq/instrumentation.py||taskiq/middlewares/opentelemetry_middleware.py": 2,
+      "taskiq/instrumentation.py||tests/api/test_scheduler.py": 2,
+      "taskiq/instrumentation.py||tests/opentelemetry/test_auto_instrumentation.py": 2,
+      "taskiq/instrumentation.py||tests/opentelemetry/test_tasks.py": 2,
+      "taskiq/kicker.py||taskiq/labels.py": 2,
+      "taskiq/kicker.py||taskiq/message.py": 3,
+      "taskiq/kicker.py||taskiq/middlewares/simple_retry_middleware.py": 2,
+      "taskiq/kicker.py||taskiq/plugins/__init__.py": 2,
+      "taskiq/kicker.py||taskiq/receiver/receiver.py": 3,
+      "taskiq/kicker.py||taskiq/result/v1.py": 3,
+      "taskiq/kicker.py||taskiq/scheduler/created_schedule.py": 3,
+      "taskiq/kicker.py||taskiq/scheduler/merge_functions.py": 2,
+      "taskiq/kicker.py||taskiq/scheduler/scheduled_task.py": 2,
+      "taskiq/kicker.py||taskiq/scheduler/scheduler.py": 3,
+      "taskiq/kicker.py||taskiq/task.py": 8,
+      "taskiq/kicker.py||taskiq/types_helpers.py": 2,
+      "taskiq/kicker.py||taskiq/utils.py": 3,
+      "taskiq/kicker.py||tests/receiver/test_receiver.py": 2,
+      "taskiq/kicker.py||tests/schedule_sources/test_label_based.py": 2,
+      "taskiq/kicker.py||tests/scheduler/test_label_based_sched.py": 3,
+      "taskiq/kicker.py||tox.ini": 2,
+      "taskiq/message.py||taskiq/middlewares/simple_retry_middleware.py": 2,
+      "taskiq/message.py||taskiq/plugins/__init__.py": 2,
+      "taskiq/message.py||taskiq/result/v1.py": 2,
+      "taskiq/message.py||taskiq/serializers/json_serializer.py": 2,
+      "taskiq/message.py||tests/formatters/test_json_formatter.py": 2,
+      "taskiq/message.py||tests/formatters/test_proxy_formatter.py": 2,
+      "taskiq/middlewares/__init__.py||taskiq/middlewares/simple_retry_middleware.py": 2,
+      "taskiq/middlewares/__init__.py||taskiq/middlewares/smart_retry_middleware.py": 2,
+      "taskiq/middlewares/opentelemetry_middleware.py||taskiq/receiver/receiver.py": 2,
+      "taskiq/middlewares/opentelemetry_middleware.py||tests/api/test_scheduler.py": 2,
+      "taskiq/middlewares/opentelemetry_middleware.py||tests/opentelemetry/taskiq_test_tasks.py": 2,
+      "taskiq/middlewares/opentelemetry_middleware.py||tests/opentelemetry/test_auto_instrumentation.py": 2,
+      "taskiq/middlewares/opentelemetry_middleware.py||tests/opentelemetry/test_tasks.py": 2,
+      "taskiq/middlewares/simple_retry_middleware.py||taskiq/middlewares/smart_retry_middleware.py": 2,
+      "taskiq/middlewares/simple_retry_middleware.py||taskiq/receiver/receiver.py": 2,
+      "taskiq/middlewares/simple_retry_middleware.py||taskiq/result/v1.py": 2,
+      "taskiq/middlewares/simple_retry_middleware.py||tests/middlewares/test_simple_retry.py": 2,
+      "taskiq/middlewares/simple_retry_middleware.py||tests/middlewares/test_task_retry.py": 2,
+      "taskiq/middlewares/taskiq_admin_middleware.py||tests/middlewares/test_taskiq_admin_middleware.py": 2,
+      "taskiq/receiver/params_parser.py||taskiq/receiver/receiver.py": 3,
+      "taskiq/receiver/params_parser.py||tests/cli/worker/test_parameters_parsing.py": 4,
+      "taskiq/receiver/params_parser.py||tests/receiver/test_receiver.py": 2,
+      "taskiq/receiver/receiver.py||taskiq/result/v1.py": 4,
+      "taskiq/receiver/receiver.py||taskiq/serialization.py": 2,
+      "taskiq/receiver/receiver.py||taskiq/task.py": 2,
+      "taskiq/receiver/receiver.py||taskiq/utils.py": 2,
+      "taskiq/receiver/receiver.py||tests/cli/worker/test_parameters_parsing.py": 3,
+      "taskiq/receiver/receiver.py||tests/conftest.py": 3,
+      "taskiq/receiver/receiver.py||tests/opentelemetry/taskiq_test_tasks.py": 2,
+      "taskiq/receiver/receiver.py||tests/receiver/test_receiver.py": 16,
+      "taskiq/receiver/receiver.py||tests/test_requeue.py": 2,
+      "taskiq/receiver/receiver.py||tox.ini": 2,
+      "taskiq/result/__init__.py||taskiq/result/v1.py": 2,
+      "taskiq/result/__init__.py||taskiq/result/v2.py": 2,
+      "taskiq/result/v1.py||taskiq/result/v2.py": 3,
+      "taskiq/result/v1.py||taskiq/serialization.py": 2,
+      "taskiq/result/v1.py||taskiq/task.py": 2,
+      "taskiq/result/v1.py||taskiq/types_helpers.py": 2,
+      "taskiq/result/v1.py||tests/test_result.py": 2,
+      "taskiq/schedule_sources/label_based.py||taskiq/scheduler/merge_functions.py": 2,
+      "taskiq/schedule_sources/label_based.py||taskiq/scheduler/scheduler.py": 4,
+      "taskiq/schedule_sources/label_based.py||tests/cli/scheduler/test_task_delays.py": 4,
+      "taskiq/schedule_sources/label_based.py||tests/conftest.py": 2,
+      "taskiq/schedule_sources/label_based.py||tests/schedule_sources/test_label_based.py": 5,
+      "taskiq/schedule_sources/label_based.py||tests/scheduler/test_label_based_sched.py": 5,
+      "taskiq/schedule_sources/label_based.py||tox.ini": 2,
+      "taskiq/scheduler/merge_functions.py||taskiq/scheduler/scheduler.py": 4,
+      "taskiq/scheduler/merge_functions.py||tests/cli/scheduler/test_task_delays.py": 2,
+      "taskiq/scheduler/merge_functions.py||tests/schedule_sources/test_label_based.py": 2,
+      "taskiq/scheduler/merge_functions.py||tests/scheduler/test_label_based_sched.py": 3,
+      "taskiq/scheduler/scheduled_task.py||tests/schedule_sources/test_label_based.py": 2,
+      "taskiq/scheduler/scheduled_task.py||tests/scheduler/test_label_based_sched.py": 2,
+      "taskiq/scheduler/scheduled_task/v1.py||taskiq/scheduler/scheduled_task/v2.py": 2,
+      "taskiq/scheduler/scheduler.py||tests/cli/scheduler/test_task_delays.py": 4,
+      "taskiq/scheduler/scheduler.py||tests/schedule_sources/test_label_based.py": 3,
+      "taskiq/scheduler/scheduler.py||tests/scheduler/test_label_based_sched.py": 4,
+      "taskiq/serialization.py||taskiq/task.py": 2,
+      "taskiq/serialization.py||tests/test_result.py": 2,
+      "taskiq/serializers/__init__.py||tests/cli/scheduler/test_task_delays.py": 2,
+      "taskiq/serializers/__init__.py||tests/serializers/test_serializers.py": 2,
+      "taskiq/serializers/json_serializer.py||tests/formatters/test_json_formatter.py": 2,
+      "taskiq/serializers/json_serializer.py||tests/formatters/test_proxy_formatter.py": 2,
+      "taskiq/serializers/json_serializer.py||tests/serializers/test_json_serializer.py": 2,
+      "taskiq/task.py||taskiq/types_helpers.py": 2,
+      "taskiq/task.py||taskiq/utils.py": 3,
+      "taskiq/utils.py||tests/receiver/test_receiver.py": 2,
+      "tests/api/test_scheduler.py||tests/opentelemetry/test_auto_instrumentation.py": 2,
+      "tests/api/test_scheduler.py||tests/opentelemetry/test_tasks.py": 2,
+      "tests/cli/scheduler/test_task_delays.py||tests/schedule_sources/test_label_based.py": 3,
+      "tests/cli/scheduler/test_task_delays.py||tests/scheduler/test_label_based_sched.py": 3,
+      "tests/cli/worker/test_log_collector.py||tests/receiver/test_receiver.py": 2,
+      "tests/cli/worker/test_parameters_parsing.py||tests/receiver/test_receiver.py": 2,
+      "tests/conftest.py||tox.ini": 2,
+      "tests/formatters/test_json_formatter.py||tests/formatters/test_proxy_formatter.py": 2,
+      "tests/opentelemetry/test_auto_instrumentation.py||tests/opentelemetry/test_tasks.py": 2,
+      "tests/receiver/test_receiver.py||tests/test_serialization.py": 2,
+      "tests/schedule_sources/test_label_based.py||tests/scheduler/test_label_based_sched.py": 6
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore",
+          "README.md",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/__init__.py"
+        ],
+        "sha": "7979f2d9218305334c2d123909f53e3dceccf536",
+        "timestamp": 1658066864
+      },
+      {
+        "files": [
+          ".flake8",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/__init__.py",
+          "taskiq/__main__.py",
+          "taskiq/abc/broker.py",
+          "taskiq/abc/result_backend.py",
+          "taskiq/cli/__init__.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/cli/worker/log_collector.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/message.py",
+          "taskiq/result_backends/dummy.py"
+        ],
+        "sha": "d8244bcc02b1d67256cab852fc831cab0dda9a5e",
+        "timestamp": 1658830895
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/abc/result_backend.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/message.py"
+        ],
+        "sha": "2f93348d888ddfc901bdf3d01cfa4bee15f17693",
+        "timestamp": 1659002759
+      },
+      {
+        "files": [
+          "taskiq/decor.py",
+          "taskiq/exceptions.py"
+        ],
+        "sha": "7db2e2fcc3f3cf2b2618831cc1dcf6142a0b2e46",
+        "timestamp": 1659003202
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "taskiq/abc/result_backend.py",
+          "taskiq/cli/worker/async_task_runner.py"
+        ],
+        "sha": "9004b022e5f7c2ba19a0ccd88eeb66b4a3868e88",
+        "timestamp": 1659037711
+      },
+      {
+        "files": [
+          "taskiq/__main__.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "7825e8a2ef80693c22e6cbedf70f490f541004f1",
+        "timestamp": 1659260667
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "b50f70b518b7fb7d6e8164596072b00dfb846da7",
+        "timestamp": 1659261149
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py"
+        ],
+        "sha": "052ddb4fff1d0e7d116281613f68645e5a557e2b",
+        "timestamp": 1659420318
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "taskiq/abc/result_backend.py"
+        ],
+        "sha": "73b99054b25ed5c5ec2745a2316e7892615f826d",
+        "timestamp": 1659435057
+      },
+      {
+        "files": [
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/cli/worker/async_task_runner.py"
+        ],
+        "sha": "5e88008144ff019b778bcadf4c7534268a3a5377",
+        "timestamp": 1659461243
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "4fe5e48897255ee3cbffa7962cd54e3d0b2a8690",
+        "timestamp": 1659464224
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "475dd185e13ccb4bf859a0ff131b4228afdd0d63",
+        "timestamp": 1659469507
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/async_task_runner.py"
+        ],
+        "sha": "64440daeb3129e505a4f6ca0279d3276868a5d0b",
+        "timestamp": 1659472990
+      },
+      {
+        "files": [
+          "taskiq/__init__.py",
+          "taskiq/abc/broker.py",
+          "taskiq/abc/result_backend.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/decor.py",
+          "taskiq/kicker.py",
+          "taskiq/result/v1.py",
+          "taskiq/task.py",
+          "taskiq/types_helpers.py"
+        ],
+        "sha": "ec5063e30d4ecdda3806b19f64905ee8e576a240",
+        "timestamp": 1659512923
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/exceptions.py",
+          "taskiq/kicker.py",
+          "taskiq/task.py"
+        ],
+        "sha": "4aa1c0e8f1d201bc91e6ca9d40406fd76e21b23c",
+        "timestamp": 1659543441
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/async_task_runner.py"
+        ],
+        "sha": "c28efb71a50a540f4580578271f8e3632ce26878",
+        "timestamp": 1659554397
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "taskiq/brokers/shared_broker.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/result_backends/dummy.py"
+        ],
+        "sha": "17c2332022d6ffb32e3fe8c1ad20d8876f2628c0",
+        "timestamp": 1659567247
+      },
+      {
+        "files": [
+          ".flake8",
+          "taskiq/abc/broker.py",
+          "taskiq/abc/formatter.py",
+          "taskiq/abc/result_backend.py",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/brokers/shared_broker.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/decor.py",
+          "taskiq/formatters/json_formatter.py",
+          "taskiq/kicker.py",
+          "taskiq/message.py",
+          "taskiq/plugins/__init__.py",
+          "taskiq/result/v1.py",
+          "taskiq/task.py",
+          "taskiq/types_helpers.py"
+        ],
+        "sha": "b124c0631c2976284d07d811fb42046c55244b5c",
+        "timestamp": 1659600993
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "taskiq/abc/formatter.py",
+          "taskiq/abc/middleware.py",
+          "taskiq/abc/result_backend.py",
+          "taskiq/brokers/shared_broker.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/formatters/json_formatter.py",
+          "taskiq/kicker.py"
+        ],
+        "sha": "4c008df749395086f8b629f147423256fcc1abf4",
+        "timestamp": 1659648740
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/cli/worker/log_collector.py"
+        ],
+        "sha": "48615c2ac931c2e5e46cfc0f0e03b7203367894c",
+        "timestamp": 1659694669
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "1241545f60a97f28b1a90e6dde85529996704d4b",
+        "timestamp": 1659704569
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/async_task_runner.py"
+        ],
+        "sha": "89e8d643782066275cb9b7f9be53c4edf5738506",
+        "timestamp": 1659707304
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "c72a62b81d3a0a79563ee82361319d1e18a2e75c",
+        "timestamp": 1659729684
+      },
+      {
+        "files": [
+          "taskiq/abc/middleware.py",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/cli/worker/async_task_runner.py"
+        ],
+        "sha": "7b6609b080f474cb2a4513bd8426258c0efed899",
+        "timestamp": 1659731488
+      },
+      {
+        "files": [
+          "taskiq/__init__.py",
+          "taskiq/abc/broker.py",
+          "taskiq/abc/formatter.py",
+          "taskiq/abc/middleware.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/formatters/__init__.py",
+          "taskiq/formatters/json_formatter.py",
+          "taskiq/kicker.py",
+          "taskiq/message.py",
+          "taskiq/middlewares/__init__.py",
+          "taskiq/middlewares/simple_retry_middleware.py",
+          "taskiq/plugins/__init__.py"
+        ],
+        "sha": "0a7c5956fef8957a1052d2f1aca58fcb26759a6d",
+        "timestamp": 1659947928
+      },
+      {
+        "files": [
+          "taskiq/kicker.py"
+        ],
+        "sha": "671546e0efeeb7bf16f1a1350d9ba7d6a49fdcb0",
+        "timestamp": 1659951630
+      },
+      {
+        "files": [
+          "taskiq/middlewares/simple_retry_middleware.py"
+        ],
+        "sha": "e9c68577a55d31af5aee1cd17a89e6fcca5792cc",
+        "timestamp": 1659953034
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/decor.py",
+          "taskiq/kicker.py",
+          "taskiq/task.py",
+          "taskiq/utils.py"
+        ],
+        "sha": "fff31a55b6211dc47ed204dba40af678c2ff8ffc",
+        "timestamp": 1659983493
+      },
+      {
+        "files": [
+          "README.md",
+          "pyproject.toml",
+          "taskiq/brokers/inmemory_broker.py"
+        ],
+        "sha": "b64e8ff8d6d9d393364dd6d848cfb7a2b900d328",
+        "timestamp": 1659990996
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "7830ce47f6d13ff2b91bf3cfb4f70b3408ccb980",
+        "timestamp": 1659991964
+      },
+      {
+        "files": [
+          "README.md",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/__init__.py",
+          "taskiq/abc/broker.py",
+          "taskiq/brokers/zmq_broker.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "2aeb77a81d8961929ce3f195edb3ba88dbc38350",
+        "timestamp": 1660061851
+      },
+      {
+        "files": [
+          ".flake8",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "66209c01c8f8841de05256435659f272700f498d",
+        "timestamp": 1660130277
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "b77d3a6bf2caa8f64a1b212d2a0b61b234cd11f4",
+        "timestamp": 1660159426
+      },
+      {
+        "files": [
+          ".flake8",
+          "taskiq/abc/broker.py"
+        ],
+        "sha": "eeac5769651b78406a9b3cdf435c4e7b16aa9749",
+        "timestamp": 1660161381
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "739f227caf137a5651b2951ad542008b43532226",
+        "timestamp": 1660161676
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "dfe35e1d7bbdbffb87171bc18407000cefd7c65f",
+        "timestamp": 1660161676
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "86eba83aadf7470ae886376abe0ca3e4525a66a8",
+        "timestamp": 1660255136
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "3d455878f6ba36187455bc60e1afc3fe71ad748d",
+        "timestamp": 1660255291
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/cli/watcher.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "ed8826eccbc1774f700b77d974e7af06ef920276",
+        "timestamp": 1660294415
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "9a18d42d20a852499a2ed96e088632bd2cc8d446",
+        "timestamp": 1660302077
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "c81f43de9b9998bcdd0284802eb07ac602e5731e",
+        "timestamp": 1660302095
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "b79975adc77b84e8c336987ba29f89c5af234345",
+        "timestamp": 1660468597
+      },
+      {
+        "files": [
+          "taskiq/middlewares/simple_retry_middleware.py"
+        ],
+        "sha": "ed3c789b145bf32976ddab0bd049bf48d5ab23ac",
+        "timestamp": 1660731909
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/kicker.py"
+        ],
+        "sha": "e22e7d1d22e74b0e7605e1b9d8c6fb46d7919f17",
+        "timestamp": 1660753520
+      },
+      {
+        "files": [
+          "taskiq/kicker.py"
+        ],
+        "sha": "b1aabeb074998353237f498ce5723b69fb4b7bf1",
+        "timestamp": 1661241950
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "f1f331d3c941e0dea9d06a7017e2169b0ab02570",
+        "timestamp": 1661242412
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/context.py"
+        ],
+        "sha": "a859626f39a66eee00351c650b753ed1509a2b5a",
+        "timestamp": 1661264006
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "cfd1992a1696d2585b76e510426a4402f96ca7d8",
+        "timestamp": 1661264187
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/brokers/shared_broker.py",
+          "taskiq/brokers/zmq_broker.py",
+          "taskiq/cli/worker/async_task_runner.py"
+        ],
+        "sha": "a832289ccec9a840eb70ca05b942b7629b88996b",
+        "timestamp": 1661277534
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "b5d6bf5308ba806aad96361a567b8924fed67f5b",
+        "timestamp": 1661361509
+      },
+      {
+        "files": [
+          ".flake8",
+          ".github/workflows/test.yml",
+          ".gitignore",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/__init__.py",
+          "taskiq/funcs.py",
+          "taskiq/tests/test_stub.py",
+          "tests/conftest.py",
+          "tests/test_funcs.py"
+        ],
+        "sha": "a522920b5b2022f245c08db9c80d1a1bf596dc3b",
+        "timestamp": 1661364527
+      },
+      {
+        "files": [
+          ".flake8",
+          ".github/workflows/test.yml",
+          "taskiq/abc/broker.py",
+          "taskiq/abc/middleware.py",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/brokers/zmq_broker.py",
+          "taskiq/cli/watcher.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/receiver/params_parser.py",
+          "taskiq/receiver/receiver.py",
+          "taskiq/result_backends/dummy.py",
+          "tests/cli/worker/test_log_collector.py",
+          "tests/cli/worker/test_parameters_parsing.py",
+          "tests/conftest.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "445fd81a13a9cff9bb380b31cc428278cc8561fd",
+        "timestamp": 1661451425
+      },
+      {
+        "files": [
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/cli/worker/tests/test_context.py",
+          "taskiq/context.py",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "63ab8024e9cabe73c948d217585c35176209c1cb",
+        "timestamp": 1661508043
+      },
+      {
+        "files": [
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/cli/worker/tests/test_context.py",
+          "taskiq/receiver/params_parser.py",
+          "taskiq/receiver/receiver.py",
+          "tests/cli/worker/test_parameters_parsing.py"
+        ],
+        "sha": "0e8b7c6d40dc8f3b231b7fe5dfde2b83aadf8d0d",
+        "timestamp": 1661508874
+      },
+      {
+        "files": [
+          "taskiq/abc/middleware.py",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "aff781d8b02a225e218cd12ac89c2527587e808d",
+        "timestamp": 1661803389
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "48f5f35922342aaaca67274abde45a2e052437a3",
+        "timestamp": 1661803520
+      },
+      {
+        "files": [
+          "taskiq/formatters/json_formatter.py"
+        ],
+        "sha": "71230c2a86c637627e4470689dbe207265367a56",
+        "timestamp": 1661889310
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "37f41b365d267aa6999ea85d1475bc903cbd15bb",
+        "timestamp": 1661889483
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "77b34513c0cb54ddc270b5b48b0e7f4660971704",
+        "timestamp": 1662581452
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "README.md",
+          "docs/.vuepress/public/logo.png",
+          "docs/.vuepress/public/logo.svg",
+          "docs/README.md",
+          "imgs/logo.png",
+          "imgs/logo.svg",
+          "vuepress.config.ts"
+        ],
+        "sha": "98ea2e90fac4333938ba949394d468274dc10fd9",
+        "timestamp": 1663009905
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "0528e37e10ab0ee795fca8d348113442c94f7c19",
+        "timestamp": 1663010124
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/args.py",
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "fb232004bda137712f761c101a155636969d4438",
+        "timestamp": 1663319514
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "bcc9d9ecd25aa9657260d1a3afbbdff03f5e307c",
+        "timestamp": 1663320253
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "tests/abc/test_broker.py"
+        ],
+        "sha": "d451520364e4f6708a205469e8cfb028332451d2",
+        "timestamp": 1663536664
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/log_collector.py"
+        ],
+        "sha": "9e16ee272e8b668fe8fa3bef18783fcfe7420d25",
+        "timestamp": 1664436506
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "da3044f797e905c7ae836467fccc411fef70a4c6",
+        "timestamp": 1665787601
+      },
+      {
+        "files": [
+          "taskiq/kicker.py",
+          "taskiq/scheduler/merge_functions.py",
+          "taskiq/scheduler/scheduler.py",
+          "tests/scheduler/test_label_based_sched.py",
+          "tests/scheduler/test_merge_funcs.py"
+        ],
+        "sha": "331f2822bc026963acc07650612421a699136f53",
+        "timestamp": 1667252938
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/__init__.py",
+          "taskiq/abc/schedule_source.py",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/dependencies.py",
+          "taskiq/receiver/receiver.py",
+          "tests/test_dependencies.py"
+        ],
+        "sha": "b079229ab27da1c45de0aa0829829b0dc1f1a33a",
+        "timestamp": 1667427463
+      },
+      {
+        "files": [
+          "docs/guide/state-and-deps.md"
+        ],
+        "sha": "94df90fbf3d97e520ab553b4f7bb1a85eefe896b",
+        "timestamp": 1667926276
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "5c9555c601719d3a3b16dcc944813a86002043b9",
+        "timestamp": 1671321237
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "79463e2389f4250cf7718674ed6751369626b848",
+        "timestamp": 1671321268
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "18dbb5441c9402eb9231aed6c5c822e41a08c946",
+        "timestamp": 1673077958
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "03d623d1f2c5175ebd2958bdf6297ad29694a35e",
+        "timestamp": 1673079092
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "a1264115765d6de1aed8d7eeedb61bfd74a96ef5",
+        "timestamp": 1673079159
+      },
+      {
+        "files": [
+          "docs/extending-taskiq/result-backend.md",
+          "taskiq/cli/worker/run.py",
+          "taskiq/receiver/receiver.py",
+          "taskiq/result/v1.py"
+        ],
+        "sha": "fb00d46f925ef11dc28299a5f05627cbc43c5cc3",
+        "timestamp": 1674405797
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "00e724c7608ec133df16883df0f2995c3f553bf6",
+        "timestamp": 1674473604
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/cli/utils.py",
+          "taskiq/scheduler/scheduler.py"
+        ],
+        "sha": "e66d3e282a1c4e177ad327d92160a8eb24f82a7c",
+        "timestamp": 1674769806
+      },
+      {
+        "files": [
+          "taskiq/scheduler/scheduler.py"
+        ],
+        "sha": "6f5e8166b145cb74cd1430c28fe0abbf37813f42",
+        "timestamp": 1674769897
+      },
+      {
+        "files": [
+          "taskiq/schedule_sources/label_based.py"
+        ],
+        "sha": "897e451b246f894a30060ebfedd1f1af767de1d7",
+        "timestamp": 1674770054
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "08f62c4c0aac2f15481b306eae581f481f852fd0",
+        "timestamp": 1674770251
+      },
+      {
+        "files": [
+          "docs/examples/extending/broker.py",
+          "docs/extending-taskiq/broker.md",
+          "poetry.lock",
+          "taskiq/abc/broker.py",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/brokers/shared_broker.py",
+          "taskiq/brokers/zmq_broker.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "tests/abc/test_broker.py"
+        ],
+        "sha": "cddc1b549cffc49ec6f033adf735c95446170f3a",
+        "timestamp": 1678693549
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "40555886045a9e2fe1564fdcf147838e07e1d347",
+        "timestamp": 1678694236
+      },
+      {
+        "files": [
+          ".flake8",
+          "taskiq/cli/watcher.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/cli/worker/process_manager.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "4c34980940bc6271a43db2ce5e49f2b2b88297ef",
+        "timestamp": 1679392216
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "c09ab949e6b3cae4d618a400d35778fc5bb6e21c",
+        "timestamp": 1679392539
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "taskiq/cli/worker/process_manager.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "b2079944ff9f755c44052e13d91db776653ebe16",
+        "timestamp": 1679421118
+      },
+      {
+        "files": [
+          "LICENSE",
+          "docs/README.md",
+          "docs/guide/README.md"
+        ],
+        "sha": "7d9fc1e8636cce0faf9d67cf30cc21fb7176bbba",
+        "timestamp": 1679510362
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "1bb0f9520963a80275f4b598bc6b265e7d173685",
+        "timestamp": 1679510647
+      },
+      {
+        "files": [
+          "docs/guide/state-and-deps.md",
+          "taskiq/abc/broker.py",
+          "taskiq/receiver/receiver.py",
+          "tests/cli/worker/test_custom_contexts.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "fc937892144d1c87f1668924981377983cd506f6",
+        "timestamp": 1679607130
+      },
+      {
+        "files": [
+          "docs/available-components/brokers.md"
+        ],
+        "sha": "1d5cd9c92c4355784b3e11c0dd0d777926c91bcb",
+        "timestamp": 1679748434
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "5105ae7e05af2f5eebe2d6646bda641666c0de2a",
+        "timestamp": 1679749847
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "786e7734a37ea46818e1150afe1926f1ba271bab",
+        "timestamp": 1679750898
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "814157e4726b4bf32a54a36fd86b06cb1fe30742",
+        "timestamp": 1679790558
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "afa12791248cda46bb19781f611f4c2bb6e8d376",
+        "timestamp": 1679790594
+      },
+      {
+        "files": [
+          "taskiq/cli/utils.py"
+        ],
+        "sha": "7f8f2fffbf764df63d3355860021dd924898866f",
+        "timestamp": 1679871948
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "91dd2e168eeac5974bbbdf59bdf5673cd37bc305",
+        "timestamp": 1679871990
+      },
+      {
+        "files": [
+          "taskiq/cli/utils.py",
+          "taskiq/cli/watcher.py"
+        ],
+        "sha": "51e753b60b931b6d7abb83a4c0dcf09b4a76cc0a",
+        "timestamp": 1679876265
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "0a3ba44d97c2cfcf54e41eadb2bc3be901f57b0e",
+        "timestamp": 1679876456
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "fe7a53b8a4cfad731ac8ffc1f222b365ecbfaf07",
+        "timestamp": 1680002564
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "b580099894083c611baa04819299a1cfc16eae00",
+        "timestamp": 1680002725
+      },
+      {
+        "files": [
+          "docs/.vuepress/public/favicon.ico",
+          "docs/.vuepress/styles/index.scss",
+          "docs/examples/introduction/inmemory_run.py",
+          "docs/examples/testing/main_file.py",
+          "docs/guide/README.md",
+          "docs/guide/getting-started.md",
+          "docs/guide/scheduling-tasks.md",
+          "docs/guide/taskiq-with-fastapi.md",
+          "docs/guide/testing-taskiq.md",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "sha": "9f7655db6ab0591fa49cbc80ed6194a8ee8c46f7",
+        "timestamp": 1680257408
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "5a12a3577f701e60ab97d92b2ea05099a904990f",
+        "timestamp": 1680257468
+      },
+      {
+        "files": [
+          "taskiq/brokers/inmemory_broker.py",
+          "tests/brokers/test_inmemory.py"
+        ],
+        "sha": "e66f3aa0f3c5ed94264229a5f8554bfca8bdc949",
+        "timestamp": 1680478057
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "6a38f33fea7c6168d1534163939763178df7868a",
+        "timestamp": 1680685553
+      },
+      {
+        "files": [
+          ".flake8",
+          "taskiq/__main__.py",
+          "taskiq/abc/broker.py",
+          "taskiq/cli/utils.py",
+          "taskiq/cli/watcher.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/decor.py",
+          "taskiq/kicker.py",
+          "taskiq/receiver/receiver.py",
+          "taskiq/task.py",
+          "taskiq/utils.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "a1daa657ec2b0d9b86b4d2e2c7f6c84e0fce15ac",
+        "timestamp": 1680696491
+      },
+      {
+        "files": [
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/async_task_runner.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/receiver/__init__.py",
+          "taskiq/receiver/params_parser.py",
+          "taskiq/receiver/receiver.py",
+          "tests/cli/worker/test_parameters_parsing.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "091e7033a471f00d44c60d807ee37443db4b656c",
+        "timestamp": 1680734626
+      },
+      {
+        "files": [
+          "taskiq/receiver/receiver.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "626a6d7cd4783a8cc4d57ade2d74b13d9dd567ea",
+        "timestamp": 1680880418
+      },
+      {
+        "files": [
+          "taskiq/formatters/json_formatter.py",
+          "taskiq/message.py"
+        ],
+        "sha": "3ada714ac042ecd737357fa4f27ff6cbeb6072b9",
+        "timestamp": 1680880446
+      },
+      {
+        "files": [
+          "docs/available-components/README.md",
+          "docs/available-components/middlewares.md",
+          "docs/extending-taskiq/README.md",
+          "pnpm-lock.yaml",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/__init__.py",
+          "taskiq/middlewares/prometheus_middleware.py",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "979ffb96cccd98cabe19e65bf13d36217bd17761",
+        "timestamp": 1681076481
+      },
+      {
+        "files": [
+          "docs/guide/cli.md",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/__main__.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/process_manager.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "d9a58677389699cee5372551f755c5fc58903331",
+        "timestamp": 1681077165
+      },
+      {
+        "files": [
+          "docs/examples/extending/broker.py",
+          "docs/extending-taskiq/broker.md",
+          "taskiq/abc/broker.py",
+          "taskiq/abc/formatter.py",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/brokers/shared_broker.py",
+          "taskiq/brokers/zmq_broker.py",
+          "taskiq/formatters/json_formatter.py",
+          "taskiq/receiver/receiver.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "2515ef2aa167af8d4fb5980c45e55fe348e5ce03",
+        "timestamp": 1681078471
+      },
+      {
+        "files": [
+          "taskiq/middlewares/prometheus_middleware.py"
+        ],
+        "sha": "9ddc7cdc02ceb90ea9e90ba4aad0f6f87ab10724",
+        "timestamp": 1681081955
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "5409c09443600370be42046c2aac02c475934be7",
+        "timestamp": 1681082103
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py"
+        ],
+        "sha": "a325fef19d2d28fb9f67cbdc24a6b00e5809654b",
+        "timestamp": 1681122408
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/run.py",
+          "taskiq/middlewares/prometheus_middleware.py"
+        ],
+        "sha": "4b0fbe9e6ad25829b079d197d494313aa56e73ae",
+        "timestamp": 1681770524
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "8c85902926b456eb85abbf2354ea8d73d71fcf64",
+        "timestamp": 1681770689
+      },
+      {
+        "files": [
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "282ba6a48cf93af9196328e8cf776234ba6f906d",
+        "timestamp": 1683279819
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py"
+        ],
+        "sha": "c5b82008dab0db01171a837fb08d79f9cc0ffd04",
+        "timestamp": 1683385452
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "355c6e338af335d23e2678dd1b36b48a247b1f4b",
+        "timestamp": 1683385716
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "a764ef4ecea163a357d231023dac154c0fcbff51",
+        "timestamp": 1683629664
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "fb58c11140e25229eec129ffeaa754564b19e642",
+        "timestamp": 1683642981
+      },
+      {
+        "files": [
+          "taskiq/brokers/inmemory_broker.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "4549f1764da7b398465c7db27d189c1e7ce4ae9f",
+        "timestamp": 1683643802
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "aca7228bb8bb777a9c43f153d39fb482b55fe0ba",
+        "timestamp": 1683643971
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "e67dab370e66e4d6f5f337b288654295326bfc0b",
+        "timestamp": 1683756124
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "4ae1712014ae6ac5b88202b4c18586c5e3d037ae",
+        "timestamp": 1684378089
+      },
+      {
+        "files": [
+          ".flake8",
+          "taskiq/abc/middleware.py",
+          "taskiq/exceptions.py",
+          "taskiq/middlewares/simple_retry_middleware.py",
+          "taskiq/receiver/receiver.py",
+          "taskiq/result/v1.py",
+          "taskiq/serialization.py",
+          "tests/receiver/test_receiver.py",
+          "tests/test_result.py",
+          "tests/test_serialization.py"
+        ],
+        "sha": "4b922c05db972ac3c6224e52e3ec60b4da85045f",
+        "timestamp": 1684410272
+      },
+      {
+        "files": [
+          "taskiq/exceptions.py",
+          "taskiq/receiver/receiver.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "7388c6a1efaddaf8bd177fc732fdaa834661184c",
+        "timestamp": 1684427985
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml"
+        ],
+        "sha": "9001a97a0dbbe718b58d302e0c454312ea335df4",
+        "timestamp": 1684457472
+      },
+      {
+        "files": [
+          "docs/.vuepress/config.ts",
+          "docs/README.md",
+          "docs/available-components/README.md",
+          "docs/extending-taskiq/README.md",
+          "docs/framework_integrations/README.md",
+          "docs/framework_integrations/taskiq-with-aiohttp.md",
+          "docs/framework_integrations/taskiq-with-fastapi.md",
+          "docs/guide/taskiq-with-fastapi.md",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "sha": "b03811f8b2147ebb31d2ff6627c1714969f1a4e7",
+        "timestamp": 1684700476
+      },
+      {
+        "files": [
+          "docs/guide/state-and-deps.md",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "ab3c9116d61b42099d0fb4a45e954ed77a494f54",
+        "timestamp": 1684706962
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "fe736ebc83edc7ce7aabce446ee3787c73f0d64d",
+        "timestamp": 1684707100
+      },
+      {
+        "files": [
+          "poetry.lock"
+        ],
+        "sha": "28692eb7104e90a0f775b86ed442f21c5156ca5c",
+        "timestamp": 1684778862
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "e56cf1d92adf1ed0d2b03aef1d796f9cee1fbf4a",
+        "timestamp": 1685051799
+      },
+      {
+        "files": [
+          "docs/examples/extending/broker.py",
+          "docs/extending-taskiq/broker.md",
+          "taskiq/__init__.py",
+          "taskiq/abc/broker.py",
+          "taskiq/acks.py",
+          "taskiq/exceptions.py",
+          "taskiq/receiver/receiver.py",
+          "taskiq/utils.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "1625972a12fa9f5b5eb50774929dc8567cf3509b",
+        "timestamp": 1685061956
+      },
+      {
+        "files": [
+          "taskiq/__init__.py",
+          "taskiq/__main__.py",
+          "tests/cli/worker/test_log_collector.py",
+          "tests/receiver/test_receiver.py",
+          "tests/test_state.py"
+        ],
+        "sha": "bd1bd9d88428a335b3c37ae910ee9191343c81b4",
+        "timestamp": 1685114695
+      },
+      {
+        "files": [
+          "taskiq/middlewares/simple_retry_middleware.py",
+          "tests/middlewares/test_simple_retry.py",
+          "tests/middlewares/test_task_retry.py"
+        ],
+        "sha": "a48817488d5a910670b8d20f0e9fa3844f2191bc",
+        "timestamp": 1685180827
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "f020045701ee92c83716f69d1a44a564e9ab0d7f",
+        "timestamp": 1685181322
+      },
+      {
+        "files": [
+          "taskiq/__init__.py",
+          "taskiq/acks.py",
+          "taskiq/context.py",
+          "taskiq/exceptions.py",
+          "taskiq/receiver/receiver.py",
+          "tests/receiver/test_receiver.py",
+          "tests/test_requeue.py"
+        ],
+        "sha": "8afb1c9424ffc23c781ff8a54f4c63709b47b472",
+        "timestamp": 1686418100
+      },
+      {
+        "files": [
+          ".flake8",
+          "taskiq/abc/broker.py",
+          "taskiq/receiver/receiver.py",
+          "tests/conftest.py",
+          "tests/test_requeue.py"
+        ],
+        "sha": "d9bca890d96d554d8f6ebb5a8ec7289e1ec8a92b",
+        "timestamp": 1686421543
+      },
+      {
+        "files": [
+          ".flake8",
+          ".github/workflows/test.yml",
+          "poetry.lock",
+          "pyproject.toml",
+          "tests/middlewares/test_task_retry.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "0b7a4cb0fe6d403db7828be2e03371257b1b4f50",
+        "timestamp": 1686423617
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "25deb55d940777c74cc38f02e3e856a346394f4e",
+        "timestamp": 1686486244
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "ebc1afed41fb032c79fa428b95c71d9ecfb25aaa",
+        "timestamp": 1686489962
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "7e05ea899730b6188c34b6d81ce14c7285c2798b",
+        "timestamp": 1686491475
+      },
+      {
+        "files": [
+          "taskiq/context.py",
+          "tests/test_requeue.py"
+        ],
+        "sha": "0195b60c0027333eca985b01c5453e8269eacda3",
+        "timestamp": 1686560996
+      },
+      {
+        "files": [
+          "taskiq/receiver/receiver.py",
+          "taskiq/result/v1.py"
+        ],
+        "sha": "44bd8e13c6186a364838243db221c690cbc94310",
+        "timestamp": 1687019435
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "052e675f08bb9d0559b4aa12a66b7f571550be12",
+        "timestamp": 1687019469
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/compat.py",
+          "taskiq/formatters/json_formatter.py",
+          "taskiq/receiver/params_parser.py",
+          "taskiq/result/__init__.py",
+          "taskiq/result/v1.py",
+          "taskiq/result/v2.py",
+          "taskiq/serialization.py",
+          "tests/cli/worker/test_parameters_parsing.py",
+          "tests/test_result.py"
+        ],
+        "sha": "f323fcd15ea1ffbe6abb22753cc0b781eabeea7d",
+        "timestamp": 1688588249
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/process_manager.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "d8699d523783a1df73642fcd127873ea3ec40858",
+        "timestamp": 1688854858
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "63eb361fce573ff4d93d03d6aae713106c8f4ef6",
+        "timestamp": 1688854878
+      },
+      {
+        "files": [
+          "docs/.vuepress/styles/index.scss",
+          "docs/guide/architecture-overview.md",
+          "docs/guide/cli.md",
+          "docs/guide/state-and-deps.md",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "sha": "deccc2e4375c3a271c93b7baaa9c774fa163d07a",
+        "timestamp": 1688990359
+      },
+      {
+        "files": [
+          ".python-version",
+          "poetry.lock",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "95a90fe61d754d12adb491822c262f340456e797",
+        "timestamp": 1689010237
+      },
+      {
+        "files": [
+          "docs/contrib.md",
+          "tox.ini"
+        ],
+        "sha": "2127c0796c6c53b1b197a1b2aff51cb68982d652",
+        "timestamp": 1689012960
+      },
+      {
+        "files": [
+          "taskiq/compat.py",
+          "taskiq/serialization.py"
+        ],
+        "sha": "6fb6c33ccea292a8a939b92b6633138580a53d1d",
+        "timestamp": 1689020974
+      },
+      {
+        "files": [
+          "docs/examples/extending/middleware_async.py",
+          "docs/examples/extending/middleware_sync.py",
+          "taskiq/abc/broker.py",
+          "taskiq/abc/middleware.py",
+          "taskiq/brokers/zmq_broker.py",
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/middlewares/prometheus_middleware.py",
+          "tests/conftest.py"
+        ],
+        "sha": "2f9923102482d136871579bc1c01411fe31bca1e",
+        "timestamp": 1689024534
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "a816c6c84f301db9cf2e6ba80a7faf9ea304b9c3",
+        "timestamp": 1689024824
+      },
+      {
+        "files": [
+          ".gitignore",
+          "docs/examples/extending/schedule_source.py",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/abc/schedule_source.py",
+          "taskiq/cli/scheduler/args.py",
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/schedule_sources/label_based.py",
+          "taskiq/scheduler/scheduler.py",
+          "tests/conftest.py",
+          "tests/schedule_sources/test_label_based.py",
+          "tests/scheduler/test_label_based_sched.py",
+          "tox.ini"
+        ],
+        "sha": "5dffdee0f31a529a359801926ac8930f670403db",
+        "timestamp": 1689063092
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "d322481e175b7be0a4f3e4143c8c7be45d42ef5c",
+        "timestamp": 1689066884
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "766b6054154df14d86fe5892dcbfa3e810df9214",
+        "timestamp": 1689067267
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "673ae2993f4f3731e5cba3c356afcf66b0a56a1d",
+        "timestamp": 1689157460
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "6892cd4775c78dde3f4b8572262d429ce23ada62",
+        "timestamp": 1689157581
+      },
+      {
+        "files": [
+          "taskiq/__init__.py"
+        ],
+        "sha": "d52441171071d0d0412fee0a5c41bb108ed5a09b",
+        "timestamp": 1689236948
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "taskiq/middlewares/prometheus_middleware.py"
+        ],
+        "sha": "568d92b61a29846bbdca0d2fc21bc8aaaba65416",
+        "timestamp": 1689241488
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "taskiq/middlewares/prometheus_middleware.py"
+        ],
+        "sha": "20fc5f21836b2435f3278fba0a2749146a533dcd",
+        "timestamp": 1689322570
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "4f9f1ae2f2b5181850fa85672e82517070d8ae13",
+        "timestamp": 1689623314
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "2863f87ab7b75a68db7deaa38292419090cade49",
+        "timestamp": 1689711670
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/args.py",
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "c7dc69c9772a8b45dfcb331715016da59a2319a4",
+        "timestamp": 1689893632
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "3d5992b2ad71e1aaf1ef8501f81edde6502e19f6",
+        "timestamp": 1689898714
+      },
+      {
+        "files": [
+          "docs/README.md"
+        ],
+        "sha": "6f88a074c29041de74803f42097378b7efc16a71",
+        "timestamp": 1690130806
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "52538da8f54a2b22a8cdb37338dfc0446107c12d",
+        "timestamp": 1690130855
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "taskiq/__main__.py",
+          "taskiq/abc/cmd.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/cmd.py",
+          "taskiq/cli/worker/process_manager.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "e10a4b9a95a35847836cbc16bfa448c7bed147d3",
+        "timestamp": 1691889320
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/scheduler/scheduler.py"
+        ],
+        "sha": "5a8c09fd91aed80812c79169587a7dbed4dae653",
+        "timestamp": 1693343192
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "72ab3093d6e28a8e66adbb4e6459304efbadebaa",
+        "timestamp": 1693742179
+      },
+      {
+        "files": [
+          "docs/guide/getting-started.md",
+          "taskiq/receiver/receiver.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "b733a38351a67ee102126e1500b56577b784675a",
+        "timestamp": 1694248677
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "1a3f3d353612081b22aa2cfac4bd8e68f670bebc",
+        "timestamp": 1694248708
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/schedule_sources/label_based.py",
+          "taskiq/scheduler/scheduler.py",
+          "tests/cli/scheduler/test_task_delays.py"
+        ],
+        "sha": "1d16c3e26b1f3c694466ab90182a5a4a048a0e14",
+        "timestamp": 1694770870
+      },
+      {
+        "files": [
+          "docs/available-components/schedule-sources.md",
+          "docs/examples/state/async_generator_deps_annot.py",
+          "docs/examples/state/class_dependency_annot.py",
+          "docs/examples/state/dependencies_tree_annot.py",
+          "docs/examples/state/events_example_annot.py",
+          "docs/examples/state/generator_deps_annot.py",
+          "docs/examples/state/generics.py",
+          "docs/examples/state/generics_annot.py",
+          "docs/examples/state/no_cache_annot.py",
+          "docs/framework_integrations/taskiq-with-aiohttp.md",
+          "docs/framework_integrations/taskiq-with-fastapi.md",
+          "docs/guide/architecture-overview.md",
+          "docs/guide/scheduling-tasks.md",
+          "docs/guide/state-and-deps.md",
+          "docs/guide/testing-taskiq.md",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "sha": "915df3ecff77f7e184a1488e307102257dccc927",
+        "timestamp": 1694779133
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/run.py",
+          "tests/cli/scheduler/test_task_delays.py"
+        ],
+        "sha": "27bddb749b3c0192deb56c55e78f9851aae5270a",
+        "timestamp": 1694791609
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "5d9700f005947f24118c9c069b5f4ce54f089a05",
+        "timestamp": 1694791677
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/brokers/shared_broker.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/receiver/receiver.py",
+          "taskiq/schedule_sources/label_based.py",
+          "tests/conftest.py",
+          "tox.ini"
+        ],
+        "sha": "4b8f015361dbcec613e4c5baefb7f362083c5f3a",
+        "timestamp": 1695661460
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py"
+        ],
+        "sha": "8e0811b002aeb0c4a1e02afa5034846eae2504d3",
+        "timestamp": 1695663121
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "b9246af3e6cb92ffdc5e614e8d98b3b055179f90",
+        "timestamp": 1695745855
+      },
+      {
+        "files": [
+          "docs/examples/dynamics/dyn_receiver.py",
+          "docs/examples/dynamics/dyn_scheduler.py",
+          "docs/guide/dynamic-brokers.md"
+        ],
+        "sha": "d6a17269043d2eb9e3af433317a60645b812252c",
+        "timestamp": 1695750442
+      },
+      {
+        "files": [
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/receiver/receiver.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "28b873fe24f83aac13bb824c4ac0223b37580354",
+        "timestamp": 1696078801
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "66da7fe25a5dc20f7cb22878f166549ef222d904",
+        "timestamp": 1696186887
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "34db231d49abf41d4cf1642eb04bfaef5d62dffe",
+        "timestamp": 1696578252
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/abc/broker.py",
+          "taskiq/abc/serializer.py",
+          "taskiq/compat.py",
+          "taskiq/formatters/json_formatter.py",
+          "taskiq/formatters/proxy_formatter.py",
+          "taskiq/message.py",
+          "taskiq/serializers/__init__.py",
+          "taskiq/serializers/json_serializer.py",
+          "tests/formatters/test_json_formatter.py",
+          "tests/formatters/test_proxy_formatter.py",
+          "tests/serializers/test_json_serializer.py"
+        ],
+        "sha": "cf874807f240f4279811bedabee618953186f994",
+        "timestamp": 1696967276
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/test.yml",
+          "docs/examples/dynamics/dyn_broker.py",
+          "docs/examples/dynamics/dyn_receiver.py",
+          "docs/examples/dynamics/dyn_scheduler.py",
+          "docs/guide/dynamic-brokers.md",
+          "poetry.lock"
+        ],
+        "sha": "0705f73e43491320521a6a69c29f3192ad9db60c",
+        "timestamp": 1696968113
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "8cbbc6d08a3ce2623d10d25d9cd6e0d980c89f3c",
+        "timestamp": 1697013095
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "docs/guide/message-format.md",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/abc/broker.py",
+          "taskiq/serializers/__init__.py",
+          "taskiq/serializers/cbor_serializer.py",
+          "taskiq/serializers/msgpack_serializer.py",
+          "taskiq/serializers/orjson_serializer.py",
+          "tests/cli/scheduler/test_task_delays.py",
+          "tests/serializers/test_serializers.py"
+        ],
+        "sha": "43af7a900501a7ddbac288dc58987f71131662a4",
+        "timestamp": 1697311034
+      },
+      {
+        "files": [
+          "docs/examples/extending/schedule_source.py",
+          "taskiq/abc/schedule_source.py",
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/schedule_sources/label_based.py",
+          "taskiq/scheduler/merge_functions.py",
+          "taskiq/scheduler/scheduler.py",
+          "tests/cli/scheduler/test_task_delays.py",
+          "tests/schedule_sources/test_label_based.py",
+          "tests/scheduler/test_label_based_sched.py"
+        ],
+        "sha": "02c2817488d0c7563b53f4718bded9153521ca15",
+        "timestamp": 1697401937
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "71408f6f853be8395a472b2456f85bfe42a93196",
+        "timestamp": 1697463766
+      },
+      {
+        "files": [
+          "docs/examples/extending/schedule_source.py",
+          "docs/examples/schedule/intro.py",
+          "taskiq/__init__.py",
+          "taskiq/abc/schedule_source.py",
+          "taskiq/api/scheduler.py",
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/decor.py",
+          "taskiq/kicker.py",
+          "taskiq/schedule_sources/label_based.py",
+          "taskiq/scheduler/__init__.py",
+          "taskiq/scheduler/merge_functions.py",
+          "taskiq/scheduler/scheduled_task.py",
+          "taskiq/scheduler/scheduler.py",
+          "tests/cli/scheduler/test_task_delays.py",
+          "tests/schedule_sources/test_label_based.py",
+          "tests/scheduler/test_label_based_sched.py"
+        ],
+        "sha": "8c9f8ecdce055c4533f368b3128fcaa933b7bd39",
+        "timestamp": 1697465810
+      },
+      {
+        "files": [
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "2892d166c4dbfa3bcb2faf991750b468e6451e8a",
+        "timestamp": 1697531930
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "76d4846e44e198a252928ea9e7343e9416a75356",
+        "timestamp": 1697532275
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/scheduler/scheduler.py",
+          "tests/cli/scheduler/test_updater.py"
+        ],
+        "sha": "b223097f7c77e7f10b2d52ec9c38e8ec452b99a3",
+        "timestamp": 1697532709
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "df104217c8608d02fea9810c9b508bff07d0b701",
+        "timestamp": 1697551704
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "e9431bd81439c8c97343225d3e193e3a6caa1244",
+        "timestamp": 1697551818
+      },
+      {
+        "files": [
+          "poetry.lock"
+        ],
+        "sha": "f6a756c5217a39bcb9c9f76e63d7ad9a8f0bad1a",
+        "timestamp": 1697551994
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "29913ce7c76d4134083fd7ae09d37f7805b48462",
+        "timestamp": 1697556337
+      },
+      {
+        "files": [
+          "docs/examples/extending/schedule_source.py",
+          "docs/extending-taskiq/schedule-sources.md",
+          "taskiq/abc/schedule_source.py",
+          "taskiq/decor.py",
+          "taskiq/kicker.py",
+          "taskiq/scheduler/created_schedule.py",
+          "taskiq/scheduler/scheduled_task.py",
+          "tests/schedule_sources/test_label_based.py",
+          "tests/scheduler/test_label_based_sched.py"
+        ],
+        "sha": "dd0758d83f55bbf0605c073cd23571636ccecf38",
+        "timestamp": 1697636585
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "taskiq/abc/broker.py",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "a05bb3ba1b32406b43ce7a01e94c204e7768b1a4",
+        "timestamp": 1697637160
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "5fa5558bbdb62a2e7963fe9699fcea3d18854d5d",
+        "timestamp": 1697637338
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "ff225596797b5dc5d6692af07357deb58ee389b8",
+        "timestamp": 1697710358
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "5a6e9809cf9b79a847617103e0e8bc447c3eaab1",
+        "timestamp": 1697710626
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "4d0a7e3f9f8149721aa3c64f4bb9656bfbd023d3",
+        "timestamp": 1697792051
+      },
+      {
+        "files": [
+          "taskiq/serializers/__init__.py",
+          "taskiq/serializers/pickle.py",
+          "tests/serializers/test_serializers.py"
+        ],
+        "sha": "dab1de40e373fac473a41988566f7e498a411dc2",
+        "timestamp": 1697839042
+      },
+      {
+        "files": [
+          "docs/examples/extending/schedule_source.py",
+          "taskiq/scheduler/scheduled_task.py"
+        ],
+        "sha": "5ca86c659edc23482786610a5b8763c906765d83",
+        "timestamp": 1698185997
+      },
+      {
+        "files": [
+          "docs/extending-taskiq/README.md",
+          "docs/extending-taskiq/middleware.md",
+          "docs/extending-taskiq/result-backend.md"
+        ],
+        "sha": "a74fa4d4bc47662ea46dc3af51c156fc23c21d94",
+        "timestamp": 1698328219
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "taskiq/result/__init__.py",
+          "taskiq/scheduler/scheduled_task.py",
+          "taskiq/scheduler/scheduled_task/__init__.py",
+          "taskiq/scheduler/scheduled_task/cron_spec.py",
+          "taskiq/scheduler/scheduled_task/v1.py",
+          "taskiq/scheduler/scheduled_task/v2.py",
+          "tests/formatters/test_json_formatter.py",
+          "tests/scheduler/__init__.py",
+          "tests/scheduler/test_scheduled_task.py"
+        ],
+        "sha": "a4a6e4d9a4548f9bc6b04d1ad3ef596d352a779f",
+        "timestamp": 1698418741
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/process_manager.py"
+        ],
+        "sha": "9aae39758686fd6fbdeb3ea90559b64503d3ae76",
+        "timestamp": 1699021563
+      },
+      {
+        "files": [
+          "taskiq/acks.py",
+          "taskiq/api/receiver.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "8789d9c39956d5576fba70503005c47c5fd45ee3",
+        "timestamp": 1701379649
+      },
+      {
+        "files": [
+          "docs/available-components/brokers.md",
+          "docs/extending-taskiq/result-backend.md",
+          "docs/guide/architecture-overview.md",
+          "docs/guide/cli.md",
+          "docs/guide/getting-started.md",
+          "docs/guide/scheduling-tasks.md",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "sha": "78d0f684664bb6aa0e7637fdf18aabc8e0c09d4a",
+        "timestamp": 1701382637
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "cb72734774f9f9ac7124074c145fad149236048c",
+        "timestamp": 1701382790
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "78a47bca7a43e75f09291ef43ca017d044e2540a",
+        "timestamp": 1701611711
+      },
+      {
+        "files": [
+          "docs/guide/scheduling-tasks.md",
+          "taskiq/cli/scheduler/args.py",
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "358c11b77fce5e6f805bcae9a75e4b6ac58c7b68",
+        "timestamp": 1701616169
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "b15539137636ba3961e02b05f7bb454ede6be5db",
+        "timestamp": 1701616248
+      },
+      {
+        "files": [
+          "docs/examples/extending/schedule_source.py",
+          "taskiq/abc/schedule_source.py",
+          "taskiq/exceptions.py",
+          "taskiq/scheduler/scheduler.py",
+          "tests/scheduler/test_scheduler.py"
+        ],
+        "sha": "eaf704eda734234870340a5f212ab9db5fddd48d",
+        "timestamp": 1701771131
+      },
+      {
+        "files": [
+          "docs/guide/cli.md"
+        ],
+        "sha": "11bebcc13c1b5241eefaaa2e10bf1e37b29d5b01",
+        "timestamp": 1701784753
+      },
+      {
+        "files": [
+          "docs/guide/cli.md",
+          "taskiq/cli/scheduler/args.py",
+          "taskiq/cli/utils.py",
+          "taskiq/cli/worker/args.py",
+          "tests/cli/test_utils.py"
+        ],
+        "sha": "6bd15508bf5ddeb7faed99d19c86673e63077d35",
+        "timestamp": 1702283477
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/args.py"
+        ],
+        "sha": "7030a54134d5a8a601454bd5df351f8597319ab2",
+        "timestamp": 1702464163
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "d8237b80cedf686170bba5174fa3e060de5cf51d",
+        "timestamp": 1703933080
+      },
+      {
+        "files": [
+          "docs/framework_integrations/taskiq-with-aiohttp.md"
+        ],
+        "sha": "4fe5f0616fecd814bfda9603d33b2ac6998d6286",
+        "timestamp": 1706199458
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/process_manager.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "d708468171a4b2b9ade0d435ce75ebca00938619",
+        "timestamp": 1706636667
+      },
+      {
+        "files": [
+          "taskiq/compat.py"
+        ],
+        "sha": "74467d02dab3686ac6262697b285fd993b5dde91",
+        "timestamp": 1707167375
+      },
+      {
+        "files": [
+          "taskiq/kicker.py",
+          "taskiq/labels.py",
+          "taskiq/message.py",
+          "taskiq/middlewares/simple_retry_middleware.py",
+          "taskiq/receiver/receiver.py",
+          "taskiq/result/v1.py",
+          "taskiq/result/v2.py",
+          "taskiq/serializers/json_serializer.py",
+          "tests/formatters/test_json_formatter.py",
+          "tests/formatters/test_proxy_formatter.py",
+          "tox.ini"
+        ],
+        "sha": "00c708266e354c57a27ff27cb64bd52dfbd61e96",
+        "timestamp": 1707169009
+      },
+      {
+        "files": [
+          "docs/.vuepress/config.ts",
+          "docs/available-components/schedule-sources.md",
+          "docs/contrib.md",
+          "docs/examples/schedule/redis_schedule.py",
+          "docs/framework_integrations/faststream.md",
+          "docs/framework_integrations/taskiq-with-aiogram.md",
+          "docs/guide/architecture-overview.md",
+          "docs/guide/scheduling-tasks.md",
+          "package.json",
+          "pnpm-lock.yaml",
+          "pyproject.toml"
+        ],
+        "sha": "06444ac2a65cc0b29988f2a1ff097eed1c567648",
+        "timestamp": 1707173739
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "dfdcb2bc5f9d2095b2b499827e7021b4815c9df9",
+        "timestamp": 1707176123
+      },
+      {
+        "files": [
+          "docs/available-components/schedule-sources.md"
+        ],
+        "sha": "9d8604f4cb93e847df776f3d436b51d2940f3e23",
+        "timestamp": 1709930687
+      },
+      {
+        "files": [
+          "taskiq/abc/serializer.py",
+          "taskiq/api/receiver.py",
+          "taskiq/compat.py",
+          "taskiq/scheduler/merge_functions.py",
+          "taskiq/scheduler/scheduler.py"
+        ],
+        "sha": "ed37be41a00b43f34d95f0b8c1b2d520f5b1d272",
+        "timestamp": 1710418364
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "8f74c631e536fb0c468f4bc6d470dca9b6e65e11",
+        "timestamp": 1713569839
+      },
+      {
+        "files": [
+          "docs/guide/scheduling-tasks.md"
+        ],
+        "sha": "7cffd826f1ee43d032d8a7f054c0d0054607d931",
+        "timestamp": 1713569883
+      },
+      {
+        "files": [
+          "taskiq/serializers/json_serializer.py"
+        ],
+        "sha": "7f75e7a45b52271fe794c7fb281f1cd32790db56",
+        "timestamp": 1713569914
+      },
+      {
+        "files": [
+          "taskiq/api/receiver.py",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "2f75d9185b08b516591497dd566144c26a35c5c5",
+        "timestamp": 1713570840
+      },
+      {
+        "files": [
+          "docs/guide/cli.md",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "sha": "183d7f6907a3bda8f925568abc548b97c1398420",
+        "timestamp": 1713570962
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "336974b9edf38f6cd060f0b58d258c797f2362fd",
+        "timestamp": 1713571234
+      },
+      {
+        "files": [
+          "docs/framework_integrations/taskiq-with-aiogram.md",
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "bfcc7d20b3621d47a6c1452a5688fd34251643b4",
+        "timestamp": 1714155692
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "a35b086676f73be4bb16426f434baeee544b4933",
+        "timestamp": 1714162051
+      },
+      {
+        "files": [
+          "docs/guide/scheduling-tasks.md",
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/scheduler/scheduler.py"
+        ],
+        "sha": "6b23ce5cfde380344ad1a2edb3639eb608318054",
+        "timestamp": 1714201678
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "9840a3984da1ea346b598f9a3ea3359b4fa4c4d0",
+        "timestamp": 1714201693
+      },
+      {
+        "files": [
+          "docs/guide/cli.md",
+          "taskiq/cli/worker/process_manager.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "6cb2b0425b2e14c5f55e2dee9c3aba739daa1842",
+        "timestamp": 1718142864
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "945748b621d2742bb86be187e2881f4768fefba0",
+        "timestamp": 1718142953
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "taskiq/abc/result_backend.py",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/depends/progress_tracker.py",
+          "taskiq/task.py",
+          "tests/depends/test_progress_tracker.py"
+        ],
+        "sha": "cdb431b7c9a1226c67efb914e229e3aff5da2dbc",
+        "timestamp": 1718265463
+      },
+      {
+        "files": [
+          "docs/guide/cli.md",
+          "taskiq/cli/worker/process_manager.py"
+        ],
+        "sha": "c2897019ac23cbee5f6cbaa3b9cbf6a7ba25616d",
+        "timestamp": 1718346182
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "e0013ef817b87e7069527ea777f9bde71acc7b2f",
+        "timestamp": 1718346711
+      },
+      {
+        "files": [
+          "taskiq/depends/progress_tracker.py"
+        ],
+        "sha": "dd89702be6037b6e0d8d13a2caef306b9178c1fb",
+        "timestamp": 1718617844
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "3c418416538adb5fa63b860464d57159dd4e12ec",
+        "timestamp": 1718617908
+      },
+      {
+        "files": [
+          "docs/guide/state-and-deps.md"
+        ],
+        "sha": "b83c92770c8e9520aede507f3d252feb129b6ace",
+        "timestamp": 1718618029
+      },
+      {
+        "files": [
+          "taskiq/depends/progress_tracker.py",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "49c04082f18098a528e3b46f9a783288e6cd44c8",
+        "timestamp": 1721336125
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          "pyproject.toml",
+          "taskiq/scheduler/created_schedule.py"
+        ],
+        "sha": "d6786c18c9dd671614de32b2ad402c3dd112943b",
+        "timestamp": 1723762503
+      },
+      {
+        "files": [
+          ".flake8",
+          ".pre-commit-config.yaml",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/abc/broker.py",
+          "taskiq/kicker.py",
+          "taskiq/labels.py",
+          "taskiq/serializers/cbor_serializer.py",
+          "taskiq/state.py",
+          "tests/receiver/test_receiver.py",
+          "tests/test_serialization.py",
+          "tests/utils.py"
+        ],
+        "sha": "739be3c8a80320d468a47886ed9debb418589695",
+        "timestamp": 1724889830
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "ee4e5e63070be7bf37e520e3ea7d124f0d783492",
+        "timestamp": 1724914359
+      },
+      {
+        "files": [
+          "taskiq/kicker.py"
+        ],
+        "sha": "437687a7794a9ee0e523ec666347ac538169e160",
+        "timestamp": 1725621561
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/process_manager.py",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "b8b06aba3443aa2a27607715031f11af6c532ff7",
+        "timestamp": 1725622622
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py"
+        ],
+        "sha": "72d33dbaee2955390a6c9073970afba410ed6c1f",
+        "timestamp": 1725622907
+      },
+      {
+        "files": [
+          "taskiq/kicker.py"
+        ],
+        "sha": "41fbc7bac04ad0b1a5ba63e06b90ec653c7af682",
+        "timestamp": 1725622966
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/release_docs.yaml"
+        ],
+        "sha": "3181543dda0e9e5a1f0827039b69330afe56d9da",
+        "timestamp": 1730919953
+      },
+      {
+        "files": [
+          "taskiq/brokers/zmq_broker.py"
+        ],
+        "sha": "317c1d92e2aef1bfe7d4e471d343c561c9097344",
+        "timestamp": 1732118804
+      },
+      {
+        "files": [
+          "docs/guide/cli.md",
+          "pnpm-lock.yaml",
+          "taskiq/api/receiver.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/receiver/receiver.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "e5c6d2bfb587adb29be9d3dbe45db8a915b11312",
+        "timestamp": 1732207575
+      },
+      {
+        "files": [
+          "docs/guide/testing-taskiq.md",
+          "taskiq/brokers/inmemory_broker.py",
+          "tests/brokers/test_inmemory.py"
+        ],
+        "sha": "ae6b214f8659f58d7ea2694e78c45824ca2d9791",
+        "timestamp": 1734043310
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "poetry.lock",
+          "tests/middlewares/test_task_retry.py"
+        ],
+        "sha": "ff6dc265f2b008d1719bc8daa4b2df4ae56582f7",
+        "timestamp": 1734536140
+      },
+      {
+        "files": [
+          "taskiq/labels.py"
+        ],
+        "sha": "fec963390d640c350bdf9ca421dd3d75d1a3dbfc",
+        "timestamp": 1734647415
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/run.py",
+          "tests/cli/scheduler/test_task_delays.py"
+        ],
+        "sha": "40f557903d3cf079dcc8c524cfad85d77e9073c1",
+        "timestamp": 1738629666
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/brokers/shared_broker.py",
+          "taskiq/exceptions.py",
+          "taskiq/funcs.py",
+          "taskiq/receiver/receiver.py",
+          "taskiq/serialization.py",
+          "taskiq/task.py"
+        ],
+        "sha": "8e14595cda70c4f39b8d83ee1b138a641de03aed",
+        "timestamp": 1739983356
+      },
+      {
+        "files": [
+          "taskiq/receiver/params_parser.py",
+          "tests/receiver/test_params_parser.py"
+        ],
+        "sha": "865781481f752912c1157d39fd2d84d84c1cc259",
+        "timestamp": 1740421284
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py"
+        ],
+        "sha": "ec6f3d398b335aba3d3bdb741900729455496f03",
+        "timestamp": 1740591882
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "528c2dbe0e62c19a8cbbdf70a75678e5b8e1b566",
+        "timestamp": 1740591948
+      },
+      {
+        "files": [
+          ".python-version",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/__init__.py",
+          "taskiq/abc/middleware.py",
+          "taskiq/abc/schedule_source.py",
+          "taskiq/decor.py",
+          "taskiq/kicker.py",
+          "taskiq/scheduler/created_schedule.py",
+          "taskiq/serializers/__init__.py",
+          "taskiq/task.py",
+          "taskiq/utils.py",
+          "tests/scheduler/test_scheduler.py",
+          "tox.ini"
+        ],
+        "sha": "a89cac11084adea300f2ee4ab163a2ffa5aac66d",
+        "timestamp": 1740609839
+      },
+      {
+        "files": [
+          "imgs/small-logo.svg"
+        ],
+        "sha": "d7e1b799884404f0c39254702d54c6d729ae52b9",
+        "timestamp": 1741196926
+      },
+      {
+        "files": [
+          "taskiq/cli/utils.py",
+          "tests/cli/test_utils.py"
+        ],
+        "sha": "f6c96b2ecafcfaadee20e4dec25a567608c4ccc5",
+        "timestamp": 1741214421
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "319ac9fe21276ad802c1c52295103f1e93deb22f",
+        "timestamp": 1742022680
+      },
+      {
+        "files": [
+          "docs/guide/getting-started.md"
+        ],
+        "sha": "5a127272c6439541e896d1ebf8bca5e02659271e",
+        "timestamp": 1742575481
+      },
+      {
+        "files": [
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/cli/scheduler/args.py",
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "68a75772da5929b9274a615616976006194eee1e",
+        "timestamp": 1742853369
+      },
+      {
+        "files": [
+          "taskiq/decor.py",
+          "taskiq/kicker.py",
+          "taskiq/serialization.py",
+          "taskiq/task.py"
+        ],
+        "sha": "3356437099dc7a6251747a02eb8e571a8f7d1e20",
+        "timestamp": 1742853393
+      },
+      {
+        "files": [
+          "taskiq/result_backends/dummy.py"
+        ],
+        "sha": "c0374ebd353330a040456eb6c364e8ae9c41bbe8",
+        "timestamp": 1742853420
+      },
+      {
+        "files": [
+          "taskiq/api/receiver.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/process_manager.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/decor.py"
+        ],
+        "sha": "181ff66bee8591a4125d6e2d76604c6dac88058c",
+        "timestamp": 1742862957
+      },
+      {
+        "files": [
+          "docs/guide/cli.md",
+          "taskiq/cli/worker/args.py",
+          "taskiq/schedule_sources/label_based.py"
+        ],
+        "sha": "3e41b152230d0898b946c9b34fbaea48ce59595f",
+        "timestamp": 1742864323
+      },
+      {
+        "files": [
+          "docs/.vuepress/config.ts",
+          "docs/.vuepress/styles/config.scss",
+          "docs/.vuepress/styles/index.scss",
+          "docs/.vuepress/styles/palette.scss",
+          "docs/README.md",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "sha": "d2fe8457bd419ea3642769a56f6f151608673c28",
+        "timestamp": 1742869184
+      },
+      {
+        "files": [
+          "docs/guide/cli.md"
+        ],
+        "sha": "a7fdb9aeebdb7d1ae394639dd177c84d892eed30",
+        "timestamp": 1742891412
+      },
+      {
+        "files": [
+          "docs/guide/cli.md"
+        ],
+        "sha": "3ab40b36af62034e40cad0db789bb2c9d836fa17",
+        "timestamp": 1742892337
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/exceptions.py"
+        ],
+        "sha": "0c4c3a142f5e6df460dc0810616341ffc8e76c4f",
+        "timestamp": 1742896673
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "bdf446f45542190ab63f16e8b5c79358275ce152",
+        "timestamp": 1742922125
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "f445296282afbfc59732b689bd9c0154b6bb2555",
+        "timestamp": 1743718127
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "taskiq/brokers/shared_broker.py",
+          "taskiq/compat.py",
+          "taskiq/decor.py",
+          "taskiq/kicker.py",
+          "taskiq/task.py",
+          "tests/test_task.py"
+        ],
+        "sha": "23422c72c35ccbb8136eb4137743dcea13a86453",
+        "timestamp": 1745016703
+      },
+      {
+        "files": [
+          "taskiq/api/scheduler.py",
+          "taskiq/cli/scheduler/args.py",
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/schedule_sources/label_based.py",
+          "tests/cli/scheduler/test_task_delays.py",
+          "tests/cli/scheduler/test_updater.py",
+          "tests/schedule_sources/test_label_based.py",
+          "tests/scheduler/test_label_based_sched.py"
+        ],
+        "sha": "fbcb1b82ede57070232750dbfb75d6b43b450cdb",
+        "timestamp": 1745084973
+      },
+      {
+        "files": [
+          "taskiq/__init__.py",
+          "taskiq/middlewares/__init__.py",
+          "taskiq/middlewares/simple_retry_middleware.py",
+          "taskiq/middlewares/smart_retry_middleware.py",
+          "tests/middlewares/test_simple_retry.py"
+        ],
+        "sha": "27b63e063e3866c3d22848e7a573450ffa42f4e7",
+        "timestamp": 1745096863
+      },
+      {
+        "files": [
+          "docs/available-components/middlewares.md"
+        ],
+        "sha": "2620fc36074f37bdbe6af4603fabad659260bdf7",
+        "timestamp": 1747070164
+      },
+      {
+        "files": [
+          "taskiq/cli/watcher.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/process_manager.py"
+        ],
+        "sha": "26485ff2ae5067b0d82f40c0dcfc60240f0fda7b",
+        "timestamp": 1750450075
+      },
+      {
+        "files": [
+          "docs/examples/dynamics/dyn_scheduler.py",
+          "docs/guide/scheduling-tasks.md",
+          "taskiq/__init__.py",
+          "taskiq/abc/__init__.py",
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/middlewares/__init__.py",
+          "taskiq/middlewares/smart_retry_middleware.py",
+          "taskiq/result/__init__.py",
+          "taskiq/result/result.py",
+          "taskiq/result/v1.py",
+          "taskiq/result/v2.py",
+          "taskiq/schedule_sources/__init__.py",
+          "taskiq/scheduler/scheduler.py",
+          "taskiq/serializers/__init__.py",
+          "tests/api/test_scheduler.py",
+          "tests/cli/scheduler/test_task_delays.py",
+          "tests/test_task.py"
+        ],
+        "sha": "780aa9031c6597438f768527d8d645de0995dfef",
+        "timestamp": 1750699837
+      },
+      {
+        "files": [
+          "docs/guide/testing-taskiq.md"
+        ],
+        "sha": "0b53745729fbc60efb6b4b3501c2ba299f400b7a",
+        "timestamp": 1750777525
+      },
+      {
+        "files": [
+          "taskiq/middlewares/simple_retry_middleware.py",
+          "taskiq/middlewares/smart_retry_middleware.py",
+          "tests/middlewares/test_task_retry.py"
+        ],
+        "sha": "f09afc429a9eeb5da1a038b2798b56945e4aaa26",
+        "timestamp": 1752596691
+      },
+      {
+        "files": [
+          "docs/guide/README.md"
+        ],
+        "sha": "34e280a26552a3510617fc6acd9d56e6a95f9989",
+        "timestamp": 1755237247
+      },
+      {
+        "files": [
+          "docs/available-components/brokers.md",
+          "docs/available-components/result-backends.md"
+        ],
+        "sha": "3b714ae1f669b846e067cd5f716bcfcd4ad0039d",
+        "timestamp": 1756126363
+      },
+      {
+        "files": [
+          "taskiq/kicker.py",
+          "taskiq/scheduler/scheduled_task/v1.py",
+          "taskiq/scheduler/scheduled_task/v2.py",
+          "taskiq/scheduler/scheduler.py",
+          "tests/test_retry_task.py"
+        ],
+        "sha": "1f2e24e0bc3c1190e6a17eb5d7ec5d311c8b665c",
+        "timestamp": 1758879399
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/middlewares/taskiq_admin_middleware.py"
+        ],
+        "sha": "0e2e7295df174b7029f6d6d3a0327a8ca3bdd143",
+        "timestamp": 1760289151
+      },
+      {
+        "files": [
+          "docs/available-components/schedule-sources.md",
+          "docs/guide/testing-taskiq.md"
+        ],
+        "sha": "c97b4831a2b5bc8dfc8e0bc79d6d8eec2376a654",
+        "timestamp": 1761141733
+      },
+      {
+        "files": [
+          "docs/available-components/schedule-sources.md",
+          "docs/extending-taskiq/schedule-sources.md",
+          "taskiq/schedule_sources/label_based.py",
+          "tests/schedule_sources/test_label_based.py",
+          "tests/scheduler/test_label_based_sched.py"
+        ],
+        "sha": "392a02d20063560c077c73249d97f9ba0d4c5b78",
+        "timestamp": 1761198950
+      },
+      {
+        "files": [
+          "taskiq/brokers/inmemory_broker.py"
+        ],
+        "sha": "1482e3b5819647b90ead91ca14c3a3d573c54ba5",
+        "timestamp": 1761199474
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py"
+        ],
+        "sha": "967cb92f5496904aca768057bae7fc5d67bd2ca8",
+        "timestamp": 1761199712
+      },
+      {
+        "files": [
+          "taskiq/cli/common_args.py",
+          "taskiq/cli/scheduler/args.py",
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "d01e152f1a9f7890a677db0371ee0e818af8595a",
+        "timestamp": 1761200274
+      },
+      {
+        "files": [
+          "taskiq/receiver/receiver.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "4765e3ed33e8b75fce6afb5bcd0ccbf4962c7978",
+        "timestamp": 1761200912
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/release_docs.yaml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "4a0960c0059727b738eef76bd20fa006b11a57dc",
+        "timestamp": 1761215400
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "b588dc68fe0f8edff7e0c7202da99c4edc091d96",
+        "timestamp": 1761215458
+      },
+      {
+        "files": [
+          "docs/guide/scheduling-tasks.md"
+        ],
+        "sha": "4cbdd31c758923fd7f5930e0c8d923edd60630b0",
+        "timestamp": 1761220020
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/args.py",
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/cli/utils.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "04e3185cc701cdefa6e1a77f158a9fcb7c8e0d62",
+        "timestamp": 1761220404
+      },
+      {
+        "files": [
+          "taskiq/cli/utils.py"
+        ],
+        "sha": "9339f9d50e436406acb28caa5625098943bfadcc",
+        "timestamp": 1761220524
+      },
+      {
+        "files": [
+          "taskiq/middlewares/__init__.py",
+          "taskiq/middlewares/taskiq_admin_middleware.py",
+          "tests/middlewares/test_taskiq_admin_middleware.py"
+        ],
+        "sha": "5fd94be54a7d65d84e551f5ad7902427ff6f79b8",
+        "timestamp": 1762339336
+      },
+      {
+        "files": [
+          "docs/.vuepress/config.ts",
+          "docs/.vuepress/public/favicon.png",
+          "docs/.vuepress/public/favicon.svg"
+        ],
+        "sha": "245af65562662fec732f562d0ba4a899bab81e27",
+        "timestamp": 1763129695
+      },
+      {
+        "files": [
+          ".github/workflows/release_docs.yaml"
+        ],
+        "sha": "6256e4d92976de3500976ea233ab91512f0b0630",
+        "timestamp": 1763129769
+      },
+      {
+        "files": [
+          "docs/guide/README.md"
+        ],
+        "sha": "845b0a3d2313fc5cd4f8f3bb9e561af2267025f6",
+        "timestamp": 1763129876
+      },
+      {
+        "files": [
+          "docs/guide/cli.md"
+        ],
+        "sha": "3d7212c100fda407d5c47ad8b76baef87bb5c687",
+        "timestamp": 1763129980
+      },
+      {
+        "files": [
+          "docs/extending-taskiq/broker.md"
+        ],
+        "sha": "82e63c2a0736f3fc6bae66e156f53fcce21ac628",
+        "timestamp": 1763827600
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "taskiq/decor.py",
+          "taskiq/instrumentation.py",
+          "taskiq/kicker.py",
+          "taskiq/middlewares/opentelemetry_middleware.py",
+          "taskiq/package.py",
+          "taskiq/receiver/receiver.py",
+          "taskiq/scheduler/created_schedule.py",
+          "tests/api/test_scheduler.py",
+          "tests/opentelemetry/__init__.py",
+          "tests/opentelemetry/taskiq_test_tasks.py",
+          "tests/opentelemetry/test_auto_instrumentation.py",
+          "tests/opentelemetry/test_duplicate.py",
+          "tests/opentelemetry/test_helpers.py",
+          "tests/opentelemetry/test_tasks.py"
+        ],
+        "sha": "2ed2bd64cdb944c978ff132ca5afd988ed73dad3",
+        "timestamp": 1763838460
+      },
+      {
+        "files": [
+          "docs/guide/getting-started.md"
+        ],
+        "sha": "83b960043e5c8f2777cd0af27b5d816377234340",
+        "timestamp": 1763838559
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "d3097bdb867e110191b5b6f749239d2f1dcb97b8",
+        "timestamp": 1763838712
+      },
+      {
+        "files": [
+          "taskiq/instrumentation.py",
+          "taskiq/middlewares/opentelemetry_middleware.py",
+          "tests/api/test_scheduler.py",
+          "tests/opentelemetry/test_auto_instrumentation.py",
+          "tests/opentelemetry/test_tasks.py"
+        ],
+        "sha": "5c434f6e1ff13a47c42565e02f162f489c037d9d",
+        "timestamp": 1763899159
+      },
+      {
+        "files": [
+          "docs/examples/schedule/redis_schedule.py",
+          "docs/guide/scheduling-tasks.md"
+        ],
+        "sha": "ee91ae88b6f1456974aa9957fe814e71947b25d2",
+        "timestamp": 1763921706
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/process_manager.py"
+        ],
+        "sha": "5140315e4ee0d5dc8ac49e21e2ef3576aeaeb84f",
+        "timestamp": 1764061736
+      },
+      {
+        "files": [
+          "docs/available-components/middlewares.md",
+          "taskiq/instrumentation.py"
+        ],
+        "sha": "5a8ab0e84aeb6d89e5f2ab824cdad30d8a2165c2",
+        "timestamp": 1764181631
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "fd32aa448e64c4624d9de905e69505033dc8ee0f",
+        "timestamp": 1764182233
+      },
+      {
+        "files": [
+          ".github/workflows/release_docs.yaml",
+          "package.json",
+          "pnpm-lock.yaml"
+        ],
+        "sha": "69077adcac059a5b470cc6be8a2ef8b322d9d29d",
+        "timestamp": 1764364385
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "taskiq/compat.py",
+          "taskiq/middlewares/taskiq_admin_middleware.py",
+          "tests/middlewares/admin_middleware/conftest.py",
+          "tests/middlewares/admin_middleware/dto.py",
+          "tests/middlewares/admin_middleware/test_arguments_formatting.py",
+          "tests/middlewares/test_taskiq_admin_middleware.py",
+          "uv.lock"
+        ],
+        "sha": "87d539402125f9f52b86172a6bb678b425824da1",
+        "timestamp": 1764499106
+      },
+      {
+        "files": [
+          "taskiq/brokers/zmq_broker.py"
+        ],
+        "sha": "a47dd048f3c8cb175fd1c672721c798f754d78dd",
+        "timestamp": 1764514994
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE/bug_report.yml",
+          ".github/ISSUE_TEMPLATE/feature_request.yml"
+        ],
+        "sha": "fc33b0236d0deadff75a3c5a727ad72e8168323a",
+        "timestamp": 1764583819
+      },
+      {
+        "files": [
+          "taskiq/receiver/receiver.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "210b85aff80f8bfecb95db6fff37247f7ce11042",
+        "timestamp": 1765116170
+      },
+      {
+        "files": [
+          "docs/contrib.md",
+          "pyproject.toml",
+          "tox.ini",
+          "uv.lock"
+        ],
+        "sha": "faf26a203f20bf3632f3f52e5f01fe0de61f2537",
+        "timestamp": 1765116247
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyproject.toml",
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "5825b9af20a67a04e9511b75b2a8d3f6667e808c",
+        "timestamp": 1765116739
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/args.py"
+        ],
+        "sha": "7ee894f515cbd120c44b3fce41160887f82e2499",
+        "timestamp": 1765116790
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "taskiq/serializers/json_serializer.py",
+          "tests/serializers/test_json_serializer.py"
+        ],
+        "sha": "96719c37679915bab28d0a64a7cb2190278e674e",
+        "timestamp": 1765116968
+      },
+      {
+        "files": [
+          "taskiq/cli/worker/process_manager.py"
+        ],
+        "sha": "8c21ebfd703e81cfcdaa4b6503fdbc5348ddcdfc",
+        "timestamp": 1765226336
+      },
+      {
+        "files": [
+          "taskiq/cli/watcher.py"
+        ],
+        "sha": "18b6a6c767125de6e14bfbdef0c29b1a4214db4c",
+        "timestamp": 1766404432
+      },
+      {
+        "files": [
+          "docs/framework_integrations/faststream.md"
+        ],
+        "sha": "1ce425783d4c7d72eeb912829112ccf3439f33c2",
+        "timestamp": 1768084920
+      },
+      {
+        "files": [
+          "docs/available-components/middlewares.md"
+        ],
+        "sha": "cd5e0640a7c51319fadcf98f1749decf361d3787",
+        "timestamp": 1767354942
+      },
+      {
+        "files": [
+          "docs/available-components/middlewares.md"
+        ],
+        "sha": "4607283ee1d3ef22cc0434d61833a006c2a34664",
+        "timestamp": 1767355112
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "27356e30369dc84a7cb586fc2208d0e8d0bdda7a",
+        "timestamp": 1766548948
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/run.py"
+        ],
+        "sha": "1e207f614acea3ee92a8253b845a013bddae7403",
+        "timestamp": 1769170798
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "taskiq/utils.py"
+        ],
+        "sha": "40d041c1804743c15436f9e6aa188779c3bca211",
+        "timestamp": 1769289697
+      },
+      {
+        "files": [
+          "docs/guide/message-format.md"
+        ],
+        "sha": "8667a3e5fca711158b484b417103ead16d5bbf0b",
+        "timestamp": 1769553882
+      },
+      {
+        "files": [
+          "docs/guide/message-format.md"
+        ],
+        "sha": "eb29304a697f151439c12132480c4c5b8247bfa4",
+        "timestamp": 1769713586
+      },
+      {
+        "files": [
+          "taskiq/middlewares/prometheus_middleware.py"
+        ],
+        "sha": "d1fa98fe8eb16d51d83a5310c9aa725a682d2d00",
+        "timestamp": 1771496365
+      },
+      {
+        "files": [
+          "taskiq/cli/scheduler/run.py",
+          "taskiq/cli/worker/process_manager.py",
+          "taskiq/cli/worker/run.py"
+        ],
+        "sha": "281da9b07fc5adba464dae6c3d2998ef409d6c2a",
+        "timestamp": 1772192578
+      },
+      {
+        "files": [
+          "docs/framework_integrations/taskiq-with-fastapi.md"
+        ],
+        "sha": "72d28827e0a76ed93ae86ccbf1d721dc92479e35",
+        "timestamp": 1772192626
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "3770e736e0c7b6fc897354fca61143c081d5f9c6",
+        "timestamp": 1772195853
+      },
+      {
+        "files": [
+          "docs/available-components/middlewares.md"
+        ],
+        "sha": "8f7c4a172dd056f8ba7b19cc10fe2760c8126cc5",
+        "timestamp": 1773406076
+      },
+      {
+        "files": [
+          "taskiq/cli/watcher.py"
+        ],
+        "sha": "dade60430955ec9b3882b8edaffd504ffda4ddd1",
+        "timestamp": 1774960038
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "taskiq/error.py",
+          "taskiq/exceptions.py",
+          "tests/test_error.py",
+          "tests/test_exceptions_flow.py",
+          "uv.lock"
+        ],
+        "sha": "02700d404eaea2ae26a2783c5295c58e5700dc51",
+        "timestamp": 1775069608
+      },
+      {
+        "files": [
+          "taskiq/decor.py",
+          "tests/abc/test_broker.py"
+        ],
+        "sha": "dc2383580a001cb7641f4181ee3aff84ff5b5d4e",
+        "timestamp": 1776432866
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml",
+          ".github/workflows/release_docs.yaml",
+          ".github/workflows/test.yml",
+          "docs/guide/message-format.md",
+          "pyproject.toml",
+          "tests/scheduler/test_interval_performance.py",
+          "uv.lock"
+        ],
+        "sha": "981b3d32d5a6204ba7f42284e9c42bf0a2456d16",
+        "timestamp": 1776508124
+      },
+      {
+        "files": [
+          "taskiq/task.py"
+        ],
+        "sha": "3d83293a11d43570b0138302db4e8476f7fea1c7",
+        "timestamp": 1776714740
+      },
+      {
+        "files": [
+          "taskiq/abc/broker.py",
+          "tests/abc/test_broker.py"
+        ],
+        "sha": "653400e7d440c850098747a873efb6ad3537cabd",
+        "timestamp": 1777891668
+      },
+      {
+        "files": [
+          "taskiq/receiver/receiver.py"
+        ],
+        "sha": "8703d744a887de44aec351064d3ae8dff9ccc810",
+        "timestamp": 1777900274
+      },
+      {
+        "files": [
+          "tests/abc/test_broker.py"
+        ],
+        "sha": "eaed38734406e6069f63c15a4b29d2e6390ef7da",
+        "timestamp": 1777900538
+      },
+      {
+        "files": [
+          "docs/guide/cli.md",
+          "taskiq/api/receiver.py",
+          "taskiq/brokers/inmemory_broker.py",
+          "taskiq/cli/worker/args.py",
+          "taskiq/cli/worker/run.py",
+          "taskiq/receiver/receiver.py",
+          "tests/receiver/test_receiver.py"
+        ],
+        "sha": "784fa88cb2a0c4bdd3657a0e755224d246af669a",
+        "timestamp": 1777901403
+      },
+      {
+        "files": [
+          "taskiq/middlewares/prometheus_middleware.py"
+        ],
+        "sha": "6cf0568fcb99afeb049d0111ddc50abc8ea81c07",
+        "timestamp": 1777903346
+      },
+      {
+        "files": [
+          "taskiq/middlewares/opentelemetry_middleware.py",
+          "taskiq/receiver/receiver.py",
+          "tests/opentelemetry/taskiq_test_tasks.py",
+          "tests/opentelemetry/test_metrics.py"
+        ],
+        "sha": "3f1d0d1dd2b4918189c7f643108abffaed42599c",
+        "timestamp": 1777903370
+      },
+      {
+        "files": [
+          "taskiq/middlewares/prometheus_middleware.py"
+        ],
+        "sha": "442621dc77248dd0648be7abcd33923a4a16866b",
+        "timestamp": 1778236974
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "sha": "e5c4abf3954b6a7bf6d2015c0dacd4dd60ac9896",
+        "timestamp": 1778314757
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "cc1b35549480ac5a873115f1b073d30bdc4264cb",
+        "timestamp": 1778316925
+      },
+      {
+        "files": [
+          ".github/workflows/relator.yml"
+        ],
+        "sha": "9f8db96bf52947939651b4a8f0b2fdc663c6ca33",
+        "timestamp": 1778975961
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 17,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".flake8": 0,
+      ".github/FUNDING.yml": 1,
+      ".github/ISSUE_TEMPLATE/bug_report.yml": 2,
+      ".github/ISSUE_TEMPLATE/feature_request.yml": 3,
+      ".github/workflows/relator.yml": 4,
+      ".github/workflows/release.yml": 5,
+      ".github/workflows/release_docs.yaml": 6,
+      ".github/workflows/test.yml": 7,
+      ".gitignore": 8,
+      ".pre-commit-config.yaml": 9,
+      ".python-version": 10,
+      "LICENSE": 11,
+      "README.md": 12,
+      "docs/.vuepress/config.ts": 13,
+      "docs/.vuepress/public/favicon.ico": 14,
+      "docs/.vuepress/public/favicon.png": 15,
+      "docs/.vuepress/public/favicon.svg": 16,
+      "docs/.vuepress/public/logo.png": 17,
+      "docs/.vuepress/public/logo.svg": 18,
+      "docs/.vuepress/styles/config.scss": 19,
+      "docs/.vuepress/styles/index.scss": 20,
+      "docs/.vuepress/styles/palette.scss": 21,
+      "docs/README.md": 22,
+      "docs/available-components/README.md": 23,
+      "docs/available-components/brokers.md": 24,
+      "docs/available-components/middlewares.md": 25,
+      "docs/available-components/result-backends.md": 26,
+      "docs/available-components/schedule-sources.md": 27,
+      "docs/contrib.md": 28,
+      "docs/examples/dynamics/dyn_broker.py": 29,
+      "docs/examples/dynamics/dyn_receiver.py": 30,
+      "docs/examples/dynamics/dyn_scheduler.py": 31,
+      "docs/examples/extending/broker.py": 32,
+      "docs/examples/extending/middleware_async.py": 33,
+      "docs/examples/extending/middleware_sync.py": 34,
+      "docs/examples/extending/schedule_source.py": 35,
+      "docs/examples/introduction/inmemory_run.py": 36,
+      "docs/examples/schedule/intro.py": 37,
+      "docs/examples/schedule/redis_schedule.py": 38,
+      "docs/examples/state/async_generator_deps_annot.py": 39,
+      "docs/examples/state/class_dependency_annot.py": 40,
+      "docs/examples/state/dependencies_tree_annot.py": 41,
+      "docs/examples/state/events_example_annot.py": 42,
+      "docs/examples/state/generator_deps_annot.py": 43,
+      "docs/examples/state/generics.py": 44,
+      "docs/examples/state/generics_annot.py": 45,
+      "docs/examples/state/no_cache_annot.py": 46,
+      "docs/examples/testing/main_file.py": 47,
+      "docs/extending-taskiq/README.md": 48,
+      "docs/extending-taskiq/broker.md": 49,
+      "docs/extending-taskiq/middleware.md": 50,
+      "docs/extending-taskiq/result-backend.md": 51,
+      "docs/extending-taskiq/schedule-sources.md": 52,
+      "docs/framework_integrations/README.md": 53,
+      "docs/framework_integrations/faststream.md": 54,
+      "docs/framework_integrations/taskiq-with-aiogram.md": 55,
+      "docs/framework_integrations/taskiq-with-aiohttp.md": 56,
+      "docs/framework_integrations/taskiq-with-fastapi.md": 57,
+      "docs/guide/README.md": 58,
+      "docs/guide/architecture-overview.md": 59,
+      "docs/guide/cli.md": 60,
+      "docs/guide/dynamic-brokers.md": 61,
+      "docs/guide/getting-started.md": 62,
+      "docs/guide/message-format.md": 63,
+      "docs/guide/scheduling-tasks.md": 64,
+      "docs/guide/state-and-deps.md": 65,
+      "docs/guide/taskiq-with-fastapi.md": 66,
+      "docs/guide/testing-taskiq.md": 67,
+      "imgs/logo.png": 68,
+      "imgs/logo.svg": 69,
+      "imgs/small-logo.svg": 70,
+      "package.json": 71,
+      "pnpm-lock.yaml": 72,
+      "poetry.lock": 73,
+      "pyproject.toml": 74,
+      "taskiq/__init__.py": 75,
+      "taskiq/__main__.py": 76,
+      "taskiq/abc/__init__.py": 77,
+      "taskiq/abc/broker.py": 78,
+      "taskiq/abc/cmd.py": 79,
+      "taskiq/abc/formatter.py": 80,
+      "taskiq/abc/middleware.py": 81,
+      "taskiq/abc/result_backend.py": 82,
+      "taskiq/abc/schedule_source.py": 83,
+      "taskiq/abc/serializer.py": 84,
+      "taskiq/acks.py": 85,
+      "taskiq/api/receiver.py": 86,
+      "taskiq/api/scheduler.py": 87,
+      "taskiq/brokers/inmemory_broker.py": 88,
+      "taskiq/brokers/shared_broker.py": 89,
+      "taskiq/brokers/zmq_broker.py": 90,
+      "taskiq/cli/__init__.py": 91,
+      "taskiq/cli/common_args.py": 92,
+      "taskiq/cli/scheduler/args.py": 93,
+      "taskiq/cli/scheduler/run.py": 94,
+      "taskiq/cli/utils.py": 95,
+      "taskiq/cli/watcher.py": 96,
+      "taskiq/cli/worker/args.py": 97,
+      "taskiq/cli/worker/async_task_runner.py": 98,
+      "taskiq/cli/worker/cmd.py": 99,
+      "taskiq/cli/worker/log_collector.py": 100,
+      "taskiq/cli/worker/process_manager.py": 101,
+      "taskiq/cli/worker/run.py": 102,
+      "taskiq/cli/worker/tests/test_context.py": 103,
+      "taskiq/compat.py": 104,
+      "taskiq/context.py": 105,
+      "taskiq/decor.py": 106,
+      "taskiq/dependencies.py": 107,
+      "taskiq/depends/progress_tracker.py": 108,
+      "taskiq/error.py": 109,
+      "taskiq/exceptions.py": 110,
+      "taskiq/formatters/__init__.py": 111,
+      "taskiq/formatters/json_formatter.py": 112,
+      "taskiq/formatters/proxy_formatter.py": 113,
+      "taskiq/funcs.py": 114,
+      "taskiq/instrumentation.py": 115,
+      "taskiq/kicker.py": 116,
+      "taskiq/labels.py": 117,
+      "taskiq/message.py": 118,
+      "taskiq/middlewares/__init__.py": 119,
+      "taskiq/middlewares/opentelemetry_middleware.py": 120,
+      "taskiq/middlewares/prometheus_middleware.py": 121,
+      "taskiq/middlewares/simple_retry_middleware.py": 122,
+      "taskiq/middlewares/smart_retry_middleware.py": 123,
+      "taskiq/middlewares/taskiq_admin_middleware.py": 124,
+      "taskiq/package.py": 125,
+      "taskiq/plugins/__init__.py": 126,
+      "taskiq/receiver/__init__.py": 127,
+      "taskiq/receiver/params_parser.py": 128,
+      "taskiq/receiver/receiver.py": 129,
+      "taskiq/result/__init__.py": 130,
+      "taskiq/result/result.py": 131,
+      "taskiq/result/v1.py": 132,
+      "taskiq/result/v2.py": 133,
+      "taskiq/result_backends/dummy.py": 134,
+      "taskiq/schedule_sources/__init__.py": 135,
+      "taskiq/schedule_sources/label_based.py": 136,
+      "taskiq/scheduler/__init__.py": 137,
+      "taskiq/scheduler/created_schedule.py": 138,
+      "taskiq/scheduler/merge_functions.py": 139,
+      "taskiq/scheduler/scheduled_task.py": 140,
+      "taskiq/scheduler/scheduled_task/__init__.py": 141,
+      "taskiq/scheduler/scheduled_task/cron_spec.py": 142,
+      "taskiq/scheduler/scheduled_task/v1.py": 143,
+      "taskiq/scheduler/scheduled_task/v2.py": 144,
+      "taskiq/scheduler/scheduler.py": 145,
+      "taskiq/serialization.py": 146,
+      "taskiq/serializers/__init__.py": 147,
+      "taskiq/serializers/cbor_serializer.py": 148,
+      "taskiq/serializers/json_serializer.py": 149,
+      "taskiq/serializers/msgpack_serializer.py": 150,
+      "taskiq/serializers/orjson_serializer.py": 151,
+      "taskiq/serializers/pickle.py": 152,
+      "taskiq/state.py": 153,
+      "taskiq/task.py": 154,
+      "taskiq/tests/test_stub.py": 155,
+      "taskiq/types_helpers.py": 156,
+      "taskiq/utils.py": 157,
+      "tests/abc/test_broker.py": 158,
+      "tests/api/test_scheduler.py": 159,
+      "tests/brokers/test_inmemory.py": 160,
+      "tests/cli/scheduler/test_task_delays.py": 161,
+      "tests/cli/scheduler/test_updater.py": 162,
+      "tests/cli/test_utils.py": 163,
+      "tests/cli/worker/test_custom_contexts.py": 164,
+      "tests/cli/worker/test_log_collector.py": 165,
+      "tests/cli/worker/test_parameters_parsing.py": 166,
+      "tests/conftest.py": 167,
+      "tests/depends/test_progress_tracker.py": 168,
+      "tests/formatters/test_json_formatter.py": 169,
+      "tests/formatters/test_proxy_formatter.py": 170,
+      "tests/middlewares/admin_middleware/conftest.py": 171,
+      "tests/middlewares/admin_middleware/dto.py": 172,
+      "tests/middlewares/admin_middleware/test_arguments_formatting.py": 173,
+      "tests/middlewares/test_simple_retry.py": 174,
+      "tests/middlewares/test_task_retry.py": 175,
+      "tests/middlewares/test_taskiq_admin_middleware.py": 176,
+      "tests/opentelemetry/__init__.py": 177,
+      "tests/opentelemetry/taskiq_test_tasks.py": 178,
+      "tests/opentelemetry/test_auto_instrumentation.py": 179,
+      "tests/opentelemetry/test_duplicate.py": 180,
+      "tests/opentelemetry/test_helpers.py": 181,
+      "tests/opentelemetry/test_metrics.py": 182,
+      "tests/opentelemetry/test_tasks.py": 183,
+      "tests/receiver/test_params_parser.py": 184,
+      "tests/receiver/test_receiver.py": 185,
+      "tests/schedule_sources/test_label_based.py": 186,
+      "tests/scheduler/__init__.py": 187,
+      "tests/scheduler/test_interval_performance.py": 188,
+      "tests/scheduler/test_label_based_sched.py": 189,
+      "tests/scheduler/test_merge_funcs.py": 190,
+      "tests/scheduler/test_scheduled_task.py": 191,
+      "tests/scheduler/test_scheduler.py": 192,
+      "tests/serializers/test_json_serializer.py": 193,
+      "tests/serializers/test_serializers.py": 194,
+      "tests/test_dependencies.py": 195,
+      "tests/test_error.py": 196,
+      "tests/test_exceptions_flow.py": 197,
+      "tests/test_funcs.py": 198,
+      "tests/test_requeue.py": 199,
+      "tests/test_result.py": 200,
+      "tests/test_retry_task.py": 201,
+      "tests/test_serialization.py": 202,
+      "tests/test_state.py": 203,
+      "tests/test_task.py": 204,
+      "tests/utils.py": 205,
+      "tox.ini": 206,
+      "uv.lock": 207,
+      "vuepress.config.ts": 208
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1658066864,
+      "last_commit_ts": 1778975961,
+      "n_cochange_pairs": 530,
+      "n_commits_dropped_as_bulk": 17,
+      "n_commits_used": 357,
+      "n_files": 209
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "9f8db96bf52947939651b4a8f0b2fdc663c6ca33",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
