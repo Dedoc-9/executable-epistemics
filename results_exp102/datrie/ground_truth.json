@@ -1,0 +1,1902 @@
+{
+  "chain_hash": "15ffc9ae2e383a64",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".hgignore||README.rst": 3,
+      ".hgignore||bench/speed.py": 2,
+      ".hgignore||tox.ini": 2,
+      ".travis.yml||appveyor.yml": 4,
+      ".travis.yml||setup.py": 5,
+      ".travis.yml||tox.ini": 2,
+      "CHANGES.rst||COPYING": 2,
+      "CHANGES.rst||MANIFEST.in": 2,
+      "CHANGES.rst||README.rst": 6,
+      "CHANGES.rst||bench/speed.py": 2,
+      "CHANGES.rst||setup.py": 11,
+      "CHANGES.rst||src/cdatrie.c": 4,
+      "CHANGES.rst||src/datrie.c": 4,
+      "CHANGES.rst||src/datrie.pyx": 5,
+      "CHANGES.rst||src/stdio_ext.c": 3,
+      "CHANGES.rst||tests/test_trie.py": 2,
+      "COPYING||MANIFEST.in": 2,
+      "MANIFEST.in||README.rst": 7,
+      "MANIFEST.in||bench/speed.py": 2,
+      "MANIFEST.in||setup.py": 4,
+      "MANIFEST.in||src/cdatrie.c": 2,
+      "MANIFEST.in||src/cdatrie.pxd": 4,
+      "MANIFEST.in||src/datrie.c": 2,
+      "MANIFEST.in||src/datrie.pyx": 5,
+      "MANIFEST.in||tests/test_trie.py": 3,
+      "MANIFEST.in||tox.ini": 2,
+      "README.rst||appveyor.yml": 2,
+      "README.rst||bench/speed.py": 11,
+      "README.rst||setup.py": 11,
+      "README.rst||src/cdatrie.c": 6,
+      "README.rst||src/cdatrie.pxd": 5,
+      "README.rst||src/datrie.c": 6,
+      "README.rst||src/datrie.pyx": 18,
+      "README.rst||src/stdio_ext.c": 4,
+      "README.rst||tests/test_trie.py": 13,
+      "README.rst||tox-bench.ini": 4,
+      "README.rst||tox.ini": 8,
+      "appveyor.yml||continuous_integration/appveyor/install.ps1": 3,
+      "appveyor.yml||continuous_integration/appveyor/requirements.txt": 2,
+      "appveyor.yml||continuous_integration/appveyor/run_with_env.cmd": 3,
+      "appveyor.yml||setup.py": 2,
+      "bench/speed.py||src/cdatrie.pxd": 4,
+      "bench/speed.py||src/datrie.pyx": 9,
+      "bench/speed.py||tests/test_trie.py": 7,
+      "bench/speed.py||tox.ini": 2,
+      "continuous_integration/appveyor/install.ps1||continuous_integration/appveyor/run_with_env.cmd": 2,
+      "continuous_integration/appveyor/requirements.txt||continuous_integration/appveyor/run_with_env.cmd": 2,
+      "libdatrie/datrie/darray.c||libdatrie/datrie/darray.h": 4,
+      "libdatrie/datrie/darray.c||libdatrie/datrie/tail.c": 3,
+      "libdatrie/datrie/darray.c||libdatrie/datrie/trie.c": 4,
+      "libdatrie/datrie/darray.c||libdatrie/datrie/trie.h": 2,
+      "libdatrie/datrie/darray.h||libdatrie/datrie/trie.c": 4,
+      "libdatrie/datrie/darray.h||libdatrie/datrie/trie.h": 2,
+      "libdatrie/datrie/trie.c||libdatrie/datrie/trie.h": 7,
+      "setup.py||src/cdatrie.c": 6,
+      "setup.py||src/cdatrie.pxd": 3,
+      "setup.py||src/datrie.c": 6,
+      "setup.py||src/datrie.pyx": 6,
+      "setup.py||src/stdio_ext.c": 4,
+      "setup.py||tests/test_random.py": 2,
+      "setup.py||tests/test_trie.py": 4,
+      "setup.py||tox-bench.ini": 4,
+      "setup.py||tox.ini": 5,
+      "setup.py||update_c.sh": 2,
+      "src/cdatrie.c||src/datrie.c": 28,
+      "src/cdatrie.c||src/datrie.pyx": 8,
+      "src/cdatrie.c||src/stdio_ext.c": 22,
+      "src/cdatrie.c||tests/test_trie.py": 3,
+      "src/cdatrie.c||tox-bench.ini": 3,
+      "src/cdatrie.c||tox.ini": 3,
+      "src/cdatrie.pxd||src/datrie.pyx": 15,
+      "src/cdatrie.pxd||tests/test_iteration.py": 4,
+      "src/cdatrie.pxd||tests/test_state.py": 5,
+      "src/cdatrie.pxd||tests/test_trie.py": 7,
+      "src/datrie.c||src/datrie.pyx": 11,
+      "src/datrie.c||src/stdio_ext.c": 22,
+      "src/datrie.c||tests/test_random.py": 2,
+      "src/datrie.c||tests/test_trie.py": 4,
+      "src/datrie.c||tox-bench.ini": 3,
+      "src/datrie.c||tox.ini": 3,
+      "src/datrie.pyx||src/stdio_ext.c": 6,
+      "src/datrie.pyx||src/stdio_ext.pxd": 2,
+      "src/datrie.pyx||tests/test_iteration.py": 5,
+      "src/datrie.pyx||tests/test_random.py": 2,
+      "src/datrie.pyx||tests/test_state.py": 7,
+      "src/datrie.pyx||tests/test_trie.py": 21,
+      "src/datrie.pyx||tox.ini": 2,
+      "src/stdio_ext.c||tests/test_trie.py": 3,
+      "src/stdio_ext.c||tox-bench.ini": 3,
+      "src/stdio_ext.c||tox.ini": 3,
+      "tests/test_iteration.py||tests/test_state.py": 5,
+      "tests/test_random.py||tests/test_trie.py": 2,
+      "tests/test_trie.py||tox.ini": 2,
+      "tox-bench.ini||tox.ini": 6
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".hgignore"
+        ],
+        "sha": "ab2a7cdbad6d5fef3195b88b0cd7dba7b641f497",
+        "timestamp": 1327837295
+      },
+      {
+        "files": [
+          "datrie/__init__.py",
+          "setup.py",
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "tests/test_alpha_map.py",
+          "tests/test_trie.py"
+        ],
+        "sha": "871aa09882ee7ceabbc4a83965ebb2cff9a50ecb",
+        "timestamp": 1341698688
+      },
+      {
+        "files": [
+          "bench/words100k.txt.zip"
+        ],
+        "sha": "2ced1d38b4ed10167d6e6d68c2ff8433b6c4b5b7",
+        "timestamp": 1341778474
+      },
+      {
+        "files": [
+          ".hgignore",
+          "MANIFEST.in",
+          "README.rst",
+          "bench/__init__.py",
+          "bench/speed.py",
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "tests/test_trie.py",
+          "tox.ini"
+        ],
+        "sha": "6bcbc29478d15609e5651566702302a1162216d4",
+        "timestamp": 1341778605
+      },
+      {
+        "files": [
+          ".hgignore",
+          "README.rst",
+          "bench/speed.py",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "cb60237a3bf26bb845f2e01acd265aaf7b5cf3b3",
+        "timestamp": 1341782937
+      },
+      {
+        "files": [
+          "src/datrie.pyx"
+        ],
+        "sha": "da7c864fa4d5dc24b7c549f9fd4cf98f8c150208",
+        "timestamp": 1341783610
+      },
+      {
+        "files": [
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "e3d3dfb176f8eca245a066bdc45414b15552c7a2",
+        "timestamp": 1341783899
+      },
+      {
+        "files": [
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "137b269246bd952ceef0727adb8c7d6a58d4cf2b",
+        "timestamp": 1341789482
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/datrie.pyx",
+          "tox.ini"
+        ],
+        "sha": "f922ccec5ce82b516b19fbbbdcefa57e6a762a9a",
+        "timestamp": 1341826118
+      },
+      {
+        "files": [
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "fcd9873b3b94a0e2f67f7dd9d9499a5181000ca8",
+        "timestamp": 1341832787
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "README.rst",
+          "tox-bench.ini",
+          "tox.ini"
+        ],
+        "sha": "05b85a4e845ca0a049459196cf1a0d5eef7d347d",
+        "timestamp": 1341884487
+      },
+      {
+        "files": [
+          ".hgignore"
+        ],
+        "sha": "6b8b65322e3bc15e61607d2acadd14559f6325b3",
+        "timestamp": 1341884581
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "README.rst",
+          "bench/speed.py",
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "b0409f5cce412add449eb5d10cce856ec72d7059",
+        "timestamp": 1341935249
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/datrie.pyx"
+        ],
+        "sha": "c3204181d732e363316ff47b8f46314113e52e24",
+        "timestamp": 1341947790
+      },
+      {
+        "files": [
+          "libdatrie/datrie/darray.c",
+          "libdatrie/datrie/darray.h",
+          "libdatrie/datrie/trie.c",
+          "libdatrie/datrie/trie.h"
+        ],
+        "sha": "3e9d9105816d383a008167e22138f3a513b76dd5",
+        "timestamp": 1342033240
+      },
+      {
+        "files": [
+          "README.rst",
+          "bench/speed.py",
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "c55ebbcef49dc17026bc6e6e5c0f178ceae32506",
+        "timestamp": 1342037014
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1647dce5406ac69d14d3ca6f9a5b63f9bdde23a0",
+        "timestamp": 1342039924
+      },
+      {
+        "files": [
+          "README.rst",
+          "bench/speed.py",
+          "src/datrie.pyx"
+        ],
+        "sha": "5036f445712b638261c604054afb07f4a832346b",
+        "timestamp": 1342048519
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c"
+        ],
+        "sha": "32da9a97f4a0d0cf794e9694e31cb838720248a6",
+        "timestamp": 1342049590
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "README.rst",
+          "setup.py",
+          "src/cdatrie.c",
+          "src/cdatrie.pxd",
+          "src/datrie.c",
+          "src/datrie.pyx"
+        ],
+        "sha": "74ee0a3ab498e148fb993c9a50a438ff1723e72a",
+        "timestamp": 1342049656
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "8a5f92155b42a1780eb5be4002fda5b4bbd6ae68",
+        "timestamp": 1342049697
+      },
+      {
+        "files": [
+          "setup.py",
+          "update_c.sh"
+        ],
+        "sha": "276ca05cab2bc6569744745a1c45772ad307853c",
+        "timestamp": 1342049855
+      },
+      {
+        "files": [
+          "libdatrie/datrie/darray.c",
+          "libdatrie/datrie/tail.c",
+          "src/cdatrie.c",
+          "src/datrie.c"
+        ],
+        "sha": "8dcd2a3329a4c9ffba40db2964fd9964b083152a",
+        "timestamp": 1342174839
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "COPYING",
+          "MANIFEST.in",
+          "README.rst",
+          "setup.py",
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/datrie.pyx"
+        ],
+        "sha": "1622b76c343827909364bde4ada1de8226fcb4f6",
+        "timestamp": 1342175690
+      },
+      {
+        "files": [
+          ".hgtags",
+          "setup.py"
+        ],
+        "sha": "cce302eaf3653890e734ee63f81a1412955a7950",
+        "timestamp": 1342175731
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "71e0957998d7172d77331afda1df760d4432f8e5",
+        "timestamp": 1342175738
+      },
+      {
+        "files": [
+          "tests/test_trie.py"
+        ],
+        "sha": "daaaca79b9d688ece2303db2330ff1c34788de3b",
+        "timestamp": 1342369237
+      },
+      {
+        "files": [
+          "README.rst",
+          "bench/speed.py",
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "b423d99d1786275b9572f8913442d55be0176ddb",
+        "timestamp": 1342371787
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c"
+        ],
+        "sha": "b780358fe3ba48e89841bd2172b205568cc8765a",
+        "timestamp": 1342371845
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "61a88ff346d18ff467243ce24f9e50f4fc1e3f17",
+        "timestamp": 1342430442
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "update_c.sh"
+        ],
+        "sha": "c08cf6a8e6ad3f00c294dfb1fc1b2ecfdc5eabc8",
+        "timestamp": 1342430462
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "README.rst",
+          "setup.py",
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "src/stdio_ext.pxd",
+          "tests/test_trie.py",
+          "update_c.sh"
+        ],
+        "sha": "f58703505fb0b9f186c4e84a3dc62760f09ac043",
+        "timestamp": 1342440820
+      },
+      {
+        "files": [
+          "src/datrie.pyx"
+        ],
+        "sha": "1724f64c009fce64394195ac77ddd43a9d06d6a8",
+        "timestamp": 1342440848
+      },
+      {
+        "files": [
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "34c19b3a654dd6067197db4179ed59ca8a8142ac",
+        "timestamp": 1342442935
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "44cfa3d99a10f6f6ac3972f3950542f9f2ab312f",
+        "timestamp": 1342443913
+      },
+      {
+        "files": [
+          "README.rst",
+          "bench/speed.py",
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "189b4f76fa213af496d637479c7956ce651e5b6c",
+        "timestamp": 1342445954
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "62e6fd5fd961fdc3d6e262faefc2c3f64a4af6d6",
+        "timestamp": 1342446081
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "a2115d7f3c11810bd829cb53e85296868d06ad24",
+        "timestamp": 1342446600
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "4e8c79a0c65924523368322bafe106e25c4e96ac",
+        "timestamp": 1342446640
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "7f6847c22c8d12d3c161895cc3f435162eda55f3",
+        "timestamp": 1342446955
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "7a97316a81c9d1b7aeac846e80d82b4b24b885e8",
+        "timestamp": 1342471547
+      },
+      {
+        "files": [
+          "tests/test_trie.py"
+        ],
+        "sha": "ae81d2c1fcaa295b9d0e0ddc0dd4d26fca870354",
+        "timestamp": 1342780234
+      },
+      {
+        "files": [
+          "bench/speed.py"
+        ],
+        "sha": "1ffe8f0fb9d81825c3ce9f47076ddafb72aaee30",
+        "timestamp": 1342856889
+      },
+      {
+        "files": [
+          "tests/test_alpha_map.py"
+        ],
+        "sha": "278d4e002d7d6a3243ac691e020abd6906fa97d6",
+        "timestamp": 1342863427
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "README.rst",
+          "bench/speed.py",
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "8afefb1b15ff49579167c93ccb2707b5159f7de0",
+        "timestamp": 1342863944
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/datrie.pyx",
+          "src/stdio_ext.c"
+        ],
+        "sha": "3a26a5b9a0852844f019b1ef2049f298ad3ec312",
+        "timestamp": 1342865852
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "setup.py",
+          "tox-bench.ini"
+        ],
+        "sha": "abe60db05cd26047ff29f981641201982fc8f9b5",
+        "timestamp": 1342866009
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "e1b9ba6300ed04ca38697591fc3dcd9351761747",
+        "timestamp": 1342866013
+      },
+      {
+        "files": [
+          "src/datrie.pyx"
+        ],
+        "sha": "081cd32aabfc07c90ca6b81697e8d794d14835ba",
+        "timestamp": 1342967732
+      },
+      {
+        "files": [
+          "libdatrie/datrie/darray.c",
+          "libdatrie/datrie/darray.h",
+          "libdatrie/datrie/tail.c",
+          "libdatrie/datrie/tail.h",
+          "libdatrie/datrie/trie.c",
+          "libdatrie/datrie/trie.h"
+        ],
+        "sha": "0bc1d57be011641e7594842fa6b22b63ebd94505",
+        "timestamp": 1342994212
+      },
+      {
+        "files": [
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "tests/test_state.py",
+          "tests/test_trie.py"
+        ],
+        "sha": "e3d20d8c6fd4c0ca84913c3dd8db809f3bb7f216",
+        "timestamp": 1342994346
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "566fd39d1c4789eae99bb69681bf31bdd56c2348",
+        "timestamp": 1342994380
+      },
+      {
+        "files": [
+          "libdatrie/datrie/darray.c",
+          "libdatrie/datrie/tail.c"
+        ],
+        "sha": "3364fc508b6654ec1d492c3366e63ee98a0c7c55",
+        "timestamp": 1343044124
+      },
+      {
+        "files": [
+          "libdatrie/datrie/trie.c",
+          "libdatrie/datrie/trie.h"
+        ],
+        "sha": "e42148d28552a4fe1ca85105f056a74662793163",
+        "timestamp": 1343250193
+      },
+      {
+        "files": [
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "tests/test_state.py"
+        ],
+        "sha": "483e99cd5cbefec336ed94bb817de035e7709a97",
+        "timestamp": 1343250902
+      },
+      {
+        "files": [
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "tests/test_iteration.py"
+        ],
+        "sha": "ee8d2e0b9e1dd8e238504a7b4e36f9199a54a7f5",
+        "timestamp": 1343250923
+      },
+      {
+        "files": [
+          "libdatrie/datrie/darray.c",
+          "libdatrie/datrie/darray.h",
+          "libdatrie/datrie/trie.c"
+        ],
+        "sha": "3bc7e1943514b83a7f8574267d93dc69ec0cdce5",
+        "timestamp": 1343315876
+      },
+      {
+        "files": [
+          "libdatrie/datrie/trie.c"
+        ],
+        "sha": "8e31152863e399e90f2ecad365a53ce0983c07f6",
+        "timestamp": 1343318614
+      },
+      {
+        "files": [
+          "libdatrie/datrie/darray.c",
+          "libdatrie/datrie/darray.h",
+          "libdatrie/datrie/trie.c"
+        ],
+        "sha": "71295b954216f7bebd4514b0d44765c164cc9a12",
+        "timestamp": 1343319001
+      },
+      {
+        "files": [
+          "bench/speed.py",
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "tests/test_iteration.py",
+          "tests/test_state.py"
+        ],
+        "sha": "2528681b13afc7a2c025ea774edb8da5a7b17126",
+        "timestamp": 1343319339
+      },
+      {
+        "files": [
+          "libdatrie/datrie/trie.c",
+          "libdatrie/datrie/trie.h",
+          "src/cdatrie.pxd",
+          "src/datrie.pyx"
+        ],
+        "sha": "c75c61c2c44ead491e2d6a049d5b36b97dae03b4",
+        "timestamp": 1343321091
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "aa6eba340b53fba5541b45e014414aef8139152e",
+        "timestamp": 1343321109
+      },
+      {
+        "files": [
+          "src/datrie.pyx"
+        ],
+        "sha": "5e9853ca6f78f4b33df7208d9911051b1a2b0e7a",
+        "timestamp": 1343334897
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c",
+          "tox-bench.ini",
+          "tox.ini"
+        ],
+        "sha": "81452c1b5a24db67735d4c4a61a0e9987d181992",
+        "timestamp": 1343334913
+      },
+      {
+        "files": [
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "tests/test_iteration.py",
+          "tests/test_state.py"
+        ],
+        "sha": "008c7725a3ea6fd2db949d201bb5412959f942e3",
+        "timestamp": 1343345088
+      },
+      {
+        "files": [
+          "src/datrie.pyx",
+          "tests/test_state.py"
+        ],
+        "sha": "fffd2eb77f4466e2529e3b1be7e06a3c2a69821d",
+        "timestamp": 1343345117
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "README.rst",
+          "bench/speed.py"
+        ],
+        "sha": "f0cc54c53c12e4af745b355e39ed654b85cebf7f",
+        "timestamp": 1343347128
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "README.rst",
+          "src/datrie.pyx"
+        ],
+        "sha": "175ef341a18b6fe2a1737910cafa76ac95d3c9de",
+        "timestamp": 1343347382
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "f82e0fdf5038c43a6f1e20f26bcd05690c4124d1",
+        "timestamp": 1343347390
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "861ce0301e3273842f75766608485536c8e743a0",
+        "timestamp": 1343348078
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "README.rst",
+          "setup.py",
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/datrie.pyx",
+          "src/stdio_ext.c",
+          "tests/test_iteration.py",
+          "tests/test_state.py"
+        ],
+        "sha": "7638415a498c32c66f5c20f8ce1b0eb1e1db1ae5",
+        "timestamp": 1343348803
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "37102495883313b0142c7d3ec99f3bfbddb3091e",
+        "timestamp": 1343348975
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "setup.py",
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/datrie.pyx",
+          "src/stdio_ext.c",
+          "tests/test_trie.py"
+        ],
+        "sha": "37bac2b8bd50c0896d230b6512b4c303daf9185c",
+        "timestamp": 1343559744
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "83af0e57a2ee6223cc5654ea28f3daaea84db58a",
+        "timestamp": 1343559751
+      },
+      {
+        "files": [
+          "README.rst",
+          "bench/speed.py"
+        ],
+        "sha": "9b08ebd2c2e654fcb48ff28516b9182382546fef",
+        "timestamp": 1343608983
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "347494ec6d58e80b2dcd152530f2dd779690d70d",
+        "timestamp": 1343687749
+      },
+      {
+        "files": [
+          "libdatrie/datrie/trie.c",
+          "libdatrie/datrie/trie.h"
+        ],
+        "sha": "dbe366b498fe13abdc944b5e4eeff331d9063c1a",
+        "timestamp": 1343773592
+      },
+      {
+        "files": [
+          "src/cdatrie.pxd",
+          "src/datrie.pyx",
+          "tests/test_iteration.py",
+          "tests/test_state.py"
+        ],
+        "sha": "859d54345f74f9847fc4f8b05b49a09579a75344",
+        "timestamp": 1343773613
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "6085bbe8a4660ea8beb0ed657f93ea016d9ec085",
+        "timestamp": 1343773624
+      },
+      {
+        "files": [
+          "libdatrie/datrie/trie.c",
+          "libdatrie/datrie/trie.h",
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "73d582dae8125b9422012f7b0894e9c3ac6eed60",
+        "timestamp": 1344269487
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c",
+          "tox-bench.ini",
+          "tox.ini"
+        ],
+        "sha": "02d96374f753f7f2757f9963b64653478533b392",
+        "timestamp": 1346598314
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "setup.py"
+        ],
+        "sha": "b368bb0e1e37584a496415f5caa0c6127ce1362e",
+        "timestamp": 1346598754
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "3e0c78010d9ba0290dbbfdabfa62b7c27dad16db",
+        "timestamp": 1346598768
+      },
+      {
+        "files": [
+          "tests/test_trie.py"
+        ],
+        "sha": "9d976b42e3796b1b0cc6fc7da7381c207867ed09",
+        "timestamp": 1354276611
+      },
+      {
+        "files": [
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "e8a4422010c19ce3aa2df8856c77a30af87e2849",
+        "timestamp": 1359456688
+      },
+      {
+        "files": [
+          "src/datrie.pyx"
+        ],
+        "sha": "b1ccab729dad06786d6c3c6632543e9ffb5c5c43",
+        "timestamp": 1359456721
+      },
+      {
+        "files": [
+          "bench/speed.py"
+        ],
+        "sha": "43968a95884ba02140a7b35bf944b06e8306fe20",
+        "timestamp": 1359456741
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "80e91a284dbb7b8810da6ef251c507e45431420d",
+        "timestamp": 1359456767
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "84d71b055d28d466e6792a1ddec9584f1be78036",
+        "timestamp": 1359456792
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "setup.py"
+        ],
+        "sha": "ae5c3844145a1e9784d7e5f11bd54114bad558ed",
+        "timestamp": 1359456830
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "cd2ba3c32a385f1668c8f2304eb533dcc2ab24fa",
+        "timestamp": 1359456863
+      },
+      {
+        "files": [
+          "src/datrie.pyx"
+        ],
+        "sha": "d3fa5658e8c227e38972751b1302071de77db0c1",
+        "timestamp": 1359487404
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "cc39949870b7ca68a4379d03bf4e85faebb7244b",
+        "timestamp": 1359487413
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "setup.py"
+        ],
+        "sha": "24a8d20fde848a5f46037f837d90da2ca2f38139",
+        "timestamp": 1359487484
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "934e10608f4bd657b19d08574f1b93d24c7d2519",
+        "timestamp": 1359487491
+      },
+      {
+        "files": [
+          "README.rst",
+          "bench/speed.py",
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/datrie.pyx",
+          "src/stdio_ext.c",
+          "tests/test_trie.py"
+        ],
+        "sha": "422fc95635593f7ab47db0bad74d5a47586de115",
+        "timestamp": 1373270664
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f086fdcf9365682c093da3c357a98c1aa9ff0bde",
+        "timestamp": 1373322897
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "setup.py"
+        ],
+        "sha": "77e28b93ccbebd86e30639d2af19a4fb79d0c04f",
+        "timestamp": 1373360457
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "9725aac91788653fed1feaebbb17014dfea2407b",
+        "timestamp": 1373360461
+      },
+      {
+        "files": [
+          "libdatrie/datrie/dstring.c"
+        ],
+        "sha": "db23915bd585452326039071483315e35df2d319",
+        "timestamp": 1379708824
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "4f8051f247e4ae69ae40a14029e7d28fe3806af1",
+        "timestamp": 1379714913
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "1fc7b1c81a2c1a34c7c80904088898d0c8dcee86",
+        "timestamp": 1379714917
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "28676732e7becda7a6613eff53cd6662238e32e6",
+        "timestamp": 1392672979
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "4369fd02ecd2db2a2968a6f3459802aa718b9494",
+        "timestamp": 1392673057
+      },
+      {
+        "files": [
+          "README.rst",
+          "tests/test_trie.py"
+        ],
+        "sha": "7b4a9b2133112abd92dc27f25d0c212bd7fbbbbe",
+        "timestamp": 1392675403
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "setup.py"
+        ],
+        "sha": "7a93322b9f93e699b898ef6b8b1e6dda57122cc4",
+        "timestamp": 1392676881
+      },
+      {
+        "files": [
+          ".hgtags"
+        ],
+        "sha": "42c00f55716eea08e1d804428ce31d50f047ece5",
+        "timestamp": 1392676893
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "e520ad9d36a9fd849b4481555c67f1e9ae4d49f7",
+        "timestamp": 1395005391
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ad1566cc5c7d6279b4540eb9536d14a0f61e6740",
+        "timestamp": 1395107750
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9e794aac1f68ebf920bd46e977825f374a64dc47",
+        "timestamp": 1395126947
+      },
+      {
+        "files": [
+          "libdatrie/ChangeLog",
+          "libdatrie/datrie/darray.c",
+          "libdatrie/tests/Makefile.am",
+          "libdatrie/tests/test_null_trie.c",
+          "tests/test_iteration.py"
+        ],
+        "sha": "ec5a52734c700ce9e93f8a7ae0f8b0f41e7ea0e8",
+        "timestamp": 1429631504
+      },
+      {
+        "files": [
+          "tests/test_iteration.py",
+          "tests/test_trie.py"
+        ],
+        "sha": "1a6c74cf5c349ac5d52f6ac7e48346d237b1d6e5",
+        "timestamp": 1429633803
+      },
+      {
+        "files": [
+          "tests/test_trie.py"
+        ],
+        "sha": "8a66ca71472802e88aca8ea9284c1a53cfe71e45",
+        "timestamp": 1429634029
+      },
+      {
+        "files": [
+          "src/cdatrie.pxd",
+          "src/datrie.pyx"
+        ],
+        "sha": "804afd4d2275e74869a8499449e7e1ea90f98af9",
+        "timestamp": 1429634230
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "7dbcc2df57ec0902357e65a015148b2eb11cdb64",
+        "timestamp": 1429634255
+      },
+      {
+        "files": [
+          "src/datrie.c",
+          "src/datrie.pyx"
+        ],
+        "sha": "c3e92baf0b20bf8e3a98e1c93607b3c7c3057b37",
+        "timestamp": 1430474099
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fefa20c757e6489eedecbc2134c43aa2f75b94e8",
+        "timestamp": 1430475489
+      },
+      {
+        "files": [
+          "tests/test_iteration.py",
+          "tests/test_random.py",
+          "tests/test_state.py"
+        ],
+        "sha": "5ea9a309fcc59de23473cf43dcd2fac406966297",
+        "timestamp": 1430475504
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "292c380baa8c89ed08bf49620fc7ca8ae0ed1bfe",
+        "timestamp": 1430475993
+      },
+      {
+        "files": [
+          "src/datrie.c",
+          "src/datrie.pyx",
+          "src/stdio_ext.pxd",
+          "tests/test_random.py"
+        ],
+        "sha": "5accbff3f36f16db00fb8c47ba345c8e37108724",
+        "timestamp": 1430488553
+      },
+      {
+        "files": [
+          "README.rst",
+          "appveyor.yml"
+        ],
+        "sha": "37a6090f2c6ee37af401947b26edf12776d4d73f",
+        "timestamp": 1430489929
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "87c09434fcd7b1c1d692080c5af615afbfbe98e2",
+        "timestamp": 1430491613
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "28008125945e1f4e71426aec4492b68518a64f56",
+        "timestamp": 1430491659
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "de33f8611dd5560fe3215fc770ea2bcf9b3fdbc6",
+        "timestamp": 1430492468
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "76c4d200911dc72766b554998f3692580b5ed439",
+        "timestamp": 1430493197
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "9a4311a1aafcef95a956ab52b631a7d57e1d3770",
+        "timestamp": 1430493570
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "046c4fe8db5bb2395aeb7b5e66e47305c0f85120",
+        "timestamp": 1430494158
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "cbbc973f7d04b73f1704d1ba68c7afe4cdefbca6",
+        "timestamp": 1430494931
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/datrie.pyx",
+          "src/stdio_ext.c"
+        ],
+        "sha": "98f11f685ecab3653c5bbbc2d422de835a4bab85",
+        "timestamp": 1430496364
+      },
+      {
+        "files": [
+          "tests/test_random.py"
+        ],
+        "sha": "90d42d8d2f5e7a7f15cd13c04b1d97522c9b6acc",
+        "timestamp": 1430497352
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "a775732e61da284181d0e05f497f2f44991ae689",
+        "timestamp": 1430497455
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "continuous_integration/appveyor/requirements.txt",
+          "continuous_integration/appveyor/run_with_env.cmd"
+        ],
+        "sha": "9ffe19543039d31c19344d6949bd02f1c077556d",
+        "timestamp": 1430519941
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "continuous_integration/appveyor/install.ps1"
+        ],
+        "sha": "ed4cd873ceb76ae1ca1a04383dacc1d8f948f1ef",
+        "timestamp": 1430520382
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "f064b5527a3c770f0e860bc563c7062614fd660a",
+        "timestamp": 1430580881
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "setup.py"
+        ],
+        "sha": "d061d8af98f9556a8911c22c2cd8b37ab52e48b7",
+        "timestamp": 1430581575
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "5da1d673b42e83d1342b79baf45d8bfae8bc0db1",
+        "timestamp": 1430582522
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/datrie.pyx",
+          "src/stdio_ext.c",
+          "tests/test_random.py",
+          "tests/test_trie.py"
+        ],
+        "sha": "4bb5493ce269cc0773afc15a1a3ee2a677c32757",
+        "timestamp": 1430606162
+      },
+      {
+        "files": [
+          "src/datrie.c",
+          "src/datrie.pyx",
+          "tests/test_trie.py"
+        ],
+        "sha": "b1463d4ff37b09b01ad84fb83d3c847d0f4d8c3a",
+        "timestamp": 1430609296
+      },
+      {
+        "files": [
+          "tests/test_trie.py"
+        ],
+        "sha": "0b7308b45320640c7a7c3ad6ccd774a90751eae7",
+        "timestamp": 1430609830
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d46e32c30ba06c45ba2b096eaf213b6f28c751f2",
+        "timestamp": 1436531886
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "5e90e0c0220143e9a44e043d2a1f193ab4aa1a51",
+        "timestamp": 1457730845
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "77bcb5305de11ce925fcf697aba8133aba9f81da",
+        "timestamp": 1457731109
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "continuous_integration/appveyor/install.ps1",
+          "continuous_integration/appveyor/requirements.txt",
+          "continuous_integration/appveyor/run_with_env.cmd",
+          "setup.py"
+        ],
+        "sha": "2c209c892aa1cfa89dff7a84b6ddd10f67c9af2f",
+        "timestamp": 1457731418
+      },
+      {
+        "files": [
+          "setup.py",
+          "tests/test_random.py"
+        ],
+        "sha": "3308f781892fac1a8c6caddfe3c19ccbf7753816",
+        "timestamp": 1457733305
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "20afb6bc8d061ba8bbbcb639d4e374afc6f1d8c7",
+        "timestamp": 1457733772
+      },
+      {
+        "files": [
+          "libdatrie/datrie/trie.c",
+          "libdatrie/datrie/trie.h",
+          "trie_state_get_terminal_data.patch"
+        ],
+        "sha": "387c5017fa72e681472c7cdc388bd9b59f8a1b4a",
+        "timestamp": 1457739597
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c59b9da8ca77f3d7d5ec5c3f77dbdc3f3f4e4773",
+        "timestamp": 1457739703
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "e10a22501ddf70cc00bfc61501153ba9982e3df1",
+        "timestamp": 1457739860
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "94d81b13b6f67bd2e0df2152630f9075df938c9e",
+        "timestamp": 1457739900
+      },
+      {
+        "files": [
+          "src/datrie.pyx"
+        ],
+        "sha": "aa4039c3a4f1f516cc0df610424116fdd7ecd0a8",
+        "timestamp": 1458792034
+      },
+      {
+        "files": [
+          "tests/test_random.py"
+        ],
+        "sha": "822e854c9cccd34211503a51d39b8dd72a25d96d",
+        "timestamp": 1458830188
+      },
+      {
+        "files": [
+          "src/datrie.c"
+        ],
+        "sha": "eba75f1eb1f0f3b0f4051c5b25476a2dd926de10",
+        "timestamp": 1458849010
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d25e477fa55ad402d0c3f66c0ead6665cfe2bcd7",
+        "timestamp": 1467990872
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3a606b27fde7078b0abab54ce5c23719599c568c",
+        "timestamp": 1467990897
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "63cd5d21e90c1e74a64560b58bd1f63864cafc0c",
+        "timestamp": 1509789964
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6d4dc56efee78b688fc429a26c600721a801d089",
+        "timestamp": 1509790426
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "1891e316211cae46cbf6f444e1f2af9d9ae781be",
+        "timestamp": 1512921095
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d10efec0089dfe5e7139fc4ab2f00ff3623be0ec",
+        "timestamp": 1512921138
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "980a8a7f7de63951729d1cf23f56ea89629fb4b3",
+        "timestamp": 1512936854
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fcde575cdc936cf553e46d8b1d64867b1a6c0e8e",
+        "timestamp": 1520957929
+      },
+      {
+        "files": [
+          "tests/test_random.py"
+        ],
+        "sha": "9b24b4c02783cdb703ac3f6c6d7d881db93166e0",
+        "timestamp": 1546872637
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "COPYING",
+          "MANIFEST.in"
+        ],
+        "sha": "a5dcb31ae3e10b1a3db3d6d1e173e4208cbb4275",
+        "timestamp": 1546872661
+      },
+      {
+        "files": [
+          "README.rst",
+          "appveyor.yml",
+          "continuous_integration/appveyor/install.ps1",
+          "continuous_integration/appveyor/run_with_env.cmd"
+        ],
+        "sha": "d1a5c471da169d6b3f91afc4dee54f4744ac5226",
+        "timestamp": 1546872785
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "be420b62cfb9a285db5c89ac60556c3d9a2f70ca",
+        "timestamp": 1546872870
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "tests/test_random.py",
+          "tests/test_trie.py",
+          "tox-bench.ini",
+          "tox.ini"
+        ],
+        "sha": "213adb9533274762c7ee424cb35a9c2989e8cbe0",
+        "timestamp": 1546710185
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "setup.py",
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c",
+          "tox-bench.ini",
+          "tox.ini"
+        ],
+        "sha": "99e0d46f7df7c6b47cb819f26fdf9a9abd1f1980",
+        "timestamp": 1546716869
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "3e22a27ca0104fe3c62b3251c0b75c281f089e43",
+        "timestamp": 1555566776
+      },
+      {
+        "files": [
+          ".hgignore",
+          ".hgtags",
+          "README.rst"
+        ],
+        "sha": "f101ca219ba1f2aae42a55bdd0c8940fad380389",
+        "timestamp": 1562138299
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "22f63ef8eecd250aa683eec15c473b5199d4baa1",
+        "timestamp": 1562138319
+      },
+      {
+        "files": [
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "85c0455cb861a3d2205ca3b2a971aebf7ea67451",
+        "timestamp": 1562138490
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "e8a768356fc8d87979feeea7b4091685387f2e2d",
+        "timestamp": 1562138912
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "setup.py"
+        ],
+        "sha": "3881491cfe69c6b70c9371d36b0be614c493652a",
+        "timestamp": 1562139563
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "521adad5d47d23e9c36472242c2cc587884d3692",
+        "timestamp": 1562139886
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "fa3cfc3f78be4d27d1366ae8c1b39d0a91be0dca",
+        "timestamp": 1562139973
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "37700322ea0c8814c28d30e7418e7fb2ac2d8e01",
+        "timestamp": 1539853916
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "96cfd102d5711ae1e64ab3a64298e39ba97bfb11",
+        "timestamp": 1579005769
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6d841a072e374ffb9ee296802ddb88408401ea72",
+        "timestamp": 1585088804
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4c98b77f7f22bfbf16c840bfcc0eae1fa4ca1119",
+        "timestamp": 1585088825
+      },
+      {
+        "files": [
+          ".gitignore",
+          "src/cdatrie.c",
+          "src/datrie.c",
+          "src/stdio_ext.c"
+        ],
+        "sha": "be7c376461296ccf867ad501656046a9e845f646",
+        "timestamp": 1585088912
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "1c451827931c6ef9c71da4741de274d515e05034",
+        "timestamp": 1583941181
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "tox.ini"
+        ],
+        "sha": "db8520655ddb7a3f73d4c3f427fbfea558f6eb92",
+        "timestamp": 1580373708
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "42ec8bb1e216bc107abbc35b1d710385c4eff3ab",
+        "timestamp": 1585098157
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "1015be1aa3dd98aa1016e4dc0014600368223edd",
+        "timestamp": 1585098717
+      },
+      {
+        "files": [
+          "src/datrie.pyx"
+        ],
+        "sha": "9a2e76893549042142a57b71add2830cedaa6b19",
+        "timestamp": 1585139940
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "78e5e15649df18f605b533371ada77de09b8ada5",
+        "timestamp": 1585141487
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "7ede3fec8b6e87eefa32ee7f1bc54370345fef1f",
+        "timestamp": 1585141532
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "aa689119c02ef787960b32d9a7f4c13f0d3879b3",
+        "timestamp": 1585173933
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "36612772092f59bd53eb5de67a96f33bc7def169",
+        "timestamp": 1585181369
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "bc231888cec9193af9dd07d2e93efc770072c020",
+        "timestamp": 1585185212
+      },
+      {
+        "files": [
+          "dev-requirements.txt",
+          "travis/build-wheels.sh"
+        ],
+        "sha": "341d9107c8603f898c6b1d02218db53b75f63a74",
+        "timestamp": 1585185240
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "c7e1e1753a71d6475d83a9cd2e025f8a778911ea",
+        "timestamp": 1585191021
+      },
+      {
+        "files": [
+          "src/datrie.pyx"
+        ],
+        "sha": "0b5e0aa3924e4e784257f89e8fc47b07ed5690ba",
+        "timestamp": 1604478195
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c67d07cb7cf6c05e20e9e750452ffd35b1a2cfbf",
+        "timestamp": 1611056268
+      },
+      {
+        "files": [
+          "src/cdatrie.pxd"
+        ],
+        "sha": "12ffaa89e589a47d0b29b32997cb3623d231d920",
+        "timestamp": 1706818440
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fb432e4aeff632bf65378686bc64a932fb4d7672",
+        "timestamp": 1756384417
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9ac23f6811ee2f489e4a582a3652237ecede47dd",
+        "timestamp": 1756384288
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          "tox-bench.ini",
+          "tox.ini"
+        ],
+        "sha": "5d3765bbf4d28f0a54595473489505288a0771e2",
+        "timestamp": 1760704750
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "travis/build-wheels.sh"
+        ],
+        "sha": "1b49e9bb4f4e3377f30496c177c302ee21e0017c",
+        "timestamp": 1760708646
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "0d25b9a7cba1ca83fbbf799190cae9fc59bf5c36",
+        "timestamp": 1761668202
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "5725be0bc5ed7cc46db026b9861d3bdfc5576ccd",
+        "timestamp": 1761758646
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "744bdd5a6d4661004eae19ff0738eba843885618",
+        "timestamp": 1761777438
+      },
+      {
+        "files": [
+          ".github/workflows/wheels.yaml"
+        ],
+        "sha": "b05599d88c3137cf75306dc23f6671953350e405",
+        "timestamp": 1761764882
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "1f0ac5fe8fca8dad8f62047dbf62a4e791fb17e2",
+        "timestamp": 1761765270
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "c5fd56b8c25bbb4e4b81f1aa6fb1a201f96788ba",
+        "timestamp": 1778082758
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml"
+        ],
+        "sha": "5a9d3d36827a382203d7d9fafb0a9064f392cc24",
+        "timestamp": 1778082766
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 9,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/workflows/ci.yaml": 0,
+      ".github/workflows/wheels.yaml": 1,
+      ".gitignore": 2,
+      ".hgignore": 3,
+      ".hgtags": 4,
+      ".travis.yml": 5,
+      "CHANGES.rst": 6,
+      "COPYING": 7,
+      "MANIFEST.in": 8,
+      "README.rst": 9,
+      "appveyor.yml": 10,
+      "bench/__init__.py": 11,
+      "bench/speed.py": 12,
+      "bench/words100k.txt.zip": 13,
+      "continuous_integration/appveyor/install.ps1": 14,
+      "continuous_integration/appveyor/requirements.txt": 15,
+      "continuous_integration/appveyor/run_with_env.cmd": 16,
+      "datrie/__init__.py": 17,
+      "dev-requirements.txt": 18,
+      "libdatrie/ChangeLog": 19,
+      "libdatrie/datrie/darray.c": 20,
+      "libdatrie/datrie/darray.h": 21,
+      "libdatrie/datrie/dstring.c": 22,
+      "libdatrie/datrie/tail.c": 23,
+      "libdatrie/datrie/tail.h": 24,
+      "libdatrie/datrie/trie.c": 25,
+      "libdatrie/datrie/trie.h": 26,
+      "libdatrie/tests/Makefile.am": 27,
+      "libdatrie/tests/test_null_trie.c": 28,
+      "pyproject.toml": 29,
+      "setup.cfg": 30,
+      "setup.py": 31,
+      "src/cdatrie.c": 32,
+      "src/cdatrie.pxd": 33,
+      "src/datrie.c": 34,
+      "src/datrie.pyx": 35,
+      "src/stdio_ext.c": 36,
+      "src/stdio_ext.pxd": 37,
+      "tests/test_alpha_map.py": 38,
+      "tests/test_iteration.py": 39,
+      "tests/test_random.py": 40,
+      "tests/test_state.py": 41,
+      "tests/test_trie.py": 42,
+      "tox-bench.ini": 43,
+      "tox.ini": 44,
+      "travis/build-wheels.sh": 45,
+      "trie_state_get_terminal_data.patch": 46,
+      "update_c.sh": 47
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1327837295,
+      "last_commit_ts": 1778082766,
+      "n_cochange_pairs": 94,
+      "n_commits_dropped_as_bulk": 9,
+      "n_commits_used": 205,
+      "n_files": 48
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "1f06eb992c531cf640525a979896adbe29ee0a4b",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
