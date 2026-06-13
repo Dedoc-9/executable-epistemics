@@ -1,0 +1,1408 @@
+{
+  "chain_hash": "491921897c8cd5d3",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      "AUTHORS.txt||CHANGES.txt": 12,
+      "AUTHORS.txt||README.md": 2,
+      "AUTHORS.txt||pyperclip/clipboards.py": 2,
+      "AUTHORS.txt||setup.py": 5,
+      "AUTHORS.txt||src/pyperclip/__init__.py": 13,
+      "CHANGES.txt||README.md": 2,
+      "CHANGES.txt||pyperclip/clipboards.py": 2,
+      "CHANGES.txt||setup.py": 13,
+      "CHANGES.txt||src/pyperclip/__init__.py": 28,
+      "CHANGES.txt||tests/basicTests.py": 2,
+      "Pipfile||Pipfile.lock": 5,
+      "README.md||setup.py": 2,
+      "README.md||src/pyperclip/__init__.py": 4,
+      "docs/index.rst||docs/introduction.rst": 2,
+      "pyperclip/clipboards.py||src/pyperclip/__init__.py": 9,
+      "pyperclip/clipboards.py||tests/test_pyperclip.py": 3,
+      "pyperclip/windows.py||src/pyperclip/__init__.py": 2,
+      "setup.py||src/pyperclip/__init__.py": 14,
+      "src/pyperclip/__init__.py||tests/basicTests.py": 6,
+      "src/pyperclip/__init__.py||tests/test_pyperclip.py": 13
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "README.md",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "a97030079fd47d274f1f439dc932d0f2c7ac2e72",
+        "timestamp": 1308100352
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "c616a7f6028d14234d51b9fe9244f66bb2cfe7bf",
+        "timestamp": 1315950804
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "f94e80b097e0cff3fcc1fa7a571218263308e827",
+        "timestamp": 1315950986
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "101f5629391421c236fc4ab4fc23f6344b062d24",
+        "timestamp": 1358190089
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "3b4e2483fa3a36984027b00790ddf4b84b2687bd",
+        "timestamp": 1396279148
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "4bb3e9999fdc99280707a036a5f431abc4d200e9",
+        "timestamp": 1396307016
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "2709818abb75681fa03b9e8739b16b619e963143",
+        "timestamp": 1408175193
+      },
+      {
+        "files": [
+          "README.md",
+          "src/pyperclip/__init__.py",
+          "tests/basicTests.py"
+        ],
+        "sha": "66edd17771b701c91d4de62c3d6aedacb3bde032",
+        "timestamp": 1408176128
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "571892c6096709b53ef2c0b4ab2b595ee47a3013",
+        "timestamp": 1408176512
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "69a0db619c5567c2ebc6d88a82219fa02295817d",
+        "timestamp": 1408176655
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "a6607c20b70b706dd2b6a0d0772013084e1881e3",
+        "timestamp": 1408176788
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "c4a0543a93d073856db6a86647c47335a5c78e1b",
+        "timestamp": 1409564267
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt"
+        ],
+        "sha": "5925317edb4b19b69c12f2bf61d70e4fa0c9de13",
+        "timestamp": 1409706503
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "03146baaf04fdb4aa688398fa45709807f77e423",
+        "timestamp": 1409706572
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "10d0e0b16187f8473866707ff7041f00c92e8e42",
+        "timestamp": 1409857985
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/basicTests.py"
+        ],
+        "sha": "aaa5d39fa05f2dd7db440885a7f53d0e9bacfb00",
+        "timestamp": 1409858021
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "README.md",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "bbeddf60b6795e3dd239aeae61b93f7bcc2b6a72",
+        "timestamp": 1409908851
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "bd427216c2eeb14712cf00231617016e1e315ec8",
+        "timestamp": 1410327502
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "a10fd6573f8b4aab7a9bb27c2c12c8bc4d35bcc8",
+        "timestamp": 1417689710
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "a95c9e49e31166a31206f0b039807a5b82417251",
+        "timestamp": 1417690048
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "1b0ae822f1279370f234afbdcb00f3eba9e7a58e",
+        "timestamp": 1417693640
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "eb456c89ce39b7c9d6c3c4b5f909bc2c6e68faf1",
+        "timestamp": 1417693904
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "62e4f1e7cb22f43bcc86433b74f4a4521e2ce2a5",
+        "timestamp": 1417723846
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "47af15ba8c822eac88c0a2c40e3d13098dc505f2",
+        "timestamp": 1417786840
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "setup.cfg",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "5f34467cfd33e27106d326054eb9a4cfa932adc7",
+        "timestamp": 1417805677
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/basicTests.py"
+        ],
+        "sha": "0ce5888a111c9c5c32a5e162243ffda5eaf2df7e",
+        "timestamp": 1417980745
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "2938a488e62843f2496b85d5e54fbb6d3ad5a7b9",
+        "timestamp": 1417980908
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "b0fe2caf199d90299db820e28cec19e750c47847",
+        "timestamp": 1423167405
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "fdb61ff708195662190590f4c6ee79162d4f9a58",
+        "timestamp": 1423182758
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "9b5729ad50fdc2d2aa00e50547bb371c4cbd61c6",
+        "timestamp": 1423183511
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "e1ef45a1deb7f4a961540de2ee39136bb9638139",
+        "timestamp": 1424197423
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "6b6b7a35e01406de5dc7aadf6366c746189c55ca",
+        "timestamp": 1424204031
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "2448b252d3090a0d7f630cd39d7a561bd692eb6c",
+        "timestamp": 1432109815
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "c8b389eb3af4d371aa93c308cd2e8346109fb766",
+        "timestamp": 1432341623
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "29a1b48e6093fee818cab3df26f643b8d06dc906",
+        "timestamp": 1432821665
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "6b6900083c25fabb5d1463bb7012e282db599fef",
+        "timestamp": 1433190943
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "3f09a944c8c8e6a96b233c9c307c1b31d1bf5945",
+        "timestamp": 1439708026
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "b8134903f7e178769b1716323bdc2a1410488b31",
+        "timestamp": 1439709201
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "5c2216075c8066dee4a25273ed77642542f919a6",
+        "timestamp": 1439737811
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "783d4f69188d1c084433bc2035b49185d6f6b3af",
+        "timestamp": 1439737905
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "81c5f0aa558f414bbec294b3eb432aa2bf4e2df1",
+        "timestamp": 1442589458
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "1ced08d0d7c805de4253b85a91386b20ddb4c125",
+        "timestamp": 1442589576
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "5e3e0e586cebeadeba86f6cbcac300ef54627a03",
+        "timestamp": 1443048345
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py",
+          "tests/basicTests.py"
+        ],
+        "sha": "a35077509d0c85855a5a1f9abc3b0b2a06859f6f",
+        "timestamp": 1444416720
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "43a8668987165f82d95c95ed57adf7c59f94a92c",
+        "timestamp": 1444416792
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "c57ed8ea81d5658b88f5e4dbe35938bb8be1da53",
+        "timestamp": 1444714523
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "37416393f9f2d3ba3e8aedd6d3fb90e1fd9576d2",
+        "timestamp": 1446067353
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "dd9cf7c3c5975547a3696a3987fd246027184293",
+        "timestamp": 1446067372
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "setup.py",
+          "src/pyperclip/__init__.py",
+          "tests/basicTests.py"
+        ],
+        "sha": "c363d36cb2aff5165ff4ba3b1d29f55479380106",
+        "timestamp": 1446077523
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "adcb9b5b503e839cc9d6aa0d01e8ad343a4343ba",
+        "timestamp": 1446078061
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "07b90a4e082b46d868c3297188e7ad664fbc6e1e",
+        "timestamp": 1446078279
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/introduction.rst"
+        ],
+        "sha": "c7de572151873be5cf2a34300e1f826550698d41",
+        "timestamp": 1446156975
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/basicTests.py"
+        ],
+        "sha": "f9295b67205b36836ca9fb1fad4f3677ae7a7210",
+        "timestamp": 1446158409
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "1e0d63c0d84b18890c9d2146bd5ebea28952b74f",
+        "timestamp": 1446158611
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "74ebe1f0bf8f05add1590ebe58e60e27b620461d",
+        "timestamp": 1446176672
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "959324a6a22b83b1c0b71238c89923900992e50b",
+        "timestamp": 1446217387
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "56f161410d6ca8a54088f76d8e02baf086a3c36a",
+        "timestamp": 1446217544
+      },
+      {
+        "files": [
+          "tests/basicTests.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "af491ea1991eeb545d562113c5dfa82beea63083",
+        "timestamp": 1446217831
+      },
+      {
+        "files": [
+          "CHANGES.txt"
+        ],
+        "sha": "ec1cc6ba8d7f33346e294e738159b7d65a6ab92e",
+        "timestamp": 1446232628
+      },
+      {
+        "files": [
+          "CHANGES.txt"
+        ],
+        "sha": "d091ef34dc1ab8f0b83bedb39ec9257bcab01ba0",
+        "timestamp": 1446232742
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "6f8f6510f2b5fcab0deb148abc1280abed79892b",
+        "timestamp": 1446233068
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "9a9737687b1df2542bfa457fe7f00e1d0813ce42",
+        "timestamp": 1446306149
+      },
+      {
+        "files": [
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "ce786ccd26a380cfcabcb335a34e9107c4fc3fd9",
+        "timestamp": 1446326206
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "7e2e1c047473deaa58174155c0671724f917083f",
+        "timestamp": 1446327235
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "46dffe8f2f3b02e71021136c1729fd2227d71014",
+        "timestamp": 1446327501
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py"
+        ],
+        "sha": "798cc1679263819c50de8d81fc6ccb47f88d35a1",
+        "timestamp": 1446330787
+      },
+      {
+        "files": [
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "28a0d901178709c76d7d5286a77abede6f295392",
+        "timestamp": 1446413257
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py"
+        ],
+        "sha": "25a7c678d5ef51aa51f3f695b1c08b57076a422f",
+        "timestamp": 1446437983
+      },
+      {
+        "files": [
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "2e0549c08b1c48a948ab65c4f4ad26b4f3e495dd",
+        "timestamp": 1446496414
+      },
+      {
+        "files": [
+          "pyperclip/exceptions.py"
+        ],
+        "sha": "d79d5ee4b8ae9872df9a1620a64565c93c09c0c4",
+        "timestamp": 1446511955
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py"
+        ],
+        "sha": "6f949ed07a19d96592fcd13181cedf63d077e073",
+        "timestamp": 1446512864
+      },
+      {
+        "files": [
+          "pyperclip/exceptions.py"
+        ],
+        "sha": "c74edaeb4c7590dad3fc38a91ba460dd7e50f1db",
+        "timestamp": 1446515355
+      },
+      {
+        "files": [
+          "pyperclip/exceptions.py"
+        ],
+        "sha": "92c29b85aa6824b1aaa732dcb64fe1246d20d546",
+        "timestamp": 1446645586
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "c307b106ca919dd03f1e8d84f369d4cb00d130fd",
+        "timestamp": 1446645616
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "e5b10c690b407ce8968a0fb3b8bd70519ae1b9f0",
+        "timestamp": 1446645737
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "aae325604f231bc4c97ee41cafcbdd69d593a363",
+        "timestamp": 1446681325
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "b5c57c2a90a28f5c6f9f87ac06737a1cbc0eeac3",
+        "timestamp": 1446681442
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py"
+        ],
+        "sha": "d2abbc02a91ab26d8bbfdcbf8798f994b885052e",
+        "timestamp": 1447012000
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "28f86a05b18ef8f0adce881c5e93a01bac7a13b7",
+        "timestamp": 1447049612
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "0d62ebc11fee505ca500ac36c9e341171626989e",
+        "timestamp": 1447050224
+      },
+      {
+        "files": [
+          "pyperclip/windows.py",
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "b2c7a50084080d20a02f5ac95399b19bdeeb1115",
+        "timestamp": 1447333822
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "ea452beeff26f701b91126ffaf4860731d0b4302",
+        "timestamp": 1447569505
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "d5aebe8a0ab4c8e7e993dc46eb6ece1cf272f9f7",
+        "timestamp": 1448186045
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "0013168a366fca1a5e82a6f579b32ba060029c8d",
+        "timestamp": 1448897305
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py"
+        ],
+        "sha": "888557fdc2e1557802bc8a06c8fe7ea4d00347c5",
+        "timestamp": 1448903203
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "a3023e83a371e6751dd3361bac71fdd567395e3b",
+        "timestamp": 1450066393
+      },
+      {
+        "files": [
+          "pyperclip/windows.py"
+        ],
+        "sha": "94576fdf395c03f4a2ceb2e3f91f97e81367b267",
+        "timestamp": 1452085642
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "8f26a5932bcf8a0cb73d7527f3572e9b03e8c14d",
+        "timestamp": 1453330222
+      },
+      {
+        "files": [
+          "pyperclip/windows.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "463e12d5e07b90c642c5f888d1c2b15680189221",
+        "timestamp": 1456762019
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "7deec0b6464bbda18ce2f700980edba2d6c51e10",
+        "timestamp": 1457987126
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py"
+        ],
+        "sha": "b9141475a85bc0a9f7884d18b26e5582787d1af5",
+        "timestamp": 1461791034
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "b7dbb1de9f99ad874df83a535bb09c5a359e5149",
+        "timestamp": 1467665399
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py",
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "decab983b85c652456bf28a664310c76d03d3b70",
+        "timestamp": 1472755816
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "da0aa80ffc89b9fb908cec7be076211eabee317a",
+        "timestamp": 1474643010
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "6eccdd6a1e549709d1ebae3d3e58dcec3bb8f6ae",
+        "timestamp": 1478156275
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "7ab3cad39dc3488ac373aaefec5e35d13a6a53da",
+        "timestamp": 1478637842
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "565176749389f2f76eb66f7220b398ad045beb3e",
+        "timestamp": 1478710045
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "ad442711d8a61bf21dfe7b4d5e1d8c8010388f7c",
+        "timestamp": 1478710168
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "860fa0bc2124d56570eb5fe4f7ff9ce1d8918e0c",
+        "timestamp": 1478710206
+      },
+      {
+        "files": [
+          "docs/introduction.rst"
+        ],
+        "sha": "deb238d1b40f9652fe419fca9432bc0626b6cb42",
+        "timestamp": 1488827096
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py"
+        ],
+        "sha": "d32c65ca790ff5a9a5479bdf3025849f2f26d0d0",
+        "timestamp": 1492185457
+      },
+      {
+        "files": [
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "28c6bd8043774c67b329083a572f9cb12c2ce6e9",
+        "timestamp": 1493093827
+      },
+      {
+        "files": [
+          "pyperclip/windows.py"
+        ],
+        "sha": "6684ecfebeee37c8a28ca7ea95bd21713249fd62",
+        "timestamp": 1493093856
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py",
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "3b5f972d769dad74e0b738a158b98812c9066331",
+        "timestamp": 1493457289
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py"
+        ],
+        "sha": "19845a69b5975ffc564081fb4e2761e2cee2a44e",
+        "timestamp": 1502139096
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py"
+        ],
+        "sha": "7a0b4182229fe181c62d60d942321231fcf00a5f",
+        "timestamp": 1502374843
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt"
+        ],
+        "sha": "551a8178bfe0da7ca8c19a9e3deee1d098029505",
+        "timestamp": 1509249760
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "fb483dd84c524d1f745956519814e9b163c8482b",
+        "timestamp": 1509251360
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "50230f61bf5aa9368e657a6839a45022fb37e220",
+        "timestamp": 1509252523
+      },
+      {
+        "files": [
+          "pyperclip/clipboards.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "8396a9196f19e7c0a4914be2455886cbb6491d62",
+        "timestamp": 1509266579
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "4b77f2bb7e999e247cdfdcd68d443fdfd470c530",
+        "timestamp": 1509271165
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "7e196450d903d8f3cff6f83bae2b77a8734e9ea0",
+        "timestamp": 1509272235
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "b9570486a2494bd517bb1381056b5b1c41e9e38c",
+        "timestamp": 1509272266
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyperclip/clipboards.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "489a3bb32bef9ff2e0f28801c93bf659fe83defe",
+        "timestamp": 1509293730
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "9836cd6a4448643cc76481afb68f4f1f8952fbd4",
+        "timestamp": 1509308233
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "pyperclip/clipboards.py",
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "087a66f21b1f48b8c5d4984d4bc64814d6195359",
+        "timestamp": 1509329336
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "CHANGES.txt",
+          "pyperclip/clipboards.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "270ce3efde476692805f0f50cbbb93dd172bf4f6",
+        "timestamp": 1509330327
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "1b0095d9abaee8fde7706211ee142979ff0df482",
+        "timestamp": 1510099757
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "64b26169d578131f2286d236a2001f8c15395bb9",
+        "timestamp": 1510101302
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "b6a7580b04c19d68e8baf7a7626fa7659a2336e3",
+        "timestamp": 1516954360
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "0ec5ec707fc735ce65fb34fb9277998a34216ae2",
+        "timestamp": 1520750221
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "f0e19ca229d49297c35744eb8686f3daea6b7714",
+        "timestamp": 1524274314
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "ab3b6fc36bc7f24b16d67835a33defd25ac49888",
+        "timestamp": 1527637327
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "fc1185ba0ead24c48d075ca80f1faeb072a89043",
+        "timestamp": 1527705174
+      },
+      {
+        "files": [
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "c66bc91afed6d128a212a8d6e932c419f2e4fb22",
+        "timestamp": 1527714948
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.md",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "16b1f5b7ece36a08adc5ddec1ef6b1b0aa9de77f",
+        "timestamp": 1531981203
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "3b72745175b3ea25168141e0c51de35771a9cd1b",
+        "timestamp": 1535355453
+      },
+      {
+        "files": [
+          ".gitignore",
+          "Pipfile",
+          "Pipfile.lock",
+          "tox.ini"
+        ],
+        "sha": "bee944b75aeacae0f87a9b351b218407e8525484",
+        "timestamp": 1537819759
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "src/pyperclip/__init__.py",
+          "src/pyperclip/__main__.py"
+        ],
+        "sha": "09abcb63fa5a6ac9afa3b11def604b059b943b6b",
+        "timestamp": 1537830703
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "3ff0e0b418a869df7324af19f3f2d2e838f2ca9d",
+        "timestamp": 1553373659
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "a4e6f04e14e86f4b79cac1b3729b74cf1e702b11",
+        "timestamp": 1555076968
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "75263101652d4423786b85618c1718bd66e5a672",
+        "timestamp": 1566501881
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "3f6b5daf5847f36c9c713d246f7b0bbcc9eb7115",
+        "timestamp": 1566502280
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/introduction.rst",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "cc0194abe9b76a71ba5a4fa82519b4d50208caae",
+        "timestamp": 1585440599
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "943372e295764e18ea2069e1c0615ad286089bda",
+        "timestamp": 1585441173
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "76e1b7d295077b2f0c51bca1a5d76d95b9ccf4b7",
+        "timestamp": 1591180068
+      },
+      {
+        "files": [
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "be59ac638e26aff5204a32333f7ebe046003065a",
+        "timestamp": 1591685206
+      },
+      {
+        "files": [
+          "Pipfile",
+          "Pipfile.lock"
+        ],
+        "sha": "d72f3ceb27ba5b227337e710cf5ec00ad0942044",
+        "timestamp": 1596518030
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "793b6d427891179e1040ef09ef287489de9af225",
+        "timestamp": 1601538452
+      },
+      {
+        "files": [
+          "src/pyperclip/__main__.py"
+        ],
+        "sha": "2c0319f1118344f99485a61abe4293d1a8e3d8e2",
+        "timestamp": 1601854525
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "README.md",
+          "setup.py"
+        ],
+        "sha": "1df4ee5122bcc1e8cfcf4d4293aade06d14503dd",
+        "timestamp": 1601854797
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "78faeaf1ccea0f3e0f20597fc916852c320c618f",
+        "timestamp": 1601856398
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "c3aa4650364f391ec461525f0c81b0685d18684a",
+        "timestamp": 1601868403
+      },
+      {
+        "files": [
+          "Pipfile",
+          "Pipfile.lock",
+          "setup.py",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "5d58893f0b1a7b40c2f168af3ba4ac99c124c46c",
+        "timestamp": 1602380338
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "714be1f3f8e5bb289bbd77aa83be212d660f3cb0",
+        "timestamp": 1613869477
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "dc13bff9e2376bdfa705a7a96d4648ec3e34cff4",
+        "timestamp": 1616232810
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "b1308add5c3dd503ecb5ecada6f0a1504b99b7d7",
+        "timestamp": 1622097625
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "e46ab4623d3206b9c04ece1558885790994aa087",
+        "timestamp": 1630018667
+      },
+      {
+        "files": [
+          "Pipfile.lock"
+        ],
+        "sha": "aec431403315eadce1c592346a99ce2e5a0306cc",
+        "timestamp": 1630018952
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "f95dd17087b7ff9a8b7c9ce9c14d6e634823f985",
+        "timestamp": 1630531608
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "6efa0acbdbaa21d6bd406fe90b26bd4c34c51fcf",
+        "timestamp": 1609774859
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "a2dcbd3d730e67058c935fbe88e54e5d58e36937",
+        "timestamp": 1634009869
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "5c53243f3cadf49e295fd30bf53ac464c8ae8c87",
+        "timestamp": 1634010184
+      },
+      {
+        "files": [
+          "AUTHORS.txt",
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "078b4b6bce5da04ab75e77fa156a05052cfda67e",
+        "timestamp": 1634011816
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "67cc6921c1096cfb2eaee16f4a2838e77116f297",
+        "timestamp": 1637751634
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "8580288aff431205b3593ec4820594feb4312ccb",
+        "timestamp": 1652884780
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py",
+          "tests/test_pyperclip.py"
+        ],
+        "sha": "ccb412df6316816a1e08abe49bc51572b2430473",
+        "timestamp": 1652886962
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.rst"
+        ],
+        "sha": "219444085311367c0d286b646f660d27cf512995",
+        "timestamp": 1652885005
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "7edce5f097b8e280ab36f945a6fd59568bf46852",
+        "timestamp": 1652885692
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "67aa6c79a294cfa14fa40598cdf3cf4a6916e1ed",
+        "timestamp": 1692701535
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "5134a30d42974358f2a0f2bbd2d81d4b5db1d7e6",
+        "timestamp": 1705921641
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "d7dc5688287936e5096f2e64b91e9260e4284330",
+        "timestamp": 1711301624
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "6dba64a5c66725b7063a354020131e5614171e46",
+        "timestamp": 1711349859
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "3964edc5c21b9124007efe9733eda805cdb031a1",
+        "timestamp": 1717022258
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "5aef21c14cda3a9c858adf108581fd2849c6321f",
+        "timestamp": 1718727394
+      },
+      {
+        "files": [
+          "Pipfile",
+          "Pipfile.lock"
+        ],
+        "sha": "26b2e8c0d79681e642ac3f23b61e8ce3f02f83b3",
+        "timestamp": 1718728187
+      },
+      {
+        "files": [
+          "Pipfile",
+          "Pipfile.lock"
+        ],
+        "sha": "df052ec93443e567a6a092cdd8a304fc9cda7014",
+        "timestamp": 1718729065
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "253e3ccda54a8270548d74c463ff2acd675ecc8b",
+        "timestamp": 1718736451
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "05200300a6946d6debd2e4fab5affa81e6691932",
+        "timestamp": 1718742287
+      },
+      {
+        "files": [
+          "AUTHORS.txt"
+        ],
+        "sha": "693918637cb5d385b74d632dbb32cc1ac3ed8a81",
+        "timestamp": 1718742334
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "2d47ac869facb3c5d4d01a7410af1144eddb7fc0",
+        "timestamp": 1753670204
+      },
+      {
+        "files": [
+          "src/pyperclip/__init__.py"
+        ],
+        "sha": "08dba5dda08bce282aba17468e202d64e588ad91",
+        "timestamp": 1756181198
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 4,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".gitignore": 0,
+      "AUTHORS.txt": 1,
+      "CHANGES.txt": 2,
+      "MANIFEST.in": 3,
+      "Pipfile": 4,
+      "Pipfile.lock": 5,
+      "README.md": 6,
+      "docs/index.rst": 7,
+      "docs/introduction.rst": 8,
+      "pyperclip/clipboards.py": 9,
+      "pyperclip/exceptions.py": 10,
+      "pyperclip/windows.py": 11,
+      "setup.cfg": 12,
+      "setup.py": 13,
+      "src/pyperclip/__init__.py": 14,
+      "src/pyperclip/__main__.py": 15,
+      "tests/basicTests.py": 16,
+      "tests/test_pyperclip.py": 17,
+      "tox.ini": 18
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1308100352,
+      "last_commit_ts": 1756181198,
+      "n_cochange_pairs": 20,
+      "n_commits_dropped_as_bulk": 9,
+      "n_commits_used": 172,
+      "n_files": 19
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "f5326bfd7c5448b40051dd261a7304657977b838",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
