@@ -1,0 +1,4684 @@
+{
+  "chain_hash": "668f00c2e7f387ea",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".gitignore||ftfy/__init__.py": 2,
+      ".gitignore||setup.py": 3,
+      ".gitignore||tox.ini": 2,
+      ".readthedocs.yaml||docs/requirements.txt": 2,
+      "CHANGELOG.md||README.md": 5,
+      "CHANGELOG.md||docs/conf.py": 8,
+      "CHANGELOG.md||ftfy/__init__.py": 17,
+      "CHANGELOG.md||ftfy/badness.py": 3,
+      "CHANGELOG.md||ftfy/char_classes.dat": 2,
+      "CHANGELOG.md||ftfy/chardata.py": 2,
+      "CHANGELOG.md||ftfy/cli.py": 3,
+      "CHANGELOG.md||pyproject.toml": 6,
+      "CHANGELOG.md||setup.py": 20,
+      "CHANGELOG.md||tests/test_cases.json": 4,
+      "README.md||docs/conf.py": 2,
+      "README.md||docs/index.rst": 4,
+      "README.md||ftfy/__init__.py": 6,
+      "README.md||ftfy/fixes.py": 4,
+      "README.md||mypy.ini": 2,
+      "README.md||poetry.lock": 2,
+      "README.md||pyproject.toml": 3,
+      "README.md||setup.py": 6,
+      "README.txt||ftfy.py": 2,
+      "README.txt||setup.py": 2,
+      "docs/accuracy.rst||docs/index.rst": 2,
+      "docs/conf.py||docs/index.rst": 6,
+      "docs/conf.py||ftfy/__init__.py": 13,
+      "docs/conf.py||ftfy/badness.py": 2,
+      "docs/conf.py||ftfy/fixes.py": 3,
+      "docs/conf.py||pyproject.toml": 4,
+      "docs/conf.py||setup.py": 9,
+      "docs/conf.py||tests/test_cases.json": 2,
+      "docs/encodings.rst||ftfy/chardata.py": 3,
+      "docs/encodings.rst||tests/test_cases.json": 2,
+      "docs/index.rst||ftfy/__init__.py": 4,
+      "docs/index.rst||ftfy/bad_codecs/utf8_variants.py": 2,
+      "docs/index.rst||ftfy/build_data.py": 2,
+      "docs/index.rst||ftfy/chardata.py": 3,
+      "docs/index.rst||ftfy/fixes.py": 6,
+      "docs/index.rst||setup.py": 2,
+      "docs/index.rst||tests/test_characters.py": 2,
+      "ftfy.py||setup.py": 3,
+      "ftfy/__init__.py||ftfy/bad_codecs/sloppy.py": 4,
+      "ftfy/__init__.py||ftfy/bad_codecs/utf8_variants.py": 7,
+      "ftfy/__init__.py||ftfy/badness.py": 12,
+      "ftfy/__init__.py||ftfy/build_data.py": 3,
+      "ftfy/__init__.py||ftfy/chardata.py": 26,
+      "ftfy/__init__.py||ftfy/cli.py": 11,
+      "ftfy/__init__.py||ftfy/compatibility.py": 4,
+      "ftfy/__init__.py||ftfy/fixes.py": 26,
+      "ftfy/__init__.py||ftfy/formatting.py": 2,
+      "ftfy/__init__.py||ftfy/guess_bytes.py": 2,
+      "ftfy/__init__.py||ftfy/single_byte_characters.txt": 2,
+      "ftfy/__init__.py||mypy.ini": 2,
+      "ftfy/__init__.py||pyproject.toml": 6,
+      "ftfy/__init__.py||setup.py": 25,
+      "ftfy/__init__.py||tests/test_bytes.py": 2,
+      "ftfy/__init__.py||tests/test_cases.json": 2,
+      "ftfy/__init__.py||tests/test_characters.py": 6,
+      "ftfy/__init__.py||tests/test_entities.py": 2,
+      "ftfy/__init__.py||tests/test_examples_in_json.py": 8,
+      "ftfy/__init__.py||tests/test_futuristic_codepoints.py": 2,
+      "ftfy/bad_codecs/__init__.py||ftfy/bad_codecs/utf8_variants.py": 2,
+      "ftfy/bad_codecs/__init__.py||ftfy/fixes.py": 2,
+      "ftfy/bad_codecs/sloppy.py||ftfy/bad_codecs/utf8_variants.py": 3,
+      "ftfy/bad_codecs/sloppy.py||ftfy/chardata.py": 4,
+      "ftfy/bad_codecs/sloppy.py||ftfy/cli.py": 3,
+      "ftfy/bad_codecs/sloppy_utf8.py||ftfy/fixes.py": 2,
+      "ftfy/bad_codecs/utf8_variants.py||ftfy/chardata.py": 3,
+      "ftfy/bad_codecs/utf8_variants.py||ftfy/cli.py": 3,
+      "ftfy/bad_codecs/utf8_variants.py||ftfy/fixes.py": 4,
+      "ftfy/bad_codecs/utf8_variants.py||tests/test_bytes.py": 3,
+      "ftfy/bad_codecs/utf8_variants.py||tests/test_encodings.py": 2,
+      "ftfy/bad_codecs/utf8_variants.py||tests/test_futuristic_codepoints.py": 2,
+      "ftfy/badness.py||ftfy/build_data.py": 7,
+      "ftfy/badness.py||ftfy/char_classes.dat": 5,
+      "ftfy/badness.py||ftfy/chardata.py": 17,
+      "ftfy/badness.py||ftfy/cli.py": 5,
+      "ftfy/badness.py||ftfy/fixes.py": 13,
+      "ftfy/badness.py||setup.py": 4,
+      "ftfy/badness.py||tests/test_cases.json": 21,
+      "ftfy/badness.py||tests/test_characters.py": 5,
+      "ftfy/badness.py||tests/test_examples_in_json.py": 7,
+      "ftfy/badness.py||tests/test_futuristic_codepoints.py": 4,
+      "ftfy/build_data.py||ftfy/char_classes.dat": 11,
+      "ftfy/build_data.py||ftfy/char_classes.py": 3,
+      "ftfy/build_data.py||ftfy/chardata.py": 5,
+      "ftfy/build_data.py||ftfy/cli.py": 2,
+      "ftfy/build_data.py||ftfy/fixes.py": 2,
+      "ftfy/build_data.py||setup.py": 4,
+      "ftfy/build_data.py||tests/test_characters.py": 2,
+      "ftfy/build_data.py||tests/test_examples_in_json.py": 2,
+      "ftfy/build_data.py||tests/test_futuristic_codepoints.py": 3,
+      "ftfy/char_classes.dat||ftfy/chardata.py": 2,
+      "ftfy/char_classes.dat||setup.py": 3,
+      "ftfy/char_classes.dat||tests/test_examples_in_json.py": 2,
+      "ftfy/char_classes.dat||tests/test_futuristic_codepoints.py": 5,
+      "ftfy/char_classes.py||ftfy/chardata.py": 2,
+      "ftfy/char_classes.py||tests/test_characters.py": 2,
+      "ftfy/chardata.py||ftfy/cli.py": 7,
+      "ftfy/chardata.py||ftfy/fixes.py": 27,
+      "ftfy/chardata.py||ftfy/single_byte_characters.txt": 2,
+      "ftfy/chardata.py||pyproject.toml": 2,
+      "ftfy/chardata.py||setup.py": 5,
+      "ftfy/chardata.py||tests/test_cases.json": 13,
+      "ftfy/chardata.py||tests/test_characters.py": 8,
+      "ftfy/chardata.py||tests/test_entities.py": 3,
+      "ftfy/chardata.py||tests/test_examples_in_json.py": 3,
+      "ftfy/chardata.py||tests/test_futuristic_codepoints.py": 3,
+      "ftfy/cli.py||ftfy/fixes.py": 2,
+      "ftfy/cli.py||setup.py": 2,
+      "ftfy/compatibility.py||ftfy/fixes.py": 4,
+      "ftfy/compatibility.py||setup.py": 2,
+      "ftfy/fixes.py||setup.py": 6,
+      "ftfy/fixes.py||tests/test_cases.json": 6,
+      "ftfy/fixes.py||tests/test_characters.py": 7,
+      "ftfy/fixes.py||tests/test_entities.py": 6,
+      "ftfy/fixes.py||tests/test_examples_in_json.py": 9,
+      "ftfy/fixes.py||tests/test_futuristic_codepoints.py": 8,
+      "ftfy/guess_bytes.py||tests/test_bytes.py": 2,
+      "ftfy/streamtester/__init__.py||ftfy/streamtester/oauth.py": 2,
+      "ftfy/streamtester/__init__.py||ftfy/streamtester/streamtester.py": 2,
+      "ftfy/streamtester/__init__.py||ftfy/streamtester/twitter_tester.py": 2,
+      "mypy.ini||pyproject.toml": 2,
+      "poetry.lock||pyproject.toml": 5,
+      "pyproject.toml||setup.py": 5,
+      "pyproject.toml||uv.lock": 2,
+      "setup.py||tests/test_characters.py": 2,
+      "setup.py||tests/test_entities.py": 2,
+      "setup.py||tests/test_examples_in_json.py": 2,
+      "setup.py||tests/test_futuristic_codepoints.py": 3,
+      "setup.py||tox.ini": 3,
+      "tests/halibote.txt||tests/test_cli.py": 2,
+      "tests/test_bytes.py||tests/test_examples_in_json.py": 2,
+      "tests/test_bytes.py||tests/test_futuristic_codepoints.py": 2,
+      "tests/test_cases.json||tests/test_examples_in_json.py": 2,
+      "tests/test_characters.py||tests/test_examples_in_json.py": 2,
+      "tests/test_examples_in_json.py||tests/test_futuristic_codepoints.py": 6
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore",
+          "README.txt",
+          "ftfy.py",
+          "setup.py"
+        ],
+        "sha": "be4d04e2ca68e843bb0225ab03e73282a930148b",
+        "timestamp": 1345750336
+      },
+      {
+        "files": [
+          "ftfy.py"
+        ],
+        "sha": "b6bb21d09a09857f3e66b8222ba1b0cbf2293552",
+        "timestamp": 1345824341
+      },
+      {
+        "files": [
+          "ftfy.py"
+        ],
+        "sha": "cdcbe0db4ca55ffbe365fc9db0bd4c63c9298086",
+        "timestamp": 1345824781
+      },
+      {
+        "files": [
+          "ftfy.py"
+        ],
+        "sha": "da56e482753be900c638bf4f2f63e835e03e34e1",
+        "timestamp": 1345824947
+      },
+      {
+        "files": [
+          ".gitignore",
+          "LICENSE.txt"
+        ],
+        "sha": "1e4a214ac5d4ec145788e331feaa9fa5ac82a3e3",
+        "timestamp": 1345825027
+      },
+      {
+        "files": [
+          "README.md",
+          "README.txt",
+          "ftfy.py",
+          "setup.py"
+        ],
+        "sha": "56b5fd0cf6233bfbe6b6233bf041b642e2488b53",
+        "timestamp": 1345836124
+      },
+      {
+        "files": [
+          "ftfy.py"
+        ],
+        "sha": "3a79d5209fedd7bb71c9fe8ef0a639cd3ddcfb6c",
+        "timestamp": 1345836178
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "3a33231b80a090ae2493b0d23bb6001ef4c9eec2",
+        "timestamp": 1345836274
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "dce279a3ef3411e1138e9d5544d1b2ba68606c33",
+        "timestamp": 1345836381
+      },
+      {
+        "files": [
+          "ftfy.py"
+        ],
+        "sha": "e4a53f5105095e69cbb79d9a9cc8db527b6257e9",
+        "timestamp": 1346297946
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "5215755f962421b15aab9855970e1683ccd89cd8",
+        "timestamp": 1346300019
+      },
+      {
+        "files": [
+          "ftfy.py",
+          "ftfy/__init__.py",
+          "ftfy/badness.py",
+          "ftfy/chardata.py",
+          "ftfy/cli.py",
+          "setup.py"
+        ],
+        "sha": "5d76608bca75e7829bd937786df84b4946fbcb44",
+        "timestamp": 1359490768
+      },
+      {
+        "files": [
+          ".gitignore",
+          "ftfy/badness.py",
+          "ftfy/cli.py"
+        ],
+        "sha": "16067d18ed05dfd303667df646027886d70c8591",
+        "timestamp": 1359510391
+      },
+      {
+        "files": [
+          "ftfy/cli.py"
+        ],
+        "sha": "2b9910ec99383fb2d2997dfba545a05138afd625",
+        "timestamp": 1359510682
+      },
+      {
+        "files": [
+          "README.md",
+          "ftfy/__init__.py"
+        ],
+        "sha": "1e8af69a9f73ce2258a4f0160353ee13d3c3670a",
+        "timestamp": 1359578802
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "836b5c849454b36d0dd6f718deb0d00ce536ff31",
+        "timestamp": 1359589565
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/chardata.py",
+          "setup.py"
+        ],
+        "sha": "2b1829dd52c8c8a5f86e351706d29e38960efce3",
+        "timestamp": 1359591887
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/badness.py",
+          "ftfy/chardata.py",
+          "ftfy/cli.py"
+        ],
+        "sha": "eeaf3a63f205010be4c75190a17d53ca4cf79650",
+        "timestamp": 1363724458
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/chardata.py",
+          "setup.py"
+        ],
+        "sha": "5ec37e98caca3c28f0fade628e34d3dadb674696",
+        "timestamp": 1363727117
+      },
+      {
+        "files": [
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "e3937b355ec97581da694a18c42804a527543118",
+        "timestamp": 1366923705
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "00c29651deaa7999f3b58b950c6ad4383d346807",
+        "timestamp": 1371756591
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fc7f75119837378c033382f44a7603ef5b47266a",
+        "timestamp": 1371756741
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/chardata.py"
+        ],
+        "sha": "524416af1b65db9d93a712f87cb429e8ac6d7f39",
+        "timestamp": 1372481131
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "24b89247ae6872c1aaae38be997324849f8b593b",
+        "timestamp": 1372490651
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/chardata.py",
+          "ftfy/single_byte_characters.txt"
+        ],
+        "sha": "f8c3daf1099e9ec99d0c39f186d517526d1f77c3",
+        "timestamp": 1372577484
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/chardata.py",
+          "ftfy/single_byte_characters.txt",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "2641c3cdb53589b4ce5a48af636785be44219bcf",
+        "timestamp": 1373581242
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/chardata.py"
+        ],
+        "sha": "c6bfbecbbc23c84971369bb2cfb24e691229ad17",
+        "timestamp": 1374606497
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/badness.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_examples_in_json.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "7f178a231fd69c2558d5ad53dd39376f0dcce611",
+        "timestamp": 1375041642
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "96df082add1b686b9688007f4c3fd8f742c1dcf7",
+        "timestamp": 1375043052
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "fd11024bcf029ce6c03ddfc7a4a45a5ef92d7ec5",
+        "timestamp": 1375043062
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "279b76998f9200f3738351f10b799ebbdaee0855",
+        "timestamp": 1375043144
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "7e5827472e297a75c00b9a455cae0a11aac21050",
+        "timestamp": 1375044047
+      },
+      {
+        "files": [
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "bc1c554899032db00bd128e752efb36a5012d3f9",
+        "timestamp": 1375044853
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "c202947ecf06d49bc7dd24e9aa48e6e75500bd9b",
+        "timestamp": 1375048240
+      },
+      {
+        "files": [
+          "ftfy/single_byte_characters.txt"
+        ],
+        "sha": "6112a3589af7f24a7f6ca445a932f129bbd3c54a",
+        "timestamp": 1375118460
+      },
+      {
+        "files": [
+          "ftfy/fixes.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "b6dc9093345679300a0892d67efd8a345fdb45f6",
+        "timestamp": 1375119393
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/fixes.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "595539f7402ca9252a61c6f63243b15088d5a6a4",
+        "timestamp": 1375127198
+      },
+      {
+        "files": [
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "c430397b846a75e540eacd17cbd2f21264e85b09",
+        "timestamp": 1375207644
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "77e0e2fdaf84635b25d8ac44dd829ce829b8e88f",
+        "timestamp": 1375412879
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/badness.py",
+          "ftfy/chardata.py"
+        ],
+        "sha": "e654eb91f683e68f6431a77d8f54c2766a6b09e1",
+        "timestamp": 1375412919
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "803755c0cc58bf65f2700b5ec03d42d2daa40e42",
+        "timestamp": 1375587056
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "9ba2c2fbfcb1c7c12b12b0bb9af0ac0102ec8fc1",
+        "timestamp": 1375588239
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "2e5261dec0fad526eefd05e1955ff3d3ad1d4bf1",
+        "timestamp": 1375772311
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "6430424a0659fb1b6390a2327c01223324446d16",
+        "timestamp": 1375847118
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "fff111d287cb50217ed03813cf7b2c94d19fecee",
+        "timestamp": 1376708758
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "db967f20757a8877ed27b29fa2baeaa43b725bc3",
+        "timestamp": 1377112601
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/cli.py"
+        ],
+        "sha": "4c8114d8c0022733801634da90f93869acc058b1",
+        "timestamp": 1377112874
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/char_classes.dat",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "46af4155c3583f5fab5d568469f0f851f2b34e91",
+        "timestamp": 1377146730
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "3a8bcb973f0a14f482c3f1896482cbe65daf633f",
+        "timestamp": 1377295826
+      },
+      {
+        "files": [
+          "ftfy/build_data.py",
+          "ftfy/chardata.py"
+        ],
+        "sha": "814d6e546483b12ed7bf8ebfe7a9979747eb956f",
+        "timestamp": 1377328693
+      },
+      {
+        "files": [
+          "ftfy/compatibility.py"
+        ],
+        "sha": "d1c58aac9a797ad3ce0efb810d57adf34c4ce5d7",
+        "timestamp": 1377328717
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "cfc6b0dc928cb686a8966fb56f730bc3b8673904",
+        "timestamp": 1377328785
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "4a6cbc433016b06a1104494c5b60bf60dda66606",
+        "timestamp": 1377330145
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "8914de7b8e7ef85734cf5483b36e41281ba62111",
+        "timestamp": 1377332182
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/chardata.py"
+        ],
+        "sha": "48307bf0476fe155277ac96a0300f9f70174134b",
+        "timestamp": 1377371614
+      },
+      {
+        "files": [
+          "ftfy/compatibility.py"
+        ],
+        "sha": "87e75bf2d427c15efc0119f551b015200ec7204d",
+        "timestamp": 1377373371
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "6f2ea216e0e53364b63509a1e4c927cba86aaddc",
+        "timestamp": 1377374339
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/badness.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "8ca7e4884658bb92d8105fb1fb663e27d0c5363c",
+        "timestamp": 1377374750
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "76f6bf9e2a7b2a26fbdb221374364af90a8ef1dd",
+        "timestamp": 1377374806
+      },
+      {
+        "files": [
+          "ftfy/build_data.py"
+        ],
+        "sha": "560a56655cdd04812f503af9a9ba1ee87b1d941a",
+        "timestamp": 1377375065
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/cli.py"
+        ],
+        "sha": "6e6f30d88c3b86a9d822afaeb51113353ae205df",
+        "timestamp": 1377375673
+      },
+      {
+        "files": [
+          "ftfy/build_data.py",
+          "ftfy/compatibility.py"
+        ],
+        "sha": "9f1070ee20687750a936d5632ae575dfb8193a64",
+        "timestamp": 1377375695
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "f58b83fef9affd8f8f976be2230ddef018262f82",
+        "timestamp": 1377375828
+      },
+      {
+        "files": [
+          "LICENSE.txt"
+        ],
+        "sha": "f25d9f110f0757640351f812fb8aa082e3c54c45",
+        "timestamp": 1377375926
+      },
+      {
+        "files": [
+          "ftfy/badness.py"
+        ],
+        "sha": "8a90baafc7fa24506593d75106ef9c4e2676e28f",
+        "timestamp": 1377376200
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "061bceebc1ad6febf7ba06fac64e8894f9f8dc97",
+        "timestamp": 1377376213
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "ca8a255d06e0352920cae4fcb35c1f6c310ca03d",
+        "timestamp": 1377382511
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "24d4eea7fea7c1abf5d192329800c237c37c3cce",
+        "timestamp": 1377382601
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "89be0a0502890dae43468e534019be1aa02bf73b",
+        "timestamp": 1377382667
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "8446c934b8cd3b9121b24a3e902e31f49d7f6221",
+        "timestamp": 1377389548
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "6f1027064a94e09f6b9388da7ca89e67299fc26e",
+        "timestamp": 1377489349
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "b1082c9780630a53631da37357e4077a5cb3a4d7",
+        "timestamp": 1377531106
+      },
+      {
+        "files": [
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "4262f992413873d847d57169562f5bdf6fd6b145",
+        "timestamp": 1377531513
+      },
+      {
+        "files": [
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "4ca4d87ef4d2aca2135c46d8a71b2c0e63ebd091",
+        "timestamp": 1377531625
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "771fd4f9164baf69e0f69803707c36094f87d85a",
+        "timestamp": 1377534779
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "acbb94e2a569b28330a1fc70cec0713e1e6cfeb3",
+        "timestamp": 1377540585
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "25fd195edf4c1407cbf93953184ac4c86d5415ea",
+        "timestamp": 1377551893
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "43bc5bf1563d5b276443020ce0d5916353ae7b75",
+        "timestamp": 1377554333
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "85bf405c72467c711614c2e48bb7289b185b84ea",
+        "timestamp": 1377554432
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "ae23c079e71cf8a29d0f80fdffb80dddf0249e80",
+        "timestamp": 1377679486
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/compatibility.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "aef98950b23f805ec3af85bbe5f2f913ccd2c8c7",
+        "timestamp": 1377703939
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.rst"
+        ],
+        "sha": "6a0c5e983fbe40d7e1b1933dca6e69583a09b233",
+        "timestamp": 1377712235
+      },
+      {
+        "files": [
+          "README.md",
+          "ftfy/__init__.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "405b9127e9bd09c2c67395f09e5765b5f082ba2c",
+        "timestamp": 1377712577
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "c2111a8cc2e428e9c4c88b6650209bd82a2cf5fc",
+        "timestamp": 1377713992
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "d5c7682ba35e1e9814143a357da5a269624a8a05",
+        "timestamp": 1377736266
+      },
+      {
+        "files": [
+          "README.md",
+          "ftfy/__init__.py",
+          "ftfy/compatibility.py",
+          "ftfy/fixes.py",
+          "setup.py"
+        ],
+        "sha": "94f6969f6c9051a078ca11e67b409ca9e139f447",
+        "timestamp": 1377796171
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "f1338b1248dc9b8e4078418335a1bbb7ad3f2336",
+        "timestamp": 1377876763
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "f55baa8cae71104df283d9848d2d505b8f781eb6",
+        "timestamp": 1377877013
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/build_data.py",
+          "ftfy/char_classes.dat",
+          "setup.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "f189c2f540abc18b45a07e4cf169882c8e48a7b5",
+        "timestamp": 1377899046
+      },
+      {
+        "files": [
+          "ftfy/fixes.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "187ce49da04eb1b2910fce2de372e986de82033b",
+        "timestamp": 1378232773
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "5eb33d603fa41409d5ffc18e040c07916604f6db",
+        "timestamp": 1378277266
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e3b919fc0ee87d4df3575f53f67df34f60c3736c",
+        "timestamp": 1378760870
+      },
+      {
+        "files": [
+          "ftfy/compatibility.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "2e0e6c6074d990215b1189934d51437d8e8f2035",
+        "timestamp": 1378761489
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "77a4bcc4aaf15f754a600ab5bc9b9140269c79eb",
+        "timestamp": 1378763137
+      },
+      {
+        "files": [
+          "ftfy/fixes.py",
+          "tests/test_examples_in_json.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "b0b77c113fe16cebfc2da38504472ee3f350521e",
+        "timestamp": 1380147996
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "7ecf4b1272102546bcfc430e5c219bf9202ff050",
+        "timestamp": 1380635527
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "351b52074304886b21623e08ce9949f5ec445200",
+        "timestamp": 1380642302
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "21cf369c2e011340c9da261c4abd3de40201de73",
+        "timestamp": 1383339359
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "README.md",
+          "setup.py"
+        ],
+        "sha": "5cdfc890f90e9b2fb3abb0667760de9677cbae84",
+        "timestamp": 1383340244
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "7a139256c4adc48cfa8f1d4c40b54cf33cd3a99d",
+        "timestamp": 1383692287
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "8fab05ee31b4f8f345162c015cd6a705c10f0c56",
+        "timestamp": 1383692531
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "4095573512b350651dbee0b74d6e7d20d554499f",
+        "timestamp": 1383693304
+      },
+      {
+        "files": [
+          "ftfy/build_data.py"
+        ],
+        "sha": "0e842218e8dab60d4166e519d8ae93cee01960ab",
+        "timestamp": 1383693586
+      },
+      {
+        "files": [
+          "tests/test_entities.py"
+        ],
+        "sha": "583a966b75175959f9933b7b10b3217d0d452bd5",
+        "timestamp": 1383693769
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "71d503ea524fbffb6c42b7ded09bf0ae1840e496",
+        "timestamp": 1383693784
+      },
+      {
+        "files": [
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "84a94c5a3554634e7ea4e831a0eb2dafd3eeba8f",
+        "timestamp": 1384071726
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/sloppy.py"
+        ],
+        "sha": "2f82d2e51d5b1ffacbd1412960071c57033e1d36",
+        "timestamp": 1384119002
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/__init__.py"
+        ],
+        "sha": "c8b745082e79fdaf0447c4c23349a102fe26bd1c",
+        "timestamp": 1384121147
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "f8c5ab2bef90fbef851714cdb8cbfe5a99fbb3e5",
+        "timestamp": 1384151678
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "ecdbdc7824f5859430b70983508cf75e9695a880",
+        "timestamp": 1384152514
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "e68513cc02c83351d845b182ffe77c4241ddccdb",
+        "timestamp": 1384153545
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "ea791707acce6177637734932f0e4db509ceec2e",
+        "timestamp": 1384224802
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "97add9a382610eeabad9d52051a858a1668e8ad1",
+        "timestamp": 1385193447
+      },
+      {
+        "files": [
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "88ae0c337da61bdaba502692499ae07616b9428c",
+        "timestamp": 1385197107
+      },
+      {
+        "files": [
+          ".gitignore",
+          "ftfy/__init__.py",
+          "ftfy/autodecode.py",
+          "ftfy/guess_bytes.py",
+          "tests/test_bytes.py"
+        ],
+        "sha": "110efe2673b582978fe222f0103a811c65c7b9c3",
+        "timestamp": 1385536537
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "11ea186fb812277688e8e1a9bf9aaf0e2121a7e0",
+        "timestamp": 1385537582
+      },
+      {
+        "files": [
+          "tests/test_bytes.py"
+        ],
+        "sha": "ca60b6c951749ba62cccd23971032c326b29b721",
+        "timestamp": 1385539169
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "ca52df02ee6e30f403249cb7e1fcea46933b216b",
+        "timestamp": 1385540043
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py",
+          "ftfy/fixes.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "0532e7180c7dee8277a863f81b9d7cbd604474f1",
+        "timestamp": 1385572761
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "f4340d554446b9263bed8d40f897143d1e2f3a7b",
+        "timestamp": 1385967272
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/__init__.py",
+          "ftfy/bad_codecs/sloppy.py",
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "8fa9d404856f2607a6018ae4bd009ddc3c14a60f",
+        "timestamp": 1385969331
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/guess_bytes.py",
+          "tests/test_bytes.py"
+        ],
+        "sha": "eb3da2c103389c1755f6de3922b2295a66f5008e",
+        "timestamp": 1385969502
+      },
+      {
+        "files": [
+          "ftfy/guess_bytes.py"
+        ],
+        "sha": "8d0f6d32c845874e4bfbe9b108aefa415ca3d910",
+        "timestamp": 1385969633
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/compatibility.py"
+        ],
+        "sha": "49935a2631ac427fd50afee7c5bbd3b5bb805fb6",
+        "timestamp": 1385970049
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py",
+          "tests/test_encodings.py"
+        ],
+        "sha": "e612d52bc4fb87f33ad3622959a86487da4e2c1e",
+        "timestamp": 1388290761
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "630dbbd91584f54d5a5c882bbe80ddb4099d0614",
+        "timestamp": 1389385437
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "a23a83de00184f25d21daec36b57f24a8a111eb2",
+        "timestamp": 1390786145
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "803b2a3da105771bcc8a2bed431216127025dd8d",
+        "timestamp": 1391013642
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/sloppy.py"
+        ],
+        "sha": "a743dd0841bafc749eed4e33d889f9c58a4e173e",
+        "timestamp": 1391013816
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5bcbc56e63d72e05707e75a2df3b4672bfd86f1c",
+        "timestamp": 1391014038
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f083503b7d5f23f2676bc2222c6fdcaf207da917",
+        "timestamp": 1391018398
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "1fec0fcd17f7d077330236622b0612dfce60d3a1",
+        "timestamp": 1391027776
+      },
+      {
+        "files": [
+          "setup.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "d27386d94fedc12ff56829a6cd3307360c97bae9",
+        "timestamp": 1391027935
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "33bb37d05fc676d79d26e4a6265fa5582d04b10a",
+        "timestamp": 1391033174
+      },
+      {
+        "files": [
+          ".gitignore",
+          "ftfy/__init__.py",
+          "ftfy/streamtester/__init__.py",
+          "ftfy/streamtester/oauth.py",
+          "ftfy/streamtester/streamtester.py"
+        ],
+        "sha": "28aa2f8943f6d833912b6c9d9af73133bffa1c97",
+        "timestamp": 1391071978
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "8c68360acd7b5e17d488ff3d4cc38c1610efddaa",
+        "timestamp": 1393611414
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "65a77a747ac3c4b23a06de54d9452588ec0589d5",
+        "timestamp": 1394638475
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "faf1001b99ed6767fd4b176d088647c2ff77b43c",
+        "timestamp": 1395183585
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "ec3de4309b6aec65db19aaa894f5c4b27d3adede",
+        "timestamp": 1397900116
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py",
+          "tests/test_bytes.py",
+          "tests/test_examples_in_json.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "f270a5e6a85e2f9fb99b1dca922eb0ff07a18ece",
+        "timestamp": 1400181954
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "bdcee67fd37130ea6a0099da53065951530e9ac2",
+        "timestamp": 1400182415
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "96c9d67db6c56a516c4220c995f3583d54c1f6f9",
+        "timestamp": 1400183576
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "19d5fa596e501f100bc2457d426e168b3f65eeb1",
+        "timestamp": 1401895712
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "c0c9defe8589b6b063c0878a3315d4aa8973b458",
+        "timestamp": 1401905435
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "0667865e3bfddcdda9e3c66e36c84ba961ce54ca",
+        "timestamp": 1402424672
+      },
+      {
+        "files": [
+          "ftfy/streamtester/__init__.py",
+          "ftfy/streamtester/streamtester.py",
+          "ftfy/streamtester/twitter_tester.py"
+        ],
+        "sha": "1e80e55c3e6e5be8f277db9818a694007b15a06a",
+        "timestamp": 1403034971
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "897e10c0f3db0be556df947f825fcf7805f8d069",
+        "timestamp": 1403043997
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "d5343dda36852c83d93dffbc094bedbc6ffa8f1d",
+        "timestamp": 1403062310
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "3d4afd943055449f64a06ec828680907b1f3d78a",
+        "timestamp": 1403121616
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "e181fdcd3ee663e923a55575ca856aa9cc55b1a4",
+        "timestamp": 1403121783
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "cb95ccd812ebf4f8c7eb33f2c4af8cef3239c62d",
+        "timestamp": 1403901959
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "0e3c68f74581749718b5f41dd2e309ebfac9df7d",
+        "timestamp": 1407124023
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "f402a66788f0e043d10a4cf67c0f7d1217d26f52",
+        "timestamp": 1407131979
+      },
+      {
+        "files": [
+          "ftfy/build_data.py"
+        ],
+        "sha": "8a5c1030110966093781240f65b2a2fded8f0923",
+        "timestamp": 1407132864
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "014e1c58282c93d44cfb9dd22f6726c6292c056b",
+        "timestamp": 1407134602
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "ftfy/__init__.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "c65f0a7bc10868ec08d6ff579697ad83e9346ebe",
+        "timestamp": 1407165496
+      },
+      {
+        "files": [
+          "ftfy/streamtester/__init__.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "52c035c6179b10461c8a79d440e43a8774a702c0",
+        "timestamp": 1407191178
+      },
+      {
+        "files": [
+          "ftfy/badness.py"
+        ],
+        "sha": "5b34942db1c1eb6523413df11d4978f200f25be8",
+        "timestamp": 1407347969
+      },
+      {
+        "files": [
+          "ftfy/streamtester/oauth.py"
+        ],
+        "sha": "544200758b52f1fdcde752f66deadb42b67aa847",
+        "timestamp": 1407855824
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a74650cca4da7c82ddbd4fe2cd6ee686d214edd6",
+        "timestamp": 1408212659
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "1e1a9a1708fda7f9ce0472197e4c50d56b935dee",
+        "timestamp": 1408213434
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/__init__.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "8fa7b9795349eb9c994e30f9fdb39c768794308d",
+        "timestamp": 1408215933
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "ee4c7a8dacfc3932142cb19223b0e148e9317b49",
+        "timestamp": 1408216490
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "c279b9c8a011310b08937f52cb981f0a50ddfe70",
+        "timestamp": 1408216802
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "420f8e74ab1e9f8fcf1074cfaa8d4a828066564a",
+        "timestamp": 1408217064
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "cfc43e272ea49022a4bce859e9c82410d2672355",
+        "timestamp": 1408217706
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "09ebd38a42633b1edfc2e7b6e918f43b402906f9",
+        "timestamp": 1408218379
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "e423e8f110f017b45e70d338dd7823d5551b1a49",
+        "timestamp": 1408218449
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "9b3c586f7edce083441c2261639e44e53b21d846",
+        "timestamp": 1408218634
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "c7c7611d25f76415d295bcbe0bc31a38644202ca",
+        "timestamp": 1408218716
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "38891354027201bc67858c467f2f2905e1bb80d0",
+        "timestamp": 1408218918
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "4ab3e557b2873052196f402030741d4e8a678804",
+        "timestamp": 1408378916
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "aa923e520229b4b98b9affc51a7578a1e787b839",
+        "timestamp": 1417536531
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/sloppy.py"
+        ],
+        "sha": "8733a023450c1fc1915d5c120c1a9524d9fcfe8a",
+        "timestamp": 1417537658
+      },
+      {
+        "files": [
+          "tests/test_encodings.py"
+        ],
+        "sha": "7f51dc63c0e84ea78f5936fd30a26bfa42eb3f72",
+        "timestamp": 1418427790
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "b046182a1222e0258c5335fb6ad134858513aca4",
+        "timestamp": 1418427826
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "8cba9c9b79bff5405ac44a857c6f6604a8e411b1",
+        "timestamp": 1420833705
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/fixes.py",
+          "setup.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "dd26d1ff67962dffe69a6d02492a029c09f36bbe",
+        "timestamp": 1420844330
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "6b975bf8202e119aed32de0a009f4293aa983edb",
+        "timestamp": 1420844468
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "5ffa9766e4fa61553848fcddcea038a453b8bf0a",
+        "timestamp": 1420844654
+      },
+      {
+        "files": [
+          "ftfy/fixes.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "cea55ddd909c3e56e3246ae6705fade34741d039",
+        "timestamp": 1421363366
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "0aed773ac3150bd7a450c99c781e7c58eb01232e",
+        "timestamp": 1421363385
+      },
+      {
+        "files": [
+          "ftfy/build_data.py",
+          "ftfy/char_classes.dat"
+        ],
+        "sha": "1cf0d42cdc88b7af351498f0c5d57a1a24d171de",
+        "timestamp": 1426724594
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "9f581924dd0b92457e5a1e80216e0e6fee0c1cb1",
+        "timestamp": 1426878545
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "setup.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "99abfab89c6d51ef60483963ec94ef26bfcf0028",
+        "timestamp": 1426879270
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "ab90c62be0dac4ce08dfb2c71059d2d6776f181a",
+        "timestamp": 1427409387
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "3e7bc77f9232be6a2868c626435f2cd00f2ff8d8",
+        "timestamp": 1427410285
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "fb7047a0a1dad3c628307f51a0542945ed2b4552",
+        "timestamp": 1427411902
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "d39e4449c9fb8b04c3d4a0cefbdd9dec73d19e4a",
+        "timestamp": 1427488619
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "1b6fb179da7c6cf7ff89a2af2abf7e2c1aa8ef2a",
+        "timestamp": 1427489493
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/conf.py",
+          "docs/index.rst",
+          "ftfy/bad_codecs/utf8_variants.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "54787c6a623d6590d9fcbbdab8659cff032c566a",
+        "timestamp": 1427495369
+      },
+      {
+        "files": [
+          "docs/accuracy.rst",
+          "docs/index.rst"
+        ],
+        "sha": "f0ed40b776c957670f824f53f39dafb284c4d5ef",
+        "timestamp": 1427754036
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/sloppy_utf8.py",
+          "ftfy/fixes.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "30e7cb7549f7f4aaaf5fdd12b1636ccdeff99e9b",
+        "timestamp": 1427763208
+      },
+      {
+        "files": [
+          "ftfy/fixes.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "de71045c7c3597574072226310ebd17253da3df8",
+        "timestamp": 1427784791
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "1bbb4e3064c9ec65b1e7c5699f18123dcd1978cc",
+        "timestamp": 1427791640
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/__init__.py",
+          "ftfy/bad_codecs/sloppy_utf8.py",
+          "ftfy/fixes.py",
+          "tests/test_encodings.py"
+        ],
+        "sha": "e05303461e576abc642fe30780c26f516beee875",
+        "timestamp": 1427909422
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "ee0b6de1516f8c8dcab7b654083c8d2de72a9419",
+        "timestamp": 1427913553
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "a16fd5980a1fe15cd4ec712ddc34b17baf417bdc",
+        "timestamp": 1427923254
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "d049a71c9b1f097432c5bf83f7508851cffa27c5",
+        "timestamp": 1428007280
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "6dbe2076bbcc73fa36081cfc276f14e607718a9f",
+        "timestamp": 1428083336
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "a58fb6c1f033dad856b0ce20dedf3a777d825d20",
+        "timestamp": 1428346797
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/build_data.py",
+          "ftfy/char_classes.dat",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "17a54e0c2515ae49a5a9436a797011fda0bf8a13",
+        "timestamp": 1428346849
+      },
+      {
+        "files": [
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "b1ecfc9c06b2d1d1015ea174e7c9075cffaacf21",
+        "timestamp": 1428347243
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/cli.py"
+        ],
+        "sha": "3b7bae8289db6980b4bcb4783610bec484f0596b",
+        "timestamp": 1428347267
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2ef323b6243c682cbcdb7f670817b93cae76c36e",
+        "timestamp": 1428347432
+      },
+      {
+        "files": [
+          "ftfy/cli.py"
+        ],
+        "sha": "919f19c41191af2a0158944d402d0bcd498fa128",
+        "timestamp": 1428349030
+      },
+      {
+        "files": [
+          "docs/accuracy.rst",
+          "ftfy/fixes.py",
+          "setup.py"
+        ],
+        "sha": "c140ae56bcf7886ed2c165e41216c0e98c1b1e47",
+        "timestamp": 1428349088
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "50c017a13c8fc5528a89660f79fdb7986a953817",
+        "timestamp": 1428350316
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/accuracy.rst",
+          "ftfy/cli.py"
+        ],
+        "sha": "00ebb2084f9e4477ddc0bf4c2c09e6988e407612",
+        "timestamp": 1428612112
+      },
+      {
+        "files": [
+          "ftfy/badness.py"
+        ],
+        "sha": "b958018775dc43987072439e50e377c62a2e7654",
+        "timestamp": 1428708789
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/bad_codecs/utf8_variants.py",
+          "ftfy/cli.py"
+        ],
+        "sha": "5d1b21128b7cc152634c6b04e4419409b36f8d12",
+        "timestamp": 1428709070
+      },
+      {
+        "files": [
+          "ftfy/fixes.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "64ea5b52d29947c0179bcc1f1804ace30ebb59ef",
+        "timestamp": 1428946633
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "e7b7d0f64517f6cee0a0debfeaf3036c9935b47e",
+        "timestamp": 1429034589
+      },
+      {
+        "files": [
+          "ftfy/cli.py"
+        ],
+        "sha": "c872629dbf0ab9f170a117b66c8687355310921d",
+        "timestamp": 1429034607
+      },
+      {
+        "files": [
+          "docs/accuracy.rst"
+        ],
+        "sha": "4c8b43dbba73f00fc598df952282b2fa8eb8df84",
+        "timestamp": 1429034811
+      },
+      {
+        "files": [
+          "ftfy/streamtester/__init__.py"
+        ],
+        "sha": "fd6ee424740daf5598e371c58148eb5f25537d6a",
+        "timestamp": 1429037906
+      },
+      {
+        "files": [
+          "ftfy/streamtester/__init__.py"
+        ],
+        "sha": "fa2b62ad92b00dba49e47cb636da394536b5b1ec",
+        "timestamp": 1429132005
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "4222f1a2defa668dfbaa90906764a364125e5300",
+        "timestamp": 1429132038
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/cli.py",
+          "ftfy/compatibility.py"
+        ],
+        "sha": "386f97c18bce1e45124f75c875e305aa966a50d4",
+        "timestamp": 1429132110
+      },
+      {
+        "files": [
+          "docs/accuracy.rst",
+          "docs/index.rst",
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "e5e8e45405d6012c0e7458a9d0ac3ef345ea1646",
+        "timestamp": 1429132154
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/build_data.py",
+          "ftfy/char_classes.dat",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "b25f7abf08e9aa7b9ba5476906c98f013f0a419f",
+        "timestamp": 1429136848
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "04175f17eff13949d69bc1aac7456043ccace20c",
+        "timestamp": 1429284588
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "b149f084bc0146335d7c3308bc3f307e5ae71338",
+        "timestamp": 1429638383
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "33a5ef4949aa16a1f8aea1791d593510d5bb1ae7",
+        "timestamp": 1429831890
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "66d583167b5663ea7d49a56015653710e3ed225a",
+        "timestamp": 1429911954
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "ec69c35238ce992880966400d9b6919668a06d08",
+        "timestamp": 1431108989
+      },
+      {
+        "files": [
+          "docs/accuracy.rst",
+          "docs/conf.py"
+        ],
+        "sha": "282f00281f0f512e6bd7f4444b40c2f62dfe0df0",
+        "timestamp": 1431370481
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "01b83f9cc2285f65ad3a3cfd26147019b8d144fa",
+        "timestamp": 1432803412
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "006f64ee1ac04f84e2ed12343b4cfc149f574e88",
+        "timestamp": 1432913379
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/formatting.py"
+        ],
+        "sha": "78f7cf95da73392183e9de8cbe20db7853597c8e",
+        "timestamp": 1434950464
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "511146662aa2309f3cf8243394b779cf593f86a8",
+        "timestamp": 1434988795
+      },
+      {
+        "files": [
+          "ftfy/streamtester/__init__.py"
+        ],
+        "sha": "515aba2535df8649b40310c83c05726d0698845e",
+        "timestamp": 1439230163
+      },
+      {
+        "files": [
+          "tests/test_characters.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "edcf6c7e2cbe921cafa55ed1ad6a1943d217eba9",
+        "timestamp": 1439405309
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/sloppy.py"
+        ],
+        "sha": "d85f96e0744786447f23b658d95c9792436bf701",
+        "timestamp": 1439405388
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "f2d41810feacc3bd6432cbb5b39d687bd01b91ae",
+        "timestamp": 1439405438
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "25550262ce0dbd2f9ec9678a4a546414d85e93c0",
+        "timestamp": 1439405515
+      },
+      {
+        "files": [
+          "tests/test_bytes.py",
+          "tests/test_examples_in_json.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "82c8776d4d218f9d6c7510af4c8bfa7271a7e912",
+        "timestamp": 1439405588
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "373d36b3cd53769837c22420960891fd5274fa44",
+        "timestamp": 1439492039
+      },
+      {
+        "files": [
+          "ftfy/build_data.py",
+          "ftfy/char_classes.dat"
+        ],
+        "sha": "a0a860ca67dc98f6cbbe681b596798d7da66c9ea",
+        "timestamp": 1439492626
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "ftfy/fixes.py"
+        ],
+        "sha": "2e2976a80b66665051c280d0c57edf4cd7b114ee",
+        "timestamp": 1439494192
+      },
+      {
+        "files": [
+          "ftfy/formatting.py"
+        ],
+        "sha": "8564d8ccd37b2823436371cea2eb5848298fc6cc",
+        "timestamp": 1439497081
+      },
+      {
+        "files": [
+          "ftfy/formatting.py"
+        ],
+        "sha": "e61ec91615e0687cd8292e4b52655270e0bb0378",
+        "timestamp": 1439497148
+      },
+      {
+        "files": [
+          "ftfy/formatting.py"
+        ],
+        "sha": "9291bb9ca57bd83189a2de3713746cc7951f9841",
+        "timestamp": 1439497495
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "285c79e652f99e3c355bd05362a4a5c4e3862e37",
+        "timestamp": 1439498496
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "a29a9e3c35af3ae42c016791aecb887965ee38a3",
+        "timestamp": 1439498843
+      },
+      {
+        "files": [
+          "ftfy/fixes.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "00a76867766a9be5e4619dadc781d0524de1b1df",
+        "timestamp": 1439506526
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "1f533217fd07ebafc95f4abfd6049524c50247f7",
+        "timestamp": 1439848244
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "ftfy/chardata.py"
+        ],
+        "sha": "f3491c32135defa9c9eb8fc466f708cfa2c187a0",
+        "timestamp": 1441995875
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py",
+          "tests/test_bytes.py"
+        ],
+        "sha": "4ab63add403712227af03eadd0adf5c4e751501f",
+        "timestamp": 1441999317
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "4914155d09ad3ae3e25e05d9f00947574b51a027",
+        "timestamp": 1443643348
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "918b857cd67233f26067d83b2505976e7e0bfb1a",
+        "timestamp": 1443648837
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "8689df82bc426e2f7708812bdcc61d697755b7f3",
+        "timestamp": 1450736131
+      },
+      {
+        "files": [
+          "ftfy/streamtester/twitter_tester.py"
+        ],
+        "sha": "cd24e7e464f701e91a68768f3b4cfbe35c1460dd",
+        "timestamp": 1450903237
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "56bc1210b859c3717f598ca082b207ea1b3a3318",
+        "timestamp": 1453481456
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "92d22ee059bad9a0949269e369c6ff71823275ea",
+        "timestamp": 1455307538
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "392793a91b0509eee5d757744dfc41d58faf28fb",
+        "timestamp": 1455307601
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "f9a99a722d8416f8ed7a06fcb1c86dc917aa79c4",
+        "timestamp": 1456379375
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "50dea3fd94b6a1f41aca054e7d8f5b14e22a28b1",
+        "timestamp": 1456379834
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "4d7832eb4f8c9a038e66a3424f1fe94384f198f9",
+        "timestamp": 1456423184
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/char_classes.dat"
+        ],
+        "sha": "fb0513d81e0bc8cb47aa89e2affca3469b4fb523",
+        "timestamp": 1456429196
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "62b3a8a0b5b425f57fbe41af208f490e4b64dafb",
+        "timestamp": 1456429740
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "c65f91d45cd197e169a61231c20c6b5d629e4f28",
+        "timestamp": 1456429818
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "b500023b35fbf19ed9a5f61a904aa443c0bd5065",
+        "timestamp": 1456430632
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "ftfy/formatting.py"
+        ],
+        "sha": "2d09708f5bd7d2ea766ff6e33027882be7824eac",
+        "timestamp": 1456431286
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "ftfy/build_data.py"
+        ],
+        "sha": "92b636e32592b45bacc5cb4339f255d76d4184c9",
+        "timestamp": 1456431834
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/__init__.py",
+          "ftfy/cli.py",
+          "setup.py"
+        ],
+        "sha": "b40957de2b84f3719e103693aac8b6278bbe5780",
+        "timestamp": 1460575388
+      },
+      {
+        "files": [
+          "ftfy/cli.py"
+        ],
+        "sha": "15993f390acb9165064ad33bb1639415679b7fc5",
+        "timestamp": 1460584187
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/build_data.py",
+          "ftfy/char_classes.dat"
+        ],
+        "sha": "4dcd8e68fb1cfcbe07f914273a22ba9ad9534eb8",
+        "timestamp": 1470090732
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "dff8e4ab41b1736c28894bbab0e6d27e88378fc0",
+        "timestamp": 1470090811
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "54c0e65ed0c7806a6494cd34d2e65c980edc88d8",
+        "timestamp": 1470163695
+      },
+      {
+        "files": [
+          "setup.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "7944332888bf2ba39929e716c4ac8f90c28a2fec",
+        "timestamp": 1470165783
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_characters.py"
+        ],
+        "sha": "4a6d2e4228abc224deb79037c5f0999d1a639220",
+        "timestamp": 1470166962
+      },
+      {
+        "files": [
+          "ftfy/build_data.py",
+          "ftfy/char_classes.dat",
+          "tests/test_characters.py"
+        ],
+        "sha": "63d123007277e3f00378f31caab0882442bda97b",
+        "timestamp": 1470167664
+      },
+      {
+        "files": [
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "006a852d8ab581bcb456ee7c9117d47dca31b6b4",
+        "timestamp": 1470167800
+      },
+      {
+        "files": [
+          "tests/test_characters.py"
+        ],
+        "sha": "6a13caa9db9de04e3b5ead525ab11f6f9a637ced",
+        "timestamp": 1470167813
+      },
+      {
+        "files": [
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "fec4cde37d593ac07196a9e7fcd22588ad383788",
+        "timestamp": 1470167877
+      },
+      {
+        "files": [
+          "tests/test_characters.py"
+        ],
+        "sha": "ace40977f0b01ba479a37832db06f7c2e2b68fdc",
+        "timestamp": 1470174510
+      },
+      {
+        "files": [
+          "ftfy/build_data.py"
+        ],
+        "sha": "a837d8f6fc63e088983453e6547426dfef6741f3",
+        "timestamp": 1470242802
+      },
+      {
+        "files": [
+          "ftfy/build_data.py"
+        ],
+        "sha": "11c833342917a3eaff97e58a16e9213a7fc6cad7",
+        "timestamp": 1470242839
+      },
+      {
+        "files": [
+          "ftfy/char_classes.dat"
+        ],
+        "sha": "2a60dc34131ff58a078a652f19da61f5e0d9d719",
+        "timestamp": 1470242866
+      },
+      {
+        "files": [
+          "tests/test_characters.py"
+        ],
+        "sha": "f503ebe8440dfe8b41b154ccd674f6ebe886ff9c",
+        "timestamp": 1470243516
+      },
+      {
+        "files": [
+          "ftfy/build_data.py"
+        ],
+        "sha": "265c20d23d4dea973714edf6b8aa8f735988aa29",
+        "timestamp": 1470337936
+      },
+      {
+        "files": [
+          "ftfy/streamtester/__init__.py"
+        ],
+        "sha": "d32ef7b8370a0106a159183e237a20fd8bf50035",
+        "timestamp": 1475077151
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "31fb8779656463a6eaf07c8750269dc4d8325ba4",
+        "timestamp": 1475077255
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "9bfe1337c0b372521ca73cb84bd9221977c62db1",
+        "timestamp": 1475080012
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "ftfy/__init__.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_characters.py"
+        ],
+        "sha": "015ada67451066ec35b8f0db4510afb6192b6c8d",
+        "timestamp": 1482265713
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "ftfy/__init__.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_characters.py"
+        ],
+        "sha": "8e05dd0e340ece259c3ed71cd545e22f5e6fa55f",
+        "timestamp": 1482265713
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "4409717f2f1ac56e55444f22abcdf22ba0125a91",
+        "timestamp": 1482266665
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "9b9d4d8ab5331d8f146d181b0fd41c66fd1d7f5d",
+        "timestamp": 1482266820
+      },
+      {
+        "files": [
+          "ftfy/compatibility.py",
+          "ftfy/fixes.py",
+          "setup.py",
+          "tests/test_entities.py"
+        ],
+        "sha": "1487bb601f3797914227a8e6e449002d8a5cac96",
+        "timestamp": 1482267819
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "098422489705407ba76f881af76e23e2cd5e0fef",
+        "timestamp": 1482269150
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "8f8af30656e4a2b17518fc96484c5526f1c948c2",
+        "timestamp": 1482269214
+      },
+      {
+        "files": [
+          "ftfy/formatting.py",
+          "setup.py"
+        ],
+        "sha": "effb070bb545c0e666108f129106417de1c16623",
+        "timestamp": 1482270477
+      },
+      {
+        "files": [
+          "ftfy/build_data.py",
+          "ftfy/char_classes.dat",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "e7bb31f349e63266c6306e083e4c3c3051ac199d",
+        "timestamp": 1482342778
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "7abed4c0e7dd789ae2d42e10a6b3feca8b68b047",
+        "timestamp": 1482345913
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "aad7d91d0f216611103dcb52a448848fc977253d",
+        "timestamp": 1483044570
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "9ed8167dd614de99eef1f12a83e7b11764de792a",
+        "timestamp": 1483048583
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/__init__.py",
+          "ftfy/chardata.py",
+          "setup.py",
+          "tests/test_characters.py"
+        ],
+        "sha": "d807233c3b23c9e6ca6bc6f0f9dc556e8320a3ec",
+        "timestamp": 1484246387
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "d30ba03aed48f5e1abea1d9f98d29edc8777504d",
+        "timestamp": 1487009479
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_characters.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "ce6eb20bf65b149b7970f9a512fd315f1e30ea13",
+        "timestamp": 1487118328
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "3c32f56697b362f9047789518b60ddcdabaa1934",
+        "timestamp": 1487194721
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "c10c296f6f0c84a223ef603afe2dda90c6d17262",
+        "timestamp": 1487195006
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "4d52e808da0d69afacb0aeab376a5683817e7343",
+        "timestamp": 1487281454
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "825abccc6f5c40da9f0a4d4f5afe5b218d5ec3e6",
+        "timestamp": 1487268715
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "28dae6374a134c7e2a29dd3686d14f25463b363a",
+        "timestamp": 1487269266
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "3976c1c5a7b1a88f5e94922c69510f128ff9f2c1",
+        "timestamp": 1487362078
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "04ae594ba70aadb21c256fd907b2a88bb61a601b",
+        "timestamp": 1487362485
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "cee6b7974bff2804af3a6e6f61030849a0d1879c",
+        "timestamp": 1487362597
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "17b0ac4882a96bed171e37b95e852f9cc374b2cc",
+        "timestamp": 1487366624
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "dc353df9a445c5fa9de44c716afeab46cc8bd8f7",
+        "timestamp": 1487656457
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/build_data.py",
+          "ftfy/char_classes.dat",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "ce8428916c335db8e7fec4bf704885e608134277",
+        "timestamp": 1487878173
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "dc721b47d30d2b903216f6e2e50da0947a978f5b",
+        "timestamp": 1487879038
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/utf8_variants.py",
+          "ftfy/chardata.py",
+          "ftfy/cli.py",
+          "ftfy/fixes.py",
+          "tests/test_bytes.py"
+        ],
+        "sha": "06bd8b9bb101603446ae7a065bb6780e5dd0ca5e",
+        "timestamp": 1487360352
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "3c5e067795ce07bad41cc8bc6bb804bf3f28d761",
+        "timestamp": 1487361842
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "9067c204258b5c45b55c70e9d68f7dd65323f181",
+        "timestamp": 1487361932
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "6c741dfb104d7b33877a52e4c53e542e51e2c5f8",
+        "timestamp": 1487361983
+      },
+      {
+        "files": [
+          "tests/halibote.txt",
+          "tests/test_cli.py"
+        ],
+        "sha": "97733d2f388d054bf218ab39678cbbd5fec6887a",
+        "timestamp": 1487206295
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "9f1ade1b44b9b0e4bd501734f136d9c4c49c4633",
+        "timestamp": 1487362865
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "593663d62554ef92fcd181bba815fc89b1d634f7",
+        "timestamp": 1487369944
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "2f1bbac5ff4c372303e8dbc21a6ebc66866009f0",
+        "timestamp": 1487879169
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "a3542279495a9f340fc06a16864590668ebbfb51",
+        "timestamp": 1489096787
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "77beb2aec1c3c7f2fce2050176e82931c6a80986",
+        "timestamp": 1489097800
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/__init__.py",
+          "ftfy/fixes.py",
+          "setup.py",
+          "tests/test_entities.py"
+        ],
+        "sha": "65f3542f3773ba3aa500a22b08671111f3efebed",
+        "timestamp": 1489171010
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "678ed0cada10c60858662fee80c6358022f81291",
+        "timestamp": 1489172395
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "835e32a81a01702e58130146306e207dfe3b9419",
+        "timestamp": 1490057255
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "6f1854a1094cf0f81e76a132938c2c02709810ce",
+        "timestamp": 1490125145
+      },
+      {
+        "files": [
+          "docs/accuracy.rst"
+        ],
+        "sha": "836734b70afbdf0aafa9896da8187bc757eacafe",
+        "timestamp": 1490369168
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "2dab78923fbf9ebd5da744dd0f64fb8c04638169",
+        "timestamp": 1490369792
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/fixes.py",
+          "setup.py"
+        ],
+        "sha": "df49941d2fe7396b2cd0d07f2b44690b6e745c46",
+        "timestamp": 1490822766
+      },
+      {
+        "files": [
+          "ftfy/fixes.py",
+          "tests/test_entities.py"
+        ],
+        "sha": "bd7e2ce7a14833fcaa7ce6bf104f544a287fb881",
+        "timestamp": 1490824259
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "a0a524b4cda4dbaec836e8149b46c46646a46354",
+        "timestamp": 1490824798
+      },
+      {
+        "files": [
+          "tests/test_cases.json",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "84cd8b3800576cdaeae59237fd7d3d9758ef7fea",
+        "timestamp": 1490125331
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "e9180abea106eed91345bc433f249d3da9c89e44",
+        "timestamp": 1490981651
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "ccc90cf77dcb1dc780a402217d7e9b33d5cca500",
+        "timestamp": 1491322888
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "9200053c7edfbd8f1813fbc2729d361fd38eac4b",
+        "timestamp": 1491322912
+      },
+      {
+        "files": [
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "f221c358b1f61be5e58603347be201069e0894b8",
+        "timestamp": 1491322963
+      },
+      {
+        "files": [
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "b00e6c94e8987c366152915686c6ba7038ed95e8",
+        "timestamp": 1491325381
+      },
+      {
+        "files": [
+          "tests/test_cli.py"
+        ],
+        "sha": "9e6d90e5bfd1e36b0707db4f2e257fa064f93862",
+        "timestamp": 1491578718
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "6d78165922c78e032fae132175ba0ec34db076d0",
+        "timestamp": 1491580068
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "53d77f2b697fb5a1d6e12b8a24ca82993df0bb31",
+        "timestamp": 1492883324
+      },
+      {
+        "files": [
+          "tests/test_cli.py"
+        ],
+        "sha": "ae2149231b9e1867394355876c09697eb102a6e4",
+        "timestamp": 1494880391
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "d0af0567d9bec7a9ff11f1948deb0e4b8b05926f",
+        "timestamp": 1494882843
+      },
+      {
+        "files": [
+          "ftfy/cli.py",
+          "tests/test_cli.py"
+        ],
+        "sha": "6f029453059403506a46a997aa2246fae14d2340",
+        "timestamp": 1511374261
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "99c2d658321027a5ba1ad2a6eb420216a163d4aa",
+        "timestamp": 1511374323
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "48d8854691eab05a0ae42803ed166fdc89efbee0",
+        "timestamp": 1511375426
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "49578befd9a34af01548554b87e4043cd1f92258",
+        "timestamp": 1511809100
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "ftfy/__init__.py",
+          "ftfy/formatting.py"
+        ],
+        "sha": "3bcdc8d1af0e13071ffc7f4d71d88fca3d95b8e8",
+        "timestamp": 1511819913
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "706fc8d55ab19e8e8c639145b9e021574fa51bd8",
+        "timestamp": 1511819954
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "ec6ddbe7daf4ae14eefa343b73e363833cc9820b",
+        "timestamp": 1512145801
+      },
+      {
+        "files": [
+          "ftfy/cli.py"
+        ],
+        "sha": "4da8365c217fbbea59738676a26b396402f80a86",
+        "timestamp": 1515429434
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "a10cc38ee789a18af982c421edb5557516119b56",
+        "timestamp": 1516898667
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "a4cab5e640bf50fe7c950f7fffc324b976997733",
+        "timestamp": 1516898770
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/conf.py",
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "c2ad0ec3cc37670ce0af2470647b05e675ed2bfd",
+        "timestamp": 1516899094
+      },
+      {
+        "files": [
+          "ftfy/badness.py"
+        ],
+        "sha": "c6e4d0f5e7c73b1ed9e0b3f8ce00935be055ac90",
+        "timestamp": 1516899783
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "e61b8ddb2cf5e8119b989f80c123ea3193332fef",
+        "timestamp": 1516900975
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "7f3e75baab584d9b2e82205d327ccc491e0d18f6",
+        "timestamp": 1516907339
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "4a13dbed420354ea45d9cde0c0942989ef7319f0",
+        "timestamp": 1516907429
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "8964fd401e946c89bc12a182d661872ea8cf5aa5",
+        "timestamp": 1516910223
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "004e32bbaa2e3587cb7e2fe99279043b4077a095",
+        "timestamp": 1524580973
+      },
+      {
+        "files": [
+          "tests/test_bytes.py"
+        ],
+        "sha": "a1c5ad0eb7f7887d8a24bc147a64208dd98ed845",
+        "timestamp": 1525368185
+      },
+      {
+        "files": [
+          "tests/test_cases.json",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "31a7252871d216d54f078a0ff5f951575c347489",
+        "timestamp": 1525379545
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "e60b1aa9e488d3c943142be3bca2f6ef05ac395d",
+        "timestamp": 1527799500
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "f7469878ebfe9905ead58aa8df64eba5a20bf101",
+        "timestamp": 1527865148
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "f38b6cf76b11bd71ad498cd26238599cd503d41a",
+        "timestamp": 1528991919
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "b6dcaaf359464e6e1622212fb15140e201abe126",
+        "timestamp": 1529004440
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "a4813561df0804eb62926e5f86f6c9732575b174",
+        "timestamp": 1529005121
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f6fe08eae4faad1211aa162bebdda6b43764ee09",
+        "timestamp": 1529005221
+      },
+      {
+        "files": [
+          "pytest.ini"
+        ],
+        "sha": "e95076d9b56283e492975831674a44ffaa2790ba",
+        "timestamp": 1529005529
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "0deb03e966ffba0b132e27b98cc3d306df731a5c",
+        "timestamp": 1529006308
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "8f838afb62e77447089cbcafb71d57ec297a640a",
+        "timestamp": 1530047551
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "78ab97fe04ceef68586fa7d4c4805ea118c9b929",
+        "timestamp": 1530047933
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "ftfy/char_classes.dat",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "c0d2454cce1c52aaedb85adde52b8a93c9d59d8a",
+        "timestamp": 1531153878
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "8c103622972fe5642ad06b06c2c1f337c02afd92",
+        "timestamp": 1535647781
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "cbf9aacbeee4154c7fa1e4ebeaa347c63bde2824",
+        "timestamp": 1535648163
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "2ff338af96ae7a5e14610878e2db14cebb59e9a4",
+        "timestamp": 1535649510
+      },
+      {
+        "files": [
+          "tests/test_cli.py"
+        ],
+        "sha": "34b2f67c3b0a0473fa332c069b704917bff114cf",
+        "timestamp": 1536259045
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "eb192461bb550a280b1a44e4de51e52a4fa83549",
+        "timestamp": 1536260157
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "40f324dbcb7b4bcfd65a2383519504cd4d05b1a7",
+        "timestamp": 1536262318
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "1b823c7609eba2a2aae0adad64662c81c85d7c62",
+        "timestamp": 1536263075
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "b509136fab4b234a6492fa974e9a2b07d3f5b4a6",
+        "timestamp": 1536264807
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "41b961e4fb9f0ac5287d1e87b7cc3bff4d9c47b1",
+        "timestamp": 1536947667
+      },
+      {
+        "files": [
+          "ftfy/badness.py"
+        ],
+        "sha": "68b5c26bca6c29d682d9ccedf18a6b13519cee83",
+        "timestamp": 1536948386
+      },
+      {
+        "files": [
+          "ftfy/char_classes.dat",
+          "tests/test_futuristic_codepoints.py"
+        ],
+        "sha": "394c25cf7782f8d97f9a47d35b5f1a040a816349",
+        "timestamp": 1536954815
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "c9939f2c540e8a21f94b50644e84b5e75b167bba",
+        "timestamp": 1536955997
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "ftfy/build_data.py"
+        ],
+        "sha": "12289583c4aa7eb14952b4aa0ab39e2b900a1087",
+        "timestamp": 1537559845
+      },
+      {
+        "files": [
+          "ftfy/badness.py"
+        ],
+        "sha": "f3b0b1f35dd9899d57adba0a97505afb02f19559",
+        "timestamp": 1537801662
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/conf.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "b02e68709ddb510bc11984722dc3c5d8793aea7d",
+        "timestamp": 1538080376
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/bad_codecs/sloppy.py",
+          "ftfy/badness.py",
+          "ftfy/build_data.py",
+          "ftfy/chardata.py",
+          "ftfy/cli.py"
+        ],
+        "sha": "26941629f599449f73b4094a20f660860828fd04",
+        "timestamp": 1538080439
+      },
+      {
+        "files": [
+          "LICENSE.txt"
+        ],
+        "sha": "c2908cc2403938d2ef9a4ce2e28f88e09fa262e8",
+        "timestamp": 1538580566
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "b0a4f48659d6fbd8f28dc7143331f7bc40b209c4",
+        "timestamp": 1539158111
+      },
+      {
+        "files": [
+          "Jenkinsfile"
+        ],
+        "sha": "833871251a94a0225372c487e48b96748489accc",
+        "timestamp": 1549065786
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.rst"
+        ],
+        "sha": "60864351ee4d7f023b09c31f3db11dc8278a7f5d",
+        "timestamp": 1552490644
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/badness.py",
+          "ftfy/build_data.py",
+          "ftfy/chardata.py",
+          "ftfy/cli.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "ac8d5d43eccc7c8088518103056e88d102f25805",
+        "timestamp": 1564432384
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_entities.py"
+        ],
+        "sha": "6d4a61a26a0739814a479f6572eaaa21ef0a7dc4",
+        "timestamp": 1564432190
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "5dd8248c86363a17cfc5490a610876aa7eb3b413",
+        "timestamp": 1564432496
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "175e3a076e5e52770e660067a31af5e7782668f0",
+        "timestamp": 1564505474
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "4ab68bbce31a4538fab20f81882911d094e524d2",
+        "timestamp": 1564505550
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "4b6438abd6c430196d049bdaea5046412b16ab40",
+        "timestamp": 1564505733
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "tests/test_entities.py"
+        ],
+        "sha": "839df42d1995cfcf7987ca1968dee10aebca2dd3",
+        "timestamp": 1564588032
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_entities.py"
+        ],
+        "sha": "7bb4e08adec0e57a10df4c55926ae3f1a2d8068e",
+        "timestamp": 1564607745
+      },
+      {
+        "files": [
+          "ftfy/fixes.py",
+          "tests/test_entities.py"
+        ],
+        "sha": "c7def661efb50cb48d46045e05ca4e5423a56042",
+        "timestamp": 1564608121
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "e85f652e865a6d2657e15238ad601a2bb1777db7",
+        "timestamp": 1565209956
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "91edbe0803a299ba6cae2ee90c2e0154673a6a1f",
+        "timestamp": 1565379432
+      },
+      {
+        "files": [
+          ".mailmap"
+        ],
+        "sha": "81f9d5f0b324968032a8a9df57db45c8391c2e6c",
+        "timestamp": 1576694875
+      },
+      {
+        "files": [
+          "ftfy/build_data.py",
+          "ftfy/char_classes.dat",
+          "setup.py"
+        ],
+        "sha": "de4d82e3fa7170e46002257d45311a068bab4a8c",
+        "timestamp": 1580751803
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "aaea98fdba658d7071e78a4e36b87765619ea327",
+        "timestamp": 1580752009
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "f52f33574f5fadeacb5c1b5bc6361b4029b848d8",
+        "timestamp": 1580752125
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "4ada6c081db4897dec9f9d177c4005000a7daa5e",
+        "timestamp": 1581094780
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f7e284c14a278c6ef7bc1d488321bae8f2759299",
+        "timestamp": 1581525809
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "3b0040afd8374330412accb4c695d09e2d00b761",
+        "timestamp": 1581614620
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/conf.py",
+          "ftfy/__init__.py"
+        ],
+        "sha": "bc390d3f95f7eda1b69cf77f3ba2c38a925ec6b5",
+        "timestamp": 1582044337
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "b6280275d2d154f163dcc2f0ca714aeb0b0b43b2",
+        "timestamp": 1582044401
+      },
+      {
+        "files": [
+          "ftfy/bad_codecs/sloppy.py"
+        ],
+        "sha": "28aa0296fd427c683ae5cf499781b9c70ed873c8",
+        "timestamp": 1582717744
+      },
+      {
+        "files": [
+          "ftfy/streamtester/__init__.py",
+          "ftfy/streamtester/oauth.py",
+          "ftfy/streamtester/twitter_tester.py"
+        ],
+        "sha": "9370c62230d3049d57f04b311a40e74e60a7b58e",
+        "timestamp": 1586292397
+      },
+      {
+        "files": [
+          "ftfy/build_data.py",
+          "ftfy/char_classes.dat",
+          "ftfy/char_classes.py",
+          "ftfy/chardata.py",
+          "setup.py"
+        ],
+        "sha": "f950a42106e7268952783dd512de8615d3724bbd",
+        "timestamp": 1586292463
+      },
+      {
+        "files": [
+          "ftfy/build_data.py"
+        ],
+        "sha": "e327c241fdbd7b80491d9d74a969ea5d3b2e7ef0",
+        "timestamp": 1586293009
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "6d0be332ba311445f745cb0f85d8f14c9bc0c899",
+        "timestamp": 1594934679
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/badness.py",
+          "setup.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "812b0260ad393e0f48d3b8fe37cd15682bb95971",
+        "timestamp": 1595018018
+      },
+      {
+        "files": [
+          "ftfy/badness.py"
+        ],
+        "sha": "b2f04c48bbc80a8a196078ca9a59da037f4f0bc5",
+        "timestamp": 1595018828
+      },
+      {
+        "files": [
+          "ftfy/char_classes.py"
+        ],
+        "sha": "dddf15aaf8585c4c5d9e94a7ffb13e16805b578f",
+        "timestamp": 1595018965
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "ftfy/__init__.py"
+        ],
+        "sha": "33513948dcf5ba918ebd1e41cbf1fb6bc5ce635b",
+        "timestamp": 1595019124
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "ce50d15f1d15bd65505edfd98dfd802390c8afeb",
+        "timestamp": 1595019190
+      },
+      {
+        "files": [
+          "ftfy/build_data.py",
+          "ftfy/char_classes.py",
+          "tests/test_characters.py"
+        ],
+        "sha": "1ede8d005e06e93d5fb3264bd438103f1fe0caf7",
+        "timestamp": 1595020788
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "4174a9e4643bb8ee59f7c1ec07cd550c3bf16fbd",
+        "timestamp": 1612914082
+      },
+      {
+        "files": [
+          "ftfy/fixes.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "2a4f8eee8eab19f50c7a33d5cb2e16e109659cb9",
+        "timestamp": 1612988092
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "93595f2d5aac9b5c53e60afe2f86897a857958f0",
+        "timestamp": 1612988736
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/fixes.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "7c3a060261ef47f6f47f0163aee0d10bf31bf607",
+        "timestamp": 1612993306
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pytest.ini",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "c8815e0cb10743ee2a765b23e0d9b95fa8ee6b77",
+        "timestamp": 1612993520
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "bb574f9596edcbaecc23927aec93bbc1c1225538",
+        "timestamp": 1612993587
+      },
+      {
+        "files": [
+          "ftfy/build_data.py",
+          "ftfy/char_classes.py"
+        ],
+        "sha": "64897677a7c34a51b7adf902c375a674b8f841b9",
+        "timestamp": 1612993608
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "17560677f4781578c457a6e2daba032ec1eed8f6",
+        "timestamp": 1612993618
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "cd0d43d1f9cdfbc2aa5cdc3a0c28fe0375a28755",
+        "timestamp": 1612994745
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "a6245fc8bbf01a2a9cd693d7bd0232a604c10a88",
+        "timestamp": 1612996001
+      },
+      {
+        "files": [
+          "ftfy/fixes.py"
+        ],
+        "sha": "93c3bc799bb21ec81363238409486fa8ced86da7",
+        "timestamp": 1612998815
+      },
+      {
+        "files": [
+          "ftfy/build_data.py",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "8ed8ba856800ccea0f09483103c43477227d09e4",
+        "timestamp": 1612998856
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "6e35d37bba40c2bdecc11f8a4a249069d7f11137",
+        "timestamp": 1613073275
+      },
+      {
+        "files": [
+          "ftfy/char_classes.py",
+          "ftfy/chardata.py",
+          "tests/test_characters.py"
+        ],
+        "sha": "862762b9483e9e38d6dea2146711849d83d6b35c",
+        "timestamp": 1616083877
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "96c29bb88bbaf2e9d1d544861e0f9ee05b354090",
+        "timestamp": 1616086573
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "1cc3bcef10f59082d64249ebf0227f5cc742d0ac",
+        "timestamp": 1616183777
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/index.rst"
+        ],
+        "sha": "9ab16e057e3c7b2fda07f3d0b2626cf3f7f9f4bc",
+        "timestamp": 1616434299
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/badness.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_characters.py"
+        ],
+        "sha": "b5e3a68369f330564c559ed365f7dd6afae7c05c",
+        "timestamp": 1616434310
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_cases.json",
+          "tests/test_characters.py"
+        ],
+        "sha": "8ff024d8bc77e4e43140ed1e7ee17866cf680d02",
+        "timestamp": 1616449598
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "45caf3a005d8b9fc9d771609244c944b16b01c89",
+        "timestamp": 1616524295
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "a41a8175623cbef66b54b3f65e235d8f586012be",
+        "timestamp": 1616534699
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "6509a0a56b3ca70502bcbe9007c7c4f95302ff4b",
+        "timestamp": 1616536043
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "55a197585b9fb61ffe8494cb2f1862c6593cea2a",
+        "timestamp": 1616601398
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "65c58b0f29c18cb6f0a78d1fe55eca46302a05c8",
+        "timestamp": 1616602167
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "cdb01950f9226df8cdfd60bec1a6c257a0758225",
+        "timestamp": 1616606442
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "2455c19d5df3ca33307cb035ebce60e95702cc72",
+        "timestamp": 1616709418
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "ca316608e5fb982e43eee641e450b409f8bc883f",
+        "timestamp": 1616709501
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/fixes.py",
+          "tests/test_characters.py",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "84f2d612438cc9cedf441df48db36f5c6108aa0b",
+        "timestamp": 1616777637
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/badness.py",
+          "ftfy/build_data.py",
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "setup.cfg"
+        ],
+        "sha": "45d3e9659f503c57977f33fab9f623b2c47bc5cd",
+        "timestamp": 1616794354
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "ftfy/fixes.py",
+          "tests/test_characters.py"
+        ],
+        "sha": "35d99ae57faccdef55781b93758d473e379b54d5",
+        "timestamp": 1616794753
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/bad_codecs/__init__.py",
+          "ftfy/bad_codecs/utf8_variants.py",
+          "ftfy/fixes.py"
+        ],
+        "sha": "070a32b7807230b72ffa0d68655d53f7720a02bd",
+        "timestamp": 1616796292
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "66e53c45443a8cfd6eb4bc62ca8d6808c0ef4988",
+        "timestamp": 1617230823
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_characters.py"
+        ],
+        "sha": "19f9fd2faf00525f143e783b584c99899f54487f",
+        "timestamp": 1617291591
+      },
+      {
+        "files": [
+          "docs/avoid.rst",
+          "docs/conf.py",
+          "docs/fixes.rst",
+          "docs/heuristic.rst",
+          "docs/index.rst",
+          "ftfy/fixes.py"
+        ],
+        "sha": "73f19c294658c0d4ca36d19e1c0d02114f03f1ce",
+        "timestamp": 1617295359
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "b4183c8f7b22e0c678c8a61cecf7f3857a652f2d",
+        "timestamp": 1617299952
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "faff4089b6b1ab266493a641e5783f79d95ebfac",
+        "timestamp": 1617300627
+      },
+      {
+        "files": [
+          ".readthedocs.yaml",
+          "docs/requirements.txt"
+        ],
+        "sha": "417da920229c15da1286c7117cb6b6130927e5ea",
+        "timestamp": 1617300901
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "3e306a2186e9b3f49ebc423672175b17b4bbc430",
+        "timestamp": 1617301405
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "65c7b5023d34c7d97139cf311358ff2e4afb5f7b",
+        "timestamp": 1617305138
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "ftfy/chardata.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "d554c0988ba7e23fda8cbf552bfc2f7687b66437",
+        "timestamp": 1617305145
+      },
+      {
+        "files": [
+          "docs/accuracy.rst"
+        ],
+        "sha": "f51761492188b9d576ab7756206badf2f2645ba1",
+        "timestamp": 1617305360
+      },
+      {
+        "files": [
+          "docs/explain.rst"
+        ],
+        "sha": "b9997e6b48b019bbe6711c27166e9d166f25d353",
+        "timestamp": 1617305532
+      },
+      {
+        "files": [
+          "docs/poem.txt"
+        ],
+        "sha": "95abea67f063810e76772aed4434193e6da4146b",
+        "timestamp": 1617305568
+      },
+      {
+        "files": [
+          "ftfy/badness.py"
+        ],
+        "sha": "4182beb94e634bc3c5369f662775ae419573fec5",
+        "timestamp": 1617306291
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "tests/halibote.txt",
+          "tests/test_cases.json"
+        ],
+        "sha": "1c1e6fc7b4b93588b56f615ab0af758003b6088f",
+        "timestamp": 1617309191
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "a7fd24044556bd51383bc5ea692bcbad2fdee176",
+        "timestamp": 1617310468
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "e1d7401b66b56646db9a58ddd146fc472f282c80",
+        "timestamp": 1617314302
+      },
+      {
+        "files": [
+          ".readthedocs.yaml",
+          "docs/requirements.txt",
+          "setup.py"
+        ],
+        "sha": "d3eb0b8151513d06bacad510d65b66a591df2158",
+        "timestamp": 1617315113
+      },
+      {
+        "files": [
+          "docs/explain.rst"
+        ],
+        "sha": "10248985710f327f6156ffb6d35e86fdc406bb65",
+        "timestamp": 1617737039
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/cli.rst",
+          "docs/detect.rst",
+          "docs/explain.rst"
+        ],
+        "sha": "79c2c5827c078483927df902bbf9351a79aa0491",
+        "timestamp": 1617813667
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "42b0672858be65a4d00c8c50d6f05ab39d3ac881",
+        "timestamp": 1617813733
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "ef274dfe3003a2738a29ad8f066b7a4b8da291a0",
+        "timestamp": 1617815043
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "843d160883591129e342de8d88c917da22d55cf0",
+        "timestamp": 1617815402
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "895264ea5ff3e1a4e35d26720d747342cffed5aa",
+        "timestamp": 1617983833
+      },
+      {
+        "files": [
+          "ftfy/__init__.py"
+        ],
+        "sha": "d9087a412be57e4cf9ec0dc0314aa1cddc3fd235",
+        "timestamp": 1617993339
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "d60dc15988fb061176f9b7cc8d28b44d50ea9a19",
+        "timestamp": 1617993359
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/index.rst"
+        ],
+        "sha": "5160215a7ef3e7f70996b6390498e52a9de9c522",
+        "timestamp": 1618240791
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "5bed3da3f3523f45a782be03edb31049b5436d5f",
+        "timestamp": 1618241072
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "README.md",
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "ee38453027fa18ddf8c681f7e93c6eb60f4bb0cd",
+        "timestamp": 1618241110
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "tests/test_characters.py"
+        ],
+        "sha": "d9fd87f4448bae42e522a2de16610cb5c1072a60",
+        "timestamp": 1618241406
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "4bb1c1ee70701bf6969b76862cc01293a97a9055",
+        "timestamp": 1618244289
+      },
+      {
+        "files": [
+          ".mailmap"
+        ],
+        "sha": "25e2e808de9db9caf7ed98c11cad6cb739f7633a",
+        "timestamp": 1620149224
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/conf.py",
+          "docs/index.rst",
+          "ftfy/__init__.py",
+          "setup.py"
+        ],
+        "sha": "6cc29eb572674d141eebef9dbd0ded40839d04e2",
+        "timestamp": 1620149522
+      },
+      {
+        "files": [
+          "README.md",
+          "setup.py"
+        ],
+        "sha": "07d0c912f7da2993c4be70f35f2ef5b12a753cf2",
+        "timestamp": 1620149766
+      },
+      {
+        "files": [
+          "ftfy/formatting.py"
+        ],
+        "sha": "922650677025ec563da74a04aafdf5eb8e7690fa",
+        "timestamp": 1621025184
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "tests/test_entities.py"
+        ],
+        "sha": "3118f77e6e9ed0daeb6ab2b275a8f9e71ca9f6b8",
+        "timestamp": 1621026668
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/conf.py",
+          "ftfy/__init__.py"
+        ],
+        "sha": "3160a4438d252dd586d5a41ac4787c035af69d15",
+        "timestamp": 1621026833
+      },
+      {
+        "files": [
+          "notebook/excel-export.png",
+          "notebook/ftfy talk.ipynb"
+        ],
+        "sha": "efe5a53193f6a4836427baeff0de4d20413bd30c",
+        "timestamp": 1621207333
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "25fec1c372baa6d2088c4ab50a91cd63c136fe28",
+        "timestamp": 1621278250
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "setup.py",
+          "tests/test_cli.py"
+        ],
+        "sha": "7179de8cbcdc28212c02ead912bc53b49b1b5766",
+        "timestamp": 1643669200
+      },
+      {
+        "files": [
+          ".mailmap"
+        ],
+        "sha": "914334573b6ffca344a3cd7bb3817a961d35ab7b",
+        "timestamp": 1643670091
+      },
+      {
+        "files": [
+          ".gitignore",
+          "Jenkinsfile"
+        ],
+        "sha": "6537f44e2c885a96f01d1e0a9c56be1606900ad4",
+        "timestamp": 1643670148
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/bad_codecs/utf8_variants.py"
+        ],
+        "sha": "2273837c4284050984fcc60bc85f39d1b66ebb00",
+        "timestamp": 1643670159
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "6af3b196643658c3433163e1af9bcc0436f1a456",
+        "timestamp": 1643670307
+      },
+      {
+        "files": [
+          "ftfy/py.typed",
+          "poetry.toml"
+        ],
+        "sha": "b0e900a8a74cce8824e635e39e61819be70d98bb",
+        "timestamp": 1643693057
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "23e26dac55c440ed9aa9a7dee3e35d240f13a0b0",
+        "timestamp": 1643693078
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "README.md",
+          "docs/config.rst"
+        ],
+        "sha": "e6372aa5fa815f05d8024ee72bd695b0588bc731",
+        "timestamp": 1643693391
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "71748f22ae2a8f2e41d4d57e095bd5907f996624",
+        "timestamp": 1644433974
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/conf.py",
+          "ftfy/__init__.py",
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "6a6a11323292f92d5177af4e1074179bd613cb1b",
+        "timestamp": 1644434745
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "382e2de7fbae68de62f8f7e3e5adc16958cfc7fa",
+        "timestamp": 1644435281
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "bb5ce5db8d6265a6e244cfce83fa66882ba4bc0e",
+        "timestamp": 1644435392
+      },
+      {
+        "files": [
+          "README.md",
+          "pyproject.toml",
+          "setup.py"
+        ],
+        "sha": "02a634c7bb8e35c281d4088d8c0efd5bf3feef4b",
+        "timestamp": 1644435792
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/conf.py",
+          "ftfy/__init__.py",
+          "mypy.ini",
+          "pyproject.toml",
+          "setup.py"
+        ],
+        "sha": "1011284839381f985666c92ca0c5ac06902df410",
+        "timestamp": 1645208993
+      },
+      {
+        "files": [
+          "README.md",
+          "ftfy/__init__.py",
+          "ftfy/badness.py",
+          "mypy.ini"
+        ],
+        "sha": "0f93c93138141060f5a2d40c3647fffaff7cdd77",
+        "timestamp": 1645210474
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "9aa102064d5947067ac4517395b8edab8253c43a",
+        "timestamp": 1666720438
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "055a99aa89609fec33d8bb72a996c3e12bd2607f",
+        "timestamp": 1666720533
+      },
+      {
+        "files": [
+          "LICENSE.txt",
+          "pyproject.toml"
+        ],
+        "sha": "327cc09815659d832d1fce2336d6b4bfe304020b",
+        "timestamp": 1700609888
+      },
+      {
+        "files": [
+          "README.md",
+          "mypy.ini",
+          "poetry.lock"
+        ],
+        "sha": "0fbf83862afa507b2981ac3d0a956d4485ebc1da",
+        "timestamp": 1700609984
+      },
+      {
+        "files": [
+          "ftfy/formatting.py"
+        ],
+        "sha": "59eb07c6984f958cef07f58b28016f24a2b58e5b",
+        "timestamp": 1700610017
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/bad_codecs/sloppy.py",
+          "ftfy/chardata.py",
+          "ftfy/cli.py"
+        ],
+        "sha": "454ccc29378c5c78848497fe172aced27517ea82",
+        "timestamp": 1700610021
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "1a019372c2b35e9dba5543de26041e91d9d4656c",
+        "timestamp": 1700610180
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "3b25bcd008e229d5b990a2c7f917cc3894aef194",
+        "timestamp": 1710542287
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "1e3c961118dfacb416f044b8acb2047a3d2c8bd8",
+        "timestamp": 1710542364
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "0e23caea29d44bd468ec06bb3cef30a8e622a19e",
+        "timestamp": 1710542399
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "4ef6eeef8764086816034992705d4a4ebba4e88c",
+        "timestamp": 1712133182
+      },
+      {
+        "files": [
+          "tests/test_cli.py"
+        ],
+        "sha": "f115a8b2d911da96e4678084b29dfb049e464667",
+        "timestamp": 1712133493
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "e4f8d14f6fe235d72a5f4165a04a347d817c60fc",
+        "timestamp": 1712133650
+      },
+      {
+        "files": [
+          "ftfy/cli.py",
+          "poetry.lock",
+          "pyproject.toml"
+        ],
+        "sha": "92f8dd3973d1b442c5733e2e55f410a472b4e0e9",
+        "timestamp": 1722887614
+      },
+      {
+        "files": [
+          ".gitignore",
+          "docs/conf.py",
+          "docs/index.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "97fae5b0c42df5bc84de1b64df210075f51c1ab6",
+        "timestamp": 1722889734
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "tests/face.txt",
+          "tests/halibote.txt",
+          "tests/test_cli.py"
+        ],
+        "sha": "dd63b8a465fcbad5e4f6dbea59b7e3c4d4654d95",
+        "timestamp": 1722890376
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "README.md",
+          "poetry.lock",
+          "pyproject.toml",
+          "setup.cfg"
+        ],
+        "sha": "afcf00eaeb6af141dc6b08c7ddf9da9a22926ab4",
+        "timestamp": 1722896212
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "setup.py",
+          "tests/test_characters.py"
+        ],
+        "sha": "b54895e3c92b8aaffad318b21bbba571bc4e6609",
+        "timestamp": 1722896458
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "e9ff9598dc7d64c4deff9d058a991fc135c8e19a",
+        "timestamp": 1722905500
+      },
+      {
+        "files": [
+          ".readthedocs.yaml"
+        ],
+        "sha": "7f6653d28c6a82946648db761dcf8ebfc6c1c193",
+        "timestamp": 1722906085
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/conf.py",
+          "ftfy/__init__.py",
+          "pyproject.toml",
+          "setup.py"
+        ],
+        "sha": "65935671326e83c07b1deb4f3a0a307594b69451",
+        "timestamp": 1722906309
+      },
+      {
+        "files": [
+          ".readthedocs.yaml"
+        ],
+        "sha": "09049ced54910aa08723fa3b9cc69704436b6247",
+        "timestamp": 1722906499
+      },
+      {
+        "files": [
+          ".readthedocs.yaml"
+        ],
+        "sha": "2a4f6b46ac2752f1468d2be5c106a3aea0f9a927",
+        "timestamp": 1722906649
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/conf.py",
+          "ftfy/__init__.py",
+          "pyproject.toml",
+          "setup.py"
+        ],
+        "sha": "6d2aae0bfb97cab322ac617daceb2482f571aa44",
+        "timestamp": 1722907734
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "4411b2952d5488ecdcc718b728c291ab19fb2f92",
+        "timestamp": 1725404073
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "sha": "21a31d8218c09f6d5d655b6bf96f5318111842bd",
+        "timestamp": 1728367511
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/bad_codecs/sloppy.py",
+          "ftfy/bad_codecs/utf8_variants.py",
+          "ftfy/chardata.py",
+          "ftfy/cli.py",
+          "tests/test_encodings.py"
+        ],
+        "sha": "628cbb789914d1c83a10f208e53175a3521cc500",
+        "timestamp": 1728367531
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "850899910c25cecd31bd08d8549cb521d0a3add0",
+        "timestamp": 1728367598
+      },
+      {
+        "files": [
+          "ftfy/cli.py"
+        ],
+        "sha": "3bfaf50ab875bd3b0d0cdeb421f09be7b1f4a477",
+        "timestamp": 1728367695
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "sha": "e3ecfce96491133a77a0c8a4a187d75d7bcc6549",
+        "timestamp": 1728368385
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml",
+          "README.md",
+          "docs/index.rst"
+        ],
+        "sha": "27ab581203d51796fad73205ae90ce95bcfc0c91",
+        "timestamp": 1728402193
+      },
+      {
+        "files": [
+          "mypy.ini",
+          "pyproject.toml"
+        ],
+        "sha": "57561f96367c22550560d161fd07a31345dc7659",
+        "timestamp": 1728402477
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "ftfy/__init__.py",
+          "ftfy/badness.py",
+          "ftfy/chardata.py",
+          "pyproject.toml",
+          "tests/test_cases.json"
+        ],
+        "sha": "0a60ddc2907d237769e2e77ee396c11d0109d796",
+        "timestamp": 1728514667
+      },
+      {
+        "files": [
+          "tests/test_cases.json",
+          "uv.lock"
+        ],
+        "sha": "ed162d13a6366cfb0d2c3b58820c85d6074261a4",
+        "timestamp": 1728515998
+      },
+      {
+        "files": [
+          "tests/test_cases.json"
+        ],
+        "sha": "a0a0f4567df6e3316b9b8ac6d14481025b009856",
+        "timestamp": 1728516137
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "18f6dbf0025da578f1d13a2f2646941d6706265f",
+        "timestamp": 1728517163
+      },
+      {
+        "files": [
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "3d04558ce8559cb91c82de3d4acd83129d14842d",
+        "timestamp": 1728517592
+      },
+      {
+        "files": [
+          "docs/encodings.rst",
+          "ftfy/chardata.py"
+        ],
+        "sha": "d15ac27a2794fd87c8d66285d8b2b755a72ef6e5",
+        "timestamp": 1728527046
+      },
+      {
+        "files": [
+          ".readthedocs.yaml",
+          "docs/conf.py"
+        ],
+        "sha": "76fa9e537a8b80848d2f756eec5b3451d2ed06f5",
+        "timestamp": 1728579110
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "scripts/char_data_table.py"
+        ],
+        "sha": "6760b44c9959a92d78e63e9671d7a6a5dc325000",
+        "timestamp": 1728582921
+      },
+      {
+        "files": [
+          "ftfy/chardata.py",
+          "scripts/char_data_table.py"
+        ],
+        "sha": "87afc6fccddc5cffac66f1f51138f30573e2c974",
+        "timestamp": 1728582925
+      },
+      {
+        "files": [
+          "ftfy/chardata.py"
+        ],
+        "sha": "7ff0548ad3e9270285a44abd64b4a8aca4393121",
+        "timestamp": 1728582958
+      },
+      {
+        "files": [
+          "docs/encodings.rst",
+          "ftfy/chardata.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "aa434cfce7a9980dfc1fe4a069fe8fdc44a3e2bc",
+        "timestamp": 1728585498
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "ftfy/badness.py",
+          "tests/test_cases.json"
+        ],
+        "sha": "1c185ef088f6eaeacff58a9a6706c8c063bcbbeb",
+        "timestamp": 1728592872
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/encodings.rst",
+          "ftfy/chardata.py",
+          "notes/mysteries.txt",
+          "tests/test_cases.json"
+        ],
+        "sha": "8b791317cab335628bb216d5f3ae5e97cf54dcbf",
+        "timestamp": 1728594176
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "8ac691ce209543d98082911f609bcb5dcd9b6026",
+        "timestamp": 1728595233
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "38b966756ffd348954621be1817faa152a8b7851",
+        "timestamp": 1728595907
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "cbb28da8484d68192018e2f5dcb2eb104e4e46dc",
+        "timestamp": 1728622067
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "README.md",
+          "ftfy/__init__.py",
+          "pyproject.toml"
+        ],
+        "sha": "5961126af6334b6bc47c4808a97cdd7889f931f1",
+        "timestamp": 1729903480
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "uv.lock"
+        ],
+        "sha": "5340af6746ff655a9cd7cb2b50c2fd0b35bb91d3",
+        "timestamp": 1729903678
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/chardata.py",
+          "pyproject.toml"
+        ],
+        "sha": "67ab5ee51a599fee508c883f5b7f8d0b4b1749e4",
+        "timestamp": 1729921171
+      },
+      {
+        "files": [
+          "ftfy/__init__.py",
+          "ftfy/bad_codecs/sloppy.py",
+          "ftfy/bad_codecs/utf8_variants.py",
+          "ftfy/chardata.py"
+        ],
+        "sha": "4ecbb33eda53b67426b6f712334f23b899faf20e",
+        "timestamp": 1729921379
+      },
+      {
+        "files": [
+          "tests/test-cases/in-the-wild.json",
+          "tests/test-cases/known-failures.json",
+          "tests/test-cases/language-names.json",
+          "tests/test-cases/negative.json",
+          "tests/test-cases/synthetic.json",
+          "tests/test_cases.json"
+        ],
+        "sha": "8a55920c5eb1ea00c80ffd8ce107015ed1c0a80e",
+        "timestamp": 1730321024
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "8f8ee2c41b69157ac1dc1e46b9135da4eb3a03e9",
+        "timestamp": 1730321136
+      },
+      {
+        "files": [
+          "tests/test-cases/README.md",
+          "tests/test_examples_in_json.py"
+        ],
+        "sha": "74dd0452b48286a3770013b3a02755313bd5575e",
+        "timestamp": 1730322025
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 6,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/workflows/publish.yml": 0,
+      ".gitignore": 1,
+      ".mailmap": 2,
+      ".readthedocs.yaml": 3,
+      ".travis.yml": 4,
+      "CHANGELOG.md": 5,
+      "Jenkinsfile": 6,
+      "LICENSE.txt": 7,
+      "MANIFEST.in": 8,
+      "README.md": 9,
+      "README.txt": 10,
+      "docs/accuracy.rst": 11,
+      "docs/avoid.rst": 12,
+      "docs/cli.rst": 13,
+      "docs/conf.py": 14,
+      "docs/config.rst": 15,
+      "docs/detect.rst": 16,
+      "docs/encodings.rst": 17,
+      "docs/explain.rst": 18,
+      "docs/fixes.rst": 19,
+      "docs/heuristic.rst": 20,
+      "docs/index.rst": 21,
+      "docs/poem.txt": 22,
+      "docs/requirements.txt": 23,
+      "ftfy.py": 24,
+      "ftfy/__init__.py": 25,
+      "ftfy/autodecode.py": 26,
+      "ftfy/bad_codecs/__init__.py": 27,
+      "ftfy/bad_codecs/sloppy.py": 28,
+      "ftfy/bad_codecs/sloppy_utf8.py": 29,
+      "ftfy/bad_codecs/utf8_variants.py": 30,
+      "ftfy/badness.py": 31,
+      "ftfy/build_data.py": 32,
+      "ftfy/char_classes.dat": 33,
+      "ftfy/char_classes.py": 34,
+      "ftfy/chardata.py": 35,
+      "ftfy/cli.py": 36,
+      "ftfy/compatibility.py": 37,
+      "ftfy/fixes.py": 38,
+      "ftfy/formatting.py": 39,
+      "ftfy/guess_bytes.py": 40,
+      "ftfy/py.typed": 41,
+      "ftfy/single_byte_characters.txt": 42,
+      "ftfy/streamtester/__init__.py": 43,
+      "ftfy/streamtester/oauth.py": 44,
+      "ftfy/streamtester/streamtester.py": 45,
+      "ftfy/streamtester/twitter_tester.py": 46,
+      "mypy.ini": 47,
+      "notebook/excel-export.png": 48,
+      "notebook/ftfy talk.ipynb": 49,
+      "notes/mysteries.txt": 50,
+      "poetry.lock": 51,
+      "poetry.toml": 52,
+      "pyproject.toml": 53,
+      "pytest.ini": 54,
+      "scripts/char_data_table.py": 55,
+      "setup.cfg": 56,
+      "setup.py": 57,
+      "tests/face.txt": 58,
+      "tests/halibote.txt": 59,
+      "tests/test-cases/README.md": 60,
+      "tests/test-cases/in-the-wild.json": 61,
+      "tests/test-cases/known-failures.json": 62,
+      "tests/test-cases/language-names.json": 63,
+      "tests/test-cases/negative.json": 64,
+      "tests/test-cases/synthetic.json": 65,
+      "tests/test_bytes.py": 66,
+      "tests/test_cases.json": 67,
+      "tests/test_characters.py": 68,
+      "tests/test_cli.py": 69,
+      "tests/test_encodings.py": 70,
+      "tests/test_entities.py": 71,
+      "tests/test_examples_in_json.py": 72,
+      "tests/test_futuristic_codepoints.py": 73,
+      "tox.ini": 74,
+      "uv.lock": 75
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1345750336,
+      "last_commit_ts": 1730322025,
+      "n_cochange_pairs": 138,
+      "n_commits_dropped_as_bulk": 27,
+      "n_commits_used": 562,
+      "n_files": 76
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "74dd0452b48286a3770013b3a02755313bd5575e",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
