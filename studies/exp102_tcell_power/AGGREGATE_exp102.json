@@ -1,0 +1,37 @@
+{
+  "study": "EXP-102",
+  "component": "D",
+  "analysis_date": "2026-06-13T23:38:51.705106+00:00",
+  "declaration_hash": "see REPO_DECLARATION_exp102.json",
+  "scorer_hash": "cd6bf9a6c3f3ab36",
+  "n_declared": 100,
+  "n_computed": 100,
+  "n_D_T": 27,
+  "k_D_T": 7,
+  "n_not_detected": 19,
+  "n_leakage": 0,
+  "n_unresolved": 1,
+  "rate": 0.259259,
+  "wilson_lower": 0.131702,
+  "wilson_center": 0.289246,
+  "wilson_upper": 0.446789,
+  "wilson_z": 1.96,
+  "outcome": "REJECTED",
+  "outcome_reason": "Wilson_upper=0.4468 < 0.60 rejection threshold",
+  "implication": "The ownership instrument (M1^M2 gate) is RETIRED as a generalizable claim class. True detection rate in T-cell space is bounded below 0.60 with high confidence. EXP-001 VALIDATED result is attributed to population selection artifact (wave-1 curation bias).",
+  "power_note": "n_D_T=27 < target 50. Power to detect true rate 0.65 at alpha=0.05 is approximately 0.95 (underpowered). Result is valid but confidence intervals are wide.",
+  "m3_distribution": {
+    "mean": 0.885965,
+    "min": 0.444444,
+    "max": 1.0,
+    "n": 100
+  },
+  "forbidden_interpretations": [
+    "post_hoc_threshold_shift",
+    "component_inclusion_of_prior_tcells",
+    "non_tcell_inflation",
+    "per_repo_outcome_report",
+    "cherry_picked_subsets",
+    "m3_gate_retroactive"
+  ]
+}
