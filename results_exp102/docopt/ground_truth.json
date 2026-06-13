@@ -1,0 +1,1551 @@
+{
+  "chain_hash": "708d6bbf7416718e",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      "docopt.py||docs/index.rst": 2,
+      "docopt.py||examples/options_example.py": 5,
+      "docopt.py||test_docopt.py": 72,
+      "docopt.py||test_example.py": 5,
+      "docs/conf.py||docs/index.rst": 2,
+      "examples/any_options_example.py||test_docopt.py": 2,
+      "examples/arguments_example.py||examples/options_example.py": 2,
+      "test_docopt.py||test_example.py": 5
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "ae7bc2a9d2e469554e02bb6ed997da47679a0f56",
+        "timestamp": 1333821412
+      },
+      {
+        "files": [
+          "docopt.py",
+          "examples/options_example.py"
+        ],
+        "sha": "4366c1c397d3fbeda272d01cb319786650c88216",
+        "timestamp": 1333905976
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "440b3fe41cf5581fc7aff11cc3b6e2adcba700df",
+        "timestamp": 1333906429
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "b92a93f8864bbd5ae74f69ee42b5f67cd8b22ae6",
+        "timestamp": 1333906515
+      },
+      {
+        "files": [
+          "docopt.py",
+          "examples/options_example.py"
+        ],
+        "sha": "5500bfadac566c823b573e57d4f02b6cec1ccb48",
+        "timestamp": 1333907043
+      },
+      {
+        "files": [
+          "test_docopt.py"
+        ],
+        "sha": "dda26c8068450c3823fc2c9f8e2c95842f8f9ae5",
+        "timestamp": 1333907933
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "f13b0d117f6c02925f3dfccaa1512cf8301de582",
+        "timestamp": 1333908051
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "e4f8c3fcf46ed78450047bed6ed29eab30d4fa52",
+        "timestamp": 1333908189
+      },
+      {
+        "files": [
+          "LICENSE-MIT"
+        ],
+        "sha": "7bbe699182b007bcfbe2ed4e5db0c7d9fbe24a5e",
+        "timestamp": 1333908851
+      },
+      {
+        "files": [
+          "LICENSE-MIT"
+        ],
+        "sha": "52182f71dd5514c1d30ab1e498adff7019ed351d",
+        "timestamp": 1333909033
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "0ed22a19c7f2aea9448d81d8270769ff95e132ac",
+        "timestamp": 1333912800
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "7f001d9f443f2ea5f4e53ccc4baabfbea5618ed0",
+        "timestamp": 1333916533
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "7c49d06353e40adfc9d88e3b5784ab78277e636c",
+        "timestamp": 1333917061
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "152d481b695760e0f57320465603538d7424f05f",
+        "timestamp": 1333918484
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "d692fa47fbe4af710cb8c847c043175387ffc803",
+        "timestamp": 1333919288
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "a5ec786c18425a06b5cb61d381d025f218c48e07",
+        "timestamp": 1333970221
+      },
+      {
+        "files": [
+          "README.md",
+          "docopt.py",
+          "examples/options_example.py"
+        ],
+        "sha": "2ede5635e0b67b1ea5ae74932a26381f11f5828e",
+        "timestamp": 1333970936
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "bfbba45503b31532070fbae39180cabdabd88a3b",
+        "timestamp": 1333981398
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "d161e01e7bbd3d1f0d78af10b43b06cc045a615a",
+        "timestamp": 1333981638
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "8271fb7e2308b22e598cbc2687b812b1f27af3cc",
+        "timestamp": 1334002356
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "d287686f6c011e86443ef737380c0cf57b42907c",
+        "timestamp": 1334002929
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "acf032bb3719b4dd44d4598f98a2f9a2d29f3ff5",
+        "timestamp": 1334070613
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "f54c9f8ab0a33a269ccffcaf7f81c4e468f3e688",
+        "timestamp": 1334079257
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "38ac7ae2c9ebc36f7d99f3c36a4e970473e58151",
+        "timestamp": 1334084542
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "8169759e6aba767dedea46acb0b2fc2db00b25be",
+        "timestamp": 1334148172
+      },
+      {
+        "files": [
+          "README",
+          "setup.py"
+        ],
+        "sha": "387ccebcad588a6207c7b122cf500c97634f46d2",
+        "timestamp": 1334328645
+      },
+      {
+        "files": [
+          "README.md",
+          "setup.py"
+        ],
+        "sha": "38b5eb4ea454710dbc51a2014d34856e5aa1f786",
+        "timestamp": 1334330746
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e778d0fb14c0e36f1716137a0ad95aaa728499b9",
+        "timestamp": 1334330990
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "c1115db2ca5256cb857c7a8fabb766e1c3cd7770",
+        "timestamp": 1334337886
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "7c6315169d874a8e46fafe3638b64914a126b1e4",
+        "timestamp": 1334344441
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "78e105e355f4dbc55724bbb852d5f0107adf410f",
+        "timestamp": 1334351267
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "c95541c35a808549614de9d86a4f80776416ffa3",
+        "timestamp": 1334393736
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "bede5ce57c14ece92248eef3de8f336125611767",
+        "timestamp": 1334415044
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "b5eb385bde3a926b9efe9a7337f49a72b499e651",
+        "timestamp": 1334425212
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "242a49d350d8ef7658e1a53f7761a5ea6c803fa2",
+        "timestamp": 1334426962
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "e338c75fb66728cb7a431bee09aabf859427c244",
+        "timestamp": 1334427086
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "f293e390cea351232b108f84b18272a70453d06f",
+        "timestamp": 1334433482
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "69cd015a621913f5918f4c320a2ea01c435e3407",
+        "timestamp": 1334434630
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "3add3642efb9c1a20111fda99c9343bf452b636b",
+        "timestamp": 1334438708
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "8c5013d20414ca1fdba933db783af447ac42d848",
+        "timestamp": 1334439559
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "7b132478aa88b9e16adea84d66f11d4a7a6b8351",
+        "timestamp": 1334440056
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "0d53726e63a2bbb36558eea05c5ae333f5af5dd0",
+        "timestamp": 1334442256
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "b065fd221b5d247932321dc8c41642cf94298d93",
+        "timestamp": 1334442885
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "b607d98658aa037d4e8aac5e9804c97dc8edd71d",
+        "timestamp": 1334518796
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "d95044cb2f4c431629db14405bd0fdb1d350fb72",
+        "timestamp": 1334589239
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "5e69ae2e80002a15f6b390ea369d65cf968c0de6",
+        "timestamp": 1334591738
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "619b7c007fe71f77d68bc7d8f79a7537c77283d7",
+        "timestamp": 1334594971
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "545d46b37a9957552942a9a4277d9a583967fc0b",
+        "timestamp": 1334595190
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "04124a234d53df578a061fd5f5e1c268e06cf793",
+        "timestamp": 1334595492
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "603a03cb95adb69a2995336baaf141ab9128f429",
+        "timestamp": 1334600147
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "fdb48d70fbdc5697d663d235bf2c71d114dd0f59",
+        "timestamp": 1334600567
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "839fd54249f0f7a078424fc4bf6bc65e0e0c5eba",
+        "timestamp": 1334603326
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "baf96d663ad2120614976ccf4d12c10ab2b11952",
+        "timestamp": 1334678707
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "2c68580676ac1bd9de133f273a9946ebf1bfec9a",
+        "timestamp": 1334679015
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "689c7615eaedd832cf7a7245d209c6e3fd4a0e20",
+        "timestamp": 1334680666
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "b62099bae32fe5fe9d4d5004df01bf344eda14ff",
+        "timestamp": 1334683366
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "a078f20787e825fcda4cb1d742bdebbee53c1a37",
+        "timestamp": 1334937420
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "b0d91be676130ee9a72f2a55fe3ba65c225647e6",
+        "timestamp": 1335030272
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "bb930fb7956eda34d2513b0b042791d8a04bf841",
+        "timestamp": 1335031187
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "11d534ff4142cc7d1705b0fb68d30271d520fd3e",
+        "timestamp": 1335032822
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "8972cb6a4e888636d48b46f0a304cd4664d81cb3",
+        "timestamp": 1335032955
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py",
+          "test_example.py"
+        ],
+        "sha": "ee72708a8339d0f8af321025a06e6f4cd481846b",
+        "timestamp": 1335036842
+      },
+      {
+        "files": [
+          "test_docopt.py"
+        ],
+        "sha": "25eb692cbc6a0ba4fb589f556f800672662e9432",
+        "timestamp": 1335041941
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "493d2c195f5178d5c1e148d0e356e59cff854eb0",
+        "timestamp": 1335042098
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py",
+          "test_example.py"
+        ],
+        "sha": "772e520970d21df813e5aacacf29bd79b823b686",
+        "timestamp": 1335092237
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "a457cf5705aefb74591de22076d88a4d303b01d4",
+        "timestamp": 1335093176
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py",
+          "test_example.py"
+        ],
+        "sha": "cf0738f228620eb0f8f71736b13ed864af57340c",
+        "timestamp": 1335099957
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_example.py"
+        ],
+        "sha": "87ce4ddd2c40cb743df6f3bb82bc1bf077281508",
+        "timestamp": 1335104809
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_example.py"
+        ],
+        "sha": "19f2cb6f899b43cda7dbdc83662cf0846f710964",
+        "timestamp": 1335105450
+      },
+      {
+        "files": [
+          "docopt.py",
+          "examples/options_example.py",
+          "test_docopt.py"
+        ],
+        "sha": "95ea08769f86463dad0b5c11f0147a8d6d861bb4",
+        "timestamp": 1335122493
+      },
+      {
+        "files": [
+          "test_example.py"
+        ],
+        "sha": "f1b0b1fc96802bf236cf9bfbc894ebdf47704b33",
+        "timestamp": 1335122601
+      },
+      {
+        "files": [
+          "docs/Makefile",
+          "docs/conf.py",
+          "docs/index.rst"
+        ],
+        "sha": "d21d6dd4759b9d2a36af4d8a8fb89df9dd8a6421",
+        "timestamp": 1335195627
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "50a95cf2218fe6124bc1a96a13bf525bcfb71dca",
+        "timestamp": 1335283208
+      },
+      {
+        "files": [
+          "examples/options_example.py"
+        ],
+        "sha": "83217f1f41e812cb130837701387bdc1de82e57a",
+        "timestamp": 1336241269
+      },
+      {
+        "files": [
+          "examples/arguments_example.py"
+        ],
+        "sha": "c76cef6392ed91c6d244d67e306e006e70a1bd3d",
+        "timestamp": 1336242395
+      },
+      {
+        "files": [
+          "examples/argparse_example.py",
+          "examples/arguments_example.py"
+        ],
+        "sha": "f08e62db34843cab2772e58842c09c2babd8d234",
+        "timestamp": 1336245297
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "be725540a0f418a7a624e12016a0dd1815ea585e",
+        "timestamp": 1336247036
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "a29db2f12c17fe373a63a0c513d95cb8bf9300e2",
+        "timestamp": 1336297303
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "f62b23690669a4af45691356eec658aa2f90266e",
+        "timestamp": 1336298862
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "be3742c83ecd727201135e41fc55970103b57c66",
+        "timestamp": 1336329735
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "5dad625eba36113d4fa8be72f2e10bacba97f49b",
+        "timestamp": 1336329901
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "e435848573e407f3f25b89558d3a49eed7ecc1ea",
+        "timestamp": 1336331102
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "80b9ec01be76981e1e3e6c0cbbf8fe968c48a29d",
+        "timestamp": 1336331639
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "2fd75018c376550c4b995d3fbc4ad0a91ad2ce91",
+        "timestamp": 1336332365
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "0e6f623e2db8b0be21fbaebc4931496711cd6f17",
+        "timestamp": 1336333294
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "07f591a4f30adc580281d60391f0a8653780bd3d",
+        "timestamp": 1336333499
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "bcfc4fc6323c332bd6bcc83c626061af7f079a33",
+        "timestamp": 1336333920
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "7742e06d9cfcc9e418c9f546471ceb0ed0bea965",
+        "timestamp": 1336334272
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "769d84dcc3da4a1cb0f70eee9f869458a33d8cdf",
+        "timestamp": 1336768344
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "b38bc13664d7a189a52c556201e9ee76d6333127",
+        "timestamp": 1336769400
+      },
+      {
+        "files": [
+          "test_docopt.py"
+        ],
+        "sha": "b0f9fd2105c120835ca9c5826124ba1192d6494f",
+        "timestamp": 1336771272
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "fd37b68f15eed343ae31df59f1f5deb7ef307d05",
+        "timestamp": 1336772537
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "d6850ae938a26a59f58bc29ffeb2ac4eeea83e95",
+        "timestamp": 1336823740
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "7fe22eb496345f80a4eef34b7b41aa0ae5bb6bbc",
+        "timestamp": 1336829283
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "bf27758429d1d6533ee1ac3edc4d175f5107b954",
+        "timestamp": 1336829608
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "98bb195445956b95058e89883cf8ca45fc250c03",
+        "timestamp": 1336829847
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "e96217bff844b9de0e15e368058662416c956c40",
+        "timestamp": 1336831439
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "6d8d16a50993a0a5b5af55dc4f050692f95f9984",
+        "timestamp": 1336831781
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "448cd1ac87804ced58656a1080d3f14992042273",
+        "timestamp": 1336835626
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "e77f8bda3831e2fd5e1cbad760df6f318052ad24",
+        "timestamp": 1336837982
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "a461ff804ac479c0ae21ea203d13eae21e61bb63",
+        "timestamp": 1336840627
+      },
+      {
+        "files": [
+          "test_docopt.py"
+        ],
+        "sha": "8ee9cb9485855e7bfd12373cfcf979fb6aeddad3",
+        "timestamp": 1336844589
+      },
+      {
+        "files": [
+          "docopt.py",
+          "examples/options_example.py"
+        ],
+        "sha": "28b9c319e2cec218864fa2ce86217871daaaa22f",
+        "timestamp": 1336846689
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "982067ef9ee68edacdb013b59d13ea3150e44782",
+        "timestamp": 1336857500
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "1aece2fdeb863263ba1bc0e7fd2210390c7fb1df",
+        "timestamp": 1336926698
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "7dfd37267f60489d2bc46da36cc79a7ddd84b885",
+        "timestamp": 1336943157
+      },
+      {
+        "files": [
+          "test_docopt.py"
+        ],
+        "sha": "e51278f890b7b0b10148451cbc185d0e5193a376",
+        "timestamp": 1337248506
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "18685298e5cc40fee9433a72ffcfaa5906fba8e2",
+        "timestamp": 1337250136
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "f306c51ee31013b47eb4b9607ac9433dd701a8d2",
+        "timestamp": 1337250770
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "21ac934ac16f6f3014b117e6b237fbad5bd63d7b",
+        "timestamp": 1337250962
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "1a824a7c14063f04aaeb8d37f21ae5cfd2b8fefe",
+        "timestamp": 1337251350
+      },
+      {
+        "files": [
+          "docopt.py",
+          "docs/index.rst"
+        ],
+        "sha": "a0eab75b6f45ba75bd13fb1bda2d3bba107f12d1",
+        "timestamp": 1337265979
+      },
+      {
+        "files": [
+          "examples/argparse_example.py"
+        ],
+        "sha": "3a83dd5bd035bd55ff85f0af7b22c503109ee393",
+        "timestamp": 1337269982
+      },
+      {
+        "files": [
+          "examples/odd_even_example.py"
+        ],
+        "sha": "fed06e76b69df3b23a33a2da2b77259ceb163636",
+        "timestamp": 1337270479
+      },
+      {
+        "files": [
+          "examples/arguments_example.py",
+          "examples/options_example.py"
+        ],
+        "sha": "71736a19fb476a6f415e026e4d11e3bffd22767e",
+        "timestamp": 1337270509
+      },
+      {
+        "files": [
+          "examples/arguments_example.py",
+          "examples/odd_even_example.py",
+          "examples/options_example.py"
+        ],
+        "sha": "2427f4f0c3ceb6e23b11089a71905814c6d52307",
+        "timestamp": 1337271330
+      },
+      {
+        "files": [
+          "examples/options_example.py"
+        ],
+        "sha": "64c4c3948650effa2b4b3729d15a4a407c9e023c",
+        "timestamp": 1337271513
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "8ca7f56f10e128f8a8716694b2667e0a0b3ccbf7",
+        "timestamp": 1337699395
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "1998dfb4bb56f4539fab14394cd709a7e7232237",
+        "timestamp": 1337707470
+      },
+      {
+        "files": [
+          "examples/odd_even_example.py"
+        ],
+        "sha": "af6534753333561e510766f68415527dd9668c2d",
+        "timestamp": 1337707940
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "4574e0a2e0d60a851ce4a724731507e8d611c5db",
+        "timestamp": 1337708227
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "4c55056d46f54ca05fd833d57d8fd2d9e1f2244a",
+        "timestamp": 1337933475
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "07ae444cbfcf736e12efec07987e55b28eb75dd5",
+        "timestamp": 1338049650
+      },
+      {
+        "files": [
+          "README",
+          "README.md"
+        ],
+        "sha": "b9fbfe02d374fa201146037c2cf3054c09946b75",
+        "timestamp": 1338050308
+      },
+      {
+        "files": [
+          "README"
+        ],
+        "sha": "008d1351c087828dd60eb1efdb34cc6b94464bb8",
+        "timestamp": 1338050622
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "58e16319d8601493026d80f5e29d062566cc5cf3",
+        "timestamp": 1338051276
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "8b41bc73e2f25197d70e7c80b11ab3be4b829a18",
+        "timestamp": 1338051646
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "66a1a96f8495a23113bfe9fe5035198ff302482a",
+        "timestamp": 1338054832
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "297e808bf34313e73f934d5922d0af4bc8f8a8c9",
+        "timestamp": 1338055237
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "922f4dea8da12fb08c9ca566493bd4a8ed63efac",
+        "timestamp": 1338055614
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "test_docopt.py",
+          "test_example.py"
+        ],
+        "sha": "e08d93e14ad9a336f02367b6a46e1f5bb4782040",
+        "timestamp": 1338122001
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "c7ad9db18cb1464d8fda149a3d2abf1c1f23b5e3",
+        "timestamp": 1338124202
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "32c73fe54ee04924b584006ad8e2b0b19b9b6d8c",
+        "timestamp": 1338287213
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "4d6068e83c7125b385da28612a9b50d8353151ba",
+        "timestamp": 1338302153
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "1de7e8646c64da9e125dab147781979d85f52d77",
+        "timestamp": 1338302392
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "5faf1be4c4837f2bf93452eb10905d281398a54a",
+        "timestamp": 1338381169
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "0271da8d0ea5385f27ffb6d77d835765b42d088f",
+        "timestamp": 1338386626
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "aef74c6e52d322a36b940fcadf40d30b73652ab5",
+        "timestamp": 1338387628
+      },
+      {
+        "files": [
+          "test_docopt.py"
+        ],
+        "sha": "9f829236e627b0feb2e10130366b2c3f0606a90f",
+        "timestamp": 1338400689
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "4bc7d9ffe122554fb2413212b6f41291f7b9dd96",
+        "timestamp": 1338400880
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "d0512e2782d1d0fc66ff274191a4262f15aa0397",
+        "timestamp": 1338405442
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "ae875838842f24573c170909bff5148da2bdbc90",
+        "timestamp": 1338483337
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "318f8725eb6630785207125b1ca5e566e333a414",
+        "timestamp": 1338485295
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "0c5122b45eb8fd5ad364e2dd883346700903d73b",
+        "timestamp": 1338486277
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "01b6547f7206e7d319b8395328b8dda76651b562",
+        "timestamp": 1338498750
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "27e8879bccded6e0ccdb7fcc4ac123576e136ecd",
+        "timestamp": 1338492983
+      },
+      {
+        "files": [
+          "docopt.py",
+          "examples/any_options_example.py",
+          "test_docopt.py"
+        ],
+        "sha": "7c68b1feed78f55dfe13a3167fed4defbbda856c",
+        "timestamp": 1338491731
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "f95a42b0c10392d056935682444bc80a68f22278",
+        "timestamp": 1338538303
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "bd135395128ff036ec22ebbc00be2d1293bd0b6d",
+        "timestamp": 1338560919
+      },
+      {
+        "files": [
+          "examples/any_options_example.py"
+        ],
+        "sha": "10b50d1ea0f0cd24efab10382b96e0ae852b7daf",
+        "timestamp": 1338563555
+      },
+      {
+        "files": [
+          "docopt.py",
+          "docs/index.rst"
+        ],
+        "sha": "6ecdb9bf04ba7e98e0284a3d92940aa1b10191f1",
+        "timestamp": 1338564329
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "99893457f43905808a12594618a56341690b6320",
+        "timestamp": 1338568994
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "8745a3a3790bfe242661211bd1c4ffe75a6c5afb",
+        "timestamp": 1338571007
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "3bd4437d40b9b2271c55b878e3caaaae58df4d62",
+        "timestamp": 1338572360
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "25b922150066fedab572754c3910d48f659cf754",
+        "timestamp": 1338574383
+      },
+      {
+        "files": [
+          "docopt.py",
+          "token.move,"
+        ],
+        "sha": "450629321fe25dcaa235f3db45c6eecd1f10b596",
+        "timestamp": 1338574641
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "0029d0046970fb278d07f6c3b3ad97516b96428b",
+        "timestamp": 1338574641
+      },
+      {
+        "files": [
+          "token.move,"
+        ],
+        "sha": "6c6caa34ae5b2172d7188ddd1ca32ae72871b416",
+        "timestamp": 1338639521
+      },
+      {
+        "files": [
+          "examples/any_options_example.py",
+          "test_docopt.py"
+        ],
+        "sha": "9026741a0c311f61557915a0d23bd19669c290f6",
+        "timestamp": 1338640715
+      },
+      {
+        "files": [
+          "docopt.py",
+          "examples/commands_example.py",
+          "test_docopt.py"
+        ],
+        "sha": "d55e10b9b8caf4f1a8fb799f330dc1f8e7809397",
+        "timestamp": 1338643458
+      },
+      {
+        "files": [
+          "examples/commands_example.py"
+        ],
+        "sha": "aca3f06aa5adbc69a43383356498c3e799df2850",
+        "timestamp": 1338643888
+      },
+      {
+        "files": [
+          "examples/git_example.py"
+        ],
+        "sha": "e8c620e8b679554bce8727e15ed75d8d2e0d12fb",
+        "timestamp": 1338644508
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "654ac3ff9c868f52db08bbe9f627fa08cb2a417a",
+        "timestamp": 1338652834
+      },
+      {
+        "files": [
+          "test_docopt.py"
+        ],
+        "sha": "448c6e632223a6e48fe2265da184c5104156f092",
+        "timestamp": 1338653466
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "6c1d59f8352a7315cf5db66aa2649d60757592e2",
+        "timestamp": 1338655557
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "3a19bbba8b9959fc6dcfc25d2b2a8ac8a42771d6",
+        "timestamp": 1338656046
+      },
+      {
+        "files": [
+          "test_docopt.py"
+        ],
+        "sha": "6e315c4746fd9e76a9df11b42221ab8a43ce603c",
+        "timestamp": 1338656621
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "de37f27aa81a22f7194fa46382ee62ffaaed8717",
+        "timestamp": 1338658721
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "d5f51efd991f3b741718db6edbe477d28d521492",
+        "timestamp": 1338659963
+      },
+      {
+        "files": [
+          "test_example.py"
+        ],
+        "sha": "df415b4bfb2e3dc715cee867b5f58b405dce827f",
+        "timestamp": 1338660216
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "a66bede790bca1c6140f1ac3388eea61fb107ba2",
+        "timestamp": 1338670614
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "ddb7347a6d4e26b30de84987bbd62f16086f5c6f",
+        "timestamp": 1338672428
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "b2739805761ce78c93a976fa9cd54b0c7eab3889",
+        "timestamp": 1338673814
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "d5098995c28d049216953e61e2a48c4703b700da",
+        "timestamp": 1338674953
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "564c374652590a15917a22a481e38838165db52d",
+        "timestamp": 1338675198
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "cc727c5833d32a6453a9edc50caf89524b635b4c",
+        "timestamp": 1338676755
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "a84249ef7b30edb2cc65f171cb9f56d5bdba0567",
+        "timestamp": 1338739784
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "987bf25ad28709f8ee1ec8646acf2cd089e2845a",
+        "timestamp": 1338741893
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "2e1a0b4435dd0a819c0c74f1c4371b246163f391",
+        "timestamp": 1338743648
+      },
+      {
+        "files": [
+          "examples/calculator_example.py"
+        ],
+        "sha": "ff39ea3082d750908e617cd5c790dec8e29cb7da",
+        "timestamp": 1338746536
+      },
+      {
+        "files": [
+          "test_docopt.py",
+          "test_example.py"
+        ],
+        "sha": "f35a6a9cec494f40a82e12177da51bc8af033a35",
+        "timestamp": 1338748606
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "9943f4c332f209e58a0913958f466fbce1403c3c",
+        "timestamp": 1338757805
+      },
+      {
+        "files": [
+          "docopt.py"
+        ],
+        "sha": "126ea48a5e35c5028cc185aa877ef63659ffee69",
+        "timestamp": 1338822608
+      },
+      {
+        "files": [
+          "examples/commands_example.py"
+        ],
+        "sha": "dccff4caceaa6d5ab9739c091ad1d9afd235868a",
+        "timestamp": 1338827002
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "7468c7f6cd31fb90b5ce26579c1480c6898112d9",
+        "timestamp": 1338835885
+      },
+      {
+        "files": [
+          "examples/commands_example.py",
+          "examples/naval_fate.py"
+        ],
+        "sha": "8b4389093ec03d48d53d4a27916117914eb91b75",
+        "timestamp": 1338835914
+      },
+      {
+        "files": [
+          "examples/any_options_example.py"
+        ],
+        "sha": "6b99b502e02b4e4fe6577d011032f06beef999b2",
+        "timestamp": 1338836045
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7c1aa660caecafc0f8f8bf6235b70f1c9c3a317e",
+        "timestamp": 1338836199
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/index.rst"
+        ],
+        "sha": "bec33023a5b133d770d872d8bfa9fd66ea4bf12b",
+        "timestamp": 1338836974
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "77dc0ca3ece88a3423dbcbeb030e4c78c83b3b33",
+        "timestamp": 1338916011
+      },
+      {
+        "files": [
+          "language_agnostic_tester.py",
+          "testee.py"
+        ],
+        "sha": "152d4e13c0a7a7dffb11db87f3f6d5097068d2b8",
+        "timestamp": 1339008128
+      },
+      {
+        "files": [
+          "docopt.py",
+          "test_docopt.py"
+        ],
+        "sha": "e4f9bf1e1061cf33bef865c94bf9d4ff4ed63f8a",
+        "timestamp": 1339008205
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "0462a13e4ac2f4e09bed2e9ff196cb2383a1c2fb",
+        "timestamp": 1339163584
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "7fb2aa2b370b3cea564071d82a228d1ed540ff19",
+        "timestamp": 1339186811
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 3,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".gitignore": 0,
+      ".travis.yml": 1,
+      "LICENSE-MIT": 2,
+      "README": 3,
+      "README.md": 4,
+      "docopt.py": 5,
+      "docs/Makefile": 6,
+      "docs/conf.py": 7,
+      "docs/index.rst": 8,
+      "examples/any_options_example.py": 9,
+      "examples/argparse_example.py": 10,
+      "examples/arguments_example.py": 11,
+      "examples/calculator_example.py": 12,
+      "examples/commands_example.py": 13,
+      "examples/git_example.py": 14,
+      "examples/naval_fate.py": 15,
+      "examples/odd_even_example.py": 16,
+      "examples/options_example.py": 17,
+      "language_agnostic_tester.py": 18,
+      "setup.py": 19,
+      "test_docopt.py": 20,
+      "test_example.py": 21,
+      "testee.py": 22,
+      "token.move,": 23
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1333821412,
+      "last_commit_ts": 1339186811,
+      "n_cochange_pairs": 8,
+      "n_commits_dropped_as_bulk": 7,
+      "n_commits_used": 194,
+      "n_files": 24
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "7fb2aa2b370b3cea564071d82a228d1ed540ff19",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
