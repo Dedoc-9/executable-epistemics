@@ -1,0 +1,634 @@
+{
+  "study": "EXP-102",
+  "declaration_date": "2026-06-13",
+  "protocol_version": "exp102-v1",
+  "instrument_family": "ownership",
+  "scorer_hash": "cd6bf9a6c3f3ab36",
+  "hypothesis_ref": "studies/exp102_tcell_power/HYPOTHESIS_exp102.md",
+  "declaration_hash": "970f4c4f330e629e5b18d0d0f5cc68cd738e7bbea8d0bc3aba4e4f54376a25ca",
+  "pivot": "A",
+  "pivot_rationale": "M3 retrocompute (m3_retroactive.json, commit f0be383) produced a null finding: cohort-level M3 does not predict detection rate ordering. B(0.911) > A(0.874) > C_T(0.773). An M3 gate is not supported as a mechanism. EXP-102 uses M1^M2 gate only, n_T>=50, to force a definitive statistical resolution. If Wilson_upper < 0.60 at n_T>=50, the ownership claim class is retired.",
+  "m1_threshold": 0.858675,
+  "m2_threshold": 7.702891,
+  "n_declared": 100,
+  "n_target_tcell": 50,
+  "replacement_queue": [
+    "alecthomas/voluptuous",
+    "hynek/doc2dash",
+    "mahmoud/glom",
+    "pytoolz/cytoolz",
+    "gorakhargosh/watchdog",
+    "micheles/plac",
+    "michael-the-grey/appdirs",
+    "python/typing_extensions",
+    "noxfile/nox-poetry",
+    "keleshev/schema"
+  ],
+  "exclusion_list_refs": [
+    "studies/population/REPO_DECLARATION.json",
+    "studies/exp002_ownership_replication/REPO_DECLARATION_exp002.json",
+    "studies/exp101_tcell_expansion/REPO_DECLARATION_exp101.json"
+  ],
+  "repos": [
+    {
+      "id": "D001",
+      "slug": "nedbat/coveragepy",
+      "eligibility": "CONFIRMED",
+      "notes": "Ned Batchelder dominant; high M1 expected"
+    },
+    {
+      "id": "D002",
+      "slug": "pytest-dev/pluggy",
+      "eligibility": "CONFIRMED",
+      "notes": "Plugin manager; small core team"
+    },
+    {
+      "id": "D003",
+      "slug": "pytest-dev/pytest-mock",
+      "eligibility": "CONFIRMED",
+      "notes": "pytest plugin; single primary maintainer"
+    },
+    {
+      "id": "D004",
+      "slug": "pytest-dev/pytest-asyncio",
+      "eligibility": "CONFIRMED",
+      "notes": "Async pytest plugin; small team"
+    },
+    {
+      "id": "D005",
+      "slug": "python-attrs/attrs",
+      "eligibility": "CONFIRMED",
+      "notes": "Hynek Schlawack dominant"
+    },
+    {
+      "id": "D006",
+      "slug": "python-attrs/cattrs",
+      "eligibility": "CONFIRMED",
+      "notes": "Tin Tvrtkovi\u0107 dominant"
+    },
+    {
+      "id": "D007",
+      "slug": "pallets/jinja",
+      "eligibility": "CONFIRMED",
+      "notes": "Armin Ronacher primary"
+    },
+    {
+      "id": "D008",
+      "slug": "pallets/markupsafe",
+      "eligibility": "CONFIRMED",
+      "notes": "Small Pallets team; focused"
+    },
+    {
+      "id": "D009",
+      "slug": "pallets/blinker",
+      "eligibility": "CONFIRMED",
+      "notes": "Signal dispatch; minimal team"
+    },
+    {
+      "id": "D010",
+      "slug": "PyCQA/pyflakes",
+      "eligibility": "CONFIRMED",
+      "notes": "Static analysis; small team"
+    },
+    {
+      "id": "D011",
+      "slug": "hhatto/autopep8",
+      "eligibility": "CONFIRMED",
+      "notes": "Hideo Hattori dominant"
+    },
+    {
+      "id": "D012",
+      "slug": "google/yapf",
+      "eligibility": "CONFIRMED",
+      "notes": "YAPF formatter; check M1"
+    },
+    {
+      "id": "D013",
+      "slug": "rthalley/dnspython",
+      "eligibility": "CONFIRMED",
+      "notes": "Bob Halley dominant; DNS"
+    },
+    {
+      "id": "D014",
+      "slug": "benoitc/gunicorn",
+      "eligibility": "CONFIRMED",
+      "notes": "Beno\u00eet Chesneau primary"
+    },
+    {
+      "id": "D015",
+      "slug": "encode/uvicorn",
+      "eligibility": "CONFIRMED",
+      "notes": "Tom Christie primary"
+    },
+    {
+      "id": "D016",
+      "slug": "encode/httpcore",
+      "eligibility": "CONFIRMED",
+      "notes": "Tom Christie primary"
+    },
+    {
+      "id": "D017",
+      "slug": "jpadilla/pyjwt",
+      "eligibility": "CONFIRMED",
+      "notes": "JWT; small team"
+    },
+    {
+      "id": "D018",
+      "slug": "pycurl/pycurl",
+      "eligibility": "CONFIRMED",
+      "notes": "pycURL; small team"
+    },
+    {
+      "id": "D019",
+      "slug": "pyca/bcrypt",
+      "eligibility": "CONFIRMED",
+      "notes": "PyCA bcrypt"
+    },
+    {
+      "id": "D020",
+      "slug": "lepture/authlib",
+      "eligibility": "CONFIRMED",
+      "notes": "Hsiaoming Yang dominant"
+    },
+    {
+      "id": "D021",
+      "slug": "oauthlib/oauthlib",
+      "eligibility": "CONFIRMED",
+      "notes": "OAuth; small team"
+    },
+    {
+      "id": "D022",
+      "slug": "pypa/pyOpenSSL",
+      "eligibility": "CONFIRMED",
+      "notes": "pyOpenSSL; small team"
+    },
+    {
+      "id": "D023",
+      "slug": "kvesteri/sqlalchemy-utils",
+      "eligibility": "CONFIRMED",
+      "notes": "Konsta Vesterinen dominant"
+    },
+    {
+      "id": "D024",
+      "slug": "tiangolo/sqlmodel",
+      "eligibility": "CONFIRMED",
+      "notes": "Sebasti\u00e1n Ram\u00edrez dominant"
+    },
+    {
+      "id": "D025",
+      "slug": "omnilib/aiosqlite",
+      "eligibility": "CONFIRMED",
+      "notes": "John Reese dominant"
+    },
+    {
+      "id": "D026",
+      "slug": "RaRe-Technologies/sqlitedict",
+      "eligibility": "CONFIRMED",
+      "notes": "Small team; dict-backed SQLite"
+    },
+    {
+      "id": "D027",
+      "slug": "agronholm/anyio",
+      "eligibility": "CONFIRMED",
+      "notes": "Alex Gr\u00f6nholm dominant"
+    },
+    {
+      "id": "D028",
+      "slug": "python-trio/trio",
+      "eligibility": "CONFIRMED",
+      "notes": "Nathaniel Smith + small team"
+    },
+    {
+      "id": "D029",
+      "slug": "grantjenks/python-sortedcontainers",
+      "eligibility": "CONFIRMED",
+      "notes": "Grant Jenks sole author"
+    },
+    {
+      "id": "D030",
+      "slug": "grantjenks/python-diskcache",
+      "eligibility": "CONFIRMED",
+      "notes": "Grant Jenks sole author"
+    },
+    {
+      "id": "D031",
+      "slug": "tobgu/pyrsistent",
+      "eligibility": "CONFIRMED",
+      "notes": "Tobias Gustafsson dominant"
+    },
+    {
+      "id": "D032",
+      "slug": "more-itertools/more-itertools",
+      "eligibility": "CONFIRMED",
+      "notes": "itertools extensions; small team"
+    },
+    {
+      "id": "D033",
+      "slug": "pytoolz/toolz",
+      "eligibility": "CONFIRMED",
+      "notes": "Functional tools; small team"
+    },
+    {
+      "id": "D034",
+      "slug": "tkem/cachetools",
+      "eligibility": "CONFIRMED",
+      "notes": "Thomas Kemmer sole author"
+    },
+    {
+      "id": "D035",
+      "slug": "jmcnamara/xlsxwriter",
+      "eligibility": "CONFIRMED",
+      "notes": "John McNamara sole author"
+    },
+    {
+      "id": "D036",
+      "slug": "scanny/python-pptx",
+      "eligibility": "CONFIRMED",
+      "notes": "Steve Canny sole author"
+    },
+    {
+      "id": "D037",
+      "slug": "python-openxml/python-docx",
+      "eligibility": "CONFIRMED",
+      "notes": "python-docx; small team"
+    },
+    {
+      "id": "D038",
+      "slug": "pikepdf/pikepdf",
+      "eligibility": "CONFIRMED",
+      "notes": "James Barlow dominant"
+    },
+    {
+      "id": "D039",
+      "slug": "py-pdf/pypdf",
+      "eligibility": "CONFIRMED",
+      "notes": "Pure-Python PDF; small team"
+    },
+    {
+      "id": "D040",
+      "slug": "pdfminer/pdfminer.six",
+      "eligibility": "CONFIRMED",
+      "notes": "pdfminer fork; small team"
+    },
+    {
+      "id": "D041",
+      "slug": "py-pdf/fpdf2",
+      "eligibility": "CONFIRMED",
+      "notes": "fpdf2; small team"
+    },
+    {
+      "id": "D042",
+      "slug": "yaml/pyyaml",
+      "eligibility": "CONFIRMED",
+      "notes": "Kirill Simonov dominant"
+    },
+    {
+      "id": "D043",
+      "slug": "construct/construct",
+      "eligibility": "CONFIRMED",
+      "notes": "Binary parsing; small team"
+    },
+    {
+      "id": "D044",
+      "slug": "GrahamDumpleton/wrapt",
+      "eligibility": "CONFIRMED",
+      "notes": "Graham Dumpleton sole author"
+    },
+    {
+      "id": "D045",
+      "slug": "mahmoud/boltons",
+      "eligibility": "CONFIRMED",
+      "notes": "Mahmoud Hashemi dominant"
+    },
+    {
+      "id": "D046",
+      "slug": "Suor/funcy",
+      "eligibility": "CONFIRMED",
+      "notes": "Alexander Schepanovski sole author"
+    },
+    {
+      "id": "D047",
+      "slug": "amoffat/sh",
+      "eligibility": "CONFIRMED",
+      "notes": "Andrew Moffat dominant"
+    },
+    {
+      "id": "D048",
+      "slug": "SethMMorton/natsort",
+      "eligibility": "CONFIRMED",
+      "notes": "Seth Morton dominant"
+    },
+    {
+      "id": "D049",
+      "slug": "Delgan/loguru",
+      "eligibility": "CONFIRMED",
+      "notes": "Delgan sole author"
+    },
+    {
+      "id": "D050",
+      "slug": "sdispater/pendulum",
+      "eligibility": "CONFIRMED",
+      "notes": "S\u00e9bastien Eustace dominant"
+    },
+    {
+      "id": "D051",
+      "slug": "python-humanize/humanize",
+      "eligibility": "CONFIRMED",
+      "notes": "Human-readable values; small team"
+    },
+    {
+      "id": "D052",
+      "slug": "astanin/python-tabulate",
+      "eligibility": "CONFIRMED",
+      "notes": "Sergey Astanin dominant"
+    },
+    {
+      "id": "D053",
+      "slug": "chardet/chardet",
+      "eligibility": "CONFIRMED",
+      "notes": "Charset detection; not in prior cohorts"
+    },
+    {
+      "id": "D054",
+      "slug": "jd/tenacity",
+      "eligibility": "CONFIRMED",
+      "notes": "Julien Danjou + small team"
+    },
+    {
+      "id": "D055",
+      "slug": "hynek/structlog",
+      "eligibility": "CONFIRMED",
+      "notes": "Hynek Schlawack dominant"
+    },
+    {
+      "id": "D056",
+      "slug": "GrahamDumpleton/mod_wsgi",
+      "eligibility": "CONFIRMED",
+      "notes": "Graham Dumpleton; mod_wsgi"
+    },
+    {
+      "id": "D057",
+      "slug": "micheles/decorator",
+      "eligibility": "CONFIRMED",
+      "notes": "Michele Simionato sole author"
+    },
+    {
+      "id": "D058",
+      "slug": "maxbachmann/RapidFuzz",
+      "eligibility": "CONFIRMED",
+      "notes": "Max Bachmann dominant"
+    },
+    {
+      "id": "D059",
+      "slug": "LuminosoInsight/python-ftfy",
+      "eligibility": "CONFIRMED",
+      "notes": "Rob Speer dominant"
+    },
+    {
+      "id": "D060",
+      "slug": "jquast/wcwidth",
+      "eligibility": "CONFIRMED",
+      "notes": "jquast dominant; Unicode width"
+    },
+    {
+      "id": "D061",
+      "slug": "bitarray/bitarray",
+      "eligibility": "CONFIRMED",
+      "notes": "Ilan Schnell sole author"
+    },
+    {
+      "id": "D062",
+      "slug": "ifduyue/python-xxhash",
+      "eligibility": "CONFIRMED",
+      "notes": "Yue Du sole author"
+    },
+    {
+      "id": "D063",
+      "slug": "WoLpH/python-progressbar",
+      "eligibility": "CONFIRMED",
+      "notes": "Rick van Hattem dominant"
+    },
+    {
+      "id": "D064",
+      "slug": "pypa/flit",
+      "eligibility": "CONFIRMED",
+      "notes": "Thomas Kluyver + small team"
+    },
+    {
+      "id": "D065",
+      "slug": "pypa/build",
+      "eligibility": "CONFIRMED",
+      "notes": "pypa/build; small team"
+    },
+    {
+      "id": "D066",
+      "slug": "pypa/packaging",
+      "eligibility": "CONFIRMED",
+      "notes": "Packaging utilities; small team"
+    },
+    {
+      "id": "D067",
+      "slug": "pypa/virtualenv",
+      "eligibility": "CONFIRMED",
+      "notes": "Bern\u00e1t G\u00e1bor dominant"
+    },
+    {
+      "id": "D068",
+      "slug": "pypa/twine",
+      "eligibility": "CONFIRMED",
+      "notes": "Upload utility; small team"
+    },
+    {
+      "id": "D069",
+      "slug": "pydoit/doit",
+      "eligibility": "CONFIRMED",
+      "notes": "Eduardo Schettino dominant"
+    },
+    {
+      "id": "D070",
+      "slug": "wntrblm/nox",
+      "eligibility": "CONFIRMED",
+      "notes": "Thea Flowers dominant"
+    },
+    {
+      "id": "D071",
+      "slug": "tox-dev/tox",
+      "eligibility": "CONFIRMED",
+      "notes": "Bern\u00e1t G\u00e1bor + small team"
+    },
+    {
+      "id": "D072",
+      "slug": "Zulko/moviepy",
+      "eligibility": "CONFIRMED",
+      "notes": "Zulko dominant"
+    },
+    {
+      "id": "D073",
+      "slug": "imageio/imageio",
+      "eligibility": "CONFIRMED",
+      "notes": "Almar Klein + small team"
+    },
+    {
+      "id": "D074",
+      "slug": "asweigart/pyautogui",
+      "eligibility": "CONFIRMED",
+      "notes": "Al Sweigart sole author"
+    },
+    {
+      "id": "D075",
+      "slug": "boppreh/keyboard",
+      "eligibility": "CONFIRMED",
+      "notes": "Lucas Boppre dominant"
+    },
+    {
+      "id": "D076",
+      "slug": "bastibe/python-soundfile",
+      "eligibility": "CONFIRMED",
+      "notes": "Bastian Bechtold dominant"
+    },
+    {
+      "id": "D077",
+      "slug": "quodlibet/mutagen",
+      "eligibility": "CONFIRMED",
+      "notes": "Christoph Reiter dominant"
+    },
+    {
+      "id": "D078",
+      "slug": "geopy/geopy",
+      "eligibility": "CONFIRMED",
+      "notes": "Geocoding; small team"
+    },
+    {
+      "id": "D079",
+      "slug": "python-visualization/folium",
+      "eligibility": "CONFIRMED",
+      "notes": "Leaflet maps; small team"
+    },
+    {
+      "id": "D080",
+      "slug": "prompt-toolkit/python-prompt-toolkit",
+      "eligibility": "CONFIRMED",
+      "notes": "Jonathan Slenders dominant"
+    },
+    {
+      "id": "D081",
+      "slug": "Textualize/textual",
+      "eligibility": "CONFIRMED",
+      "notes": "Will McGugan dominant; TUI"
+    },
+    {
+      "id": "D082",
+      "slug": "jaraco/keyring",
+      "eligibility": "CONFIRMED",
+      "notes": "Jason Coombs dominant"
+    },
+    {
+      "id": "D083",
+      "slug": "skorokithakis/shortuuid",
+      "eligibility": "CONFIRMED",
+      "notes": "Stavros Korokithakis dominant"
+    },
+    {
+      "id": "D084",
+      "slug": "html5lib/html5lib-python",
+      "eligibility": "CONFIRMED",
+      "notes": "HTML5 parser; small team"
+    },
+    {
+      "id": "D085",
+      "slug": "beetbox/beets",
+      "eligibility": "CONFIRMED",
+      "notes": "Adrian Sampson dominant"
+    },
+    {
+      "id": "D086",
+      "slug": "nicfit/eyeD3",
+      "eligibility": "CONFIRMED",
+      "notes": "Travis Shirk dominant"
+    },
+    {
+      "id": "D087",
+      "slug": "asweigart/pyperclip",
+      "eligibility": "CONFIRMED",
+      "notes": "Al Sweigart sole author"
+    },
+    {
+      "id": "D088",
+      "slug": "dbader/schedule",
+      "eligibility": "CONFIRMED",
+      "notes": "Daniel Bader dominant"
+    },
+    {
+      "id": "D089",
+      "slug": "aio-libs/aiodns",
+      "eligibility": "CONFIRMED",
+      "notes": "Sa\u00fal Ibarra Corretg\u00e9 primary"
+    },
+    {
+      "id": "D090",
+      "slug": "pyca/pyotp",
+      "eligibility": "CONFIRMED",
+      "notes": "OTP library; small team"
+    },
+    {
+      "id": "D091",
+      "slug": "pypa/cachecontrol",
+      "eligibility": "CONFIRMED",
+      "notes": "Eric Larson dominant; HTTP caching"
+    },
+    {
+      "id": "D092",
+      "slug": "agronholm/typeguard",
+      "eligibility": "CONFIRMED",
+      "notes": "Alex Gr\u00f6nholm dominant; runtime type checks"
+    },
+    {
+      "id": "D093",
+      "slug": "keleshev/docopt",
+      "eligibility": "CONFIRMED",
+      "notes": "Vladimir Keleshev dominant; CLI argument parsing"
+    },
+    {
+      "id": "D094",
+      "slug": "pydantic/pydantic-settings",
+      "eligibility": "CONFIRMED",
+      "notes": "Marcelo Trylesinski dominant; settings management"
+    },
+    {
+      "id": "D095",
+      "slug": "encode/broadcaster",
+      "eligibility": "CONFIRMED",
+      "notes": "Tom Christie dominant; broadcast channels"
+    },
+    {
+      "id": "D096",
+      "slug": "Bogdanp/molten",
+      "eligibility": "CONFIRMED",
+      "notes": "Bogdan Popa dominant; web framework"
+    },
+    {
+      "id": "D097",
+      "slug": "pytries/datrie",
+      "eligibility": "CONFIRMED",
+      "notes": "Mikhail Korobov; datrie"
+    },
+    {
+      "id": "D098",
+      "slug": "tartley/colorama",
+      "eligibility": "CONFIRMED",
+      "notes": "Jonathan Hartley dominant; terminal colors"
+    },
+    {
+      "id": "D099",
+      "slug": "nficano/pytube",
+      "eligibility": "CONFIRMED",
+      "notes": "Nick Ficano dominant; YouTube downloader"
+    },
+    {
+      "id": "D100",
+      "slug": "python-trio/exceptiongroup",
+      "eligibility": "CONFIRMED",
+      "notes": "Small team; exception groups backport"
+    }
+  ]
+}
