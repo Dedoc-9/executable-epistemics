@@ -1,0 +1,5193 @@
+{
+  "chain_hash": "c46a74ab1ee53726",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".gitignore||README.rst": 2,
+      ".gitignore||setup.py": 2,
+      ".gitignore||sortedcontainers/tests/__init__.py": 2,
+      ".gitignore||sortedcontainers/tests/test_sortedlist.py": 2,
+      ".gitignore||src/sortedcontainers/sortedlist.py": 2,
+      ".pylintrc||README.rst": 2,
+      ".pylintrc||src/sortedcontainers/sorteddict.py": 3,
+      ".pylintrc||src/sortedcontainers/sortedlist.py": 4,
+      ".pylintrc||src/sortedcontainers/sortedset.py": 2,
+      ".travis.yml||README.rst": 3,
+      ".travis.yml||appveyor.yml": 2,
+      ".travis.yml||setup.py": 2,
+      ".travis.yml||tox.ini": 5,
+      "HISTORY.rst||README.rst": 2,
+      "HISTORY.rst||docs/index.rst": 2,
+      "HISTORY.rst||docs/introduction.rst": 2,
+      "HISTORY.rst||requirements.txt": 2,
+      "HISTORY.rst||src/sortedcontainers/__init__.py": 10,
+      "HISTORY.rst||src/sortedcontainers/sortedlist.py": 4,
+      "HISTORY.rst||tests/test_coverage_sortedlist.py": 3,
+      "LICENSE||README.rst": 5,
+      "LICENSE||src/sortedcontainers/__init__.py": 4,
+      "README.rst||appveyor.yml": 2,
+      "README.rst||docs/_templates/sidebarintro.html": 2,
+      "README.rst||docs/_templates/sidebarlogo.html": 2,
+      "README.rst||docs/conf.py": 3,
+      "README.rst||docs/development.rst": 11,
+      "README.rst||docs/implementation.rst": 2,
+      "README.rst||docs/index.rst": 21,
+      "README.rst||docs/introduction.rst": 8,
+      "README.rst||docs/performance-load.rst": 2,
+      "README.rst||docs/performance-runtime.rst": 2,
+      "README.rst||docs/performance-workload.rst": 2,
+      "README.rst||docs/performance.rst": 6,
+      "README.rst||docs/pycon-2016-talk.rst": 2,
+      "README.rst||docs/sorteddict.rst": 6,
+      "README.rst||docs/sortedlist.rst": 3,
+      "README.rst||docs/sortedlistwithkey.rst": 2,
+      "README.rst||docs/sortedset.rst": 3,
+      "README.rst||requirements.txt": 3,
+      "README.rst||setup.py": 4,
+      "README.rst||sortedcontainers/tests/__init__.py": 2,
+      "README.rst||sortedcontainers/tests/test_sortedlist.py": 2,
+      "README.rst||src/sortedcontainers/__init__.py": 9,
+      "README.rst||src/sortedcontainers/sorteddict.py": 8,
+      "README.rst||src/sortedcontainers/sortedlist.py": 9,
+      "README.rst||src/sortedcontainers/sortedset.py": 4,
+      "README.rst||tests/benchmark.py": 2,
+      "README.rst||tests/benchmark.sh": 2,
+      "README.rst||tests/benchmark_sorteddict.py": 2,
+      "README.rst||tests/benchmark_sortedlist.py": 3,
+      "README.rst||tests/test_coverage_sorteddict.py": 3,
+      "README.rst||tests/test_coverage_sortedlist.py": 4,
+      "README.rst||tests/test_coverage_sortedset.py": 2,
+      "README.rst||tests/test_stress_sorteddict.py": 3,
+      "README.rst||tests/test_stress_sortedlist.py": 3,
+      "README.rst||tests/test_stress_sortedset.py": 2,
+      "README.rst||tox.ini": 5,
+      "appveyor.yml||tox.ini": 2,
+      "docs/_static/sublist-lengths-add.mp4||docs/_static/sublist-lengths-delitem.mp4": 2,
+      "docs/_templates/sidebarintro.html||docs/_templates/sidebarlogo.html": 5,
+      "docs/_templates/sidebarintro.html||docs/index.rst": 2,
+      "docs/conf.py||src/sortedcontainers/__init__.py": 2,
+      "docs/development.rst||docs/implementation.rst": 3,
+      "docs/development.rst||docs/index.rst": 6,
+      "docs/development.rst||docs/introduction.rst": 5,
+      "docs/development.rst||docs/performance-load.rst": 3,
+      "docs/development.rst||docs/performance-runtime.rst": 4,
+      "docs/development.rst||docs/performance-workload.rst": 2,
+      "docs/development.rst||docs/performance.rst": 4,
+      "docs/development.rst||docs/pycon-2016-talk.rst": 2,
+      "docs/development.rst||setup.py": 2,
+      "docs/development.rst||tox.ini": 2,
+      "docs/implementation.rst||docs/index.rst": 3,
+      "docs/implementation.rst||docs/introduction.rst": 2,
+      "docs/implementation.rst||docs/performance-load.rst": 2,
+      "docs/implementation.rst||docs/performance-runtime.rst": 2,
+      "docs/implementation.rst||docs/performance.rst": 2,
+      "docs/implementation.rst||docs/sorteddict.rst": 2,
+      "docs/implementation.rst||docs/sortedlist.rst": 3,
+      "docs/implementation.rst||docs/sortedset.rst": 2,
+      "docs/implementation.rst||sortedcontainers/sortedlistwithkeypair.py": 2,
+      "docs/implementation.rst||src/sortedcontainers/sortedlist.py": 2,
+      "docs/index.rst||docs/introduction.rst": 7,
+      "docs/index.rst||docs/performance-load.rst": 3,
+      "docs/index.rst||docs/performance-runtime.rst": 5,
+      "docs/index.rst||docs/performance-workload.rst": 3,
+      "docs/index.rst||docs/performance.rst": 6,
+      "docs/index.rst||docs/sorteddict.rst": 2,
+      "docs/index.rst||docs/sortedlist.rst": 2,
+      "docs/index.rst||docs/sortedlistwithkey.rst": 3,
+      "docs/index.rst||docs/sortedset.rst": 2,
+      "docs/index.rst||sortedcontainers/sortedlistwithkeypair.py": 2,
+      "docs/introduction.rst||docs/performance-load.rst": 2,
+      "docs/introduction.rst||docs/performance-runtime.rst": 2,
+      "docs/introduction.rst||docs/performance-workload.rst": 2,
+      "docs/introduction.rst||docs/performance.rst": 5,
+      "docs/introduction.rst||docs/pycon-2016-talk.rst": 2,
+      "docs/introduction.rst||docs/sorteddict.rst": 3,
+      "docs/introduction.rst||docs/sortedlist.rst": 4,
+      "docs/introduction.rst||docs/sortedlistwithkey.rst": 4,
+      "docs/introduction.rst||docs/sortedset.rst": 3,
+      "docs/introduction.rst||sortedcontainers/sortedlistwithkeypair.py": 3,
+      "docs/introduction.rst||src/sortedcontainers/sortedlist.py": 2,
+      "docs/paper.bib||docs/paper.md": 4,
+      "docs/performance-load.rst||docs/performance-runtime.rst": 10,
+      "docs/performance-load.rst||docs/performance-workload.rst": 3,
+      "docs/performance-load.rst||docs/performance.rst": 8,
+      "docs/performance-load.rst||docs/sorteddict.rst": 2,
+      "docs/performance-runtime.rst||docs/performance-workload.rst": 3,
+      "docs/performance-runtime.rst||docs/performance.rst": 9,
+      "docs/performance-runtime.rst||docs/sorteddict.rst": 2,
+      "docs/performance-scale.rst||docs/performance.rst": 2,
+      "docs/performance-workload.rst||docs/performance.rst": 4,
+      "docs/performance.rst||docs/pycon-2016-talk.rst": 2,
+      "docs/performance.rst||docs/sorteddict.rst": 3,
+      "docs/performance.rst||docs/sortedlist.rst": 2,
+      "docs/performance.rst||docs/sortedset.rst": 2,
+      "docs/sorteddict.rst||docs/sortedlist.rst": 12,
+      "docs/sorteddict.rst||docs/sortedlistwithkey.rst": 6,
+      "docs/sorteddict.rst||docs/sortedset.rst": 13,
+      "docs/sorteddict.rst||sortedcontainers/sortedlistwithkeypair.py": 4,
+      "docs/sorteddict.rst||src/sortedcontainers/sorteddict.py": 13,
+      "docs/sorteddict.rst||src/sortedcontainers/sortedlist.py": 6,
+      "docs/sorteddict.rst||src/sortedcontainers/sortedset.py": 5,
+      "docs/sorteddict.rst||tests/test_coverage_sorteddict.py": 5,
+      "docs/sortedlist.rst||docs/sortedlistwithkey.rst": 8,
+      "docs/sortedlist.rst||docs/sortedset.rst": 12,
+      "docs/sortedlist.rst||sortedcontainers/sortedlistwithkeypair.py": 4,
+      "docs/sortedlist.rst||src/sortedcontainers/sorteddict.py": 3,
+      "docs/sortedlist.rst||src/sortedcontainers/sortedlist.py": 8,
+      "docs/sortedlist.rst||src/sortedcontainers/sortedset.py": 3,
+      "docs/sortedlistwithkey.rst||docs/sortedset.rst": 6,
+      "docs/sortedlistwithkey.rst||sortedcontainers/sortedlistwithkeypair.py": 4,
+      "docs/sortedlistwithkey.rst||src/sortedcontainers/sorteddict.py": 2,
+      "docs/sortedlistwithkey.rst||src/sortedcontainers/sortedlist.py": 2,
+      "docs/sortedlistwithkey.rst||src/sortedcontainers/sortedset.py": 2,
+      "docs/sortedset.rst||sortedcontainers/sortedlistwithkeypair.py": 4,
+      "docs/sortedset.rst||src/sortedcontainers/sorteddict.py": 4,
+      "docs/sortedset.rst||src/sortedcontainers/sortedlist.py": 3,
+      "docs/sortedset.rst||src/sortedcontainers/sortedset.py": 7,
+      "requirements.txt||src/sortedcontainers/__init__.py": 2,
+      "requirements.txt||tox.ini": 3,
+      "setup.py||src/sortedcontainers/__init__.py": 4,
+      "setup.py||tox.ini": 3,
+      "sortedcontainers/sortedlistwithkeypair.py||src/sortedcontainers/__init__.py": 5,
+      "sortedcontainers/sortedlistwithkeypair.py||src/sortedcontainers/sorteddict.py": 13,
+      "sortedcontainers/sortedlistwithkeypair.py||src/sortedcontainers/sortedlist.py": 20,
+      "sortedcontainers/sortedlistwithkeypair.py||src/sortedcontainers/sortedset.py": 11,
+      "sortedcontainers/sortedlistwithkeypair.py||tests/test_coverage_sorteddict.py": 2,
+      "sortedcontainers/sortedlistwithkeypair.py||tests/test_coverage_sortedkeylist_modulo.py": 13,
+      "sortedcontainers/sortedlistwithkeypair.py||tests/test_coverage_sortedkeylist_negate.py": 6,
+      "sortedcontainers/sortedlistwithkeypair.py||tests/test_coverage_sortedlist.py": 4,
+      "sortedcontainers/sortedlistwithkeypair.py||tests/test_coverage_sortedset.py": 2,
+      "sortedcontainers/sortedlistwithkeypair.py||tests/test_stress_sortedkeylist.py": 4,
+      "sortedcontainers/sortedlistwithkeypair.py||tests/test_stress_sortedlistwithkey_ordered.py": 2,
+      "sortedcontainers/tests/__init__.py||sortedcontainers/tests/test_sortedlist.py": 2,
+      "sortedcontainers/tests/__init__.py||src/sortedcontainers/sortedlist.py": 2,
+      "sortedcontainers/tests/test_sortedlist.py||src/sortedcontainers/sortedlist.py": 2,
+      "src/sortedcontainers/__init__.py||src/sortedcontainers/sorteddict.py": 6,
+      "src/sortedcontainers/__init__.py||src/sortedcontainers/sortedlist.py": 9,
+      "src/sortedcontainers/__init__.py||src/sortedcontainers/sortedset.py": 3,
+      "src/sortedcontainers/__init__.py||tests/test_coverage_sortedkeylist_modulo.py": 5,
+      "src/sortedcontainers/__init__.py||tests/test_coverage_sortedkeylist_negate.py": 3,
+      "src/sortedcontainers/__init__.py||tests/test_coverage_sortedlist.py": 4,
+      "src/sortedcontainers/__init__.py||tests/test_stress_sortedkeylist.py": 2,
+      "src/sortedcontainers/sorteddict.py||src/sortedcontainers/sortedlist.py": 27,
+      "src/sortedcontainers/sorteddict.py||src/sortedcontainers/sortedset.py": 25,
+      "src/sortedcontainers/sorteddict.py||tests/test_coverage_sorteddict.py": 20,
+      "src/sortedcontainers/sorteddict.py||tests/test_coverage_sortedkeylist_modulo.py": 2,
+      "src/sortedcontainers/sorteddict.py||tests/test_coverage_sortedkeylist_negate.py": 4,
+      "src/sortedcontainers/sorteddict.py||tests/test_coverage_sortedlist.py": 8,
+      "src/sortedcontainers/sorteddict.py||tests/test_coverage_sortedset.py": 7,
+      "src/sortedcontainers/sorteddict.py||tests/test_stress_sorteddict.py": 3,
+      "src/sortedcontainers/sorteddict.py||tests/test_stress_sortedkeylist.py": 2,
+      "src/sortedcontainers/sorteddict.py||tests/test_stress_sortedlist.py": 3,
+      "src/sortedcontainers/sorteddict.py||tests/test_stress_sortedset.py": 2,
+      "src/sortedcontainers/sortedlist.py||src/sortedcontainers/sortedset.py": 22,
+      "src/sortedcontainers/sortedlist.py||tests/benchmark_sortedlist.py": 2,
+      "src/sortedcontainers/sortedlist.py||tests/test_coverage_sorteddict.py": 4,
+      "src/sortedcontainers/sortedlist.py||tests/test_coverage_sortedkeylist_modulo.py": 8,
+      "src/sortedcontainers/sortedlist.py||tests/test_coverage_sortedkeylist_negate.py": 8,
+      "src/sortedcontainers/sortedlist.py||tests/test_coverage_sortedlist.py": 19,
+      "src/sortedcontainers/sortedlist.py||tests/test_coverage_sortedset.py": 4,
+      "src/sortedcontainers/sortedlist.py||tests/test_stress_sortedkeylist.py": 2,
+      "src/sortedcontainers/sortedlist.py||tests/test_stress_sortedlist.py": 4,
+      "src/sortedcontainers/sortedset.py||tests/test_coverage_sorteddict.py": 6,
+      "src/sortedcontainers/sortedset.py||tests/test_coverage_sortedkeylist_modulo.py": 2,
+      "src/sortedcontainers/sortedset.py||tests/test_coverage_sortedkeylist_negate.py": 4,
+      "src/sortedcontainers/sortedset.py||tests/test_coverage_sortedlist.py": 5,
+      "src/sortedcontainers/sortedset.py||tests/test_coverage_sortedset.py": 10,
+      "tests/benchmark.py||tests/benchmark.sh": 2,
+      "tests/benchmark.py||tests/benchmark_plot.py": 5,
+      "tests/benchmark.py||tests/benchmark_sorteddict.py": 6,
+      "tests/benchmark.py||tests/benchmark_sortedlist.py": 5,
+      "tests/benchmark.py||tests/benchmark_sortedset.py": 5,
+      "tests/benchmark.sh||tests/benchmark_plot.py": 2,
+      "tests/benchmark_plot.py||tests/benchmark_sorteddict.py": 4,
+      "tests/benchmark_plot.py||tests/benchmark_sortedlist.py": 2,
+      "tests/benchmark_plot.py||tests/benchmark_sortedset.py": 3,
+      "tests/benchmark_sorteddict.py||tests/benchmark_sortedlist.py": 6,
+      "tests/benchmark_sorteddict.py||tests/benchmark_sortedset.py": 8,
+      "tests/benchmark_sortedlist.py||tests/benchmark_sortedset.py": 6,
+      "tests/benchmark_sortedlist.py||tests/sortedcollection.py": 2,
+      "tests/benchmark_sortedlist.py||tests/test_coverage_sortedlist.py": 2,
+      "tests/benchmark_splits_fill.py||tests/plot_lengths_histogram_add.py": 2,
+      "tests/benchmark_splits_fill.py||tests/plot_lengths_histogram_delitem.py": 2,
+      "tests/plot_lengths_histogram_add.py||tests/plot_lengths_histogram_delitem.py": 3,
+      "tests/results_load_sorteddict.txt||tests/results_load_sortedlist.txt": 2,
+      "tests/results_load_sorteddict.txt||tests/results_load_sortedset.txt": 2,
+      "tests/results_load_sortedlist.txt||tests/results_load_sortedset.txt": 2,
+      "tests/results_runtime_sorteddict.py||tests/results_runtime_sortedlist.py": 2,
+      "tests/results_runtime_sorteddict.py||tests/results_runtime_sortedset.py": 2,
+      "tests/results_runtime_sortedlist.py||tests/results_runtime_sortedset.py": 2,
+      "tests/test_coverage_sorteddict.py||tests/test_coverage_sortedkeylist_modulo.py": 3,
+      "tests/test_coverage_sorteddict.py||tests/test_coverage_sortedkeylist_negate.py": 3,
+      "tests/test_coverage_sorteddict.py||tests/test_coverage_sortedlist.py": 8,
+      "tests/test_coverage_sorteddict.py||tests/test_coverage_sortedset.py": 11,
+      "tests/test_coverage_sorteddict.py||tests/test_stress_sorteddict.py": 4,
+      "tests/test_coverage_sortedkeylist_modulo.py||tests/test_coverage_sortedkeylist_negate.py": 17,
+      "tests/test_coverage_sortedkeylist_modulo.py||tests/test_coverage_sortedlist.py": 11,
+      "tests/test_coverage_sortedkeylist_modulo.py||tests/test_coverage_sortedset.py": 4,
+      "tests/test_coverage_sortedkeylist_modulo.py||tests/test_stress_sortedkeylist.py": 6,
+      "tests/test_coverage_sortedkeylist_modulo.py||tests/test_stress_sortedlistwithkey_ordered.py": 2,
+      "tests/test_coverage_sortedkeylist_negate.py||tests/test_coverage_sortedlist.py": 11,
+      "tests/test_coverage_sortedkeylist_negate.py||tests/test_coverage_sortedset.py": 4,
+      "tests/test_coverage_sortedkeylist_negate.py||tests/test_stress_sortedkeylist.py": 4,
+      "tests/test_coverage_sortedlist.py||tests/test_coverage_sortedset.py": 11,
+      "tests/test_coverage_sortedlist.py||tests/test_stress_sorteddict.py": 2,
+      "tests/test_coverage_sortedlist.py||tests/test_stress_sortedlist.py": 5,
+      "tests/test_coverage_sortedlist.py||tests/test_stress_sortedset.py": 2,
+      "tests/test_coverage_sortedset.py||tests/test_stress_sortedlist.py": 2,
+      "tests/test_stress_sorteddict.py||tests/test_stress_sortedlist.py": 2,
+      "tests/test_stress_sorteddict.py||tests/test_stress_sortedset.py": 2,
+      "tests/test_stress_sortedkeylist.py||tests/test_stress_sortedlistwithkey_ordered.py": 2,
+      "tests/test_stress_sortedlist.py||tests/test_stress_sortedset.py": 3
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore",
+          "LICENSE",
+          "README.rst",
+          "requirements.txt",
+          "setup.py",
+          "sortedcontainers/tests/__init__.py",
+          "sortedcontainers/tests/test_sortedlist.py",
+          "src/sortedcontainers/__init__.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "980de801624c1305aff13e57257c5c5fc26894d6",
+        "timestamp": 1357192925
+      },
+      {
+        "files": [
+          ".gitignore",
+          "README.rst",
+          "sortedcontainers/tests/__init__.py",
+          "sortedcontainers/tests/test_sortedlist.py",
+          "src/sortedcontainers/sortedlist.py",
+          "tests/benchmark_sortedlist.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "8de7da9b3d79e3df688c7d4ba1b5b2e8f8e5dce5",
+        "timestamp": 1358536824
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_stress_sortedlist.py"
+        ],
+        "sha": "48872764bae3d9be4bcafc5a966d2edcc70dc43e",
+        "timestamp": 1361602460
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "fe2d61433d3282e6156bb4fd1f0edec4cda9335f",
+        "timestamp": 1361815215
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "3972d92c5a6d9553a89ee11446bd75b037b29350",
+        "timestamp": 1361815247
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "50312d3bdb74812661c8538b1dfcb973a2822db6",
+        "timestamp": 1361815275
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "e31134476ac85d712561e617a0dbe73cef1125d5",
+        "timestamp": 1361815312
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "627532b31bf60126b022377bd998a32f7cb20fd9",
+        "timestamp": 1361815349
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "b77f49a565a265b71bd6c330ad95156e9a0aff11",
+        "timestamp": 1388426310
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "51c8af8d759c58252920e4b75fca8c8991d18490",
+        "timestamp": 1388426344
+      },
+      {
+        "files": [
+          "tests/test_stress_sortedset.py"
+        ],
+        "sha": "9af3b8b227be3cd0437e25f331aed9c6a65be642",
+        "timestamp": 1388426362
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c381ba911f07609839a904d126e39980b94ea4f7",
+        "timestamp": 1388426392
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "f61dd2808622627cd696c8c22e7573879d14150e",
+        "timestamp": 1388428955
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "9322c1efbea812f731b9291a983b939c5db936d2",
+        "timestamp": 1388428969
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "40fae60bdf9ca17f8663235adcd52d814e741b61",
+        "timestamp": 1388611059
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "915cb115476fd58188d45a20fa30ebc4d20e6ccd",
+        "timestamp": 1388615394
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "1a6334ceebeb191af34dcaf8acfa672df436b0cc",
+        "timestamp": 1388615418
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c8c40597f0bdc476ec3c0b23fd4ec518d910b62e",
+        "timestamp": 1388615433
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "f2a8b9aa4a7bd5d23ba4f4f896f5a89025705ead",
+        "timestamp": 1388690064
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "1328689da7f03b971f524907457d3c767745eac3",
+        "timestamp": 1388690098
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2e5c23e7b37b9ed163e36947dc6c8741615212b6",
+        "timestamp": 1388690111
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "4a96184c7fd28d16bc5a0d20a02000b700b764fd",
+        "timestamp": 1388778976
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "df4366130993e6ff5b3e8585cf4480d1aaaafade",
+        "timestamp": 1389039187
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "1723fc12c20a8faa01e3bc9298c331a5ca14ef9d",
+        "timestamp": 1389120272
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_coverage_sortedset.py",
+          "tests/test_stress_sortedlist.py"
+        ],
+        "sha": "cd660bf11ab338712c0052ab26c4dcf167906c6c",
+        "timestamp": 1389120305
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "54f7a330428812d79cf5e8c63b8565f371a94b83",
+        "timestamp": 1389120318
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "a0ac86964a71c14606072e2dbd23807e768832c3",
+        "timestamp": 1389219692
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "6c1a74faefa747d0c931adbf3f58911631af3a16",
+        "timestamp": 1389221127
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "53fd6f6c3f597fbbe9b6d2616fdb7b5479786083",
+        "timestamp": 1389221142
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c1c2002e81ef0e8a045567f83fd60a49e28d8fb7",
+        "timestamp": 1389221150
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "9e81697c60a83114c67032b846f3f6ed00870a2b",
+        "timestamp": 1389293583
+      },
+      {
+        "files": [
+          "tests/test_stress_sorteddict.py"
+        ],
+        "sha": "74452532537ee2bea4b99eea47d8a929812db5fc",
+        "timestamp": 1389636198
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "0962877bd76362c65f502f970c56b07bb91849e1",
+        "timestamp": 1389636247
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_coverage_sortedset.py",
+          "tests/test_stress_sorteddict.py"
+        ],
+        "sha": "d72672ec665616fbb0a931504f9ab2fec289708d",
+        "timestamp": 1389636585
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9264b17f1538bcc9dbb261d0cde40aa4fdc74f98",
+        "timestamp": 1389636604
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "40c6ac0446e63a173f46a8b9a276ac47bf80828f",
+        "timestamp": 1389728250
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "fc0854a1f93f109d678a121c219bf90a0e33a2b5",
+        "timestamp": 1389728270
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "647acd09c76b59e3fec1e4fbc5c6fee377f3998e",
+        "timestamp": 1389728281
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "04861708e78293941fb948a027659f19013eb739",
+        "timestamp": 1389821987
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "780e50b4336b9e8c01beb6964522709436282047",
+        "timestamp": 1389822036
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "e6c1679d9827a6ccdace0eb8420a223910b0139d",
+        "timestamp": 1389822064
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1dbae195ac8c1dff54c70c29ea6f7c8b963ffdf3",
+        "timestamp": 1389822081
+      },
+      {
+        "files": [
+          "README.rst",
+          "requirements.txt"
+        ],
+        "sha": "7afe831ece832d3c23459b30552ad1629d406646",
+        "timestamp": 1389900056
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedlist.py"
+        ],
+        "sha": "ea445f802f966f68ba300b537962b3b8133c26a4",
+        "timestamp": 1389900073
+      },
+      {
+        "files": [
+          "tests/benchmark_sorteddict.py"
+        ],
+        "sha": "138292ede397f256336ffec43a6285f7696c6903",
+        "timestamp": 1389987723
+      },
+      {
+        "files": [
+          "README.rst",
+          "tests/benchmark_sorteddict.py"
+        ],
+        "sha": "e223d6ef31975c0290a70d64e1a79f1e48ab85f0",
+        "timestamp": 1389987985
+      },
+      {
+        "files": [
+          "tests/benchmark_sorteddict.py"
+        ],
+        "sha": "4747a7fe0470496d2facc2de9457ad96a1e6d3c3",
+        "timestamp": 1390327855
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bf2ab7e3c1b47bb8ecc4226bed8819e54e402784",
+        "timestamp": 1390327879
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "8ea2b705bb1307679a7f077f613097c7e9ed908f",
+        "timestamp": 1390425306
+      },
+      {
+        "files": [
+          "tests/benchmark.py",
+          "tests/benchmark_sorteddict.py"
+        ],
+        "sha": "03cd077c4074bdd271a4a4bc419cf78aad9d8d4e",
+        "timestamp": 1390425346
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedlist.py"
+        ],
+        "sha": "4513a1bb6fce055b87d208bbe4012926f0fc5e54",
+        "timestamp": 1390425371
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "de86b10e446196207ec77b21f9893021c5fc89e4",
+        "timestamp": 1390425395
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "3e48c5b83be858a92439b976361a7d1ff3b3671f",
+        "timestamp": 1390504553
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedset.py"
+        ],
+        "sha": "216bfa148d29d2736df6edef4734962c74ee69bc",
+        "timestamp": 1390504567
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "baa82b1fd795c940d65ba25d677cd14ed2931e9d",
+        "timestamp": 1390504576
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "f5751693eddb27de5468828151dbf08faf0b5c8c",
+        "timestamp": 1390592226
+      },
+      {
+        "files": [
+          "tests/test_stress_sortedset.py"
+        ],
+        "sha": "8a177d15e1c88c4e373e6be816aa065aaa101cce",
+        "timestamp": 1390592284
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedset.py"
+        ],
+        "sha": "df2940334c98cf1429257868eb6211732404922e",
+        "timestamp": 1390592306
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1b01abdfa1295c1b08d5134e3d55df837df26623",
+        "timestamp": 1390592342
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "b9f66c13a40fb1f61dc298baa56fc8ae77d4a68b",
+        "timestamp": 1390685768
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "a33ae64aed6199de7c6212d65bfcec71c1e4437e",
+        "timestamp": 1390685809
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "4070dfd54aa89bbaef7c1c783831993bb31544d9",
+        "timestamp": 1390853726
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "91f693c31c597afd7a19a766a298c57540aef05d",
+        "timestamp": 1390853740
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "312c926b7f35425b16269d8468953b863d197c9f",
+        "timestamp": 1390853762
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedset.py"
+        ],
+        "sha": "6bec8a7e7e4cd0d74db7332bf945fe48599d918d",
+        "timestamp": 1390853793
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_stress_sorteddict.py"
+        ],
+        "sha": "a7c6bd61e1a46a3325f51cd698e0d66aaf2d6106",
+        "timestamp": 1390853821
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5f68518fd5215a3fd204769e844d2df404d844aa",
+        "timestamp": 1390853833
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5d01e8a697bf05e944d0062cb912bea3f97aeaae",
+        "timestamp": 1390929702
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "tests/benchmark.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_stress_sorteddict.py",
+          "tests/test_stress_sortedlist.py",
+          "tests/test_stress_sortedset.py"
+        ],
+        "sha": "24dac01dbf6c8cad8c9e3e9c47acbd9a1006b48a",
+        "timestamp": 1391029465
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "4b7d39298daebc3e59c5a951d81cb0caae5dbf3e",
+        "timestamp": 1391108694
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "9f8d8d702e7bf7864cf31fb5c1cb123f46939b15",
+        "timestamp": 1391108721
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "cced9d53c86d5a2387ae188923fe08850df8d9a3",
+        "timestamp": 1391108743
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "9eeded41cee5d98256bb19c5db28870fa1314808",
+        "timestamp": 1391108759
+      },
+      {
+        "files": [
+          "README.rst",
+          "tests/stress.bat",
+          "tests/test_stress_sorteddict.py",
+          "tests/test_stress_sortedlist.py",
+          "tests/test_stress_sortedset.py"
+        ],
+        "sha": "c790333d112ebb781407f758f26c4fef8218a739",
+        "timestamp": 1391119996
+      },
+      {
+        "files": [
+          "tests/benchmark.py",
+          "tests/benchmark_sorteddict.py",
+          "tests/benchmark_sortedlist.py",
+          "tests/benchmark_sortedset.py"
+        ],
+        "sha": "92c1c2bcce217835be9d0e64153e8954869ed149",
+        "timestamp": 1391310128
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "fd8044c8c6cc4c12f3a516fbd5374720fddeac67",
+        "timestamp": 1391712246
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/_static/gj-logo.png",
+          "docs/_static/sorted.jpg",
+          "docs/_templates/sidebarintro.html",
+          "docs/_templates/sidebarlogo.html",
+          "docs/index.rst",
+          "docs/introduction.rst"
+        ],
+        "sha": "7c369465b812cf8d94fcef7d38099a3d9ab3d4a5",
+        "timestamp": 1392402819
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "4a6d8e2b8bb8d8fae3a93c20fa2c86a656bd2662",
+        "timestamp": 1393269434
+      },
+      {
+        "files": [
+          "docs/_templates/sidebarintro.html",
+          "docs/index.rst"
+        ],
+        "sha": "09e57360e95b0c01bda8e3df9883b15f9a0b636c",
+        "timestamp": 1393269505
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/introduction.rst"
+        ],
+        "sha": "420870f171f6743410486114bc889793986d3705",
+        "timestamp": 1393269526
+      },
+      {
+        "files": [
+          "docs/implementation.rst"
+        ],
+        "sha": "85b2f8b6c25e4314fbe1a5a1704753d6451c1663",
+        "timestamp": 1393269535
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/introduction.rst",
+          "docs/performance.rst"
+        ],
+        "sha": "6a1c13453eb15e8889f8b01788fb6f7f35efc044",
+        "timestamp": 1393445897
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/performance.rst"
+        ],
+        "sha": "499debd007689fd4b9ec3afc169c88c137154bad",
+        "timestamp": 1393530464
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/development.rst",
+          "docs/implementation.rst"
+        ],
+        "sha": "60fecba11c38e8a0ec757dc679c856b800c6c57f",
+        "timestamp": 1393625390
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedset.rst"
+        ],
+        "sha": "e6d02f2cc27b6eec527c04658a1e2c8d552e8260",
+        "timestamp": 1393869478
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "34fc3a73fd87e758af5a3bf59f671066f1eff8d4",
+        "timestamp": 1393869502
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "874659b1f10ec84a8289cbd03c41ea0e97fdda19",
+        "timestamp": 1393869645
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "4b3c3132c401973a1ffc84bb0706edc25bb7c475",
+        "timestamp": 1393955193
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "d630d9c794c178e28be5fe9add3f88bce7ba8b15",
+        "timestamp": 1393955207
+      },
+      {
+        "files": [
+          "docs/development.rst"
+        ],
+        "sha": "96c44c8827ed131ee9ebe4561600b624f24413be",
+        "timestamp": 1393955225
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedset.rst"
+        ],
+        "sha": "b3347675ef543820823ace2a151837aa1a94d162",
+        "timestamp": 1393955254
+      },
+      {
+        "files": [
+          "docs/introduction.rst",
+          "docs/performance.rst",
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedset.rst"
+        ],
+        "sha": "52f8dc57c83a11199e033cd5de4c0e1840d0c111",
+        "timestamp": 1394135492
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "c2afc246f276ce691a7300322408b134b7ef1e6a",
+        "timestamp": 1394137551
+      },
+      {
+        "files": [
+          "docs/_templates/sidebarintro.html",
+          "docs/_themes/gj/layout.html"
+        ],
+        "sha": "0d76f7d3c465e8eeb75978f8aad0d618d9aad905",
+        "timestamp": 1394137583
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4a32a4a3fbf2ddfea29451823c6045e1c08f68ce",
+        "timestamp": 1394137646
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/development.rst"
+        ],
+        "sha": "7e4836386f0151ae5e8edbf0b84f7c06454cf19c",
+        "timestamp": 1394137880
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "0f87d6b4c13772db893dc6167ec6c67cf1c9811a",
+        "timestamp": 1394232491
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/development.rst",
+          "docs/sorteddict.rst",
+          "docs/sortedset.rst",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "1752d46354481aac401a95628c5264cad88bc903",
+        "timestamp": 1394466827
+      },
+      {
+        "files": [
+          "docs/sortedset.rst",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "d53ada647cb5624d2f83c8413aeda382ac8caa47",
+        "timestamp": 1394841145
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "3573f5e537a61df4bc6c3caf3a8f9b6a12513759",
+        "timestamp": 1394841157
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "af5ee8500d82cf7ada26fb46bfb9d333574f3806",
+        "timestamp": 1394841188
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0a0f82d345c6474c2abca76859b6e01695d277c3",
+        "timestamp": 1394841208
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "9942673d9424bc8bd47c69e30767f9f3ab913170",
+        "timestamp": 1395089746
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "6b3abdbc4417a333ab65bf51fd4b814a401ffc45",
+        "timestamp": 1395163879
+      },
+      {
+        "files": [
+          "docs/_templates/sidebarintro.html",
+          "docs/_templates/sidebarlogo.html"
+        ],
+        "sha": "283488ef0520123dc65b7d2b3a50eb169aa2f921",
+        "timestamp": 1395164523
+      },
+      {
+        "files": [
+          "docs/_templates/sidebarintro.html",
+          "docs/_templates/sidebarlogo.html"
+        ],
+        "sha": "0d41a52cfb547e1d393470fb12b66b9c3b433fee",
+        "timestamp": 1395339083
+      },
+      {
+        "files": [
+          "docs/_templates/sidebarintro.html",
+          "docs/_templates/sidebarlogo.html"
+        ],
+        "sha": "6cfa5460622fe6085cee36f3d8a0b0730262fb88",
+        "timestamp": 1395427701
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/development.rst",
+          "docs/index.rst",
+          "setup.py"
+        ],
+        "sha": "ee87c7bf39b7eabcffa335602aff78176fa86be6",
+        "timestamp": 1395677802
+      },
+      {
+        "files": [
+          "docs/implementation.rst"
+        ],
+        "sha": "7584aa0ed19443e77ba324e5b98ccbc728aa0b11",
+        "timestamp": 1395678700
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "090a3fc0d3c742993e47baaae15d149e25fc2ffe",
+        "timestamp": 1395679049
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "4ce52101cbca01fa67cead70486353c3294ec0b9",
+        "timestamp": 1396028581
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "3c99308aa7e13f3da8529cae57177ba5b8ea5de5",
+        "timestamp": 1396028917
+      },
+      {
+        "files": [
+          "tests/benchmark_plot.py",
+          "tests/benchmark_sorteddict.py",
+          "tests/benchmark_sortedset.py"
+        ],
+        "sha": "144bcb133c9549d2e09e74400eafeeefbbceb3de",
+        "timestamp": 1396047439
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "c29b8148a1f44a65426678c99a07a62b80c2241c",
+        "timestamp": 1396047515
+      },
+      {
+        "files": [
+          "docs/development.rst",
+          "docs/performance.rst"
+        ],
+        "sha": "18837768af8b7db397c25d087c3617451f6fee55",
+        "timestamp": 1396480589
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "0e5f82b4ee7161a405bd7fa28ca4cdf27e1adf94",
+        "timestamp": 1396481098
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "10ea09080b62add11398521c7e9655863bc06383",
+        "timestamp": 1396481172
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "88f3d9f7d4e9161d0554fc8464a383694476fe1d",
+        "timestamp": 1396632067
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "ddc5627352471ce754c48ded4c9553f1bc457484",
+        "timestamp": 1396636326
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "bf601d7636516ae4a05f0ff57a08d278b1cc5753",
+        "timestamp": 1396891484
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_stress_sortedlist.py"
+        ],
+        "sha": "d86cf1f4a495faacd09a6b6fe73769f130f222ed",
+        "timestamp": 1396892281
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "2533846092e617c3cc6138ae491a5c9dc0981d75",
+        "timestamp": 1396894346
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedset.rst"
+        ],
+        "sha": "5deba07fe6a954b5d5908828aa2c1fa97c18f051",
+        "timestamp": 1396981112
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "8100a8f518935bdeb936d62de26b00ad58304327",
+        "timestamp": 1396981181
+      },
+      {
+        "files": [
+          "docs/sortedlist.rst",
+          "docs/sortedset.rst"
+        ],
+        "sha": "cdbc233b0bbf72ed027a071fa067fa1ed5bba0b4",
+        "timestamp": 1396981481
+      },
+      {
+        "files": [
+          "docs/performance.rst"
+        ],
+        "sha": "85771f74c3b71f4fa49f26271b0cd9d3e965c097",
+        "timestamp": 1396982529
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "54ff94dbe31c9b7fea76e6b9d25a39e9d4ecbf8e",
+        "timestamp": 1396982709
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "dc83cf69030c1ef0d9f6db2df6af6f41402615ec",
+        "timestamp": 1397761545
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tox.ini"
+        ],
+        "sha": "00a1ffae68ee88a7c0fe0e1db25b36983f87c460",
+        "timestamp": 1398108870
+      },
+      {
+        "files": [
+          ".gitignore",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "b651e6085aced36cbae5affc1f1f22dc9f59e69b",
+        "timestamp": 1398109443
+      },
+      {
+        "files": [
+          "tests/benchmark_sorteddict.py",
+          "tests/benchmark_sortedlist.py",
+          "tests/benchmark_sortedset.py"
+        ],
+        "sha": "7495364027feeeebcfc5cab1330d4ffd1b89b538",
+        "timestamp": 1398190647
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "a04f4a68188fea6797fe3e5f16f388086e405e62",
+        "timestamp": 1398708574
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/benchmark.py",
+          "tests/benchmark_sorteddict.py",
+          "tests/benchmark_sortedlist.py",
+          "tests/benchmark_sortedset.py"
+        ],
+        "sha": "55268e19a07f854bd42f24f5d87ed798677442d9",
+        "timestamp": 1398710079
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "3b02cdede935b2b840e98dc6ca5af4477381610d",
+        "timestamp": 1398888295
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f1237a68794c1b2ba43c40d55550ecdbaa8a5b70",
+        "timestamp": 1398888548
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bbc1bccf1eccdf63b8dd1d241b62c793ee6f3d55",
+        "timestamp": 1398889178
+      },
+      {
+        "files": [
+          "tests/benchmark.py",
+          "tests/benchmark_plot.py"
+        ],
+        "sha": "712a0dacd612903cd39ca205a6fb539ce7c16d52",
+        "timestamp": 1398891745
+      },
+      {
+        "files": [
+          "docs/performance.rst"
+        ],
+        "sha": "fc497f596de29995d9c1d7fa640ad9eb0ef54d49",
+        "timestamp": 1399316979
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "0cff2e3c828b26200c9d46bfcf5725d37ef9ee2c",
+        "timestamp": 1399400094
+      },
+      {
+        "files": [
+          "docs/development.rst",
+          "tests/benchmark.py",
+          "tests/benchmark_plot.py"
+        ],
+        "sha": "d08870cf48541cfb9d0b4ababd8615ce9b717855",
+        "timestamp": 1399400098
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "dcba212cd1cbcfaef12d270664fe1d14f5ae1858",
+        "timestamp": 1399583157
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "8124bebd8ab9af047c34435ec8dea8745e488328",
+        "timestamp": 1402621142
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/__init__.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "5572d7d3108a64231f1e5f865ce7bdd440d6ccc0",
+        "timestamp": 1402678139
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "a37f243dbe13bebb092c6a777466abb2cac55375",
+        "timestamp": 1402678227
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "9ba1980f5650889b7900bb3a7c669dfd4a84b25d",
+        "timestamp": 1402678693
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "247b960b09356cc2cd41761702db25254ea87164",
+        "timestamp": 1402680223
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "tests/test_coverage_sortedkeylist_modulo.py"
+        ],
+        "sha": "59a358c79f2500ff04bb90643dabbbc0c1a71ee6",
+        "timestamp": 1404034269
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "tests/test_coverage_sortedkeylist_modulo.py"
+        ],
+        "sha": "dc9cf97d7c4dac8a542bea48ad147abfa767f8f5",
+        "timestamp": 1404101512
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedkeylist_modulo.py"
+        ],
+        "sha": "1b4e4c249bad415b4d4c76093844c6d89a2c93ea",
+        "timestamp": 1404102413
+      },
+      {
+        "files": [
+          "docs/sortedlist.rst",
+          "docs/sortedset.rst",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "85e747c312e4b4531d725df7857b357b6f788be7",
+        "timestamp": 1404164507
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py"
+        ],
+        "sha": "29958d544b7693bcaebbdbf319bb171acdfb0a69",
+        "timestamp": 1404242024
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "330aa8dbc28a3b437aae3da784c2dd7c52a04402",
+        "timestamp": 1404752283
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "490496aa40923a8fc066dfeb462aeda0cd607d4e",
+        "timestamp": 1404756585
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_stress_sortedkeylist.py",
+          "tests/test_stress_sortedlistwithkey_ordered.py"
+        ],
+        "sha": "29feda7e9d1dd3a4a1ebd0efeaca0ea277948c9b",
+        "timestamp": 1404761178
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "ab3da047666334b1bb3c35f4081af4c5b1eaaec7",
+        "timestamp": 1406057724
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "fe8092c825bc85ea2e92114cae731fd444c895a6",
+        "timestamp": 1406058669
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "206d8460f86c65013b2e78c57a58f36804cde9af",
+        "timestamp": 1406660314
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "da82b7592687411a9ce0e247f0534315370b8507",
+        "timestamp": 1406660492
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "3e6578233f57540534ad70f98dcd6fa84fdd8c64",
+        "timestamp": 1406913490
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "1d2e8502099824036ebb681eb919ed39cccce2d6",
+        "timestamp": 1406914270
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "be878a6d0162937ef092ad46fe3b3ed76e88ec37",
+        "timestamp": 1407087433
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "fb5e6f533292bf82dce1039365cd251f131c209e",
+        "timestamp": 1407124353
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "a30aa203efc0c927bd1cdc1fcfa5c5ff1b379d65",
+        "timestamp": 1407125355
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "8711baf2e53534a1b307ccba42fbd653d62a30d1",
+        "timestamp": 1407179826
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "e9a2597be637c27ca3bb21d60e34ea75816c94db",
+        "timestamp": 1407181429
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "edfdc62df296f3c76c6f984a98028a6d229cc4cc",
+        "timestamp": 1407184019
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "739bb46e2777930d197c2ab885ceb4bcb32842df",
+        "timestamp": 1407184949
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "bee1cddf46a293151e783f07995ccf227f558c35",
+        "timestamp": 1407185810
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f34cc0bdf41a0805968642d91a843b29e2b77e5b",
+        "timestamp": 1407277740
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "fa4f5942f0c67c0ca6c4e97b9996b1a808ad8eb7",
+        "timestamp": 1407277953
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/performance-runtime.rst",
+          "docs/performance.rst"
+        ],
+        "sha": "dca59ceb62466fa0adb249675b023d064fa017a1",
+        "timestamp": 1407292516
+      },
+      {
+        "files": [
+          "tests/benchmark.py",
+          "tests/benchmark_plot.py",
+          "tests/benchmark_sorteddict.py",
+          "tests/benchmark_sortedlist.py",
+          "tests/benchmark_sortedset.py"
+        ],
+        "sha": "5387fa2d8a840c129bcc9a71ff8ccbdbaf7e2589",
+        "timestamp": 1407604477
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "1a89d562fd0bac3d7bc4444b7a27d86dd59bf3b8",
+        "timestamp": 1407604592
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "1d896c77fdebefa474c0b6ba4b27bed6d4ba3184",
+        "timestamp": 1407604636
+      },
+      {
+        "files": [
+          "tests/benchmark.py",
+          "tests/benchmark_plot.py"
+        ],
+        "sha": "7af971da3eb50d32545c464d7bdecf11acbafa0c",
+        "timestamp": 1407643830
+      },
+      {
+        "files": [
+          "tests/results_load_sorteddict.txt",
+          "tests/results_load_sortedlist.txt",
+          "tests/results_load_sortedset.txt"
+        ],
+        "sha": "a5f4bcd94e0487b024ee03065fe1b56b9e68173f",
+        "timestamp": 1407643864
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "970f93fbc5c98d24c0b5ace481ce91a1286ad078",
+        "timestamp": 1407730868
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "75a251ef1774e7fd83a465d40ab302154e6ca14c",
+        "timestamp": 1407730880
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "7f26803c5789d1658bb8f236ded713f572d301fc",
+        "timestamp": 1407731268
+      },
+      {
+        "files": [
+          "docs/implementation.rst",
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedset.rst",
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "29ad6055ab8aaf53501c8bb12abffa9acb6addf8",
+        "timestamp": 1407731660
+      },
+      {
+        "files": [
+          "tests/benchmark_plot.py",
+          "tests/benchmark_sorteddict.py",
+          "tests/results_runtime_sorteddict.py",
+          "tests/results_runtime_sortedlist.py",
+          "tests/results_runtime_sortedset.py"
+        ],
+        "sha": "508599c7fc12abb80bb7794bc807161ae2b87311",
+        "timestamp": 1407733660
+      },
+      {
+        "files": [
+          "docs/implementation.rst",
+          "docs/index.rst",
+          "docs/performance-load.rst",
+          "docs/performance-runtime.rst",
+          "docs/performance.rst",
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedset.rst"
+        ],
+        "sha": "c039f1ced30b0934ed840c0b89d313416c5f82f4",
+        "timestamp": 1407779581
+      },
+      {
+        "files": [
+          "docs/performance-load.rst",
+          "docs/performance-runtime.rst",
+          "docs/performance.rst",
+          "docs/sorteddict.rst"
+        ],
+        "sha": "3ba98431f4f362bb6adc26a252698ae7227d7789",
+        "timestamp": 1407780085
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "f51423bae6d9ba5f45d615fe7af20b91c22d5056",
+        "timestamp": 1407780400
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "09cfa82fd123a3d6a6ef9a430afee54ed6236576",
+        "timestamp": 1407781963
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0bf559112bc9bbf7aefbe0844e71e8dddacd6a95",
+        "timestamp": 1407782033
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6706178a0dad0c0cb5a6aa7fc3a9ea98ee3877ec",
+        "timestamp": 1407782088
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "b44ba2e433637e8a3a81ed9353e14d95aab5716c",
+        "timestamp": 1408311013
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "1764dddad64e7634e3a4c4747ec8a91d287dd64b",
+        "timestamp": 1408313333
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "0b116e9413695ae18b444d7fb961dd5ed01f39a9",
+        "timestamp": 1409109090
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py",
+          "tests/benchmark_sortedlist.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "2317e2e769da060052fc050a30c6997e88d1015f",
+        "timestamp": 1409165699
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "7d0dd3882e2f5e6812bd28aa4474d93552c657ab",
+        "timestamp": 1409181942
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "dac6a7205a5fd1fe3fad0d98870c18143eb764b8",
+        "timestamp": 1409337183
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedlist.py"
+        ],
+        "sha": "f1781e6b1d51add49be3921fc6a008288af28025",
+        "timestamp": 1409343585
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "245a3dd969b61b562d1397f041007ad5321494e6",
+        "timestamp": 1409353408
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "6daf583c24cbd682146d971a064d1b6e180b05ba",
+        "timestamp": 1409353894
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "fc8328cf939d15c058a8fa93e34677e06f1f1c48",
+        "timestamp": 1409355261
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "11bf374e1dc75541f6f9624d05684e441442d21d",
+        "timestamp": 1409355291
+      },
+      {
+        "files": [
+          "tests/stress.bat",
+          "tests/stress.sh"
+        ],
+        "sha": "7a267ae5c08ef5baa21ac3a55cd42d6e8369ce85",
+        "timestamp": 1409444135
+      },
+      {
+        "files": [
+          "docs/implementation.rst"
+        ],
+        "sha": "07d60606f5acb5bccefb4f758189857a5f1feca4",
+        "timestamp": 1409506783
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "8a95a7d96986c850ae10505c3404f98235ed384c",
+        "timestamp": 1409598808
+      },
+      {
+        "files": [
+          "docs/implementation.rst"
+        ],
+        "sha": "8f9f490383be89d70f37d5c38d42fb050e2ffba6",
+        "timestamp": 1409604213
+      },
+      {
+        "files": [
+          "docs/implementation.rst",
+          "docs/index.rst",
+          "docs/introduction.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedlistwithkey.rst",
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "29a961145c30cedbde6d987469c86f8d7f0db77b",
+        "timestamp": 1410284422
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/performance-workload.rst"
+        ],
+        "sha": "c627bcdad0e59d1323c632a1a6789178bc476248",
+        "timestamp": 1410559072
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "c806a8614d7e341950a9baafced7ec64b2c5fec7",
+        "timestamp": 1410560138
+      },
+      {
+        "files": [
+          "docs/performance-workload.rst"
+        ],
+        "sha": "c84739b4704626af9d9a3cfbbc16cdbb682e5c84",
+        "timestamp": 1411001173
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "bbce755011bfe6f13b2bf481fa37ac59110ce174",
+        "timestamp": 1411001375
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "7d33aec2f2a11645f112a6d94d1c6e3b4e43b316",
+        "timestamp": 1411002038
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/__init__.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "d159e4b7a668996f84c7790cb1df812bff96552c",
+        "timestamp": 1411062018
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "367c64a06f86f1eb60f2c331c3b13a3de32977b9",
+        "timestamp": 1411064976
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "7ff3a16cb14a9bea5254cc4757da002ca673a4b9",
+        "timestamp": 1411241507
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "421c764c0309a87ceb2e7187423db57304e418ad",
+        "timestamp": 1411241526
+      },
+      {
+        "files": [
+          "docs/performance-load.rst",
+          "docs/performance-runtime.rst",
+          "docs/performance.rst"
+        ],
+        "sha": "097c1250f949bbda52cef87cbe6efbf2ec845328",
+        "timestamp": 1411241833
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "66c39a18bb990bdfca8fc1d8cbba682656bca157",
+        "timestamp": 1411242064
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "2e0b0e8ec42a327b987b822b77415db4d870ffc7",
+        "timestamp": 1412070311
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "cae04a2809019be84713a880f6c9665ff0e9f0d6",
+        "timestamp": 1412070371
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4f6ae66648b0e0671fb90ac2f3c817998fce7fe0",
+        "timestamp": 1412070440
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "087d8da17e4ea0a8b0a0dd870c75ca5924f17284",
+        "timestamp": 1412070558
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "09b713b078b66f909de902b70c4fd8c8071f8b0f",
+        "timestamp": 1412233961
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "60e53f571a279371480b508de8a0d1bf99fb571a",
+        "timestamp": 1412440338
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "1c6a43a5f3d85b0d655dcff2210e4a4587b89cb3",
+        "timestamp": 1413064339
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "ff010e4ab513e114fe5f76ebeca034dafce6bc24",
+        "timestamp": 1413144200
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "468f25b25a15ebd826cc7632a16f1b30695b75e4",
+        "timestamp": 1413146917
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "5939bd8ca71eb347ce55a59c520d5538d496a161",
+        "timestamp": 1413149246
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "363962b9d4aa6319adb45049da45584e48db8d3b",
+        "timestamp": 1413149395
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_stress_sortedkeylist.py",
+          "tests/test_stress_sortedlistwithkey_ordered.py"
+        ],
+        "sha": "85cdaf969d6db2be0d7b89271b72345324a9c31f",
+        "timestamp": 1413150607
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "90515a6631822e54f2c3046027f9d56c8369c99d",
+        "timestamp": 1413150812
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "6ed2b6b90ea0d64c65590f12ccc5ac996be756e8",
+        "timestamp": 1413150823
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedlist.py"
+        ],
+        "sha": "7a8c6c8afc0958998c9153981ca66fe050a8b126",
+        "timestamp": 1413157938
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "0b172f691cd8316661e6809e7d54de8ee06fc1ac",
+        "timestamp": 1413174668
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedlist.py"
+        ],
+        "sha": "ec3bf063f4d08420c5aeed01cdb3c7bc7aa92bb8",
+        "timestamp": 1413174732
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_stress_sorteddict.py"
+        ],
+        "sha": "fe780f5b89944a891d98cdec67a849130d7d73a8",
+        "timestamp": 1413176753
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "187e1c6611d9d7ef74e6364328a20b51c4c9fb25",
+        "timestamp": 1413310725
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "a0dfdd88ac62d4ca4629a924d522582bf9c998a7",
+        "timestamp": 1413310770
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "730c28af67a48f523c793b5adaa18f7ec92f50bc",
+        "timestamp": 1413310839
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "f76cc8be8625a2461f2e004b5ed0c9fc969d077d",
+        "timestamp": 1413311756
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "42931b19d6bc8cc635f97f60d1de7aca2c68310c",
+        "timestamp": 1413352349
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "b51200c4ef43ba2217e9199c7be898d59d973563",
+        "timestamp": 1413575900
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "cc4996f65ead0253337b2443b71115d8bd81e121",
+        "timestamp": 1413579284
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_coverage_sortedset.py",
+          "tests/test_stress_sortedkeylist.py",
+          "tests/test_stress_sortedlist.py",
+          "tests/test_stress_sortedset.py"
+        ],
+        "sha": "27cb413e98501c28865aa2a3b4c92105a677f135",
+        "timestamp": 1413579587
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "5551aa48e804c1d0df61a67a1e511c3566bb5d18",
+        "timestamp": 1413588990
+      },
+      {
+        "files": [
+          "tests/benchmark_plot.py"
+        ],
+        "sha": "3049a22665be9640d51721dde5c5c4e0eb4e7f1b",
+        "timestamp": 1413850615
+      },
+      {
+        "files": [
+          "tests/results_load_sorteddict.txt",
+          "tests/results_load_sortedlist.txt",
+          "tests/results_load_sortedset.txt",
+          "tests/results_runtime_sorteddict.txt",
+          "tests/results_runtime_sortedlist.txt",
+          "tests/results_runtime_sortedset.txt",
+          "tests/results_sorteddict.txt",
+          "tests/results_sortedlist.txt",
+          "tests/results_sortedset.txt"
+        ],
+        "sha": "5bd46b299eddbca5f33e677b30c3dcc8d301a4c0",
+        "timestamp": 1413850653
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst",
+          "docs/introduction.rst",
+          "docs/sorteddict.rst",
+          "docs/sortedlistwithkey.rst",
+          "docs/sortedset.rst",
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "4fd402e71cb8204977bfc00f20dac3f446aca244",
+        "timestamp": 1413851106
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "f7a0ab70fa8d5f791233a1f304e27de6bce53d99",
+        "timestamp": 1413851319
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_stress_sortedkeylist.py"
+        ],
+        "sha": "fe6b4a2df34866908c22245b672787f79aff2da3",
+        "timestamp": 1414797274
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "8817c1c12633ef2451114cf7aaba8f003443ad1e",
+        "timestamp": 1414800170
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "363c21bc4663d8063c5490de810064bd86a062a3",
+        "timestamp": 1414866274
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "3bd45e8437c58b35a1c7d15dbd3afa4bdf114dbb",
+        "timestamp": 1416620415
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "cc5dd1ad59eadf0afcb2d4b02b1157e25b9fdb2e",
+        "timestamp": 1416620608
+      },
+      {
+        "files": [
+          "docs/introduction.rst"
+        ],
+        "sha": "3b9ec926ec17b2fcc99b94fe9a0e7a0c25175e42",
+        "timestamp": 1416669938
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py"
+        ],
+        "sha": "69f1626d1af97355db487f5d9ff473dbf1aa019b",
+        "timestamp": 1416851856
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py"
+        ],
+        "sha": "590478adbb0f52ac932272aed818cb6b185df90a",
+        "timestamp": 1416851949
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "95dc8ca5320d9fc0af41083f4e559dc2556a9d5e",
+        "timestamp": 1416851979
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/__init__.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_stress_sortedkeylist.py"
+        ],
+        "sha": "187d9c50881ce25999c7ec2436a7175d8dd419b9",
+        "timestamp": 1416852315
+      },
+      {
+        "files": [
+          "tests/test_stress_sortedkeylist.py"
+        ],
+        "sha": "39e311aa45569ee3abd71dbf0f7e7581b7be2979",
+        "timestamp": 1416944160
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "eebd790ded7570a952de9c585e0e8dcd2cde431f",
+        "timestamp": 1417069332
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/__init__.py",
+          "tests/benchmark_sortedlist.py"
+        ],
+        "sha": "5726db2b642ddac779a53f32314d5da362cfc4f7",
+        "timestamp": 1417210796
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "157c2fc53805bdd1a0e468f5d38bb03cb703bb2c",
+        "timestamp": 1417211144
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "b5f8acd443fc98f5c6ac231822b744dffa521fdb",
+        "timestamp": 1417212693
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "31aead1bb51cdab494663d80679e4845780beb8e",
+        "timestamp": 1417214629
+      },
+      {
+        "files": [
+          "docs/development.rst",
+          "docs/introduction.rst"
+        ],
+        "sha": "445d5e83086895ac43f581870511b81c54adfeec",
+        "timestamp": 1417225587
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "35937ec0403e08f7bb664cc61237c59ba13dfb11",
+        "timestamp": 1417225617
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "f96f2e79f524aaa727632ad36d74bc88de4d745f",
+        "timestamp": 1417225651
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py"
+        ],
+        "sha": "f288780b116e4bb6cfc38ad603ee0d03a81cb7b3",
+        "timestamp": 1417225761
+      },
+      {
+        "files": [
+          "tests/benchmark_plot.py"
+        ],
+        "sha": "1b4107bc82bc972b63c8779bafccae34fd1486be",
+        "timestamp": 1417324436
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedlist.py"
+        ],
+        "sha": "f576f0e109de9531ab56cccdde63a34d8626f9c5",
+        "timestamp": 1417324455
+      },
+      {
+        "files": [
+          "tests/results_runtime_sorteddict.py",
+          "tests/results_runtime_sortedlist.py",
+          "tests/results_runtime_sortedset.py"
+        ],
+        "sha": "6ddf6bfd63f090dc0f9de4e9d68b54d5a96e2b9b",
+        "timestamp": 1417324519
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "895b7490b477412cf25b9ddfac5fb8a8acee73e1",
+        "timestamp": 1417407902
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "c4bf8af7556025d72723317b2d6ae3b9221a606c",
+        "timestamp": 1417726729
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "001038743f5808c428950d353b78f55afc9a8382",
+        "timestamp": 1417726761
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "2ce3db2ab5b732c40dfe7ba55df621036b9e6992",
+        "timestamp": 1419273015
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "f567d597ecd6fd3177d6661e1930c67670e5095d",
+        "timestamp": 1426369468
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "ed652bc3b08ef8fb636baf5a540af9cfb8645e0d",
+        "timestamp": 1419113738
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "tests/test_coverage_sortedkeylist_modulo.py"
+        ],
+        "sha": "6cacebdf66f23ab670268f027b4bef2c4ccc5fd5",
+        "timestamp": 1421092636
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "4a67e364ff55a8d45ffabdf0c4f398c9543137b6",
+        "timestamp": 1426395986
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedlistwithkey.rst",
+          "docs/sortedset.rst"
+        ],
+        "sha": "02a07d5f386b666b83e7c63df69f0ae4195a2f2d",
+        "timestamp": 1426397307
+      },
+      {
+        "files": [
+          "docs/performance.rst"
+        ],
+        "sha": "43a9643cade0d081eebb7c15cb8b668c929d98d5",
+        "timestamp": 1426525023
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "4d5f18ad07e8be1b5e85e593d908bfe3d0f0857d",
+        "timestamp": 1426526595
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "e2939280a60ecfa40d5356ea840514834f606d03",
+        "timestamp": 1426527867
+      },
+      {
+        "files": [
+          "docs/implementation.rst"
+        ],
+        "sha": "f862937861e33c316387f1d4b7f7102524a3c986",
+        "timestamp": 1429730209
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_stress_sortedlist.py"
+        ],
+        "sha": "b3cae1040a510d95b86d5f5be0b1ab71bf89adf1",
+        "timestamp": 1434856917
+      },
+      {
+        "files": [
+          "tests/test_stress_sortedlist.py"
+        ],
+        "sha": "fe2d3cfd7b6d68d275322e460d2d3bf179fca0aa",
+        "timestamp": 1434858234
+      },
+      {
+        "files": [
+          "docs/introduction.rst",
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedlistwithkey.rst",
+          "docs/sortedset.rst",
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "2f781e2bfd10beb618edf0417874aaa515e0c2ec",
+        "timestamp": 1434990662
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/conf.py",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "71480ca0dfe30ddf165cb2a9a225ffe9b9744d7a",
+        "timestamp": 1435003654
+      },
+      {
+        "files": [
+          "docs/djangocon-2015-lightning-talk.rst",
+          "docs/index.rst"
+        ],
+        "sha": "32c0e9b970dbc4dd0925b80359da42df28d65566",
+        "timestamp": 1441678684
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst"
+        ],
+        "sha": "4d96a053bf79affa60b42ffef660592213093d8a",
+        "timestamp": 1442519619
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "77231111c0054c8f229cc71d4967bfcfbc2d21cb",
+        "timestamp": 1444177058
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "dd06ac05efdd354cac162909df5ea85245088936",
+        "timestamp": 1444177153
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "a857ffb582214112ef396a60d4006cab1e3a5066",
+        "timestamp": 1444178234
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedlistwithkey.rst",
+          "docs/sortedset.rst",
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "54606e8ccbe0f41f66be5f1900c4b7f9fa9a3e67",
+        "timestamp": 1444429772
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "15b8165e3b10a8e6e80c978509f190d582b1b503",
+        "timestamp": 1444432902
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst"
+        ],
+        "sha": "c1707737502a3f9a75c47406ebab37a411b40808",
+        "timestamp": 1444432988
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "bc6e0305924728abc7aca41850e606e738c97481",
+        "timestamp": 1444433089
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "b13736d0aa24411b14ab54f2f7d6ef478efdfd0f",
+        "timestamp": 1444433123
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "4d9ac78ed68125272b183d0669f62c12d158eaf5",
+        "timestamp": 1444433164
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "9af15dcf918ec37cdce6e5677f1ca2ebdf6e2c99",
+        "timestamp": 1444433310
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py"
+        ],
+        "sha": "7eb5662d402773239780578c002e22c5630f5ef2",
+        "timestamp": 1444437062
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "1fa416889c70c3ba4071d0563aa164805baf27c3",
+        "timestamp": 1444437094
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "9816156eb531ab4b1d0d4c110339f9f745db400a",
+        "timestamp": 1444437157
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "94b7d8f6e1e3514db0a315e840677c1d99f0bf98",
+        "timestamp": 1444437984
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "80d9b9f56e1fabbea22d4e75368e68124e673a7c",
+        "timestamp": 1444438124
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "13c104a92f2a2a64545a1749d46d8cf719e777bf",
+        "timestamp": 1444438923
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "b96c9b8e3a4af1afafd47dd70b08712c6b16cc45",
+        "timestamp": 1444449762
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "81d22be2e75bc58e036e5a5bafecbf1d3a6cc012",
+        "timestamp": 1444450714
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "78d931af8e9dd68d61c28c79c41228a63dc0416b",
+        "timestamp": 1444451725
+      },
+      {
+        "files": [
+          "sortedcontainers/sortedlistwithkeypair.py",
+          "src/sortedcontainers/__init__.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sortedkeylist_modulo.py"
+        ],
+        "sha": "1b7810262ed72ad5755c1bb1c5bb6ea0234588f4",
+        "timestamp": 1444521202
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "ccec8d4beb31b6d46142e2a051db60088671d756",
+        "timestamp": 1444531890
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "6514198c5eb886704a17c0002c157d3c8d65db24",
+        "timestamp": 1444531914
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "73c5c1453e609265a4e573fb6855f5ae27c2fda1",
+        "timestamp": 1444531971
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "docs/sortedlistwithkey.rst",
+          "docs/sortedset.rst"
+        ],
+        "sha": "a98787aa9b7697c3eff2aa151f1e121191227cf0",
+        "timestamp": 1444694133
+      },
+      {
+        "files": [
+          "tests/benchmark.py",
+          "tests/benchmark_sorteddict.py",
+          "tests/benchmark_sortedlist.py",
+          "tests/benchmark_sortedset.py"
+        ],
+        "sha": "0e23c1aabc6adce4e7400329a6edf419cd6a3410",
+        "timestamp": 1444696522
+      },
+      {
+        "files": [
+          "docs/performance-load.rst",
+          "docs/performance-runtime.rst",
+          "docs/performance.rst"
+        ],
+        "sha": "dbbd9e79b6cc192bb623973e522355c4d7456ed3",
+        "timestamp": 1444752212
+      },
+      {
+        "files": [
+          "docs/performance.rst"
+        ],
+        "sha": "415f9cefe2f8a447a3bf14c144ed5b97fda63f52",
+        "timestamp": 1444763359
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "c422d377eccf4c83bf882667b0a4edc2a0e7752f",
+        "timestamp": 1444857467
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst",
+          "docs/introduction.rst"
+        ],
+        "sha": "90106368e77cd5bd2fc7e243d100ea38ed04f88d",
+        "timestamp": 1444858243
+      },
+      {
+        "files": [
+          "docs/sortedlist.rst",
+          "docs/sortedlistwithkey.rst"
+        ],
+        "sha": "b5ae81ea11a1bc11e66c5352429158cbfebe41f3",
+        "timestamp": 1444859073
+      },
+      {
+        "files": [
+          "docs/introduction.rst"
+        ],
+        "sha": "60852249668efef64ee377165ae3a0cb67839145",
+        "timestamp": 1444860113
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "a4d318c9aa169a4da97094228ea9ea9ad7914fc9",
+        "timestamp": 1444860127
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "365695ea16829f45a41bac2d937209e5fd6d00e9",
+        "timestamp": 1445363789
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "923b7212bf986923d44c8bf5f6cd4031b77aae2b",
+        "timestamp": 1445363815
+      },
+      {
+        "files": [
+          "tests/test_stress_sortedlist.py"
+        ],
+        "sha": "2f0754d6b91464b349259b1089ef5e729de49017",
+        "timestamp": 1445375595
+      },
+      {
+        "files": [
+          "docs/sortedlist.rst",
+          "docs/sortedlistwithkey.rst"
+        ],
+        "sha": "42b34e993c0cef4ef22fbf89cec3a2b3c0239555",
+        "timestamp": 1445376549
+      },
+      {
+        "files": [
+          "docs/development.rst",
+          "docs/index.rst",
+          "docs/performance-runtime.rst"
+        ],
+        "sha": "4edb9f8dd60e9ea6e39f6692e9edeca459d39ba5",
+        "timestamp": 1445376646
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "a96cb1a62d8ada39b0fad21216c1fa740990ffad",
+        "timestamp": 1445376680
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "c920a72f10d837387f6f880715c16dd9c81d3912",
+        "timestamp": 1445376857
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "1f2c9ad3ca7db49652a7f90e3bd545a330382391",
+        "timestamp": 1445377036
+      },
+      {
+        "files": [
+          "docs/sf-python-2015-lightning-talk.rst"
+        ],
+        "sha": "efe6dfee757c58ad1128bea186b03586aadbd88a",
+        "timestamp": 1449032228
+      },
+      {
+        "files": [
+          "docs/sf-python-2015-lightning-talk.rst"
+        ],
+        "sha": "e3fa5aaaedc8cb839536f16c99bcd6f48044e586",
+        "timestamp": 1449085123
+      },
+      {
+        "files": [
+          "LICENSE"
+        ],
+        "sha": "d7e57bf7a700d980ba01089a112926153b0a1504",
+        "timestamp": 1449187504
+      },
+      {
+        "files": [
+          "docs/sf-python-2015-lightning-talk.rst"
+        ],
+        "sha": "c358be60200764bb19f159ca113f9b69098baa0a",
+        "timestamp": 1449187711
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "f536babbbcd9de6c22b1973fe80160026ffd6a30",
+        "timestamp": 1449187899
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "e7a0c275dd49c6c9c07e184100a385e6f6d3044a",
+        "timestamp": 1449188026
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "b62fe6ad0b333dee6d4c4d11e9405264bbb1d3a0",
+        "timestamp": 1449535163
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "51958ae9d25931307be3e5b5399c59c275d97086",
+        "timestamp": 1449771362
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "6b02e693de94737b4a8a0641f650636cdea122a7",
+        "timestamp": 1452799127
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "7b346ac8fefbf7c35a9ab80089b81ceb95c7fa39",
+        "timestamp": 1452800457
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "769a2f7b7c005e5ae1eab61f7b0bb5bb0124126e",
+        "timestamp": 1452802181
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "fa26f0b80e2c13652871680879162bd830430dc2",
+        "timestamp": 1461857203
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "05023f8e8bdf4911e3f8c58d30cd0f341ddd8d41",
+        "timestamp": 1462294322
+      },
+      {
+        "files": [
+          "docs/_static/sublist-lengths-add.mp4",
+          "docs/_static/sublist-lengths-delitem.mp4",
+          "tests/plot_lengths_histogram_add.py",
+          "tests/plot_lengths_histogram_delitem.py"
+        ],
+        "sha": "f9f74ab99e1dfe76e0ebcdae5e2796168ce9889c",
+        "timestamp": 1463020984
+      },
+      {
+        "files": [
+          "tests/benchmark_splits_fill.py"
+        ],
+        "sha": "4ae3b064c8f8825f911630a688fcdc28b1510efc",
+        "timestamp": 1463021502
+      },
+      {
+        "files": [
+          "tests/benchmark_scale.py"
+        ],
+        "sha": "3c53a5fc03874864d0ba0b85cc0f317f1731768e",
+        "timestamp": 1463022303
+      },
+      {
+        "files": [
+          "docs/performance-scale.rst"
+        ],
+        "sha": "885856b7686385ddae9fb65e682bffa33649f730",
+        "timestamp": 1464206000
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "71a5f15d567327e32488fc22f07ae4b58420f768",
+        "timestamp": 1464206033
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "db1b52b8e8a3833dcda03c4aa90a0d37e237a5f5",
+        "timestamp": 1464217211
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "d2fd3500dbf25420acbf3aa0b1375653ff092d95",
+        "timestamp": 1464217429
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "567ea75a4786cfab473fc58b9ca3b5a07306c227",
+        "timestamp": 1464217737
+      },
+      {
+        "files": [
+          "tests/benchmark_plot.py"
+        ],
+        "sha": "da4d7cd50edec63341853d355c7eb4ae50f33c5c",
+        "timestamp": 1464218437
+      },
+      {
+        "files": [
+          "docs/development.rst"
+        ],
+        "sha": "8a8fa200fc6f2ca7eb879763c01812f6699ae4e3",
+        "timestamp": 1464219510
+      },
+      {
+        "files": [
+          "LICENSE",
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "55ead26f494186aff85dc36f8da075322b62396c",
+        "timestamp": 1464219823
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "f5a1fb20eb385f4b2bf62b6fded08822cbd09ede",
+        "timestamp": 1464219936
+      },
+      {
+        "files": [
+          "tests/benchmark_plot.py"
+        ],
+        "sha": "70d9aeb51bdc362958b1054a842cd32ba9065790",
+        "timestamp": 1464220549
+      },
+      {
+        "files": [
+          "tests/stress.sh"
+        ],
+        "sha": "b933c4806bac09af7646609e74472369e434d280",
+        "timestamp": 1464220796
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "eef87ceedd3344c36347115b28f8e728cffff878",
+        "timestamp": 1464280287
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "20d6df7bf3b1f3283c6b4aa22d38814c72aba47d",
+        "timestamp": 1464280967
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "044cb5c0d58c1444aabb832216a32cb50fdf5e80",
+        "timestamp": 1464283197
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "7f2d85c83fc394b34f6e1898e42c52ccb735c41f",
+        "timestamp": 1464283240
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "src/sortedcontainers/__init__.py",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "2b050ae8c367028d83854300bcdd3157cceec97d",
+        "timestamp": 1464286896
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "69d54966a800c769d7bb4036f5ca8c60977a1e01",
+        "timestamp": 1464287280
+      },
+      {
+        "files": [
+          "docs/introduction.rst"
+        ],
+        "sha": "516759329878b2b13f60a396119d87c487e58a12",
+        "timestamp": 1464288585
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedlistwithkey.rst",
+          "docs/sortedset.rst"
+        ],
+        "sha": "b1613b2df406b4789d1c9a10cc16a5cbf8ee7bf1",
+        "timestamp": 1464288599
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "1eff2fc0d3e630caabdc80b9f86132cefdc47d67",
+        "timestamp": 1464288836
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c5c9aba978f2f48f581cd3cec2b8028513a578d3",
+        "timestamp": 1464289208
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "f6db0f2bbd2e8282c8d14adccec47e9617cd8ba8",
+        "timestamp": 1464289238
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bb72ecf9f4635f53dfe1b43f847dd5fd9e0efe3b",
+        "timestamp": 1464290420
+      },
+      {
+        "files": [
+          "docs/development.rst",
+          "docs/implementation.rst",
+          "docs/index.rst",
+          "docs/introduction.rst",
+          "docs/performance-load.rst",
+          "docs/performance-runtime.rst",
+          "docs/performance-scale.rst",
+          "docs/performance-workload.rst",
+          "docs/performance.rst"
+        ],
+        "sha": "5b13de20e8aedac524ebb703e9d65e977e0958e0",
+        "timestamp": 1464290967
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "bd489800c97cae1e68a2068422d757a82e8923dc",
+        "timestamp": 1464291251
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "bbf57850375efa6d0ed0a8b00ff9400475c0c76b",
+        "timestamp": 1464293130
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "3a55074477e1ca240c4bb08d84c391db35e22e06",
+        "timestamp": 1464293151
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "cdba1b3188dc390e9af9722ad6667fe9766aa0c1",
+        "timestamp": 1464307521
+      },
+      {
+        "files": [
+          "docs/implementation.rst"
+        ],
+        "sha": "492ded06512d7df4ab59ed4965043a74b7379c95",
+        "timestamp": 1464324457
+      },
+      {
+        "files": [
+          "tests/benchmark.sh",
+          "tests/benchmark_plot.py"
+        ],
+        "sha": "587079bbcc34d60897fd602a06276c5abcd38a79",
+        "timestamp": 1464325396
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "1940a981efe02dbf09bb7dd9399362fb7622c4b4",
+        "timestamp": 1464373268
+      },
+      {
+        "files": [
+          "tests/benchmark.sh"
+        ],
+        "sha": "291cf0c58b5c8f9b72cc63d6e777a5af11c9c2ba",
+        "timestamp": 1464373778
+      },
+      {
+        "files": [
+          "docs/development.rst",
+          "docs/index.rst",
+          "docs/introduction.rst",
+          "docs/performance-load.rst",
+          "docs/performance-runtime.rst",
+          "docs/performance-workload.rst",
+          "docs/performance.rst"
+        ],
+        "sha": "d2aa1fe0fe4b6b14742caefdef6df937b69b74a8",
+        "timestamp": 1464393649
+      },
+      {
+        "files": [
+          "tests/benchmark.sh"
+        ],
+        "sha": "c9b625d7ee1e6516500ec3d45f4efc0ce2b12be7",
+        "timestamp": 1464393717
+      },
+      {
+        "files": [
+          "docs/performance-scale.rst"
+        ],
+        "sha": "ab2685389af30febb23de33481fbb1d7b882b4ab",
+        "timestamp": 1464476523
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "1e137ebb88d545006ef4741bfbddc4f6290b2ae9",
+        "timestamp": 1464477277
+      },
+      {
+        "files": [
+          "docs/pycon-2016-talk.rst"
+        ],
+        "sha": "09b729d3272d8e10688ec808ed599b18683497e9",
+        "timestamp": 1464824382
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "6d6f7d998569654a6cdc92a44f8b2e1703b23b9c",
+        "timestamp": 1464824413
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "cd5d5e24540be65a7e7b61b16fcb4915622261d9",
+        "timestamp": 1464824553
+      },
+      {
+        "files": [
+          "docs/pycon-2016-talk.rst"
+        ],
+        "sha": "3ef43f6b788cf9cdee2ab98fdcea41918d90df0f",
+        "timestamp": 1464824714
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "8cf484b53100aa3ff495c961b9c1b09b20d69ba2",
+        "timestamp": 1469772294
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "54cafd0cdc3c6baeef36e48a72a6ca48e8a0cd1c",
+        "timestamp": 1469773213
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "66f040901258c66a295b68a1aadb31d7be89b313",
+        "timestamp": 1469774504
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3f40523470b6212bcf43799749d2f3c4494fb3da",
+        "timestamp": 1471645428
+      },
+      {
+        "files": [
+          "docs/implementation.rst"
+        ],
+        "sha": "362077dcd746c91012713d3ebbc52eea88f66ee4",
+        "timestamp": 1475506415
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedkeylist_modulo.py"
+        ],
+        "sha": "c04ff65317940f324bb83586ee12d9371840e9ac",
+        "timestamp": 1476649764
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "91ba10d54a1f22377f4f8593567e04eedf65f1a6",
+        "timestamp": 1476650307
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "f6a359773de48e5adbe0e1946355d38f43c59c32",
+        "timestamp": 1476650488
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "53ab610cc4615888f3fcf2fa1d5d340440247a2a",
+        "timestamp": 1480961644
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "README.rst",
+          "docs/history.rst",
+          "docs/index.rst",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "016b9c8c97f48465425762b073621dc223b307ed",
+        "timestamp": 1480968264
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/sortedcontainers/__init__.py",
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "bc44999b262b61e9c4c1ce825b25589fbd5f1464",
+        "timestamp": 1481329717
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/sortedcontainers/__init__.py",
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "501d4a91def6fa3a715c712fc3eb700a44144b2b",
+        "timestamp": 1482448027
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "c32d6c7a2fa29d764e01859e4b6cc68698b6b8c5",
+        "timestamp": 1492632247
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "1d91579d39bcd91bd6c2421acc19ba4ec652f801",
+        "timestamp": 1492732792
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "ebff7915597fdb183911488967e40fa5b3cd977a",
+        "timestamp": 1492748169
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "c7112f31a00485e2c3dfab9a8d107082c1d08d58",
+        "timestamp": 1492793885
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "2423a61b96f59e9a224443a4af2e88e00201390c",
+        "timestamp": 1492794045
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "6e352dd5fcc382e64d60534a20867c9728288da4",
+        "timestamp": 1502561455
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "c04f52dd98c4e28e5fa2759960b31cd9d0ed4c02",
+        "timestamp": 1502561472
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "f92dbd5c058576f8abc3a51cfc3e538c6463020d",
+        "timestamp": 1502562022
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "e53123e478d151bfc573b6e4b329dd534b2764b6",
+        "timestamp": 1502562174
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst"
+        ],
+        "sha": "e500e1018aed24535027d3f2f74ef6f911bf07ea",
+        "timestamp": 1502563239
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst"
+        ],
+        "sha": "53fd6c54aebe5b969adc87d4b5e6331be1e32079",
+        "timestamp": 1502563351
+      },
+      {
+        "files": [
+          "docs/introduction.rst",
+          "docs/sortedlist.rst",
+          "docs/sortedlistwithkey.rst"
+        ],
+        "sha": "c9482d5936434679dc972b566ffe0159b8ea0327",
+        "timestamp": 1512764796
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "HISTORY.rst",
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "42fc3ec0de85e0e7dad8204615dc66b6ec2f3d97",
+        "timestamp": 1512764809
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "4e55dd365b1eecf1e5ea1504715ef6f97c07b3a1",
+        "timestamp": 1512764840
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "requirements.txt"
+        ],
+        "sha": "8d2dcb68e5fd6dfe6317626a75801e2d878ce4bc",
+        "timestamp": 1512765616
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "HISTORY.rst",
+          "README.rst",
+          "docs/index.rst",
+          "requirements.txt",
+          "tox.ini"
+        ],
+        "sha": "d170f4c3ad6c66ecda5767f8f86247f90b4c9bf5",
+        "timestamp": 1512767587
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "d484fa43bdbc4f60ecfcbf8b5467cfa95a4545f4",
+        "timestamp": 1512767609
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "6321f228969918715052ffe339c4fa6a7045cccf",
+        "timestamp": 1524266467
+      },
+      {
+        "files": [
+          ".pylintrc"
+        ],
+        "sha": "e70465c2c49285343a1bba473215cb2275a86c2e",
+        "timestamp": 1524266881
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "fb593530ec2f9059658ccce7ca116acde4bc2a5f",
+        "timestamp": 1524371932
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "ac98fc8fc9d8a31aff0fce68c4804379559a76e4",
+        "timestamp": 1524371950
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedkeylist_negate.py"
+        ],
+        "sha": "bed7d785267119c6865ab6473a98ff574eae56c2",
+        "timestamp": 1524373006
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "3c7229bd327eab3cb39be156aaa84c0639f55ee0",
+        "timestamp": 1524373204
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "892080c3ea7444c54bd43735b2160b3f00302009",
+        "timestamp": 1524373433
+      },
+      {
+        "files": [
+          "LICENSE",
+          "README.rst",
+          "docs/conf.py",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "c2907040a0863fe922a565aa57aaf46e370d5c63",
+        "timestamp": 1524375567
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "8962b3612a34ca700c8ec724c884cd26d73abf0e",
+        "timestamp": 1524376672
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "appveyor.yml",
+          "tox.ini"
+        ],
+        "sha": "9c4fe3214a90edeb82d339c7cc87798cf6cc942b",
+        "timestamp": 1524430161
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedlist.py",
+          "tests/sortedcollection.py"
+        ],
+        "sha": "0770dd664af940b2866b82c09e33a82ec6ba7981",
+        "timestamp": 1524434729
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedlist.py"
+        ],
+        "sha": "5d23db38fa29c83bae18c2019f334866e8bd0e13",
+        "timestamp": 1524435063
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedlist.py"
+        ],
+        "sha": "298eb166044a19950524098e1caf4a154698438b",
+        "timestamp": 1524435606
+      },
+      {
+        "files": [
+          "tests/benchmark_sorteddict.py",
+          "tests/benchmark_sortedset.py"
+        ],
+        "sha": "9dd509d46f99d9f73d2bdd3524701746e02c6fd9",
+        "timestamp": 1524435897
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst",
+          "docs/performance.rst"
+        ],
+        "sha": "e25bbe752e6cc330c861b3a15c198ffe10836031",
+        "timestamp": 1524436711
+      },
+      {
+        "files": [
+          "docs/performance.rst"
+        ],
+        "sha": "a578e034c3f64a57cc8a3fb4f4fa1455a5e9ae81",
+        "timestamp": 1524440061
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/development.rst",
+          "docs/index.rst",
+          "docs/introduction.rst",
+          "docs/performance.rst",
+          "docs/pycon-2016-talk.rst"
+        ],
+        "sha": "35e26b1a1339fbedd85fccb79897e21c71cb8bf5",
+        "timestamp": 1524633957
+      },
+      {
+        "files": [
+          "docs/_static/sublist-lengths-add.mp4",
+          "docs/_static/sublist-lengths-delitem.mp4"
+        ],
+        "sha": "38954ee1a3a0f5ec9eb781d2766dcbaed4db76dd",
+        "timestamp": 1524634329
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "04d6a3f2819f84b065edb7b3f8d4240ef2feeb1d",
+        "timestamp": 1524635991
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "a0cf3fd80615dc737712099c0f7c8223bb61df09",
+        "timestamp": 1524636071
+      },
+      {
+        "files": [
+          "docs/Makefile",
+          "docs/make.bat"
+        ],
+        "sha": "d9888d14e4f7a7c9160f51b87c0a4a2b56969192",
+        "timestamp": 1524636082
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "7b4b5cb12f83516265279c4707f6dfdaf8613c81",
+        "timestamp": 1524720793
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/_templates/gumroad.html",
+          "docs/_templates/sidebarintro.html",
+          "docs/_templates/sidebarlogo.html",
+          "docs/conf.py"
+        ],
+        "sha": "e408253edbabf2101400dc6a55a709e567e15d43",
+        "timestamp": 1524721330
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "README.rst",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "bb26430127cb10455c34d2e8c79791344a2f3ba2",
+        "timestamp": 1524722785
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "c802b306b271ebb8daaf4309d0dc16f86ff2f01e",
+        "timestamp": 1525104573
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "869c97301a75e55b834c68a2bba0a030f2677c1f",
+        "timestamp": 1525200910
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "ae7d6937147f3c18bf05820d2dbcb9edf8332701",
+        "timestamp": 1525209082
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "352693c0a48dcefcfd2287e1a61e73cd505f3593",
+        "timestamp": 1525209112
+      },
+      {
+        "files": [
+          "sortedcontainers/shims.py"
+        ],
+        "sha": "238243cde413210b2a6a332754b90df9fbb1912b",
+        "timestamp": 1525209125
+      },
+      {
+        "files": [
+          "tests/benchmark_scale.py"
+        ],
+        "sha": "a353faf517e1791bd8a80a571f126241fb8211f1",
+        "timestamp": 1525209171
+      },
+      {
+        "files": [
+          "docs/sortedlist.rst"
+        ],
+        "sha": "abccf659c03ff091fa1f4aa5d4037ecfe190fb8c",
+        "timestamp": 1525209198
+      },
+      {
+        "files": [
+          "tests/test_stress_sortedlist.py"
+        ],
+        "sha": "4ecc9e7cb6fdb969bf1afde4761f0eff9aad1dbe",
+        "timestamp": 1525209254
+      },
+      {
+        "files": [
+          "tests/test_stress_sortedkeylist.py"
+        ],
+        "sha": "a558673f3f4075fa4653d6a05c7b4c3e240513af",
+        "timestamp": 1525209288
+      },
+      {
+        "files": [
+          "tests/test_stress_sortedset.py"
+        ],
+        "sha": "83ba6feb71e129f202d4835af879df44ddd13f2f",
+        "timestamp": 1525209306
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "a5c33be434a3e80c47eb430d1ea16a9355a4a645",
+        "timestamp": 1525209362
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3a0ff5ed635c3b190be2b9fd67699b53328be8bc",
+        "timestamp": 1525209457
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/sortedlist.rst",
+          "src/sortedcontainers/__init__.py",
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_stress_sortedkeylist.py"
+        ],
+        "sha": "9ecad1ad4b78f41b73e47ffb1a5b8b095a4c54f2",
+        "timestamp": 1525239582
+      },
+      {
+        "files": [
+          "sortedcontainers/shims.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "7a8fe82b6830d861147cc1b96052bcd2d5eb7a44",
+        "timestamp": 1525239879
+      },
+      {
+        "files": [
+          "docs/sortedlist.rst"
+        ],
+        "sha": "1fcff573ab8f143308bd47bb38613ddd874e7b16",
+        "timestamp": 1525306035
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "0dca318df67a38fbbde3c45b6dfaf4ee5830dfb1",
+        "timestamp": 1525306073
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/sorteddict.rst",
+          "src/sortedcontainers/__init__.py",
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_stress_sorteddict.py"
+        ],
+        "sha": "c48b0374c1fbef1804e64ffcabc93797d8c68249",
+        "timestamp": 1525306143
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst",
+          "docs/sortedlistwithkey.rst"
+        ],
+        "sha": "9d86e570cf8cf77d34a74e2a7f412739470ffe25",
+        "timestamp": 1525306295
+      },
+      {
+        "files": [
+          "docs/sortedlist.rst"
+        ],
+        "sha": "cc09a6d15224b7a7db49921f41db54731e67db56",
+        "timestamp": 1525484370
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst"
+        ],
+        "sha": "a4901992c82eedc37d2bea4b8b1b419fdc08f757",
+        "timestamp": 1525484391
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "a3dc9444213b6d6702140d4b6ddc8f421b335053",
+        "timestamp": 1525484454
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "64c9b2a1f9e8cf36b5991620b69e54b092152541",
+        "timestamp": 1525484503
+      },
+      {
+        "files": [
+          "docs/sortedset.rst",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "bb869f80540a114fff323264a299f361782d160e",
+        "timestamp": 1525487533
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "602234d71128d9000b6aaa3cdbf565486e2f9ba3",
+        "timestamp": 1525489073
+      },
+      {
+        "files": [
+          "docs/performance.rst"
+        ],
+        "sha": "f25c8a1afb878fff49034ab94457863f6868f797",
+        "timestamp": 1525489104
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "docs/introduction.rst",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "c997478ad56f830bd21ae55684b46bbb0116b8f4",
+        "timestamp": 1525489599
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_stress_sortedkeylist.py"
+        ],
+        "sha": "c42335bb2e575a64dac0d75def03923fe0d7b800",
+        "timestamp": 1525489717
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedlist.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_stress_sortedkeylist.py"
+        ],
+        "sha": "4b67899417c183bcec2046e2e05e9d7c0d2e9f8d",
+        "timestamp": 1525490044
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "d256cee1e9ae0a693fdba024e7fe51c9c8d1e086",
+        "timestamp": 1525491871
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "61bac0513959685d03206b456923e3d43f149ddc",
+        "timestamp": 1525492295
+      },
+      {
+        "files": [
+          "docs/introduction.rst",
+          "tox.ini"
+        ],
+        "sha": "e682b024f3d193619dc2b2ef3f23d100e68aa7cf",
+        "timestamp": 1525492949
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/introduction.rst"
+        ],
+        "sha": "03aed3b11215687f349dd798c41db3eb5647a2ba",
+        "timestamp": 1525893023
+      },
+      {
+        "files": [
+          "docs/performance-scale.rst"
+        ],
+        "sha": "557ebc2ba99ede9a70020a53d5bdc17040b2103c",
+        "timestamp": 1525992536
+      },
+      {
+        "files": [
+          "docs/performance.rst"
+        ],
+        "sha": "991696b024ed57b64bf36687f2209b017fc5af51",
+        "timestamp": 1525993314
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/performance-load.rst",
+          "docs/performance-runtime.rst",
+          "docs/performance-workload.rst",
+          "docs/performance.rst"
+        ],
+        "sha": "8766afd461893c63d38ee17d74de74bdfbab83a0",
+        "timestamp": 1525994382
+      },
+      {
+        "files": [
+          "docs/performance-load.rst",
+          "docs/performance-runtime.rst",
+          "docs/performance.rst"
+        ],
+        "sha": "8826cceefde09db85fc8afb13699889dd3197701",
+        "timestamp": 1525994742
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/performance-workload.rst",
+          "docs/performance.rst",
+          "tests/benchmark.py",
+          "tests/benchmark.sh",
+          "tests/benchmark_plot.py",
+          "tests/benchmark_sorteddict.py",
+          "tests/benchmark_sortedlist.py",
+          "tests/benchmark_sortedset.py"
+        ],
+        "sha": "1ee43efa9e93c5a8185cfbb0661dcd6e044da705",
+        "timestamp": 1526065264
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "acbb13b3514c884726819fb7a5c06d4e1d7c7831",
+        "timestamp": 1526337052
+      },
+      {
+        "files": [
+          "tests/benchmark.py"
+        ],
+        "sha": "e02da5cbcc3b7d1aad7a53bed8df3211a93ce711",
+        "timestamp": 1526337062
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "44621bf613b93ebbf4949aba76a4561aa2884c00",
+        "timestamp": 1526402532
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "77edde026551c9a4a4212c24c14a8a7a423b7396",
+        "timestamp": 1526402585
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "aa6c6291bf8e292197c3c02a9a666dd50691faef",
+        "timestamp": 1526422670
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "dca620c12c8e4e9e8be591c992fd650954bf39cc",
+        "timestamp": 1526423176
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8bf352ca2ce78505890e099d16f7cd3108f97db7",
+        "timestamp": 1526423265
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/development.rst",
+          "docs/implementation.rst",
+          "tox.ini"
+        ],
+        "sha": "cb968f95aaddebdbd5b9c99222f61d0328eca06d",
+        "timestamp": 1526425813
+      },
+      {
+        "files": [
+          "tests/benchmark.py"
+        ],
+        "sha": "fedd90aa6db48a3ede3a0224b4c13f5523a50656",
+        "timestamp": 1526486782
+      },
+      {
+        "files": [
+          "tests/benchmark_plot.py"
+        ],
+        "sha": "37d786b3a6026439a024a31916c9bdd3255b1fb9",
+        "timestamp": 1526500142
+      },
+      {
+        "files": [
+          "tests/benchmark.sh"
+        ],
+        "sha": "7d27e860e2651be71795f5aa9da73e78531d1023",
+        "timestamp": 1526508885
+      },
+      {
+        "files": [
+          "docs/performance-runtime.rst"
+        ],
+        "sha": "11029c420ec7ee5a90ce9d7b310934c2abab086b",
+        "timestamp": 1526508910
+      },
+      {
+        "files": [
+          "README.rst",
+          "tests/benchmark_sortedlist.py",
+          "tests/sortedcollection.py"
+        ],
+        "sha": "c5a2d5a075e2d3225ebeb5ae2ac43c23f183592b",
+        "timestamp": 1526509831
+      },
+      {
+        "files": [
+          "tests/benchmark_sortedlist.py"
+        ],
+        "sha": "f86ddff69a61997465d1a23861ae5a636f3c3a55",
+        "timestamp": 1526509959
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ec7d17a013696567f2fbbf961afcf40d4cec0856",
+        "timestamp": 1526599131
+      },
+      {
+        "files": [
+          "docs/sortedlist.rst",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "ddfbb4513f3f497dcce17ed4ceb2d0f00ee1a6fb",
+        "timestamp": 1526599217
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "docs/introduction.rst"
+        ],
+        "sha": "c723c10e33155a380e6975801ff55cd9f7b32457",
+        "timestamp": 1526599233
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "1da26b48a583ac75a6a94c27d6c3d174c2b2bd82",
+        "timestamp": 1526600791
+      },
+      {
+        "files": [
+          "docs/sorteddict.rst",
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "b3d0737180c10f9e9a1f3853b26d15d690d93b10",
+        "timestamp": 1526600808
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "README.rst",
+          "docs/sorteddict.rst",
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "a74b58455526ac4a3e8ec1184ea65a498bc5a0bb",
+        "timestamp": 1526621417
+      },
+      {
+        "files": [
+          "README.rst",
+          "tests/test_coverage_sorteddict.py",
+          "tox.ini"
+        ],
+        "sha": "352afe0246c5f01643a3471e0a43550be701f611",
+        "timestamp": 1526622091
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "8ce7ead7ffce1aa8167366bae43bd2ef8d0a502b",
+        "timestamp": 1526623619
+      },
+      {
+        "files": [
+          "docs/introduction.rst"
+        ],
+        "sha": "31855aefc8a3a47c835c22bc14b20f2987644038",
+        "timestamp": 1526623639
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/development.rst"
+        ],
+        "sha": "fc768b5631fa326a2645ec97957a836b78ae5bc8",
+        "timestamp": 1526623658
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1dacd379fdc425c6ce3cc2f3dc3952690649ba5f",
+        "timestamp": 1526668302
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/development.rst",
+          "docs/introduction.rst"
+        ],
+        "sha": "e0e7e5c71ebc0d0d6aade5a3247a627eaf0524a1",
+        "timestamp": 1526668523
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "dd1d435cfc5213f66a1152b0b502305e361f331f",
+        "timestamp": 1526668755
+      },
+      {
+        "files": [
+          "docs/introduction.rst",
+          "docs/pycon-2016-talk.rst",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "680fad5621e0c0959af6947ff5deffe908788b5e",
+        "timestamp": 1526669115
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f6526b72cf4f5b8508052786b2aa3b0f27f406ed",
+        "timestamp": 1526669707
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/development.rst",
+          "docs/pycon-2016-talk.rst"
+        ],
+        "sha": "64f62ef620a4c846377084c79c73c773fad87e3b",
+        "timestamp": 1526670608
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "2fbc21d58a8d128e3d8a86da70976196c07131ae",
+        "timestamp": 1526670789
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "da3c25f22c061e9cdf7fc19c0ed7fab873a0304a",
+        "timestamp": 1526671083
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "e434aa3a76d0eca9ac79680c09b19c08012511bf",
+        "timestamp": 1526671109
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "0ac84edb2d920ac233d36e7692aac52b55438749",
+        "timestamp": 1526931698
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "7d6a28cdcba2f46eb2ef6cb1cc33cd8de0e8f27f",
+        "timestamp": 1526931739
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "9b2d38c6a2bdf0bec621b019975e36a4667672f8",
+        "timestamp": 1526960785
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "28e99c0f00aaef4b4aa53147ed0f2a3eee1d092c",
+        "timestamp": 1527620979
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "2a00449622b402e0978dfb73337ae456da079090",
+        "timestamp": 1527621867
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "008fa62317d71a448c274b14e93a4a1db6015f02",
+        "timestamp": 1527624981
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6a0781fdb6e535c2c45b893af9b8b5ee9f1ace33",
+        "timestamp": 1527625006
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "94f99755d06ad95957318595448cdf7544ae2176",
+        "timestamp": 1527771897
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "01242ace85227018708c6d81f742d330a74fc244",
+        "timestamp": 1527771966
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "d292e32ebd2bf83b0b1de31bcf0d6b8ad9629ef1",
+        "timestamp": 1527774062
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "cf8d0691a5a17f53ea323e019500a6d080774370",
+        "timestamp": 1527794525
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "4eca5d2c704a3a77250dc37c5fb40c8c6c7b0f45",
+        "timestamp": 1527800107
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "3367ea58432ef5ee7f34ca566c3120dc2b57c4cc",
+        "timestamp": 1528349178
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py",
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "022167cd3e35b31f07c7909a725db7b1e47cad59",
+        "timestamp": 1528349511
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "41eb03f20263e952410033856ecfdde7937479fc",
+        "timestamp": 1536006884
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "tox.ini"
+        ],
+        "sha": "428beb862e101a13a2b79f47ae4d59c993ac880e",
+        "timestamp": 1536007066
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "f362cba172b312b879f8ae8a93718159f344978d",
+        "timestamp": 1536007393
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py",
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "64dfae3e1481736ed63a7bad11cbdbc02c90268f",
+        "timestamp": 1536007401
+      },
+      {
+        "files": [
+          "docs/performance.rst"
+        ],
+        "sha": "d85e8b1785aebea24c5ce2d5651c638da3774a96",
+        "timestamp": 1537064873
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "appveyor.yml",
+          "docs/development.rst",
+          "docs/performance-load.rst",
+          "docs/performance-runtime.rst",
+          "setup.py",
+          "tests/benchmark.sh",
+          "tox.ini"
+        ],
+        "sha": "5ca6235ba0a2556579b6ab1ff108e8c8629d5bb1",
+        "timestamp": 1532725209
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "e05634b0f0b85deae2e796a8acc1cad5961819eb",
+        "timestamp": 1542860368
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "42efac4dede726b5ee840bf38244f35df2d8f85c",
+        "timestamp": 1550682283
+      },
+      {
+        "files": [
+          "docs/paper.bib",
+          "docs/paper.md"
+        ],
+        "sha": "977c247be94ed9c4651bd90a9162a731307bd870",
+        "timestamp": 1550968137
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5378b7c7c44acff93027e02eb1155caa23945f57",
+        "timestamp": 1550020180
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "5007b63c167aa70c12e395a3fd942854dfeb51c6",
+        "timestamp": 1550039094
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "72d30a0cf5408e8eb8638a38c20747c5fc71f36b",
+        "timestamp": 1550020180
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sortedkeylist_negate.py",
+          "tests/test_coverage_sortedlist.py"
+        ],
+        "sha": "b5395b553d1fe3aa2f2668436a005aeedb5f6259",
+        "timestamp": 1550039094
+      },
+      {
+        "files": [
+          "docs/paper.bib",
+          "docs/paper.md"
+        ],
+        "sha": "9337b4195a79a2ee61e09b5a93e549011c6fe4e4",
+        "timestamp": 1551819680
+      },
+      {
+        "files": [
+          "docs/paper.bib",
+          "docs/paper.md"
+        ],
+        "sha": "15ebbde968da753e3e849ec286a1af6122dec9a6",
+        "timestamp": 1551821366
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "7d3160d821726168061c444a905f4945f14a989c",
+        "timestamp": 1551824968
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedset.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "be06d8d1b2d6994b85719d1b75ac6854f46a0a20",
+        "timestamp": 1551824992
+      },
+      {
+        "files": [
+          "docs/paper.md"
+        ],
+        "sha": "d018f04ba1b55ce820fc3f49888511de5dc81e99",
+        "timestamp": 1551922160
+      },
+      {
+        "files": [
+          "docs/paper.md"
+        ],
+        "sha": "96d5ce0040cf29eda2a7bafff132fac9dc256332",
+        "timestamp": 1551986884
+      },
+      {
+        "files": [
+          "docs/paper.md"
+        ],
+        "sha": "d7bc5e51ed2443d5d2dca508fdd3de8381b254b7",
+        "timestamp": 1551986949
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/development.rst",
+          "docs/index.rst"
+        ],
+        "sha": "fe3d6909225317a4a10383e1fbb96aab5a90f924",
+        "timestamp": 1553619228
+      },
+      {
+        "files": [
+          "LICENSE",
+          "README.rst",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "d127cdde5f77804fe51f355fdad469a0ac7caede",
+        "timestamp": 1553619412
+      },
+      {
+        "files": [
+          "docs/paper.bib",
+          "docs/paper.md"
+        ],
+        "sha": "626ed57d21bfbe36c6581b6691fccf9e5a7cba8c",
+        "timestamp": 1559573116
+      },
+      {
+        "files": [
+          "docs/performance-load.rst",
+          "docs/performance-runtime.rst"
+        ],
+        "sha": "8163c420a5a235d2e1228f7c90b702e58e887095",
+        "timestamp": 1573418029
+      },
+      {
+        "files": [
+          "docs/performance-scale.rst",
+          "docs/performance.rst",
+          "docs/pycon-2016-talk.rst",
+          "docs/sf-python-2015-lightning-talk.rst"
+        ],
+        "sha": "f930bc4ead3635f320000bd40bc954adc2b3e0af",
+        "timestamp": 1574066829
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "f07f10bf334df9277820484dd2a22137c8b207a7",
+        "timestamp": 1574136775
+      },
+      {
+        "files": [
+          ".pylintrc"
+        ],
+        "sha": "22dec805ce6ef7657efaa9e6f846938bc90825f5",
+        "timestamp": 1574136786
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "tests/issue_147.py",
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "2b037039bb16c81ddc1ee94e88c44aa85eed2810",
+        "timestamp": 1591248857
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "ca652af69a4e320716727908a404e070296a9a8d",
+        "timestamp": 1591249616
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "45bb03f86ce4508cf7d91ea2415688235eccfdd2",
+        "timestamp": 1591249921
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "8f65856de96d0096533074128568d1beb236f959",
+        "timestamp": 1591503459
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "docs/performance.rst",
+          "requirements.txt",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "727194be78ecf0dceffe2ec6134b75c4d6cc38cb",
+        "timestamp": 1591504796
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "29aeebf806eba4b68c5355bdcb3fac6dfeaf2389",
+        "timestamp": 1554208911
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "9d3c0cc4f64dc82e8d78df069285b1076aa573e0",
+        "timestamp": 1591508527
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "ac80254fb6a08045ced7d9704412878ff8000fa7",
+        "timestamp": 1591561521
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "6ee5d57fc8d691fbab4972b853a60348d0f922ef",
+        "timestamp": 1555589803
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py"
+        ],
+        "sha": "4997d0e849f2275d1931772a5432163ecc20e0b0",
+        "timestamp": 1591592679
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "13d30bc654eb9e6be092282ca502967fcb7f0113",
+        "timestamp": 1591593177
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py",
+          "tests/test_coverage_sortedkeylist_modulo.py",
+          "tests/test_coverage_sortedkeylist_negate.py"
+        ],
+        "sha": "7dc426c95a0c329d5514e6198d92080f1ffc1e5e",
+        "timestamp": 1604471850
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedkeylist_modulo.py"
+        ],
+        "sha": "e85d8659733cb3e28d539a28db0fdd71672ab2e4",
+        "timestamp": 1604879421
+      },
+      {
+        "files": [
+          "tests/test_coverage_sortedkeylist_negate.py"
+        ],
+        "sha": "da6d0d034822f66966e4a84a3a1e2f37cc83e3b0",
+        "timestamp": 1604879441
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "9887989b21fc21fe572e0b4c30a3f3aa1eabbdca",
+        "timestamp": 1604879695
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "tests/test_coverage_sorteddict.py"
+        ],
+        "sha": "2678a78b6dacbe2352bff7876a26759d84971dac",
+        "timestamp": 1621202158
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "a1f52d6713dd2c2713a881d4f4d86ed68ff71cab",
+        "timestamp": 1621202436
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "dff7ef79a21b3f3ceb6a19868f302f0a680aa243",
+        "timestamp": 1634102962
+      },
+      {
+        "files": [
+          "docs/introduction.rst",
+          "docs/paper.md",
+          "tests/sortedcollection.py"
+        ],
+        "sha": "77da591cdcbb4348bb0703c8072b85e980ba2ada",
+        "timestamp": 1656778133
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tox.ini"
+        ],
+        "sha": "c731ea8abea4456cf09955e82780c96315a38871",
+        "timestamp": 1661007740
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "9ff3270e5a5d1501918e5638e7ac32a40f922926",
+        "timestamp": 1661011545
+      },
+      {
+        "files": [
+          "docs/introduction.rst"
+        ],
+        "sha": "3f452674c3269ad0a792ce5ec0b33df7dc884bba",
+        "timestamp": 1664993063
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "42d5d024731000ffb9a1123ed81e90fa8cfc2d69",
+        "timestamp": 1665461481
+      },
+      {
+        "files": [
+          "tests/benchmark.py",
+          "tests/benchmark_scale.py"
+        ],
+        "sha": "09606ca9864c2dad27284252706ff56c79baffaa",
+        "timestamp": 1665464963
+      },
+      {
+        "files": [
+          "tests/benchmark.py",
+          "tests/benchmark.sh",
+          "tests/results_cython_sortedlist.txt"
+        ],
+        "sha": "d323bcfbce9bf1cca1ad89238eff946dc87e9369",
+        "timestamp": 1665465966
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "bc9cadbc2db76a5694779733ed8ee75591085592",
+        "timestamp": 1665466057
+      },
+      {
+        "files": [
+          ".github/workflows/integration.yml"
+        ],
+        "sha": "de72144ada779d0f08b738d4121a91821f492956",
+        "timestamp": 1665941954
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "69a96f7b462f0059328306d8d689f0b29a2114c6",
+        "timestamp": 1665941982
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "635fa42e1d1ac7a88b16a4feb7d50afb5eb52d27",
+        "timestamp": 1665942014
+      },
+      {
+        "files": [
+          "docs/development.rst"
+        ],
+        "sha": "8effcbda8b9b848303f6fbedbd08ec50611880b6",
+        "timestamp": 1665942040
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "bc1a3f23409ef494278b462c99584b36f0a41327",
+        "timestamp": 1665942057
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a0f7281e73ac085ecfa002d6f3ed7286c38e8e06",
+        "timestamp": 1665942070
+      },
+      {
+        "files": [
+          "tests/benchmark.py"
+        ],
+        "sha": "f60e682a46834ba34a032c9af41ee2186d2f2eab",
+        "timestamp": 1665942106
+      },
+      {
+        "files": [
+          "tests/benchmark.sh"
+        ],
+        "sha": "1528ee715afa4097cf57c8f36dd978628df3e98c",
+        "timestamp": 1665942125
+      },
+      {
+        "files": [
+          "tests/results_cython_sortedlist.txt"
+        ],
+        "sha": "cf5f9e656afe0b5324724564f95e1cf70b369a5e",
+        "timestamp": 1665942142
+      },
+      {
+        "files": [
+          "tests/test_coverage_sorteddict.py",
+          "tests/test_coverage_sortedlist.py",
+          "tests/test_coverage_sortedset.py"
+        ],
+        "sha": "77405c1fd80f2fe1cb2aaebe1421b5b0c761d15b",
+        "timestamp": 1665942158
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "b9c536fe229d29053f864e05ae9a9ac0b978f180",
+        "timestamp": 1665942177
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "b7144a4ac87ec4362be0539d1013e6f963a94f8f",
+        "timestamp": 1665978315
+      },
+      {
+        "files": [
+          "docs/pycon-2016-talk.rst"
+        ],
+        "sha": "92ef500158f87f7684023823d689cfd7bef892a1",
+        "timestamp": 1667708087
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py"
+        ],
+        "sha": "94e2557b01a098ef45f2ae70fb76125ce5867c6d",
+        "timestamp": 1709076965
+      },
+      {
+        "files": [
+          "docs/introduction.rst"
+        ],
+        "sha": "b59dc58e66fb67c280df1cf1c890491b479d3cfa",
+        "timestamp": 1709079236
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "17ed7514f259023ee82036d29a616c1eb666ca79",
+        "timestamp": 1709079256
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "96007f2b10828d5f625fbb411d8b2f6f85f00c9e",
+        "timestamp": 1709079449
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "daf9387d4016af96489f7a2fdf23c1cb225bc8e6",
+        "timestamp": 1709080869
+      },
+      {
+        "files": [
+          ".pylintrc"
+        ],
+        "sha": "f255ec85c5f0a8ead17d9b182219232c2d9ea5b8",
+        "timestamp": 1709080883
+      },
+      {
+        "files": [
+          ".github/workflows/integration.yml"
+        ],
+        "sha": "b0c10cf3440dd97cb31d0ec2df03edceff786b67",
+        "timestamp": 1709080916
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "e0ffff67da884f6b741d89fece437f40e56ce64d",
+        "timestamp": 1709080949
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "a5fa6916b471ad5d3d02342bf9dce39ddba65667",
+        "timestamp": 1709080964
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "12012a35e342d379a056db2a7cb6e1c43a5851ab",
+        "timestamp": 1709080979
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "a49295d08eebce554e4fd9c341d56821bc3502f5",
+        "timestamp": 1709081766
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "363720bd4b6c9b449d948eac7c326f8bb75ce41e",
+        "timestamp": 1709081798
+      },
+      {
+        "files": [
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "92897571c557cc7ee17ff47b5b268d3a96d9f949",
+        "timestamp": 1709081806
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sorteddict.py",
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py"
+        ],
+        "sha": "ff966d18d446c871b5f5823e3b5a59bcce7ac944",
+        "timestamp": 1709081834
+      },
+      {
+        "files": [
+          "src/sortedcontainers/sortedlist.py",
+          "src/sortedcontainers/sortedset.py",
+          "tests/benchmark_scale.py",
+          "tests/benchmark_splits_fill.py",
+          "tests/plot_lengths_histogram_add.py",
+          "tests/plot_lengths_histogram_delitem.py",
+          "tests/sortedcollection.py",
+          "tox.ini"
+        ],
+        "sha": "17180fe54e929a0cea8e27fe83e464ca17fc865c",
+        "timestamp": 1709082516
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "728dd7ebbf08f001379c40f18374c69aa4f46ce5",
+        "timestamp": 1709082685
+      },
+      {
+        "files": [
+          "LICENSE",
+          "README.rst",
+          "src/sortedcontainers/__init__.py"
+        ],
+        "sha": "1ed759bfa4a7e94168bcf47408604f24a35962e5",
+        "timestamp": 1709083103
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "7a9c08723c06ffb6556aa7dbfe347066c0728072",
+        "timestamp": 1709334208
+      },
+      {
+        "files": [
+          "tests/benchmark_plot.py",
+          "tests/benchmark_splits_fill.py",
+          "tests/plot_lengths_histogram_add.py",
+          "tests/plot_lengths_histogram_delitem.py"
+        ],
+        "sha": "3ac358631f58c1347f1d6d2d92784117db0f38ed",
+        "timestamp": 1709334218
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 9,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/workflows/integration.yml": 0,
+      ".github/workflows/release.yml": 1,
+      ".gitignore": 2,
+      ".pylintrc": 3,
+      ".travis.yml": 4,
+      "HISTORY.rst": 5,
+      "LICENSE": 6,
+      "MANIFEST.in": 7,
+      "README.rst": 8,
+      "appveyor.yml": 9,
+      "docs/Makefile": 10,
+      "docs/_static/gj-logo.png": 11,
+      "docs/_static/sorted.jpg": 12,
+      "docs/_static/sublist-lengths-add.mp4": 13,
+      "docs/_static/sublist-lengths-delitem.mp4": 14,
+      "docs/_templates/gumroad.html": 15,
+      "docs/_templates/sidebarintro.html": 16,
+      "docs/_templates/sidebarlogo.html": 17,
+      "docs/_themes/gj/layout.html": 18,
+      "docs/conf.py": 19,
+      "docs/development.rst": 20,
+      "docs/djangocon-2015-lightning-talk.rst": 21,
+      "docs/history.rst": 22,
+      "docs/implementation.rst": 23,
+      "docs/index.rst": 24,
+      "docs/introduction.rst": 25,
+      "docs/make.bat": 26,
+      "docs/paper.bib": 27,
+      "docs/paper.md": 28,
+      "docs/performance-load.rst": 29,
+      "docs/performance-runtime.rst": 30,
+      "docs/performance-scale.rst": 31,
+      "docs/performance-workload.rst": 32,
+      "docs/performance.rst": 33,
+      "docs/pycon-2016-talk.rst": 34,
+      "docs/sf-python-2015-lightning-talk.rst": 35,
+      "docs/sorteddict.rst": 36,
+      "docs/sortedlist.rst": 37,
+      "docs/sortedlistwithkey.rst": 38,
+      "docs/sortedset.rst": 39,
+      "pyproject.toml": 40,
+      "requirements.txt": 41,
+      "setup.py": 42,
+      "sortedcontainers/shims.py": 43,
+      "sortedcontainers/sortedlistwithkeypair.py": 44,
+      "sortedcontainers/tests/__init__.py": 45,
+      "sortedcontainers/tests/test_sortedlist.py": 46,
+      "src/sortedcontainers/__init__.py": 47,
+      "src/sortedcontainers/sorteddict.py": 48,
+      "src/sortedcontainers/sortedlist.py": 49,
+      "src/sortedcontainers/sortedset.py": 50,
+      "tests/benchmark.py": 51,
+      "tests/benchmark.sh": 52,
+      "tests/benchmark_plot.py": 53,
+      "tests/benchmark_scale.py": 54,
+      "tests/benchmark_sorteddict.py": 55,
+      "tests/benchmark_sortedlist.py": 56,
+      "tests/benchmark_sortedset.py": 57,
+      "tests/benchmark_splits_fill.py": 58,
+      "tests/issue_147.py": 59,
+      "tests/plot_lengths_histogram_add.py": 60,
+      "tests/plot_lengths_histogram_delitem.py": 61,
+      "tests/results_cython_sortedlist.txt": 62,
+      "tests/results_load_sorteddict.txt": 63,
+      "tests/results_load_sortedlist.txt": 64,
+      "tests/results_load_sortedset.txt": 65,
+      "tests/results_runtime_sorteddict.py": 66,
+      "tests/results_runtime_sorteddict.txt": 67,
+      "tests/results_runtime_sortedlist.py": 68,
+      "tests/results_runtime_sortedlist.txt": 69,
+      "tests/results_runtime_sortedset.py": 70,
+      "tests/results_runtime_sortedset.txt": 71,
+      "tests/results_sorteddict.txt": 72,
+      "tests/results_sortedlist.txt": 73,
+      "tests/results_sortedset.txt": 74,
+      "tests/sortedcollection.py": 75,
+      "tests/stress.bat": 76,
+      "tests/stress.sh": 77,
+      "tests/test_coverage_sorteddict.py": 78,
+      "tests/test_coverage_sortedkeylist_modulo.py": 79,
+      "tests/test_coverage_sortedkeylist_negate.py": 80,
+      "tests/test_coverage_sortedlist.py": 81,
+      "tests/test_coverage_sortedset.py": 82,
+      "tests/test_stress_sorteddict.py": 83,
+      "tests/test_stress_sortedkeylist.py": 84,
+      "tests/test_stress_sortedlist.py": 85,
+      "tests/test_stress_sortedlistwithkey_ordered.py": 86,
+      "tests/test_stress_sortedset.py": 87,
+      "tox.ini": 88
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1357192925,
+      "last_commit_ts": 1709334218,
+      "n_cochange_pairs": 236,
+      "n_commits_dropped_as_bulk": 27,
+      "n_commits_used": 605,
+      "n_files": 89
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "3ac358631f58c1347f1d6d2d92784117db0f38ed",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
