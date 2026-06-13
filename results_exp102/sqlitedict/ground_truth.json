@@ -1,0 +1,1950 @@
+{
+  "chain_hash": "8d5e73f24edde38e",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/workflows/python-package.yml||README.rst": 2,
+      ".travis.yml||sqlitedict.py": 3,
+      "README.rst||setup.py": 10,
+      "README.rst||sqlitedict.py": 10,
+      "README.rst||tests/test_core.py": 2,
+      "setup.py||sqlitedict.py": 10,
+      "sqlitedict.py||tests/test_core.py": 11,
+      "sqlitedict.py||tests/test_temp_db.py": 2,
+      "tests/accessories.py||tests/test_temp_db.py": 2,
+      "tests/test_core.py||tests/test_temp_db.py": 2,
+      "tests/test_named_db.py||tests/test_temp_db.py": 2,
+      "tests/test_named_db.py||tests/test_utils.py": 3
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "sqlitedict.py"
+        ],
+        "sha": "3d33b577546e5af81587521d3a6ea58239117811",
+        "timestamp": 1311085959
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "sqlitedict.py"
+        ],
+        "sha": "1246d07d91bc3642e2b1d517fa701e5d94fed75f",
+        "timestamp": 1311087617
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "sqlitedict.py"
+        ],
+        "sha": "78d984bfdc9929b97007e0e8622b6cc4ef92a194",
+        "timestamp": 1311088554
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "373e49bab180476ae583a804c1dcee781a7ad04a",
+        "timestamp": 1311559325
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "16971fa6ee208de7fa9be39c33835bfba7901285",
+        "timestamp": 1311559343
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "sqlitedict.py"
+        ],
+        "sha": "76c3b7251888dfabe5a0868336a978cdf2ceccd0",
+        "timestamp": 1313338347
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "cf951e44ec0d8b15425bed2c4456e8c7477b6857",
+        "timestamp": 1313497465
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "sqlitedict.py"
+        ],
+        "sha": "bf8b9eb00bf4f7bef6ec4e3477f0b75c5a87d235",
+        "timestamp": 1314115217
+      },
+      {
+        "files": [
+          "setup.py",
+          "sqlitedict.py"
+        ],
+        "sha": "44c9e27ad4dab8e4cb6e94de7bc640173aa51b90",
+        "timestamp": 1317808413
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "ccd27f33a25f5fe836ad7d74df96308724aea199",
+        "timestamp": 1317808692
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "f338c37fbe9a12306c63ea033c5a6a90b870de7e",
+        "timestamp": 1317812026
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "46a039aa20ba97d5725c8a6fc2fec83c3da9bbd7",
+        "timestamp": 1318247358
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fce040b1ae6888bb04faadede7cfa452385f303b",
+        "timestamp": 1318247443
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "dc8ce3085a353929fb0abddd97ef617be9b87d17",
+        "timestamp": 1322798133
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "7d44efc7846264f811eb7459e50218c7eab8c35c",
+        "timestamp": 1322798569
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "8d18101fe2447c7ff6c76fad000e5bf466880c08",
+        "timestamp": 1322951939
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "eee04643f474227a69ff9bcb266c344de04edfc9",
+        "timestamp": 1358601358
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "52bc464c9321f7f2c546f2416552bf31959d50c7",
+        "timestamp": 1358601763
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "7750651b2cc56f468f75d51daae1fa6284c5734d",
+        "timestamp": 1358602069
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "43607ab338d32aad6bc6ba3fb8937d27d012b6cd",
+        "timestamp": 1365621512
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "87d1ec296e9c55aa8702f872d1e6b8ca360bce98",
+        "timestamp": 1377389620
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "f9464d20d2d0a6e0ddd6b7be98dc1381021c8a16",
+        "timestamp": 1377391942
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1eb6b58cca0cc8b502bbf7301b24dff876e7ade6",
+        "timestamp": 1384471088
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c3385caf6ea73090a8481ff7ba744f648a21e9f7",
+        "timestamp": 1384476046
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1ffd1f77c1fd7f8e2b9b1d0e20cbb1b0a8cdba8f",
+        "timestamp": 1400395106
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "1e34c02725150bdb002297f27229551da7c8662e",
+        "timestamp": 1400395402
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "fad0ac46e1fe030d3dd2e9e7ac6d7c7d7f9fdaf8",
+        "timestamp": 1400395490
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c1cd72863916d215efbeb2f212f78ffb8d4912f9",
+        "timestamp": 1400445921
+      },
+      {
+        "files": [
+          "tests/test_utils.py"
+        ],
+        "sha": "1087eeae264254e3ef67984a8bc375e1acc5d63e",
+        "timestamp": 1400446943
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "7abda30d490022fff6ae576325f8ba6222b053c8",
+        "timestamp": 1400447005
+      },
+      {
+        "files": [
+          "tests/test_named_db.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "922197128c843fc3210fd8e795568ae728fd2788",
+        "timestamp": 1400449892
+      },
+      {
+        "files": [
+          "tests/test_named_db.py"
+        ],
+        "sha": "52f7b8ae8ce797718826f7c6cd84201dfb6cdc9f",
+        "timestamp": 1400475203
+      },
+      {
+        "files": [
+          "tests/test_named_db.py",
+          "tests/test_temp_db.py"
+        ],
+        "sha": "35908eddd8c09c22a8962da3f020b7deeb905f85",
+        "timestamp": 1400480602
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "885cac76d90d97f1165a323055d5d5774895ef47",
+        "timestamp": 1401544781
+      },
+      {
+        "files": [
+          "tests/test_named_db.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "4d1a7c54ce6b6ae3d4dbf5fcba6afea1e9840a87",
+        "timestamp": 1401544864
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "87408dbc8b7f88205d3488aa847d001028de518c",
+        "timestamp": 1401544909
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "ce54fcc0ca167098cbefc1cd0e0af8c8c5d11d82",
+        "timestamp": 1401549631
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "c3703e8e4518fde263c11d71dc28a546e1a27351",
+        "timestamp": 1401549657
+      },
+      {
+        "files": [
+          "tests/test_named_db.py"
+        ],
+        "sha": "f0ebeb6a5a443732bf17d01de1247fc5aaf118c1",
+        "timestamp": 1401617602
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "02ea6d114d920bb67196fe7903363f006e6f6f83",
+        "timestamp": 1401618350
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c002c8dc9284dd879ab383e7c13cf39a24a92efb",
+        "timestamp": 1401618365
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "098143a22b567f64351ffba7e10e63aa0f93e04f",
+        "timestamp": 1401618802
+      },
+      {
+        "files": [
+          "tests/test_named_db.py",
+          "tests/test_temp_db.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "d91f68e1cb03a4eeb2a28fb5df7a9b67be5cffb2",
+        "timestamp": 1401619423
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "sqlitedict.py"
+        ],
+        "sha": "8116b4e7ec0eb6abc896165e980d8ca21630931c",
+        "timestamp": 1401619441
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "9a83042d1ee721d504fbff90393e6f688dd5d5f7",
+        "timestamp": 1403158271
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_named_db.py"
+        ],
+        "sha": "bc5889e333b8d37d8e41ed788f21ce4117fb5f0a",
+        "timestamp": 1403292946
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a614b53c457ecea9380cc24ad1e7f9ba59cc2e71",
+        "timestamp": 1403349176
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "09214e3ad97b2f50eea2b58eb6e8580e772fff8e",
+        "timestamp": 1405763769
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "cb9871370d1a138063531b1f3bb8f03d27d945ac",
+        "timestamp": 1405764101
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "49d3cfe66c892a818c96caec8f7499f01dee28bc",
+        "timestamp": 1405879006
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "ea4b71406c6819c3e6ebfb6454398ba7f845dad2",
+        "timestamp": 1405880436
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_temp_db.py"
+        ],
+        "sha": "3e4f5745b18a163c96e72a45ddddcc0252b602fd",
+        "timestamp": 1405885858
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "1463071216d8283346a5f4faafe000de8a4265a9",
+        "timestamp": 1405962364
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "56549c5ac300eac2668ce185cbc180d06c909459",
+        "timestamp": 1405971464
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "ce5e86bb2e6538d6ddc955187644b6127f5cc929",
+        "timestamp": 1405971684
+      },
+      {
+        "files": [
+          "tests/test_temp_db.py"
+        ],
+        "sha": "a239c436ba64339fbf2d5bb37364a6aa0545ce52",
+        "timestamp": 1405971971
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "7bdfc196ca36420bad68294a226e687d0e2575d4",
+        "timestamp": 1405972456
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "b61af746e5102df4649f024ab504f2f3610962f2",
+        "timestamp": 1405972811
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "488b98982b5aebecfbee24b84b96337a5d680f2d",
+        "timestamp": 1405972938
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "ac026ff548ef5f4dbba27036134a4c7d6646de41",
+        "timestamp": 1405973175
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "2cf9b6ef84a0f0b362318530bcbab3277de40fb8",
+        "timestamp": 1405975704
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "32fe1c6a7df975efd2814442ebcb65142426c7bd",
+        "timestamp": 1405976080
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "sqlitedict.py"
+        ],
+        "sha": "f145121403852a144b59dfa6cce964e73d551b3b",
+        "timestamp": 1406051423
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "sqlitedict.py"
+        ],
+        "sha": "51bc210cb79a5b197bf6d3b83556b49c92199cd9",
+        "timestamp": 1406052084
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "7a1bb2a16e5155b9fa9e92d61f7acae11c1fa860",
+        "timestamp": 1406053789
+      },
+      {
+        "files": [
+          "tests/test_temp_db.py"
+        ],
+        "sha": "afffa80f64260c5eb43aaafde460c4e0a6bbf014",
+        "timestamp": 1406054550
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "877c5449d6a8b94226d29b798dfb9d0147d40249",
+        "timestamp": 1406055124
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "52649473b8ca209e6b7a19397379bd0fabcb54e8",
+        "timestamp": 1406055485
+      },
+      {
+        "files": [
+          "tests/test_temp_db.py"
+        ],
+        "sha": "57f310b3220f4705df39d3b079a22389f4d9de95",
+        "timestamp": 1406056003
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "d7e7d5e709b732b4b98845e3db88c0c819c77619",
+        "timestamp": 1406056547
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8ea0f1e9c65ef5a526dd2a4e0d7b14619eef0787",
+        "timestamp": 1406491207
+      },
+      {
+        "files": [
+          "README.rst",
+          "sqlitedict.py"
+        ],
+        "sha": "0bed18278be19ac05275f475ffda8e696b7aa96d",
+        "timestamp": 1423303737
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "92776c143c1060e12c920341df2cef180a6bcba6",
+        "timestamp": 1423304127
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8e89aec2cc8f5124c5c6dab09ebdd137567805e2",
+        "timestamp": 1423304731
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "258224035e9858abfff26efd0208fce44e4d78c1",
+        "timestamp": 1423305335
+      },
+      {
+        "files": [
+          "README.rst",
+          "sqlitedict.py"
+        ],
+        "sha": "6163b8b7c40bb2a320120fce76a5678e1880b467",
+        "timestamp": 1423305752
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "2697ef5b463f432f729b71e9530cca6cedccc859",
+        "timestamp": 1423306450
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "978ad93fa46b43b7b3d31f0fbfde4fe77d561d5c",
+        "timestamp": 1423306459
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3b29ee635d8c21e7193c743d12744bbfc878059b",
+        "timestamp": 1423307418
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b844bb56b9124f6cbadca989d62b73d256b4e750",
+        "timestamp": 1423307789
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "27c3bf1001e22858f471c96f2f8b090ed7063c3b",
+        "timestamp": 1423307847
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "56d086945d583cf793c3d6c87c19c1f778fece1e",
+        "timestamp": 1423327727
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "43d94ff2389a8c4b3e361abc75c94709e8b37259",
+        "timestamp": 1423331137
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "fd55fb9657d9c75e79bf67a244045b65fac5a536",
+        "timestamp": 1429581786
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "de6432b13ab19f1ff261550f9d4299762f952aa1",
+        "timestamp": 1429581796
+      },
+      {
+        "files": [
+          "tests/test_temp_db.py"
+        ],
+        "sha": "203c5032b07428b598d3e3102907f23fe522717b",
+        "timestamp": 1429581838
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "0586043d1a97b56bb1e23df7dfd7f8556fbc5a19",
+        "timestamp": 1429582907
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_keytypes.py"
+        ],
+        "sha": "ae96b081af56f1b6cb3462ab1e45895ac5d6d4db",
+        "timestamp": 1429583706
+      },
+      {
+        "files": [
+          "tests/accessories.py",
+          "tests/test_keytypes.py"
+        ],
+        "sha": "85ae2d901ed4f7e025f579ad1c3bd69f014b5453",
+        "timestamp": 1429584856
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "f77b8ef43b8bc36b2a015117998e7d18fc6e9728",
+        "timestamp": 1429584903
+      },
+      {
+        "files": [
+          "tests/accessories.py"
+        ],
+        "sha": "f227b5fcc5d327ae563b4dec1fdc1f4b31dd8d58",
+        "timestamp": 1429585033
+      },
+      {
+        "files": [
+          "tests/accessories.py"
+        ],
+        "sha": "5c6eae358ac1f28468c43c64768e0cfd67efb707",
+        "timestamp": 1429586411
+      },
+      {
+        "files": [
+          "tests/accessories.py",
+          "tests/test_onimport.py",
+          "tests/test_temp_db.py"
+        ],
+        "sha": "78c4639f16a25b8510cfda24006a68d666b614de",
+        "timestamp": 1429586677
+      },
+      {
+        "files": [
+          "tests/accessories.py",
+          "tests/test_core.py",
+          "tests/test_temp_db.py"
+        ],
+        "sha": "d7270db3ecc246ea251fc223952c7ee530c97020",
+        "timestamp": 1429587476
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "7f3e50fe96a3bdb104fd3e2012befda0c4ce35aa",
+        "timestamp": 1429587484
+      },
+      {
+        "files": [
+          "tests/test_onimport.py"
+        ],
+        "sha": "517028a1bbe4416a381fbdc5404ede989b900cc4",
+        "timestamp": 1429588215
+      },
+      {
+        "files": [
+          "tests/test_onimport.py"
+        ],
+        "sha": "887c03c24b72090b8df17c6bcfca3cef2b96a2eb",
+        "timestamp": 1429589274
+      },
+      {
+        "files": [
+          "tests/test_onimport.py"
+        ],
+        "sha": "c43bbfc1d57a48d8e164dd587638b7c5471ba9f0",
+        "timestamp": 1429589635
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "ec7db7cbba072b79b9a9917a0f96de8ddcfe8738",
+        "timestamp": 1429590584
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "7a1f5d882d67c88050fac78b3cc395b2ddb6f7f1",
+        "timestamp": 1430840086
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f61d6e5b898104d23140ff9ed93dd1b09fe7c105",
+        "timestamp": 1430840098
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0bbe407d00b81afc0e0b84e864405321ef3b7073",
+        "timestamp": 1430840288
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "98c7395367854b7b56e152d60d82973a84278293",
+        "timestamp": 1440393010
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "932f890f3af09fe4769c22f4ced959acc4bb7eb3",
+        "timestamp": 1440393589
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "41343cd289314b356e48f57ee1e6515becb2aea1",
+        "timestamp": 1441204686
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "8e8a62761ac8a9bc5604e9c5ae70c8739862ab83",
+        "timestamp": 1441205274
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9351e482f9410c9bf5993b1bc8304d21a594228c",
+        "timestamp": 1441205293
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tests/test_keytypes.py",
+          "tests/test_temp_db.py"
+        ],
+        "sha": "b1bc1b3964a4b42dd2741d10a1c62cf2003434fe",
+        "timestamp": 1441206592
+      },
+      {
+        "files": [
+          "tests/test_keytypes.py"
+        ],
+        "sha": "8d4da9061dbedeec8199562ff63d053eef803b7b",
+        "timestamp": 1441206906
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "043c6b93071fa119a28e29936ed503d1141e9972",
+        "timestamp": 1441243747
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_core.py"
+        ],
+        "sha": "8eae68f4b2073489488473eb08f8e8dfe000611a",
+        "timestamp": 1443910146
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "4a33d980af9080f712653ebf303f4e03637adf39",
+        "timestamp": 1443910367
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "515cf6b38e4078f8ef4ddcfc5d296b953dce917b",
+        "timestamp": 1443910724
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "d6cbbc0548d31307bc07f154f3e7685a2404011e",
+        "timestamp": 1443912037
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "03c6055302325852d5ab5caeca2b4b5910885b4d",
+        "timestamp": 1444072633
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_core.py"
+        ],
+        "sha": "073e854fd8e71d30674f37606672b98fec53b9e9",
+        "timestamp": 1444659069
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_core.py"
+        ],
+        "sha": "262a3d8428f2c4eb256f873e8bdc11fc868be5b9",
+        "timestamp": 1444662721
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "4057fbd1cfae9f1f1333b1a8e12d25c77ba6a647",
+        "timestamp": 1445525775
+      },
+      {
+        "files": [
+          "setup.py",
+          "sqlitedict.py"
+        ],
+        "sha": "adbb5c6ded1b1d853d43deb4962d30962ec319ab",
+        "timestamp": 1448543989
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "69a417ec06509d0ccae777e22dd5d7f46770bb8c",
+        "timestamp": 1448544568
+      },
+      {
+        "files": [
+          ".gitignore",
+          "sqlitedict.py",
+          "tests/test_core.py"
+        ],
+        "sha": "240ad91349d62bc68a5415b86c8cb43862c8fff1",
+        "timestamp": 1449407613
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "4690bd7ce48e119475f09cde9c65dee14feb3afa",
+        "timestamp": 1462656085
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e7f73bf0fcfa00724ad400b4615f637c4636ed15",
+        "timestamp": 1462656177
+      },
+      {
+        "files": [
+          "tests/test_temp_db.py"
+        ],
+        "sha": "a0eade9c692699d41a75eb05a4f59589b186493f",
+        "timestamp": 1463221339
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "f4c7782f48ef6e4436785f0976cc6271603dc7f8",
+        "timestamp": 1463221529
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "9cc6dd3be9fb00fb5569347b44412067d5e2ae19",
+        "timestamp": 1463329713
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "README.rst"
+        ],
+        "sha": "0fc5f20ae42208993da0f073d6e6754574fb33f0",
+        "timestamp": 1463334557
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "9668c1744f8ea002e79a6b2a3b229d32b5ed85f1",
+        "timestamp": 1466083840
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "62eb76c5a81c21d89dcb912089bbb6e5f3f7eb06",
+        "timestamp": 1466084106
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_core.py"
+        ],
+        "sha": "1b9aa4c15aade82e6ca2de5a47fc7d21326c89f5",
+        "timestamp": 1466084121
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c7a88c6373bb2a35861ccac61778a3fabae1ae54",
+        "timestamp": 1466565363
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f4f2fe4d0699362af4fabd272f7fc581142005cd",
+        "timestamp": 1466565452
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "bb212154844d11a22f9cff4bd7887483ae5b5cdb",
+        "timestamp": 1467152072
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_core.py"
+        ],
+        "sha": "aad07417e2fc274527e558484a9c997fa762d38f",
+        "timestamp": 1470008297
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "c4f62b4b5371daa7f392c2fbff16dae1093ae95a",
+        "timestamp": 1470731473
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "2d29a9836aba17f36a0e6157c8ad1c5f11f8b8e6",
+        "timestamp": 1470732736
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "d5d5173aa1210c8fa59b5a341300785ddef260d3",
+        "timestamp": 1470743437
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "998fa085e4fdf7bd743dbd9dec253647edb77d63",
+        "timestamp": 1472230708
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a3fd25ace53d139e6ab653c3e9786f3002597e7d",
+        "timestamp": 1472230878
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e4e8a943186ff5642de6ec75306c82493cff0124",
+        "timestamp": 1475157373
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "49b42eccad12cbc388d1214554c3eb09fd8cc70f",
+        "timestamp": 1478300869
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "e218da2eec0d6c2f45a1cdbc95f5adea3efdc936",
+        "timestamp": 1483817906
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f1235973f430bc874a40fc02b39088a5683df1b0",
+        "timestamp": 1483894099
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "1140cc3249cbc5fe2f31e02fa5ccc76d7e1a6fce",
+        "timestamp": 1483896994
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "361f867a625ad49ffb9b36766a2aaf698c55a301",
+        "timestamp": 1483897326
+      },
+      {
+        "files": [
+          "README.rst",
+          "sqlitedict.py",
+          "tests/test_core.py"
+        ],
+        "sha": "a2ade7fa7d6f90946f42ae342b32585d384d4c9c",
+        "timestamp": 1486553060
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "9a1163b06261ea7584f10a6be602f16d6d7c74c6",
+        "timestamp": 1487030645
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4dd5e7b5c8f189ffa0ecfcfbc665c2eb74f75fd3",
+        "timestamp": 1487030938
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_core.py",
+          "tests/test_temp_db.py"
+        ],
+        "sha": "289c02219d2f5ac29bc4769a30b8d76729e1dc24",
+        "timestamp": 1516954237
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9be7885eb9c7afbc5ddd2fbc4bff2f69e91802aa",
+        "timestamp": 1523188703
+      },
+      {
+        "files": [
+          "LICENSE.rst"
+        ],
+        "sha": "9218289e427cb7e2cdd28d89f4a75bd849ca95bf",
+        "timestamp": 1527177056
+      },
+      {
+        "files": [
+          "LICENSE.md"
+        ],
+        "sha": "33c498c754331c8b1f838e634833b3d64277ffc3",
+        "timestamp": 1527177099
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "4c27d42b5d0d5115ee486be97279cbffb3691677",
+        "timestamp": 1527177141
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ede8ae9092581b538da0312f16cec81df457c392",
+        "timestamp": 1532945758
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "817eb910f7da1acae91c8d39b66037560b5ab090",
+        "timestamp": 1537251971
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "0e76830de71f87eabd6489882a272a90c31d9e77",
+        "timestamp": 1537252349
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "39e2020ade12aa3e248dcda907ea8a15a5e7d004",
+        "timestamp": 1553435873
+      },
+      {
+        "files": [
+          "tests/autocommit.py"
+        ],
+        "sha": "70dd9eac268402890dd6e63ff65c441e94cd913b",
+        "timestamp": 1565825736
+      },
+      {
+        "files": [
+          "LICENSE.md",
+          "LICENSE.rst"
+        ],
+        "sha": "63a790fd25f5b84d19a94d917d3189fd486b2e03",
+        "timestamp": 1566333378
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "3a98a312c459cd8275d655a30c33bab714395c2f",
+        "timestamp": 1566344161
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "053f3765c26ea164f3f94c2dbf74b78d7af84b9e",
+        "timestamp": 1577628205
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "001076aef3e25598c1460049055c9206f887411e",
+        "timestamp": 1577628764
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "338adbe2506f9fca7cfb0e051cf455267f4958ff",
+        "timestamp": 1577629429
+      },
+      {
+        "files": [
+          "tests/autocommit2.py"
+        ],
+        "sha": "ac94b36fedbd7996402422079f7a646029d5e6b3",
+        "timestamp": 1577630152
+      },
+      {
+        "files": [
+          "tests/autocommit2.py",
+          "tests/sqlitedict.py",
+          "tests/test_autocommit.py"
+        ],
+        "sha": "d345a670f599d87fcd3aee862cd514c572753a02",
+        "timestamp": 1577636752
+      },
+      {
+        "files": [
+          "tests/test_autocommit.py"
+        ],
+        "sha": "07b18d7e076c7a683ca57cd601cd9660610464c1",
+        "timestamp": 1577637156
+      },
+      {
+        "files": [
+          "tests/test_autocommit.py"
+        ],
+        "sha": "3fce2afe3c21cf95fe320d9a4296de3190d1b608",
+        "timestamp": 1577743171
+      },
+      {
+        "files": [
+          "tests/test_autocommit.py"
+        ],
+        "sha": "f9a9f2ada738e62e0f80d00dd734aa04b53ee1ff",
+        "timestamp": 1577743253
+      },
+      {
+        "files": [
+          "tests/test_autocommit.py"
+        ],
+        "sha": "39e2aded760389ea14bd18be88f7b13ef2ab08ad",
+        "timestamp": 1577743360
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "a7b83cd17a18b0d5a2165e8d70b0b04ac9b5454e",
+        "timestamp": 1581421535
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "7b06f853a324190b8a7aac532893c0aae55514b4",
+        "timestamp": 1582301619
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_core.py"
+        ],
+        "sha": "5dfb4fe31f2d1a1a30712aeef3e46232c3dabcd1",
+        "timestamp": 1593918471
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "23359abf007f841b72864a115f2ee0e3910d5816",
+        "timestamp": 1594002791
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "2e8d03ba0a3c77d4fab165db4c56198699e23068",
+        "timestamp": 1594004343
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "88a3ed472235e6988dc2be1538873b376c0cb374",
+        "timestamp": 1594004359
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "3e424e6ca57fa31caefd500d6cabe6994c03cfaf",
+        "timestamp": 1594004359
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "6b516ea7567283bf0fdd81a7cbc3a814029eefcd",
+        "timestamp": 1594087888
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "b9ea6f99eee3d4ba73caf5823eafd62cc3590757",
+        "timestamp": 1594088598
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "ac3b258d4287c944dbb96e5627dcf894c1bcf3a2",
+        "timestamp": 1597983675
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "8b241df52e3962654e5cec995507c5ae50f11d5f",
+        "timestamp": 1597983684
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "325c45bbbfb3f4822fa1da8b551527a54f851235",
+        "timestamp": 1597983754
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "b5d2318ee9d8a572125ac3dfb107243dc2f9225c",
+        "timestamp": 1599194352
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "3cb5e5a7b6b956efddd6c76ed6ed09aff8641f0d",
+        "timestamp": 1599194502
+      },
+      {
+        "files": [
+          "release/summarize_pr.sh"
+        ],
+        "sha": "7c3ceb92fa9a75d66b113ace492b4c6e8bd2ad16",
+        "timestamp": 1599194507
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py",
+          "sqlitedict.py"
+        ],
+        "sha": "61197a7b3efea07d23c93287954b18c24d1b2c22",
+        "timestamp": 1599194686
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "ca6758fadd55e4ee7f36b26e3a39558954e91bc6",
+        "timestamp": 1599195110
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "17b297c6e03b1ba5670ecc7105f1a43f2c6af2ef",
+        "timestamp": 1601844501
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d90448fe8b1c764987c81e2d83b396560e549486",
+        "timestamp": 1601844790
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "998525832605e104f34dab81507b14edf44e4b89",
+        "timestamp": 1601884666
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "da570ee372f395356192add3179af8f40b8afc93",
+        "timestamp": 1601885016
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e54e22be56bafc8c1d7d61fc7f396076da7ce1b9",
+        "timestamp": 1601885340
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "cb38a8d1280bc911e979ac31d239fe6371c36c5f",
+        "timestamp": 1601885710
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0f924fe3ece31c3db0e46bfd483bdb154316d9f7",
+        "timestamp": 1601889395
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "965b9639f431525b554bb66d78e9169886edb4f9",
+        "timestamp": 1601889586
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c3b26b1dd1dd628a7a9fb686d6196d326717d0d8",
+        "timestamp": 1601890056
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0f6a62527b160f7ab546a4e3bf05ca7154e1470f",
+        "timestamp": 1601943058
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c9483c3c4dcfe127c73cc4561fff63a123061cda",
+        "timestamp": 1601976898
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6858afef312d69827ec0c94e772d94088c74ee80",
+        "timestamp": 1601978453
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e5cd546b7abe20dbf14799bb5b171fada4b59c63",
+        "timestamp": 1603284813
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e6a81f0558b6aa0e4bf4984466c6373d3aee2b52",
+        "timestamp": 1603286002
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "efef936e54fd943cc13fba69e88a4896e0d01bae",
+        "timestamp": 1609792482
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "474015a1d634566570a49acfcf2520bd38212c20",
+        "timestamp": 1610004683
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "f118fae9d127caf80bde07a22916d0a8d0973a00",
+        "timestamp": 1610135315
+      },
+      {
+        "files": [
+          ".github/workflows/python-package.yml",
+          ".travis.yml"
+        ],
+        "sha": "c790c5fc0180d0effe94fdc4a50147d6d975e4ec",
+        "timestamp": 1610164505
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "f3cf65f79df44caf51f9d0db49d43391e269ad3d",
+        "timestamp": 1610164602
+      },
+      {
+        "files": [
+          ".github/workflows/python-package.yml"
+        ],
+        "sha": "946eb83264447c3ccf4471f86664dae18e149dcf",
+        "timestamp": 1610164688
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "704a600a2a9ff35870973f7fe452978dd5b684e4",
+        "timestamp": 1610164906
+      },
+      {
+        "files": [
+          "release/annotate_pr.py",
+          "release/summarize_pr.sh",
+          "sqlitedict.py"
+        ],
+        "sha": "70ae1b6941c2c785d4c2d7bd5c4014bf29f31516",
+        "timestamp": 1610165292
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "e3dab7a4cb89cae0185b5b5e60ba51e03a780b73",
+        "timestamp": 1610165312
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "70a1ec1e3c63e520785ea5f334f45efa31426a7f",
+        "timestamp": 1610165753
+      },
+      {
+        "files": [
+          ".github/workflows/python-package.yml"
+        ],
+        "sha": "a77f5611cbe28ed25d0b5cfb0a41b67aaffe6f00",
+        "timestamp": 1610165799
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8df87f1480dbcd5b6ce6c4dd22adc2add485eeca",
+        "timestamp": 1610165894
+      },
+      {
+        "files": [
+          ".github/workflows/python-package.yml",
+          "README.rst"
+        ],
+        "sha": "ed653edda4a56ae6c7356209afe3807f858a9742",
+        "timestamp": 1610166072
+      },
+      {
+        "files": [
+          ".github/workflows/python-package.yml",
+          "README.rst"
+        ],
+        "sha": "f9d408b02ef130e45c78e66be88c60d1a6079f71",
+        "timestamp": 1610166463
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "60456778167b2902c35ab936ae5a571ae562321e",
+        "timestamp": 1610171470
+      },
+      {
+        "files": [
+          ".github/workflows/python-package.yml",
+          "sqlitedict.py",
+          "tests/test_autocommit.py"
+        ],
+        "sha": "c8dd98084e208b92011a3ef519275336382bfdfd",
+        "timestamp": 1610172049
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "7795ec1c47b1389918ebcf87ca15e990ed3c6322",
+        "timestamp": 1610172564
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "55478d71cf8f748728cfaba69c72e2b0fca45a13",
+        "timestamp": 1611498446
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "074772f09d49a59acb21477540142f264f33cff1",
+        "timestamp": 1611498467
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "ca856de1df0fbfaec8fedf3ce262cb700cc2120c",
+        "timestamp": 1611499116
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "0dfcadb9cf66660cca6865aac6f06ec5ecd195cb",
+        "timestamp": 1611499161
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "d5db9e67ecfd9908c06efa9d7a4a9e3e9145550c",
+        "timestamp": 1611499221
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "90c16aeaaa69c831c7f71370d560e880c5d630ae",
+        "timestamp": 1611500148
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "bb8087ceb4408c0e10e3591912a7596b9448358d",
+        "timestamp": 1611533679
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "9171bc62deede1f68a372634b03505a911b6d4b0",
+        "timestamp": 1611987923
+      },
+      {
+        "files": [
+          ".github/workflows/python-package.yml"
+        ],
+        "sha": "3f2df9bb557e3351bc16843612e9090d7f5ba784",
+        "timestamp": 1611988134
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2a5e8d3f92715eecf69472857307f91f93858094",
+        "timestamp": 1634993818
+      },
+      {
+        "files": [
+          ".github/workflows/python-package.yml",
+          "setup.py"
+        ],
+        "sha": "12f023652674cd9e061c806fd1d50e3c1958f68d",
+        "timestamp": 1645251631
+      },
+      {
+        "files": [
+          "README.rst",
+          "sqlitedict.py"
+        ],
+        "sha": "23cf5e669703cd05fb4004ed7d629c073e9e1213",
+        "timestamp": 1645761196
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "1f137f2777f0a0230ab520c4b357e0e8ab029bb7",
+        "timestamp": 1645761755
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "ca37aee148d3baa31b27d35652c7e8dc1d0cfe1f",
+        "timestamp": 1646399044
+      },
+      {
+        "files": [
+          "setup.py",
+          "sqlitedict.py"
+        ],
+        "sha": "e9489abac1024d3f84c6b68eaa30b9b8d349a9b2",
+        "timestamp": 1646399213
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "70dad936f1ee6b6ae4b6cf830df40f648a26106d",
+        "timestamp": 1650632137
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "70daed41365af9e04a76046edb1f561c7bf69ef1",
+        "timestamp": 1650632227
+      },
+      {
+        "files": [
+          "tests/test_onimport.py"
+        ],
+        "sha": "c2588d9004176779a78a04811a6caa9e132e66eb",
+        "timestamp": 1650632321
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "fdaf06167eebbd22ecd6932ac54487d4f3db1713",
+        "timestamp": 1650632402
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "f502472edb19d513249c6a601f28ea2c575535f4",
+        "timestamp": 1661158345
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "c0a6f7fdcad7994b4c3f1b1612e0065be3dffbce",
+        "timestamp": 1661238573
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b639db952c1df3d27ac388882f1cdbec8c611929",
+        "timestamp": 1661357912
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_core.py"
+        ],
+        "sha": "ff03e901ac3bb85c713cdef63f125edf517a8059",
+        "timestamp": 1666387976
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "1e5028ee3d2d2777076e73cb36eddd917a3fb1d9",
+        "timestamp": 1666454204
+      },
+      {
+        "files": [
+          "sqlitedict.py",
+          "tests/test_core.py"
+        ],
+        "sha": "f0553c12ef3015b851d63aac389f4604ce523d45",
+        "timestamp": 1666541073
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "29491de6a3c3d108caeead84da7d7822b0e28926",
+        "timestamp": 1666541394
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "a2cfb05b893cb6159ae22027ae6b6a7af2035577",
+        "timestamp": 1667512884
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "5d3bb0384f29ae2475aa1fca9fef9d606492456b",
+        "timestamp": 1669002142
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "5b431a0fc11a25706af92f2c96dc6cf465f3441f",
+        "timestamp": 1652603579
+      },
+      {
+        "files": [
+          "tests/test_autocommit.py"
+        ],
+        "sha": "32d8604b3a2a2185c8e48d67b2045ac3b0d37edc",
+        "timestamp": 1669144714
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "985a513ae11316a38dd2e7b1a2421454cd0beea3",
+        "timestamp": 1669180343
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "5957d4da0f87adae3c271225fb5acce814aceee3",
+        "timestamp": 1669376789
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "b7f47303a8d768667e545a7a6ca99d757c3e2c97",
+        "timestamp": 1669377122
+      },
+      {
+        "files": [
+          "sqlitedict.py"
+        ],
+        "sha": "8545a174a4a32bd2f8eb7c17d89899370138fe3a",
+        "timestamp": 1669480305
+      },
+      {
+        "files": [
+          "README.rst",
+          "tests/test_core.py"
+        ],
+        "sha": "ec15ad78672bdfc3cf545fe2bd393d6af509479c",
+        "timestamp": 1669973171
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "12f103d57a2dd236cf9dc43744ab6f517b07f65f",
+        "timestamp": 1670073851
+      },
+      {
+        "files": [
+          "MAINTAINERS.md",
+          "setup.py"
+        ],
+        "sha": "e56cf0cf6bc7499cd8e12618d7022a8bc614d90a",
+        "timestamp": 1670074222
+      },
+      {
+        "files": [
+          "MAINTAINERS.md"
+        ],
+        "sha": "96e81621fd6ab094efdd86e70fd57efe9d40ca12",
+        "timestamp": 1670074919
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 3,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/workflows/python-package.yml": 0,
+      ".github/workflows/release.yml": 1,
+      ".gitignore": 2,
+      ".travis.yml": 3,
+      "CHANGELOG.md": 4,
+      "LICENSE.md": 5,
+      "LICENSE.rst": 6,
+      "MAINTAINERS.md": 7,
+      "MANIFEST.in": 8,
+      "Makefile": 9,
+      "README.rst": 10,
+      "release/annotate_pr.py": 11,
+      "release/summarize_pr.sh": 12,
+      "setup.py": 13,
+      "sqlitedict.py": 14,
+      "tests/accessories.py": 15,
+      "tests/autocommit.py": 16,
+      "tests/autocommit2.py": 17,
+      "tests/sqlitedict.py": 18,
+      "tests/test_autocommit.py": 19,
+      "tests/test_core.py": 20,
+      "tests/test_keytypes.py": 21,
+      "tests/test_named_db.py": 22,
+      "tests/test_onimport.py": 23,
+      "tests/test_temp_db.py": 24,
+      "tests/test_utils.py": 25
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1311085959,
+      "last_commit_ts": 1670074919,
+      "n_cochange_pairs": 12,
+      "n_commits_dropped_as_bulk": 7,
+      "n_commits_used": 255,
+      "n_files": 26
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "96e81621fd6ab094efdd86e70fd57efe9d40ca12",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
