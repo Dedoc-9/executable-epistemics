@@ -113,7 +113,7 @@ $repos = @(
     [pscustomobject]@{ id="D087"; slug="asweigart/pyperclip" },
     [pscustomobject]@{ id="D088"; slug="dbader/schedule" },
     [pscustomobject]@{ id="D089"; slug="aio-libs/aiodns" },
-    [pscustomobject]@{ id="D090"; slug="pyca/pyotp" },
+    [pscustomobject]@{ id="D090"; slug="pyauth/pyotp" },
     [pscustomobject]@{ id="D091"; slug="pypa/cachecontrol" },
     [pscustomobject]@{ id="D092"; slug="agronholm/typeguard" },
     [pscustomobject]@{ id="D093"; slug="keleshev/docopt" },

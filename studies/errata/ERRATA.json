@@ -244,5 +244,16 @@
     "corrected_statement": "bitarray/bitarray does not exist on GitHub (clone returned 'Repository not found'). The bitarray library is hosted under the ilanschnell user account: ilanschnell/bitarray. Corrected pre-clone. Non-instrument erratum. Declaration hash updates accordingly.",
     "filed": "pre-clone",
     "instrument_affected": false
+  },
+  {
+    "erratum_id": "E-028",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-102",
+    "repo_id": "D090",
+    "slug_declared": "pyca/pyotp",
+    "slug_corrected": "pyauth/pyotp",
+    "corrected_statement": "pyca/pyotp does not exist on GitHub (clone returned 'Repository not found'). The pyotp library is hosted under the pyauth organization: pyauth/pyotp. Corrected pre-clone. Non-instrument erratum. Declaration hash updates accordingly.",
+    "filed": "pre-clone",
+    "instrument_affected": false
   }
 ]
