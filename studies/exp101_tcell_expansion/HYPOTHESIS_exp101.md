@@ -92,12 +92,16 @@ for flagship/dominant-author architectures and is not a general-purpose populati
 ## 7. Compute script
 
 - File: studies/exp101_tcell_expansion/compute_moderators_exp101.py
-- SHA-256: b55547a20d7583aef171dad371acf608620653dd1665874c4d961a31f133de44
-- E-018: M₃ (Galois closure diameter) added as observational metadata field.
-  M₃ NOT used for T-cell classification in EXP-101. T-cell definition
-  unchanged: M₁ > 0.858675 AND M₂ < 7.702891. Threshold for M₃ to be
-  preregistered in EXP-102. §C budget unchanged (non-instrument erratum).
+- SHA-256: ac9995225e59ba156d2163a33d940f9290d34f2ca3bfa8fd809b46ddb1d946dd
+- E-018: M3 (Galois closure diameter) added as observational metadata field.
+  M3 NOT used for T-cell classification in EXP-101. T-cell definition
+  unchanged: M1 > 0.858675 AND M2 < 7.702891. Threshold for M3 to be
+  preregistered in EXP-102. Section-C budget unchanged (non-instrument erratum).
+- E-024: Truncation repair of E-018 write (file cut at line 177). Docstring
+  Unicode chars replaced with ASCII equivalents. Computation unchanged.
+  Section-C budget unchanged (non-instrument erratum).
 - SHA-256 (pre-E-018): 8c0d3236490093b9a27dea0c70a2837e013cf23efcf0fd34ba98804415a58547
+- SHA-256 (E-018, truncated): b55547a20d7583aef171dad371acf608620653dd1665874c4d961a31f133de44
 - Inputs: REPO_DECLARATION_exp101.json, results_exp101/*/ground_truth.json,
           tests_epi/exp101/ clones (for git log)
 - Output: studies/exp101_tcell_expansion/moderators_exp101.json
