@@ -148,5 +148,18 @@
     "declaration_hash_new": "cf2e57592456a78fdebf59c28790682fa3bfc82ba951d159eeac125c2a98784e",
     "corrected_statement": "SLUG CORRECTION for C012: REPO_DECLARATION_exp101.json listed pyzmq/pyzmq which does not exist on GitHub (clone returns 404 'Repository not found'). The correct org prefix is zeromq (not pyzmq). The intended repository is zeromq/pyzmq (Python bindings for ZeroMQ, Min Ragan-Kelley primary author, github.com/zeromq/pyzmq). Discovered at C012 clone attempt during batch run. Same defect class as E-014 and E-017. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). REPO_DECLARATION_exp101.json and run_batch_exp101.ps1 corrected to zeromq/pyzmq. Declaration hash recomputed. NOT a mechanical unavailability event; replacement queue slots unchanged.",
     "supersedes": "REPO_DECLARATION_exp101.json C012 slug (pyzmq/pyzmq)"
+  },
+  {
+    "erratum_id": "E-020",
+    "hash": "0d9d165c63b1462f",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-101",
+    "repo_id": "C015",
+    "slug_old": "gitpython/gitpython",
+    "slug_new": "gitpython-developers/GitPython",
+    "declaration_hash_old": "cf2e57592456a78fdebf59c28790682fa3bfc82ba951d159eeac125c2a98784e",
+    "declaration_hash_new": "0d9d165c63b1462f428b2868ef0188373968b9c30b177e418b69b9e0b3c4a8ef",
+    "corrected_statement": "SLUG CORRECTION for C015: REPO_DECLARATION_exp101.json listed gitpython/gitpython which does not exist on GitHub (clone returns 404 'Repository not found'). The correct org is gitpython-developers (not gitpython) and the repo name is capitalized GitPython. The intended repository is gitpython-developers/GitPython (Sebastian Thiel primary author, github.com/gitpython-developers/GitPython). Discovered at C015 clone attempt during batch run. Same defect class as E-014, E-017, E-019. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). REPO_DECLARATION_exp101.json and run_batch_exp101.ps1 corrected to gitpython-developers/GitPython. Declaration hash recomputed. NOT a mechanical unavailability event; replacement queue slots unchanged.",
+    "supersedes": "REPO_DECLARATION_exp101.json C015 slug (gitpython/gitpython)"
   }
 ]

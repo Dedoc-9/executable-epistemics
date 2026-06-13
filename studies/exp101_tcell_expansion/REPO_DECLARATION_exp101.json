@@ -138,10 +138,10 @@
     },
     {
       "id": "C015",
-      "slug": "gitpython/gitpython",
+      "slug": "gitpython-developers/GitPython",
       "eligibility": "CONFIRMED",
       "audit": "KNOWLEDGE",
-      "notes": "Git Python interface. Est. ~2000 commits, ~60 py files."
+      "notes": "Git Python interface. Est. ~2000 commits, ~60 py files. E-020: slug corrected from gitpython/gitpython."
     },
     {
       "id": "C016",
@@ -211,7 +211,7 @@
       "notes": "Character detection. Activates if second replacement needed."
     }
   ],
-  "declaration_hash": "cf2e57592456a78fdebf59c28790682fa3bfc82ba951d159eeac125c2a98784e",
+  "declaration_hash": "0d9d165c63b1462f428b2868ef0188373968b9c30b177e418b69b9e0b3c4a8ef",
   "hash_input_spec": "SHA-256 of JSON-serialized {slugs_sorted: sorted(22 slugs), replacement_queue_sorted: sorted(2 queue slugs), protocol_version: exp101_v1, declaration_date: 2026-06-13} with sort_keys=True, separators=(,,:)",
   "pre_cloning_attestation": "This file committed and pushed BEFORE any Component C repository is cloned. Per HYPOTHESIS_exp101.md \u00a74: declare first, clone after. NEEDS_MANUAL repos must be resolved before their clone step.",
   "replacement_count": 3

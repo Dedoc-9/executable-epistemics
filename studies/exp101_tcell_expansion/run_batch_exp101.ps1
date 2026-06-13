@@ -38,7 +38,7 @@ $repos = @(
     [pscustomobject]@{ id="C012"; slug="zeromq/pyzmq" },
     [pscustomobject]@{ id="C013"; slug="bokeh/bokeh" },
     [pscustomobject]@{ id="C014"; slug="pexpect/pexpect" },
-    [pscustomobject]@{ id="C015"; slug="gitpython/gitpython" },
+    [pscustomobject]@{ id="C015"; slug="gitpython-developers/GitPython" },
     [pscustomobject]@{ id="C016"; slug="plumbum/plumbum" },
     [pscustomobject]@{ id="C017"; slug="pyserial/pyserial" },
     [pscustomobject]@{ id="C018"; slug="astropy/astropy" },
