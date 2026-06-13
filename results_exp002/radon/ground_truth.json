@@ -1,0 +1,4035 @@
+{
+  "chain_hash": "2c89ffdcc9d0ecce",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".gitignore||radon/visitors.py": 2,
+      ".travis.yml||README.rst": 2,
+      ".travis.yml||install-26-deps.sh": 2,
+      ".travis.yml||radon/raw.py": 2,
+      ".travis.yml||setup.py": 2,
+      ".travis.yml||test_requirements.txt": 3,
+      ".travis.yml||tox.ini": 4,
+      ".travis.yml||travis-additional-deps.py": 2,
+      "CHANGELOG||pyproject.toml": 2,
+      "CHANGELOG||radon/__init__.py": 19,
+      "CHANGELOG||setup.py": 2,
+      "Makefile||radon/cli.py": 2,
+      "Makefile||radon/raw.py": 3,
+      "Makefile||test_requirements.txt": 2,
+      "Pipfile||Pipfile.lock": 2,
+      "README.rst||docs/commandline.rst": 4,
+      "README.rst||docs/index.rst": 2,
+      "README.rst||setup.py": 2,
+      "docs/api.rst||docs/commandline.rst": 3,
+      "docs/commandline.rst||docs/intro.rst": 3,
+      "docs/commandline.rst||radon/cli.py": 3,
+      "docs/commandline.rst||radon/cli/__init__.py": 3,
+      "docs/commandline.rst||radon/tools.py": 2,
+      "docs/intro.rst||radon/raw.py": 2,
+      "pylintrc||radon/visitors.py": 2,
+      "pyproject.toml||radon/__init__.py": 2,
+      "radon/__init__.py||radon/cli.py": 11,
+      "radon/__init__.py||radon/complexity.py": 2,
+      "radon/__init__.py||radon/visitors.py": 3,
+      "radon/__init__.py||setup.py": 5,
+      "radon/cli.py||radon/complexity.py": 4,
+      "radon/cli.py||radon/metrics.py": 3,
+      "radon/cli.py||radon/raw.py": 3,
+      "radon/cli.py||radon/tests/run.py": 3,
+      "radon/cli.py||radon/tests/test_cli.py": 5,
+      "radon/cli.py||radon/tests/test_complexity_utils.py": 2,
+      "radon/cli.py||radon/tests/test_complexity_visitor.py": 3,
+      "radon/cli.py||radon/tools.py": 9,
+      "radon/cli.py||radon/visitors.py": 5,
+      "radon/cli.py||setup.py": 3,
+      "radon/cli.py||tests/test_complexity_visitor.py": 2,
+      "radon/cli.py||tox.ini": 3,
+      "radon/cli/__init__.py||radon/cli/harvest.py": 7,
+      "radon/cli/__init__.py||radon/tests/test_cli.py": 5,
+      "radon/cli/__init__.py||radon/tests/test_cli_harvest.py": 2,
+      "radon/cli/harvest.py||radon/cli/tools.py": 4,
+      "radon/cli/harvest.py||radon/metrics.py": 3,
+      "radon/cli/harvest.py||radon/raw.py": 2,
+      "radon/cli/harvest.py||radon/tests/test_cli.py": 2,
+      "radon/cli/harvest.py||radon/tests/test_cli_harvest.py": 9,
+      "radon/cli/harvest.py||radon/visitors.py": 3,
+      "radon/cli/tools.py||radon/tests/test_cli.py": 2,
+      "radon/cli/tools.py||radon/tests/test_cli_tools.py": 10,
+      "radon/cli/tools.py||radon/visitors.py": 3,
+      "radon/complexity.py||radon/metrics.py": 5,
+      "radon/complexity.py||radon/raw.py": 2,
+      "radon/complexity.py||radon/tests/test_complexity_utils.py": 5,
+      "radon/complexity.py||radon/visitors.py": 8,
+      "radon/complexity.py||setup.py": 3,
+      "radon/metrics.py||radon/raw.py": 2,
+      "radon/metrics.py||radon/tests/run.py": 2,
+      "radon/metrics.py||radon/tests/test_other_metrics.py": 5,
+      "radon/metrics.py||radon/visitors.py": 5,
+      "radon/raw.py||radon/tests/run.py": 3,
+      "radon/raw.py||radon/tests/test_other_metrics.py": 4,
+      "radon/raw.py||radon/tests/test_raw.py": 12,
+      "radon/raw.py||radon/visitors.py": 4,
+      "radon/raw.py||tests/test_raw.py": 3,
+      "radon/raw.py||tox.ini": 3,
+      "radon/tests/data/__init__.py||radon/tests/test_cli.py": 2,
+      "radon/tests/run.py||radon/tests/test_complexity_visitor.py": 2,
+      "radon/tests/run.py||radon/visitors.py": 3,
+      "radon/tests/run.py||tests/test_complexity_visitor.py": 2,
+      "radon/tests/run.py||tox.ini": 3,
+      "radon/tests/test_cli.py||radon/tests/test_cli_harvest.py": 5,
+      "radon/tests/test_cli.py||radon/tools.py": 2,
+      "radon/tests/test_complexity_utils.py||radon/tests/test_complexity_visitor.py": 2,
+      "radon/tests/test_complexity_utils.py||radon/visitors.py": 2,
+      "radon/tests/test_complexity_utils.py||setup.py": 2,
+      "radon/tests/test_complexity_visitor.py||radon/visitors.py": 12,
+      "radon/tests/test_complexity_visitor.py||tox.ini": 2,
+      "radon/tests/test_other_metrics.py||radon/tests/test_raw.py": 4,
+      "radon/tests/test_other_metrics.py||radon/visitors.py": 2,
+      "radon/visitors.py||setup.py": 2,
+      "radon/visitors.py||tests/test_complexity_visitor.py": 7,
+      "radon/visitors.py||tox.ini": 2,
+      "requirements.txt||setup.py": 6,
+      "setup.py||tox.ini": 3,
+      "test_requirements.txt||tox_requirements.txt": 4,
+      "tests/test_complexity_visitor.py||tox.ini": 2
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "84758838c922bf5f05752b835f746567dc87cad0",
+        "timestamp": 1348167916
+      },
+      {
+        "files": [
+          ".bau.py.swp"
+        ],
+        "sha": "063c0c00d59bdd5e25104e7398124c87cd21728a",
+        "timestamp": 1348168144
+      },
+      {
+        "files": [
+          "radon/.cli.py.swp",
+          "radon/.complexity.py.swp",
+          "radon/.utils.py.swp",
+          "radon/.visitors.py.swp"
+        ],
+        "sha": "61121a5b1baba1963e82e75b39bb247c8d4fed94",
+        "timestamp": 1348168206
+      },
+      {
+        "files": [
+          "README.rst",
+          "radon/visitors.py"
+        ],
+        "sha": "ab0eaa6e6d61981364bcbb7d618b92a2353962b0",
+        "timestamp": 1348168538
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2383349499c9d762a4c43b0a11ac5a5441d8ae0a",
+        "timestamp": 1348168819
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3bc6638e652f6aabc5bb1ffd0e9d6e02bdce6e32",
+        "timestamp": 1348168896
+      },
+      {
+        "files": [
+          "radon/cli.py"
+        ],
+        "sha": "7448aa485c8ba7178e96fc4508c33a303ba1fb84",
+        "timestamp": 1348169058
+      },
+      {
+        "files": [
+          "radon/visitors.py"
+        ],
+        "sha": "c250c7b919bb9c205504bf3639cec1dfa808e628",
+        "timestamp": 1348235784
+      },
+      {
+        "files": [
+          "radon/visitors.py",
+          "tests/test_complexity_visitor.py"
+        ],
+        "sha": "4929507ecb1a44c4413fcb85c348e0692d60489a",
+        "timestamp": 1348244036
+      },
+      {
+        "files": [
+          ".gitignore",
+          "radon/visitors.py",
+          "setup.py",
+          "tests/test_complexity_visitor.py",
+          "tox.ini"
+        ],
+        "sha": "642e2d561b45ce1a0faeb692bed5b5b737beecf8",
+        "timestamp": 1348388452
+      },
+      {
+        "files": [
+          "tests/test_complexity_visitor.py",
+          "tox.ini"
+        ],
+        "sha": "822a702db36a9f8dd8a213f58dbbdf329fba4c18",
+        "timestamp": 1348401586
+      },
+      {
+        "files": [
+          ".gitignore",
+          "radon/visitors.py"
+        ],
+        "sha": "3afc4b37c957fc96a1b8584db30dbe9e622db5f4",
+        "timestamp": 1348402288
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "160105f5174e73a351cdb037502c2c712281d962",
+        "timestamp": 1348581467
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/metrics.py",
+          "radon/visitors.py",
+          "tests/test_complexity_visitor.py"
+        ],
+        "sha": "54674849d2b2a722df9e6254b80e6cf81c8248e0",
+        "timestamp": 1348586782
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "tests/test_raw.py"
+        ],
+        "sha": "7a9e6b98bcbaaa0c942327bf79dcf92cb2302839",
+        "timestamp": 1348592958
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/run.py",
+          "tox.ini"
+        ],
+        "sha": "a184a8201f2893b3ac940c1f66b226489c9e25e1",
+        "timestamp": 1348596247
+      },
+      {
+        "files": [
+          "Makefile",
+          "radon/raw.py",
+          "tests/test_raw.py"
+        ],
+        "sha": "6ea41f412b3d868b35a6403e0b2b974df06dd514",
+        "timestamp": 1348596990
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "setup.py",
+          "tests/test_raw.py"
+        ],
+        "sha": "72f9029d28c418e97569042b9a4ca533b1e7f2a1",
+        "timestamp": 1348670323
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/visitors.py",
+          "tests/test_complexity_visitor.py"
+        ],
+        "sha": "884ae55b300a8e841d41e49864f2c4aa1dca5fbe",
+        "timestamp": 1348678182
+      },
+      {
+        "files": [
+          "radon/tests/run.py",
+          "radon/visitors.py",
+          "tests/test_complexity_visitor.py",
+          "tests/test_halstead.py"
+        ],
+        "sha": "9fb7dc3779d71380b0d6abe44a274a7b8228f5b6",
+        "timestamp": 1348760462
+      },
+      {
+        "files": [
+          "radon/tests/run.py",
+          "radon/visitors.py",
+          "tests/test_complexity_utils.py",
+          "tests/test_complexity_visitor.py"
+        ],
+        "sha": "98464a7e2488bd580d6fac842078b63b2850456f",
+        "timestamp": 1348841870
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bb702aa8a80fe2b7644c972312966818f250570b",
+        "timestamp": 1349109863
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "096248f4600159c645d36e6abf2277101c72d5df",
+        "timestamp": 1349110020
+      },
+      {
+        "files": [
+          "radon/utils.py"
+        ],
+        "sha": "04d86812a7bd83d66bb1e848bdbdb1fd5bc6f87e",
+        "timestamp": 1349172978
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "81d61369c1c7cb207b7799cd97c9271ad9b2de64",
+        "timestamp": 1349173039
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/metrics.py",
+          "radon/tests/run.py",
+          "radon/tests/test_complexity_visitor.py",
+          "tox.ini"
+        ],
+        "sha": "e5ba9d1a8aa3b79f1408647ebff90ff0350bae3b",
+        "timestamp": 1349262449
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "2fe597fc845e809fae5cfc39922de4ebefe3a12e",
+        "timestamp": 1349532589
+      },
+      {
+        "files": [
+          "radon/metrics.py",
+          "radon/tests/test_other_metrics.py"
+        ],
+        "sha": "5d523ecae75379074acc150043d93780ce469f19",
+        "timestamp": 1349532633
+      },
+      {
+        "files": [
+          "radon/raw.py"
+        ],
+        "sha": "daf6faee31dfb404dccfa18977c0dfe521903fce",
+        "timestamp": 1349533264
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/cli.py",
+          "radon/raw.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "1506c6bae2eda10e4a7b323e813c152fc6a5a3a6",
+        "timestamp": 1349542343
+      },
+      {
+        "files": [
+          "radon/cli.py"
+        ],
+        "sha": "aafe8067f23deaa7e4aa6443c928de4c07ef4864",
+        "timestamp": 1349542527
+      },
+      {
+        "files": [
+          "radon/complexity.py",
+          "radon/visitors.py"
+        ],
+        "sha": "604f3a7b5c5c775efcc44e8bf5ac3bc2f4dbff3f",
+        "timestamp": 1349545659
+      },
+      {
+        "files": [
+          "radon/visitors.py"
+        ],
+        "sha": "9fc3e9c372a518e8c4b28645032c4dd81b189bdc",
+        "timestamp": 1349546428
+      },
+      {
+        "files": [
+          "radon/metrics.py",
+          "radon/tests/run.py",
+          "radon/tests/test_other_metrics.py"
+        ],
+        "sha": "e6ec0cba465b07c913c045ccb9700a01ef18794e",
+        "timestamp": 1349547690
+      },
+      {
+        "files": [
+          "radon/metrics.py",
+          "radon/tests/test_other_metrics.py"
+        ],
+        "sha": "a8c564eba480341f63f70718ed001f4032f99ddc",
+        "timestamp": 1349548459
+      },
+      {
+        "files": [
+          "radon/tests/test_other_metrics.py"
+        ],
+        "sha": "f01954e5541cb46239568ada382710961ae34029",
+        "timestamp": 1349602138
+      },
+      {
+        "files": [
+          "Makefile",
+          "pylintrc",
+          "radon/raw.py"
+        ],
+        "sha": "5664f86336e22ef3f0e5a23984fb2d3177739fa8",
+        "timestamp": 1349614932
+      },
+      {
+        "files": [
+          "pylintrc",
+          "radon/cli.py",
+          "radon/visitors.py"
+        ],
+        "sha": "0840dea00e30223b208b54c2a28a97e96e4ba171",
+        "timestamp": 1349714489
+      },
+      {
+        "files": [
+          "radon/tests/test_complexity_utils.py",
+          "radon/tests/test_complexity_visitor.py",
+          "radon/visitors.py"
+        ],
+        "sha": "1d20425450bc2a8840828fd41d937f90a3d3763b",
+        "timestamp": 1349881533
+      },
+      {
+        "files": [
+          "radon/cli.py"
+        ],
+        "sha": "054636f54ad20a4b458dba60d56bb4ff4ea1b892",
+        "timestamp": 1349884565
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/complexity.py",
+          "radon/metrics.py",
+          "radon/tests/test_complexity_utils.py",
+          "radon/tests/test_other_metrics.py"
+        ],
+        "sha": "ef0d5e501aa5b70ea147e59833d1bede218c5971",
+        "timestamp": 1349892605
+      },
+      {
+        "files": [
+          "radon/metrics.py"
+        ],
+        "sha": "b9cccfdc0da9230ef897474c71fb121bd5d009a0",
+        "timestamp": 1349897045
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e5778af1758ebedaa10500333e423c021f23bb38",
+        "timestamp": 1349960532
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f8d012b3dd7bd388d769e317f8a52b09f84e7fde",
+        "timestamp": 1349960987
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d8691476f953ecfe416bc8d93b240c228d542b31",
+        "timestamp": 1349961679
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "tox.ini"
+        ],
+        "sha": "e014edcca2a9913aad1732d73ba67f82453c4c21",
+        "timestamp": 1350136228
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "docs/intro.rst",
+          "radon/raw.py"
+        ],
+        "sha": "2d779bb987f5e77f16d27d6341009b6fba6e39ea",
+        "timestamp": 1350138924
+      },
+      {
+        "files": [
+          "docs/commandline.rst"
+        ],
+        "sha": "38de26475aa18588113763750cd2f4010a028294",
+        "timestamp": 1350141044
+      },
+      {
+        "files": [
+          "docs/_themes/solar/static/solar.css",
+          "docs/api.rst",
+          "docs/commandline.rst"
+        ],
+        "sha": "342aaa2488a24acae53d146de65edc5aa487feb7",
+        "timestamp": 1350216813
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "5f6ba001f1f7267157e1f296b104c3940b0f3f46",
+        "timestamp": 1350222212
+      },
+      {
+        "files": [
+          "README.rst",
+          "radon/cli.py",
+          "radon/raw.py"
+        ],
+        "sha": "d0ce5637fc7aeca755ec43609214f55a95506813",
+        "timestamp": 1350660644
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "ea95ecced4ebed91f88e10a84ff4c1dd19763fe9",
+        "timestamp": 1350660730
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9f6a003261352060c0a3fd5684be1e3569e39d25",
+        "timestamp": 1350660769
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "75801bb03afd971a4771e1070f833f5d04823292",
+        "timestamp": 1350660852
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2517869fd93010073c40babe693c20c0ea9a6017",
+        "timestamp": 1350660903
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "98e2e2b899cf3cb720151c004e05b7f7a946e949",
+        "timestamp": 1350662214
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c121f58684db357a3f8a8d954d73c206f3b25047",
+        "timestamp": 1350990615
+      },
+      {
+        "files": [
+          "radon/cli.py"
+        ],
+        "sha": "2db4ac6441a7f2db3df1f752d9a878480fb1a99d",
+        "timestamp": 1351006007
+      },
+      {
+        "files": [
+          "Makefile",
+          "radon/cli.py",
+          "radon/raw.py"
+        ],
+        "sha": "cb2379250ba54e33d1efd5e3b6ddb30741c38b52",
+        "timestamp": 1351006384
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/tests/run.py",
+          "radon/tests/test_cli.py",
+          "tox.ini"
+        ],
+        "sha": "1729eefbeeba0c32b8a13ae1130b96e7436938f6",
+        "timestamp": 1351008141
+      },
+      {
+        "files": [
+          "radon/metrics.py"
+        ],
+        "sha": "fc0ab461c8402779ccc814f5a0f2c3d42efad704",
+        "timestamp": 1351619186
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "0d725737232e4bdaa2e80028be5254a0d7aea33e",
+        "timestamp": 1352555886
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "3d7270a098eee7d3c59f6600a7a18a2f3b3b18d9",
+        "timestamp": 1353241415
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "91966c70f62548be555e12e102ed1668911bde41",
+        "timestamp": 1353333792
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "134147c46f33f1f283776fb4d724b44caf43e78c",
+        "timestamp": 1357916424
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "525364d5910aae14ad44903fea34d5697ecfac02",
+        "timestamp": 1357916442
+      },
+      {
+        "files": [
+          "radon/cli.py"
+        ],
+        "sha": "fb766300e2222e17a803f2f2d440b30130dfd8dc",
+        "timestamp": 1357921699
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a651900a99a1245e861e1785db57443e5c9e6b6b",
+        "timestamp": 1358053869
+      },
+      {
+        "files": [
+          "radon/tests/test_complexity_visitor.py"
+        ],
+        "sha": "c03e88452334142ca87ffbf7dccca9ed6d83122c",
+        "timestamp": 1358053957
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "8de41196fc91e8079003c1ad73e7f6c541172169",
+        "timestamp": 1358053992
+      },
+      {
+        "files": [
+          "dev_requirements.txt"
+        ],
+        "sha": "4a73fb0a0686c951db423f846a62cfece4280b3c",
+        "timestamp": 1358054045
+      },
+      {
+        "files": [
+          "docs/_static/MathJax.js"
+        ],
+        "sha": "ac796ea25329274459b89e29be11f8d32618b890",
+        "timestamp": 1365251091
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/cli.py",
+          "radon/tests/run.py",
+          "radon/tests/test_complexity_utils.py",
+          "radon/tests/test_complexity_visitor.py",
+          "radon/visitors.py"
+        ],
+        "sha": "686714e4afdddd15c567b03cc414b3732da0e2e7",
+        "timestamp": 1365251193
+      },
+      {
+        "files": [
+          "dev_requirements.pip"
+        ],
+        "sha": "151d1a8cba4ad14f5831c6ae2f1e19ea1c1ccddc",
+        "timestamp": 1365435224
+      },
+      {
+        "files": [
+          "Makefile",
+          "radon/cli.py",
+          "radon/complexity.py"
+        ],
+        "sha": "b320dcb6e02d6ff6c4ff898193170a6cc618d61a",
+        "timestamp": 1366996308
+      },
+      {
+        "files": [
+          "dev_requirements.pip",
+          "dev_requirements.txt"
+        ],
+        "sha": "37c4aad553278b5fffa60706b3cdecdbfb849b5d",
+        "timestamp": 1366996544
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a7b8ef8235a6708a13d7f96827ff1773023fd03b",
+        "timestamp": 1367000787
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e174d26303a42ed3581a8f2a74b791b3ab2d13c2",
+        "timestamp": 1367001053
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b7c3044dafcb641bb61bfced689cd38b27b65a42",
+        "timestamp": 1367001257
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "266234d20c98018fa2c9baabdab12c372765d4b9",
+        "timestamp": 1367001358
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9f4c61e91475f9643431fbe56a544f7a99f9ef57",
+        "timestamp": 1367002432
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c24cd42f51a9a54cc697ac8570d14ea292dbae82",
+        "timestamp": 1367002469
+      },
+      {
+        "files": [
+          "Makefile",
+          "radon/__init__.py"
+        ],
+        "sha": "b2c63bd28a7e73527575d57c98534b1090c8e438",
+        "timestamp": 1367005855
+      },
+      {
+        "files": [
+          ".gitignore",
+          ".travis.yml",
+          "Makefile",
+          "dev_requirements.pip",
+          "test_requirements.txt"
+        ],
+        "sha": "bb00e8e93b90f5f0262db779aa57e7574832c624",
+        "timestamp": 1370009476
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "a36943f97cd26bfdb345a1718080633a1a42b63a",
+        "timestamp": 1370009691
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "5f1240466a152a56a987b9c6dbe4249d32c369dc",
+        "timestamp": 1370009864
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8d4c68f781dd2c32debe72dabcb68eff99dff731",
+        "timestamp": 1370010042
+      },
+      {
+        "files": [
+          "test_requirements.txt"
+        ],
+        "sha": "c8cee3ca6f77ecbab13bd25725e7bae169aff4c5",
+        "timestamp": 1370010221
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "6408c7f029770e74cb24cc55657aaf8f2f7c3e88",
+        "timestamp": 1370010276
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "60e87e50d8d17f274e14ff72c578cce5d60f74a9",
+        "timestamp": 1370011387
+      },
+      {
+        "files": [
+          "test_requirements.txt"
+        ],
+        "sha": "5423e283ed58067a777d1abcf9d0cb8ca9379a10",
+        "timestamp": 1370011718
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "2187b6fa52410cb253d5ccaef8cdc9b25b98d42a",
+        "timestamp": 1370011893
+      },
+      {
+        "files": [
+          "test_requirements.txt"
+        ],
+        "sha": "7685ef854dd604a84227db631d8fac85465450d9",
+        "timestamp": 1370012151
+      },
+      {
+        "files": [
+          "test_requirements.txt"
+        ],
+        "sha": "9105e3ad81b3b0e776799b258e68f8a4ce58c836",
+        "timestamp": 1370012427
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "test_requirements.txt"
+        ],
+        "sha": "e5068beb1f89dcbfbc2c1f114c9425029b32bc6c",
+        "timestamp": 1370013068
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "07b6c0296912777fa6e52c35500ac94999c5ec7e",
+        "timestamp": 1370013564
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6929c6f6ca6846233a32ffd07e645b02075bad17",
+        "timestamp": 1370013639
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "66193e5a21f67e07ba21bfd6c1bc03bc0cb6e1fd",
+        "timestamp": 1370014881
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "27a5585f5215b1eae7e90db83a736dc775e925c1",
+        "timestamp": 1370080418
+      },
+      {
+        "files": [
+          "radon/cli.py"
+        ],
+        "sha": "8cd3d6b0c1004da341d17e6f17879654873c35f4",
+        "timestamp": 1370478228
+      },
+      {
+        "files": [
+          "README.rst",
+          "radon/metrics.py"
+        ],
+        "sha": "74608b4be4e4eeb8ace18af9d4306829153cf44f",
+        "timestamp": 1370956178
+      },
+      {
+        "files": [
+          "radon/complexity.py",
+          "radon/visitors.py"
+        ],
+        "sha": "26099b20bb712d6d1443aa40f7ddc1045347e3b6",
+        "timestamp": 1371383728
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/visitors.py"
+        ],
+        "sha": "3a7e3f9a5925ff6e60c566380a608c1fc3fddf30",
+        "timestamp": 1371384695
+      },
+      {
+        "files": [
+          "radon/visitors.py"
+        ],
+        "sha": "6e70616fbe0d8a0a509346150fe8077ed00992b1",
+        "timestamp": 1371385145
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "radon/cli.py"
+        ],
+        "sha": "e5d12dbc75684dd68b349258b3dbc0366349f183",
+        "timestamp": 1372086991
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "310694a3bc1eda7d42ddb3a0dd5d73a419a5aaf3",
+        "timestamp": 1372154615
+      },
+      {
+        "files": [
+          "radon/complexity.py",
+          "radon/visitors.py"
+        ],
+        "sha": "4d6eeec4bbebaec97af5450aa393b7e393e79439",
+        "timestamp": 1373377579
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "cb0415ac10a8293e8cd2a52ffe16fb2226efd3c2",
+        "timestamp": 1373377790
+      },
+      {
+        "files": [
+          "radon/visitors.py"
+        ],
+        "sha": "0d14abfa2cf5d327da892e1cbe2fd1b693fb0cb5",
+        "timestamp": 1373484884
+      },
+      {
+        "files": [
+          "LICENSE"
+        ],
+        "sha": "35d28d7538d3194c5c657ef94582094acaeda4c8",
+        "timestamp": 1373870134
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "f368e8ef9344d51926e14cc114ba41f9804812aa",
+        "timestamp": 1373870390
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "5882fb31cd7806696a2bd3d108c8c1d5c562366d",
+        "timestamp": 1373871275
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "3543fca98c8fc3c85d6a611b02999b9138dcc403",
+        "timestamp": 1376220489
+      },
+      {
+        "files": [
+          "docs/commandline.rst",
+          "docs/intro.rst"
+        ],
+        "sha": "59bb8c1cacd309b7641186a6d693321db92c87b7",
+        "timestamp": 1376221639
+      },
+      {
+        "files": [
+          "docs/commandline.rst"
+        ],
+        "sha": "0b3ef19d80c48cf7fdd5f3669b1c7345c343592f",
+        "timestamp": 1376221814
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/commandline.rst"
+        ],
+        "sha": "be160216a29766860a52082576681a2cdd3ee34d",
+        "timestamp": 1376222586
+      },
+      {
+        "files": [
+          "docs/commandline.rst",
+          "docs/conf.py"
+        ],
+        "sha": "d99594ce211dd220d6856d55c97ff297712678c1",
+        "timestamp": 1376222684
+      },
+      {
+        "files": [
+          "radon/complexity.py",
+          "radon/metrics.py",
+          "radon/raw.py",
+          "radon/visitors.py"
+        ],
+        "sha": "849048f023466b2b83b821075da5ff4efd41292e",
+        "timestamp": 1376223760
+      },
+      {
+        "files": [
+          "test_requirements.txt"
+        ],
+        "sha": "94ca77c09c76645419946457c8116395f62651df",
+        "timestamp": 1376238992
+      },
+      {
+        "files": [
+          "docs/commandline.rst"
+        ],
+        "sha": "34d6480e4794ffb05b6f955efbaec7b872d9ec62",
+        "timestamp": 1376251692
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "64bd04a937cedf133804671493df7e0bc6ae301b",
+        "timestamp": 1383357377
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "radon/cli.py"
+        ],
+        "sha": "2ef6fd6ef6b276c439a6dd96d2f6e23cff571cd4",
+        "timestamp": 1383667300
+      },
+      {
+        "files": [
+          "tox_drone.ini"
+        ],
+        "sha": "793b3cd36e71764bf3d1f4907ade156d2faefed6",
+        "timestamp": 1383843738
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9ed1e50ea984d58c6db30bb2740ddfc5f6bdf8da",
+        "timestamp": 1383843976
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/tests/test_cli.py"
+        ],
+        "sha": "e1a5ac1bf53c6bad22e3830e3994acfecc4cb47c",
+        "timestamp": 1384464511
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/tools.py"
+        ],
+        "sha": "aed237a0b166ab1050173c9ca832d5c23b356c7f",
+        "timestamp": 1384969548
+      },
+      {
+        "files": [
+          "docs/commandline.rst",
+          "radon/cli.py"
+        ],
+        "sha": "ce3a805f33449f671a83bef2de9f373fbd9d7f8f",
+        "timestamp": 1384974920
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/tools.py"
+        ],
+        "sha": "e96670f92eb7ecf4c9a53c1c67efbf7a25ea927b",
+        "timestamp": 1384978525
+      },
+      {
+        "files": [
+          "radon/tools.py"
+        ],
+        "sha": "dac8fd55692a6a5d4626825fde9c72e1a6597872",
+        "timestamp": 1384978842
+      },
+      {
+        "files": [
+          "docs/commandline.rst",
+          "radon/cli.py",
+          "radon/tools.py"
+        ],
+        "sha": "ac9d6c68a2921afbcaaf4456cee59d0638597931",
+        "timestamp": 1384979709
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "a13c4edc26d6c3bb85c53ca74b450561e95a3f35",
+        "timestamp": 1384981555
+      },
+      {
+        "files": [
+          "radon/cli.py"
+        ],
+        "sha": "8abc97914d3efd71db1e42435e585e3a370343b0",
+        "timestamp": 1385010570
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8a0caf19e79182a22f845ba88c7015f496716251",
+        "timestamp": 1385048738
+      },
+      {
+        "files": [
+          "README.rst",
+          "radon/__init__.py",
+          "setup.py"
+        ],
+        "sha": "e110ab4f8313ab6d0487b12e3d3d6cc1a9442288",
+        "timestamp": 1385206816
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/cli.py",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "7ca8ea7b050bbe128ec6e36483f00f48d08b9476",
+        "timestamp": 1387214451
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "ab46fac39cee78a2d8b01609d69227d24c92ff0e",
+        "timestamp": 1387214521
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "00ee4dc85ea5a48c094731446895b7f10f37b124",
+        "timestamp": 1387877879
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "b277ffedb5c03a35d0e86b164e9123975dc744a8",
+        "timestamp": 1387877892
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/tools.py"
+        ],
+        "sha": "523ae9256e7e12a054741c37744aea21e935d0a6",
+        "timestamp": 1387888012
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/tests/test_cli.py",
+          "radon/tests/testpkg/main.py",
+          "radon/tests/testpkg/secondary.py",
+          "radon/tests/testpkg/tests/testall.py",
+          "radon/tools.py"
+        ],
+        "sha": "4e348b56502fda128b6ae6986bc5ce5589d14e28",
+        "timestamp": 1388850455
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/complexity.py",
+          "radon/tests/test_complexity_visitor.py",
+          "radon/visitors.py"
+        ],
+        "sha": "f05a293fe38a9d22d057d6b6da2ca20877be2e0b",
+        "timestamp": 1388853196
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/tools.py"
+        ],
+        "sha": "0bca806327470a5d86b0ea52eda2df44c2c11c30",
+        "timestamp": 1391475496
+      },
+      {
+        "files": [
+          "docs/commandline.rst"
+        ],
+        "sha": "86cd6894aebbdfede5d45acf04095551e0ac23ed",
+        "timestamp": 1391475760
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/tests/test_cli.py"
+        ],
+        "sha": "060f67c14296e7ac1b787911426d038fe4ef50e5",
+        "timestamp": 1391635911
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/cli.py"
+        ],
+        "sha": "fb7ffe1e54568b7854e9a62af36c98cc927bd1c4",
+        "timestamp": 1392216434
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "82b63d7c77f8d49763f9a99c45d8159be402e8bc",
+        "timestamp": 1392216714
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/cli.py",
+          "setup.py"
+        ],
+        "sha": "5c979429df4193b9e4b5bcc257feb43a5472c021",
+        "timestamp": 1392216899
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/cli.py"
+        ],
+        "sha": "5d15dc17f13167e83322ecc2caaa29f13bd3db86",
+        "timestamp": 1392218528
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/cli.py",
+          "radon/complexity.py",
+          "radon/tools.py"
+        ],
+        "sha": "bfaa149e587d8eadaba1327d90a5076af9ee6801",
+        "timestamp": 1392646364
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/cli.py"
+        ],
+        "sha": "edffc6be7ed9dc791eb25c359e24b86c3cc39a22",
+        "timestamp": 1392646394
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e274f393fe07ae30d89379f2f78ac70585055202",
+        "timestamp": 1392646702
+      },
+      {
+        "files": [
+          "tox.ini",
+          "tox_drone.ini"
+        ],
+        "sha": "8c4c6271c89f221b3ad0a6ff02b838b4bc877b73",
+        "timestamp": 1392742026
+      },
+      {
+        "files": [
+          "radon/pathfinder/filters.py",
+          "radon/tests/pathfinder_tests/test.py"
+        ],
+        "sha": "ed1b36ba650d42bcdef01033057827a130a3ecd6",
+        "timestamp": 1392742846
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "df93fa957d26ea3d3229c13d27e751d9103262f6",
+        "timestamp": 1393418067
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d2d5b84fc7dbf7d25bfdbfc7e18b8903cf88f437",
+        "timestamp": 1393922308
+      },
+      {
+        "files": [
+          "radon/cli.py"
+        ],
+        "sha": "d0ea6b1a2366ce4f914f4ba3d953ec7d8ac2310a",
+        "timestamp": 1393923291
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/cli.py"
+        ],
+        "sha": "c9232c19569908664275ae4053ddafdaf241cd27",
+        "timestamp": 1393923464
+      },
+      {
+        "files": [
+          ".landscape.yaml"
+        ],
+        "sha": "d027a17a096aa84fda3131f27b872a1625e2b1b7",
+        "timestamp": 1393965935
+      },
+      {
+        "files": [
+          ".landscape.yaml"
+        ],
+        "sha": "2095ecaa28b09201992c393c4584084fdbd0ff56",
+        "timestamp": 1393966157
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5defc8c7544da3da450f90efd2561a07cd5b5bc9",
+        "timestamp": 1393966354
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "61710e75dd902d922b50d89a37adbd5b6e5f129e",
+        "timestamp": 1394220769
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "ffc5f1c2f0f862930851d76875605df146177809",
+        "timestamp": 1394386076
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "c77f37c486e0243020d205589f6701265dea6196",
+        "timestamp": 1394386216
+      },
+      {
+        "files": [
+          "radon/tests/pathfinder_tests/test.py",
+          "radon/visitors.py",
+          "tests/test_complexity_visitor.py"
+        ],
+        "sha": "f123506278ff52876e9742b27128000e49c08ebf",
+        "timestamp": 1396089315
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "0bc592377fe5e9ee414c64a6375815fe73e32e0a",
+        "timestamp": 1396089334
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "c655734e8388367619ea013e6027032dbef61136",
+        "timestamp": 1396089373
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "d937f97196a8fc3edfd7870a2a066c176c2cfcff",
+        "timestamp": 1396090863
+      },
+      {
+        "files": [
+          "radon/cli.py"
+        ],
+        "sha": "33231aaae7e9c12001138e48463dd762a7982153",
+        "timestamp": 1406232862
+      },
+      {
+        "files": [
+          "radon/tools.py"
+        ],
+        "sha": "b1baea136ebc2b5bb2eb456899a6ad1798587a0d",
+        "timestamp": 1406233108
+      },
+      {
+        "files": [
+          "radon/tools.py"
+        ],
+        "sha": "e5feb10426d44db834f63869333eac764e8af681",
+        "timestamp": 1406235717
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6d4537412605888742b58b1d33e00b0fe368ae5c",
+        "timestamp": 1406236405
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/cli.py"
+        ],
+        "sha": "c3a7b591045b84a3b8237d6b7d74d6c3b5c0c5b1",
+        "timestamp": 1406236620
+      },
+      {
+        "files": [
+          "radon/visitors.py"
+        ],
+        "sha": "49f6f2f7218a06bfffaa5fde83e4dd13157ecd2d",
+        "timestamp": 1406290923
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "70b93382530601a0888197d5da255a793bbba61d",
+        "timestamp": 1406317074
+      },
+      {
+        "files": [
+          "radon/complexity.py",
+          "radon/visitors.py"
+        ],
+        "sha": "51507348d63422fb3efe538443d77fc927ba0034",
+        "timestamp": 1406317098
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b6652014d1d52be5a4ee4881f07279d70cd6f130",
+        "timestamp": 1406318611
+      },
+      {
+        "files": [
+          "docs/commandline.rst",
+          "radon/cli.py",
+          "radon/tools.py",
+          "tests/test_cli.py"
+        ],
+        "sha": "e791d9825826f0e0cfd919f59ce02ed8fec7f8b4",
+        "timestamp": 1406475619
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "3151fb3dfb850e8d20065b6d493229b8a904a5e0",
+        "timestamp": 1406646797
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "docs/changelog.rst",
+          "docs/index.rst"
+        ],
+        "sha": "06ae1c49f217d04d645123247e6842b84877ae4b",
+        "timestamp": 1406647125
+      },
+      {
+        "files": [
+          "test_requirements.txt"
+        ],
+        "sha": "168b9b5013cd6afd7a4751a1b2a613a68d9b4afb",
+        "timestamp": 1406708260
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "1de12e2c08927076f6b52497dd85c3b989e421e6",
+        "timestamp": 1406914417
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "59d4084e901c53effcfffdca025b3ae82a439623",
+        "timestamp": 1406914472
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "radon/cli.py"
+        ],
+        "sha": "94e1174171d2a2b74667b0843fbe8bc375897e75",
+        "timestamp": 1406914911
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "radon/tests/test_cli.py",
+          "radon/tools.py"
+        ],
+        "sha": "6c6b007319f7d991cff2fe3e1d4981d7d304e265",
+        "timestamp": 1406976183
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d98da6f8c3cff55759fafd36e955ed26caa601c7",
+        "timestamp": 1407061392
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "39f396d9150aba73058e9e8ac9133f60a4706f70",
+        "timestamp": 1407061858
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8deb50963da98eef93a2f70ead5537d454d8704c",
+        "timestamp": 1407061907
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "fd051f570990ddd4f30528ad95cb00f388083d1c",
+        "timestamp": 1407072332
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9aba926c4b65a9d8aac37dd0bfe81dc25c2ab3bd",
+        "timestamp": 1407072644
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "install-26-deps.sh"
+        ],
+        "sha": "99251c74df312a4edd671142f7c14b0a72b7ecee",
+        "timestamp": 1407345696
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "7e293f9c8e17191d04bc8b0368669406928da4dc",
+        "timestamp": 1407345949
+      },
+      {
+        "files": [
+          "install-26-deps.sh"
+        ],
+        "sha": "02871ea4a247c0347ee4d30ad5af0d57d7b0766f",
+        "timestamp": 1407346024
+      },
+      {
+        "files": [
+          "install-26-deps.sh"
+        ],
+        "sha": "541ed9c08045eb09c525125f9061a78be6af7df6",
+        "timestamp": 1407346719
+      },
+      {
+        "files": [
+          "radon/tests/__init__.py"
+        ],
+        "sha": "9e87c530aff6300d6cbbaa521125df7be03bce81",
+        "timestamp": 1407350091
+      },
+      {
+        "files": [
+          "radon/cli.py",
+          "setup.py"
+        ],
+        "sha": "0e4ec2666f35cad57254fda1f867ac137e65d41a",
+        "timestamp": 1407566647
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "ded30ee8055c52c43eb8342f128243eff7a8bee9",
+        "timestamp": 1407567127
+      },
+      {
+        "files": [
+          ".landscape.yml"
+        ],
+        "sha": "baec934d4f3c394eb0ca2f4d564f3bc6f1ef287e",
+        "timestamp": 1407835251
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "d471c951561089d61a98b7815733396fdec2b0bc",
+        "timestamp": 1407932179
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "install-26-deps.sh",
+          "radon/tests/test_cli_tools.py",
+          "tox.ini",
+          "travis-additional-deps.py"
+        ],
+        "sha": "7a89ac3cf2846f7a99d62bfc3adde858ee8067c0",
+        "timestamp": 1407936227
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "354130d279da137d84af61cdbf59d6e731284d0f",
+        "timestamp": 1407936967
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "e213b531808494d8f0b9053139a729a7557d1799",
+        "timestamp": 1407937467
+      },
+      {
+        "files": [
+          "radon/tests/test_cli.py"
+        ],
+        "sha": "5a22ba43896b27cb4d6e19147ce495fdab0dd608",
+        "timestamp": 1407937815
+      },
+      {
+        "files": [
+          "radon/tests/test_complexity_visitor.py",
+          "radon/visitors.py"
+        ],
+        "sha": "633c4fd83b8e99bb39db7f6393793901d202fe7b",
+        "timestamp": 1408002326
+      },
+      {
+        "files": [
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "ff3d393703706777025759952d1902c972339807",
+        "timestamp": 1408004519
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py",
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "2a50472421c8eb963dd5b10cb406d2996090fd1e",
+        "timestamp": 1408008444
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py",
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "0539eb6c25846ed0505d4611cc01e5ad367c4dcd",
+        "timestamp": 1408011122
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py",
+          "radon/cli/harvest.py",
+          "radon/tests/test_cli.py",
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "f416d44f8b58528c006529c48e575ce23e2f7822",
+        "timestamp": 1408019736
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "fb57f05cead5137c5f5f20561a12262ce04816cd",
+        "timestamp": 1408019834
+      },
+      {
+        "files": [
+          "tox_drone.ini"
+        ],
+        "sha": "9004b67f71841e1cb1b7bdcc9db4454e6de30cf1",
+        "timestamp": 1408019987
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "569cf1a282cee608062524f3547b74bca4be91f8",
+        "timestamp": 1408020226
+      },
+      {
+        "files": [
+          "dev_requirements.txt",
+          "requirements.txt",
+          "tox_requirements.txt"
+        ],
+        "sha": "28c243866c662bf8e70c432c94b66094a7988060",
+        "timestamp": 1408020393
+      },
+      {
+        "files": [
+          "tox_requirements.txt"
+        ],
+        "sha": "8c5d3c1ae7bde6a356b1d992eda8331294465f6b",
+        "timestamp": 1408020488
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py",
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "656f5362f390ed197991e8f77e1ff918d96bf3c6",
+        "timestamp": 1408025230
+      },
+      {
+        "files": [
+          "radon/cli/tools.py"
+        ],
+        "sha": "ebad08aece0394c710979d3bfb8bb4b5cb91ef9f",
+        "timestamp": 1408029198
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py",
+          "radon/cli/colors.py",
+          "radon/cli/harvest.py"
+        ],
+        "sha": "4b6cca13dc936a2cceefcb61ccc080315beef3a3",
+        "timestamp": 1408042853
+      },
+      {
+        "files": [
+          "radon/complexity.py",
+          "radon/metrics.py",
+          "radon/raw.py",
+          "radon/visitors.py"
+        ],
+        "sha": "a8ff719796aeb9e1fcf1137d2b6d096996096c76",
+        "timestamp": 1408043596
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py"
+        ],
+        "sha": "81f5e8c16d3666789e00dfb7c9aadf27dff21a01",
+        "timestamp": 1408093977
+      },
+      {
+        "files": [
+          "radon/tests/run.py"
+        ],
+        "sha": "a98173244b6a30d7c1f77f861fe82f3120df7cf6",
+        "timestamp": 1408094692
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "a380585d36331ebabb5dfece4d13929c4aaf9ffd",
+        "timestamp": 1408094712
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py"
+        ],
+        "sha": "945cd3631d6781430155aff16893bd7f621438f2",
+        "timestamp": 1408095244
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/visitors.py"
+        ],
+        "sha": "b99b314f8420f5084c7732af422f3c80d00afe36",
+        "timestamp": 1408096058
+      },
+      {
+        "files": [
+          "pylintrc",
+          "radon/__init__.py",
+          "radon/complexity.py",
+          "radon/metrics.py",
+          "radon/visitors.py"
+        ],
+        "sha": "d4d35970d4e58155dc9233b867c9f6878d811712",
+        "timestamp": 1408096919
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/commandline.rst",
+          "radon/cli/harvest.py",
+          "radon/complexity.py",
+          "radon/metrics.py"
+        ],
+        "sha": "6780d5bf39daf2a5998e115c5d3abd492a91d521",
+        "timestamp": 1408103799
+      },
+      {
+        "files": [
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "2c8c4572c35531ad2d0c1330af9bb6786e5b0e04",
+        "timestamp": 1408119245
+      },
+      {
+        "files": [
+          "test_requirements.txt"
+        ],
+        "sha": "508a4239c9e0f13ce8c24a0d8cecd82c562c5989",
+        "timestamp": 1408121970
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "609d12d2a4f6dea66c0dcf40afb85b8132ed6f53",
+        "timestamp": 1408121983
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py",
+          "setup.py"
+        ],
+        "sha": "83e3e88b8b3665390ad446c2323b9044751d5c45",
+        "timestamp": 1408122091
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "e6333b4cd620a2db8e37d16c4ca54a87bda50068",
+        "timestamp": 1408122305
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "101bc3dee4cb1854ca37ace625be58ea0b3c1864",
+        "timestamp": 1408202233
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "d47b3258fe8db35ddd85777d3db23777e92b96f7",
+        "timestamp": 1408292073
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "d62c4494e341e23c8058b256bcd9e5956994185f",
+        "timestamp": 1408292259
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py",
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "9c902c823e7bddb4ead517fde4f0884e0c2a91b9",
+        "timestamp": 1409401759
+      },
+      {
+        "files": [
+          "radon/visitors.py"
+        ],
+        "sha": "a159504788c04081afd6dc6caf505529aac4f5a7",
+        "timestamp": 1409861145
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py",
+          "radon/tests/test_cli.py"
+        ],
+        "sha": "55d30dfe640c1d6112da9fb57ca90f175106ed60",
+        "timestamp": 1409861329
+      },
+      {
+        "files": [
+          "pylintrc"
+        ],
+        "sha": "1ca7d48786859342fdff8b1e8018ef20077de0ad",
+        "timestamp": 1409988773
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py",
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "0c4f534d9fed07ef6dbe4c96824494656ea24189",
+        "timestamp": 1409988823
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py"
+        ],
+        "sha": "9edb297993d62e2b38ec57842a09a968785ac74a",
+        "timestamp": 1409990238
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py",
+          "radon/tests/test_cli.py"
+        ],
+        "sha": "97967cda8a875c635b9b3bb28d0aa9707b1b6c68",
+        "timestamp": 1409991047
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "6855f582c95c05e65653f75a89e2cef262ae36fe",
+        "timestamp": 1409998761
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py"
+        ],
+        "sha": "9d2d0b262dc9a85aa472cd4cb5f8fb8516e61060",
+        "timestamp": 1410010718
+      },
+      {
+        "files": [
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "94b1e47afca4c608a179c8aa7c658c866a1edfd3",
+        "timestamp": 1410010725
+      },
+      {
+        "files": [
+          "LICENSE"
+        ],
+        "sha": "1613ab5ee8fa154d0d143819cd05b43a072861d8",
+        "timestamp": 1410013881
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "e5aee5c374c1d4364fcb29d382087b89b1274e10",
+        "timestamp": 1410016135
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/metrics.py"
+        ],
+        "sha": "596c8917cddd712ebdd248e8329e86c18107d940",
+        "timestamp": 1410643143
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py",
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "8a33a6e0b5886d4945355fef0e53257173f24896",
+        "timestamp": 1410643183
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "d94e862d5775ecedf49fb0e15820b4744573c24c",
+        "timestamp": 1410779631
+      },
+      {
+        "files": [
+          "radon/tests/test_complexity_visitor.py",
+          "radon/visitors.py"
+        ],
+        "sha": "298b229b5b3f8f2d71a0e06135e7c4e6661700d9",
+        "timestamp": 1415450583
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "7b9712a2147d3c3d17a5996d3f5ed4c1a55c195c",
+        "timestamp": 1415864804
+      },
+      {
+        "files": [
+          "radon/tests/test_complexity_visitor.py",
+          "radon/visitors.py"
+        ],
+        "sha": "b78d81d486445b58791fe63132d0c33cfb9c895f",
+        "timestamp": 1415865291
+      },
+      {
+        "files": [
+          "test_requirements.txt"
+        ],
+        "sha": "c19bf85047da1932af7158c26b685054cc236407",
+        "timestamp": 1415865443
+      },
+      {
+        "files": [
+          "radon/tests/test_halstead.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "e01fb0d86d054168a9b2842730a153291a133163",
+        "timestamp": 1416040697
+      },
+      {
+        "files": [
+          "radon/raw.py"
+        ],
+        "sha": "1d7d4f20957174d98254f009509c227acd057531",
+        "timestamp": 1416166760
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "5cb5cc174f90a7696de7e347cd780783f72b753d",
+        "timestamp": 1416265828
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/run.py",
+          "radon/tests/test_cli_tools.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "6fdcdc3da02b36a9d807fe0e05faad36ecd631a3",
+        "timestamp": 1417191126
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/run.py"
+        ],
+        "sha": "bcef6c2f8c76d7b80035254985a837e3bda999ce",
+        "timestamp": 1417191641
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "865e253e8b7d50f21e1f5667c198398ae39e8e8c",
+        "timestamp": 1417555917
+      },
+      {
+        "files": [
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "b8e1c88f178915e3cc9646c0e51dbd624243bd03",
+        "timestamp": 1418127106
+      },
+      {
+        "files": [
+          "radon/tests/test_cli_tools.py",
+          "radon/visitors.py"
+        ],
+        "sha": "562751b8a599a0cf4125011af82d035e6675376b",
+        "timestamp": 1421423612
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "6871760602c575c9f28b8849e5855158393880a3",
+        "timestamp": 1421423842
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "bc17005fd5300ae44263853a46f85d641a47d4d3",
+        "timestamp": 1421423965
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "aea26f3fffee6d4621e78b139ef037dd60f708af",
+        "timestamp": 1421977765
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "34829dd9f9fcb2a3745e79253b7f297823d789d1",
+        "timestamp": 1423945941
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "a4e4227b72afac69403c547b270488402a29a64f",
+        "timestamp": 1431023694
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "34cf3495f0f3d51c491af60693fabd385a9deb5e",
+        "timestamp": 1431024021
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "4454849ac8ffeca7a1b7908a70bbdc150d4b5b7c",
+        "timestamp": 1431024038
+      },
+      {
+        "files": [
+          "test_requirements.txt",
+          "tox_requirements.txt"
+        ],
+        "sha": "67c9f7c714e404aafa2fa3711c5b3ad985753cb7",
+        "timestamp": 1431024544
+      },
+      {
+        "files": [
+          "Makefile",
+          "radon/cli/harvest.py",
+          "radon/cli/tools.py"
+        ],
+        "sha": "8cb0145b8caf90634aada12d454a0cd86c2bb170",
+        "timestamp": 1431025097
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py",
+          "radon/metrics.py"
+        ],
+        "sha": "c69dcbdf063dd578ceb8d6794336659006562b63",
+        "timestamp": 1432199405
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "a8dacb234276ec8cbbf249d8621a061fa9389337",
+        "timestamp": 1433170721
+      },
+      {
+        "files": [
+          "radon/complexity.py",
+          "radon/tests/test_complexity_utils.py",
+          "setup.py"
+        ],
+        "sha": "54e9add2eee692e86b7fa9d41d6615d8a7773a77",
+        "timestamp": 1436174606
+      },
+      {
+        "files": [
+          "radon/complexity.py",
+          "radon/tests/test_complexity_utils.py"
+        ],
+        "sha": "10d5c377e37bd1ea000e525fae6d72c8585ab761",
+        "timestamp": 1436192181
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "10e0b0dc64fe3b288eb452716e98c23b337f9a33",
+        "timestamp": 1436195768
+      },
+      {
+        "files": [
+          "radon/complexity.py"
+        ],
+        "sha": "3c64a03044e51fb8cf46bad2b20229ec04bfd269",
+        "timestamp": 1436342628
+      },
+      {
+        "files": [
+          "radon/complexity.py"
+        ],
+        "sha": "160890cf612404a17b30384b9d1711a1c66cc6a0",
+        "timestamp": 1436421511
+      },
+      {
+        "files": [
+          "docs/flake8.rst",
+          "docs/index.rst"
+        ],
+        "sha": "6dde914406a73a490a8337aba34e862375aa2e2f",
+        "timestamp": 1436472784
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "81a8d6e0015c79adae5318a33ebb8d547d47b70a",
+        "timestamp": 1436473131
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ff4d07dbc7e18c02f49189ed8521d08a462f6d12",
+        "timestamp": 1436851800
+      },
+      {
+        "files": [
+          "setup.py",
+          "test_requirements.txt",
+          "tox_requirements.txt"
+        ],
+        "sha": "63e74d22699356b459c2ac4799b9ee9cdce39c86",
+        "timestamp": 1436854757
+      },
+      {
+        "files": [
+          "test_requirements.txt",
+          "tox.ini",
+          "tox_requirements.txt"
+        ],
+        "sha": "ce79a70e8b146f488a305ff0597eec524623f5e6",
+        "timestamp": 1436855438
+      },
+      {
+        "files": [
+          "travis-additional-deps.py"
+        ],
+        "sha": "9aa15a0b2aedadb68b39db54c6d16b7140bbb9b1",
+        "timestamp": 1436856091
+      },
+      {
+        "files": [
+          "radon/tests/test_cli.py"
+        ],
+        "sha": "8ae6da0db756330a9f4d8ebfa3e216269a1b1428",
+        "timestamp": 1438260302
+      },
+      {
+        "files": [
+          "test_requirements.txt",
+          "tox_requirements.txt"
+        ],
+        "sha": "b986d6072d6ec702a37b79deb3f56c211bbe482e",
+        "timestamp": 1438260308
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3046f90837b5bbd8acdb7d962229a948166d5014",
+        "timestamp": 1443249348
+      },
+      {
+        "files": [
+          ".codeclimate.yml"
+        ],
+        "sha": "329a7ab5165b2ac1d86ddbccc1437b0f9472e6a2",
+        "timestamp": 1444823972
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/intro.rst",
+          "radon/cli/harvest.py",
+          "radon/raw.py",
+          "radon/tests/test_cli_harvest.py",
+          "tox.ini"
+        ],
+        "sha": "15f7205301c6f8a51cc5109931cf6a4c2be67164",
+        "timestamp": 1447238504
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "526917409a2b4c80c991fbcf6e3adb846395e6c2",
+        "timestamp": 1447248011
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py",
+          "radon/cli/harvest.py",
+          "radon/cli/tools.py"
+        ],
+        "sha": "d626502b84711cc2106096d98ff88c65af5c0dc3",
+        "timestamp": 1447488708
+      },
+      {
+        "files": [
+          "Dockerfile"
+        ],
+        "sha": "68a62e7978904d1af6a5c41adb67d25c8b1a0fe4",
+        "timestamp": 1447488757
+      },
+      {
+        "files": [
+          "radon/cli/tools.py"
+        ],
+        "sha": "d30657db9f4205fdf5a6f2dfc44e4e91b7f4ce2c",
+        "timestamp": 1447488845
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "radon/cli/tools.py"
+        ],
+        "sha": "b3b2e036984ece072c8743113cc6a625c4076e33",
+        "timestamp": 1447489025
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "486b3134eaa65f68e0854053a5662fff5423c5bc",
+        "timestamp": 1447489106
+      },
+      {
+        "files": [
+          ".landscape.yml"
+        ],
+        "sha": "4607419051b6da737af64f699266a882510928c5",
+        "timestamp": 1447489189
+      },
+      {
+        "files": [
+          "Dockerfile",
+          "codeclimate-radon"
+        ],
+        "sha": "3b29e2446c1678505bcea743dcd546547a1313b9",
+        "timestamp": 1452564684
+      },
+      {
+        "files": [
+          "codeclimate-radon"
+        ],
+        "sha": "7dcb1ba114689179d8bd32d67288c62054e256ca",
+        "timestamp": 1452568907
+      },
+      {
+        "files": [
+          "codeclimate-radon"
+        ],
+        "sha": "52f4a1d8aa75304b292908077ecff25d3eaf64b3",
+        "timestamp": 1452568936
+      },
+      {
+        "files": [
+          "codeclimate-radon"
+        ],
+        "sha": "b2d8e324cafe528396c5182b9ff1932408daff1d",
+        "timestamp": 1452601735
+      },
+      {
+        "files": [
+          "codeclimate-radon"
+        ],
+        "sha": "7f475d7b3f94adbb3eef9620c59069a5b4ccd2dd",
+        "timestamp": 1452621208
+      },
+      {
+        "files": [
+          "radon/__init__.py",
+          "setup.py"
+        ],
+        "sha": "d06a3f75d8e7db4648e281eadc48fbc441e075b6",
+        "timestamp": 1456744978
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "d360eb79e2a87c618167b4092d859345ac7b2a7e",
+        "timestamp": 1456849032
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3f39d6683f0cf3a4df2e5de8d48f5e687a91067f",
+        "timestamp": 1456849593
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c30cfb58005598d0c1d258d8fe579db2055ad4b1",
+        "timestamp": 1456849725
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "423cfd03c0ce1c109e390e037776cfba58edf84c",
+        "timestamp": 1456870392
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "53b7ade09b9970a0a2dd3953bb0a635279fba959",
+        "timestamp": 1456921798
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "da2e6f5eb56c717042135901b52a2b556ae12df7",
+        "timestamp": 1456921891
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "0572ba6f2c8ceee668674e376237dc91475317b2",
+        "timestamp": 1458289124
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "d11fa9f32582c25c68d713075c132b2657cb73b8",
+        "timestamp": 1458289153
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c6cd417e5ed9d32b72ec8ec3ddf94578a24019f8",
+        "timestamp": 1459325922
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "c6474c6f0d1143c725f46668d8655f25fd3eccdb",
+        "timestamp": 1459325934
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5028984f26e024ca8d929d701a569375ca4af688",
+        "timestamp": 1459452523
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "b3f97b9a47a2c219a6fdc2534a9bb2c2d562665c",
+        "timestamp": 1462303869
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "53d366da283f6a717efe6d7b17962592630f3c85",
+        "timestamp": 1462521170
+      },
+      {
+        "files": [
+          "radon/tests/test_complexity_visitor.py",
+          "radon/visitors.py"
+        ],
+        "sha": "9dcf18821d4a8831570ee3fd256c3df7057c6646",
+        "timestamp": 1464980963
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "6a83036f4f5e30fad3671e3844a22d338583c030",
+        "timestamp": 1464982590
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "c1a100e13dfbd7acc85cf025248e3475e2085647",
+        "timestamp": 1464982600
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "df3ea2958f4f94599298035d948acdead90cb539",
+        "timestamp": 1466835984
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "cee4f908ce0f8870ad4836c440724f058963909f",
+        "timestamp": 1466836104
+      },
+      {
+        "files": [
+          "radon/complexity.py",
+          "setup.py"
+        ],
+        "sha": "c1546a9b3d5ecd4277462226afd680266c6e307b",
+        "timestamp": 1469564147
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "2dec7d4e2e48eafb54007fddecd53c3e396d836f",
+        "timestamp": 1469564296
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "3c72cff22ef4d65a6f6756db8e151a74f08f36cb",
+        "timestamp": 1478089304
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "aba436f297671ce3e44151a4a91627785b89974c",
+        "timestamp": 1478089496
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "612c39ad0550a891033e2681f10186f839bd166d",
+        "timestamp": 1482051401
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/complexity.py",
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "5520b44ab29a320e7b95393f033985b7616e86cc",
+        "timestamp": 1482051992
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/commandline.rst"
+        ],
+        "sha": "45e4e299d1c6f8d95afd79f5deb6632c762dcb16",
+        "timestamp": 1482052532
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d5fc945e18220e139e15ca35007b6d5c3d25cbb6",
+        "timestamp": 1482052601
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/commandline.rst"
+        ],
+        "sha": "8e1e7fcd14c4da911a95ba910782002745073605",
+        "timestamp": 1482052661
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "7b670ccf768ceeee7e0d026c15b69a800d9a754a",
+        "timestamp": 1483009608
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "3ab8c78a57fbe874eeefa686a3046d145ff13fea",
+        "timestamp": 1483009705
+      },
+      {
+        "files": [
+          "Dockerfile"
+        ],
+        "sha": "46b63901edb68a40c7168a1221eaa38c14cfa7d8",
+        "timestamp": 1483021629
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox_drone.ini",
+          "tox_requirements.txt",
+          "travis-additional-deps.py"
+        ],
+        "sha": "f8e5280e3455d06649512425e12fe2f79d220a69",
+        "timestamp": 1485512816
+      },
+      {
+        "files": [
+          ".gitignore",
+          "Pipfile",
+          "Pipfile.lock"
+        ],
+        "sha": "159e95a30208d915cc8f7ec3b772f170880735d8",
+        "timestamp": 1485512900
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8ae219d0af6293ee5ac0b1f69af0e59159ce58c2",
+        "timestamp": 1485513188
+      },
+      {
+        "files": [
+          "codeclimate-radon"
+        ],
+        "sha": "5c1db50fcb3eb75944ae9b23ae0df12ecabc3937",
+        "timestamp": 1486201384
+      },
+      {
+        "files": [
+          "Dockerfile",
+          "requirements.txt"
+        ],
+        "sha": "e3a33308bddce802430de730719a109e90148e5d",
+        "timestamp": 1486201606
+      },
+      {
+        "files": [
+          "radon/complexity.py"
+        ],
+        "sha": "58156631a96ac259219354cc0710561744645a6e",
+        "timestamp": 1488745076
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "871572dab83633268d1e9fc981ebc2f5440a4f55",
+        "timestamp": 1489154522
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/test_raw.py",
+          "test_requirements.txt"
+        ],
+        "sha": "a34f0b6041096ca4c8089e550e55607942f8a53d",
+        "timestamp": 1489485439
+      },
+      {
+        "files": [
+          "radon/raw.py"
+        ],
+        "sha": "ed61e89a3d456d21e8c95b6942bfe13d48fab5de",
+        "timestamp": 1489485745
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "d8719a0d7f111451b42291f4a3ba737621f8dea3",
+        "timestamp": 1489496326
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "74c01b78fb62a4eb687058968ee491e85c549648",
+        "timestamp": 1491318160
+      },
+      {
+        "files": [
+          "radon/cli/tools.py"
+        ],
+        "sha": "b73c279acc321158c0b089b941e12a129daa9429",
+        "timestamp": 1492025939
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/test_other_metrics.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "302ecc66174e6f3defa5943c3454eb6de4f1e7bb",
+        "timestamp": 1494449285
+      },
+      {
+        "files": [
+          "Pipfile",
+          "Pipfile.lock"
+        ],
+        "sha": "ab7db4201edd41043cec4fafabc4355796811980",
+        "timestamp": 1494452822
+      },
+      {
+        "files": [
+          "radon/tests/run.py"
+        ],
+        "sha": "1df084826963fa640580667b00e2ff51ff79b5a4",
+        "timestamp": 1494453035
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/test_other_metrics.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "613b98657818253ca825bf385a801aa110805d6b",
+        "timestamp": 1494453247
+      },
+      {
+        "files": [
+          "codeclimate-radon"
+        ],
+        "sha": "d1b10263f6d9be8511b834d5f655c6a69eba0162",
+        "timestamp": 1494534384
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "radon/raw.py",
+          "radon/tests/test_other_metrics.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "5606ebfedd57520dde4b4c534f138a54b47476f1",
+        "timestamp": 1491498598
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py",
+          "radon/tests/run.py",
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "38b97946fba37b4f569bc0b1af2e3935e1e26572",
+        "timestamp": 1496167736
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/visitors.py"
+        ],
+        "sha": "7b6cdc2eb86d17c8bfae4f49987543b1e1c36bc2",
+        "timestamp": 1496168684
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py",
+          "radon/cli/harvest.py"
+        ],
+        "sha": "15e4f36fdd035e960696f2061b6121922952fd3b",
+        "timestamp": 1496178779
+      },
+      {
+        "files": [
+          "docs/commandline.rst",
+          "docs/intro.rst"
+        ],
+        "sha": "c06c2182d5e24602923594e58e9d5704a89ca20a",
+        "timestamp": 1496179123
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ac49ed682d74f7922e4c1bc47938dfe89318aba8",
+        "timestamp": 1496179241
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d21b70945a1cb4ea2a3cba23df6cf0273eecb857",
+        "timestamp": 1496179322
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "03c0c3e0c40fcb83e60f8bf6ceeb17bcae8bd514",
+        "timestamp": 1496179359
+      },
+      {
+        "files": [
+          "radon/tests/test_cli.py",
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "b1399ac1934eebc864b870c08c53bdcdec17ab23",
+        "timestamp": 1496182377
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "ee4fe7d285ced3b55948f321ea102f01179e7c76",
+        "timestamp": 1496182201
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "a88c71ad491cf8777da96ee95342621fc0e2187b",
+        "timestamp": 1496182252
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "348948959a68556f960eb6cf203b5cdb3e60db82",
+        "timestamp": 1496256560
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "90e855d6d2e3bf99aa88cbd454e182ec854bb580",
+        "timestamp": 1496389269
+      },
+      {
+        "files": [
+          "radon/complexity.py",
+          "radon/tests/test_complexity_utils.py"
+        ],
+        "sha": "3e60d0d23a2af0a73e0a56fcc289d5cd7d0168fc",
+        "timestamp": 1496429528
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "05473a5bb2cff91975649d2e9e604ed8aef3e662",
+        "timestamp": 1496429604
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "c9f06eb2f1057fb508cda8ba09c7b2eb71e0f70c",
+        "timestamp": 1496429712
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "a885ba3197d1a7869f4fb3b78271ef233ed59f2e",
+        "timestamp": 1496429784
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "requirements.txt",
+          "setup.py"
+        ],
+        "sha": "fe6f47f8149794b77bb210267e6c6fb63cc01594",
+        "timestamp": 1496569835
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "b7ec75149db61afa2b877e4f0bd8e1a167ea7485",
+        "timestamp": 1496569874
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "aa4d7b9d1a80a1874527bc1b1ab391049060c8be",
+        "timestamp": 1497106985
+      },
+      {
+        "files": [
+          "docs/commandline.rst"
+        ],
+        "sha": "ce33ad9c10b7812fca8e935116f7bfb007263a98",
+        "timestamp": 1497972031
+      },
+      {
+        "files": [
+          "LICENSE",
+          "setup.py"
+        ],
+        "sha": "d751411954f574a243c787ec5451984931e0a098",
+        "timestamp": 1498753461
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py",
+          "radon/cli/tools.py",
+          "radon/raw.py",
+          "radon/tests/data/__init__.py",
+          "radon/tests/test_cli.py",
+          "radon/visitors.py"
+        ],
+        "sha": "184dc9129f9c1b3cc4ba041a0c41963dd1e9f3ad",
+        "timestamp": 1503989924
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "342ce409a8395f9c4ce07a152d0de66f64133696",
+        "timestamp": 1504106480
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "f780579c60ee71a0e7ad22d7187701128e9c4b94",
+        "timestamp": 1504118263
+      },
+      {
+        "files": [
+          "radon/tests/data/__init__.py",
+          "radon/tests/data/py3unicode.py",
+          "radon/tests/test_cli.py",
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "9593753fe12392d637dfeefbd06941307fddaafc",
+        "timestamp": 1504118299
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "dc0bd5d3caceed0d21a04b9ad364b80524f9fd86",
+        "timestamp": 1504118314
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "45464cb795717271bacf4583155be6bb16f1252b",
+        "timestamp": 1504118810
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "7b69ac61b6c9df300ea9cd3fd369dd3055b3ae92",
+        "timestamp": 1504118832
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/tests/data/no_encoding.py",
+          "radon/tests/test_cli.py"
+        ],
+        "sha": "b0ef6456b2c503b650fceed4cf09449ca8e7d413",
+        "timestamp": 1504768253
+      },
+      {
+        "files": [
+          "radon/cli/tools.py"
+        ],
+        "sha": "d76d7a2efa926b268cddf18384cc103943c26185",
+        "timestamp": 1504769742
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "d74a8fb603b2683129ce78d2a4ceb4394c60db6f",
+        "timestamp": 1504769833
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "f96daab7cd83abfe73c3db66aa45199caf176770",
+        "timestamp": 1504769863
+      },
+      {
+        "files": [
+          "codeclimate-radon"
+        ],
+        "sha": "d473be0c3807ee546e90196b2215fa55ca827f5d",
+        "timestamp": 1510681456
+      },
+      {
+        "files": [
+          "docs/flake8.rst",
+          "radon/complexity.py"
+        ],
+        "sha": "d6f4c0d12d04c2a3dec2291343d62b183954cc5e",
+        "timestamp": 1515433345
+      },
+      {
+        "files": [
+          "radon/complexity.py"
+        ],
+        "sha": "99707387e9f5549f60974a55c1849dd66356bfb2",
+        "timestamp": 1515698248
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "4e557d11653fffbc62a10bfd6389e877f5c1131c",
+        "timestamp": 1515698147
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py",
+          "radon/cli/harvest.py"
+        ],
+        "sha": "46003e9c64557e4065d744b2a5814949e7e86c8b",
+        "timestamp": 1515932853
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py",
+          "radon/cli/harvest.py"
+        ],
+        "sha": "8469a08f716dc1a9607a158ce14a1cda9e7aa04d",
+        "timestamp": 1522946931
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "096982f80fb4aeb2c4e099be31482afd72d4eeb2",
+        "timestamp": 1533669512
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py",
+          "radon/cli/harvest.py",
+          "radon/metrics.py",
+          "radon/tests/test_other_metrics.py",
+          "radon/visitors.py"
+        ],
+        "sha": "467a5f047ea183dca959a1a7e9502db648d9a327",
+        "timestamp": 1536526897
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "b9f5ffd85e557d029576640103903be957d09ff6",
+        "timestamp": 1536563534
+      },
+      {
+        "files": [
+          "radon/tests/test_cli_harvest.py"
+        ],
+        "sha": "9ac4f7cc00e1eb8644a3e9d8dc165eaeb50e2086",
+        "timestamp": 1536563556
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e3c1e1cab50765fc0fbcf559b787abf06a03b41a",
+        "timestamp": 1536753817
+      },
+      {
+        "files": [
+          "docs/commandline.rst"
+        ],
+        "sha": "326b98f0e184d8ca4a37e653948ee1b96189d1b6",
+        "timestamp": 1537711645
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "73a6e1ebf18e9ca320e6b84e32f53277da8367a3",
+        "timestamp": 1538468955
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "7a4d442bddd491d0f95d4e4f8b74576302015e08",
+        "timestamp": 1538474920
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "65941c77bb03b9cd3b3c89cb5ea5fbd0b958b0e7",
+        "timestamp": 1538475238
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "radon/cli/tools.py"
+        ],
+        "sha": "ae1fe87ada27a929ca7cbe107df3052d5a00f2fe",
+        "timestamp": 1538475576
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py"
+        ],
+        "sha": "fe65c6141c6be9982a0ac511f3a49232eaab5d48",
+        "timestamp": 1538486490
+      },
+      {
+        "files": [
+          "radon/cli/tools.py"
+        ],
+        "sha": "e62d579f4c52a4f5241b674c3dec2d8617f5c63e",
+        "timestamp": 1538488215
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "cce789041bee4c07d06e99182676bcecc896442a",
+        "timestamp": 1538488431
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py"
+        ],
+        "sha": "6f7b825482a53409965e3ec2b46b5607b13907ce",
+        "timestamp": 1539121238
+      },
+      {
+        "files": [
+          "radon/__main__.py"
+        ],
+        "sha": "e28094d423dac63a918e48c899914de55ecb3abb",
+        "timestamp": 1539244970
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py"
+        ],
+        "sha": "5efc6c9b00381eec2810b6e06c163a9e4169ff4c",
+        "timestamp": 1539246258
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "0ba9972733cc35cd43730054fd06d1f4a4ba59ee",
+        "timestamp": 1539246292
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "82106f6ad010da5b4a619c0683b497d749f3d8d6",
+        "timestamp": 1540773618
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst"
+        ],
+        "sha": "22b0350ed47b57c4735bf25a940525a8e74b351f",
+        "timestamp": 1540774501
+      },
+      {
+        "files": [
+          "docs/flake8.rst"
+        ],
+        "sha": "3f5b84920fe5ccd7d56f37593dff57dbe3cefc02",
+        "timestamp": 1548491983
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "setup.py"
+        ],
+        "sha": "f31a658a2528e3e2c8f43ec4cb93eb5916cc77f9",
+        "timestamp": 1548492080
+      },
+      {
+        "files": [
+          "radon/cli/tools.py"
+        ],
+        "sha": "fc30c7297dbd4790ba047a5639cb008555fba04f",
+        "timestamp": 1548492380
+      },
+      {
+        "files": [
+          "radon/tests/test_complexity_visitor.py",
+          "radon/visitors.py"
+        ],
+        "sha": "29a671d4fc034ccdc64710e383c4fdc3638b0cf1",
+        "timestamp": 1548501305
+      },
+      {
+        "files": [
+          "radon/raw.py",
+          "radon/tests/test_other_metrics.py",
+          "radon/tests/test_raw.py"
+        ],
+        "sha": "da1e732fd8bd2e8153e0ee9754724ba20d8d825f",
+        "timestamp": 1548509131
+      },
+      {
+        "files": [
+          "radon/tests/test_cli.py",
+          "radon/tests/test_cli_harvest.py",
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "a1e29014a59db1d245b4c090b721575d4b2832b8",
+        "timestamp": 1548509165
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "499ea8710a54ac17be6d6229dbbea9a61c49f743",
+        "timestamp": 1548509457
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "88da903d8b37f334453ed3b2d963cb0c0f943f20",
+        "timestamp": 1548509510
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3e53cbbb4e30d9ac80038857de35c6090650ed39",
+        "timestamp": 1548509949
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "4c95e0ac386351adcaab62eee55bffeaf60e1371",
+        "timestamp": 1548509986
+      },
+      {
+        "files": [
+          "radon/tests/test_complexity_visitor.py",
+          "radon/tests/test_other_metrics.py",
+          "radon/visitors.py"
+        ],
+        "sha": "1981e2e872fab2cc17c69337d1ca2925c1add42b",
+        "timestamp": 1548511458
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "b0e9e2ee186ab820366358ec366870aabbda7001",
+        "timestamp": 1548512504
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "72903d5bb289633136999f6fdf612d2082e1640e",
+        "timestamp": 1548512586
+      },
+      {
+        "files": [
+          "radon/cli/tools.py"
+        ],
+        "sha": "3b5d1f798c2903eba7073ecda06830494ee2f121",
+        "timestamp": 1549226783
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "e507f90f0838f1f8ecbf349223146de0df1eab45",
+        "timestamp": 1549227134
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "525afcef68c4602477db4a955f9032da61c074cc",
+        "timestamp": 1549227151
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "420cbe4910b10ba27e203d5ba3db0d42baab0ae0",
+        "timestamp": 1554789881
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py"
+        ],
+        "sha": "fb946582b2271f861a2c55f240099a2f1c664807",
+        "timestamp": 1558096689
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "129221137e4357ff36932988e466913b5951be55",
+        "timestamp": 1558115166
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "setup.py"
+        ],
+        "sha": "38a6271fea7896291bdb25b8e3061c7726401691",
+        "timestamp": 1558201898
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "954dda332cd73ecb5d062f4fd3292b221465ed71",
+        "timestamp": 1558202056
+      },
+      {
+        "files": [
+          "docs/_themes/solar/layout.html"
+        ],
+        "sha": "4fa76b70d74eb2b158fa90536bb398366002b933",
+        "timestamp": 1565943790
+      },
+      {
+        "files": [
+          "docs/commandline.rst",
+          "radon/cli/__init__.py",
+          "radon/tests/conftest.py",
+          "radon/tests/test_cli.py"
+        ],
+        "sha": "92fa24739694e89389a6ea3a54fb183625a483ca",
+        "timestamp": 1568708222
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "7c51a6f03ae658a67321ae99cd9f1733ae230f21",
+        "timestamp": 1568911014
+      },
+      {
+        "files": [
+          "radon/tests/test_other_metrics.py"
+        ],
+        "sha": "3378710fefdb2bbf4360bf8de891552864d22214",
+        "timestamp": 1568911561
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f11f905d3c1b9a300dcb811ddf714902e087beee",
+        "timestamp": 1568968783
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "radon/visitors.py",
+          "requirements.txt",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "a490c92544157a7207b60206e1fc3bca79efc76c",
+        "timestamp": 1580208384
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "731d11ea0f8613f078febd48756c74056c0eae5d",
+        "timestamp": 1580208467
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "8db8eac6b93aca1eea818060b62350a7cf6a7d36",
+        "timestamp": 1580208551
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "setup.py"
+        ],
+        "sha": "00c2990e0310bf74c5aa6e2c58f11ece681d62a8",
+        "timestamp": 1596483604
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py"
+        ],
+        "sha": "4008c9dc167bb97c23f16f52bd8fe393d4e28445",
+        "timestamp": 1596483680
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "382b09cf9848d4dde17d1c3eee37501c460cc1b5",
+        "timestamp": 1596484274
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst"
+        ],
+        "sha": "ae986bcfb99d4036fba15f3cd1fdaab0d3da59cf",
+        "timestamp": 1596484648
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "a4071d19251c8a859f6d4f8a3b4e062e68259dc1",
+        "timestamp": 1596484842
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "bf2703c771b195a8248482b27d0f12c731916e2c",
+        "timestamp": 1596484863
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "test_requirements.txt"
+        ],
+        "sha": "ad805bbc22c16d169c288e5352862a771d53f11f",
+        "timestamp": 1599925903
+      },
+      {
+        "files": [
+          "test_requirements.txt"
+        ],
+        "sha": "f9b2ecfef6b08db1e663ee0cac9a1cf394a8e13f",
+        "timestamp": 1599926116
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "2c9627de5fccf7bb878283c340c61c0cd5042db8",
+        "timestamp": 1599932258
+      },
+      {
+        "files": [
+          "Makefile",
+          "radon/cli/__init__.py",
+          "radon/tests/test_cli.py",
+          "radon/tests/test_cli_harvest.py",
+          "test_requirements.txt"
+        ],
+        "sha": "7928af1be87d16d40ca231f29474fb581c8f0544",
+        "timestamp": 1599933990
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "2a8673cf5926c0e9c146dcde128812fa01cf11fa",
+        "timestamp": 1599933349
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "4ef64c0e873481b0d1b79ce731982a9707b9b29c",
+        "timestamp": 1599933363
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "361baeae83596e97c6e90f1b8b1aac5aa1ee8308",
+        "timestamp": 1599934376
+      },
+      {
+        "files": [
+          "radon/complexity.py",
+          "radon/contrib/__init__.py",
+          "radon/contrib/flake8.py",
+          "radon/tests/test_complexity_utils.py",
+          "setup.py"
+        ],
+        "sha": "12f59d2bb85e91b050a2416d7b7aab52e9fe7860",
+        "timestamp": 1600434808
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "46a3a1ecfb0dcf37f7dd9f65c27859813c940c23",
+        "timestamp": 1600434883
+      },
+      {
+        "files": [
+          "radon/__init__.py"
+        ],
+        "sha": "6dfa070548d674d764b5741b93905da39690d3ec",
+        "timestamp": 1600434894
+      },
+      {
+        "files": [
+          ".gitattributes"
+        ],
+        "sha": "0a6aff726f29abfe1547b27446f3b2d78d2d77e6",
+        "timestamp": 1601309709
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "bff838287317d9b0540593d405c59a108aa1b58c",
+        "timestamp": 1615113481
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py"
+        ],
+        "sha": "b37cf499272152d93718844f4ef3bea2a1117faa",
+        "timestamp": 1615113754
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "7fe19250868ab9c326e3b125e4b8b76e50dd3e4a",
+        "timestamp": 1615113819
+      },
+      {
+        "files": [
+          "radon/tests/test_halstead.py",
+          "radon/visitors.py"
+        ],
+        "sha": "f52b811887e6ed302aecd4a8b45377f02846c004",
+        "timestamp": 1615193367
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "5aaa72f4817279799b9a4078bda59cd0be243e63",
+        "timestamp": 1615214181
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "c9ac929fa9bf2418a83ad077f86bc75ca10d73a7",
+        "timestamp": 1615274678
+      },
+      {
+        "files": [
+          "Pipfile.lock"
+        ],
+        "sha": "1a2042db00fe6538fa7efee2bb70c187ec7c25dc",
+        "timestamp": 1620384143
+      },
+      {
+        "files": [
+          "radon/tests/test_complexity_visitor.py",
+          "radon/visitors.py"
+        ],
+        "sha": "ae987291431460c438b890fe2b50dabc4d645d16",
+        "timestamp": 1620508693
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "0613a8ab5a7d2fdb6352bb2e6d048192bbf4e8d1",
+        "timestamp": 1620508895
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "0e41a66ffff676154982e22c3c57b7c443cc2cc7",
+        "timestamp": 1620570898
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "78ada4f1248c87b341dea8a36a914e82f1bb602a",
+        "timestamp": 1621755551
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "bec1dbccf0b660ba1d5fa45797f32286d9a6d1d8",
+        "timestamp": 1621755582
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "b90d4026b134a69a0c7f6d4f9519f0d491e9a177",
+        "timestamp": 1623170008
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "3043909877a617f370f93a4749d89db19d9fab98",
+        "timestamp": 1623170205
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "13c41dd8fbb7ba026d46ff2f30ca3ca7a1b417e4",
+        "timestamp": 1628428270
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "17d293d5864e72212921127391a0f67201f5c31c",
+        "timestamp": 1628428696
+      },
+      {
+        "files": [
+          "radon/cli/colors.py",
+          "radon/tests/test_cli_colors.py"
+        ],
+        "sha": "d329a8da25633bbbf9cbbbda45ac1d949588956b",
+        "timestamp": 1628428779
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "radon/__init__.py"
+        ],
+        "sha": "44655c8951ffd15b6b31a967914ade311dd7aeb0",
+        "timestamp": 1628429087
+      },
+      {
+        "files": [
+          "radon/cli/tools.py",
+          "radon/tests/test_cli_tools.py"
+        ],
+        "sha": "ec8b5c34567ad7b150bcd16df0e9ac8c11ea0225",
+        "timestamp": 1645647198
+      },
+      {
+        "files": [
+          "docs/commandline.rst",
+          "docs/intro.rst"
+        ],
+        "sha": "870001b8922c57ca27022ce27d13b85c86b85e7b",
+        "timestamp": 1645647817
+      },
+      {
+        "files": [
+          "CHANGELOG"
+        ],
+        "sha": "6f54f68db3a627fc47b17295d3215439649c6bed",
+        "timestamp": 1645648046
+      },
+      {
+        "files": [
+          "docs/commandline.rst",
+          "radon/cli/__init__.py"
+        ],
+        "sha": "64f0a125451b9e03a320f5133c343d5cb26f6398",
+        "timestamp": 1645649317
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9bc4c2b78ea69ad89c9807f34d845de5e02959b9",
+        "timestamp": 1652361187
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "setup.py"
+        ],
+        "sha": "941f8e20bdd8672d39fc395ebe893e43c1619cdf",
+        "timestamp": 1662185505
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py"
+        ],
+        "sha": "27b78d1a266b8c788b39dd0a74bc8c7b3075bfa0",
+        "timestamp": 1679756477
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "84db76719de98259e09cacd33953ab786b4ac283",
+        "timestamp": 1679756640
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "radon/tests/test_complexity_visitor.py",
+          "radon/visitors.py"
+        ],
+        "sha": "4ac025c82b81cbb366019c21161ecfd8ca7f3b28",
+        "timestamp": 1679756771
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/commandline.rst",
+          "radon/cli/__init__.py",
+          "setup.py"
+        ],
+        "sha": "5f65de3c655cf0ce96080b636402afcda5526a8f",
+        "timestamp": 1679756871
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/commandline.rst"
+        ],
+        "sha": "a2359cef956ca44389f1f55db527c37a786bbffd",
+        "timestamp": 1679756988
+      },
+      {
+        "files": [
+          "radon/tests/test_complexity_visitor.py",
+          "tox.ini"
+        ],
+        "sha": "786ac37f60fccfd564ed3709ece999ea21c87aef",
+        "timestamp": 1679763712
+      },
+      {
+        "files": [
+          "poetry.lock",
+          "pyproject.toml",
+          "requirements.txt",
+          "test_requirements.txt"
+        ],
+        "sha": "e6e5152073970407423f9cef5ccd971d555f26f3",
+        "timestamp": 1679763730
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "pyproject.toml",
+          "radon/__init__.py"
+        ],
+        "sha": "864c4610b04c8b1211bd7142d4f938210f19f888",
+        "timestamp": 1679811517
+      },
+      {
+        "files": [
+          "radon/cli/__init__.py"
+        ],
+        "sha": "1be986d219f7ea5419f685e3ebacb42ec0f589fd",
+        "timestamp": 1679811760
+      },
+      {
+        "files": [
+          "CHANGELOG",
+          "pyproject.toml",
+          "radon/__init__.py"
+        ],
+        "sha": "5061d86a649223bdc5490c5dcc113743cc5b47f5",
+        "timestamp": 1679811825
+      },
+      {
+        "files": [
+          "radon/cli/harvest.py",
+          "radon/cli/tools.py",
+          "radon/tests/test_complexity_visitor.py",
+          "radon/visitors.py"
+        ],
+        "sha": "663defcbee201db764c40c88d94d71ca38de6f5f",
+        "timestamp": 1679838286
+      },
+      {
+        "files": [
+          ".readthedocs.yaml"
+        ],
+        "sha": "293ac3f14eca93bc0d0e23eeba69282b84e72bf6",
+        "timestamp": 1687070894
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "14955b41b6b98a7a91439ebfb93124c45aaa3e6b",
+        "timestamp": 1696586071
+      },
+      {
+        "files": [
+          "radon/tests/test_ipynb.py"
+        ],
+        "sha": "0cd08f1da76c5bace382164e62e2942966f50b87",
+        "timestamp": 1696586137
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "ce5d2daa0a9e0e843059d6f57a8124c64a87a6dc",
+        "timestamp": 1696586177
+      },
+      {
+        "files": [
+          "docs/commandline.rst"
+        ],
+        "sha": "1c47c5c64cbb42793e75ef01cfe67ff8b134b089",
+        "timestamp": 1696586342
+      },
+      {
+        "files": [
+          "SECURITY.md"
+        ],
+        "sha": "3b75f7905337a02f526ee2deb356267fc4e9f9fb",
+        "timestamp": 1696586520
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "72759930701c8f67fbd37725ef956f797c93da6d",
+        "timestamp": 1729413180
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d1f957707dce0686eda9b1f94e3f7b807f61add1",
+        "timestamp": 1729413220
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "23652e2eee5f1b2b4174380ed59c25e6795fa4d8",
+        "timestamp": 1729413262
+      },
+      {
+        "files": [
+          "radon/tests/run.py"
+        ],
+        "sha": "0514065f1ea180a4f2457874d0c0fed3a99be40f",
+        "timestamp": 1729413485
+      },
+      {
+        "files": [
+          "README.rst",
+          "tox.ini"
+        ],
+        "sha": "54b88e5878b2724bf4d77f97349588b811abdff2",
+        "timestamp": 1729417972
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 6,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".bau.py.swp": 0,
+      ".codeclimate.yml": 1,
+      ".gitattributes": 2,
+      ".gitignore": 3,
+      ".landscape.yaml": 4,
+      ".landscape.yml": 5,
+      ".readthedocs.yaml": 6,
+      ".travis.yml": 7,
+      "CHANGELOG": 8,
+      "Dockerfile": 9,
+      "LICENSE": 10,
+      "MANIFEST.in": 11,
+      "Makefile": 12,
+      "Pipfile": 13,
+      "Pipfile.lock": 14,
+      "README.rst": 15,
+      "SECURITY.md": 16,
+      "codeclimate-radon": 17,
+      "dev_requirements.pip": 18,
+      "dev_requirements.txt": 19,
+      "docs/_static/MathJax.js": 20,
+      "docs/_themes/solar/layout.html": 21,
+      "docs/_themes/solar/static/solar.css": 22,
+      "docs/api.rst": 23,
+      "docs/changelog.rst": 24,
+      "docs/commandline.rst": 25,
+      "docs/conf.py": 26,
+      "docs/flake8.rst": 27,
+      "docs/index.rst": 28,
+      "docs/intro.rst": 29,
+      "install-26-deps.sh": 30,
+      "poetry.lock": 31,
+      "pylintrc": 32,
+      "pyproject.toml": 33,
+      "radon/.cli.py.swp": 34,
+      "radon/.complexity.py.swp": 35,
+      "radon/.utils.py.swp": 36,
+      "radon/.visitors.py.swp": 37,
+      "radon/__init__.py": 38,
+      "radon/__main__.py": 39,
+      "radon/cli.py": 40,
+      "radon/cli/__init__.py": 41,
+      "radon/cli/colors.py": 42,
+      "radon/cli/harvest.py": 43,
+      "radon/cli/tools.py": 44,
+      "radon/complexity.py": 45,
+      "radon/contrib/__init__.py": 46,
+      "radon/contrib/flake8.py": 47,
+      "radon/metrics.py": 48,
+      "radon/pathfinder/filters.py": 49,
+      "radon/raw.py": 50,
+      "radon/tests/__init__.py": 51,
+      "radon/tests/conftest.py": 52,
+      "radon/tests/data/__init__.py": 53,
+      "radon/tests/data/no_encoding.py": 54,
+      "radon/tests/data/py3unicode.py": 55,
+      "radon/tests/pathfinder_tests/test.py": 56,
+      "radon/tests/run.py": 57,
+      "radon/tests/test_cli.py": 58,
+      "radon/tests/test_cli_colors.py": 59,
+      "radon/tests/test_cli_harvest.py": 60,
+      "radon/tests/test_cli_tools.py": 61,
+      "radon/tests/test_complexity_utils.py": 62,
+      "radon/tests/test_complexity_visitor.py": 63,
+      "radon/tests/test_halstead.py": 64,
+      "radon/tests/test_ipynb.py": 65,
+      "radon/tests/test_other_metrics.py": 66,
+      "radon/tests/test_raw.py": 67,
+      "radon/tests/testpkg/main.py": 68,
+      "radon/tests/testpkg/secondary.py": 69,
+      "radon/tests/testpkg/tests/testall.py": 70,
+      "radon/tools.py": 71,
+      "radon/utils.py": 72,
+      "radon/visitors.py": 73,
+      "requirements.txt": 74,
+      "setup.py": 75,
+      "test_requirements.txt": 76,
+      "tests/test_cli.py": 77,
+      "tests/test_complexity_utils.py": 78,
+      "tests/test_complexity_visitor.py": 79,
+      "tests/test_halstead.py": 80,
+      "tests/test_raw.py": 81,
+      "tox.ini": 82,
+      "tox_drone.ini": 83,
+      "tox_requirements.txt": 84,
+      "travis-additional-deps.py": 85
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1348167916,
+      "last_commit_ts": 1729417972,
+      "n_cochange_pairs": 90,
+      "n_commits_dropped_as_bulk": 25,
+      "n_commits_used": 495,
+      "n_files": 86
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "54b88e5878b2724bf4d77f97349588b811abdff2",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
