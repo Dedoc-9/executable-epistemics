@@ -31,6 +31,10 @@
     {
       "slug": "nox/nox",
       "reason": "Slug resolves to GitHub 404; correct repo is wntrblm/nox (not in original candidate list). RQ-101-1 (Supervisor/supervisor) activated."
+    },
+    {
+      "slug": "invoke/invoke",
+      "reason": "E-017: slug org prefix wrong (invoke \u2192 pyinvoke). Corrected to pyinvoke/invoke before retry. Clone attempt 1 of 3 failed (GitHub 404)."
     }
   ],
   "repos": [
@@ -78,10 +82,10 @@
     },
     {
       "id": "C007",
-      "slug": "invoke/invoke",
+      "slug": "pyinvoke/invoke",
       "eligibility": "CONFIRMED",
       "audit": "KNOWLEDGE",
-      "notes": "Task execution (Jeff Forcier). Est. ~1000 commits, ~80 py files."
+      "notes": "Task execution (Jeff Forcier). Est. ~1000 commits, ~80 py files. E-017: slug corrected from invoke/invoke."
     },
     {
       "id": "C008",
@@ -207,7 +211,7 @@
       "notes": "Character detection. Activates if second replacement needed."
     }
   ],
-  "declaration_hash": "8f17a0c4b34d6248660f17aa49d45cbe2d1b03b5e645a7138d6bf8e7a1a497b6",
+  "declaration_hash": "f322e28504a7b86374097d2eacfaff1893408d9c54d68df84783b7384a7f9e1f",
   "hash_input_spec": "SHA-256 of JSON-serialized {slugs_sorted: sorted(22 slugs), replacement_queue_sorted: sorted(2 queue slugs), protocol_version: exp101_v1, declaration_date: 2026-06-13} with sort_keys=True, separators=(,,:)",
   "pre_cloning_attestation": "This file committed and pushed BEFORE any Component C repository is cloned. Per HYPOTHESIS_exp101.md \u00a74: declare first, clone after. NEEDS_MANUAL repos must be resolved before their clone step.",
   "replacement_count": 3

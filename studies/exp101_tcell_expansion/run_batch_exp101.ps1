@@ -30,7 +30,7 @@ $repos = @(
     [pscustomobject]@{ id="C004"; slug="pygments/pygments" },
     [pscustomobject]@{ id="C005"; slug="ipython/ipython" },
     [pscustomobject]@{ id="C006"; slug="networkx/networkx" },
-    [pscustomobject]@{ id="C007"; slug="invoke/invoke" },
+    [pscustomobject]@{ id="C007"; slug="pyinvoke/invoke" },
     [pscustomobject]@{ id="C008"; slug="statsmodels/statsmodels" },
     [pscustomobject]@{ id="C009"; slug="joblib/joblib" },
     [pscustomobject]@{ id="C010"; slug="twisted/twisted" },

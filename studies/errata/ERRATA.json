@@ -111,5 +111,18 @@
     "hash_new": "c23785200e79467bf806f737f0ef651e56f839ff9ae7d2ee92f8d93de1c3c14f",
     "corrected_statement": "ENCODING FIX in compute_moderators_exp005.py git_author_commit_counts(): subprocess.run() used text=True without explicit encoding, defaulting to cp1252 on Windows. Non-ASCII bytes in author email data (byte 0x9d in matplotlib clone git log output) caused UnicodeDecodeError in the subprocess reader thread, leaving result.stdout as None and crashing at result.stdout.splitlines(). Fix: add encoding='utf-8', errors='replace' to subprocess.run() call, and guard result.stdout is None. Identical defect class to E-011 (instrument locale-default decoding), but E-011 covered only the instrument's encoders and corpus_builder; compute_moderators scripts were not in E-011 scope. Discovered at first full execution attempt after E-015 fix, before moderators_exp005.json was written (output JSON not produced by the crashing run). Filed pre-result per protocol. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). HYPOTHESIS_exp005.md updated with new script hash.",
     "supersedes": "compute_moderators_exp005.py git_author_commit_counts() subprocess encoding (locale-default)"
+  },
+  {
+    "erratum_id": "E-017",
+    "hash": "f322e28504a7b863",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-101",
+    "repo_id": "C007",
+    "slug_old": "invoke/invoke",
+    "slug_new": "pyinvoke/invoke",
+    "declaration_hash_old": "8f17a0c4b34d6248660f17aa49d45cbe2d1b03b5e645a7138d6bf8e7a1a497b6",
+    "declaration_hash_new": "f322e28504a7b86374097d2eacfaff1893408d9c54d68df84783b7384a7f9e1f",
+    "corrected_statement": "SLUG CORRECTION for C007: REPO_DECLARATION_exp101.json listed invoke/invoke which does not exist on GitHub (clone returns 404). The correct org prefix is pyinvoke (not invoke). The intended repository is pyinvoke/invoke (Jeff Forcier task execution library at github.com/pyinvoke/invoke). Discovered at C007 clone attempt during batch run. Same defect class as E-014. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). REPO_DECLARATION_exp101.json and run_batch_exp101.ps1 corrected to pyinvoke/invoke. Declaration hash recomputed. NOT a mechanical unavailability event; replacement queue slots unchanged.",
+    "supersedes": "REPO_DECLARATION_exp101.json C007 slug (invoke/invoke)"
   }
 ]
