@@ -1,0 +1,5662 @@
+{
+  "chain_hash": "1774d74541871beb",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/ISSUE_TEMPLATE/bug_report.md||.github/ISSUE_TEMPLATE/feature_request.md": 2,
+      ".github/workflows/publish.yml||.github/workflows/test.yml": 3,
+      ".github/workflows/test.yml||pyproject.toml": 8,
+      ".github/workflows/test.yml||tests/dummymodule.py": 2,
+      ".github/workflows/test.yml||tox.ini": 2,
+      ".gitignore||tox.ini": 2,
+      ".pre-commit-config.yaml||pyproject.toml": 4,
+      ".pre-commit-config.yaml||src/typeguard/_checkers.py": 5,
+      ".pre-commit-config.yaml||src/typeguard/_decorators.py": 3,
+      ".pre-commit-config.yaml||src/typeguard/_importhook.py": 5,
+      ".pre-commit-config.yaml||src/typeguard/_union_transformer.py": 2,
+      ".readthedocs.yml||pyproject.toml": 2,
+      ".travis.yml||docs/versionhistory.rst": 6,
+      ".travis.yml||setup.cfg": 3,
+      ".travis.yml||setup.py": 2,
+      ".travis.yml||src/typeguard/__init__.py": 6,
+      ".travis.yml||tests/test_typeguard.py": 2,
+      ".travis.yml||tox.ini": 8,
+      "README.rst||docs/api.rst": 2,
+      "README.rst||docs/index.rst": 2,
+      "README.rst||docs/userguide.rst": 2,
+      "README.rst||docs/versionhistory.rst": 14,
+      "README.rst||src/typeguard/__init__.py": 13,
+      "README.rst||tests/test_typeguard.py": 10,
+      "README.rst||tests/test_typeguard_py36.py": 2,
+      "docs/api.rst||docs/userguide.rst": 3,
+      "docs/api.rst||docs/versionhistory.rst": 3,
+      "docs/api.rst||src/typeguard/__init__.py": 4,
+      "docs/conf.py||pyproject.toml": 3,
+      "docs/features.rst||docs/versionhistory.rst": 6,
+      "docs/features.rst||src/typeguard/_checkers.py": 4,
+      "docs/features.rst||src/typeguard/_decorators.py": 2,
+      "docs/features.rst||src/typeguard/_transformer.py": 3,
+      "docs/features.rst||tests/__init__.py": 2,
+      "docs/features.rst||tests/dummymodule.py": 3,
+      "docs/features.rst||tests/test_checkers.py": 3,
+      "docs/features.rst||tests/test_instrumentation.py": 4,
+      "docs/features.rst||tests/test_transformer.py": 2,
+      "docs/index.rst||docs/versionhistory.rst": 5,
+      "docs/index.rst||setup.cfg": 2,
+      "docs/index.rst||src/typeguard/__init__.py": 4,
+      "docs/index.rst||tests/test_typeguard.py": 3,
+      "docs/userguide.rst||docs/versionhistory.rst": 16,
+      "docs/userguide.rst||pyproject.toml": 3,
+      "docs/userguide.rst||src/typeguard/__init__.py": 7,
+      "docs/userguide.rst||src/typeguard/_checkers.py": 3,
+      "docs/userguide.rst||src/typeguard/_config.py": 2,
+      "docs/userguide.rst||src/typeguard/_decorators.py": 3,
+      "docs/userguide.rst||src/typeguard/_functions.py": 2,
+      "docs/userguide.rst||src/typeguard/_pytest_plugin.py": 2,
+      "docs/userguide.rst||src/typeguard/_transformer.py": 2,
+      "docs/userguide.rst||tests/test_checkers.py": 2,
+      "docs/userguide.rst||tests/test_functions.py": 2,
+      "docs/userguide.rst||tests/test_typechecked.py": 2,
+      "docs/userguide.rst||tests/test_typeguard.py": 6,
+      "docs/userguide.rst||tests/test_typeguard_py36.py": 3,
+      "docs/versionhistory.rst||pyproject.toml": 9,
+      "docs/versionhistory.rst||setup.cfg": 7,
+      "docs/versionhistory.rst||setup.py": 3,
+      "docs/versionhistory.rst||src/typeguard/__init__.py": 105,
+      "docs/versionhistory.rst||src/typeguard/_checkers.py": 41,
+      "docs/versionhistory.rst||src/typeguard/_config.py": 4,
+      "docs/versionhistory.rst||src/typeguard/_decorators.py": 11,
+      "docs/versionhistory.rst||src/typeguard/_functions.py": 15,
+      "docs/versionhistory.rst||src/typeguard/_importhook.py": 6,
+      "docs/versionhistory.rst||src/typeguard/_memo.py": 4,
+      "docs/versionhistory.rst||src/typeguard/_pytest_plugin.py": 5,
+      "docs/versionhistory.rst||src/typeguard/_transformer.py": 37,
+      "docs/versionhistory.rst||src/typeguard/_union_transformer.py": 2,
+      "docs/versionhistory.rst||src/typeguard/_utils.py": 8,
+      "docs/versionhistory.rst||tests/__init__.py": 3,
+      "docs/versionhistory.rst||tests/conftest.py": 5,
+      "docs/versionhistory.rst||tests/dummymodule.py": 23,
+      "docs/versionhistory.rst||tests/dummymodule_py312.py": 2,
+      "docs/versionhistory.rst||tests/test_checkers.py": 41,
+      "docs/versionhistory.rst||tests/test_functions.py": 2,
+      "docs/versionhistory.rst||tests/test_importhook.py": 5,
+      "docs/versionhistory.rst||tests/test_inline.py": 2,
+      "docs/versionhistory.rst||tests/test_instrumentation.py": 20,
+      "docs/versionhistory.rst||tests/test_transformer.py": 27,
+      "docs/versionhistory.rst||tests/test_typechecked.py": 11,
+      "docs/versionhistory.rst||tests/test_typeguard.py": 67,
+      "docs/versionhistory.rst||tests/test_typeguard_py36.py": 12,
+      "docs/versionhistory.rst||tests/test_typeguard_py38.py": 7,
+      "docs/versionhistory.rst||tox.ini": 6,
+      "pyproject.toml||setup.cfg": 5,
+      "pyproject.toml||src/typeguard/_checkers.py": 8,
+      "pyproject.toml||src/typeguard/_decorators.py": 2,
+      "pyproject.toml||src/typeguard/_importhook.py": 3,
+      "pyproject.toml||src/typeguard/_memo.py": 3,
+      "pyproject.toml||src/typeguard/_union_transformer.py": 3,
+      "pyproject.toml||src/typeguard/_utils.py": 5,
+      "pyproject.toml||tests/dummymodule.py": 3,
+      "pyproject.toml||tests/test_checkers.py": 3,
+      "pyproject.toml||tests/test_instrumentation.py": 2,
+      "pyproject.toml||tests/test_union_transformer.py": 2,
+      "pyproject.toml||tox.ini": 3,
+      "setup.cfg||setup.py": 2,
+      "setup.cfg||src/typeguard/__init__.py": 5,
+      "setup.cfg||src/typeguard/_pytest_plugin.py": 2,
+      "setup.cfg||src/typeguard/py.typed": 2,
+      "setup.cfg||tests/mypy/test_type_annotations.py": 2,
+      "setup.cfg||tests/test_typeguard.py": 4,
+      "setup.cfg||tox.ini": 9,
+      "setup.py||src/typeguard/__init__.py": 2,
+      "setup.py||tox.ini": 2,
+      "src/typeguard/__init__.py||src/typeguard/_checkers.py": 5,
+      "src/typeguard/__init__.py||src/typeguard/_config.py": 5,
+      "src/typeguard/__init__.py||src/typeguard/_functions.py": 2,
+      "src/typeguard/__init__.py||src/typeguard/_importhook.py": 2,
+      "src/typeguard/__init__.py||src/typeguard/_memo.py": 2,
+      "src/typeguard/__init__.py||src/typeguard/_utils.py": 2,
+      "src/typeguard/__init__.py||src/typeguard/py.typed": 2,
+      "src/typeguard/__init__.py||tests/dummymodule.py": 5,
+      "src/typeguard/__init__.py||tests/test_checkers.py": 3,
+      "src/typeguard/__init__.py||tests/test_importhook.py": 2,
+      "src/typeguard/__init__.py||tests/test_typeguard.py": 79,
+      "src/typeguard/__init__.py||tests/test_typeguard_py36.py": 14,
+      "src/typeguard/__init__.py||tests/test_typeguard_py38.py": 7,
+      "src/typeguard/__init__.py||tox.ini": 9,
+      "src/typeguard/_checkers.py||src/typeguard/_config.py": 8,
+      "src/typeguard/_checkers.py||src/typeguard/_decorators.py": 2,
+      "src/typeguard/_checkers.py||src/typeguard/_exceptions.py": 2,
+      "src/typeguard/_checkers.py||src/typeguard/_importhook.py": 2,
+      "src/typeguard/_checkers.py||src/typeguard/_memo.py": 8,
+      "src/typeguard/_checkers.py||src/typeguard/_transformer.py": 3,
+      "src/typeguard/_checkers.py||src/typeguard/_utils.py": 6,
+      "src/typeguard/_checkers.py||tests/__init__.py": 3,
+      "src/typeguard/_checkers.py||tests/dummymodule.py": 2,
+      "src/typeguard/_checkers.py||tests/test_checkers.py": 40,
+      "src/typeguard/_checkers.py||tests/test_inline.py": 2,
+      "src/typeguard/_checkers.py||tests/test_instrumentation.py": 3,
+      "src/typeguard/_checkers.py||tests/test_typechecked.py": 3,
+      "src/typeguard/_config.py||src/typeguard/_memo.py": 3,
+      "src/typeguard/_config.py||src/typeguard/_transformer.py": 2,
+      "src/typeguard/_config.py||src/typeguard/_utils.py": 3,
+      "src/typeguard/_config.py||tests/test_checkers.py": 4,
+      "src/typeguard/_decorators.py||src/typeguard/_memo.py": 2,
+      "src/typeguard/_decorators.py||src/typeguard/_transformer.py": 4,
+      "src/typeguard/_decorators.py||src/typeguard/_utils.py": 2,
+      "src/typeguard/_decorators.py||tests/test_instrumentation.py": 2,
+      "src/typeguard/_decorators.py||tests/test_typechecked.py": 8,
+      "src/typeguard/_functions.py||src/typeguard/_transformer.py": 3,
+      "src/typeguard/_functions.py||tests/dummymodule.py": 4,
+      "src/typeguard/_functions.py||tests/mypy/negative.py": 2,
+      "src/typeguard/_functions.py||tests/test_checkers.py": 4,
+      "src/typeguard/_functions.py||tests/test_functions.py": 2,
+      "src/typeguard/_functions.py||tests/test_instrumentation.py": 5,
+      "src/typeguard/_functions.py||tests/test_transformer.py": 3,
+      "src/typeguard/_importhook.py||src/typeguard/_memo.py": 2,
+      "src/typeguard/_importhook.py||src/typeguard/_pytest_plugin.py": 2,
+      "src/typeguard/_importhook.py||src/typeguard/_union_transformer.py": 2,
+      "src/typeguard/_importhook.py||tests/dummymodule.py": 6,
+      "src/typeguard/_importhook.py||tests/test_importhook.py": 6,
+      "src/typeguard/_memo.py||src/typeguard/_transformer.py": 2,
+      "src/typeguard/_memo.py||src/typeguard/_utils.py": 4,
+      "src/typeguard/_transformer.py||tests/dummymodule.py": 14,
+      "src/typeguard/_transformer.py||tests/test_instrumentation.py": 13,
+      "src/typeguard/_transformer.py||tests/test_transformer.py": 32,
+      "src/typeguard/_transformer.py||tests/test_typechecked.py": 4,
+      "src/typeguard/_union_transformer.py||tests/test_union_transformer.py": 4,
+      "src/typeguard/_utils.py||tests/test_checkers.py": 2,
+      "tests/__init__.py||tests/test_checkers.py": 3,
+      "tests/conftest.py||tests/test_checkers.py": 2,
+      "tests/dummymodule.py||tests/test_importhook.py": 6,
+      "tests/dummymodule.py||tests/test_instrumentation.py": 18,
+      "tests/dummymodule.py||tests/test_transformer.py": 6,
+      "tests/dummymodule_py312.py||tests/test_instrumentation.py": 2,
+      "tests/mypy/test_type_annotations.py||tox.ini": 2,
+      "tests/test_checkers.py||tests/test_typechecked.py": 2,
+      "tests/test_instrumentation.py||tests/test_transformer.py": 5,
+      "tests/test_typeguard.py||tests/test_typeguard_py36.py": 8,
+      "tests/test_typeguard.py||tests/test_typeguard_py38.py": 2,
+      "tests/test_typeguard.py||tox.ini": 5
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "baacef9030c430532fbfdac26b1d3ee374f32fda",
+        "timestamp": 1451682419
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst"
+        ],
+        "sha": "4c598e26abc9392f7f0b277e176a1ce59c88ff64",
+        "timestamp": 1451684362
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "9394c1ef0a985df4de9cddcf64cfcaa28dc8d6ac",
+        "timestamp": 1451690741
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "5bfe1f667a00e20226827318a0566b8eba7df871",
+        "timestamp": 1451696721
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "294022750c7e955ddbe9f6c51eeccc41ca97be08",
+        "timestamp": 1451698904
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "b6056c00e07b9bf7f697fd31884dfe0696f2f9f8",
+        "timestamp": 1451784003
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "06870aebbe73a18a5fa7b2c637e4c1e6ed0c9e7d",
+        "timestamp": 1462690356
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "6b182cd5877426c0a37af11d1ae5838cca8291c2",
+        "timestamp": 1462690399
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "c0bd8a4e32677eef65236c1a95f121b8a78de910",
+        "timestamp": 1462691163
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tests/test_typeguard.py",
+          "tox.ini"
+        ],
+        "sha": "680e77be5581efdabb4a50fc8808fe2fb20295e2",
+        "timestamp": 1462691911
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "e98db7a881a533c4b70c4455b8ebf3826dabb7cb",
+        "timestamp": 1462751932
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "e1cbd7890a200c516f24096a177bcab8f7307d07",
+        "timestamp": 1463814388
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "cc2c3903f4408b2f9c7769a4ca6b979e63ff9b65",
+        "timestamp": 1463815899
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "399ab7c035f09d274d58bec0e0f27d05e2bd207c",
+        "timestamp": 1463822613
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "849a664362bcbad4230f879a7bbcc2f82477bea0",
+        "timestamp": 1463824051
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "f64e8dba91c8aecdfcf03c717473bb6644844eef",
+        "timestamp": 1467140824
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "8a07cd6e9fd1119c5775ede1a5de1633628344de",
+        "timestamp": 1467148166
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "0d2d6ad6718dad1602be5950195c5daa0c709873",
+        "timestamp": 1471918268
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "a400753ef2602f2b593adb961f6489d1d4e42321",
+        "timestamp": 1471918309
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f603efb0eae1d2907fa52c0a5212fecd5fa9ed06",
+        "timestamp": 1473795574
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "a87beb38320d844eea109e3e495bb69ad9fcf116",
+        "timestamp": 1473794901
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "7406e8985c506d7d62e3beda39be9d8dc652b351",
+        "timestamp": 1473796796
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tox.ini"
+        ],
+        "sha": "8b69e6d46e992894eed22e5640d9f1cc7aa77ac1",
+        "timestamp": 1481329554
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/versionhistory.rst",
+          "setup.py",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "a1978d9ece4ba5b8f946d593b216e5aaae28aae6",
+        "timestamp": 1481354054
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "84365cdc8edce79291e2f43908d04f0b439a9b69",
+        "timestamp": 1481359787
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "9530d5ad1cdb10a693943ddcae31ee76efeaecba",
+        "timestamp": 1481360008
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "5850293fee28bf89b5ede32a413ab96395cd8ca0",
+        "timestamp": 1481360627
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "1f79c77c1f9a971785bc44b285a185442c9c5a03",
+        "timestamp": 1481364453
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tests/test_typeguard.py",
+          "tox.ini"
+        ],
+        "sha": "e1590c0fc3f784bdb8263d7bbc00836003e373e0",
+        "timestamp": 1481364967
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "setup.py"
+        ],
+        "sha": "e38e8460da50a8f86f64e9cf58316c8e04872374",
+        "timestamp": 1481367620
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "ef04adb5e98e728d82c0c0f9b5a01f0736f1bc66",
+        "timestamp": 1481388211
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "ea6d02b6ad1509d8eddc18dcb5454fb3b562e299",
+        "timestamp": 1481388483
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "2d2f9c944030edfe8894e110bc3e3c351af7d132",
+        "timestamp": 1481388929
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "23d63ed8a58c5a8e2c9c9c03eadf00fd382aea62",
+        "timestamp": 1481398605
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "f940a3dac4dc3f2f337dd61370f2387968e62f44",
+        "timestamp": 1481970616
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py",
+          "tox.ini"
+        ],
+        "sha": "dda56ef66f070214886e485d7dbbf559ece55899",
+        "timestamp": 1481973213
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "797528c13e8b7a13cdcbf55226d63f4470ffc06d",
+        "timestamp": 1481974542
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "e060256a878fefcabda26a2d84a6dbe025e885a9",
+        "timestamp": 1481975745
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "1d97722377e9cfa11d71106b709cddb291879f8a",
+        "timestamp": 1481371512
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "69ce354d74b9de0cee0efc1b6509e8bb2e51ca47",
+        "timestamp": 1481375896
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "5edff45ea6ddd0ef036b6f1aab391c4ee812c34b",
+        "timestamp": 1482008097
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "a110cb588b4c1d720ca038690bf618997186fe41",
+        "timestamp": 1482010172
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "47c8eb218847b300cae8958890c46341c6d263de",
+        "timestamp": 1482010987
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "03e6e8ffbc093baff0e68cf3af1077e0e01642f1",
+        "timestamp": 1482011020
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "2063acc78a68e4447e58b277458fe2cfffcc26c2",
+        "timestamp": 1482011052
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst"
+        ],
+        "sha": "2dbb5923f8c6807362e08ed67aca192def2f50b7",
+        "timestamp": 1482254914
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "94f96fb3369cf0bff92fce807a4d312b350456b6",
+        "timestamp": 1482569989
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "fdd89e4bbf855b50d44a1e7949f5000ba250e2c2",
+        "timestamp": 1486243635
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "005641e1815d37ceb2d36a7d97604c9a45c843d2",
+        "timestamp": 1489277713
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "f0b2cd6589fdba41b7d7f37bf73493f7310713ae",
+        "timestamp": 1489277874
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "6f02ed8a11e44ab3f44d7b13901c57bdc17f3182",
+        "timestamp": 1489326523
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "645f5165bf9c4cf2e1342503ff20ee6936e966ad",
+        "timestamp": 1489329025
+      },
+      {
+        "files": [
+          "tests/test_typeguard.py"
+        ],
+        "sha": "3168120ee1383495930308af0b658c6c4bffe21a",
+        "timestamp": 1489347369
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "92fd6c53593fd2ecb1182caa454bdf0ff93206c5",
+        "timestamp": 1489347747
+      },
+      {
+        "files": [
+          "tests/test_typeguard.py"
+        ],
+        "sha": "83cbe7260fb4638f05c6cffa86090e0f5d31fa90",
+        "timestamp": 1489349010
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "f8f0c7c0f87bc895a250151d0137f40b6e9a4a38",
+        "timestamp": 1489349135
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "8fa988ae8fca32d8f64b196573670ba13b5dc571",
+        "timestamp": 1489415721
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tox.ini"
+        ],
+        "sha": "81a6f1be46141b57382099ffe5a1c72c3a496f8e",
+        "timestamp": 1511012455
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "0acf1c30170802e5d02891ef187d20acf925023c",
+        "timestamp": 1511013279
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "c591f20be2f0efa0e7339faffe568c089ed351fe",
+        "timestamp": 1511013792
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "f55af0ae995135c9e92517ae3294199669f82e0d",
+        "timestamp": 1511017021
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "677c076be548932b9f78d9f526426612fd88e042",
+        "timestamp": 1511945771
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "a5fafd9c4fc3c1038eb86ff949a13038d1958e18",
+        "timestamp": 1511946750
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "0d7b9066481fb4430d6b2ae7e046235a0d6c5d12",
+        "timestamp": 1511946837
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "389c3b9f618af7b5ff45957d39637bd470b221a0",
+        "timestamp": 1515298319
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "f311a90d43a4786459d372f4a1000b8f5ec9e1b2",
+        "timestamp": 1531050894
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/versionhistory.rst",
+          "setup.py",
+          "src/typeguard/__init__.py",
+          "tox.ini"
+        ],
+        "sha": "3a7b881f7497ce71a6063269f29375615828830d",
+        "timestamp": 1530863232
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "setup.cfg"
+        ],
+        "sha": "708f7a6acda5b8420bb5e4f893b1eab776f9a905",
+        "timestamp": 1530863346
+      },
+      {
+        "files": [
+          "tests/test_typeguard.py"
+        ],
+        "sha": "220d6781ab71aef0a4453434a4ece695a11f1ac9",
+        "timestamp": 1531055412
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "b9ab1ad953e3c697bc69ee7a80ea0e28f285779f",
+        "timestamp": 1531055515
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "6ce9062a329f09d59447631795e16323fd79eb22",
+        "timestamp": 1531056891
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "e761ac6124f173e27c28276dafc277717e531b63",
+        "timestamp": 1531058005
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "3d4294f7acd8e7a5d9c8c04d99e7b96c2fd89e9c",
+        "timestamp": 1531079443
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "27a5f2af07f91a75697f2f3b39730a67dea98613",
+        "timestamp": 1531080081
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "setup.cfg"
+        ],
+        "sha": "6c999ba543ef6e4aab9b76c1d4f758b9fb22176b",
+        "timestamp": 1531080402
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "ef236707ce109dbd4e1174c061843acc1c3f6378",
+        "timestamp": 1531922459
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "76d9e57591b221d31fa3afe17f05d0961bce255f",
+        "timestamp": 1532000826
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "2a749471af06d9a472e2c5e38422958ba94b001a",
+        "timestamp": 1532001844
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "f246e33dedb559b9e081f1c0ea99850081ce4b80",
+        "timestamp": 1532004567
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "80e30b6171ff68e85147333dc4c40c794e7c3041",
+        "timestamp": 1532005917
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "4a3c2252a39d68ab7004dd9b812ea30947409ef8",
+        "timestamp": 1532006257
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "bbb4dc7cafc91e44aaef3eef2a770c1885be3617",
+        "timestamp": 1532284584
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "58c0b11c0af2aebbe52c0ad8d86dab7f21ba1dfa",
+        "timestamp": 1533931440
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "e54bbebdf7991a64057feede840d02236ed46424",
+        "timestamp": 1534101778
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "4f5a591a112c06645f28d0e9ebf9244b5e773cae",
+        "timestamp": 1534159851
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "f294e377094a2eea20ee05c6680cffcddc7b6e42",
+        "timestamp": 1536698794
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "e0dfa912ceab97edd72f9cdb344c4ec0a963d19c",
+        "timestamp": 1546121987
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "fb137c367fba04bf53143f0d5a14cf6c346f68fa",
+        "timestamp": 1546123057
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "ceda1ffc6be18cc77c160f126d8870159fc9258e",
+        "timestamp": 1546123294
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "eb4be795d26fd92b2bc47248699a5abba24e1f8c",
+        "timestamp": 1546123420
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "705924aeb66bd608dd72658c20aa22d4d9d32b60",
+        "timestamp": 1546123707
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "03153d8f763cde0cf3860da1e022eade3eb3a594",
+        "timestamp": 1551873599
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/versionhistory.rst",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "7d9811e18e93fa5635642b9bcdd10fe5d10501a3",
+        "timestamp": 1551873835
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "ac71cbaca79cac746ee4306ea8fd73f069e07847",
+        "timestamp": 1553686786
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "c51ff83f4b744ab5d799b40cb0d098288f879f66",
+        "timestamp": 1553686834
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "804d1e556518f816e6ab5701d18e1b15ba0c0266",
+        "timestamp": 1553687453
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "67a859a0fde6c73229ee08de8652d311d3e6c98f",
+        "timestamp": 1554879138
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "e1b17dd4f2a44da9ccbfc3c69476fdb58c48d69c",
+        "timestamp": 1555045970
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "c694b34c6c16a3a47edf451ff9f058bb0f1049c0",
+        "timestamp": 1558265261
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "setup.cfg",
+          "src/typeguard/__init__.py",
+          "src/typeguard/py.typed"
+        ],
+        "sha": "9b6b7c5b3ada6229c9aebc2b5532348d9ed51bf9",
+        "timestamp": 1558265138
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "8e7ff3c525a31d6431c72eeebd769cb9df1202f7",
+        "timestamp": 1558266112
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "15e28676e2314f23e81db5bf69369df0731cdf08",
+        "timestamp": 1558267580
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "d306fecddf193c8c949daeedecfb0bf0f78697a8",
+        "timestamp": 1562939018
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/versionhistory.rst",
+          "setup.cfg",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py",
+          "tox.ini"
+        ],
+        "sha": "b212189d232231e1c5da9bdb374875ec8ff2777e",
+        "timestamp": 1563098509
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "76c862abb6bd6589c056c5f97e97620929ec1a9f",
+        "timestamp": 1563098882
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "22cdeaa5ab90a92446134f94838c80216cd7187f",
+        "timestamp": 1563099860
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "c86ccc23d70f58a7f74d3aaf22f6cb3aa22a4315",
+        "timestamp": 1563099673
+      },
+      {
+        "files": [
+          "tests/test_typeguard.py"
+        ],
+        "sha": "de251926d78399b65ee20eaa0d299e9cc551e8f6",
+        "timestamp": 1563101006
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "29adff2a39dfcce4d54eebe3f0c1d3680eb9a498",
+        "timestamp": 1563101281
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "setup.cfg"
+        ],
+        "sha": "9d113b08bc06a76f00a7636b55b3a5879e8b098b",
+        "timestamp": 1563178874
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "d9013460ea91e578aac56800ffda1bb1b961be37",
+        "timestamp": 1565252749
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/conftest.py",
+          "tests/test_typeguard.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "2e7a9e2c2ab50d61ea31850930a3be08370ab8e0",
+        "timestamp": 1565262416
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "4a41446ad412f9687499baccf0a70b96f9058902",
+        "timestamp": 1565263552
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "40e2c8a549a9a245465206615dcf0428e7a88d1c",
+        "timestamp": 1565264145
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "7dd37e3f5a2d41a9daaaee91b1e804523aa8c2a9",
+        "timestamp": 1565265161
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "f7d69222fbe0d4491e67eba011dfc56334d8905c",
+        "timestamp": 1565269126
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "934b9c648d7a7f8ded4ba0a338ce489f1cbd7104",
+        "timestamp": 1565269921
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "6cfa1f9cdeaa5cb89749146e0969275a119d0962",
+        "timestamp": 1565522647
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "309c104aa38e16dbcdf1bf2f77f0613757e299fe",
+        "timestamp": 1565536361
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "9fa61cde46f534347c32e73e8d8487c1e4a52ddd",
+        "timestamp": 1565558241
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "1eb820e8c1a0b0044f34f385f17789e215b646ba",
+        "timestamp": 1565563354
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "759318ad71ace7b02665925980be99c0cc9c8444",
+        "timestamp": 1566022121
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "c2431804f4c3205f32f8d0b8756b51ecf2b46b4c",
+        "timestamp": 1566851028
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "ee3ae2afd1acb740d8a3db9f7266df9992a06564",
+        "timestamp": 1566852820
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "0048f66eeacf13de29b6cf47df3d06aa0a19636e",
+        "timestamp": 1566852864
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "40d78cb7c09bcd2ab08989053816619db713d8c2",
+        "timestamp": 1566853157
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "476151462249259770ab9146571ec9944cb138dc",
+        "timestamp": 1566977614
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "8f48de0118abf3f883e16ec43bf2b7a9b58c294e",
+        "timestamp": 1568445823
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "2717f8686342ad91e1e6fe117a42e9dbd11eaf73",
+        "timestamp": 1568447336
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "d62db01668767b582dce56d069a42df499bbf523",
+        "timestamp": 1568570533
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "c684a1ce7491fa01312ecdd20c221a288a11a169",
+        "timestamp": 1568571121
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "0c3f1aed651c5c6d46b6d6d7a134bc4d5d5083a7",
+        "timestamp": 1569484327
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "81f309c6c78cc9fe996902fec670d4eaed015013",
+        "timestamp": 1571739921
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "97487f2eb4d18760ac18fad86584497795f4363c",
+        "timestamp": 1571742849
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py",
+          "tests/test_typeguard_py38.py"
+        ],
+        "sha": "487a21421f0a51d64b496c53c7916517e5c74aeb",
+        "timestamp": 1571746309
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "ec3100afebd958b544d2909203b7c0fa9a13462c",
+        "timestamp": 1572545270
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "7a61cae6bb7858468d4fefaf8b8f92e2bfa41886",
+        "timestamp": 1572991588
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "830a366df08867b32695382ea8acca641ec9ec1e",
+        "timestamp": 1572851975
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/versionhistory.rst",
+          "setup.cfg",
+          "src/typeguard/_pytest_plugin.py"
+        ],
+        "sha": "90d0e7af499d3b1d51bc360ae49bf2c839b9e19f",
+        "timestamp": 1572990801
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "d1f2412a8b5d94c813b2a05abd14c4d1186f5dbd",
+        "timestamp": 1572991372
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "b622872b86c32f51347ae6351c431e4c92ed172f",
+        "timestamp": 1573029294
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "3ec45b9bd667db23f4144ade133f88b31bdeebd1",
+        "timestamp": 1573213058
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_importhook.py",
+          "tests/dummymodule.py"
+        ],
+        "sha": "a96a01bd3c004a53dfe13d074a68f17dc015c46f",
+        "timestamp": 1573215475
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/dummymodule.py"
+        ],
+        "sha": "c4e8646bb2de055c7624c373aae82096a3afbe5a",
+        "timestamp": 1573215934
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "d6d14cfaef86efda93b5d28e1599d7cf88bfef2a",
+        "timestamp": 1573217282
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "e08e2a788d139170e62839476603d84e2e747535",
+        "timestamp": 1573299610
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/dummymodule.py",
+          "tests/test_importhook.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "51c6ab4e32829c58ae0487f27443216254abee53",
+        "timestamp": 1573382160
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "14e35b3fd6a3845206b1d3a83be36c65a643f066",
+        "timestamp": 1573384968
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "70c29efb119e36684e3ec07af47e99f96368b064",
+        "timestamp": 1573386196
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "a28cee82fda9459a3a2f2d80d18768c05befe242",
+        "timestamp": 1573394159
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "da05d397670ca8bbd8fecd4141da429acd39c024",
+        "timestamp": 1573405806
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/dummymodule.py"
+        ],
+        "sha": "0341d724fd01c88e06b1d5ebcdd899c17c02acbe",
+        "timestamp": 1573457122
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "f5c5ee915f78e86f7da4d82da8488fd1cf9b8f30",
+        "timestamp": 1573806950
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "8922f5af019dcc4b4e631470adfebceb36ab43e2",
+        "timestamp": 1573807796
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "bcc67eb351867ee97f6efbb86bf6537b5a23483e",
+        "timestamp": 1573984832
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "19b8827e360f3a976223114a705c054e748f406b",
+        "timestamp": 1573996357
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "cda87ca326b8fce077b0262fcad1c9ac0adb3bdb",
+        "timestamp": 1574003657
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "01e0004c81c4bbc8d2779cc99592d9c3f4e1b95a",
+        "timestamp": 1574003938
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard_py38.py"
+        ],
+        "sha": "6002d7c53fc58c9ee7a0faa438c47853bddc6b5f",
+        "timestamp": 1574782204
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard_py38.py"
+        ],
+        "sha": "f5517a8aa8c552f78a1109d6955723668c01b2cc",
+        "timestamp": 1574790411
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "a00f03e7689f881e11a244ede7f6e7e3c3369fa0",
+        "timestamp": 1574796471
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "096fafea351b9794bc7ca346e6e060800644d127",
+        "timestamp": 1574844597
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "373f4a654c15384b6c43a40eb4c6028a44450da1",
+        "timestamp": 1574844655
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "3be8f8509e3ea007d43dc1943b78b2078167d0e8",
+        "timestamp": 1574862761
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "34492a19c3b80b2ead105f9aa4cf4dd9c91eb1f0",
+        "timestamp": 1574862957
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard_py38.py"
+        ],
+        "sha": "8b3962e477a39e517858944e8f35db8a090a518a",
+        "timestamp": 1575392349
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "1faec9d930c2b0f9bde841525703a35e8de834c1",
+        "timestamp": 1576011461
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "47a2f5c9c692f608d163401dd442d2980f577d42",
+        "timestamp": 1577289218
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "5feb055f1dfc5b605cff1a1b51a4bfc7b3f4a49a",
+        "timestamp": 1577458543
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "7507ca9601280b294a2678c62d8feb06d783ea78",
+        "timestamp": 1577458684
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "4d5dc398cd67952b8cff6a8b0492076156a0bd7d",
+        "timestamp": 1586166677
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tox.ini"
+        ],
+        "sha": "87a5f2264a0537772d87ac321c7f0dc2dbad5310",
+        "timestamp": 1590054141
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "6b8c22c52d46665e9839c0ca8dae1454b93c52c1",
+        "timestamp": 1590694552
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "f666c1e164fe9f7ba7d4d6d6ba8562404c0b9e77",
+        "timestamp": 1591113047
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "35aced300941c61727c74d6e26fe98f01c09294e",
+        "timestamp": 1591113429
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "f8f7fd8e9d694b865c9f569ba07712f037b90356",
+        "timestamp": 1591114337
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard_py38.py"
+        ],
+        "sha": "c79bd2e0b88fdd497322e247c880688d5a94e481",
+        "timestamp": 1591127429
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/api.rst",
+          "docs/index.rst",
+          "docs/userguide.rst"
+        ],
+        "sha": "22ba171ffffa5a62fc98e33b486c629a911e06e6",
+        "timestamp": 1591129569
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "c18a3dfe51036714951d46db2858926ac8d5f174",
+        "timestamp": 1591130342
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "50de302e33542b5eee190cab3d364a47a51f2c6b",
+        "timestamp": 1591130603
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "cfb06d8d05b401737bfe7e656f1f501418ca91a2",
+        "timestamp": 1591129650
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "eda2c3291aec30ec70f0f374a8816ceebaf500ba",
+        "timestamp": 1591175338
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard_py38.py"
+        ],
+        "sha": "f169156d659922ea399438ef0f8d972f489f5d5a",
+        "timestamp": 1591188416
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "931b205b9672408e53e577e618879f5f3397c95e",
+        "timestamp": 1591190077
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "cb9db8ca7cfcfe9775a8194520ea45a15e7b41c2",
+        "timestamp": 1591283758
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "71e291187246b2bb9ab55ec6cdb519791ae6e3fa",
+        "timestamp": 1591375532
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "1109675f1a7dd4533bf3500bf079bc2693b9c273",
+        "timestamp": 1591376822
+      },
+      {
+        "files": [
+          "tests/test_typeguard.py"
+        ],
+        "sha": "04707f7c3497f7469e1e10f5f69778ec773883b3",
+        "timestamp": 1591377359
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py",
+          "tests/test_typeguard_py36.py",
+          "tests/test_typeguard_py38.py"
+        ],
+        "sha": "c6fa51ce3cc63b217f74e9fe761ec46e7a87bda9",
+        "timestamp": 1591379240
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "71f0950d639e00e63dbf756b181d393129238997",
+        "timestamp": 1591380752
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "4131c4e09b76305b49bb8a6642baf49fcbb7692c",
+        "timestamp": 1591438400
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/versionhistory.rst",
+          "setup.cfg",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "ffe26f17d1ef428231968fb2e34b6b4d683a73ad",
+        "timestamp": 1591442059
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "d64425792f9e48ba3c2fae994bdb06306d53bcc4",
+        "timestamp": 1591442126
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "068e7b3d0861b4aeda752973c9e030fa58518872",
+        "timestamp": 1591446471
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "1b6edbdcf772fc7cd64b865946b71aaa2fcd8201",
+        "timestamp": 1591447669
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "0cdef35c5d6314dd807479bdb521386774902494",
+        "timestamp": 1591450080
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "0c7d1e7df87e3cf8de6e407e2ee04df21691280d",
+        "timestamp": 1591516725
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "47178abc3fc7b8148d0e55bcf94e87535de7f664",
+        "timestamp": 1591517366
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "b4608947ade735a73daebc6e3b55fbc0c0e54b7a",
+        "timestamp": 1591519756
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "a81658265808b21354609d276a3a815718656b20",
+        "timestamp": 1591520190
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "70237c996d269539034cd909a06bb77c8594cf39",
+        "timestamp": 1591645479
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "461cfd50031955321832d5b3a216f1e05cf8a221",
+        "timestamp": 1597425464
+      },
+      {
+        "files": [
+          "src/typeguard/_pytest_plugin.py"
+        ],
+        "sha": "9673ad15e2991274f98da8cd0d0f6fad0037dde0",
+        "timestamp": 1597426495
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "01a6fc4a4ad4f6f8357d62f306edf443f00f79d8",
+        "timestamp": 1597426571
+      },
+      {
+        "files": [
+          "src/typeguard/_importhook.py",
+          "tests/test_importhook.py"
+        ],
+        "sha": "55fbcb576201dc3e5e39e0b649409f90790c97b8",
+        "timestamp": 1598125867
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "src/typeguard/__init__.py",
+          "tox.ini"
+        ],
+        "sha": "c65844ea2224a425b821dfc67917cb8f739c8647",
+        "timestamp": 1602178042
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "a0cff152efc1ad4cf2e1258b46de9dc19e2a716f",
+        "timestamp": 1602934352
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "d0a6404b27805eb7030aaa698b2eeafe1536176c",
+        "timestamp": 1602935639
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "3db0cc7403cc52e39b30697bc2f2a306a6514e79",
+        "timestamp": 1602935649
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "e646cecb781fedf77de270bb4e71e2844b85fba6",
+        "timestamp": 1602936585
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "419992f49f6f0481686d28214eda5b6ff5473387",
+        "timestamp": 1602936991
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "53067f001ade2ce0f14451abb0b5e1f1f4546637",
+        "timestamp": 1603521402
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "61f9f15e7db6b90ed05fd835660739715f110a59",
+        "timestamp": 1604146017
+      },
+      {
+        "files": [
+          ".gitignore",
+          "setup.cfg",
+          "tests/mypy/negative.py",
+          "tests/mypy/positive.py",
+          "tests/mypy/test_type_annotations.py",
+          "tox.ini"
+        ],
+        "sha": "84ed057dbd2d30b1e97f63d77b3d10e25e422531",
+        "timestamp": 1604268005
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "6f4f9d6cfd9d6333090ec2f4e9f56c4945cd7d45",
+        "timestamp": 1605952291
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE/bug_report.md",
+          ".github/ISSUE_TEMPLATE/feature_request.md"
+        ],
+        "sha": "b759ceafc0566fbb4f39bf986d187554f6bb72cf",
+        "timestamp": 1610192920
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "229cd0090597ee41b84aba5c91055a2789e1d6e5",
+        "timestamp": 1611496225
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "5a32460999cdcae0afae8f9d98447404a39bb245",
+        "timestamp": 1613215007
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "9d76960d8cd7d2a6ae1d0771eb67bbaa518508ab",
+        "timestamp": 1613217217
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "8b15341b6139c936de29fc67c0a0e0d890bdd3b4",
+        "timestamp": 1613217499
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "b3cec2f966b4d8af188aa1a34fd01aed287e32ff",
+        "timestamp": 1613217959
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "setup.cfg",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py",
+          "tox.ini"
+        ],
+        "sha": "16fa1630115d3d1adbd40d5b32d8c6591ba7b5db",
+        "timestamp": 1613472010
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml",
+          ".github/workflows/test.yml",
+          ".travis.yml"
+        ],
+        "sha": "f2a6c8fff8a0df007d352cf65f8f001abd1ed0fd",
+        "timestamp": 1613472396
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "src/typeguard/__init__.py",
+          "src/typeguard/_importhook.py",
+          "src/typeguard/_pytest_plugin.py",
+          "src/typeguard/py.typed",
+          "tox.ini"
+        ],
+        "sha": "350f1a19644ee4c4ce4e17c254dfc677e78f6e7d",
+        "timestamp": 1613472821
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tests/mypy/test_type_annotations.py",
+          "tox.ini"
+        ],
+        "sha": "f2832e44425a49d4db921e7027c0a6ac561f89a8",
+        "timestamp": 1613485372
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "851bf830008da9ac7acf1e82116910f560a214b3",
+        "timestamp": 1613502032
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "56aa9aecbdb289096fca902aaf2b10183c949a0d",
+        "timestamp": 1613502912
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "8cb97fd0514a1e6c9453c34581bd6b3dcc310173",
+        "timestamp": 1613504027
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "56e44c3558e51d564db1b34e8ff606cfb0eeb3f5",
+        "timestamp": 1613505356
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "c24f24de683210716bde256ee4a10011a5dfc286",
+        "timestamp": 1617299215
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "abcaa5d6f34eaddd4f5cd1ab1c16c853554eaf6c",
+        "timestamp": 1617299255
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "3f12d1fadb18aa34de6334010e833825b506164d",
+        "timestamp": 1622639186
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "f1e1a916b2cee0b71e14eac03542c258356a9029",
+        "timestamp": 1622797673
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "89c1478bd33bcf9a7cccc2c962ebeaa034e51908",
+        "timestamp": 1622806810
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "966873dcf536882de6d670dffe01d56861d0ad77",
+        "timestamp": 1633671744
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "e3ae5606e404f20843f6537b54a4e79495ee27bd",
+        "timestamp": 1633782780
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyproject.toml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "b004d90cb99e9d41d967ee20fcdf405c0a55be41",
+        "timestamp": 1633673016
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "5a6804a246b208c329b6cb022729489f66640b56",
+        "timestamp": 1633783292
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "ed1058fd9b840ffd0c4154c48369831135f45afa",
+        "timestamp": 1633787010
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "0b9f6b9518e11adde4f397f1cc09b0a4db0ce744",
+        "timestamp": 1633785317
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "e81fc61438345a665aec604850de339704c7d83b",
+        "timestamp": 1633786930
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "e9e3386dbd4dd3495fa3273550691cdf2cfe09c4",
+        "timestamp": 1633782400
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "a2f1c8339a666adf67ddf0100e11275c95ac2146",
+        "timestamp": 1633782370
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "7d0b85d45efda499c0af9134bfa6ffcf0a34fc88",
+        "timestamp": 1633790603
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/dummymodule.py"
+        ],
+        "sha": "193b263995ba516e68cc53a5f22c54d561f00eea",
+        "timestamp": 1633792225
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "814a817b01d980407987c8ec2bb42809085b82cf",
+        "timestamp": 1633792669
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "62efaad4594aa14399063bd0ca129ef70e60a970",
+        "timestamp": 1633793266
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "fba5af10499bd88d456fba6d09576071061d3740",
+        "timestamp": 1633793644
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "b506bb48de4e302f0a98405df1723813962b8ef5",
+        "timestamp": 1633794064
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "5020ab8d210f5c1bc89e9f06f941152969e0144a",
+        "timestamp": 1633796885
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "1ec73ffbc0baf323b5b8b4658803730041aa97d9",
+        "timestamp": 1633799778
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "36ad4c3e6f9de23c19d2a770c269dde095958000",
+        "timestamp": 1633814424
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "bfde01cf1fa6d361c8e73f9f12b4af228bb6da5f",
+        "timestamp": 1633904240
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "7b598c2bd71218b15c6910398542811da126b49a",
+        "timestamp": 1633908895
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "98fefd0c62867c0a80dfd8e5fa9b4727b9ae29fa",
+        "timestamp": 1633909295
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "1ba2a2dc4df37e61738957601a093f426d154480",
+        "timestamp": 1633936557
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "8cfbe29e60a3e5f2819e57e1a1d926220f112ecf",
+        "timestamp": 1633987203
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "5d59dffd92fa51ddf08b3383ee39a397e9122126",
+        "timestamp": 1633987203
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "d59951192e7ea8f8314dd0eedd50ac120e844879",
+        "timestamp": 1636803322
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "3f441ef65f8180a5733b0c1b00962488e4273d7c",
+        "timestamp": 1636804352
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "235b1ab8b41d0b9810ef67e07254a05e02a2b0e7",
+        "timestamp": 1636806949
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "0ec3dad8d0c40d6119d4c20b8e081fcb3d0f180e",
+        "timestamp": 1637617850
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "4ac7f2823348ac0adc675369105dd890fd8a6dad",
+        "timestamp": 1637618463
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "2516f186473a4f1b70f8f438fac2fd7729a55741",
+        "timestamp": 1637618334
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "4615f19cbdd5059673c763d412707dda40388974",
+        "timestamp": 1637621806
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "bc791cd2d0ae75ec4bb398c40a6558ed00f0899d",
+        "timestamp": 1637679739
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard.py"
+        ],
+        "sha": "580826d0e8c9f76425cb96a85fde65cc4ed597b1",
+        "timestamp": 1638014253
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "2fe7a63e7e7fe6b7910fd423ba82eea4bffb1f17",
+        "timestamp": 1638015988
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "pyproject.toml",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_config.py",
+          "src/typeguard/_memo.py",
+          "src/typeguard/_utils.py"
+        ],
+        "sha": "252769ae04fd8625dd81c6bd5c85ea4de022e295",
+        "timestamp": 1638043569
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "02c49d0a5bd731f92c8ab246555f53ad7929db16",
+        "timestamp": 1638051204
+      },
+      {
+        "files": [
+          "src/typeguard/_memo.py"
+        ],
+        "sha": "483c603af2ba047a65c2672cb53faa6f6402ded7",
+        "timestamp": 1638053930
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "93962127affa3886e4e558ccd323433a70ac3cbc",
+        "timestamp": 1638053961
+      },
+      {
+        "files": [
+          "src/typeguard/_memo.py"
+        ],
+        "sha": "f8421fc1ceba0c1c65ec41b31384c700706990e5",
+        "timestamp": 1638133483
+      },
+      {
+        "files": [
+          "tests/test_typechecked.py"
+        ],
+        "sha": "daafeebc6a2f461cb07d96e4a0577e77cf79f41d",
+        "timestamp": 1638133518
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py"
+        ],
+        "sha": "e2face7aee0e4e0d598df15c279c178f53e58b7b",
+        "timestamp": 1638135889
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "50bafb430f2759136cbe41a6cd7db91f9fe6826e",
+        "timestamp": 1638307880
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py"
+        ],
+        "sha": "0fbb5b8f8c7b24361a6289122d5c8e87ba3b10ef",
+        "timestamp": 1638311872
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py"
+        ],
+        "sha": "76847cf93a83c4834413b3098f36eb68d041c5e6",
+        "timestamp": 1638652130
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_config.py",
+          "src/typeguard/_exceptions.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "33455db879d16558a36182983db44fbc65083a15",
+        "timestamp": 1638703567
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "27259740532342b36387afe927f7a7f843e3129b",
+        "timestamp": 1638704830
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "dd988c20c7a09441f8cf88106e0d57d76d278cf7",
+        "timestamp": 1638704929
+      },
+      {
+        "files": [
+          "docs/extending.rst",
+          "docs/index.rst",
+          "setup.cfg",
+          "src/typeguard/_config.py",
+          "tests/test_plugins.py"
+        ],
+        "sha": "bf2047a3547a150def35fbc043d9f7aec5aac1b0",
+        "timestamp": 1638723287
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "src/typeguard/_importhook.py",
+          "tests/dummymodule.py",
+          "tests/test_importhook.py"
+        ],
+        "sha": "493a732c35b42160bb0dc78ad2d711dcafffd89d",
+        "timestamp": 1638797665
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "58f83f7fd214b0f0f71c9a9461e5106d9592a186",
+        "timestamp": 1638823352
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_config.py",
+          "src/typeguard/_generators.py",
+          "src/typeguard/_memo.py",
+          "src/typeguard/_utils.py"
+        ],
+        "sha": "8b7b5fb98caab318600f9b7e7328cef54c4fa571",
+        "timestamp": 1638825723
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_config.py",
+          "src/typeguard/_memo.py",
+          "src/typeguard/_utils.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "aecdfa8fc05a720f73c15db5a317453a89feecbe",
+        "timestamp": 1638826891
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_config.py"
+        ],
+        "sha": "1ca7e52e50992c306a33f471f27a060d96aefa69",
+        "timestamp": 1638827064
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "8c47a3e4f5b4a222cc837f32add396029923e1a9",
+        "timestamp": 1638828009
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "4644e3626c714d5cea36dc2fc370db32c37d0454",
+        "timestamp": 1638829344
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "319f6e388ab641fb7379f6d2efe1b634cc98b1da",
+        "timestamp": 1638829749
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "160e2814c35ae97257366790724a51f0bcd0a08c",
+        "timestamp": 1638829827
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "10aefe6ef3a4637c85c047a5f1c7ef07b2cc2679",
+        "timestamp": 1638829871
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "e9757632ccef12923d29068dd64a168d575decb7",
+        "timestamp": 1638833105
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_exceptions.py",
+          "src/typeguard/_importhook.py",
+          "src/typeguard/_memo.py"
+        ],
+        "sha": "afef45409cd716105849e0fdbf45d732a41960b9",
+        "timestamp": 1638833140
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typeguard_py36.py"
+        ],
+        "sha": "4c98adc488fe7de875520aff31449ad86a8020f4",
+        "timestamp": 1639128549
+      },
+      {
+        "files": [
+          "tests/test_typeguard.py"
+        ],
+        "sha": "03db54f245993f1a2aade486f1cf3471c2f73b2b",
+        "timestamp": 1639169008
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "de6ab051309ba74a0a27840f8172697c8778ae4f",
+        "timestamp": 1639170338
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "setup.cfg"
+        ],
+        "sha": "a1c64c5f41a2f99d4fdfa6721803dfbd8d631b1c",
+        "timestamp": 1648339847
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          ".gitignore",
+          ".pre-commit-config.yaml",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "6a58d772d1a553616b241cd901d65aa49d462a93",
+        "timestamp": 1650232627
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "tests/mypy/negative.py"
+        ],
+        "sha": "4e06f324ea5ffd8fd6781c94b47b7971ae9b9dcb",
+        "timestamp": 1650235158
+      },
+      {
+        "files": [
+          "src/typeguard/_exceptions.py"
+        ],
+        "sha": "2adc2e99c8af9a3bab443ed3f201eb768a94a2ec",
+        "timestamp": 1650236848
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_utils.py"
+        ],
+        "sha": "a298d6cde249fe7ad46b90b94aa3bdd246e60417",
+        "timestamp": 1651095309
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "17416ca3003b187cbf54f31fdc49f831d8f17be2",
+        "timestamp": 1652042279
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "3b0065cb422f1c258c95563229284acd9fca11d1",
+        "timestamp": 1652043356
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "README.rst"
+        ],
+        "sha": "b36ada4bb596c2bbd3c20d71f2ddba32de0d286a",
+        "timestamp": 1652043688
+      },
+      {
+        "files": [
+          "docs/Makefile",
+          "docs/make.bat"
+        ],
+        "sha": "b4a08edbfa72cf78828fd22e3e6fbac2414025d0",
+        "timestamp": 1652283220
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f87c1c0b8689b294a1e9120a92038f1a7fb68321",
+        "timestamp": 1653319981
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "0dd7f7510b7c694e66a0d17d1d58d185125bad5d",
+        "timestamp": 1655190815
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3a82f1c18998ab7f250fa0e3a78fd6eec7bed116",
+        "timestamp": 1656962938
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "setup.cfg"
+        ],
+        "sha": "9ffbb467b7636bb7be18e2c0ed6f33bce4806cda",
+        "timestamp": 1661071324
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyproject.toml"
+        ],
+        "sha": "63c7455c0ef51fa80df1959ecb0a0a347337d337",
+        "timestamp": 1663885981
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6c17ea77a248fb84c708b0df584cacc17112289a",
+        "timestamp": 1663887248
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f79bd2f45633b144b699a3b41ac814789a992fec",
+        "timestamp": 1664099176
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "833c371792d2a5e65b5a48ce65b52c5916a02ab6",
+        "timestamp": 1665474721
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "ce443a6a9dcc1881865b6fd9e2571d2bd7cf872a",
+        "timestamp": 1672482819
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "tests/__init__.py",
+          "tests/mypy/negative.py"
+        ],
+        "sha": "bb78a47e240380751b9fac5e7372c88245483df2",
+        "timestamp": 1672483602
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "5694c3ad6c1834eb037b618ffa6a56da3243be6a",
+        "timestamp": 1672483750
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "00f23fa998471b2a47de0ad4524fc68bcfa4fa47",
+        "timestamp": 1672483814
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "e8facdfbc525c3b78a0e84cff23a137ef82cbfa4",
+        "timestamp": 1672568395
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "ca1c6c1c82d90a4bcfe4746f63edb8fd6e13a47d",
+        "timestamp": 1672572550
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "2fa8085cca9662afb1b7f2f37891b5d6935bf8d7",
+        "timestamp": 1672572564
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5a5777bac05e3940737d4483fcb508acb4cecefe",
+        "timestamp": 1672572768
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "585bdc02fdeca40e4d241a372b1503a7e2be1b62",
+        "timestamp": 1672574135
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "pyproject.toml",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_memo.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "8622f4e1fca92764abe701d283356d09bee279f2",
+        "timestamp": 1672583658
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "3df408d0fd8f6c8ea6313172d193cde0e7810937",
+        "timestamp": 1673301354
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "f641b9ef3671d78f6ccdd18bd0644b8bfbecca09",
+        "timestamp": 1673301652
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "22b3de4d4a2138a088448a9819d813615e3aff31",
+        "timestamp": 1673309671
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "10a86cd1c3aab697077123bd56af0235fbe1dcc1",
+        "timestamp": 1673390140
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_config.py"
+        ],
+        "sha": "7f20151413c90f70bdf15d3d634457132dc73b4e",
+        "timestamp": 1673461808
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_memo.py",
+          "tests/test_inline.py"
+        ],
+        "sha": "2174d6b42fe25eb98736cfb69462b5a2a61a5787",
+        "timestamp": 1673467417
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "708488bd6c467d3b55c2f77b546ae396b3a139e7",
+        "timestamp": 1673468904
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "8968e45deb10df8e5e3c56aad7d14d86513310a0",
+        "timestamp": 1673468997
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py",
+          "tests/test_inline.py"
+        ],
+        "sha": "26608164200ff10095862a3dd23e88d58c5ff16e",
+        "timestamp": 1673472472
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py",
+          "tests/test_inline.py"
+        ],
+        "sha": "d113e64e263f037b1f395056d08a6257ec98adb7",
+        "timestamp": 1673473662
+      },
+      {
+        "files": [
+          "tests/dummymodule.py",
+          "tests/test_importhook.py"
+        ],
+        "sha": "e59d56ac464b3398ac22d7fd6b615c72013206e8",
+        "timestamp": 1673474774
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "d1f2d86157047e33fad71f37ea84d1935e0c5926",
+        "timestamp": 1673631742
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "5d37d6866938cf0331d84270b7e41c294f051b4d",
+        "timestamp": 1673638939
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py",
+          "src/typeguard/_decorators.py",
+          "src/typeguard/_functions.py",
+          "tests/test_inline.py"
+        ],
+        "sha": "9cfcda5f56a507ded8090453bdd7c0ea884f3901",
+        "timestamp": 1673647179
+      },
+      {
+        "files": [
+          ".readthedocs.yml",
+          "docs/conf.py",
+          "pyproject.toml"
+        ],
+        "sha": "018afa6a7ad759ff0bb589927a8e7e08ccd542db",
+        "timestamp": 1673647806
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "src/typeguard/_functions.py",
+          "tests/test_functions.py"
+        ],
+        "sha": "4e85909677d205ad8f956a8aa9dc9f03481ef9c8",
+        "timestamp": 1673648338
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "pyproject.toml",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_utils.py"
+        ],
+        "sha": "1b7ce1958152021e9840109f2f8381c7e82546bc",
+        "timestamp": 1673649201
+      },
+      {
+        "files": [
+          "src/typeguard/_functions.py",
+          "tests/mypy/negative.py"
+        ],
+        "sha": "8d97e7be4d0fb8c4794b83eb6f8618f1185d4f4f",
+        "timestamp": 1673650980
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "51ef92c4f05b0d6eaad53949d25fb5247476a9ac",
+        "timestamp": 1673694899
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e4e4d0f5f0c5e3e75d87be0213c0b671aca16ae6",
+        "timestamp": 1673695087
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "6093ed39642b8cc8d7e0779e06f3ccd6e8783458",
+        "timestamp": 1673695405
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "tests/test_functions.py"
+        ],
+        "sha": "53d3ba21d6ad29083bf36c6ab4cdea97696e1a92",
+        "timestamp": 1673777690
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "src/typeguard/_importhook.py"
+        ],
+        "sha": "45a65d5eb3dbbea105010723a6ed5c1ad5ff5d49",
+        "timestamp": 1673779124
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "e6a6c19abea00a8607b879dbd40624fef17cee7e",
+        "timestamp": 1673783276
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "4577694d1f3a69b7f18b2b9db7e32f502ee50468",
+        "timestamp": 1673785215
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ea1f2c29d394509cf23f0798f05e9f30ef3b7e14",
+        "timestamp": 1673785232
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_utils.py"
+        ],
+        "sha": "2cda6428da09dbe7603d822891bae217f0f7346c",
+        "timestamp": 1673789008
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "ce153134587f7de6030456749cc75ab245ccd7fd",
+        "timestamp": 1673794161
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "pyproject.toml",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "fb43edee141e6d62bdc412fb6fca024c7b5df5ec",
+        "timestamp": 1673795852
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "tests/mypy/negative.py"
+        ],
+        "sha": "d361054b470980010cfcacb8ddd3ed7bab177b38",
+        "timestamp": 1673807287
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "eeae90da0501dc3eb83719bc5e1294cca1a89692",
+        "timestamp": 1673807592
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "1882f72fbf866be232c500bef996c1a76a2800a4",
+        "timestamp": 1674315325
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_config.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "1caa5e9b7f8c368605e227ee4a837aea5b721c7c",
+        "timestamp": 1674315365
+      },
+      {
+        "files": [
+          "tests/conftest.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "c8c5f0f75b1b02f50f992aac5b9ac521df739a99",
+        "timestamp": 1674341273
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "src/typeguard/_importhook.py",
+          "tests/dummymodule.py",
+          "tests/test_importhook.py"
+        ],
+        "sha": "d3e360ba222a076aafdd6d2387104675f2550908",
+        "timestamp": 1674341776
+      },
+      {
+        "files": [
+          "src/typeguard/_importhook.py",
+          "src/typeguard/_memo.py"
+        ],
+        "sha": "ca15c819b41171cb026a12467241075d0d909b41",
+        "timestamp": 1674413433
+      },
+      {
+        "files": [
+          "src/typeguard/_importhook.py",
+          "tests/dummymodule.py"
+        ],
+        "sha": "20c0a135362503916df94e36b75f4d2a9468bdb0",
+        "timestamp": 1674423776
+      },
+      {
+        "files": [
+          "src/typeguard/_importhook.py",
+          "tests/dummymodule.py",
+          "tests/test_importhook.py"
+        ],
+        "sha": "395f2124c02b02914eb6607f55bcad8cb4d059e3",
+        "timestamp": 1674425270
+      },
+      {
+        "files": [
+          "src/typeguard/_memo.py"
+        ],
+        "sha": "ee2b9b64b1bfb69e4db1866e951c67af5c3a124c",
+        "timestamp": 1674516315
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/api.rst",
+          "docs/extending.rst",
+          "docs/userguide.rst",
+          "src/typeguard/_decorators.py"
+        ],
+        "sha": "1b6480d27ea313e8d7d3a9b893db0708c131eb5a",
+        "timestamp": 1674516332
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "src/typeguard/_union_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_importhook.py",
+          "tests/test_union_transformer.py"
+        ],
+        "sha": "ed3f1d168346d64e67387472c8d91af952943077",
+        "timestamp": 1674577262
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_importhook.py",
+          "src/typeguard/_pytest_plugin.py",
+          "tests/test_importhook.py"
+        ],
+        "sha": "91d5cfb7aeaba29f15cab2e1e0ccee3cc8a2a4f8",
+        "timestamp": 1674575725
+      },
+      {
+        "files": [
+          "docs/userguide.rst"
+        ],
+        "sha": "90b3292cf43f2c816bb77ff00a541e8712f4f13c",
+        "timestamp": 1674679374
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_decorators.py"
+        ],
+        "sha": "454e4e75483c94d3df15b6b5b3ae88f2b7203be7",
+        "timestamp": 1674681305
+      },
+      {
+        "files": [
+          "src/typeguard/_union_transformer.py",
+          "tests/test_union_transformer.py"
+        ],
+        "sha": "1b0f4a0b783eaa1242fa8cfb3b547f65f7bd1e34",
+        "timestamp": 1674758262
+      },
+      {
+        "files": [
+          "src/typeguard/_config.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "7b9c127395ab259b03c89d7aa170718e51a084ec",
+        "timestamp": 1674760274
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "fd4daa1b77965f1e8f16c45d4d0cf149b0cdf5b7",
+        "timestamp": 1675111398
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "pyproject.toml",
+          "src/typeguard/_union_transformer.py",
+          "src/typeguard/_utils.py",
+          "tests/test_union_transformer.py"
+        ],
+        "sha": "8c193634f191e2053fd093e9578f7808c6f78373",
+        "timestamp": 1675609867
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "tests/mypy/test_type_annotations.py"
+        ],
+        "sha": "517e4368c2ff6ba9b9a5a53b4133c7b297db66ca",
+        "timestamp": 1675761351
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE/bug_report.md",
+          ".github/ISSUE_TEMPLATE/bug_report.yaml",
+          ".github/ISSUE_TEMPLATE/config.yml",
+          ".github/ISSUE_TEMPLATE/feature_request.md",
+          ".github/ISSUE_TEMPLATE/features_request.yaml"
+        ],
+        "sha": "63b28186a9d00bb489f282f80b76834ac3d057fc",
+        "timestamp": 1676152042
+      },
+      {
+        "files": [
+          "src/typeguard/_decorators.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "b660f28efd9e98542864b66ab6bffdb59e5a0fee",
+        "timestamp": 1676242239
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py"
+        ],
+        "sha": "1e400209e072da921d4cfc6de0bfe1b38f791696",
+        "timestamp": 1677365492
+      },
+      {
+        "files": [
+          "docs/features.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "086e9ba27e2bc0d2b4f4b8d83ece83ad18029346",
+        "timestamp": 1677366993
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "432efdddc57132e67a6897cc308da42d85d8ccd9",
+        "timestamp": 1677407758
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "1ffd62997af35d0aef6033c017b3b3037503d571",
+        "timestamp": 1677436313
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "1d4f978d50b3644654e02be0ef9a39f21031aa69",
+        "timestamp": 1677436790
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_decorators.py",
+          "src/typeguard/_memo.py",
+          "src/typeguard/_transformer.py",
+          "src/typeguard/_utils.py"
+        ],
+        "sha": "658a3d6401b6fbe4f04e3849513e9212b82709f7",
+        "timestamp": 1677409107
+      },
+      {
+        "files": [
+          "src/typeguard/_decorators.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "0c414369006b36aa29cbfbaa92a8f9d2c537e659",
+        "timestamp": 1677416787
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_decorators.py",
+          "src/typeguard/_memo.py",
+          "src/typeguard/_transformer.py"
+        ],
+        "sha": "e7594463f7db7e341588b935eeef6a6ec99c2f19",
+        "timestamp": 1677441581
+      },
+      {
+        "files": [
+          "src/typeguard/_decorators.py",
+          "src/typeguard/_utils.py"
+        ],
+        "sha": "562fe385e752e6356f56859ad5853c14f5392447",
+        "timestamp": 1677443429
+      },
+      {
+        "files": [
+          "docs/features.rst",
+          "src/typeguard/_checkers.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "7a61486b4c571502a071805dfb8fa959bc1026bc",
+        "timestamp": 1677445051
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_pytest_plugin.py"
+        ],
+        "sha": "f568103dbc1329e7483994edb8d3c77e734e64eb",
+        "timestamp": 1677445926
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "67c97dab47ca474d39b2cef5354e90470d1ab60e",
+        "timestamp": 1677447405
+      },
+      {
+        "files": [
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "a6642b8291c87978a7f9afdbee02136d1da7fbd1",
+        "timestamp": 1677447954
+      },
+      {
+        "files": [
+          "docs/extending.rst",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_functions.py",
+          "src/typeguard/_memo.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "8042fb385ed9d158734ea38547f11b474c5604ac",
+        "timestamp": 1677448821
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "src/typeguard/_pytest_plugin.py"
+        ],
+        "sha": "047c6ca56cbf66a416b2044ce23ed23aa2eb0829",
+        "timestamp": 1677448986
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "073000a927db3f0285c5a02ec0b8abd2955be334",
+        "timestamp": 1677449437
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "94939318fe53575fd0f17d38f2254ac8dc27f8d5",
+        "timestamp": 1677449877
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py"
+        ],
+        "sha": "26538d20664d82cf3dd0881ef0ce09fe4cc442e8",
+        "timestamp": 1677536124
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "aaaa4c7fdae4b9c1f86a06193b94f45e4c8b9d3a",
+        "timestamp": 1677582945
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_decorators.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "a5176222e49de74125a94e64b4e9c0a35d2768a2",
+        "timestamp": 1677584084
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "7cf6363f6e43a09ca136541f5d65f6a5c6d9529a",
+        "timestamp": 1677618559
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_utils.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "c2ccd82cbbfcedd7651bc38cda234c66c1a2060b",
+        "timestamp": 1677623979
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_memo.py"
+        ],
+        "sha": "b8dcd36eb896a1f27fb30399e2d72a00f7209d40",
+        "timestamp": 1677707528
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "c520405a64eeb4c8c363526050af4da98202f073",
+        "timestamp": 1677708226
+      },
+      {
+        "files": [
+          "tests/test_typechecked.py"
+        ],
+        "sha": "50b4397ab419db44bea698b6fc7ff5b025c08546",
+        "timestamp": 1677961676
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "2c7b8371b8a27d438ea82142a03689134d56fb55",
+        "timestamp": 1677962113
+      },
+      {
+        "files": [
+          "tests/test_typechecked.py"
+        ],
+        "sha": "be653dec4bf811ff54b8a76712a85533acb4dc5a",
+        "timestamp": 1678612351
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_decorators.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "9024521b585ed319c36b5a88ce8fb79660b5aac0",
+        "timestamp": 1678612698
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "pyproject.toml",
+          "src/typeguard/_importhook.py",
+          "src/typeguard/_union_transformer.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "c12329289feb8fdb3982a1f1d0e1846a685ad4bb",
+        "timestamp": 1678621719
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "src/typeguard/_importhook.py",
+          "src/typeguard/_union_transformer.py"
+        ],
+        "sha": "f268739ec8358c78232494513bbcac20eab61d75",
+        "timestamp": 1678622265
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "8f5c6b77a2d0bad7fb16a7ddd99a2c34f0e18c3b",
+        "timestamp": 1678622326
+      },
+      {
+        "files": [
+          "src/typeguard/_importhook.py"
+        ],
+        "sha": "1085eb8b1efaccd60e60316be6ba6a2c6efc6abc",
+        "timestamp": 1678624324
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "be358560ddaa2e56b0e88ec57114d8f03a182398",
+        "timestamp": 1678624623
+      },
+      {
+        "files": [
+          "docs/features.rst",
+          "pyproject.toml",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "71c4aec7e1afcc9ea263e1d550bbdab31145acb0",
+        "timestamp": 1678829670
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py"
+        ],
+        "sha": "b10c2e01af4a645e5d1272c0428c260748d1c8b3",
+        "timestamp": 1678830253
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "83ca1809387292764a8746a2079522c4b60d7ced",
+        "timestamp": 1678830623
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "f54e1db919c66c45398425c0d6b25cb19383d441",
+        "timestamp": 1678831776
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "e0bb9528fdda938671609eccb1cd3dae5095c7aa",
+        "timestamp": 1678883198
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "0798f06d859f489e3315a84382bece65715e2503",
+        "timestamp": 1678886649
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "71d85e4a83e4ea2e2afc420eed57bc25aa17f605",
+        "timestamp": 1678887124
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "4d3bd6f845ce6a9ce4848defc02ac12fdf0293c2",
+        "timestamp": 1678894080
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "98ee364c010bb05630977acd57eebaf8cdd4870e",
+        "timestamp": 1678900845
+      },
+      {
+        "files": [
+          "src/typeguard/_functions.py"
+        ],
+        "sha": "a52c655cdd36d637c91ed58b3f0c9212943c9497",
+        "timestamp": 1678901501
+      },
+      {
+        "files": [
+          "tests/dummymodule.py"
+        ],
+        "sha": "24bfa6cb7a5823aeb03dcae5d5218be98cf172dc",
+        "timestamp": 1678910924
+      },
+      {
+        "files": [
+          "docs/features.rst",
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_decorators.py"
+        ],
+        "sha": "bc215eda71935e111221d71ef430da94e8ff74d9",
+        "timestamp": 1678915950
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_decorators.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "216a7b982a8444b72e28392c7dcae13bcc5120e2",
+        "timestamp": 1678916084
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "ffbd603546b779712259fd16dd9d711905f7e87c",
+        "timestamp": 1678916225
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "188e002245d2ef19a230e92d2c5832087260d401",
+        "timestamp": 1678917738
+      },
+      {
+        "files": [
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "84331cde74c6769690e490477a7bf346ebaeb7bf",
+        "timestamp": 1678918034
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "55dec696278f8780de4a26cee7f3631ebe750ac6",
+        "timestamp": 1678918322
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "tests/test_warn_on_error.py"
+        ],
+        "sha": "c333a35173fe3737675b566de2b236a0c26742d2",
+        "timestamp": 1678982447
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "835fb6598cbd61f45a566bec9b042aca7e1db42b",
+        "timestamp": 1679003259
+      },
+      {
+        "files": [
+          "tests/test_warn_on_error.py"
+        ],
+        "sha": "0a78466a6ff4e3e7afa4c3d2949ccb47a48c6e21",
+        "timestamp": 1679144553
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "4790b4357a06d5c537ceed026fe3a0163837b639",
+        "timestamp": 1679143564
+      },
+      {
+        "files": [
+          "docs/features.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_decorators.py",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "4894ae8359f1ff575931f909f722d8cbd8d1df29",
+        "timestamp": 1679253194
+      },
+      {
+        "files": [
+          "src/typeguard/_functions.py"
+        ],
+        "sha": "2a3376ec72e387f1e9971d58accc92b92b6a791f",
+        "timestamp": 1679257567
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py"
+        ],
+        "sha": "2aca41d374b6045cc7a92de2d8767e9e2135f348",
+        "timestamp": 1679298966
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "20a0a77257c26725c91d241af36e51eb2bc38ec4",
+        "timestamp": 1679478995
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "76fcd70b09ad0ff8ef6ce85f0297b6f3e5f14e43",
+        "timestamp": 1679516245
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "247529f6e8fb0ff9eac3f9a6463b249eeb417e84",
+        "timestamp": 1679518091
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "db7771024eb2f6eba03c3954f8abe0f03bded3c2",
+        "timestamp": 1679518250
+      },
+      {
+        "files": [
+          "docs/extending.rst"
+        ],
+        "sha": "a66d1704c07739bcba51f321df9c9df94f0b15e8",
+        "timestamp": 1679523441
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e831144047ec2e6192993e3e80e27340ecbf8121",
+        "timestamp": 1679605348
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "7b9deedc6baff1491cb8fa92f23b90b6f96f1892",
+        "timestamp": 1679827117
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "38ab1249bc9572c87fe87a1160faf93108bbca1e",
+        "timestamp": 1679858280
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "83699cf890423e7ff9f93694497f51ed3c7fe43f",
+        "timestamp": 1679859687
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "94c408ac4ea1d53e7e711f7726e027c6a76e61ed",
+        "timestamp": 1679860169
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f638e5f55bad3305caec72ea89c8c634de60e3a9",
+        "timestamp": 1679950407
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "b69068160ed0833a8423ad1444f9fa01a924acbf",
+        "timestamp": 1680373744
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_config.py",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "e3cf178575da379a1b50199f9de1dcd9653955c8",
+        "timestamp": 1680252719
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "d75b521467bc62716f7b20f0ae95875f5feeb4e8",
+        "timestamp": 1680386855
+      },
+      {
+        "files": [
+          "tests/test_typechecked.py"
+        ],
+        "sha": "78344e4cda91f6625b4fe60d6370186272dd989d",
+        "timestamp": 1680648642
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e778d9aa81f66af8ed4b3d2e4d8cbff2826907e3",
+        "timestamp": 1680648769
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_importhook.py",
+          "tests/test_importhook.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "1715bd780156d1f689ffbe865b751d3a756ef46c",
+        "timestamp": 1680898208
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py"
+        ],
+        "sha": "51b71a422d04c2c9a0bb21271006e48f1d6e61e8",
+        "timestamp": 1680899525
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py"
+        ],
+        "sha": "bfbfc5239deac8b0cfc323a7d624f263ed463250",
+        "timestamp": 1680899570
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "f5cf181e075560ce37738c1a8f31dce1ef85905e",
+        "timestamp": 1680948356
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "903b3f51bc16b7fed721518e11c15b9a464a3d83",
+        "timestamp": 1680950909
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py"
+        ],
+        "sha": "2d7867ee1ab1cd16e4c7cee4a7f4a8404f39c0d6",
+        "timestamp": 1680951039
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "a1e574dbbe935ab8510c0d1b3078b85756080eac",
+        "timestamp": 1680951594
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "abdcb77de6c62a5f56740210dd6d00186d53448e",
+        "timestamp": 1681077414
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "08d2f644ea50b0819d5138dad3c31c65c5804f6b",
+        "timestamp": 1681133529
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "src/typeguard/_config.py"
+        ],
+        "sha": "9ee9175ebc6b8f069c2b99c20a35bbd4ff96f62b",
+        "timestamp": 1681133563
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "src/typeguard/_decorators.py",
+          "src/typeguard/_importhook.py"
+        ],
+        "sha": "ff31b3b48d57f7819b427e5890a78787ce414805",
+        "timestamp": 1681136415
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "1bbe094a493b75ea57ce178380bb8ba3d3b7a60d",
+        "timestamp": 1681143749
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "dee8c39d0dd571fb2e2a8e871bd5c08dc4ddc3ca",
+        "timestamp": 1681202774
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "7c7acffa118fde3d2c5385e52627a3293f164acb",
+        "timestamp": 1681244041
+      },
+      {
+        "files": [
+          "docs/features.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "6fca3430752611cd6f8bd8959b225354fd646061",
+        "timestamp": 1681248566
+      },
+      {
+        "files": [
+          "tests/dummymodule.py"
+        ],
+        "sha": "1f208b29780fe317eb7c1d1385ee77bd86aaccb4",
+        "timestamp": 1681547526
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "0a1b3709166de6acdf65d9cfc79efe7c026ec68f",
+        "timestamp": 1681547951
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "b93cf92b0a6be52d7ec969749fb204b985db63cc",
+        "timestamp": 1681547987
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "52a1ec04c194fe623482e12b453cecbc7113369a",
+        "timestamp": 1681552995
+      },
+      {
+        "files": [
+          "docs/features.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "b3b2583fbf437e495c6f2ef6dffa0330f42dee22",
+        "timestamp": 1681566677
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "138d9a4354ed5291778f2a67f4fef29bf95ecee2",
+        "timestamp": 1681568021
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "46ddcc33a5d5e1b8fef197589d4872ddafe97d79",
+        "timestamp": 1681573406
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/__init__.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "4e347a443715c3f5f6db745cb84270c556cc9c7a",
+        "timestamp": 1681573917
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "5f2583b84f24e6883fd08e982f1cedbeaa6d7d9b",
+        "timestamp": 1681574086
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "f2d0c9d172a10244e6eb697fa6f41670b0e001a8",
+        "timestamp": 1682163494
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5ebf974179f750a34b5359f0d44ebd4cd9eb1585",
+        "timestamp": 1682377735
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/__init__.py"
+        ],
+        "sha": "b1fee6c9336e8e509f58e4b68aeeb614ef2bf85d",
+        "timestamp": 1682544553
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "fc673d47079ad722e60a84bf752f93ce64c40dbb",
+        "timestamp": 1682850419
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "b57a53602f8e0b1d5649d8e4e74668572aba0e37",
+        "timestamp": 1682853493
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "33dfde544c6a425826da4d367b1a1940171af94d",
+        "timestamp": 1682854035
+      },
+      {
+        "files": [
+          "docs/contributing.rst",
+          "docs/index.rst"
+        ],
+        "sha": "0b704df258620fcc2e733e007c96cf777a9401b4",
+        "timestamp": 1682854712
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "e688da2dc817dc66d042e4f7381d3dc25ee19bcb",
+        "timestamp": 1682860039
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "43d686e7306aa285ac8fc94bea45923a354bb7c6",
+        "timestamp": 1682868238
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_decorators.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "8923b7b40e03ebdd874a543e17de9bd865ea9ada",
+        "timestamp": 1682957751
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "c888515f830ccb4d3f088b44b60bbe105f81d1e6",
+        "timestamp": 1682969377
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "a6a9b715a753decf120a1bb571815165daa7ebf4",
+        "timestamp": 1682969626
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a2090ed43c05d514707f2abbe5fb48a4ce144f26",
+        "timestamp": 1682974147
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "3863c0f494c697e52f124f231a18fc2c172d9538",
+        "timestamp": 1683411656
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "be4dd3350f15ec8b5713e40955dad3f4c9a68ad6",
+        "timestamp": 1683455521
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "668d2a02bfea49bbf4f0849c6d050ce731843a71",
+        "timestamp": 1683455657
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "17a9ec734c7b631b3d6d1ac001f2266229ea97e4",
+        "timestamp": 1683616757
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "e3c742f0d283bdc01c30184734b3bdfdf09656b6",
+        "timestamp": 1683877076
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3a14d3f0c0b2cace264bbbdb4656f6bf9e222d87",
+        "timestamp": 1684220162
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d1b9398a28b0b904c60b67f78ca1274febdf2733",
+        "timestamp": 1684790346
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py"
+        ],
+        "sha": "17c0f274cf80229a4eba39194f3b30697ee2134b",
+        "timestamp": 1686582181
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "8260f3cb6e5b0ff2c7cd7cb4ae1e578808f46518",
+        "timestamp": 1686584186
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "845fcbcbfdaed2bca9704c3ed4adacd33f5ec314",
+        "timestamp": 1686595206
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "05b1c6727a3302c8b25d909122fffa5901756867",
+        "timestamp": 1686598499
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyproject.toml"
+        ],
+        "sha": "91204af820c3e849ecebd88a6da818e7164a1a81",
+        "timestamp": 1687261685
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py"
+        ],
+        "sha": "f377be389765ed0db104b41d78fce3c45e72e149",
+        "timestamp": 1687261750
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_decorators.py",
+          "src/typeguard/_transformer.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "53525e11a3bb1af74f3bd8b3bb62c41408828fd2",
+        "timestamp": 1690461776
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "src/typeguard/_importhook.py"
+        ],
+        "sha": "1950db184e966b06129f545c558daf969ef9580e",
+        "timestamp": 1690462902
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "686f25a9dcc1bd615ea0283b3c3a698bf09a76ac",
+        "timestamp": 1690463341
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "00ac62195f6c936de4d19465dababb5b06388685",
+        "timestamp": 1690464422
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "2766aa7f8e48fc8da317480f0c478711e05d8ac4",
+        "timestamp": 1690464767
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "cc5cc54e733d472fda6f805525908e43465a6d05",
+        "timestamp": 1690464947
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "2a5ef72b6198cfe83a8ab2bf13049211b751f56f",
+        "timestamp": 1690621134
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "6a5b8e2da37f338276ef3d204b1fe306f0f08b39",
+        "timestamp": 1690636396
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "0141f4380ffe58280745304326c2bd743324889f",
+        "timestamp": 1690640306
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "fe7cf07f2a941127d5689f1b6efe1ff64cae580c",
+        "timestamp": 1690669139
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "755b17e5ee083f9e37dd5ac7e32e3d05f4c9d194",
+        "timestamp": 1690840475
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6dbdf5dc1def8b4ba7c1e08dc0a73ef9d789557e",
+        "timestamp": 1691488798
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "5ac9b96ab36c43429bd7c081cadccd5192628273",
+        "timestamp": 1692135794
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "9aa873a95d703130894fa28cb511ce04f1b6fd9f",
+        "timestamp": 1692135943
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "src/typeguard/_checkers.py"
+        ],
+        "sha": "a6d30b0190a42da2f73bce36901d368f1e95f723",
+        "timestamp": 1692136025
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "ee3e1f3c64202a252b91f969ffc0551f74d29d2d",
+        "timestamp": 1692136100
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "d07fbb4fd49e716c4db12a6fca3dcfa8a58fd6d2",
+        "timestamp": 1692306049
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "d7a705e329529456898265d94adbdafed0c4c22c",
+        "timestamp": 1692312903
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "pyproject.toml"
+        ],
+        "sha": "eb65830558287ff6b3512886b02788ae5aaf5562",
+        "timestamp": 1692344593
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyproject.toml"
+        ],
+        "sha": "453536514df74f95b7500b085867ddd2dfbac465",
+        "timestamp": 1692349297
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "397ef7d087099f547e9d04ffe64bd6f39deb6728",
+        "timestamp": 1692653900
+      },
+      {
+        "files": [
+          ".gitignore",
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "068edfdee4224e9db6feaaaacdc8a36f952b145f",
+        "timestamp": 1693082998
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "c11057ab9f9570718fe149b2bfa6eef1df6f26a2",
+        "timestamp": 1693088491
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "3110420f2706fc1871d6cd2f1d0cefc0a529491d",
+        "timestamp": 1693089472
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py"
+        ],
+        "sha": "cd6f05bbb21a9504ecbed7130baedaa88422aabb",
+        "timestamp": 1693151980
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "fe99c768ab95866dc0067c4055aa0a55bb1e49d3",
+        "timestamp": 1693513733
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "0c118de02e0ee59e1e85ccd4e5d68d92a97f047c",
+        "timestamp": 1693513760
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "041b0e3fc1650ece19d9319167922e769649984c",
+        "timestamp": 1693748818
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6e96b75235087a6d2adea27470db9064fced9bd8",
+        "timestamp": 1693867859
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "4c04b12bed53bb6f406eeffc6525fdc90330cf35",
+        "timestamp": 1694260270
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "docs/versionhistory.rst"
+        ],
+        "sha": "2fc1dd5f6ebe37f70c8dced6c8a6a831833d9f32",
+        "timestamp": 1694260503
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "4d1768c24af9010b06159d01db2f59c88823e315",
+        "timestamp": 1694266270
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "888a8c57415432473d4721dc197f51dd81ab38bc",
+        "timestamp": 1694374533
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "bf71c4f0c76aefb7de4c8cec651a1cb4f41138a2",
+        "timestamp": 1694375285
+      },
+      {
+        "files": [
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "b218fd882cbecc16672eebd61aaf3e04e2bd7901",
+        "timestamp": 1694375312
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "b10b9b2b048752c89d5274df4479e8ac4e596ca1",
+        "timestamp": 1694375973
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "2a58441ff9389fe66f2d94b5693b968277e59c66",
+        "timestamp": 1694383540
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "ec877395fd45d86e218002d66a212a4c794ce900",
+        "timestamp": 1694417040
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "fa5f6755f303e9c36494d8e7a293b22dff7c4f58",
+        "timestamp": 1694417398
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "57327f26838e2295b836c9a97e440f69749b5f04",
+        "timestamp": 1694471471
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "54d308e717f86e0313e17c746138fd7143b6fc16",
+        "timestamp": 1695077940
+      },
+      {
+        "files": [
+          "docs/extending.rst"
+        ],
+        "sha": "b29e6f429a9e61d12086ab61b48cada9210104ae",
+        "timestamp": 1695136257
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3add513056795654c47d75eb28e831201bba61b9",
+        "timestamp": 1695679941
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d839593c179a4a255e6995f81fb16eb498613553",
+        "timestamp": 1696668801
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d774c3b466bbe42e1678ff2f3fa5abf9de6fb957",
+        "timestamp": 1696880350
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "8fc466372c4579afba704564fe02eba619e0ee96",
+        "timestamp": 1697490110
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "066b943c9c60e49e998ddd9acdacd3c62b3be8f3",
+        "timestamp": 1698098454
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "43a0ed1cb13257eab2ebb39b4fbd9a67d1425b0e",
+        "timestamp": 1699312444
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "128909a30e9ee4ff7b5cdd8218b7403f6cc4d0eb",
+        "timestamp": 1700506952
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5be92af003b5fdd4614fac0658baa094f1dc8e7c",
+        "timestamp": 1701282893
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b468b74a338e9d8a6acb34630a003ba3cbab46ce",
+        "timestamp": 1702398650
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "70d236d1790a422ec4ecedaaeeb0ca1670e21fa8",
+        "timestamp": 1703171486
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "883cba97b7d76d16202a635d3f6d7e1926365ce4",
+        "timestamp": 1703546517
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "bab0b3f97119b715c9b54ba865ad9fdd9e014cba",
+        "timestamp": 1704805707
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "fe8e3bc042b4721dd4d3daaf25a691fc540ba9e4",
+        "timestamp": 1705316615
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7c959b8fbdaecc1812c821ab83177f7fe3245799",
+        "timestamp": 1705352441
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7c2460e3239975ee6a4cf0b98489540c4fa9f11d",
+        "timestamp": 1706045046
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "cb58f6b24846cb0d4d71796462911e0fe5817d84",
+        "timestamp": 1707164167
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f6b47a69ac57a10eb24f6d3bec4ed7cdb40ae2db",
+        "timestamp": 1711058915
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ab9594a9e7204785f7d55c9884bb3c45f2fb8316",
+        "timestamp": 1711059850
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "4c81a0083a0b280967fe757bf733c84a895c73b2",
+        "timestamp": 1711060505
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/conftest.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "d481a51dd4cb347621b99e144f935e0848977f6e",
+        "timestamp": 1711191886
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "2df6f4ade1653069afe08675db1e3dfe71555d08",
+        "timestamp": 1711197802
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "750c7197a3cd4788663ad82e3a27032dc67663e0",
+        "timestamp": 1711211590
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "9b10866dae0e21cab222f4f57af89226a2283e85",
+        "timestamp": 1711212947
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_config.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "3c8d46f68ec6ced8e89d57f5f3b8fcabb8ab2773",
+        "timestamp": 1711213276
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_pytest_plugin.py",
+          "tests/conftest.py",
+          "tests/test_pytest_plugin.py"
+        ],
+        "sha": "ded1a04f0c990c1e901a9d0734a63337a76f3e5b",
+        "timestamp": 1711229463
+      },
+      {
+        "files": [
+          "tests/test_pytest_plugin.py"
+        ],
+        "sha": "d51d8bcfe26c4983eeff601067aa7febc5add00f",
+        "timestamp": 1711230637
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "5eae2642c8859bc8706d80c55cb99c3740921332",
+        "timestamp": 1711230742
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "afebd5dcb49df979167e07e0ba65a8f7c50370c5",
+        "timestamp": 1711230911
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "pyproject.toml"
+        ],
+        "sha": "286f86d9268e079e01185b98cebc63e66909096d",
+        "timestamp": 1711264228
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyproject.toml",
+          "tests/dummymodule.py"
+        ],
+        "sha": "a0f4594ba58db3083481ffa0ca981da6e338b6f1",
+        "timestamp": 1711265003
+      },
+      {
+        "files": [
+          "tests/test_checkers.py"
+        ],
+        "sha": "79f968fbcd15a8e5b5be2c05cd4421d654a8505e",
+        "timestamp": 1711267036
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "8ba593325b2afbe40c4cfe4536230b434b5902d2",
+        "timestamp": 1711267470
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "b707a58b3b83e1fb1d2ce38457b6abc157201295",
+        "timestamp": 1711267482
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f4f528f858086e718ccf6d3465df24e3aed5f75c",
+        "timestamp": 1712008220
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "pyproject.toml"
+        ],
+        "sha": "2aaadf5ff57035d7563e0e18cb7ddac073288175",
+        "timestamp": 1712909989
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "tests/conftest.py"
+        ],
+        "sha": "4ede387224498de7347e0fb5271d5e74158f2060",
+        "timestamp": 1716634225
+      },
+      {
+        "files": [
+          ".github/pull_request_template.md"
+        ],
+        "sha": "dd3fc1ecda7a61d7d651f9a1cc617c89628829dc",
+        "timestamp": 1716636136
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "pyproject.toml",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_utils.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "6647e5db5308a57e4a424f4f4836025053566225",
+        "timestamp": 1716646181
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "0e2cd17cac477c0df2d837efaa44814c7a3c246e",
+        "timestamp": 1716646440
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "b5e77abd5686c7e47d44567ed6d5e4dd2aa4ff2a",
+        "timestamp": 1716647886
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "d53919055f00a95c589d45dcb92d6def3e6cbc2b",
+        "timestamp": 1716649454
+      },
+      {
+        "files": [
+          "docs/features.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/__init__.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "241d120de7d5e724a9dac10f529318273738a21f",
+        "timestamp": 1716716418
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_pytest_plugin.py",
+          "src/typeguard/_suppression.py"
+        ],
+        "sha": "001977e7ab01201336922ff6fabe65e18eda99bc",
+        "timestamp": 1716716581
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d8b0292f332d7a816cda9c8f73415ccf6c7c674b",
+        "timestamp": 1716716642
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_pytest_plugin.py"
+        ],
+        "sha": "72ec4e7d11ab06d9197526bea39304b3ebe216aa",
+        "timestamp": 1716717516
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "016f8139f5a0a63147d68df9558cc5584cd2c49a",
+        "timestamp": 1716803078
+      },
+      {
+        "files": [
+          "tests/test_importhook.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "171314bce518b2ac7335700a83c4120584589844",
+        "timestamp": 1726901459
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py"
+        ],
+        "sha": "2c035b306996f742705da66ef64a052e715a94e2",
+        "timestamp": 1726903426
+      },
+      {
+        "files": [
+          "docs/features.rst"
+        ],
+        "sha": "ac7ac342a61db284872430c95d5e6ed7a035b7c0",
+        "timestamp": 1726925658
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c72b6752b7069d695898ea29abb2a31983c1bf80",
+        "timestamp": 1726926155
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "604b08d5ba7c1b6e3d2f2ddd50dcf020f7e2794a",
+        "timestamp": 1726942421
+      },
+      {
+        "files": [
+          "src/typeguard/_decorators.py"
+        ],
+        "sha": "cf25d56dc0dbf6bb2f51ea29da8436b368ed4857",
+        "timestamp": 1726942674
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "0c50de6144d99eedb402a8e85eb8187098f8c26f",
+        "timestamp": 1729979583
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "d812f2eba9f5e898544eb4b3e597f8c38b0952e8",
+        "timestamp": 1729979869
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "afad2c7b6be830900776922bb39f9346c2e77f6f",
+        "timestamp": 1729979915
+      },
+      {
+        "files": [
+          "docs/features.rst",
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/__init__.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "b72794dffe403254881ac0c327155357c43ccebf",
+        "timestamp": 1730026004
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "efa1166c85be9a1280090fea9c287b5e4e9f3830",
+        "timestamp": 1730026553
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_decorators.py"
+        ],
+        "sha": "c7f5a4fe996f67c24496aa9608a830fc3dcd6809",
+        "timestamp": 1730211948
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "src/typeguard/_transformer.py",
+          "src/typeguard/_union_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "889ad53b3d9dd1d21cb54938168dbb037b0d24e8",
+        "timestamp": 1730585113
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "pyproject.toml",
+          "src/typeguard/_decorators.py"
+        ],
+        "sha": "750286e33bcd77b6bc84f0827d96d4e0d06b9b42",
+        "timestamp": 1730585258
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "121efd5cdb8899796e0dd38cda34d41225bb3e70",
+        "timestamp": 1730588130
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "28dafeca1b39b8c19217ce09536e349c94734fa8",
+        "timestamp": 1730592793
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "eb1e869e2c650db3d1f60a052f1426b52d3fb3cf",
+        "timestamp": 1730593286
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "0a3983039b6f8e0228ba39cb3c682c565ade19d8",
+        "timestamp": 1730595126
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "b0b20c217331e299c20ab743fbb3dfa4c5eef257",
+        "timestamp": 1730630856
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "7ff5a51d368b6d23d73c11f8f6da8d64b0c55f3a",
+        "timestamp": 1730632439
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "05a677213cd6cc1f6efac4bc5ed1efcbba67da39",
+        "timestamp": 1730634068
+      },
+      {
+        "files": [
+          "tests/test_checkers.py"
+        ],
+        "sha": "6d6b4de9940071eacbd83430b3d42207a2ac49ff",
+        "timestamp": 1730634374
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "tests/conftest.py"
+        ],
+        "sha": "1c53caac1c98e33b113463149c01d835730a814f",
+        "timestamp": 1730634920
+      },
+      {
+        "files": [
+          "tests/test_checkers.py"
+        ],
+        "sha": "b32af0bffb52c0b80f2c781656fb67ae1de87947",
+        "timestamp": 1730635216
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "cb42103a35abdfce2737d4eb58ed3d0e7f067b4a",
+        "timestamp": 1730635475
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "b6a7e4387c30a9f7d635712157c889eb073c1ea3",
+        "timestamp": 1730642593
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "91b0cbd6b969689353f3345879ec28e64619ad72",
+        "timestamp": 1737291945
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "f282802f7f1e3b8530df3104a15ae67838ad567e",
+        "timestamp": 1737316878
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_transformer.py",
+          "tests/mypy/test_type_annotations.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "447ee40a1b35c1273f83e3c1ddf48c04745f021d",
+        "timestamp": 1739709177
+      },
+      {
+        "files": [
+          "tests/mypy/test_type_annotations.py"
+        ],
+        "sha": "855991147c66437319b43048e207b70b13056005",
+        "timestamp": 1739711057
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "056a9a8f65620447c8cc76c67d87f7fad4a1a66f",
+        "timestamp": 1739721880
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "7f63619e75a2500fb150c12a75d7da1003acbf0e",
+        "timestamp": 1739723228
+      },
+      {
+        "files": [
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_config.py",
+          "src/typeguard/_transformer.py"
+        ],
+        "sha": "b79c2114fe650dc5fc04178091472b8a20b98e09",
+        "timestamp": 1740926387
+      },
+      {
+        "files": [
+          "src/typeguard/_utils.py"
+        ],
+        "sha": "8c6a8f7b264a53f7d5fc6b63eaf88b27b0307e21",
+        "timestamp": 1740929597
+      },
+      {
+        "files": [
+          "src/typeguard/_utils.py"
+        ],
+        "sha": "9ec20d1880c304fa0c18d70c4b99f68c6b2633f5",
+        "timestamp": 1740932809
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_decorators.py",
+          "tests/dummymodule_py312.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "c5d91e91268b0130bcb57db58fb448071b49292e",
+        "timestamp": 1741217155
+      },
+      {
+        "files": [
+          "src/typeguard/_decorators.py"
+        ],
+        "sha": "ca512c28132999da514f31b5e93ed2f294ca8f77",
+        "timestamp": 1741258336
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          ".readthedocs.yml",
+          "pyproject.toml"
+        ],
+        "sha": "37c6ab29790ec231509f97315808771fbe2e9ec6",
+        "timestamp": 1747653621
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "ab02aba1921b2bd79d158b370f018a61c1d95b72",
+        "timestamp": 1747653737
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "src/typeguard/_checkers.py"
+        ],
+        "sha": "92618cd48e4389e314101b7598e1f10be89fde36",
+        "timestamp": 1748691786
+      },
+      {
+        "files": [
+          "src/typeguard/_union_transformer.py",
+          "tests/test_union_transformer.py"
+        ],
+        "sha": "455bf7bba479891b0fb1d5a87f50691f634c2e57",
+        "timestamp": 1748688455
+      },
+      {
+        "files": [
+          "tests/test_checkers.py"
+        ],
+        "sha": "a3f6144fdd8524f5c1bae3f8031a009bc051dcc1",
+        "timestamp": 1748852278
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "0ee471e88bd138dbb2a77c5350effb7b7d2e5f04",
+        "timestamp": 1749073153
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "386d4f23e8d967b3c27a4d4412af4f3eb9a268d0",
+        "timestamp": 1749073173
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "d80f56645c04aff7a78d0672d1b7955fe1f7a41a",
+        "timestamp": 1749073560
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "63be6484879ddc5a68041c388e35843ce22fa3c1",
+        "timestamp": 1749074019
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_decorators.py",
+          "tests/test_typechecked.py"
+        ],
+        "sha": "759dda1ecc5f3f6d6697808aa6fa3d5ff5a82628",
+        "timestamp": 1750149430
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "70acfe12bed6abfc2cc92972c99501c3947d8d47",
+        "timestamp": 1750240406
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "f16f4ae59d5140ad0eccf578a0332060749cddaa",
+        "timestamp": 1750240489
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "dd98a9a0ff050166716120cc8614fa90d710a879",
+        "timestamp": 1755892506
+      },
+      {
+        "files": [
+          ".github/SECURITY.md"
+        ],
+        "sha": "e4864ca3c88008ca7777fd2f2aad88ccf848a236",
+        "timestamp": 1766847406
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "4625ed0549cbf94301ce557edf29cb2a3f2bd750",
+        "timestamp": 1766847594
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "740c1d1d8b73239f695a85ec123bebef72f43edd",
+        "timestamp": 1766849522
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_utils.py",
+          "tests/dummymodule.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "15c884bba1605d30dc9c50ad48f8b48307a60c77",
+        "timestamp": 1770133123
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "be72808dabbd4f81db1e3d263845b5787cb5241b",
+        "timestamp": 1770339575
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "5b4e93408c623f12f3b306b9d5c291c03c185597",
+        "timestamp": 1770396687
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "pyproject.toml",
+          "src/typeguard/_checkers.py",
+          "src/typeguard/_importhook.py"
+        ],
+        "sha": "3b3c1f8d80848e264c981a929ed7cf896b9d6cd2",
+        "timestamp": 1770399585
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "2fde42278a0a041a2c3651e6d1be4b7deaf61cc5",
+        "timestamp": 1770466463
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "pyproject.toml",
+          "src/typeguard/_checkers.py",
+          "tests/dummymodule_py312.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "1cd76388234b8bdac58a787a74e589f377516c6b",
+        "timestamp": 1770839417
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml",
+          ".github/SECURITY.md",
+          "README.rst"
+        ],
+        "sha": "208c24601f857b6481a4610492d751dd6a70a10f",
+        "timestamp": 1770894933
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "src/typeguard/_transformer.py",
+          "tests/dummymodule.py",
+          "tests/test_instrumentation.py",
+          "tests/test_transformer.py"
+        ],
+        "sha": "b05b7dabf2cc81131639bfb65df955aea638330b",
+        "timestamp": 1770900489
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "af3ab1f7fff21d794eaa27ba3fe66c727b415a3a",
+        "timestamp": 1771112810
+      },
+      {
+        "files": [
+          "tests/test_functions.py"
+        ],
+        "sha": "5a075bcae02f70347cc5700c6f0851ef43070ed3",
+        "timestamp": 1771113518
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "16e827fb9e7cb1491e193b0db765d32267abda2d",
+        "timestamp": 1771114729
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "85bf35bf6ba5612b9a978e5906be06370b65e3db",
+        "timestamp": 1771114983
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_functions.py",
+          "tests/test_instrumentation.py"
+        ],
+        "sha": "800588467ab810e537d7d7bb96eb8ec578877226",
+        "timestamp": 1771517193
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "67cae3dc3b3984a1a0e87389937fe118ed6b4328",
+        "timestamp": 1771517284
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "ff2b88b1c65f8828a178b4b2fffacd529cc76b26",
+        "timestamp": 1775032613
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst",
+          "src/typeguard/_checkers.py",
+          "tests/test_checkers.py"
+        ],
+        "sha": "eb77bac7efadeb58934998dc52b01c3b50efac91",
+        "timestamp": 1777675622
+      },
+      {
+        "files": [
+          "docs/versionhistory.rst"
+        ],
+        "sha": "e130f03f5bc0fbbb1938ae92ebbc636b291da052",
+        "timestamp": 1778763501
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "docs/versionhistory.rst",
+          "pyproject.toml",
+          "src/typeguard/_importhook.py",
+          "tests/dummymodule.py"
+        ],
+        "sha": "2e63076a7bbdee0558f3a03f5a66e9f83b4e2241",
+        "timestamp": 1779534279
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a7af7eb77d12b3e50ef9b35afcc9732ca66a2c6d",
+        "timestamp": 1779534409
+      },
+      {
+        "files": [
+          "docs/userguide.rst",
+          "src/typeguard/_transformer.py"
+        ],
+        "sha": "3e13fc282050336122e0ef7a44f53cd935ae368f",
+        "timestamp": 1781274992
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 6,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".coveragerc": 0,
+      ".github/FUNDING.yml": 1,
+      ".github/ISSUE_TEMPLATE/bug_report.md": 2,
+      ".github/ISSUE_TEMPLATE/bug_report.yaml": 3,
+      ".github/ISSUE_TEMPLATE/config.yml": 4,
+      ".github/ISSUE_TEMPLATE/feature_request.md": 5,
+      ".github/ISSUE_TEMPLATE/features_request.yaml": 6,
+      ".github/SECURITY.md": 7,
+      ".github/dependabot.yml": 8,
+      ".github/pull_request_template.md": 9,
+      ".github/workflows/publish.yml": 10,
+      ".github/workflows/test.yml": 11,
+      ".gitignore": 12,
+      ".pre-commit-config.yaml": 13,
+      ".readthedocs.yml": 14,
+      ".travis.yml": 15,
+      "README.rst": 16,
+      "docs/Makefile": 17,
+      "docs/api.rst": 18,
+      "docs/conf.py": 19,
+      "docs/contributing.rst": 20,
+      "docs/extending.rst": 21,
+      "docs/features.rst": 22,
+      "docs/index.rst": 23,
+      "docs/make.bat": 24,
+      "docs/userguide.rst": 25,
+      "docs/versionhistory.rst": 26,
+      "pyproject.toml": 27,
+      "setup.cfg": 28,
+      "setup.py": 29,
+      "src/typeguard/__init__.py": 30,
+      "src/typeguard/_checkers.py": 31,
+      "src/typeguard/_config.py": 32,
+      "src/typeguard/_decorators.py": 33,
+      "src/typeguard/_exceptions.py": 34,
+      "src/typeguard/_functions.py": 35,
+      "src/typeguard/_generators.py": 36,
+      "src/typeguard/_importhook.py": 37,
+      "src/typeguard/_memo.py": 38,
+      "src/typeguard/_pytest_plugin.py": 39,
+      "src/typeguard/_suppression.py": 40,
+      "src/typeguard/_transformer.py": 41,
+      "src/typeguard/_union_transformer.py": 42,
+      "src/typeguard/_utils.py": 43,
+      "src/typeguard/py.typed": 44,
+      "tests/__init__.py": 45,
+      "tests/conftest.py": 46,
+      "tests/dummymodule.py": 47,
+      "tests/dummymodule_py312.py": 48,
+      "tests/mypy/negative.py": 49,
+      "tests/mypy/positive.py": 50,
+      "tests/mypy/test_type_annotations.py": 51,
+      "tests/test_checkers.py": 52,
+      "tests/test_functions.py": 53,
+      "tests/test_importhook.py": 54,
+      "tests/test_inline.py": 55,
+      "tests/test_instrumentation.py": 56,
+      "tests/test_plugins.py": 57,
+      "tests/test_pytest_plugin.py": 58,
+      "tests/test_transformer.py": 59,
+      "tests/test_typechecked.py": 60,
+      "tests/test_typeguard.py": 61,
+      "tests/test_typeguard_py36.py": 62,
+      "tests/test_typeguard_py38.py": 63,
+      "tests/test_union_transformer.py": 64,
+      "tests/test_utils.py": 65,
+      "tests/test_warn_on_error.py": 66,
+      "tox.ini": 67
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1451682419,
+      "last_commit_ts": 1781274992,
+      "n_cochange_pairs": 174,
+      "n_commits_dropped_as_bulk": 31,
+      "n_commits_used": 659,
+      "n_files": 68
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "3e13fc282050336122e0ef7a44f53cd935ae368f",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
