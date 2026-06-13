@@ -135,5 +135,18 @@
     "hash_new": "b55547a20d7583aef171dad371acf608620653dd1665874c4d961a31f133de44",
     "corrected_statement": "M3 (Galois closure diameter) added as OBSERVATIONAL METADATA ONLY to compute_moderators_exp101.py and moderators_exp101.json. M3 = mean_a(|gamma(alpha_maj({a}))|)/|Authors| where alpha_maj selects files where author a holds strictly more than 50% of commits; gamma(T) = all authors touching any file in T. The 0.4 pseudo-T threshold is informational only and carries no classification weight in EXP-101. T-cell definition for EXP-101 remains frozen: M1 > 0.858675 AND M2 < 7.702891 per HYPOTHESIS_exp101.md commit 5864fb2. M3 is computed using the same observation window (after_ts, before_ts) as M1/M2 via a single additional git log --name-only pass. Stored as 'm3_galois' and 'pseudo_tcell_m3' fields in each moderators record. The EXP-101 primary E-008 test (Wilson CI on M1^M2 T-cell count) is unaffected. M3 threshold will be preregistered for EXP-102 based on EXP-101 observed distribution. Filed pre-execution: compute_moderators_exp101.py has not been run yet. NOT an instrument erratum (scorer.py unchanged); section-C erratum budget unchanged (3/3 remaining).",
     "supersedes": "compute_moderators_exp101.py (M3 field absent, hash 8c0d3236490093b9...)"
+  },
+  {
+    "erratum_id": "E-019",
+    "hash": "cf2e57592456a78f",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-101",
+    "repo_id": "C012",
+    "slug_old": "pyzmq/pyzmq",
+    "slug_new": "zeromq/pyzmq",
+    "declaration_hash_old": "f322e28504a7b86374097d2eacfaff1893408d9c54d68df84783b7384a7f9e1f",
+    "declaration_hash_new": "cf2e57592456a78fdebf59c28790682fa3bfc82ba951d159eeac125c2a98784e",
+    "corrected_statement": "SLUG CORRECTION for C012: REPO_DECLARATION_exp101.json listed pyzmq/pyzmq which does not exist on GitHub (clone returns 404 'Repository not found'). The correct org prefix is zeromq (not pyzmq). The intended repository is zeromq/pyzmq (Python bindings for ZeroMQ, Min Ragan-Kelley primary author, github.com/zeromq/pyzmq). Discovered at C012 clone attempt during batch run. Same defect class as E-014 and E-017. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). REPO_DECLARATION_exp101.json and run_batch_exp101.ps1 corrected to zeromq/pyzmq. Declaration hash recomputed. NOT a mechanical unavailability event; replacement queue slots unchanged.",
+    "supersedes": "REPO_DECLARATION_exp101.json C012 slug (pyzmq/pyzmq)"
   }
 ]

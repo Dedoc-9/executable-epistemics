@@ -35,7 +35,7 @@ $repos = @(
     [pscustomobject]@{ id="C009"; slug="joblib/joblib" },
     [pscustomobject]@{ id="C010"; slug="twisted/twisted" },
     [pscustomobject]@{ id="C011"; slug="numba/numba" },
-    [pscustomobject]@{ id="C012"; slug="pyzmq/pyzmq" },
+    [pscustomobject]@{ id="C012"; slug="zeromq/pyzmq" },
     [pscustomobject]@{ id="C013"; slug="bokeh/bokeh" },
     [pscustomobject]@{ id="C014"; slug="pexpect/pexpect" },
     [pscustomobject]@{ id="C015"; slug="gitpython/gitpython" },
