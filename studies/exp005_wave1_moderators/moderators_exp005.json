@@ -1,0 +1,230 @@
+{
+  "study": "EXP-005",
+  "source": "studies/population/REPO_DECLARATION.json",
+  "n_declared": 20,
+  "n_computed": 20,
+  "m1_threshold": 0.858675,
+  "m2_threshold": 7.702891,
+  "moderators": [
+    {
+      "id": "W1_numpy",
+      "slug": "numpy/numpy",
+      "m1_gini": 0.905619,
+      "m2_density": 8.063363,
+      "n_authors": 2296,
+      "n_commits_git": 41304,
+      "n_commits_gt": 29778,
+      "n_files": 3693,
+      "note": ""
+    },
+    {
+      "id": "W1_scipy",
+      "slug": "scipy/scipy",
+      "m1_gini": 0.893666,
+      "m2_density": 6.976173,
+      "n_authors": 2079,
+      "n_commits_git": 37688,
+      "n_commits_gt": 29279,
+      "n_files": 4197,
+      "note": ""
+    },
+    {
+      "id": "W1_pandas",
+      "slug": "pandas-dev/pandas",
+      "m1_gini": 0.861586,
+      "m2_density": 9.792392,
+      "n_authors": 4146,
+      "n_commits_git": 38100,
+      "n_commits_gt": 33206,
+      "n_files": 3391,
+      "note": ""
+    },
+    {
+      "id": "W1_scikit-learn",
+      "slug": "scikit-learn/scikit-learn",
+      "m1_gini": 0.855096,
+      "m2_density": 9.606547,
+      "n_authors": 3558,
+      "n_commits_git": 33535,
+      "n_commits_gt": 29348,
+      "n_files": 3055,
+      "note": ""
+    },
+    {
+      "id": "W1_matplotlib",
+      "slug": "matplotlib/matplotlib",
+      "m1_gini": 0.926027,
+      "m2_density": 7.172261,
+      "n_authors": 1995,
+      "n_commits_git": 54811,
+      "n_commits_gt": 35682,
+      "n_files": 4975,
+      "note": ""
+    },
+    {
+      "id": "W1_sympy",
+      "slug": "sympy/sympy",
+      "m1_gini": 0.868689,
+      "m2_density": 18.75936,
+      "n_authors": 1728,
+      "n_commits_git": 62155,
+      "n_commits_gt": 48099,
+      "n_files": 2564,
+      "note": ""
+    },
+    {
+      "id": "W1_django",
+      "slug": "django/django",
+      "m1_gini": 0.873896,
+      "m2_density": 6.273148,
+      "n_authors": 3397,
+      "n_commits_git": 34668,
+      "n_commits_gt": 32520,
+      "n_files": 5184,
+      "note": ""
+    },
+    {
+      "id": "W1_flask",
+      "slug": "pallets/flask",
+      "m1_gini": 0.822108,
+      "m2_density": 9.112782,
+      "n_authors": 871,
+      "n_commits_git": 5535,
+      "n_commits_gt": 3636,
+      "n_files": 399,
+      "note": ""
+    },
+    {
+      "id": "W1_requests",
+      "slug": "psf/requests",
+      "m1_gini": 0.835623,
+      "m2_density": 21.707547,
+      "n_authors": 802,
+      "n_commits_git": 6445,
+      "n_commits_gt": 4602,
+      "n_files": 212,
+      "note": ""
+    },
+    {
+      "id": "W1_click",
+      "slug": "pallets/click",
+      "m1_gini": 0.822548,
+      "m2_density": 9.828431,
+      "n_authors": 463,
+      "n_commits_git": 3224,
+      "n_commits_gt": 2005,
+      "n_files": 204,
+      "note": ""
+    },
+    {
+      "id": "W1_pytest",
+      "slug": "pytest-dev/pytest",
+      "m1_gini": 0.897638,
+      "m2_density": 4.606889,
+      "n_authors": 1141,
+      "n_commits_git": 17399,
+      "n_commits_gt": 12305,
+      "n_files": 2671,
+      "note": ""
+    },
+    {
+      "id": "W1_sphinx",
+      "slug": "sphinx-doc/sphinx",
+      "m1_gini": 0.929753,
+      "m2_density": 7.911883,
+      "n_authors": 946,
+      "n_commits_git": 22403,
+      "n_commits_gt": 15713,
+      "n_files": 1986,
+      "note": ""
+    },
+    {
+      "id": "W1_celery",
+      "slug": "celery/celery",
+      "m1_gini": 0.864561,
+      "m2_density": 9.396916,
+      "n_authors": 1501,
+      "n_commits_git": 13094,
+      "n_commits_gt": 11577,
+      "n_files": 1232,
+      "note": ""
+    },
+    {
+      "id": "W1_tornado",
+      "slug": "tornadoweb/tornado",
+      "m1_gini": 0.875787,
+      "m2_density": 10.034667,
+      "n_authors": 482,
+      "n_commits_git": 5038,
+      "n_commits_gt": 3763,
+      "n_files": 375,
+      "note": ""
+    },
+    {
+      "id": "W1_Pillow",
+      "slug": "python-pillow/Pillow",
+      "m1_gini": 0.944047,
+      "m2_density": 9.206,
+      "n_authors": 541,
+      "n_commits_git": 20729,
+      "n_commits_gt": 13809,
+      "n_files": 1500,
+      "note": ""
+    },
+    {
+      "id": "W1_sqlalchemy",
+      "slug": "sqlalchemy/sqlalchemy",
+      "m1_gini": 0.944205,
+      "m2_density": 4.674872,
+      "n_authors": 862,
+      "n_commits_git": 18092,
+      "n_commits_gt": 14623,
+      "n_files": 3128,
+      "note": ""
+    },
+    {
+      "id": "W1_fastapi",
+      "slug": "fastapi/fastapi",
+      "m1_gini": 0.857566,
+      "m2_density": 3.414151,
+      "n_authors": 911,
+      "n_commits_git": 7275,
+      "n_commits_gt": 6900,
+      "n_files": 2021,
+      "note": ""
+    },
+    {
+      "id": "W1_black",
+      "slug": "psf/black",
+      "m1_gini": 0.723288,
+      "m2_density": 4.777528,
+      "n_authors": 547,
+      "n_commits_git": 2236,
+      "n_commits_gt": 2126,
+      "n_files": 445,
+      "note": ""
+    },
+    {
+      "id": "W1_mypy",
+      "slug": "python/mypy",
+      "m1_gini": 0.902982,
+      "m2_density": 7.454976,
+      "n_authors": 890,
+      "n_commits_git": 13662,
+      "n_commits_gt": 12584,
+      "n_files": 1688,
+      "note": ""
+    },
+    {
+      "id": "W1_pip",
+      "slug": "pypa/pip",
+      "m1_gini": 0.887946,
+      "m2_density": 4.659268,
+      "n_authors": 924,
+      "n_commits_git": 16024,
+      "n_commits_gt": 11336,
+      "n_files": 2433,
+      "note": ""
+    }
+  ]
+}
