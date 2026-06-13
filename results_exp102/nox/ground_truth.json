@@ -1,0 +1,6892 @@
+{
+  "chain_hash": "8c38e7d51e80f0ff",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".coveragerc||noxfile.py": 2,
+      ".flake8||.github/workflows/ci.yml": 3,
+      ".flake8||.pre-commit-config.yaml": 3,
+      ".flake8||CHANGELOG.md": 2,
+      ".flake8||CONTRIBUTING.md": 2,
+      ".flake8||README.rst": 2,
+      ".flake8||noxfile.py": 2,
+      ".flake8||pyproject.toml": 5,
+      ".flake8||requirements-conda-test.txt": 2,
+      ".github/ISSUE_TEMPLATE/bug.md||.github/ISSUE_TEMPLATE/feature_request.md": 2,
+      ".github/action_helper.py||.github/workflows/action.yml": 5,
+      ".github/action_helper.py||.pre-commit-config.yaml": 2,
+      ".github/action_helper.py||action.yml": 5,
+      ".github/action_helper.py||docs/tutorial.rst": 3,
+      ".github/action_helper.py||noxfile.py": 3,
+      ".github/action_helper.py||tests/test_action_helper.py": 6,
+      ".github/workflows/action.yml||.github/workflows/cd.yml": 4,
+      ".github/workflows/action.yml||.github/workflows/ci.yml": 16,
+      ".github/workflows/action.yml||action.yml": 12,
+      ".github/workflows/action.yml||docs/tutorial.rst": 3,
+      ".github/workflows/action.yml||noxfile.py": 7,
+      ".github/workflows/action.yml||tests/test_action_helper.py": 5,
+      ".github/workflows/cd.yml||.github/workflows/ci.yml": 7,
+      ".github/workflows/ci.yml||action.yml": 5,
+      ".github/workflows/ci.yml||nox/tox_to_nox.py": 2,
+      ".github/workflows/ci.yml||noxfile.py": 17,
+      ".github/workflows/ci.yml||pyproject.toml": 8,
+      ".github/workflows/ci.yml||requirements-conda-test.txt": 5,
+      ".github/workflows/ci.yml||tests/test_main.py": 2,
+      ".github/workflows/ci.yml||tests/test_tox_to_nox.py": 2,
+      ".github/workflows/ci.yml||tests/test_virtualenv.py": 5,
+      ".gitignore||nox/tasks.py": 2,
+      ".gitignore||noxfile.py": 2,
+      ".pre-commit-config.yaml||MANIFEST.in": 3,
+      ".pre-commit-config.yaml||action.yml": 2,
+      ".pre-commit-config.yaml||docs/tutorial.rst": 2,
+      ".pre-commit-config.yaml||nox/_option_set.py": 5,
+      ".pre-commit-config.yaml||nox/_options.py": 3,
+      ".pre-commit-config.yaml||nox/manifest.py": 3,
+      ".pre-commit-config.yaml||nox/project.py": 2,
+      ".pre-commit-config.yaml||nox/registry.py": 2,
+      ".pre-commit-config.yaml||nox/sessions.py": 6,
+      ".pre-commit-config.yaml||nox/tasks.py": 2,
+      ".pre-commit-config.yaml||nox/tox_to_nox.py": 2,
+      ".pre-commit-config.yaml||nox/virtualenv.py": 3,
+      ".pre-commit-config.yaml||noxfile.py": 6,
+      ".pre-commit-config.yaml||pyproject.toml": 19,
+      ".pre-commit-config.yaml||tests/test__cli.py": 2,
+      ".pre-commit-config.yaml||tests/test_action_helper.py": 4,
+      ".pre-commit-config.yaml||tests/test_sessions.py": 4,
+      ".pre-commit-config.yaml||tests/test_tasks.py": 2,
+      ".pre-commit-config.yaml||tests/test_virtualenv.py": 2,
+      ".readthedocs.yml||noxfile.py": 2,
+      ".travis.yml||CONTRIBUTING.md": 2,
+      ".travis.yml||README.rst": 2,
+      ".travis.yml||appveyor.yml": 3,
+      ".travis.yml||docs/config.rst": 3,
+      ".travis.yml||docs/tutorial.rst": 2,
+      ".travis.yml||docs/usage.rst": 2,
+      ".travis.yml||nox/__main__.py": 2,
+      ".travis.yml||nox/registry.py": 2,
+      ".travis.yml||nox/sessions.py": 5,
+      ".travis.yml||noxfile.py": 7,
+      ".travis.yml||setup.py": 3,
+      ".travis.yml||tests/test_main.py": 3,
+      ".travis.yml||tests/test_sessions.py": 4,
+      "CHANGELOG.md||pyproject.toml": 13,
+      "CHANGELOG.md||setup.py": 21,
+      "CONTRIBUTING.md||README.rst": 2,
+      "CONTRIBUTING.md||appveyor.yml": 2,
+      "CONTRIBUTING.md||docs/conf.py": 2,
+      "CONTRIBUTING.md||docs/config.rst": 3,
+      "CONTRIBUTING.md||docs/contrib.rst": 2,
+      "CONTRIBUTING.md||docs/index.rst": 4,
+      "CONTRIBUTING.md||docs/tutorial.rst": 4,
+      "CONTRIBUTING.md||docs/usage.rst": 3,
+      "CONTRIBUTING.md||noxfile.py": 3,
+      "CONTRIBUTING.md||setup.py": 3,
+      "MANIFEST.in||noxfile.py": 3,
+      "MANIFEST.in||pyproject.toml": 2,
+      "MANIFEST.in||setup.py": 2,
+      "README.rst||docs/index.rst": 3,
+      "action.yml||docs/tutorial.rst": 4,
+      "action.yml||noxfile.py": 7,
+      "action.yml||tests/test_action_helper.py": 5,
+      "appveyor.yml||appveyor/install.ps1": 2,
+      "appveyor.yml||appveyor/py.exe": 2,
+      "appveyor.yml||docs/config.rst": 2,
+      "appveyor.yml||nox/command.py": 4,
+      "appveyor.yml||nox/sessions.py": 2,
+      "appveyor.yml||nox/virtualenv.py": 3,
+      "appveyor.yml||noxfile.py": 5,
+      "appveyor.yml||setup.py": 3,
+      "appveyor.yml||tests/test_sessions.py": 3,
+      "appveyor.yml||tests/test_virtualenv.py": 3,
+      "docs/_templates/fonts.html||docs/conf.py": 2,
+      "docs/conf.py||docs/config.rst": 4,
+      "docs/conf.py||docs/index.rst": 6,
+      "docs/conf.py||docs/tutorial.rst": 4,
+      "docs/conf.py||docs/usage.rst": 5,
+      "docs/conf.py||nox/__main__.py": 2,
+      "docs/conf.py||nox/_options.py": 2,
+      "docs/conf.py||nox/_parametrize.py": 2,
+      "docs/conf.py||nox/sessions.py": 3,
+      "docs/conf.py||noxfile.py": 5,
+      "docs/conf.py||requirements-test.txt": 3,
+      "docs/conf.py||setup.py": 7,
+      "docs/conf.py||tests/test_main.py": 4,
+      "docs/config.rst||docs/tutorial.rst": 11,
+      "docs/config.rst||docs/usage.rst": 17,
+      "docs/config.rst||nox/__init__.py": 2,
+      "docs/config.rst||nox/__main__.py": 3,
+      "docs/config.rst||nox/_decorators.py": 3,
+      "docs/config.rst||nox/_options.py": 5,
+      "docs/config.rst||nox/_parametrize.py": 2,
+      "docs/config.rst||nox/manifest.py": 2,
+      "docs/config.rst||nox/registry.py": 4,
+      "docs/config.rst||nox/sessions.py": 14,
+      "docs/config.rst||nox/tasks.py": 7,
+      "docs/config.rst||nox/virtualenv.py": 5,
+      "docs/config.rst||noxfile.py": 7,
+      "docs/config.rst||setup.py": 3,
+      "docs/config.rst||tests/test__option_set.py": 2,
+      "docs/config.rst||tests/test__parametrize.py": 2,
+      "docs/config.rst||tests/test_main.py": 3,
+      "docs/config.rst||tests/test_registry.py": 2,
+      "docs/config.rst||tests/test_sessions.py": 8,
+      "docs/config.rst||tests/test_tasks.py": 9,
+      "docs/config.rst||tests/test_virtualenv.py": 4,
+      "docs/contrib.rst||docs/index.rst": 2,
+      "docs/contrib.rst||docs/tutorial.rst": 2,
+      "docs/index.rst||docs/tutorial.rst": 8,
+      "docs/index.rst||docs/usage.rst": 5,
+      "docs/index.rst||nox/sessions.py": 2,
+      "docs/index.rst||noxfile.py": 2,
+      "docs/index.rst||requirements-test.txt": 2,
+      "docs/index.rst||setup.py": 3,
+      "docs/index.rst||todo": 2,
+      "docs/tutorial.rst||docs/usage.rst": 12,
+      "docs/tutorial.rst||nox/__init__.py": 4,
+      "docs/tutorial.rst||nox/__main__.py": 3,
+      "docs/tutorial.rst||nox/_options.py": 2,
+      "docs/tutorial.rst||nox/_parametrize.py": 3,
+      "docs/tutorial.rst||nox/project.py": 3,
+      "docs/tutorial.rst||nox/registry.py": 2,
+      "docs/tutorial.rst||nox/sessions.py": 10,
+      "docs/tutorial.rst||nox/tasks.py": 2,
+      "docs/tutorial.rst||nox/virtualenv.py": 3,
+      "docs/tutorial.rst||noxfile.py": 7,
+      "docs/tutorial.rst||pyproject.toml": 2,
+      "docs/tutorial.rst||setup.py": 4,
+      "docs/tutorial.rst||tests/test__parametrize.py": 2,
+      "docs/tutorial.rst||tests/test_action_helper.py": 3,
+      "docs/tutorial.rst||tests/test_main.py": 5,
+      "docs/tutorial.rst||tests/test_sessions.py": 5,
+      "docs/tutorial.rst||tests/test_tasks.py": 2,
+      "docs/tutorial.rst||tests/test_virtualenv.py": 2,
+      "docs/usage.rst||nox/__main__.py": 10,
+      "docs/usage.rst||nox/_option_set.py": 2,
+      "docs/usage.rst||nox/_options.py": 20,
+      "docs/usage.rst||nox/command.py": 2,
+      "docs/usage.rst||nox/logger.py": 2,
+      "docs/usage.rst||nox/manifest.py": 3,
+      "docs/usage.rst||nox/sessions.py": 22,
+      "docs/usage.rst||nox/tasks.py": 4,
+      "docs/usage.rst||nox/virtualenv.py": 10,
+      "docs/usage.rst||noxfile.py": 6,
+      "docs/usage.rst||pyproject.toml": 3,
+      "docs/usage.rst||requirements-test.txt": 3,
+      "docs/usage.rst||setup.py": 4,
+      "docs/usage.rst||tests/test__cli.py": 2,
+      "docs/usage.rst||tests/test_main.py": 13,
+      "docs/usage.rst||tests/test_manifest.py": 2,
+      "docs/usage.rst||tests/test_sessions.py": 19,
+      "docs/usage.rst||tests/test_tasks.py": 4,
+      "docs/usage.rst||tests/test_virtualenv.py": 9,
+      "nox/__init__.py||nox/__main__.py": 5,
+      "nox/__init__.py||nox/_parametrize.py": 3,
+      "nox/__init__.py||nox/sessions.py": 2,
+      "nox/__init__.py||nox/tasks.py": 2,
+      "nox/__init__.py||noxfile.py": 3,
+      "nox/__init__.py||pyproject.toml": 2,
+      "nox/__init__.py||setup.py": 2,
+      "nox/__init__.py||tests/test__parametrize.py": 2,
+      "nox/__init__.py||tests/test_main.py": 4,
+      "nox/__init__.py||tests/test_sessions.py": 2,
+      "nox/__main__.py||nox/_cli.py": 2,
+      "nox/__main__.py||nox/_options.py": 5,
+      "nox/__main__.py||nox/_parametrize.py": 3,
+      "nox/__main__.py||nox/command.py": 6,
+      "nox/__main__.py||nox/logger.py": 5,
+      "nox/__main__.py||nox/manifest.py": 3,
+      "nox/__main__.py||nox/popen.py": 2,
+      "nox/__main__.py||nox/registry.py": 4,
+      "nox/__main__.py||nox/sessions.py": 11,
+      "nox/__main__.py||nox/tasks.py": 7,
+      "nox/__main__.py||nox/virtualenv.py": 3,
+      "nox/__main__.py||noxfile.py": 3,
+      "nox/__main__.py||setup.py": 6,
+      "nox/__main__.py||tests/test_command.py": 2,
+      "nox/__main__.py||tests/test_logger.py": 2,
+      "nox/__main__.py||tests/test_main.py": 24,
+      "nox/__main__.py||tests/test_registry.py": 2,
+      "nox/__main__.py||tests/test_sessions.py": 7,
+      "nox/__main__.py||tests/test_tasks.py": 3,
+      "nox/_cli.py||nox/_options.py": 3,
+      "nox/_cli.py||nox/manifest.py": 2,
+      "nox/_cli.py||nox/sessions.py": 2,
+      "nox/_cli.py||nox/tasks.py": 2,
+      "nox/_cli.py||nox/virtualenv.py": 3,
+      "nox/_cli.py||tests/test__cli.py": 5,
+      "nox/_cli.py||tests/test_main.py": 4,
+      "nox/_cli.py||tests/test_sessions.py": 2,
+      "nox/_decorators.py||nox/_option_set.py": 2,
+      "nox/_decorators.py||nox/_parametrize.py": 4,
+      "nox/_decorators.py||nox/_typing.py": 3,
+      "nox/_decorators.py||nox/manifest.py": 4,
+      "nox/_decorators.py||nox/registry.py": 7,
+      "nox/_decorators.py||nox/sessions.py": 5,
+      "nox/_decorators.py||nox/tasks.py": 3,
+      "nox/_decorators.py||nox/virtualenv.py": 3,
+      "nox/_decorators.py||noxfile.py": 2,
+      "nox/_decorators.py||pyproject.toml": 3,
+      "nox/_decorators.py||tests/test__parametrize.py": 3,
+      "nox/_decorators.py||tests/test_manifest.py": 2,
+      "nox/_decorators.py||tests/test_tasks.py": 3,
+      "nox/_option_set.py||nox/_options.py": 13,
+      "nox/_option_set.py||nox/_parametrize.py": 3,
+      "nox/_option_set.py||nox/_typing.py": 2,
+      "nox/_option_set.py||nox/_version.py": 2,
+      "nox/_option_set.py||nox/logger.py": 2,
+      "nox/_option_set.py||nox/manifest.py": 5,
+      "nox/_option_set.py||nox/registry.py": 3,
+      "nox/_option_set.py||nox/sessions.py": 7,
+      "nox/_option_set.py||nox/virtualenv.py": 3,
+      "nox/_option_set.py||pyproject.toml": 7,
+      "nox/_option_set.py||tests/test__option_set.py": 7,
+      "nox/_option_set.py||tests/test_action_helper.py": 2,
+      "nox/_option_set.py||tests/test_main.py": 3,
+      "nox/_option_set.py||tests/test_sessions.py": 4,
+      "nox/_options.py||nox/_parametrize.py": 2,
+      "nox/_options.py||nox/command.py": 2,
+      "nox/_options.py||nox/logger.py": 4,
+      "nox/_options.py||nox/manifest.py": 5,
+      "nox/_options.py||nox/sessions.py": 17,
+      "nox/_options.py||nox/tasks.py": 8,
+      "nox/_options.py||nox/virtualenv.py": 6,
+      "nox/_options.py||noxfile.py": 2,
+      "nox/_options.py||pyproject.toml": 5,
+      "nox/_options.py||requirements-test.txt": 2,
+      "nox/_options.py||tests/conftest.py": 2,
+      "nox/_options.py||tests/resources/noxfile_options.py": 2,
+      "nox/_options.py||tests/test__cli.py": 2,
+      "nox/_options.py||tests/test__option_set.py": 6,
+      "nox/_options.py||tests/test_action_helper.py": 2,
+      "nox/_options.py||tests/test_logger.py": 2,
+      "nox/_options.py||tests/test_main.py": 17,
+      "nox/_options.py||tests/test_manifest.py": 4,
+      "nox/_options.py||tests/test_sessions.py": 14,
+      "nox/_options.py||tests/test_tasks.py": 5,
+      "nox/_options.py||tests/test_virtualenv.py": 3,
+      "nox/_parametrize.py||nox/_typing.py": 2,
+      "nox/_parametrize.py||nox/command.py": 2,
+      "nox/_parametrize.py||nox/logger.py": 2,
+      "nox/_parametrize.py||nox/manifest.py": 2,
+      "nox/_parametrize.py||nox/registry.py": 3,
+      "nox/_parametrize.py||nox/sessions.py": 6,
+      "nox/_parametrize.py||nox/tasks.py": 2,
+      "nox/_parametrize.py||nox/virtualenv.py": 2,
+      "nox/_parametrize.py||noxfile.py": 4,
+      "nox/_parametrize.py||pyproject.toml": 3,
+      "nox/_parametrize.py||tests/test__parametrize.py": 7,
+      "nox/_parametrize.py||tests/test_main.py": 4,
+      "nox/_parametrize.py||tests/test_sessions.py": 3,
+      "nox/_parametrize.py||tests/test_tasks.py": 2,
+      "nox/_typing.py||nox/manifest.py": 2,
+      "nox/_typing.py||nox/sessions.py": 3,
+      "nox/_typing.py||tests/test__parametrize.py": 2,
+      "nox/_version.py||nox/logger.py": 2,
+      "nox/_version.py||nox/sessions.py": 2,
+      "nox/_version.py||pyproject.toml": 2,
+      "nox/command.py||nox/logger.py": 4,
+      "nox/command.py||nox/manifest.py": 3,
+      "nox/command.py||nox/popen.py": 7,
+      "nox/command.py||nox/registry.py": 3,
+      "nox/command.py||nox/sessions.py": 23,
+      "nox/command.py||nox/tasks.py": 3,
+      "nox/command.py||nox/tox_to_nox.py": 2,
+      "nox/command.py||nox/utils.py": 2,
+      "nox/command.py||nox/virtualenv.py": 12,
+      "nox/command.py||noxfile.py": 6,
+      "nox/command.py||pyproject.toml": 3,
+      "nox/command.py||setup.py": 4,
+      "nox/command.py||tests/test_command.py": 24,
+      "nox/command.py||tests/test_logger.py": 2,
+      "nox/command.py||tests/test_sessions.py": 20,
+      "nox/command.py||tests/test_utils.py": 2,
+      "nox/command.py||tests/test_virtualenv.py": 9,
+      "nox/logger.py||nox/manifest.py": 2,
+      "nox/logger.py||nox/sessions.py": 6,
+      "nox/logger.py||nox/tasks.py": 2,
+      "nox/logger.py||nox/virtualenv.py": 3,
+      "nox/logger.py||noxfile.py": 3,
+      "nox/logger.py||pyproject.toml": 4,
+      "nox/logger.py||requirements-test.txt": 2,
+      "nox/logger.py||tests/test_logger.py": 2,
+      "nox/logger.py||tests/test_main.py": 3,
+      "nox/logger.py||tests/test_sessions.py": 2,
+      "nox/manifest.py||nox/registry.py": 6,
+      "nox/manifest.py||nox/sessions.py": 12,
+      "nox/manifest.py||nox/tasks.py": 9,
+      "nox/manifest.py||nox/virtualenv.py": 5,
+      "nox/manifest.py||noxfile.py": 5,
+      "nox/manifest.py||pyproject.toml": 3,
+      "nox/manifest.py||tests/test__parametrize.py": 2,
+      "nox/manifest.py||tests/test_main.py": 5,
+      "nox/manifest.py||tests/test_manifest.py": 14,
+      "nox/manifest.py||tests/test_sessions.py": 8,
+      "nox/manifest.py||tests/test_tasks.py": 6,
+      "nox/popen.py||nox/sessions.py": 5,
+      "nox/popen.py||nox/tasks.py": 2,
+      "nox/popen.py||tests/test_command.py": 6,
+      "nox/popen.py||tests/test_sessions.py": 4,
+      "nox/project.py||pyproject.toml": 2,
+      "nox/project.py||tests/test_project.py": 2,
+      "nox/project.py||tests/test_toml.py": 2,
+      "nox/registry.py||nox/sessions.py": 6,
+      "nox/registry.py||nox/tasks.py": 3,
+      "nox/registry.py||nox/tox_to_nox.py": 2,
+      "nox/registry.py||nox/virtualenv.py": 5,
+      "nox/registry.py||noxfile.py": 4,
+      "nox/registry.py||pyproject.toml": 2,
+      "nox/registry.py||tests/test_main.py": 3,
+      "nox/registry.py||tests/test_manifest.py": 2,
+      "nox/registry.py||tests/test_registry.py": 4,
+      "nox/registry.py||tests/test_sessions.py": 2,
+      "nox/registry.py||tests/test_tasks.py": 4,
+      "nox/sessions.py||nox/tasks.py": 11,
+      "nox/sessions.py||nox/virtualenv.py": 35,
+      "nox/sessions.py||noxfile.py": 16,
+      "nox/sessions.py||pyproject.toml": 10,
+      "nox/sessions.py||requirements-conda-test.txt": 2,
+      "nox/sessions.py||setup.py": 3,
+      "nox/sessions.py||tests/conftest.py": 2,
+      "nox/sessions.py||tests/resources/noxfile_nested.py": 2,
+      "nox/sessions.py||tests/test__option_set.py": 3,
+      "nox/sessions.py||tests/test__parametrize.py": 3,
+      "nox/sessions.py||tests/test_command.py": 14,
+      "nox/sessions.py||tests/test_main.py": 12,
+      "nox/sessions.py||tests/test_manifest.py": 6,
+      "nox/sessions.py||tests/test_sessions.py": 84,
+      "nox/sessions.py||tests/test_tasks.py": 7,
+      "nox/sessions.py||tests/test_virtualenv.py": 25,
+      "nox/tasks.py||nox/virtualenv.py": 2,
+      "nox/tasks.py||noxfile.py": 5,
+      "nox/tasks.py||tests/test__cli.py": 2,
+      "nox/tasks.py||tests/test_main.py": 4,
+      "nox/tasks.py||tests/test_manifest.py": 4,
+      "nox/tasks.py||tests/test_sessions.py": 7,
+      "nox/tasks.py||tests/test_tasks.py": 20,
+      "nox/tasks.py||tests/test_virtualenv.py": 2,
+      "nox/tox_to_nox.jinja2||nox/tox_to_nox.py": 3,
+      "nox/tox_to_nox.jinja2||noxfile.py": 2,
+      "nox/tox_to_nox.jinja2||tests/test_tox_to_nox.py": 5,
+      "nox/tox_to_nox.py||noxfile.py": 4,
+      "nox/tox_to_nox.py||pyproject.toml": 3,
+      "nox/tox_to_nox.py||tests/test_tox_to_nox.py": 7,
+      "nox/utils.py||nox/virtualenv.py": 2,
+      "nox/utils.py||tests/test_command.py": 2,
+      "nox/utils.py||tests/test_sessions.py": 2,
+      "nox/utils.py||tests/test_utils.py": 2,
+      "nox/utils.py||tests/test_virtualenv.py": 2,
+      "nox/virtualenv.py||noxfile.py": 9,
+      "nox/virtualenv.py||pyproject.toml": 8,
+      "nox/virtualenv.py||tests/test__cli.py": 3,
+      "nox/virtualenv.py||tests/test_command.py": 8,
+      "nox/virtualenv.py||tests/test_main.py": 5,
+      "nox/virtualenv.py||tests/test_sessions.py": 27,
+      "nox/virtualenv.py||tests/test_utils.py": 2,
+      "nox/virtualenv.py||tests/test_virtualenv.py": 59,
+      "noxfile.py||pyproject.toml": 15,
+      "noxfile.py||requirements-conda-test.txt": 4,
+      "noxfile.py||requirements-test.txt": 9,
+      "noxfile.py||setup.py": 6,
+      "noxfile.py||tests/test__cli.py": 2,
+      "noxfile.py||tests/test__parametrize.py": 3,
+      "noxfile.py||tests/test_action_helper.py": 4,
+      "noxfile.py||tests/test_command.py": 5,
+      "noxfile.py||tests/test_main.py": 5,
+      "noxfile.py||tests/test_manifest.py": 2,
+      "noxfile.py||tests/test_sessions.py": 10,
+      "noxfile.py||tests/test_tasks.py": 2,
+      "noxfile.py||tests/test_tox_to_nox.py": 3,
+      "noxfile.py||tests/test_virtualenv.py": 16,
+      "pyproject.toml||requirements-conda-test.txt": 5,
+      "pyproject.toml||requirements-dev.txt": 2,
+      "pyproject.toml||requirements-test.txt": 5,
+      "pyproject.toml||tests/conftest.py": 2,
+      "pyproject.toml||tests/test__cli.py": 3,
+      "pyproject.toml||tests/test_action_helper.py": 3,
+      "pyproject.toml||tests/test_main.py": 2,
+      "pyproject.toml||tests/test_sessions.py": 7,
+      "pyproject.toml||tests/test_tasks.py": 2,
+      "pyproject.toml||tests/test_tox_to_nox.py": 3,
+      "pyproject.toml||tests/test_virtualenv.py": 8,
+      "requirements-conda-test.txt||tests/test_virtualenv.py": 2,
+      "requirements-test.txt||tests/test_main.py": 3,
+      "requirements-test.txt||tests/test_virtualenv.py": 2,
+      "setup.py||tests/test_command.py": 4,
+      "setup.py||tests/test_main.py": 5,
+      "setup.py||tests/test_virtualenv.py": 2,
+      "setup.py||todo": 2,
+      "tests/conftest.py||tests/test_sessions.py": 2,
+      "tests/conftest.py||tests/test_virtualenv.py": 2,
+      "tests/resources/noxfile.py||tests/test_main.py": 2,
+      "tests/resources/noxfile_options.py||tests/test_main.py": 2,
+      "tests/resources/noxfile_tags.py||tests/test__option_set.py": 2,
+      "tests/test__cli.py||tests/test_main.py": 3,
+      "tests/test__cli.py||tests/test_virtualenv.py": 3,
+      "tests/test__option_set.py||tests/test_sessions.py": 2,
+      "tests/test__option_set.py||tests/test_tasks.py": 2,
+      "tests/test__parametrize.py||tests/test_main.py": 2,
+      "tests/test__parametrize.py||tests/test_sessions.py": 2,
+      "tests/test__parametrize.py||tests/test_tasks.py": 2,
+      "tests/test__version.py||tests/test_tasks.py": 2,
+      "tests/test_command.py||tests/test_sessions.py": 12,
+      "tests/test_command.py||tests/test_virtualenv.py": 11,
+      "tests/test_main.py||tests/test_manifest.py": 2,
+      "tests/test_main.py||tests/test_registry.py": 2,
+      "tests/test_main.py||tests/test_sessions.py": 10,
+      "tests/test_main.py||tests/test_tasks.py": 5,
+      "tests/test_main.py||tests/test_virtualenv.py": 2,
+      "tests/test_manifest.py||tests/test_sessions.py": 5,
+      "tests/test_manifest.py||tests/test_tasks.py": 4,
+      "tests/test_sessions.py||tests/test_tasks.py": 7,
+      "tests/test_sessions.py||tests/test_utils.py": 2,
+      "tests/test_sessions.py||tests/test_virtualenv.py": 24,
+      "tests/test_tox_to_nox.py||tests/test_virtualenv.py": 3,
+      "tests/test_utils.py||tests/test_virtualenv.py": 2
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "noxfile.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "dd35b057c25e943dbd42e700e4218a2055d3a1dc",
+        "timestamp": 1456286814
+      },
+      {
+        "files": [
+          "noxfile.py",
+          "requirements-test.txt",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "341a702e8b8bc26a3b136da73d470e154a04fc97",
+        "timestamp": 1456296582
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "noxfile.py",
+          "tests/test_command.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "f4bb7c5eb45b4812d1130b9fe1ad0007c0c88418",
+        "timestamp": 1456381371
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "noxfile.py"
+        ],
+        "sha": "d530c7c0abdc710f488b281210a13dc0b64019dc",
+        "timestamp": 1456381657
+      },
+      {
+        "files": [
+          "nox/command.py"
+        ],
+        "sha": "cbeb1efa56b76732adc68b1b4b92084e89d74641",
+        "timestamp": 1456382558
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "noxfile.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "6c495f45aa2361533f1b725b631f45ff00ad6779",
+        "timestamp": 1456456689
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "setup.py",
+          "tests/test_command.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "94428c0a4af2d7fbbdb2dd92746e2ab301e4b81b",
+        "timestamp": 1456461184
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "nox/sessions.py",
+          "noxfile.py",
+          "tests/test_command.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "86c4574d4fa8321b195117fc56f2aad1480cd11f",
+        "timestamp": 1456461627
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/logger.py",
+          "noxfile.py",
+          "requirements-test.txt",
+          "setup.py",
+          "tests/resources/noxfile.py",
+          "tests/test_main.py"
+        ],
+        "sha": "ed2e0845e6f5579f05961b2e774843b1f7dc4812",
+        "timestamp": 1456555817
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "nox/__main__.py",
+          "nox/sessions.py",
+          "noxfile.py",
+          "tests/test_main.py"
+        ],
+        "sha": "d99f39101073b8a6d527d6f82053cbc2027c5c3d",
+        "timestamp": 1456556342
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f4af147bb360b8e497d59e7aafbcec113f187936",
+        "timestamp": 1456556549
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "bcdf65b5e32a221619d45f444cf8964718af1d58",
+        "timestamp": 1456556740
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "7dfc12881c11827f84238fe418caf4e44117729f",
+        "timestamp": 1456556899
+      },
+      {
+        "files": [
+          "todo"
+        ],
+        "sha": "56dddb4b6fb134f95c26a19f0e3e64c4855b9d20",
+        "timestamp": 1456556983
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst"
+        ],
+        "sha": "7bd2e48aad698daaa52558306d221fa47dab93b3",
+        "timestamp": 1456648202
+      },
+      {
+        "files": [
+          "docs/Makefile",
+          "docs/_templates/fonts.html",
+          "docs/conf.py",
+          "docs/config.rst",
+          "docs/contrib.rst",
+          "docs/index.rst",
+          "docs/tutorial.rst",
+          "docs/usage.rst",
+          "nox/sessions.py"
+        ],
+        "sha": "83be005aaa6dff8b9984d4925858f55887430c2c",
+        "timestamp": 1456708833
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "nox/command.py",
+          "setup.py",
+          "todo"
+        ],
+        "sha": "885f0fb3c29dd4e38ea90de18dc6b70579916b0b",
+        "timestamp": 1456723377
+      },
+      {
+        "files": [
+          "docs/_static/alice.gif",
+          "docs/conf.py"
+        ],
+        "sha": "bd86f058a68f4a036cd15deeac4464b0f54c2802",
+        "timestamp": 1456889702
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "docs/index.rst",
+          "docs/tutorial.rst",
+          "setup.py",
+          "todo"
+        ],
+        "sha": "d98908be5edf2edfe59fee7c2d74615641a09ac4",
+        "timestamp": 1456904811
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "4ec7b6248ada987340847a78ae9e29224e0d8ede",
+        "timestamp": 1456905037
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "appveyor/install.ps1"
+        ],
+        "sha": "bf57d1111a64063fccfcb8878827939e92ef260d",
+        "timestamp": 1456906086
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/popen.py",
+          "setup.py",
+          "tests/test_command.py"
+        ],
+        "sha": "2f84ca919e2bab901c765f05060baf9ba0124f8d",
+        "timestamp": 1456957134
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "nox/command.py",
+          "nox/virtualenv.py",
+          "noxfile.py",
+          "tests/test_command.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "dab728591c16553bb41619dd677b5d39c0d4ccd9",
+        "timestamp": 1456957470
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "tests/test_command.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "559ed2af289a7ab73b9efee02de64d15bdfe4b95",
+        "timestamp": 1456965042
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "65fd1c38b0b33a2037258db27cfa9ca34c855917",
+        "timestamp": 1456965321
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "setup.py"
+        ],
+        "sha": "45e211d49fcea80c7b6f35be45ce7c66fa6ba76c",
+        "timestamp": 1456966457
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/usage.rst",
+          "setup.py"
+        ],
+        "sha": "bac8a176e92b4a4f656f12646cae15ba304cb4f2",
+        "timestamp": 1456971406
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "982b2f44d12f818041d45469a9069ddf5308b0ba",
+        "timestamp": 1457020741
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "tests/test_main.py"
+        ],
+        "sha": "16743f6cc8b35d1ac077f1267b3e18616b5d1b56",
+        "timestamp": 1457055621
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4245084216395b6f77954abdd23b483b06fbf626",
+        "timestamp": 1457055849
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md",
+          "docs/contrib.rst"
+        ],
+        "sha": "0bc1ead5b1c7d75f7f9f95f29894cd7f4210e291",
+        "timestamp": 1457056437
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "ad0b559dcc19b09360df32d1f49ad990979af2f4",
+        "timestamp": 1457056710
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_main.py"
+        ],
+        "sha": "3c8a535deef2c936d2a188a61f6ede75dd7b8bc8",
+        "timestamp": 1457057736
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "07e7f42f06f7d5cfea3ba8907151d593ac527b11",
+        "timestamp": 1457057156
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/sessions.py"
+        ],
+        "sha": "62c40fbed35e0a12a2bf87f68bf752c7ff5d49f9",
+        "timestamp": 1457058006
+      },
+      {
+        "files": [
+          "docs/contrib.rst"
+        ],
+        "sha": "032728dfcca34ccc5ae6091d4f35de984d865520",
+        "timestamp": 1457058295
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "nox/__init__.py",
+          "nox/__main__.py",
+          "nox/_parametrize.py",
+          "nox/sessions.py",
+          "noxfile.py",
+          "tests/test__parametrize.py",
+          "tests/test_main.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "52fc2733dfad14ea2551388c6065873db45ac00a",
+        "timestamp": 1457134828
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/tutorial.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "4b7e7fca7265fd2131c32ac519abfa6659881bad",
+        "timestamp": 1457136354
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "e7e4ab08d0dabe0e28faf531caa1c1c282f6e5a4",
+        "timestamp": 1457136886
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "070723361b3b32f720710cfd0bbabd40ae541c04",
+        "timestamp": 1457138334
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "bf80cb1414864d1e8195370161c9fef02758481c",
+        "timestamp": 1457138105
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/command.py",
+          "nox/popen.py",
+          "nox/sessions.py",
+          "tests/test_command.py",
+          "tests/test_main.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "ed1ee9a9ed1ec298e07f1374610218671132d353",
+        "timestamp": 1457226871
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "6e36400bb28157444f6e900b1cd05f95a45c24d9",
+        "timestamp": 1457226919
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "78224d2539700ce803022aaf1002b5167650096a",
+        "timestamp": 1457227116
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f355ec0122cc00717f59c147501300a0ceb631da",
+        "timestamp": 1457227420
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "tests/test_main.py"
+        ],
+        "sha": "6f8d4479a650a15520354e2cbff352cc10aacedd",
+        "timestamp": 1465329576
+      },
+      {
+        "files": [
+          "tests/test_main.py"
+        ],
+        "sha": "5d60063a56a74fe68eeaaf23c0b2d590f0d3df05",
+        "timestamp": 1465342472
+      },
+      {
+        "files": [
+          ".flake8"
+        ],
+        "sha": "ba0577defdb8eef4f7da24031c5d3f42a983ce80",
+        "timestamp": 1467057585
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "09b930dd112fc33f979344338a97fc7200fb7dd7",
+        "timestamp": 1472699755
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "setup.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "a92da0f27189e4d7ec95ffa367ac56f99d06e351",
+        "timestamp": 1472700164
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/virtualenv.py",
+          "tests/test_command.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "05a36760fcfa342503fbb47498d3c66b69ffc03f",
+        "timestamp": 1472701187
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "nox/command.py"
+        ],
+        "sha": "f206fff9e5e03000ce9949ed345c41f1f2f50acb",
+        "timestamp": 1472701629
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "nox/command.py"
+        ],
+        "sha": "974439589bf63d40584bf5c481547c301b2c4db3",
+        "timestamp": 1472702715
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "tests/test_command.py"
+        ],
+        "sha": "5e7fd5624ccdbb9d9cbb25c62aebbca7ea1ae028",
+        "timestamp": 1472704513
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "32b901ef98daa5ce5a9010cc591bb355dc110857",
+        "timestamp": 1477603750
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7f5e1f583fd87760460109b2ecb39047a184dec3",
+        "timestamp": 1477604028
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "setup.py",
+          "tests/test_command.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "c3caebdec3225c925df096865c313302e084e872",
+        "timestamp": 1477633397
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "65ab723a7e47b10673e3d80e6d18bc349f76ee67",
+        "timestamp": 1477633591
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "9c10547b1eafd81b8bab7dfc6a259f75b2701cdd",
+        "timestamp": 1477677595
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "0d16fe5873054c69bce4571615f06d4b447ad32e",
+        "timestamp": 1477677612
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/command.py",
+          "nox/logger.py",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "17510fbf2fe7408317cf4cb14f5faed0873dcd53",
+        "timestamp": 1479852687
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9d8bd839601724f23b404a08b39856704bcf4357",
+        "timestamp": 1479853087
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "tests/test_main.py"
+        ],
+        "sha": "b806f4b75b5867d17fed025beab624fa773508f1",
+        "timestamp": 1480373743
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "setup.py"
+        ],
+        "sha": "8c7193b51d7b714312d842415559d0991dff3978",
+        "timestamp": 1480373780
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "b9a6af03f08d88e23466ce474a27cbf9a598da24",
+        "timestamp": 1481760715
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "84b8f802c9ab6ec25e9bede335c67dc3647c713f",
+        "timestamp": 1481760828
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/_parametrize.py",
+          "tests/test_main.py"
+        ],
+        "sha": "b5bcf735ad9168f51669624c7afe34556da0d023",
+        "timestamp": 1486062577
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "89999dee2b96f4da402095d93ef376d4080eac29",
+        "timestamp": 1486062635
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "7a91cee05a03b711ae3625c0ff4456522ff95808",
+        "timestamp": 1486063674
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "b977f2823999466956a3ff47933f3ad712da1bf9",
+        "timestamp": 1487292198
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2752220a4a3a267e90dcb76ae7249504fe92e24c",
+        "timestamp": 1487292252
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/sessions.py",
+          "tests/test_main.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "27bf332846d344dddac50faa6d7c8b7f03682845",
+        "timestamp": 1489000915
+      },
+      {
+        "files": [
+          "docs/tutorial.rst",
+          "nox/__init__.py",
+          "nox/__main__.py",
+          "nox/registry.py",
+          "setup.py",
+          "tests/test_main.py",
+          "tests/test_registry.py"
+        ],
+        "sha": "094c35c773619661c4a9fa2a422c29ff3ad84597",
+        "timestamp": 1489008391
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/registry.py",
+          "tests/test_registry.py"
+        ],
+        "sha": "03c43e8e99aaadb1f46fd12feddb9329981572d2",
+        "timestamp": 1489174127
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "3f6d1df8d613c76b0cc7a5aec4797d389b3b86da",
+        "timestamp": 1489187516
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/command.py",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "fb87008066dfdd9c9747a8dcbdcaa49024a3d453",
+        "timestamp": 1489614445
+      },
+      {
+        "files": [
+          "noxfile.py",
+          "setup.py"
+        ],
+        "sha": "c6eba47a849812eac215c8a1fd08af8445b89a07",
+        "timestamp": 1489617318
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "nox/command.py",
+          "nox/utils.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py",
+          "tests/test_utils.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "3ed71dbbc93139fdff2e465e47b7c119242f6181",
+        "timestamp": 1490210415
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "10c1b27f0f958dd1ed924ad4f052447aa44e1222",
+        "timestamp": 1490210618
+      },
+      {
+        "files": [
+          "nox/__main__.py"
+        ],
+        "sha": "071a3a8f8e6da3e239201a83d075a020adbcd8f6",
+        "timestamp": 1490219730
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "48b99a232a5fccd9e0b789dfe9dca4833e8f47f1",
+        "timestamp": 1490219767
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "tests/test_main.py"
+        ],
+        "sha": "ac66f15371bd6e20f6ca836700dc3d610a652842",
+        "timestamp": 1490287778
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "41e7ff2f22c1111460be980a9804bb88d843e299",
+        "timestamp": 1490287810
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3efc56e68c13fe0ba10739bdc9edec51c4207aa4",
+        "timestamp": 1490642125
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "39c0733074206bd297d652e313e0da58946f0aea",
+        "timestamp": 1492121054
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py"
+        ],
+        "sha": "73c54a3407d6cd4bf7cb25c368de245976956f5c",
+        "timestamp": 1493835811
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f42c49d5041f4e8ce2d8378d52c6ec21a99e28a5",
+        "timestamp": 1493835835
+      },
+      {
+        "files": [
+          "nox/sessions.py"
+        ],
+        "sha": "de0b57b2e60f18255d6dc4640a8eddbab2d22da0",
+        "timestamp": 1493836024
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/tutorial.rst",
+          "noxfile.py"
+        ],
+        "sha": "87a41397f55350979c44af067e6ee86f7c56c7b7",
+        "timestamp": 1494868994
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "48bd09456f0b05ceac429d548545c7e970f48b70",
+        "timestamp": 1494869856
+      },
+      {
+        "files": [
+          "nox/sessions.py"
+        ],
+        "sha": "76da1499ed779a2248522100c9f302e1c9341681",
+        "timestamp": 1494870071
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/__main__.py",
+          "tests/test_main.py"
+        ],
+        "sha": "3933d42637e7a646a8bafb7a4161fdbc71aa9d88",
+        "timestamp": 1494876309
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c9c61253fa6724d2f61191f032e81b0f50c52c69",
+        "timestamp": 1494877342
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "docs/usage.rst",
+          "nox/tox_to_nox.jinja2",
+          "nox/tox_to_nox.py",
+          "noxfile.py",
+          "setup.py",
+          "tests/test_tox_to_nox.py"
+        ],
+        "sha": "4fe199abffe83364f3dff94e1661ef5b4290bf12",
+        "timestamp": 1494889836
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/index.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "cf35af3084c1dad7ec66f123dde9411beed6cbd4",
+        "timestamp": 1494890851
+      },
+      {
+        "files": [
+          "nox/tox_to_nox.py"
+        ],
+        "sha": "8586e3c10d18abf99bff25c5b6fad7b61dc96208",
+        "timestamp": 1494891135
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c984bbfa5df17470bd29330c9c9dee8f9b8bde04",
+        "timestamp": 1494891217
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "22204b22ebed946baf6f14d1d807d731486fc624",
+        "timestamp": 1494891636
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "9b96aa8a0ee14005a0b71e076059ac5d641fca52",
+        "timestamp": 1494892752
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7b5e564ed958b03545e4e9b589ef848f7ae3adc5",
+        "timestamp": 1494901433
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "f8738f8396b06146f94dab873bc90878a1b92b7e",
+        "timestamp": 1494902283
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md",
+          "docs/index.rst",
+          "docs/tutorial.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "650efb091e0f99370d2035c1b32547292a496ee6",
+        "timestamp": 1495683173
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "9116b5a0009fa0f3c20e2a11e3b0481b479499ce",
+        "timestamp": 1495730429
+      },
+      {
+        "files": [
+          "setup.py",
+          "tests/test_command.py"
+        ],
+        "sha": "95cce71efe4603bd146d3216715eb57cde9fde54",
+        "timestamp": 1495730750
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "tests/test_command.py"
+        ],
+        "sha": "ea679170165299c0ff802b9544cbeef50dff83f8",
+        "timestamp": 1495739134
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "defa6b0aa550ee9099a5770883292c97555a3108",
+        "timestamp": 1495739170
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "871d4686c7affa7e04888f730da0f81264f9497f",
+        "timestamp": 1496789019
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "tests/test_main.py"
+        ],
+        "sha": "a9ba5263d8bee8b88acba1b774dfcaa5b7853b55",
+        "timestamp": 1496801822
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "b9f4be6b14d1d568ac4f750de9d83215b4c8d0b2",
+        "timestamp": 1498019014
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "23f56de1ef4cbfe3723465e0d49bd9bb92abd4c1",
+        "timestamp": 1498019083
+      },
+      {
+        "files": [
+          "noxfile.py",
+          "requirements-test.txt"
+        ],
+        "sha": "1457e4e7e179568964472d1774fae4e310907507",
+        "timestamp": 1498019259
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/config.rst",
+          "noxfile.py"
+        ],
+        "sha": "8d4754c66e359cb4c890193427ee5463310d298d",
+        "timestamp": 1498241901
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "noxfile.py"
+        ],
+        "sha": "2f871b73a7548458e0d1122eacddbcccb694956d",
+        "timestamp": 1498247648
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/config.rst",
+          "docs/tutorial.rst",
+          "docs/usage.rst",
+          "nox/_parametrize.py",
+          "nox/registry.py",
+          "nox/sessions.py"
+        ],
+        "sha": "3d86671ef16fa444f9875663f80148711f5e0c10",
+        "timestamp": 1498250798
+      },
+      {
+        "files": [
+          "nox/_parametrize.py"
+        ],
+        "sha": "e4ddf753fdaeb21d51350db775795591f217dfbf",
+        "timestamp": 1498251128
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md",
+          "docs/config.rst",
+          "docs/usage.rst",
+          "nox/sessions.py"
+        ],
+        "sha": "1b90ef6a7df34c2815881de11a0c699a57b3bb3a",
+        "timestamp": 1498606205
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "5f1265d0feea6eb117533f1cfa5b2ccb927dc726",
+        "timestamp": 1500487362
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/manifest.py",
+          "nox/sessions.py",
+          "noxfile.py",
+          "tests/test_command.py",
+          "tests/test_manifest.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "d6b3a5ad47d4cc616c821ec1bef82a69ba774fd0",
+        "timestamp": 1504126501
+      },
+      {
+        "files": [
+          "tests/test_manifest.py"
+        ],
+        "sha": "d2d44a0bd1d144a3497e857e368deab7b7833b2f",
+        "timestamp": 1505752029
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "82e54b53a5d8a009e3113f8f57d9f4193bcb7eff",
+        "timestamp": 1505754218
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "9cb5cd519863620dfa9f72c263aede1b556004f7",
+        "timestamp": 1505756889
+      },
+      {
+        "files": [
+          "nox/command.py"
+        ],
+        "sha": "7b37dc690149ad2c22a6a480178680d7c9bbeb53",
+        "timestamp": 1505757731
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "f87525654265afdb3da086d4116fdfb5867154f6",
+        "timestamp": 1505763216
+      },
+      {
+        "files": [
+          "nox/__main__.py"
+        ],
+        "sha": "a8d7e9753e888dd2a787235ef8e8e471d985481e",
+        "timestamp": 1505853146
+      },
+      {
+        "files": [
+          "nox/utils.py",
+          "tests/test_command.py"
+        ],
+        "sha": "d461a12b8e280a9348001191bb1056d10f82df2c",
+        "timestamp": 1505854641
+      },
+      {
+        "files": [
+          "nox/__main__.py"
+        ],
+        "sha": "2a13f954180a58332b221e90b9aa45d6a7ef8218",
+        "timestamp": 1505855947
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "832b7cf256375615dcfba65d7d150035a2c22f6c",
+        "timestamp": 1505856613
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "95863f73f0716130724109c0134c31dd8f89a073",
+        "timestamp": 1505923347
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "503f633edaae24897f80ad9d1434129b8b1cf116",
+        "timestamp": 1505949007
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "2d973649d24addd1ee4f109b7b88ced54134bb32",
+        "timestamp": 1507842355
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "87c0aa93c71c643d587e7cca67e39f164dc63ad5",
+        "timestamp": 1507841746
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "7360b26a2e07f7a5af748b3b6b404480fea5d45e",
+        "timestamp": 1507840346
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "appveyor/install.ps1"
+        ],
+        "sha": "be471b98ec2f59a790b19e60ca42282581116be8",
+        "timestamp": 1508265542
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f2d64ffa33054ae0db9493d8129ff7fdccb89a85",
+        "timestamp": 1508267279
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "appveyor/py.exe"
+        ],
+        "sha": "c0bc8bed611e89961fbc230e0225e5f05581db54",
+        "timestamp": 1508432292
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "appveyor/py.exe"
+        ],
+        "sha": "a4d52ad7d126afd9807e6427880305f4646c0c00",
+        "timestamp": 1508955577
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/manifest.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "452bfdb20e8cf5a2396fb6d4492763d49dd3e7d9",
+        "timestamp": 1515713108
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/__main__.py",
+          "nox/logger.py"
+        ],
+        "sha": "f7a91e8e7ae0d07548269d8d0f536dd99137f9d6",
+        "timestamp": 1519520031
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/command.py",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "2cceabee33ed6992db86cda3b336ebc427d97a29",
+        "timestamp": 1519522040
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "03fa12847bf89cab202230af0f4e329da6d86411",
+        "timestamp": 1526135380
+      },
+      {
+        "files": [
+          "nox/tox_to_nox.py"
+        ],
+        "sha": "78c5de0e687f5374aaeb5ce201e9f74f30197a36",
+        "timestamp": 1526135600
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "9dfa4c2e969b1153fbcca03e99b75e39e0c6c7ea",
+        "timestamp": 1526135693
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "a6d3247524caf31225781682c900a17d35253b84",
+        "timestamp": 1527526189
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "61ef14f8d9d4adbdab4b7b0c52a8b8c69635c78b",
+        "timestamp": 1527526335
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "903fd97f0c3e19a39c3e0847072b652639044d30",
+        "timestamp": 1530648305
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "7ddd0cec8a6b198d9d79383c6adbbab2da9c29f2",
+        "timestamp": 1532719980
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "nox/utils.py",
+          "nox/virtualenv.py",
+          "tests/test_command.py",
+          "tests/test_sessions.py",
+          "tests/test_utils.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "dcb595874842f7264845d9b83482f944d6fc58bc",
+        "timestamp": 1532919040
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "d7f4a0a3cbbd23901bc53341d51ef19fa8c37fdf",
+        "timestamp": 1532920005
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "setup.py"
+        ],
+        "sha": "c743163bd4462e8364c1d157254f347cf1220d34",
+        "timestamp": 1532920238
+      },
+      {
+        "files": [
+          "tests/test_sessions.py"
+        ],
+        "sha": "fe185232435759e11775e3a9239ee2a6c63ea629",
+        "timestamp": 1532920269
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/_parametrize.py",
+          "nox/command.py",
+          "nox/manifest.py",
+          "nox/popen.py",
+          "nox/registry.py",
+          "nox/tasks.py",
+          "tests/_test_manifest.py"
+        ],
+        "sha": "ae1fcb6db75eaae2d6f9140decfe53b43a64bbf4",
+        "timestamp": 1532920496
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "dbead2b54e9625504b9575278e6283e14da784b4",
+        "timestamp": 1533101972
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "1dbc17f449915425f8fa864fd627009ac06c97f7",
+        "timestamp": 1533102200
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "75aa5f711d3c0757d61e966b5fa3ef316b38b937",
+        "timestamp": 1533102750
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "71f858572a3c794c3f472e644f4d0eee5310b3ab",
+        "timestamp": 1534275401
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/config.rst",
+          "docs/witchhazel.py"
+        ],
+        "sha": "c64cc8e43ca41ef1e9eae71073f0b696538e3dc3",
+        "timestamp": 1534909756
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md"
+        ],
+        "sha": "abb8e95a60110b025e53aec7a80a31a23c411b96",
+        "timestamp": 1534975007
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md"
+        ],
+        "sha": "20b54afdd8fb34f33c80f844c0428d4956ff6c1f",
+        "timestamp": 1535006862
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/manifest.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/resources/noxfile_nested.py"
+        ],
+        "sha": "e691724dcbfdc444a3cdfe5533e268c17fa08958",
+        "timestamp": 1535006911
+      },
+      {
+        "files": [
+          "docs/config.rst"
+        ],
+        "sha": "2354b7829d9e65b9080e2215cdba53221b8d9766",
+        "timestamp": 1535042308
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "setup.py"
+        ],
+        "sha": "0255bd7ad6ab2bac074519de130e95eaa72e9176",
+        "timestamp": 1535042504
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "551c95685ba573051bc047a8a553c3ddd04a6172",
+        "timestamp": 1535045856
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "c0c5cf77a0fb89d52de507b0960d7716ff6c9c93",
+        "timestamp": 1535048802
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "9f1e1717ad49bf70a6be66d49ea3bfefd4663318",
+        "timestamp": 1535054464
+      },
+      {
+        "files": [
+          ".readthedocs.yml",
+          "noxfile.py"
+        ],
+        "sha": "ad99797b630ca7abeb6bdf115ad0b4d788c30d26",
+        "timestamp": 1535054782
+      },
+      {
+        "files": [
+          "nox/_parametrize.py",
+          "tests/resources/noxfile.py",
+          "tests/resources/noxfile_nested.py",
+          "tests/test__parametrize.py",
+          "tests/test_main.py",
+          "tests/test_sessions.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "a2903d433d233a2adcf04db3869d2fcbb0be15a5",
+        "timestamp": 1535056329
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md",
+          "docs/conf.py",
+          "docs/index.rst",
+          "docs/tutorial.rst",
+          "docs/usage.rst",
+          "nox/__main__.py",
+          "setup.py",
+          "tests/test_main.py"
+        ],
+        "sha": "8cd1e6c93e628757b247559d3fac69ee2d572834",
+        "timestamp": 1535075815
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "9541b831e0196c786cd9b7909f1f4de4f071c1d2",
+        "timestamp": 1535077102
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "nox/registry.py",
+          "tests/test_registry.py"
+        ],
+        "sha": "76dfb555c1260432709eb89ddbd80a90b07101f6",
+        "timestamp": 1535077507
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "setup.py",
+          "tests/test_main.py"
+        ],
+        "sha": "431755c3f512de7624b7740ffa3d26318c19de20",
+        "timestamp": 1535079047
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "de135e0af5d2e8f22766f2555f3f0fdde7f966cc",
+        "timestamp": 1535079157
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/tasks.py"
+        ],
+        "sha": "f8462b812444e1feb31b02a942d52a6e52a74d9d",
+        "timestamp": 1535079391
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/index.rst",
+          "noxfile.py"
+        ],
+        "sha": "247c8399bc1ac417941b33eb6f554c703447a12a",
+        "timestamp": 1535080996
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "fe5276969d3073faeeb4bb1e4803cd9e32960415",
+        "timestamp": 1535081540
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "32dbdd048ce89c87e3113df6300c2e597d1d15f4",
+        "timestamp": 1535259793
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "nox/sessions.py",
+          "nox/tasks.py",
+          "noxfile.py",
+          "tests/test_sessions.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "c12a3b7553437ed1e2c8cdfe0985d598b8360d8e",
+        "timestamp": 1535260855
+      },
+      {
+        "files": [
+          "nox/tox_to_nox.jinja2",
+          "tests/test_tox_to_nox.py"
+        ],
+        "sha": "24cea2bb5c5aa67e51c64023d0d29a8bbf46d976",
+        "timestamp": 1535261357
+      },
+      {
+        "files": [
+          "docs/_static/custom.css",
+          "docs/index.rst",
+          "docs/usage.rst",
+          "docs/witchhazel.py",
+          "noxfile.py",
+          "requirements-test.txt"
+        ],
+        "sha": "9ba0724e3261d6c6dfed56855ad1e8815f0146e3",
+        "timestamp": 1535263673
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "040c935f92510139e6bbaaeac5715344f8009e86",
+        "timestamp": 1535264643
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "cdfc7fac5d9fc319034a87fc733d1db61107ea03",
+        "timestamp": 1535310654
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "4c04958ca67e9445ec64da67becc759261b5f702",
+        "timestamp": 1535402365
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "fa2cb7f1e7a75313f6e163369ad66b95aadbac04",
+        "timestamp": 1535423995
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "4b78ebc8eb9408f00e65c36eebe89344ef69863d",
+        "timestamp": 1535478243
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "43c760a4b4bddfef0bc8910f4efc1fbbc02c7af5",
+        "timestamp": 1535480375
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "dd22150db830f83f412f1cc0f8b03c3d606e1c20",
+        "timestamp": 1535486012
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "90d09053f8dd9e20cad38af1b96cbc67c8461ef9",
+        "timestamp": 1535491315
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "e60fc218e1058792acbeaa0d49a02284e09969de",
+        "timestamp": 1536217034
+      },
+      {
+        "files": [
+          "docs/_static/alice-full.png",
+          "docs/_static/alice.png",
+          "docs/_static/custom.css",
+          "docs/_templates/fonts.html",
+          "docs/conf.py"
+        ],
+        "sha": "7cbf30f6fb292bc774c170b2d672a35f72e02adf",
+        "timestamp": 1536220820
+      },
+      {
+        "files": [
+          "docs/_static/custom.css"
+        ],
+        "sha": "026e8cb1c68591ff3a1b065b48a52de5f1ad14e3",
+        "timestamp": 1536220955
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "2d08d7d333bda60c332130653903c389c567cc46",
+        "timestamp": 1536221156
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "b0b60eb575a41b1a815aefb3bf1d36148e2f005c",
+        "timestamp": 1536336894
+      },
+      {
+        "files": [
+          "docs/_static/custom.css"
+        ],
+        "sha": "bed84a371cb0abf3a0d78496c8d535d22984060c",
+        "timestamp": 1536610281
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "858f5baf256e0e41d77e522e0938ecc340b2ed4c",
+        "timestamp": 1536610901
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/__main__.py",
+          "tests/test_main.py"
+        ],
+        "sha": "43f25a9d73727af402803d6ff94bed308e953eb5",
+        "timestamp": 1536955669
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "ccb9129e086ab8e144f2264de32ad9e8134be45a",
+        "timestamp": 1536956136
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "90ed5e02bde39d91eaf517a01b99d0b83fd2431e",
+        "timestamp": 1536984776
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md"
+        ],
+        "sha": "e40598f38a6f714d5c9bda6b4fb26c3ab1cbcf3d",
+        "timestamp": 1536984883
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "9688b16610bcb676f2ac80c113d2f822d0f7089c",
+        "timestamp": 1536985436
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/tutorial.rst",
+          "nox/sessions.py",
+          "nox/tasks.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "00534e000d28585c3af367b72629a4d0fef3e379",
+        "timestamp": 1537211395
+      },
+      {
+        "files": [
+          "nox/tox_to_nox.jinja2"
+        ],
+        "sha": "f918c8905c4ce32cce00c61091cd61aea9c0481a",
+        "timestamp": 1537561431
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/__main__.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_main.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "b6bbbc96a821b8e06008bef87d0033aed97a0f86",
+        "timestamp": 1537819343
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/__main__.py"
+        ],
+        "sha": "138bad3e4e4fc6e7287256234888ecdf13d72962",
+        "timestamp": 1539143741
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "tests/test_main.py"
+        ],
+        "sha": "ea84e06832caf2163613214cd8e1839ff6429295",
+        "timestamp": 1539144466
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/resources/noxfile_nested.py"
+        ],
+        "sha": "ee4e7f5b5db142627d2c03552519c62ef3ef9636",
+        "timestamp": 1539144862
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "6c70b36c40392521dfcd76682ed1cf6438313699",
+        "timestamp": 1539147145
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "928e9ebdae74cefb1ed132be2d7ab9f80c8b1173",
+        "timestamp": 1539378541
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/usage.rst",
+          "nox/__init__.py",
+          "nox/__main__.py",
+          "nox/_options.py",
+          "nox/tasks.py",
+          "tests/test_main.py"
+        ],
+        "sha": "24bb6ac92a3b5a117efab7e947f8a89725c36cd1",
+        "timestamp": 1539382787
+      },
+      {
+        "files": [
+          "nox/command.py"
+        ],
+        "sha": "1646e52cc19bb00bcf6931ca14dbbd0a159f978f",
+        "timestamp": 1539450255
+      },
+      {
+        "files": [
+          "nox/manifest.py",
+          "nox/sessions.py",
+          "nox/tasks.py",
+          "tests/test_sessions.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "ccf3865ade22cae83b4c68d4b4bc8fd2271a6c56",
+        "timestamp": 1539627719
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "fe831d7bfb4eb9ba6508495daf3248f14fbf5e18",
+        "timestamp": 1539627905
+      },
+      {
+        "files": [
+          "nox/manifest.py",
+          "tests/test_manifest.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "a04487f7e33a4dbb5c228e282e4f0fa1906837c2",
+        "timestamp": 1539798119
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "9df3c3cdbc8bc198f10c08416ec139d5f4cd6c4e",
+        "timestamp": 1539798502
+      },
+      {
+        "files": [
+          "nox/manifest.py",
+          "tests/test_manifest.py"
+        ],
+        "sha": "391ad00ae639c01aa4f785115686b019851931df",
+        "timestamp": 1539815371
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "4dea5bdc383bee34a5eb83ce1c4b6d9ba33c9730",
+        "timestamp": 1541440356
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "ee064f52d779718983d665f056f5e66e743535ce",
+        "timestamp": 1541448896
+      },
+      {
+        "files": [
+          "docs/config.rst"
+        ],
+        "sha": "c05f131c3b7255bde09cf597c93fc97d0f1ab5c2",
+        "timestamp": 1541448924
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/__main__.py",
+          "nox/_options.py",
+          "nox/sessions.py",
+          "tests/test_main.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "fa25e43a437f57924e871331ade99e8668bf00dd",
+        "timestamp": 1542134272
+      },
+      {
+        "files": [
+          "CODE_OF_CONDUCT.md"
+        ],
+        "sha": "da55f71c5663f654b5cde4158180781e0cd985ee",
+        "timestamp": 1542173877
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE/bug.md",
+          ".github/ISSUE_TEMPLATE/feature_request.md"
+        ],
+        "sha": "e18f93d55bf5a6f6c9e79d860c5815ce06bdd4c1",
+        "timestamp": 1542174199
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/tutorial.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "734d053a229c94f1fdf8b37127ec189a5be90890",
+        "timestamp": 1542826376
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/__main__.py"
+        ],
+        "sha": "b673717d4530adbd47a0377660e0ad8f77d43406",
+        "timestamp": 1546456268
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "d8029396470970f9dc3cfa906b4a417887989e74",
+        "timestamp": 1547491474
+      },
+      {
+        "files": [
+          "nox/tasks.py",
+          "tests/test_sessions.py",
+          "tests/test_tasks.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "04e9e7aa517f86e08eefd9aaa2779d76e38de158",
+        "timestamp": 1551150543
+      },
+      {
+        "files": [
+          "docs/tutorial.rst",
+          "docs/usage.rst",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "5b1e1e3547bfe8dea69e159daf69424f291644f6",
+        "timestamp": 1553231272
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "18b8e062b15c26eb0f360875e14d6931cd2c4d46",
+        "timestamp": 1555007317
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/CHANGELOG.md",
+          "docs/conf.py",
+          "docs/index.rst",
+          "requirements-test.txt"
+        ],
+        "sha": "861e3ccf55ba3edb47ecd84ce16537d17a3a322e",
+        "timestamp": 1555009171
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "69aab1c2d3c83c8c06166ad7950ae9516ca81f95",
+        "timestamp": 1555011337
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "30452fd7c13a357093ace96e9e0559aeebf9dfb7",
+        "timestamp": 1555134397
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "cede4472651c4902ea66d630bd52345885cd685c",
+        "timestamp": 1556128237
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "nox/registry.py",
+          "tests/resources/noxfile_spaces.py",
+          "tests/test_main.py",
+          "tests/test_registry.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "2903afcb46b9846ba4736c84db9489f0c5d3f800",
+        "timestamp": 1557779000
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/manifest.py",
+          "nox/tasks.py",
+          "tests/test_main.py",
+          "tests/test_manifest.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "d199eab6cd709ba15626fd61576afc172b7f68eb",
+        "timestamp": 1557804807
+      },
+      {
+        "files": [
+          "docs/tutorial.rst",
+          "nox/__init__.py",
+          "nox/_parametrize.py",
+          "noxfile.py",
+          "tests/test__parametrize.py"
+        ],
+        "sha": "722ff26b61c831a7f81ed9fcd31afc9276ed57ea",
+        "timestamp": 1557903857
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/tutorial.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "2f9f68a7924c0ae0bd37d2105b1a2aea26146138",
+        "timestamp": 1558036784
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "1d83d64ed884918679fbc554c63735b864785a2e",
+        "timestamp": 1558036858
+      },
+      {
+        "files": [
+          "docs/_static/custom.css"
+        ],
+        "sha": "a493eed592560d5c035a2bcd0951c30aa6272a7d",
+        "timestamp": 1558047917
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "noxfile.py",
+          "tests/conftest.py"
+        ],
+        "sha": "ccf8b5f98db129e30de251ced70494dd0bc4c775",
+        "timestamp": 1558050283
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "1709f163505d7a1af54b1078f8cc5527bf05eb74",
+        "timestamp": 1558063922
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml"
+        ],
+        "sha": "c14b0a6361a6bf37f6218ad79134b6f112a5c676",
+        "timestamp": 1559146309
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml"
+        ],
+        "sha": "c72826156a89328c558f415fe8b7b65d64d77e67",
+        "timestamp": 1559147195
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md",
+          "docs/CONTRIBUTING.md",
+          "docs/contrib.rst",
+          "docs/index.rst",
+          "docs/tutorial.rst"
+        ],
+        "sha": "b639b4ede6ef948170c3d9d3dd7e1234709165af",
+        "timestamp": 1559149961
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/usage.rst",
+          "nox/_options.py",
+          "nox/sessions.py",
+          "noxfile.py",
+          "tests/test_main.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "d49c14848df485c1b63ab552d0a537c3915abd15",
+        "timestamp": 1559160172
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "bf4977d74d07e8630b2ee142bc59dcb4f2e319b9",
+        "timestamp": 1559235585
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "noxfile.py"
+        ],
+        "sha": "2dbaaaf5183b5f8f05ee5e8970ad2c9d8f09ea71",
+        "timestamp": 1559322383
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "1b75aa078d25aedd02366471db5f5e7abbd7bc5d",
+        "timestamp": 1559415814
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "5e0f03e418efba993c412218f38ac459a10c5f69",
+        "timestamp": 1559416785
+      },
+      {
+        "files": [
+          "nox/_parametrize.py"
+        ],
+        "sha": "8ba7331f59a3bf2d88d299f811e56dd8375bb1ac",
+        "timestamp": 1559423174
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "723544f7898f14b2b3c4c24c83c92beaece2223a",
+        "timestamp": 1559493705
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "tests/test_command.py"
+        ],
+        "sha": "7125473728d1a7b990d011a4dc9afda7598cfaf5",
+        "timestamp": 1559503528
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "0bac34fe6af06518cab8f1065f81a959c6702d9d",
+        "timestamp": 1560789813
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/popen.py",
+          "tests/test_command.py"
+        ],
+        "sha": "096886af3d822d5c0dcb85087480d0a9233274b8",
+        "timestamp": 1560789855
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "nox/manifest.py"
+        ],
+        "sha": "1db1482ea2e77241644a160e48a8d04ce4184e14",
+        "timestamp": 1562547589
+      },
+      {
+        "files": [
+          "nox/tasks.py"
+        ],
+        "sha": "2fbced3f0766e8b29f455645c2c4083f30aa582c",
+        "timestamp": 1562608050
+      },
+      {
+        "files": [
+          "nox/sessions.py"
+        ],
+        "sha": "04f768c16751ea33ad8a8a27570d0fea2b25925d",
+        "timestamp": 1563979333
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "nox/registry.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "noxfile.py",
+          "requirements-conda-test.txt",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "bd73af9de511e040719b78149d2cbc82746e7f2a",
+        "timestamp": 1564628930
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "f3296b9ad0179f2d3e3aad9e1cbf99bc5b91ef12",
+        "timestamp": 1564628999
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "39b0f9551684bfc4ee71309c4779037aaa961af0",
+        "timestamp": 1564629397
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/logger.py",
+          "nox/manifest.py",
+          "nox/registry.py",
+          "nox/sessions.py",
+          "nox/tasks.py",
+          "nox/tox_to_nox.py",
+          "nox/virtualenv.py",
+          "noxfile.py"
+        ],
+        "sha": "febd6fcd6ca6da1ae90d8ddbaacc042158f57d0a",
+        "timestamp": 1565456270
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "69fb5361ce2d780246fe18a7d41650150b92b55b",
+        "timestamp": 1565575060
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "9477a9135183c347b7ffc957ddf6eb5e1b18f978",
+        "timestamp": 1565575253
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "setup.py",
+          "tests/test__option_set.py"
+        ],
+        "sha": "9f2f32ba0efa5e7830694bc18bb89cf732de0c50",
+        "timestamp": 1565575421
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "f9accfc302ed26e90d7240944a8388a4cc21472e",
+        "timestamp": 1565978992
+      },
+      {
+        "files": [
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "c58e8abb39756cdadd22835e69354955d4872a33",
+        "timestamp": 1566071766
+      },
+      {
+        "files": [
+          ".flake8",
+          "nox/_options.py",
+          "tests/test_main.py"
+        ],
+        "sha": "e36135004c01877fa1f5ee4ae8c373d3fb884d14",
+        "timestamp": 1566071851
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/__main__.py",
+          "nox/_options.py",
+          "nox/command.py",
+          "nox/logger.py",
+          "tests/test_command.py",
+          "tests/test_logger.py"
+        ],
+        "sha": "aeec1fa50315cc469d2b0e0eadaf1acd2b7efdd0",
+        "timestamp": 1566330522
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "7b94cc6c7b261b876bf40395dadc5d1c31a89ab3",
+        "timestamp": 1566333501
+      },
+      {
+        "files": [
+          "noxfile.py",
+          "requirements-conda-test.txt"
+        ],
+        "sha": "be39b3d8a194b35b171f00d03bf4f517ae80e50f",
+        "timestamp": 1566407655
+      },
+      {
+        "files": [
+          "docs/config.rst"
+        ],
+        "sha": "c76ffa4553af092fa75442de9c5f554f487ed043",
+        "timestamp": 1566915804
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "d4efd4cb2b0a85da948b37780b112b4fb0855cb5",
+        "timestamp": 1567551606
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "87f486ae81a396f391e255c03afe9ea51979c42f",
+        "timestamp": 1567647712
+      },
+      {
+        "files": [
+          "nox/tasks.py"
+        ],
+        "sha": "ee836d28653710468e0dd04f51f959ed6004ab9e",
+        "timestamp": 1567706527
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "tests/test__option_set.py"
+        ],
+        "sha": "e9baf4faad8661f3567ee697666203d42a1108c9",
+        "timestamp": 1567968342
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/usage.rst",
+          "nox/sessions.py"
+        ],
+        "sha": "bd605aeceb19020d37bdf68f0d2097468753f835",
+        "timestamp": 1570509088
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "ac0992332a266f85152db8a5252b1fdf9818eb75",
+        "timestamp": 1570555843
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "54d481e08c045e4df526a65f3133fcb4856c7266",
+        "timestamp": 1571151641
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "98a69f47316dee0808c58d183da232a38d43c838",
+        "timestamp": 1571159530
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "63498eafe1d58506578dea2d5000c45bbb198aa1",
+        "timestamp": 1572015969
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "aa9290713a4b664ea4ef4da0554afb09a626d7e1",
+        "timestamp": 1573364166
+      },
+      {
+        "files": [
+          "nox/_options.py",
+          "tests/test_main.py"
+        ],
+        "sha": "8e01b85cff199bdb5d60c7bd827eaf0bca2c018f",
+        "timestamp": 1576090702
+      },
+      {
+        "files": [
+          "docs/config.rst"
+        ],
+        "sha": "cb15633ffc4de07e88ecd99e21a9e6add4ebe4d0",
+        "timestamp": 1577460532
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "CONTRIBUTING.md",
+          "appveyor.yml",
+          "docs/config.rst",
+          "noxfile.py",
+          "setup.py"
+        ],
+        "sha": "8151acdf0a8206559a0c42e50b0b199c5592da8e",
+        "timestamp": 1577938021
+      },
+      {
+        "files": [
+          "nox/tasks.py"
+        ],
+        "sha": "16fd5494a0c33b82ea409bff0df769625a80f420",
+        "timestamp": 1579188059
+      },
+      {
+        "files": [
+          "nox/py.typed",
+          "setup.py"
+        ],
+        "sha": "e0ffd4f8245f47b615f008f4348ae3d738f3d1a3",
+        "timestamp": 1579487798
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "c3c73a478e4df32fbe0b99cc071391daa6c6f9f8",
+        "timestamp": 1580513283
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "nox/__main__.py",
+          "setup.py",
+          "tests/test_main.py"
+        ],
+        "sha": "287ee4c650e6b1f11b7ece42b0ca1247c697f346",
+        "timestamp": 1580513376
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "035c990df594afb7e3a5e99fb62b1154db050a0b",
+        "timestamp": 1580605068
+      },
+      {
+        "files": [
+          "nox/registry.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py"
+        ],
+        "sha": "a638d2d839f6dfbc65a6199a7199fbd7246e7048",
+        "timestamp": 1580794423
+      },
+      {
+        "files": [
+          "docs/config.rst"
+        ],
+        "sha": "06180bdff3bbbc2e7ff9d728bb48106330814d6a",
+        "timestamp": 1581291445
+      },
+      {
+        "files": [
+          "nox/_decorators.py",
+          "nox/_parametrize.py",
+          "nox/_typing.py",
+          "nox/manifest.py",
+          "nox/registry.py",
+          "nox/sessions.py",
+          "noxfile.py",
+          "tests/test__parametrize.py",
+          "tests/test_manifest.py"
+        ],
+        "sha": "8869bf2a20d51343e76459ca50ae2dc36d2b46e2",
+        "timestamp": 1583460444
+      },
+      {
+        "files": [
+          ".flake8"
+        ],
+        "sha": "4d9e460cec8cca6583517d3b34bc1265ada953d2",
+        "timestamp": 1583509938
+      },
+      {
+        "files": [
+          "nox/_options.py",
+          "nox/manifest.py",
+          "nox/sessions.py",
+          "nox/tasks.py",
+          "tests/test_manifest.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "98148d788e1313c1c58bcbdcbf4472a2860922bc",
+        "timestamp": 1584386672
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "f00191835f14513a9223720ee6fd3d1475485ba9",
+        "timestamp": 1584568976
+      },
+      {
+        "files": [
+          ".gitignore",
+          "docs/config.rst",
+          "docs/usage.rst",
+          "nox/_options.py",
+          "nox/manifest.py",
+          "nox/tasks.py",
+          "tests/test_manifest.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "a6442a612c4a07469ab40115d78d13eec2936d53",
+        "timestamp": 1585426279
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "tests/test__option_set.py"
+        ],
+        "sha": "b3c600c054761143703d67c8ba0afc791f13f267",
+        "timestamp": 1585522596
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "noxfile.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "9110f3e5a5cd3e5e0e51d972036f43cbd901672a",
+        "timestamp": 1589609378
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "3e4eaff1fa7e9c9db1a295aeaa3189f9b257377f",
+        "timestamp": 1590013767
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "7f00d107905a20c554de0078ae15dcde5a79b2ac",
+        "timestamp": 1590013826
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "9d2788d80fba39bbb9ce59e5474abb2a733d6649",
+        "timestamp": 1590014137
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "a3cb034accf1ce8ebe10d92a6bf81f3f251478a9",
+        "timestamp": 1590378892
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5a4f54ae71c2ceb6c370866b5443ceb11e181bc0",
+        "timestamp": 1590432177
+      },
+      {
+        "files": [
+          "nox/_decorators.py",
+          "nox/manifest.py",
+          "nox/sessions.py",
+          "nox/tasks.py",
+          "tests/test_manifest.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "323ab59a7ac75d8cfb4e92048118245c91767e67",
+        "timestamp": 1591636423
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/tutorial.rst",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "e3d4696638fc456004360c3259f0ccc7b82a73b0",
+        "timestamp": 1591639805
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/_options.py",
+          "nox/logger.py",
+          "tests/test_logger.py"
+        ],
+        "sha": "8dcefbf8f59293bc1925dd13376dd6d3aa66e53a",
+        "timestamp": 1592518979
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_command.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "ae3b37d30249728c435cd772d7cfd30208c16184",
+        "timestamp": 1592780322
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "3098a7aea68c397de6b59ba09bc1f9bb2d4b1ff8",
+        "timestamp": 1592780487
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "00775b470129787b14c45f2853441f9f1cad006d",
+        "timestamp": 1593032246
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "7107cd5ea0e3086de4388561889c7cc19f41e940",
+        "timestamp": 1598148596
+      },
+      {
+        "files": [
+          "nox/__init__.py"
+        ],
+        "sha": "b704678fca92bd6ed11a157740618fe6dc20c55b",
+        "timestamp": 1599190462
+      },
+      {
+        "files": [
+          ".coveragerc",
+          ".travis.yml",
+          "nox/registry.py"
+        ],
+        "sha": "4deea887faf00634bd87d6e594c8eca4d8612991",
+        "timestamp": 1599190560
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "9caaba5acbd29e4b28cc02905314c5cd66f5e4f4",
+        "timestamp": 1600797266
+      },
+      {
+        "files": [
+          "nox/_option_set.py"
+        ],
+        "sha": "e78d8d9a401a0aa0f0c291ab11c04d7b0754e8f2",
+        "timestamp": 1605284759
+      },
+      {
+        "files": [
+          "nox/_options.py",
+          "tests/resources/noxfile_options_pythons.py",
+          "tests/test_main.py"
+        ],
+        "sha": "6bdf51ca64e33b9de0d1b114d7b892d86f87096d",
+        "timestamp": 1605324568
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "CONTRIBUTING.md",
+          "appveyor.yml",
+          "docs/config.rst",
+          "docs/tutorial.rst",
+          "noxfile.py",
+          "setup.py"
+        ],
+        "sha": "e5e9869c38d75eee01246b8e380d9867cf706e94",
+        "timestamp": 1605988768
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "495b23ff690049e8f3d25f3d29c06458da2ee274",
+        "timestamp": 1605988788
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/virtualenv.py",
+          "tests/test_logger.py"
+        ],
+        "sha": "6dc712a01af49e8b1bface8c9ad7979b0511d419",
+        "timestamp": 1604911485
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "bbe2cd8405f075d21cd3f0a11effb4562339f090",
+        "timestamp": 1606754815
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "4e1842246d8b005e0dadf4b0f3e9d1123cefa651",
+        "timestamp": 1606830317
+      },
+      {
+        "files": [
+          "nox/registry.py"
+        ],
+        "sha": "a188be7834ef153105eab72b5cb18a2b465df57e",
+        "timestamp": 1608343120
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/config.rst",
+          "docs/usage.rst",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "cdb391fa24a766138e596ee6b819ae49add5ec4f",
+        "timestamp": 1609199624
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/_options.py",
+          "nox/manifest.py",
+          "tests/test_manifest.py"
+        ],
+        "sha": "e2db5ed44ce7c53970c9b097a7c3143219c74fd9",
+        "timestamp": 1609283358
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "4d42022764386eaf96639bd08030483604de5696",
+        "timestamp": 1609404008
+      },
+      {
+        "files": [
+          "nox/logger.py"
+        ],
+        "sha": "6f239140895e7e9fcea96f68f853c5a304d92d60",
+        "timestamp": 1609433864
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "319c796f6de7d5706d75da107ec20568ad5baf51",
+        "timestamp": 1609463496
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "156765c343942233bf6cbfa59391ec63d6fedc29",
+        "timestamp": 1611335925
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "10256820bd88847b275e435bdf9ee6fd3eb637b1",
+        "timestamp": 1612746338
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "d6a0ba5f8a8d34198ecd381faf9093ab77c3cb5e",
+        "timestamp": 1612746390
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "a70df3c8775b9f55fd9cadc31b36a9f3c5ab509a",
+        "timestamp": 1612979777
+      },
+      {
+        "files": [
+          "nox/popen.py",
+          "tests/test_command.py"
+        ],
+        "sha": "211702da6112cf390b50b807ff1ebdaf844f73e2",
+        "timestamp": 1613077741
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "db6378377a58dd678518b1fc1c50fb3c49dbb98a",
+        "timestamp": 1613269630
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".travis.yml"
+        ],
+        "sha": "d4cf5475c5a757b7de6919c8ec480c3238557ba0",
+        "timestamp": 1613844464
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "nox/__init__.py",
+          "nox/__main__.py",
+          "nox/_version.py",
+          "nox/tasks.py",
+          "setup.py",
+          "tests/test__version.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "142092f835ab3dd2dbc55b3dba576e616c4b28f8",
+        "timestamp": 1613844917
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "appveyor.yml",
+          "noxfile.py"
+        ],
+        "sha": "a078d3cc82c09a3af068d7c9d230364ba5adefbb",
+        "timestamp": 1613846290
+      },
+      {
+        "files": [
+          "nox/popen.py",
+          "tests/test_command.py"
+        ],
+        "sha": "7ad30a0eedc6b6e477be34010153267bd5ff13f4",
+        "timestamp": 1614884665
+      },
+      {
+        "files": [
+          "noxfile.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "082c26636393fc293b1551ebeb4f0209d4973f17",
+        "timestamp": 1615224844
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md"
+        ],
+        "sha": "1228981158010130606d9fbf0edd2384372780b2",
+        "timestamp": 1615451081
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "55258326dd43d8d98b715d8bfb06b07e5b440040",
+        "timestamp": 1615518064
+      },
+      {
+        "files": [
+          "nox/_parametrize.py",
+          "tests/test__parametrize.py"
+        ],
+        "sha": "de3d9c5bfee5cb13ad826b79c2834bb7a49284c4",
+        "timestamp": 1615518123
+      },
+      {
+        "files": [
+          "nox/manifest.py",
+          "nox/sessions.py",
+          "tests/test_manifest.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "324044192052e7c87846b4680f30becd8bad34c0",
+        "timestamp": 1615518252
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "a67c9a291a87f6f03de383b29bb38990b832f15b",
+        "timestamp": 1619231444
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "7f3b8da5f19b2d1b179c68330f81b9bbec3827f3",
+        "timestamp": 1619231478
+      },
+      {
+        "files": [
+          "nox/manifest.py",
+          "tests/test_manifest.py"
+        ],
+        "sha": "a9bd87298c47bf723fc327d7ac9bba9402013ea3",
+        "timestamp": 1619231569
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "nox/_decorators.py",
+          "tests/test__parametrize.py"
+        ],
+        "sha": "9cd5b7801e0c198855aa02eb6ce6f0ae55d4dc9d",
+        "timestamp": 1619231637
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "99c5910786bba13a7f74f7285b81f82cd5ab99f6",
+        "timestamp": 1621792263
+      },
+      {
+        "files": [
+          "noxfile.py",
+          "requirements-test.txt",
+          "tests/test_main.py"
+        ],
+        "sha": "a6539a73ea171b7dc5b842b029c042f6dbf59daa",
+        "timestamp": 1621796189
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "e012b603a3d03a0ef74adc1c4430da79604072d7",
+        "timestamp": 1621875830
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "1d0ff6f783c93e0c02fe4630e14e02bf90552742",
+        "timestamp": 1622074196
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/_options.py",
+          "tests/test_main.py"
+        ],
+        "sha": "e9945efa654bf5a9d6af10016fded9b5b3f76fe9",
+        "timestamp": 1622127319
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/_options.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_main.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "56c7d56f656c032a98ad17a0924893c338a842e6",
+        "timestamp": 1622542558
+      },
+      {
+        "files": [
+          "nox/manifest.py",
+          "tests/resources/noxfile_normalization.py",
+          "tests/test_main.py"
+        ],
+        "sha": "4ddd05565b94b7e13cad6714da911093c42189cb",
+        "timestamp": 1622738034
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test__option_set.py",
+          "tests/test_manifest.py",
+          "tests/test_sessions.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "bcaa5ffa42173037030f67e2ae58d10fbe659945",
+        "timestamp": 1622983915
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "da48d3c7a034dffdd21e0141ca499a8eb329f759",
+        "timestamp": 1622985258
+      },
+      {
+        "files": [
+          "tests/resources/noxfile_normalization.py"
+        ],
+        "sha": "24fc2639ccd0e4a7284f70a08a2b46ac053e16d1",
+        "timestamp": 1623328738
+      },
+      {
+        "files": [
+          "nox/_options.py"
+        ],
+        "sha": "0fb841d05cf3f9ffc99a6fa8993d641e4be548a4",
+        "timestamp": 1623392476
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "2791b70fabe1110117c74f630d1937cfa9e329ff",
+        "timestamp": 1623529769
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "950015e1ec9013bf7199dc2c3e3563d7218a868b",
+        "timestamp": 1623532243
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "787dfaa87eb47c590e407acb0b5a63922725c291",
+        "timestamp": 1623560658
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "d977535a791e199fcac9e0b807b412b1ea12ebfa",
+        "timestamp": 1624210166
+      },
+      {
+        "files": [
+          ".flake8",
+          "setup.py"
+        ],
+        "sha": "0ba939a13f9c9c3d019db8662ed0f368199b382d",
+        "timestamp": 1624211897
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "6cb03768fe77a06776e0ce535394e7efc6fd1f3a",
+        "timestamp": 1625254205
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "noxfile.py",
+          "setup.py"
+        ],
+        "sha": "5ac156fc44a286d3c147271ae0e157c5bfbe0767",
+        "timestamp": 1625415022
+      },
+      {
+        "files": [
+          "nox/manifest.py",
+          "nox/tasks.py",
+          "noxfile.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "0d4764e0780275d5ee842a026002b3a5b0930c76",
+        "timestamp": 1625415946
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "98e8c24cca6626b56937ee2614f0435c7f62ffee",
+        "timestamp": 1625732362
+      },
+      {
+        "files": [
+          "nox/tasks.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "8ee3ebed052ed7eeef0151a424929039dd479b94",
+        "timestamp": 1625910005
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "noxfile.py"
+        ],
+        "sha": "d537c5559a29a97216ca934bcfe95f94cb1055db",
+        "timestamp": 1631218617
+      },
+      {
+        "files": [
+          "nox/sessions.py"
+        ],
+        "sha": "5f9cffae0649ad62ba791fb036a2cdf3315e0cf7",
+        "timestamp": 1631219148
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "2821216d6a282e760690a4dce3b2dddbbe4df40f",
+        "timestamp": 1631219193
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "nox/sessions.py",
+          "nox/tasks.py",
+          "tests/test__option_set.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "74f87936bd755bbaf698d86893325ebd77384ddb",
+        "timestamp": 1631394257
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "9ebae0ac400a3542a8e4e5ac1a6746e9f08419a8",
+        "timestamp": 1631713844
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "noxfile.py",
+          "tests/test__option_set.py"
+        ],
+        "sha": "f584aed846b19fbf4cdad075c6f4f552839ae5e8",
+        "timestamp": 1631778955
+      },
+      {
+        "files": [
+          "tests/resources/noxfile_multiple_sessions.py",
+          "tests/test__option_set.py"
+        ],
+        "sha": "e7d4f5a299a356ccf8988029796fe296db57536d",
+        "timestamp": 1631910505
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "7f63350ca4c896a77fffeeca40690fb869a8283d",
+        "timestamp": 1632249291
+      },
+      {
+        "files": [
+          ".coveragerc",
+          ".flake8",
+          ".isort.cfg",
+          "noxfile.py",
+          "pyproject.toml"
+        ],
+        "sha": "e679b77a98fe4b3820a159630e3bccd33b934e4d",
+        "timestamp": 1632582228
+      },
+      {
+        "files": [
+          ".flake8",
+          "CHANGELOG.md"
+        ],
+        "sha": "73d14b11e6f45d3269544811ddcb0000875ce312",
+        "timestamp": 1633093363
+      },
+      {
+        "files": [
+          "nox/command.py"
+        ],
+        "sha": "d95c57cc7891b794b02c6fcb6317e8a71323c223",
+        "timestamp": 1633198359
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "a2bd140ed9702428d3fc93be9857879388f21ad0",
+        "timestamp": 1633410553
+      },
+      {
+        "files": [
+          ".flake8",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "f1b01e2e50141ea3f172d6e76439484715ef0200",
+        "timestamp": 1633521666
+      },
+      {
+        "files": [
+          "nox/tasks.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "536e9d1c1bf0788f8f21ad61bd90c6132dfde1f1",
+        "timestamp": 1633522438
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "39b8dd436a8b129ee7a74dab85b715273325fbd0",
+        "timestamp": 1633579274
+      },
+      {
+        "files": [
+          "nox/tasks.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "e9f7f03934843970ee2583827a2237ea5bce40aa",
+        "timestamp": 1633729134
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "noxfile.py"
+        ],
+        "sha": "cbd9d2d8ed792ba8ada911e30fb00b300e7db39d",
+        "timestamp": 1634149259
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "094c35f64ba1dc66bf4161e8b1ff3f32d9b0dac8",
+        "timestamp": 1634460075
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "7443a93582a47a7dc680d90d6afeb686368e3985",
+        "timestamp": 1635188118
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "6155ee7702c766ea24350825540f8194403ce993",
+        "timestamp": 1637296861
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "noxfile.py"
+        ],
+        "sha": "e7ae509ac1b46820953cb8a5793c95d47070928c",
+        "timestamp": 1637340614
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "98ecc960d72e17c8dae24739e72c3a4451c18897",
+        "timestamp": 1637984500
+      },
+      {
+        "files": [
+          "nox/_decorators.py",
+          "nox/_typing.py"
+        ],
+        "sha": "a44fb1a18050ab6002ac4f8a77e78d02771788a4",
+        "timestamp": 1638221032
+      },
+      {
+        "files": [
+          "nox/manifest.py"
+        ],
+        "sha": "19773403839d48ff85fefe262926455125c74b17",
+        "timestamp": 1638248044
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "0cb002175798638d3ddde311d72729087e98b517",
+        "timestamp": 1638388819
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "441b2bc666e209757bdccafd647083493e14c1cc",
+        "timestamp": 1640190167
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "f4037b24908a8c144d7afe65eaf08f6d1e061b1f",
+        "timestamp": 1640194511
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/tutorial.rst",
+          "docs/usage.rst",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "2a197481ac1e60f8230e3154335abf7e54271c2d",
+        "timestamp": 1640195055
+      },
+      {
+        "files": [
+          "docs/cookbook.rst",
+          "docs/index.rst"
+        ],
+        "sha": "8c017f5d1a44f3edceef6bdb95fc6b039cd0e09b",
+        "timestamp": 1640196697
+      },
+      {
+        "files": [
+          "noxfile.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "60babe81410c96c32c53b8559517b3464d0f2f04",
+        "timestamp": 1640210314
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "8b1513f327d296e2d5362be8fa028318b3d68efd",
+        "timestamp": 1640213504
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/_options.py"
+        ],
+        "sha": "c4376af183686d679304dc7e4f19f4c88ccad34c",
+        "timestamp": 1640254283
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "7eb37198d226fdbfe116b42813a3731b78e5bcb7",
+        "timestamp": 1640289998
+      },
+      {
+        "files": [
+          ".gitignore",
+          "nox/_decorators.py",
+          "nox/_parametrize.py",
+          "nox/tasks.py",
+          "noxfile.py"
+        ],
+        "sha": "c99652230c48cd5a510fbd8bd9ff8089bc3bdb49",
+        "timestamp": 1640299113
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "7806b8e2474c3fe59254b22127635b9ae66eeb54",
+        "timestamp": 1640346489
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "noxfile.py"
+        ],
+        "sha": "26f2a0db281147f74a7f4ffa9e16ba5f8640ab2f",
+        "timestamp": 1640353904
+      },
+      {
+        "files": [
+          "requirements-conda-test.txt"
+        ],
+        "sha": "d49ed746b27c72b75bea12840a9f5aa6e391d30e",
+        "timestamp": 1640468674
+      },
+      {
+        "files": [
+          "nox/sessions.py"
+        ],
+        "sha": "b0750af5875c4aceb52ae38970c21514b4d30d11",
+        "timestamp": 1640542415
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "8dbb6e7b5b21c2f5f57ac4c73c24bfd976c45090",
+        "timestamp": 1640556099
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "583a333f3cfb5a33d5acaf457713c450304c1a38",
+        "timestamp": 1640613418
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "8bb3286fd4629b46db96d7ee35e32e0e607aafc7",
+        "timestamp": 1640619860
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "c94b62e06dece2953d1253ba3182963f03bcf65e",
+        "timestamp": 1640621904
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/tutorial.rst",
+          "nox/__main__.py",
+          "nox/tasks.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "f5be2cca35ea24ded1f47f8d1e0038139d87fd7f",
+        "timestamp": 1640623669
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "tests/test_main.py"
+        ],
+        "sha": "fcaafa1eba3ff85c6f98e6ec4983e06f0c8236f2",
+        "timestamp": 1640625861
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "f55e9c53581d78d9373eb2868837036fd598a7a1",
+        "timestamp": 1640692246
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "bbc47b4e22989b81dbb448524b169ad13f7fc15f",
+        "timestamp": 1640699947
+      },
+      {
+        "files": [
+          "tests/test_main.py"
+        ],
+        "sha": "3d34bbddaa765ea3fba755ed4ff86d00a1b55bf5",
+        "timestamp": 1640705226
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "noxfile.py"
+        ],
+        "sha": "e42f542397afb703464b77634d77519ccf437b65",
+        "timestamp": 1640708946
+      },
+      {
+        "files": [
+          "nox/_options.py",
+          "nox/sessions.py"
+        ],
+        "sha": "8b12711d43a4c7b231c18c9b124501e4d23d5b53",
+        "timestamp": 1640718077
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "MANIFEST.in",
+          "noxfile.py",
+          "pyproject.toml"
+        ],
+        "sha": "8261d2ad0a8e3d720c093c30ac56488f53605f85",
+        "timestamp": 1640798125
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "4eb9de50a13244bf3363d3523c1a97ddb553eaa9",
+        "timestamp": 1641549268
+      },
+      {
+        "files": [
+          ".flake8",
+          "CHANGELOG.md"
+        ],
+        "sha": "386659e446aacdd681b5e1f25db6a2c03180a287",
+        "timestamp": 1641597803
+      },
+      {
+        "files": [
+          "requirements-test.txt"
+        ],
+        "sha": "04ad575991746fde264f1bfda5f9cea64cb97bf6",
+        "timestamp": 1641936913
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "requirements-test.txt"
+        ],
+        "sha": "c459e48f5e11737a64a6da66d6d3d9c171ffa994",
+        "timestamp": 1642001905
+      },
+      {
+        "files": [
+          ".flake8",
+          "requirements-conda-test.txt"
+        ],
+        "sha": "17a6a15c0ea1cc056140f5d37a467477ce05f5a5",
+        "timestamp": 1642697353
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/_options.py",
+          "nox/command.py",
+          "nox/popen.py",
+          "nox/sessions.py",
+          "nox/tasks.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "ee7a7eb195774d68f0b27e0ca42dfc38bef9aa79",
+        "timestamp": 1644334410
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "538aa6cae0d838817971064c939acee61eabd555",
+        "timestamp": 1644775180
+      },
+      {
+        "files": [
+          "nox/tasks.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "466c576420323eaf42892b4eb071e63524dd86ab",
+        "timestamp": 1644953606
+      },
+      {
+        "files": [
+          "nox/sessions.py"
+        ],
+        "sha": "4c2fc29da0ffe1225dd5d98c2aa1000c0f3bace2",
+        "timestamp": 1644955361
+      },
+      {
+        "files": [
+          "nox/tox_to_nox.jinja2",
+          "nox/tox_to_nox.py",
+          "tests/test_tox_to_nox.py"
+        ],
+        "sha": "5cab4076dd2909a1b7e05a3b3972473d869582b6",
+        "timestamp": 1644996280
+      },
+      {
+        "files": [
+          "nox/tox_to_nox.jinja2",
+          "tests/test_tox_to_nox.py"
+        ],
+        "sha": "d15dde9d2822f13795a7a9dc0ef2f1c8cf957dd8",
+        "timestamp": 1645083492
+      },
+      {
+        "files": [
+          "nox/popen.py",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "bcee2dc103cfb19e29272d2e27d45a9caaf92720",
+        "timestamp": 1645520664
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "2093e74e579e4e9ac1171985667a042c0876a57d",
+        "timestamp": 1646147475
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "requirements-dev.txt"
+        ],
+        "sha": "2a90c5bac90bd68aefabe7d9be64101a75187ead",
+        "timestamp": 1646219308
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "cfba08b906042dc4f95af3c43732483d3f46798f",
+        "timestamp": 1647191031
+      },
+      {
+        "files": [
+          ".flake8",
+          "CONTRIBUTING.md",
+          "README.rst",
+          "docs/conf.py",
+          "docs/index.rst"
+        ],
+        "sha": "bf1c226de1c14c576537cf81f629571e5015784f",
+        "timestamp": 1647973759
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "0fd600f3efd342e0eb0d80504d9ff6837fe763c8",
+        "timestamp": 1648841784
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "05b20966b34ffcb4188f103c95a025909cca2040",
+        "timestamp": 1648849154
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "d947833b58b15a869d6a0f23761fb1e9ffb076db",
+        "timestamp": 1649057306
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "4399ec52b5bd0d2363b0173c92a8e831cc968bb1",
+        "timestamp": 1649355624
+      },
+      {
+        "files": [
+          "noxfile.py",
+          "pyproject.toml",
+          "requirements-test.txt",
+          "tests/test_logger.py"
+        ],
+        "sha": "741585115a491e6e78006f11674b32cf4da79772",
+        "timestamp": 1650472408
+      },
+      {
+        "files": [
+          "nox/sessions.py"
+        ],
+        "sha": "d9e2580a6a993dbc603c76b8234e1806c5dba1a5",
+        "timestamp": 1650567252
+      },
+      {
+        "files": [
+          ".flake8",
+          ".pre-commit-config.yaml",
+          "pyproject.toml"
+        ],
+        "sha": "f3adccbb8ab377638786b11cb754a04a9e613132",
+        "timestamp": 1650569092
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE/bug.md",
+          ".github/ISSUE_TEMPLATE/bug.yml",
+          ".github/ISSUE_TEMPLATE/feature_request.md",
+          ".github/ISSUE_TEMPLATE/feature_request.yml"
+        ],
+        "sha": "ad773c8edf27afdf07586021b43e84827487e364",
+        "timestamp": 1651079947
+      },
+      {
+        "files": [
+          "action.yml",
+          "docs/tutorial.rst",
+          "pyproject.toml"
+        ],
+        "sha": "ca5f6e7b6ee8ff334fa1628bb208ffc4b8e4036d",
+        "timestamp": 1651130263
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE/config.yml"
+        ],
+        "sha": "a2fd49782408a7a73cc07de229f67c6b80973765",
+        "timestamp": 1651130988
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE/config.yml"
+        ],
+        "sha": "2ad60058159e78e8a559e4f3a2b50451ea7c295a",
+        "timestamp": 1651336709
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7d2cd59abf01fb36426cc71f4e2a6de6e4968b1e",
+        "timestamp": 1651489594
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d8bb5decf41540e2f69f72601df87ab4558ec105",
+        "timestamp": 1651490580
+      },
+      {
+        "files": [
+          ".flake8",
+          "CONTRIBUTING.md",
+          "README.md",
+          "README.rst"
+        ],
+        "sha": "46152cdffe0dd7d4e8175eaef20b7e678002a3eb",
+        "timestamp": 1651491586
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "6d6af569c79fd69d4dd444d80fee2a276d4981e9",
+        "timestamp": 1651499663
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "noxfile.py",
+          "pyproject.toml"
+        ],
+        "sha": "c713ee19b9231e6e9a194e63aca51c1d9ee7de87",
+        "timestamp": 1651515363
+      },
+      {
+        "files": [
+          ".flake8",
+          ".pre-commit-config.yaml",
+          "pyproject.toml"
+        ],
+        "sha": "52624ab01914552a00ad697a694f971fea54e0ba",
+        "timestamp": 1651607589
+      },
+      {
+        "files": [
+          ".github/dependabot.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "1348a414dde83063e8e82d3a559738fea1721dad",
+        "timestamp": 1651646659
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "b73b1900b3263dc87ffb15437203533c82b19a23",
+        "timestamp": 1651687702
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "pyproject.toml"
+        ],
+        "sha": "e0b7c482603201dfba007189b635bcef871e7ed3",
+        "timestamp": 1651908606
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "f12fb342cc72bbe6df00b14077b42f1e1d55d69a",
+        "timestamp": 1651909813
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          "action.yml",
+          "noxfile.py"
+        ],
+        "sha": "6430a3481b1d811afaabf40b6e2dc60c749b33d7",
+        "timestamp": 1652195246
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "891e669dbd160927712f0ec25ddc692f059d2eaa",
+        "timestamp": 1652195330
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "8965a4a33ee9589f202cefccfebf1060569f31cf",
+        "timestamp": 1655232778
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "action.yml"
+        ],
+        "sha": "6d5d9e089d14f37741ded86c8a164546bd9c4559",
+        "timestamp": 1655236008
+      },
+      {
+        "files": [
+          ".github/action_helper.py",
+          ".github/workflows/action.yml",
+          ".pre-commit-config.yaml",
+          "action.yml",
+          "docs/tutorial.rst",
+          "noxfile.py",
+          "tests/test_action_helper.py"
+        ],
+        "sha": "d1bdf0940eda7213dc2bd6407cf7107dfc986672",
+        "timestamp": 1655400407
+      },
+      {
+        "files": [
+          "action.yml"
+        ],
+        "sha": "f630e2dd3797fe39dfbe8ccda391c39d122dbe70",
+        "timestamp": 1657717185
+      },
+      {
+        "files": [
+          "action.yml"
+        ],
+        "sha": "b6cfd3970089eb744ba470138cca49e7132695ae",
+        "timestamp": 1657802952
+      },
+      {
+        "files": [
+          ".github/action_helper.py",
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4abf7244af424653f6eabb3baf504f2ccfc7e337",
+        "timestamp": 1657817695
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml"
+        ],
+        "sha": "2cfd66b5518f2194dc7fd9b9cc75ac52f6287bfb",
+        "timestamp": 1658776690
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "4e47da4c14e7ebc584f4e430bfaf6b81c57d4456",
+        "timestamp": 1659353309
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "5eecc5281e74f53f40ba1d5199eeb0ee6a4d0fdb",
+        "timestamp": 1659639712
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "nox/_options.py"
+        ],
+        "sha": "fb5196b03081434dc61c432a61ebf33e79c2cf16",
+        "timestamp": 1659641050
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "ccade46a207e121c2d827fdc314907e46c5b4276",
+        "timestamp": 1659917638
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "MANIFEST.in"
+        ],
+        "sha": "45f0118544ba16c28d3c30b08ecb136430922765",
+        "timestamp": 1660804062
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/_option_set.py",
+          "nox/_typing.py",
+          "nox/_version.py",
+          "nox/manifest.py",
+          "nox/sessions.py",
+          "tests/test__parametrize.py"
+        ],
+        "sha": "ffb4fca2b81a5905bf8dae674b33a8371da1c5f5",
+        "timestamp": 1660804085
+      },
+      {
+        "files": [
+          "nox/sessions.py"
+        ],
+        "sha": "3fb4fbc309b3731901ab4c68d475803937293191",
+        "timestamp": 1663289243
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "tests/test_command.py"
+        ],
+        "sha": "07fb499d65dcbf30e01efd287d9bb3c162c60aa4",
+        "timestamp": 1665161260
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "49f2de0dafcf4f2633a237bc52941caef4305ae1",
+        "timestamp": 1665161879
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "pyproject.toml",
+          "tests/test_command.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "cdd0f3bdbd83f4d2e426b096750e281998ac4900",
+        "timestamp": 1665167964
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/sessions.py",
+          "tests/test_command.py"
+        ],
+        "sha": "56e5582677acd1c3e41e72476bb31ea65157c220",
+        "timestamp": 1665218263
+      },
+      {
+        "files": [
+          "nox/_decorators.py",
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "nox/_parametrize.py",
+          "nox/_typing.py",
+          "nox/logger.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "pyproject.toml"
+        ],
+        "sha": "15013bd329f8665875f35f542bc2820019856fbd",
+        "timestamp": 1665236759
+      },
+      {
+        "files": [
+          ".flake8",
+          ".github/workflows/ci.yml",
+          ".pre-commit-config.yaml",
+          "MANIFEST.in",
+          "noxfile.py",
+          "pyproject.toml"
+        ],
+        "sha": "c67032749eddfb3dd59fed49c6ed74bee9f4e83f",
+        "timestamp": 1665237652
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "867ca4ff6c4772698004af4a008521d7bb266b50",
+        "timestamp": 1665462804
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "b15909e4f9bb9e91c0079f055f61ff9d121f7477",
+        "timestamp": 1666027090
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "6cd59b7c612368692367a76b6e2401819886eed3",
+        "timestamp": 1666283096
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "801455bc645814186e639dfb67cdace2bee36ef0",
+        "timestamp": 1666452477
+      },
+      {
+        "files": [
+          ".github/action_helper.py",
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml",
+          "action.yml",
+          "docs/tutorial.rst",
+          "docs/usage.rst",
+          "tests/test_action_helper.py",
+          "tests/test_main.py"
+        ],
+        "sha": "3fad6a5cd51c6763ed708b3eadd9b7b654f8af8e",
+        "timestamp": 1667232551
+      },
+      {
+        "files": [
+          ".github/action_helper.py",
+          ".github/workflows/action.yml",
+          "action.yml",
+          "tests/test_action_helper.py"
+        ],
+        "sha": "e7cf847b5cb8031cda8f8b6b60ccf7ad9e5eed5a",
+        "timestamp": 1667238219
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "6957a4c1bf4f8f403fc30664812cbb19eb0b2417",
+        "timestamp": 1669046331
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "53c8d7c2a06bd460bb0377b06c316431516d5744",
+        "timestamp": 1669227080
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          "noxfile.py"
+        ],
+        "sha": "cc710bde9d6a8781833144bac02a5f4581d9eca7",
+        "timestamp": 1669282407
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "828bc82521168330229ce3e11114bcb1b588ed23",
+        "timestamp": 1670419079
+      },
+      {
+        "files": [
+          ".flake8",
+          ".github/workflows/ci.yml",
+          "pyproject.toml",
+          "requirements-conda-test.txt",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "da3651953cb1016adf42f2e38a8a66835cdb1a73",
+        "timestamp": 1670446664
+      },
+      {
+        "files": [
+          ".flake8"
+        ],
+        "sha": "6646b24d62e69442a55502e460e33c252d54beb4",
+        "timestamp": 1670577871
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "nox/workflow.py",
+          "tests/test__option_set.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "1d61f82047566f2616bae25987e30a56d0d61bcd",
+        "timestamp": 1673464814
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md"
+        ],
+        "sha": "1fe4414c1bca68223989577d0d717d5b020fa09e",
+        "timestamp": 1673637972
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "nox/manifest.py",
+          "nox/sessions.py",
+          "noxfile.py",
+          "pyproject.toml",
+          "tests/test_action_helper.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "36202af10f9c246689bf4238999d2a1b84a65fee",
+        "timestamp": 1675887289
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/usage.rst",
+          "nox/_options.py",
+          "requirements-test.txt",
+          "tests/test_main.py"
+        ],
+        "sha": "593017f7045a3fad4de0f40c41e41825da8818a6",
+        "timestamp": 1676449818
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/_options.py",
+          "nox/tasks.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "119fd00cbb7584127e6deae5c1e4c1c9811f850e",
+        "timestamp": 1678030405
+      },
+      {
+        "files": [
+          "nox/_version.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "0dd1a51b5eb09987b7f52748fde2cf9d99ad4c4f",
+        "timestamp": 1682188295
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "301354f1423cb9e7dbde3eef8c660bc8185a732e",
+        "timestamp": 1682197933
+      },
+      {
+        "files": [
+          "nox/_options.py"
+        ],
+        "sha": "45acf03a07cf4af3cd26923d0ec7d56e99fed546",
+        "timestamp": 1682204518
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "27b96657a1a5b4071808f6941d6487878d8c7b64",
+        "timestamp": 1682204872
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "843d3800d58f8fe08f845ddb142aad01daa4324d",
+        "timestamp": 1682209198
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "2bba9da8d3ec1d032b831d3274b163c019d6ba8e",
+        "timestamp": 1682175774
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "9ab9f1b63ca38a9452b14c9390d601c5763e45cf",
+        "timestamp": 1682211343
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "nox/_version.py"
+        ],
+        "sha": "98561bbe507b0274e92121f8566339fa9d3ef7d5",
+        "timestamp": 1682212082
+      },
+      {
+        "files": [
+          "nox/_version.py"
+        ],
+        "sha": "2e8d24a2f21c8b752344ba61222b88238aac901f",
+        "timestamp": 1682213443
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "a0fceff2cda2459162dc7bb876b6202a06378405",
+        "timestamp": 1685562362
+      },
+      {
+        "files": [
+          "docs/tutorial.rst"
+        ],
+        "sha": "720f1ea538bbf7ceb7fad3eafaf662437a7183e7",
+        "timestamp": 1685729957
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "5e1f0c088b28f6d416f032883648d9ac44f0acf7",
+        "timestamp": 1687556430
+      },
+      {
+        "files": [
+          "nox/_decorators.py",
+          "nox/registry.py"
+        ],
+        "sha": "b4e8cae2da1a942899ec95d57eba725f895b1a9f",
+        "timestamp": 1689189188
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "tests/test_command.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "eef4e02e3d6e460bf28711eb21d68b4c87425501",
+        "timestamp": 1689189365
+      },
+      {
+        "files": [
+          "nox/_options.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "e0bd1e545606117f959713cfaa422b152d71dbac",
+        "timestamp": 1689189633
+      },
+      {
+        "files": [
+          "nox/_options.py"
+        ],
+        "sha": "06f50344dfafae13a8e1e329b3d83942ee7a2171",
+        "timestamp": 1689190754
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5cc0d055a2e15348e8fc286ff6bc9dc2d38410fd",
+        "timestamp": 1689190787
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "34f556c15f34c9547057f162b46c99c47d8ab4ca",
+        "timestamp": 1689190839
+      },
+      {
+        "files": [
+          "tests/test_tox_to_nox.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "b7a1025484c47d3f9385c1e518c9f422b4bbc7a1",
+        "timestamp": 1689190883
+      },
+      {
+        "files": [
+          ".github/action_helper.py",
+          ".github/workflows/action.yml",
+          "action.yml",
+          "docs/tutorial.rst",
+          "noxfile.py",
+          "tests/test_action_helper.py"
+        ],
+        "sha": "6429b0fe7aba8a3302ff87bd9f44c2f34d7b85b3",
+        "timestamp": 1689191204
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "tests/resources/noxfile_options.py",
+          "tests/test_main.py"
+        ],
+        "sha": "b88ecade84b5caa69e0067e6d41cae4bffb39764",
+        "timestamp": 1689192089
+      },
+      {
+        "files": [
+          "tests/test_tasks.py"
+        ],
+        "sha": "c1120f2402c088d25b4eca012227e4b8f603ede6",
+        "timestamp": 1689193262
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml"
+        ],
+        "sha": "6866ed43c22868ef4cadf49f0593d91cdc9c4065",
+        "timestamp": 1689262101
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/_decorators.py",
+          "nox/command.py",
+          "nox/registry.py",
+          "nox/tox_to_nox.py",
+          "nox/workflow.py"
+        ],
+        "sha": "274df9be1b977d7f4a6323f2dcb7ace6e49bf0bd",
+        "timestamp": 1689515959
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "action.yml",
+          "noxfile.py"
+        ],
+        "sha": "404c63b48c5d8ae5c8074db1d0f9b5df044df755",
+        "timestamp": 1697231734
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "07abfadb274e46ae9c62a6b70ef49c634894b92c",
+        "timestamp": 1698866153
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/_option_set.py",
+          "nox/registry.py",
+          "pyproject.toml",
+          "tests/test__version.py",
+          "tests/test_action_helper.py",
+          "tests/test_tasks.py",
+          "tests/test_tox_to_nox.py"
+        ],
+        "sha": "5c82dc553bd04ee017784fc16193da0b35a44ab6",
+        "timestamp": 1698908813
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          "action.yml",
+          "noxfile.py"
+        ],
+        "sha": "02aa8e87b2d4d0277084cc41e5f3f33329d58356",
+        "timestamp": 1708441884
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "c273f02e65b106953e2a57552989613e9dfd2ff1",
+        "timestamp": 1708441905
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml",
+          "action.yml"
+        ],
+        "sha": "38ff48ef2e4ae6193e8c8f565a4d54497767ce07",
+        "timestamp": 1708441930
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "4f73b76f1ba0b86caf6dcda0f72c0d4b83b0c23b",
+        "timestamp": 1708441967
+      },
+      {
+        "files": [
+          "nox/_parametrize.py",
+          "tests/test__parametrize.py"
+        ],
+        "sha": "f8df3c14e982bc622f895bd3a11adba33b74265e",
+        "timestamp": 1708441999
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "requirements-conda-test.txt"
+        ],
+        "sha": "a6cfa2e2d6d18f8e37d77bbed13a2f734a76903c",
+        "timestamp": 1708442023
+      },
+      {
+        "files": [
+          "nox/_options.py",
+          "nox/manifest.py",
+          "tests/test_manifest.py"
+        ],
+        "sha": "a75578aac4bdc7f66084269650c326f6b3686cc2",
+        "timestamp": 1708442107
+      },
+      {
+        "files": [
+          "docs/tutorial.rst",
+          "docs/usage.rst",
+          "nox/_options.py",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "d2b02acedbee2b20feb3715d3d8ca38471a0e67e",
+        "timestamp": 1708442157
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "tests/resources/noxfile_pythons.py",
+          "tests/resources/noxfile_tags.py",
+          "tests/test__option_set.py"
+        ],
+        "sha": "ea9ea27bcf60e38fee8a6298ab39d819cd1945b0",
+        "timestamp": 1708442341
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "nox/tox4_to_nox.jinja2",
+          "nox/tox_to_nox.py",
+          "noxfile.py",
+          "pyproject.toml",
+          "tests/test_tox_to_nox.py"
+        ],
+        "sha": "ef54d131a371ddf55dd6b63223ab494bc4060836",
+        "timestamp": 1708447714
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "ad07cb592d15f8a4cb28db68b04af48b94b9f280",
+        "timestamp": 1708474359
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "ddea973fac2e3f66e805522328b600546b97b42f",
+        "timestamp": 1708510711
+      },
+      {
+        "files": [
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "e3d8578f909c54856b0d545d7ae69d9b3dbda2f0",
+        "timestamp": 1708510821
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.rst"
+        ],
+        "sha": "3b8e0267b7c2c3631d1098f8a4d6e4f731582423",
+        "timestamp": 1708556095
+      },
+      {
+        "files": [
+          "nox/_version.py",
+          "nox/command.py",
+          "nox/logger.py",
+          "noxfile.py",
+          "pyproject.toml",
+          "requirements-test.txt"
+        ],
+        "sha": "911b8002ebc4861c2c2bcdff93359ab81d1195a6",
+        "timestamp": 1708697725
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "ffdbb6c918b67beab262bbd5c543a48f8252098f",
+        "timestamp": 1708701024
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "noxfile.py"
+        ],
+        "sha": "78a26129d00fcc862c73ce759019c055cf0a4f4d",
+        "timestamp": 1708703896
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/_options.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "pyproject.toml",
+          "requirements-test.txt",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "1fe44370900a42525b4eef309d322c0bba395157",
+        "timestamp": 1708708227
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "nox/_parametrize.py",
+          "nox/_version.py",
+          "nox/logger.py",
+          "nox/sessions.py",
+          "pyproject.toml",
+          "tests/test_main.py"
+        ],
+        "sha": "c248a769a2e984a8892c374cf6627ac656f77fa6",
+        "timestamp": 1708767262
+      },
+      {
+        "files": [
+          "nox/tox_to_nox.py",
+          "tests/test_tox_to_nox.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "55e09cdeb8bdaa51f5bf4079926f47fbde5f8a07",
+        "timestamp": 1708787309
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/usage.rst",
+          "nox/_options.py",
+          "nox/sessions.py",
+          "tests/conftest.py",
+          "tests/resources/noxfile_options.py",
+          "tests/test_main.py",
+          "tests/test_sessions.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "5a097cd9d121c1f304f8627dfba2a292c7307b93",
+        "timestamp": 1708892366
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/_options.py",
+          "tests/test_main.py"
+        ],
+        "sha": "93bacbda291763171813f12cd3d0db97d852439e",
+        "timestamp": 1708892493
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "ff259ce5ccb3a0eeafe41772be6c12f82200de74",
+        "timestamp": 1708954845
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "d59e1ac01d6be08a6dc59d29c5a6371519d23c62",
+        "timestamp": 1709152925
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "1c6af240fbcd77701f1fb1963df371a1f3c5c794",
+        "timestamp": 1709188202
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "nox/_options.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "d86235010140449eee53b2dd9becf390f3584a6f",
+        "timestamp": 1709225038
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "4c8e89164d90718312e4819a48243797924f55a9",
+        "timestamp": 1709422626
+      },
+      {
+        "files": [
+          "nox/_options.py"
+        ],
+        "sha": "545a6214a3fff89c4a72ce1628784f308584271d",
+        "timestamp": 1709578694
+      },
+      {
+        "files": [
+          "tests/test_sessions.py"
+        ],
+        "sha": "419b98a9a87384e55ebc16d51e51d3751b12310b",
+        "timestamp": 1709672001
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/usage.rst",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "592f3f0b4d7d66378e8015853aa5f1c6bd760c0b",
+        "timestamp": 1709867171
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "pyproject.toml",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "08813c3c6b0d2171c280bbfcf219d089a16d1ac2",
+        "timestamp": 1709935158
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          "action.yml",
+          "noxfile.py"
+        ],
+        "sha": "efc17bb8f5db0948d960e5c9a2efc4f1d69f332d",
+        "timestamp": 1711672197
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "feb2a7e0cde9499dc27f184bc385c748111ba10d",
+        "timestamp": 1711735025
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "48f82a1b3d756e414d2a881fe6f7c3a44c95b6c9",
+        "timestamp": 1712092194
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "noxfile.py"
+        ],
+        "sha": "956f10c5691b4f4d1a7e2d648fa2ca2eb4b27ab5",
+        "timestamp": 1712092213
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "11dac8cde57859d60a76a8c59597eaf53b5d7e4a",
+        "timestamp": 1712520483
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/tutorial.rst",
+          "docs/usage.rst",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "noxfile.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "9a4068faf700ee22ad801a4df327374e4550f24a",
+        "timestamp": 1712604900
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "nox/_decorators.py",
+          "nox/manifest.py",
+          "nox/registry.py",
+          "nox/tasks.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "55c7eaf2eb03feb4a4b79e74966c542b75d61401",
+        "timestamp": 1712604960
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "5e3d90db263f0434da12d34ccc1a4376621b36e1",
+        "timestamp": 1712943325
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_command.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "bc21883da89c26817e56b31ea1d418bfa5c792cd",
+        "timestamp": 1712951380
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/popen.py",
+          "nox/sessions.py",
+          "tests/test_command.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "d3dd1f8cca62f5aca8b03ec9fff23aa2cfe63b6c",
+        "timestamp": 1712959817
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "docs/tutorial.rst",
+          "nox/__init__.py",
+          "nox/project.py",
+          "noxfile.py",
+          "pyproject.toml",
+          "requirements-test.txt",
+          "tests/test_toml.py"
+        ],
+        "sha": "d6e1906214cbff549e279445b357afa34a7acdae",
+        "timestamp": 1712959830
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "8f33d1c247fadc0682c4026d55e0fbfe7b02c423",
+        "timestamp": 1713158775
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "5656fcedc31a1ea37d016e4d94d00185330cc528",
+        "timestamp": 1713189844
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "4fec3b45bcc0eea4564f40c45f3119380e7088ad",
+        "timestamp": 1713966155
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          "noxfile.py"
+        ],
+        "sha": "eabad943437ef8b5451637438fe2602c324bc3b4",
+        "timestamp": 1715010682
+      },
+      {
+        "files": [
+          "nox/sessions.py"
+        ],
+        "sha": "df7ae003fc150c61803e877bb0299886a73bf20a",
+        "timestamp": 1716126311
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          "action.yml"
+        ],
+        "sha": "cf82e6da59346b6f2d5c0476760a2dc77261aced",
+        "timestamp": 1716481297
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/popen.py",
+          "nox/sessions.py"
+        ],
+        "sha": "4fb39b6db6f692f9466febbef260be50d28874e3",
+        "timestamp": 1719507462
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "7a77e805c6cc7a8d2b65467683da14c2b376e35a",
+        "timestamp": 1720813047
+      },
+      {
+        "files": [
+          "nox/manifest.py",
+          "nox/sessions.py",
+          "tests/resources/noxfile_tags.py",
+          "tests/test_toml.py"
+        ],
+        "sha": "e0868b6c092c80837f86463a54d34379851d43d7",
+        "timestamp": 1722718212
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "noxfile.py"
+        ],
+        "sha": "fd61a659a2ce527e87e4451241348d57c05e45cb",
+        "timestamp": 1725899664
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          "action.yml"
+        ],
+        "sha": "afb5111f67eb35c4cc4974ee3e875cdb20199018",
+        "timestamp": 1725912403
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md"
+        ],
+        "sha": "7e1f953e6579df1bde8789a271c64e0c8b1db910",
+        "timestamp": 1725999853
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/tutorial.rst",
+          "nox/_decorators.py",
+          "nox/_parametrize.py",
+          "tests/resources/noxfile_tags.py",
+          "tests/test__option_set.py",
+          "tests/test__parametrize.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "f2be46a7f05b18588bcd51b3f0f7485bdae9a064",
+        "timestamp": 1727755988
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "f83bec3a313eeaaadf2b6cbf1df2c28326b7a5a5",
+        "timestamp": 1727757435
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "ba29b2c5dd048d76c1177448f195e2edf33ef33e",
+        "timestamp": 1727759207
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "a49c7308a5f064f970bfaf7accd7a772452d69fd",
+        "timestamp": 1727842533
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "CODE_OF_CONDUCT.md",
+          "nox/_decorators.py",
+          "nox/_option_set.py",
+          "nox/manifest.py",
+          "nox/registry.py",
+          "nox/virtualenv.py",
+          "pyproject.toml"
+        ],
+        "sha": "d7072e3f0e491963067fa752545e7ae871936dd1",
+        "timestamp": 1728064038
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml"
+        ],
+        "sha": "18061812ef7e4afa67405ab104c99a365ee4c232",
+        "timestamp": 1728314280
+      },
+      {
+        "files": [
+          "action.yml"
+        ],
+        "sha": "19655f4ad2172c12a1b0fa0d5c4257d25913fbe4",
+        "timestamp": 1728314296
+      },
+      {
+        "files": [
+          "nox/_options.py"
+        ],
+        "sha": "9058e72d6965b5d7dbb5b806f0e4ba9f10c27628",
+        "timestamp": 1728314332
+      },
+      {
+        "files": [
+          "docs/tutorial.rst",
+          "nox/sessions.py",
+          "tests/resources/pep721example1.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "40d6b49c6ede89ea90aeb54649c12139129982ab",
+        "timestamp": 1728314394
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "57a65d8550c6315e49389bec9f7b28d551b10763",
+        "timestamp": 1728349219
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "57825e8d627f4265071efb5a33480190e6966017",
+        "timestamp": 1728349233
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "6f295daa933cd452a944d703eafddb85632427c6",
+        "timestamp": 1728351191
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "1199ab3892b1a941f80ff052083d0a571abed79d",
+        "timestamp": 1728477944
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "e58a47032e5f8e17096cb91a66513658f70a1df1",
+        "timestamp": 1728486483
+      },
+      {
+        "files": [
+          "nox/tasks.py"
+        ],
+        "sha": "771c1c75aa155287b5748b46ee0d06b29994ff00",
+        "timestamp": 1729237369
+      },
+      {
+        "files": [
+          "nox/__init__.py",
+          "nox/_option_set.py",
+          "nox/_parametrize.py",
+          "nox/command.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "pyproject.toml",
+          "tests/test_sessions.py"
+        ],
+        "sha": "5e02a64b4d4f0d00b69832ea9858938c284b9b7c",
+        "timestamp": 1729915470
+      },
+      {
+        "files": [
+          ".readthedocs.yml",
+          "noxfile.py",
+          "pyproject.toml",
+          "requirements-dev.txt",
+          "requirements-test.txt"
+        ],
+        "sha": "7dd02a89418548834929d6c917c204246736ab30",
+        "timestamp": 1730135351
+      },
+      {
+        "files": [
+          "docs/tutorial.rst",
+          "nox/__init__.py",
+          "tests/test_main.py"
+        ],
+        "sha": "7a94886faaeed24ea8ff1f3d22fd95011b5aacca",
+        "timestamp": 1730221709
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "tests/test_main.py"
+        ],
+        "sha": "6edc697d317ff4f4d753cecf7c23bc7f3a04c699",
+        "timestamp": 1730234417
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/tutorial.rst",
+          "nox/project.py",
+          "tests/test_project.py"
+        ],
+        "sha": "040a93c3b085c68f85b95ccb20d4d21f6997cabf",
+        "timestamp": 1730234437
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/project.py",
+          "pyproject.toml",
+          "tests/test_project.py"
+        ],
+        "sha": "f2325f11bbf52f1a867397cc454dcfee69ceb0fa",
+        "timestamp": 1730294655
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "6f3a459a2a0eff93f2b57db8fd631633ec09a4f1",
+        "timestamp": 1730388009
+      },
+      {
+        "files": [
+          "nox/_decorators.py",
+          "nox/registry.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "622458c9f7df193508b4e39eeda07975f0f46a0a",
+        "timestamp": 1730740404
+      },
+      {
+        "files": [
+          "nox/__init__.py",
+          "nox/__main__.py",
+          "nox/_cli.py"
+        ],
+        "sha": "f4a91df30bbc538c59f94e04b9e1aef6e41783a8",
+        "timestamp": 1730814641
+      },
+      {
+        "files": [
+          "nox/tasks.py",
+          "tests/resources/orig_dir/noxfile.py",
+          "tests/resources/orig_dir/orig_file.txt",
+          "tests/resources/sym_dir/noxfile.py",
+          "tests/resources/sym_dir/sym_file.txt",
+          "tests/test_main.py"
+        ],
+        "sha": "2c432145fee0cc481e3d136135935d7e0f3393ec",
+        "timestamp": 1731363568
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/logger.py"
+        ],
+        "sha": "7751763164710cc150d9d5a86490585fc5467403",
+        "timestamp": 1731369698
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "pyproject.toml"
+        ],
+        "sha": "9731a53e5df0560adc0b521ac9fcca952dab161b",
+        "timestamp": 1731396389
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/tox_to_nox.py",
+          "pyproject.toml"
+        ],
+        "sha": "a0e7ef50775fc35a288228a7328ee5901a7450ab",
+        "timestamp": 1731446227
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/_option_set.py",
+          "pyproject.toml"
+        ],
+        "sha": "bdd84a4d135b9c7471aad664a168fd441e4dfb64",
+        "timestamp": 1731446256
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/_options.py",
+          "pyproject.toml",
+          "tests/conftest.py",
+          "tests/test_action_helper.py"
+        ],
+        "sha": "aabdc9b0a142d8c277f2c462ad28893624ef9314",
+        "timestamp": 1731530223
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "21298e0b5751870296510ce49d0ed5320d83fce8",
+        "timestamp": 1734054546
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "tests/test_command.py",
+          "tests/test_sessions.py",
+          "tests/test_tox_to_nox.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "5f36a5bf9584df1214c4a1534b3a209146f0cc16",
+        "timestamp": 1734054568
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "tests/test_command.py"
+        ],
+        "sha": "28bbaa5a17ed1ac39be63b1ecd9bd7e187a7db2e",
+        "timestamp": 1734057842
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "noxfile.py",
+          "tests/test_command.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "60acbbe5574e4458931d96ac4733b91d0db1b50d",
+        "timestamp": 1735877956
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "c47dd278061619a2e554aa17f9e7b3664dbebb63",
+        "timestamp": 1735877994
+      },
+      {
+        "files": [
+          "nox/tox_to_nox.py",
+          "tests/test_tox_to_nox.py"
+        ],
+        "sha": "e2ec5135067be9edd7ed3ee13e46a59e3a6f54f6",
+        "timestamp": 1735878135
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "82b5542a8875a0211a2518f321fb96b26fd6fd08",
+        "timestamp": 1736461111
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "CONTRIBUTING.md",
+          "nox/tox_to_nox.jinja2",
+          "nox/tox_to_nox.py",
+          "noxfile.py",
+          "pyproject.toml",
+          "requirements-conda-test.txt",
+          "tests/test_tox_to_nox.py"
+        ],
+        "sha": "12b805ac1e4db2ee6bd17061cfbf0a2535662389",
+        "timestamp": 1736908687
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/tox_to_nox.py"
+        ],
+        "sha": "c27bff9c2fa79cc1cece1e32a01fadaf26ebcd33",
+        "timestamp": 1736910520
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "642c8bb9a7cae5f6855d08da066e3614e788b4ae",
+        "timestamp": 1737039857
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "a02eb7993296f1c4387ad3061e49471235acac7e",
+        "timestamp": 1737150938
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "d25a0677085e1480d3bcec0963aec5770753f539",
+        "timestamp": 1737489958
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "noxfile.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "47a29b6576bf5e8f296e2d9550aca8e4587c9c24",
+        "timestamp": 1738186114
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "73534d2856253ef490f57a1a52a4a54926765c79",
+        "timestamp": 1738278943
+      },
+      {
+        "files": [
+          "docs/tutorial.rst",
+          "nox/_cli.py",
+          "nox/_options.py",
+          "nox/project.py",
+          "nox/virtualenv.py",
+          "tests/resources/noxfile_script_mode.py",
+          "tests/test__cli.py",
+          "tests/test_main.py"
+        ],
+        "sha": "beab6c32519c4aa1f18c53c3f4a9b75665e5258c",
+        "timestamp": 1738349212
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          "action.yml"
+        ],
+        "sha": "101d7c43c6512b4d45104b0a63c9ed94ba1ff3a4",
+        "timestamp": 1738351967
+      },
+      {
+        "files": [
+          "nox/project.py"
+        ],
+        "sha": "223c8c692b0faf60c5ec1ff37ce6a88408b203a1",
+        "timestamp": 1738354315
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "97e0fad6a4036d610591a52e9ad0cfbe74a31af3",
+        "timestamp": 1738354329
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "tests/test__option_set.py"
+        ],
+        "sha": "97e5a38719a2e4d9aeceda322f043ef08bbfdd0a",
+        "timestamp": 1738364756
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "c62875562eb5140431ef874ff66179ad7947c4d0",
+        "timestamp": 1738602621
+      },
+      {
+        "files": [
+          ".github/release.yml",
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "ae83927f28fd63d2374c73f785aa410320a8702e",
+        "timestamp": 1738773292
+      },
+      {
+        "files": [
+          ".github/workflows/cd.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "b92b29408dd5e2761e8c23493637ad91dc482af0",
+        "timestamp": 1739127326
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "433ad2fce100785b3ede391e7b64b2d4b08d50b5",
+        "timestamp": 1739127423
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "a74da2c766d4e656d6105639926c31f3aa4a6ca1",
+        "timestamp": 1739127546
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "nox/_options.py",
+          "tests/test__option_set.py"
+        ],
+        "sha": "e24511de21dc454a32697ff99fe8b2f8ebb0edab",
+        "timestamp": 1739464089
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "befada14c2e3e56abed17e520a43c025a25bc4a4",
+        "timestamp": 1740168489
+      },
+      {
+        "files": [
+          "tests/test_main.py",
+          "tests/test_tox_to_nox.py"
+        ],
+        "sha": "2afe225d7251c9c00ce897f531e5ec0b6a1e862d",
+        "timestamp": 1740692610
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "21ee4bfbae4d9ea2e59f53c4dfedcc6690e9ff0d",
+        "timestamp": 1740692624
+      },
+      {
+        "files": [
+          "docs/config.rst"
+        ],
+        "sha": "7a66cc220093aeeb4a7a11593b5ef7df50300cb5",
+        "timestamp": 1742912246
+      },
+      {
+        "files": [
+          "requirements-conda-test.txt"
+        ],
+        "sha": "1bcb213f3630bfdeff7c7161983540a97e60de29",
+        "timestamp": 1742914840
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "9394ea9c11a77959d3c36c90a23c1b7d32366089",
+        "timestamp": 1744044904
+      },
+      {
+        "files": [
+          ".github/action_helper.py",
+          "action.yml",
+          "noxfile.py",
+          "tests/test_action_helper.py"
+        ],
+        "sha": "70df6abb0ea2eacf85c265c1a1c8ea985399edd7",
+        "timestamp": 1744148907
+      },
+      {
+        "files": [
+          "nox/tasks.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "4e7f644da9d03a44d34940a74d850619fa0c7eb7",
+        "timestamp": 1744521085
+      },
+      {
+        "files": [
+          "nox/_cli.py",
+          "tests/resources/noxfile_script_mode_url_req.py",
+          "tests/test__cli.py",
+          "tests/test_main.py"
+        ],
+        "sha": "1d52c8fd93976635e1f51693bf0f36616144c78e",
+        "timestamp": 1744521132
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "b943f95d0e12cf8017d440a2f76ce6a9fa20dade",
+        "timestamp": 1746034827
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "7219be7e2e8cac28c2c809058a5b5a93053fb776",
+        "timestamp": 1746034837
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "1acbb4ee06ee6f55e682d339915382097043d28f",
+        "timestamp": 1746039852
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "aa475d6a14add64c666b56607a77439d9d97c1d0",
+        "timestamp": 1746084205
+      },
+      {
+        "files": [
+          "nox/manifest.py",
+          "tests/resources/noxfile_parametrize.py",
+          "tests/test_main.py"
+        ],
+        "sha": "a58fe60de4ff8fc523dd96b6b2ea2b53e2fdd0bc",
+        "timestamp": 1746085452
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "nox/sessions.py",
+          "noxfile.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "e0b5e330c358234c67694f6cad42f44af986fe43",
+        "timestamp": 1746114007
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "2254a1ee500bbf66c2a5e4ff5dad030b9f579dcd",
+        "timestamp": 1746117155
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "nox/_resolver.py",
+          "nox/manifest.py",
+          "nox/registry.py",
+          "tests/test_manifest.py"
+        ],
+        "sha": "3a04af4319f71ce1944e3518d488f5ef766af732",
+        "timestamp": 1746158011
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "6f1c5683dfc73e2201be3c76729642441b71e0e4",
+        "timestamp": 1746166151
+      },
+      {
+        "files": [
+          "nox/_decorators.py",
+          "nox/sessions.py",
+          "pyproject.toml"
+        ],
+        "sha": "a0e13236802dacf8a3291763dae5d981cec5034e",
+        "timestamp": 1746248522
+      },
+      {
+        "files": [
+          "nox/_decorators.py",
+          "nox/registry.py"
+        ],
+        "sha": "150b546c1128c6c4a9613014bc451c89dfb44fe4",
+        "timestamp": 1746366903
+      },
+      {
+        "files": [
+          "tests/conftest.py"
+        ],
+        "sha": "125299e36536540b164be9b0bcd12537ced910c6",
+        "timestamp": 1746472957
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "noxfile.py",
+          "pyproject.toml",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "ecd52d747ac4ad2df24c2fa48ae94d4e3e60db1b",
+        "timestamp": 1746506565
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "4fb4e4215efaea5f7c6dd6d15df5f60835f08621",
+        "timestamp": 1747160331
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "pyproject.toml"
+        ],
+        "sha": "721dace6f257181141bc8af5aa361bea6911602d",
+        "timestamp": 1747162355
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "6a90dcfd77dbe550192038910108b2f2b162a5a6",
+        "timestamp": 1747168317
+      },
+      {
+        "files": [
+          "nox/_option_set.py",
+          "nox/tox_to_nox.py"
+        ],
+        "sha": "382fc8c36292056d315929dad59cb12e74bdfb92",
+        "timestamp": 1748383312
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "7be8fd3731cbe513ad9abe6a8f214bac6ad0c751",
+        "timestamp": 1749706341
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "2fffa156964952f511800d3c5822d93e62667044",
+        "timestamp": 1749745512
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "8e3ce80e3e038a0a09762c809e29be7c2a9ae593",
+        "timestamp": 1749760780
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "089308aecb31d38159407f1b510bd5d1fee1970d",
+        "timestamp": 1749760790
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "e895c3a4881cf86ab4832a43bb36e04a50ffb20b",
+        "timestamp": 1749766910
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "4ef794d02526d46446e595c5ac59f573d1313f83",
+        "timestamp": 1750106706
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml"
+        ],
+        "sha": "50a740adcdf3db07d4fa2cda0d8549962d71a2ec",
+        "timestamp": 1750109005
+      },
+      {
+        "files": [
+          "nox/tasks.py"
+        ],
+        "sha": "ddd05e800c202d1d0dc037d350680e31fd79ceb4",
+        "timestamp": 1750459639
+      },
+      {
+        "files": [
+          "nox/logger.py"
+        ],
+        "sha": "7f93235c78b48024bfb3d23c48c8952bac270f44",
+        "timestamp": 1753133177
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/cd.yml",
+          ".github/workflows/ci.yml",
+          "action.yml"
+        ],
+        "sha": "58d1a4d3fe03d76829462d4a8e82fb5b9170dc11",
+        "timestamp": 1759935505
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/usage.rst",
+          "nox/_options.py",
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "a4b43d5f34a0b86d748d562861676e4dd2b0761a",
+        "timestamp": 1759942854
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "c804a04276a46ab4ff53b97cb2e161345a285c1c",
+        "timestamp": 1759942873
+      },
+      {
+        "files": [
+          "tests/test_sessions.py"
+        ],
+        "sha": "1ea9b9bcb3a299c19c99927fe7a1e7a70e2b677c",
+        "timestamp": 1759945136
+      },
+      {
+        "files": [
+          ".github/action_helper.py",
+          ".github/workflows/action.yml",
+          "tests/test_action_helper.py"
+        ],
+        "sha": "f485dde7cb63df7f4a6e86fb21321c4dec190fe3",
+        "timestamp": 1759957007
+      },
+      {
+        "files": [
+          "action.yml"
+        ],
+        "sha": "5a282bdf8cd7d77a4ecd91eadd8ec4a7d48f9ab0",
+        "timestamp": 1760105089
+      },
+      {
+        "files": [
+          "nox/_option_set.py"
+        ],
+        "sha": "5dc77231bcb8cd6f3d52dcc85218926ce8274791",
+        "timestamp": 1760153155
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "e7a288d8ce1954e2145e336f7853d52f88b7aea2",
+        "timestamp": 1760366119
+      },
+      {
+        "files": [
+          "nox/__main__.py",
+          "nox/_cli.py",
+          "nox/_options.py",
+          "nox/tasks.py",
+          "tests/resources/noxfile_script_mode_exec.py",
+          "tests/test__cli.py",
+          "tests/test_main.py"
+        ],
+        "sha": "c6541cd106af0483423bcefc9f2cb6a2d92428a9",
+        "timestamp": 1760392298
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "tests/conftest.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "53bf1910164a286212dd9349f6c1bbefb2dca1c2",
+        "timestamp": 1760396020
+      },
+      {
+        "files": [
+          ".github/release.yml"
+        ],
+        "sha": "55acc2a016cbdfcbc4d9063c51fa4cd1fdb69a1b",
+        "timestamp": 1760458023
+      },
+      {
+        "files": [
+          "nox/logger.py",
+          "nox/sessions.py",
+          "nox/tasks.py"
+        ],
+        "sha": "a0d354c6b86b378d075d27672508b35d8933d7db",
+        "timestamp": 1760466024
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "nox/sessions.py",
+          "tests/test_command.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "1a4b11afb2caf9885dad7dee83547146222505fb",
+        "timestamp": 1760471653
+      },
+      {
+        "files": [
+          "nox/_option_set.py"
+        ],
+        "sha": "bd6629a55552d742f5ee19c897cb4c5472dadc40",
+        "timestamp": 1760477822
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "1dc691030a3ca7c4dfee708af7ba2596472bf592",
+        "timestamp": 1760477832
+      },
+      {
+        "files": [
+          "nox/registry.py",
+          "tests/resources/noxfile_duplicate_sessions.py",
+          "tests/test_main.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "61749600ecf5802e0ad0ef25ba36f9b5d5da13de",
+        "timestamp": 1760488211
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "449f9352f26eb6465c0f0c7e6d89810e087f6f26",
+        "timestamp": 1760497765
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "requirements-conda-test.txt"
+        ],
+        "sha": "572f34a20cc004bd326d55b28ecfa3168c4f4a96",
+        "timestamp": 1760554577
+      },
+      {
+        "files": [
+          "docs/config.rst",
+          "docs/usage.rst",
+          "nox/virtualenv.py",
+          "noxfile.py",
+          "pyproject.toml",
+          "tests/test__cli.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "4eb0037cf14950c763c64d999d27627fb0f23704",
+        "timestamp": 1760561885
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/sessions.py",
+          "nox/tasks.py",
+          "pyproject.toml",
+          "requirements-conda-test.txt",
+          "tests/test__cli.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "7cb261457e2b815415569e2bd29d254cff7518b3",
+        "timestamp": 1760662116
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "d9e5e0c2e39e5122e635d76cd2ba3268d67eb18f",
+        "timestamp": 1760665842
+      },
+      {
+        "files": [
+          ".github/workflows/cd.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "38dea062a14355469fa44170ec64694b2c2d5e7f",
+        "timestamp": 1761760665
+      },
+      {
+        "files": [
+          "nox/tasks.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "b17113dc9f10bcc280201518441f8e8df677a95a",
+        "timestamp": 1761848904
+      },
+      {
+        "files": [
+          ".gitignore",
+          "nox/_cli.py",
+          "nox/registry.py",
+          "noxfile.py"
+        ],
+        "sha": "3455f55e7cd9b32cfd781210f6a834a0ebac8de7",
+        "timestamp": 1761848916
+      },
+      {
+        "files": [
+          "nox/sessions.py"
+        ],
+        "sha": "6d669ae6da36d6bed8df051b37cb0cb49cb9d41e",
+        "timestamp": 1762386193
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "pyproject.toml"
+        ],
+        "sha": "f690869f3a8506282e38f379c488b9a117556b61",
+        "timestamp": 1762806766
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "5cfea6572e844e3180078d307d9ff49730ca3d8f",
+        "timestamp": 1762889075
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "9e9b47eb82f577acb525e1bf4fa238fa3e1ce68a",
+        "timestamp": 1762896260
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "0eee2e45758dbd06d48ebb23476439f0f00e5cbd",
+        "timestamp": 1762972520
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "380257068e5f36e461ad1febc73e751a9b43749e",
+        "timestamp": 1763014941
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "requirements-conda-test.txt"
+        ],
+        "sha": "e0c34eb2805f2af6d12bb1d022173c74044b316a",
+        "timestamp": 1763016432
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "af8ea878666bb73ec82247f5e386ea3bc4122f00",
+        "timestamp": 1763039813
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/cd.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "97dcd31ec2af0b147c5bcbb17317b5141f5b6f11",
+        "timestamp": 1767736679
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "66b4df035eb751ea345ebe27ea99d8ab1fccf426",
+        "timestamp": 1767739219
+      },
+      {
+        "files": [
+          "nox/logger.py"
+        ],
+        "sha": "5dbd95e82f43d05dfd1c60bd296d203f34108ee3",
+        "timestamp": 1767891492
+      },
+      {
+        "files": [
+          "nox/_cli.py",
+          "nox/logger.py",
+          "nox/manifest.py",
+          "nox/sessions.py",
+          "nox/virtualenv.py",
+          "pyproject.toml",
+          "tests/test_main.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "f8edf5fec2c819ec502566d2005a8346c9363334",
+        "timestamp": 1767891515
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "a0660b17967de97c10f56b12f67cc5667e79bb08",
+        "timestamp": 1769613274
+      },
+      {
+        "files": [
+          "docs/cookbook.rst"
+        ],
+        "sha": "c72769b1ee7bc729c08c93f518e536364cecee8e",
+        "timestamp": 1769622587
+      },
+      {
+        "files": [
+          "nox/registry.py",
+          "tests/resources/noxfile_pythons.py"
+        ],
+        "sha": "11eee27ceb73fb77a8b4351718ef5e14821155ee",
+        "timestamp": 1769622609
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "7207b3fbde52febfa72a29141440179219b9f272",
+        "timestamp": 1770411064
+      },
+      {
+        "files": [
+          "nox/tasks.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "516d9bc3e134d7fe0f6a370c64a9c52b74a18a85",
+        "timestamp": 1770655538
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "docs/usage.rst",
+          "noxfile.py",
+          "pyproject.toml",
+          "tests/test__cli.py",
+          "tests/test_sessions.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "264f4577846b30c3f84bb313c8d3f5c497ab7cce",
+        "timestamp": 1770655548
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "5a277b752f6094150e25237d47c34168e2b7526e",
+        "timestamp": 1770697321
+      },
+      {
+        "files": [
+          "noxfile.py"
+        ],
+        "sha": "f4e3191d492ccbd55c60cbd74fb3231ec1307545",
+        "timestamp": 1771257427
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/config.rst",
+          "docs/usage.rst",
+          "nox/_cli.py",
+          "nox/_options.py",
+          "nox/sessions.py",
+          "nox/tasks.py",
+          "tests/test_sessions.py",
+          "tests/test_tasks.py"
+        ],
+        "sha": "fa5e8d864cbbece4f21c74eccaefac2dc5e7c291",
+        "timestamp": 1771257525
+      },
+      {
+        "files": [
+          ".github/workflows/cd.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "0ad8cc7f04fef9f02f32520af7ab970b22567089",
+        "timestamp": 1772749328
+      },
+      {
+        "files": [
+          ".github/workflows/cd.yml"
+        ],
+        "sha": "5a901362f78d0ac1a6e7ef4b8b856e7f944553ee",
+        "timestamp": 1773324069
+      },
+      {
+        "files": [
+          "nox/_options.py",
+          "tests/test_main.py"
+        ],
+        "sha": "4ff681f169c4043ce3b3d19cba1eadd66720bf1d",
+        "timestamp": 1774297849
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".gitignore"
+        ],
+        "sha": "bf9095287afacc1f5b94e5da54f4dbed4ccce875",
+        "timestamp": 1775764841
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "e0f64e6c3cb24e3f870f4df8dd38830e03546dce",
+        "timestamp": 1775766634
+      },
+      {
+        "files": [
+          "nox/virtualenv.py"
+        ],
+        "sha": "63dcab98ecd4f784537a3c1fa1319bac6cbf2436",
+        "timestamp": 1775766657
+      },
+      {
+        "files": [
+          "nox/tasks.py",
+          "noxfile.py"
+        ],
+        "sha": "47cb9c300e07c3a8ca4d5b240dad1a178a65dcdb",
+        "timestamp": 1775770719
+      },
+      {
+        "files": [
+          ".gitignore",
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "4c7a2151c538b739337dbbd759aaf440fa1991ac",
+        "timestamp": 1775774979
+      },
+      {
+        "files": [
+          "action.yml"
+        ],
+        "sha": "b6a61563737b2e42790f8ea509fe1ddd76fa464f",
+        "timestamp": 1775780198
+      },
+      {
+        "files": [
+          ".github/dependabot.yml",
+          ".github/zizmor.yml",
+          ".pre-commit-config.yaml",
+          "action.yml"
+        ],
+        "sha": "2577f31eb4d6d94f18157c444464fdd1e4a7e3df",
+        "timestamp": 1775783631
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "8d5c759d5d3f1f2c80ada8f05cd994c673905898",
+        "timestamp": 1775842055
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "97e345e6a26bb2c5aacff9cc4327bd4ac1b00ce6",
+        "timestamp": 1775842876
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "ea8e1fe428e61d006321b4cf26762f86cdeead85",
+        "timestamp": 1775973121
+      },
+      {
+        "files": [
+          "nox/_options.py"
+        ],
+        "sha": "909d6e1a1de51120925821770954c2a19743cac1",
+        "timestamp": 1776365255
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "noxfile.py",
+          "pyproject.toml",
+          "requirements-conda-test.txt"
+        ],
+        "sha": "71eb5242f76ef89e8f0629fdef1541b3226fdc76",
+        "timestamp": 1776384185
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "18f714bc602745ed982d3078ccc70187d3a89ef6",
+        "timestamp": 1777265505
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "e46352952aec050b05c68b7007db53a215683ad1",
+        "timestamp": 1781121885
+      },
+      {
+        "files": [
+          "docs/config.rst"
+        ],
+        "sha": "1ccd75269f7ba3876cdbd7575ba7f6b3afa2d7f1",
+        "timestamp": 1781126125
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "e0ef19c4af786f298d4cc55e790c8c697551055f",
+        "timestamp": 1781126145
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/cd.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "b60af1451153fc74c2bd1a9c5eed9088df92cd94",
+        "timestamp": 1781128420
+      },
+      {
+        "files": [
+          "docs/tutorial.rst",
+          "nox/sessions.py"
+        ],
+        "sha": "48ec9a5a7650587fa3a1dce4c11a2aee4b72a18d",
+        "timestamp": 1781128592
+      },
+      {
+        "files": [
+          ".github/workflows/action.yml",
+          ".github/workflows/cd.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "234f28ba4ccf75b4f6439f42615755941a83fdb9",
+        "timestamp": 1781185330
+      },
+      {
+        "files": [
+          "nox/project.py",
+          "tests/test_toml.py"
+        ],
+        "sha": "1c284eb412c7098097f9651e222005a8c5553c62",
+        "timestamp": 1781208646
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "27ef502453dd19ec0b4aee8d62c77f3cb6b4d5c5",
+        "timestamp": 1781241808
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "nox/_cli.py"
+        ],
+        "sha": "b91eb817f992d6a6aeb0a09965101f66ebbe2230",
+        "timestamp": 1781271942
+      },
+      {
+        "files": [
+          "nox/command.py",
+          "tests/test_command.py"
+        ],
+        "sha": "d3d95f47c0573ea64f4090cdfeaecaf1df1b6880",
+        "timestamp": 1781271991
+      },
+      {
+        "files": [
+          "nox/tox_to_nox.py",
+          "tests/test_tox_to_nox.py"
+        ],
+        "sha": "4545feab5c2210a69e7c285324b1bb72576b1b19",
+        "timestamp": 1781325672
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "145920c41c8e531b835291450837e28384e31b5f",
+        "timestamp": 1781325692
+      },
+      {
+        "files": [
+          "nox/virtualenv.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "c304bea4463011b270ef06ff439ec25a8fa3fa16",
+        "timestamp": 1781325729
+      },
+      {
+        "files": [
+          "nox/sessions.py",
+          "tests/test_sessions.py"
+        ],
+        "sha": "f07b8242edfb750287fd26510b521cbaebfe0d13",
+        "timestamp": 1781325752
+      },
+      {
+        "files": [
+          "nox/manifest.py",
+          "tests/resources/noxfile_empty_parametrize.py",
+          "tests/test_main.py",
+          "tests/test_manifest.py"
+        ],
+        "sha": "fdb5c0702bb7af24c5adf21653054a25b56d06ce",
+        "timestamp": 1781325797
+      },
+      {
+        "files": [
+          "nox/_cli.py",
+          "tests/test__cli.py"
+        ],
+        "sha": "31fdbc5a622f5446fe06bf7431a747c78fdaebb9",
+        "timestamp": 1781325840
+      },
+      {
+        "files": [
+          "nox/_cli.py",
+          "nox/manifest.py",
+          "nox/virtualenv.py",
+          "tests/conftest.py",
+          "tests/test__cli.py",
+          "tests/test_virtualenv.py"
+        ],
+        "sha": "7a02442ced82751b49876f0e7effb1607196f7ec",
+        "timestamp": 1781325873
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 9,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".coveragerc": 0,
+      ".flake8": 1,
+      ".github/FUNDING.yml": 2,
+      ".github/ISSUE_TEMPLATE/bug.md": 3,
+      ".github/ISSUE_TEMPLATE/bug.yml": 4,
+      ".github/ISSUE_TEMPLATE/config.yml": 5,
+      ".github/ISSUE_TEMPLATE/feature_request.md": 6,
+      ".github/ISSUE_TEMPLATE/feature_request.yml": 7,
+      ".github/action_helper.py": 8,
+      ".github/dependabot.yml": 9,
+      ".github/release.yml": 10,
+      ".github/workflows/action.yml": 11,
+      ".github/workflows/cd.yml": 12,
+      ".github/workflows/ci.yml": 13,
+      ".github/zizmor.yml": 14,
+      ".gitignore": 15,
+      ".isort.cfg": 16,
+      ".pre-commit-config.yaml": 17,
+      ".readthedocs.yml": 18,
+      ".travis.yml": 19,
+      "CHANGELOG.md": 20,
+      "CODE_OF_CONDUCT.md": 21,
+      "CONTRIBUTING.md": 22,
+      "MANIFEST.in": 23,
+      "README.md": 24,
+      "README.rst": 25,
+      "action.yml": 26,
+      "appveyor.yml": 27,
+      "appveyor/install.ps1": 28,
+      "appveyor/py.exe": 29,
+      "docs/CHANGELOG.md": 30,
+      "docs/CONTRIBUTING.md": 31,
+      "docs/Makefile": 32,
+      "docs/_static/alice-full.png": 33,
+      "docs/_static/alice.gif": 34,
+      "docs/_static/alice.png": 35,
+      "docs/_static/custom.css": 36,
+      "docs/_templates/fonts.html": 37,
+      "docs/conf.py": 38,
+      "docs/config.rst": 39,
+      "docs/contrib.rst": 40,
+      "docs/cookbook.rst": 41,
+      "docs/index.rst": 42,
+      "docs/tutorial.rst": 43,
+      "docs/usage.rst": 44,
+      "docs/witchhazel.py": 45,
+      "nox/__init__.py": 46,
+      "nox/__main__.py": 47,
+      "nox/_cli.py": 48,
+      "nox/_decorators.py": 49,
+      "nox/_option_set.py": 50,
+      "nox/_options.py": 51,
+      "nox/_parametrize.py": 52,
+      "nox/_resolver.py": 53,
+      "nox/_typing.py": 54,
+      "nox/_version.py": 55,
+      "nox/command.py": 56,
+      "nox/logger.py": 57,
+      "nox/manifest.py": 58,
+      "nox/popen.py": 59,
+      "nox/project.py": 60,
+      "nox/py.typed": 61,
+      "nox/registry.py": 62,
+      "nox/sessions.py": 63,
+      "nox/tasks.py": 64,
+      "nox/tox4_to_nox.jinja2": 65,
+      "nox/tox_to_nox.jinja2": 66,
+      "nox/tox_to_nox.py": 67,
+      "nox/utils.py": 68,
+      "nox/virtualenv.py": 69,
+      "nox/workflow.py": 70,
+      "noxfile.py": 71,
+      "pyproject.toml": 72,
+      "requirements-conda-test.txt": 73,
+      "requirements-dev.txt": 74,
+      "requirements-test.txt": 75,
+      "setup.py": 76,
+      "tests/_test_manifest.py": 77,
+      "tests/conftest.py": 78,
+      "tests/resources/noxfile.py": 79,
+      "tests/resources/noxfile_duplicate_sessions.py": 80,
+      "tests/resources/noxfile_empty_parametrize.py": 81,
+      "tests/resources/noxfile_multiple_sessions.py": 82,
+      "tests/resources/noxfile_nested.py": 83,
+      "tests/resources/noxfile_normalization.py": 84,
+      "tests/resources/noxfile_options.py": 85,
+      "tests/resources/noxfile_options_pythons.py": 86,
+      "tests/resources/noxfile_parametrize.py": 87,
+      "tests/resources/noxfile_pythons.py": 88,
+      "tests/resources/noxfile_script_mode.py": 89,
+      "tests/resources/noxfile_script_mode_exec.py": 90,
+      "tests/resources/noxfile_script_mode_url_req.py": 91,
+      "tests/resources/noxfile_spaces.py": 92,
+      "tests/resources/noxfile_tags.py": 93,
+      "tests/resources/orig_dir/noxfile.py": 94,
+      "tests/resources/orig_dir/orig_file.txt": 95,
+      "tests/resources/pep721example1.py": 96,
+      "tests/resources/sym_dir/noxfile.py": 97,
+      "tests/resources/sym_dir/sym_file.txt": 98,
+      "tests/test__cli.py": 99,
+      "tests/test__option_set.py": 100,
+      "tests/test__parametrize.py": 101,
+      "tests/test__version.py": 102,
+      "tests/test_action_helper.py": 103,
+      "tests/test_command.py": 104,
+      "tests/test_logger.py": 105,
+      "tests/test_main.py": 106,
+      "tests/test_manifest.py": 107,
+      "tests/test_project.py": 108,
+      "tests/test_registry.py": 109,
+      "tests/test_sessions.py": 110,
+      "tests/test_tasks.py": 111,
+      "tests/test_toml.py": 112,
+      "tests/test_tox_to_nox.py": 113,
+      "tests/test_utils.py": 114,
+      "tests/test_virtualenv.py": 115,
+      "todo": 116
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1456286814,
+      "last_commit_ts": 1781325873,
+      "n_cochange_pairs": 439,
+      "n_commits_dropped_as_bulk": 38,
+      "n_commits_used": 737,
+      "n_files": 117
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "6f3564c6ea19f9a5360bf94a324586c6322fc60c",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
