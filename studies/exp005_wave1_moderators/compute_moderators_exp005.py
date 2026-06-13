@@ -146,9 +146,9 @@ def main() -> None:
 
         t_cell = (m1 is not None and m1 > M1_THRESHOLD and
                   m2 is not None and m2 < M2_THRESHOLD)
-        print(f"  {repo_id:30s}  M1={m1:.4f if m1 else 'N/A'!r}  "
-              f"M2={m2:.2f if m2 else 'N/A'!r}  "
-              f"{'T-CELL' if t_cell else 'non-T'}")
+        m1_s = f"{m1:.4f}" if m1 is not None else "N/A"
+        m2_s = f"{m2:.2f}" if m2 is not None else "N/A"
+        print(f"  {repo_id:30s}  M1={m1_s}  M2={m2_s}  {'T-CELL' if t_cell else 'non-T'}")
 
     # Compute T-cell count for console summary
     valid = [r for r in records if r["m1_gini"] is not None and r["m2_density"] is not None]

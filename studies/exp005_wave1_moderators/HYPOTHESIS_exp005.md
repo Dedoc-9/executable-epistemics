@@ -90,7 +90,8 @@ The divergence gap Δ=−0.260 is attributed to cohort selection, not instrument
 ## 7. Compute script
 
 - File: studies/exp005_wave1_moderators/compute_moderators_exp005.py
-- SHA-256: 9abc6bdb91f27a0b10aa9d809608251a15252d642b2407cd5823579f69150695
+- SHA-256: a09a3ea6a1ec39e7dab8b7d453a32cb24f545911d55fbaeebcb0be92a355dff0
+- E-015: display-only syntax fix (pre-execution); §C budget unchanged (3/3)
 - Inputs: studies/population/REPO_DECLARATION.json, results/*/ground_truth.json,
           tests_epi/ clones (for git log)
 - Output: studies/exp005_wave1_moderators/moderators_exp005.json

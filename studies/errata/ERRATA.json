@@ -89,5 +89,16 @@
     "hash": "b3c1e7f2a904d658",
     "corrected_statement": "VENDORED-TREE EXCLUSION for pypa/pip: pip's repository contains src/pip/_vendor/, a subtree of vendored copies of external packages (requests, urllib3, certifi, etc.) not authored or maintained by the pip team. Including this subtree would (a) inject co-change pairs driven by upstream-sync commits rather than pip's own coupling structure, (b) attribute file ownership to maintainers of vendored packages rather than pip contributors, and (c) introduce dep_graph edges between vendored packages that are absent in every other study population member. No other wave-1 repository carries a vendored subtree of comparable scale. To preserve population-level comparability -- the ceteris-paribus condition that makes cross-repo aggregation interpretable -- src/pip/_vendor/* is excluded from the tracked-file set for pip's scoring via --exclude-glob 'src/pip/_vendor/*'. This exclusion is declared BEFORE pip is scored; it was not chosen after observing pip's metrics. The --exclude-glob parameter was already present in run_study.py and corpus_builder.py; no instrument code changes. Classified as commitment-rule calibration (population comparability scope decision), NOT an instrument defect; section-C erratum budget remains at 1 of 3.",
     "supersedes": "REPO_DECLARATION implicit scope assumption (tracked files = all files in repo)"
+  },
+  {
+    "erratum_id": "E-015",
+    "hash": "a09a3ea6a1ec39e7",
+    "erratum_type": "compute_script_display_fix",
+    "study": "EXP-005",
+    "script": "studies/exp005_wave1_moderators/compute_moderators_exp005.py",
+    "hash_old": "9abc6bdb91f27a0b10aa9d809608251a15252d642b2407cd5823579f69150695",
+    "hash_new": "a09a3ea6a1ec39e7dab8b7d453a32cb24f545911d55fbaeebcb0be92a355dff0",
+    "corrected_statement": "DISPLAY-ONLY SYNTAX FIX in compute_moderators_exp005.py: f-string at line 149 used conditional format specifier syntax ':.4f if m1 else N/A!r' which is invalid in Python 3.12 and raises ValueError at runtime. Fix: pre-compute display strings m1_s and m2_s outside the f-string before the print call. The fix affects only console output; no computation is changed (Gini formula, M2 formula, ground_truth parsing, output JSON structure all identical). Discovered at first PowerShell execution attempt, before any moderator values were produced. Filed pre-execution per protocol. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). HYPOTHESIS_exp005.md updated with new script hash.",
+    "supersedes": "compute_moderators_exp005.py line 149 f-string format specifier (display only)"
   }
 ]
