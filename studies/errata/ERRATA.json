@@ -100,5 +100,16 @@
     "hash_new": "a09a3ea6a1ec39e7dab8b7d453a32cb24f545911d55fbaeebcb0be92a355dff0",
     "corrected_statement": "DISPLAY-ONLY SYNTAX FIX in compute_moderators_exp005.py: f-string at line 149 used conditional format specifier syntax ':.4f if m1 else N/A!r' which is invalid in Python 3.12 and raises ValueError at runtime. Fix: pre-compute display strings m1_s and m2_s outside the f-string before the print call. The fix affects only console output; no computation is changed (Gini formula, M2 formula, ground_truth parsing, output JSON structure all identical). Discovered at first PowerShell execution attempt, before any moderator values were produced. Filed pre-execution per protocol. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). HYPOTHESIS_exp005.md updated with new script hash.",
     "supersedes": "compute_moderators_exp005.py line 149 f-string format specifier (display only)"
+  },
+  {
+    "erratum_id": "E-016",
+    "hash": "c23785200e79467b",
+    "erratum_type": "compute_script_encoding_fix",
+    "study": "EXP-005",
+    "script": "studies/exp005_wave1_moderators/compute_moderators_exp005.py",
+    "hash_old": "a09a3ea6a1ec39e7dab8b7d453a32cb24f545911d55fbaeebcb0be92a355dff0",
+    "hash_new": "c23785200e79467bf806f737f0ef651e56f839ff9ae7d2ee92f8d93de1c3c14f",
+    "corrected_statement": "ENCODING FIX in compute_moderators_exp005.py git_author_commit_counts(): subprocess.run() used text=True without explicit encoding, defaulting to cp1252 on Windows. Non-ASCII bytes in author email data (byte 0x9d in matplotlib clone git log output) caused UnicodeDecodeError in the subprocess reader thread, leaving result.stdout as None and crashing at result.stdout.splitlines(). Fix: add encoding='utf-8', errors='replace' to subprocess.run() call, and guard result.stdout is None. Identical defect class to E-011 (instrument locale-default decoding), but E-011 covered only the instrument's encoders and corpus_builder; compute_moderators scripts were not in E-011 scope. Discovered at first full execution attempt after E-015 fix, before moderators_exp005.json was written (output JSON not produced by the crashing run). Filed pre-result per protocol. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). HYPOTHESIS_exp005.md updated with new script hash.",
+    "supersedes": "compute_moderators_exp005.py git_author_commit_counts() subprocess encoding (locale-default)"
   }
 ]

@@ -77,9 +77,10 @@ def git_author_commit_counts(clone_path: Path, after_ts: int, before_ts: int) ->
         ["git", "-C", str(clone_path), "log",
          f"--after={after_dt}", f"--before={before_dt}",
          "--format=%ae"],
-        capture_output=True, text=True
+        capture_output=True, text=True,
+        encoding="utf-8", errors="replace"
     )
-    if result.returncode != 0:
+    if result.returncode != 0 or result.stdout is None:
         return []
 
     from collections import Counter
