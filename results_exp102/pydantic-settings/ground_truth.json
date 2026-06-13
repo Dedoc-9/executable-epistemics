@@ -1,0 +1,3073 @@
+{
+  "chain_hash": "839c776900588b2d",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/dependabot.yml||.github/workflows/ci.yml": 2,
+      ".github/dependabot.yml||.pre-commit-config.yaml": 2,
+      ".github/workflows/ci.yml||.pre-commit-config.yaml": 3,
+      ".github/workflows/ci.yml||pyproject.toml": 5,
+      ".github/workflows/ci.yml||requirements/testing.txt": 2,
+      ".pre-commit-config.yaml||mkdocs.yml": 2,
+      "README.md||pydantic_settings/version.py": 2,
+      "README.md||pyproject.toml": 4,
+      "docs/index.md||pydantic_settings/__init__.py": 11,
+      "docs/index.md||pydantic_settings/main.py": 26,
+      "docs/index.md||pydantic_settings/sources.py": 27,
+      "docs/index.md||pydantic_settings/sources/__init__.py": 3,
+      "docs/index.md||pydantic_settings/sources/providers/azure.py": 3,
+      "docs/index.md||pydantic_settings/sources/providers/cli.py": 6,
+      "docs/index.md||pydantic_settings/sources/providers/dotenv.py": 2,
+      "docs/index.md||pydantic_settings/sources/providers/gcp.py": 3,
+      "docs/index.md||pydantic_settings/sources/types.py": 3,
+      "docs/index.md||requirements/pyproject.txt": 2,
+      "docs/index.md||tests/conftest.py": 3,
+      "docs/index.md||tests/test_settings.py": 26,
+      "docs/index.md||tests/test_source_azure_key_vault.py": 4,
+      "docs/index.md||tests/test_source_cli.py": 11,
+      "docs/index.md||tests/test_source_gcp_secret_manager.py": 3,
+      "pydantic_settings/__init__.py||pydantic_settings/main.py": 7,
+      "pydantic_settings/__init__.py||pydantic_settings/sources.py": 10,
+      "pydantic_settings/__init__.py||pydantic_settings/sources/__init__.py": 2,
+      "pydantic_settings/__init__.py||pydantic_settings/version.py": 2,
+      "pydantic_settings/__init__.py||tests/conftest.py": 2,
+      "pydantic_settings/__init__.py||tests/test_settings.py": 8,
+      "pydantic_settings/__init__.py||tests/test_source_cli.py": 3,
+      "pydantic_settings/main.py||pydantic_settings/sources.py": 22,
+      "pydantic_settings/main.py||pydantic_settings/sources/base.py": 2,
+      "pydantic_settings/main.py||pydantic_settings/sources/providers/cli.py": 9,
+      "pydantic_settings/main.py||pydantic_settings/sources/providers/yaml.py": 2,
+      "pydantic_settings/main.py||tests/conftest.py": 2,
+      "pydantic_settings/main.py||tests/test_settings.py": 29,
+      "pydantic_settings/main.py||tests/test_source_cli.py": 14,
+      "pydantic_settings/main.py||tests/test_source_toml.py": 2,
+      "pydantic_settings/main.py||tests/test_source_yaml.py": 3,
+      "pydantic_settings/sources.py||pyproject.toml": 2,
+      "pydantic_settings/sources.py||requirements/linting.txt": 2,
+      "pydantic_settings/sources.py||requirements/pyproject.txt": 3,
+      "pydantic_settings/sources.py||requirements/testing.txt": 2,
+      "pydantic_settings/sources.py||tests/conftest.py": 2,
+      "pydantic_settings/sources.py||tests/test_settings.py": 74,
+      "pydantic_settings/sources.py||tests/test_source_cli.py": 8,
+      "pydantic_settings/sources/__init__.py||pydantic_settings/sources/types.py": 2,
+      "pydantic_settings/sources/base.py||pydantic_settings/sources/providers/cli.py": 2,
+      "pydantic_settings/sources/base.py||pydantic_settings/sources/utils.py": 3,
+      "pydantic_settings/sources/base.py||tests/test_precedence_and_merging.py": 2,
+      "pydantic_settings/sources/base.py||tests/test_settings.py": 8,
+      "pydantic_settings/sources/providers/aws.py||pyproject.toml": 2,
+      "pydantic_settings/sources/providers/aws.py||uv.lock": 2,
+      "pydantic_settings/sources/providers/azure.py||tests/test_source_azure_key_vault.py": 4,
+      "pydantic_settings/sources/providers/cli.py||pydantic_settings/sources/utils.py": 5,
+      "pydantic_settings/sources/providers/cli.py||tests/test_settings.py": 3,
+      "pydantic_settings/sources/providers/cli.py||tests/test_source_cli.py": 33,
+      "pydantic_settings/sources/providers/dotenv.py||tests/test_settings.py": 3,
+      "pydantic_settings/sources/providers/env.py||pydantic_settings/sources/utils.py": 3,
+      "pydantic_settings/sources/providers/env.py||tests/test_settings.py": 6,
+      "pydantic_settings/sources/providers/gcp.py||tests/test_source_gcp_secret_manager.py": 6,
+      "pydantic_settings/sources/providers/toml.py||tests/test_source_toml.py": 2,
+      "pydantic_settings/sources/providers/yaml.py||tests/test_source_yaml.py": 2,
+      "pydantic_settings/sources/utils.py||tests/test_settings.py": 7,
+      "pydantic_settings/sources/utils.py||tests/test_source_cli.py": 6,
+      "pydantic_settings/version.py||pyproject.toml": 2,
+      "pyproject.toml||requirements/linting.txt": 3,
+      "pyproject.toml||requirements/pyproject.txt": 10,
+      "pyproject.toml||requirements/testing.txt": 4,
+      "pyproject.toml||tests/test_settings.py": 4,
+      "pyproject.toml||uv.lock": 4,
+      "requirements/linting.txt||requirements/pyproject.txt": 6,
+      "requirements/linting.txt||requirements/testing.txt": 7,
+      "requirements/linting.txt||tests/test_settings.py": 2,
+      "requirements/pyproject.txt||requirements/testing.txt": 7,
+      "requirements/pyproject.txt||tests/test_settings.py": 5,
+      "requirements/testing.txt||tests/test_settings.py": 2,
+      "tests/conftest.py||tests/test_settings.py": 4,
+      "tests/test_settings.py||tests/test_source_azure_key_vault.py": 2,
+      "tests/test_settings.py||tests/test_source_cli.py": 6,
+      "tests/test_source_json.py||tests/test_source_toml.py": 3,
+      "tests/test_source_json.py||tests/test_source_yaml.py": 3,
+      "tests/test_source_toml.py||tests/test_source_yaml.py": 3
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore",
+          "LICENSE",
+          "README.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/version.py",
+          "pyproject.toml"
+        ],
+        "sha": "35a6006f9b6fd9f2810683fbe074ffee68f201bb",
+        "timestamp": 1662482680
+      },
+      {
+        "files": [
+          "pydantic_settings/__init__.py"
+        ],
+        "sha": "891d4c4964cc4b23882a75a0a57c09bbdbeaca22",
+        "timestamp": 1662550556
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "79571e35277195c7070f40a1bec2ffb60c2454c1",
+        "timestamp": 1662551079
+      },
+      {
+        "files": [
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "0ecac227b2814983f426bd1d8b4b3d60dbffac8b",
+        "timestamp": 1681663454
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "7ef842ad77896994ec28efaded6830060bf8d069",
+        "timestamp": 1682372362
+      },
+      {
+        "files": [
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/version.py"
+        ],
+        "sha": "a522afe596429121ca695fc46e0c4bdd35a46477",
+        "timestamp": 1682372666
+      },
+      {
+        "files": [
+          "pydantic_settings/__init__.py"
+        ],
+        "sha": "28d950ecbd2f2466ef12aa529ad3e52a8cad452c",
+        "timestamp": 1682372722
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "99a4f57a20ff09e0a1ba75f24d6bc1f91502bf32",
+        "timestamp": 1682372924
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "e27d3948cc9756588bf325922e19227b94361f38",
+        "timestamp": 1682374414
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "99855d7c366c60664445799c34bc3a821ebe7ec1",
+        "timestamp": 1682375133
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "README.md",
+          "pydantic_settings/version.py",
+          "pyproject.toml"
+        ],
+        "sha": "18e23be90626d16ff36724441c55b0f5085dd11c",
+        "timestamp": 1682377572
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "edf2065fa2a6a6602c25fef81e29fdc9d70c0811",
+        "timestamp": 1682377651
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "ed64cfe9c55304ef6554a18d7803d5779fd071c5",
+        "timestamp": 1682377820
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "eb6ed3236c69c0c4366935c7803fb89974af1c37",
+        "timestamp": 1682441452
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "607f1e82b259f9f2ba2f0a78f61f5d2153582b86",
+        "timestamp": 1682576269
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "6d9c1a2f21b4f5ad322d84d71ca2fea33d05abc8",
+        "timestamp": 1682576431
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "4d82c97ea72a3a561964236a00802ee6546619db",
+        "timestamp": 1682588668
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "0ac8e81a9c55f3e8882e694a7de784d1c193d1d5",
+        "timestamp": 1682591779
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "e10b1c9db566cb72086f860c83b06aba99fdb3a7",
+        "timestamp": 1682598004
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "0ff45eac3257e40565697d42e6d72f36aac947dc",
+        "timestamp": 1682671475
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "5a32c87b29f24565a0e4248f065103ced8456eea",
+        "timestamp": 1682811717
+      },
+      {
+        "files": [
+          "pydantic_settings/py.typed"
+        ],
+        "sha": "8e9236da66da1cd971880edc595aed7dbfce76a5",
+        "timestamp": 1682960351
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "45f63f9d28ae01e8f37d82627b0b5466e85ff507",
+        "timestamp": 1683047313
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "4d0a83e56e0d525ed08f7e6bc1ce2f21e9b26454",
+        "timestamp": 1683117827
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "3d5dbd8f8baa648cb65bc6fb4fc1958d8064eab9",
+        "timestamp": 1683198050
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "9d8c9a185f9ddca057fff696033bafd63365e0c2",
+        "timestamp": 1683293590
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "d435ffe3fba2a439257605f61f30a7b8ee117c20",
+        "timestamp": 1683888094
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "pyproject.toml",
+          "requirements/linting.in",
+          "requirements/linting.txt",
+          "requirements/pyproject.txt",
+          "requirements/testing.txt",
+          "tests/test_settings.py"
+        ],
+        "sha": "142b9cf77711d24dd757dd1d5b1ba71ce16585b2",
+        "timestamp": 1683995539
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "requirements/pyproject.txt"
+        ],
+        "sha": "dc9efb39b1c4fbf0d8797f9522819a835c3b7452",
+        "timestamp": 1684235953
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "130765614aafd776a460e063f53d2803eb0b5701",
+        "timestamp": 1684745916
+      },
+      {
+        "files": [
+          "requirements/linting.txt",
+          "requirements/pyproject.txt",
+          "requirements/testing.txt"
+        ],
+        "sha": "56ba90adb6f42cccc1b219110a7204addb4c038b",
+        "timestamp": 1685210962
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pyproject.toml",
+          "requirements/pyproject.txt",
+          "tests/test_settings.py"
+        ],
+        "sha": "d21c82a68b8dc2e94027f27401f8422c87847eb1",
+        "timestamp": 1685702693
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "74a4ff00f4b236d78125fca1b13d5399de80a6b5",
+        "timestamp": 1685703530
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "bb80292869acd69aacd057281e69fcf6f6fa429d",
+        "timestamp": 1685707325
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "docs/extra/terminal.css",
+          "docs/extra/tweaks.css",
+          "docs/favicon.png",
+          "docs/logo-white.svg",
+          "docs/theme/main.html",
+          "mkdocs.yml"
+        ],
+        "sha": "12304feabfd115f7ee488d58be04f4a4787f3dd0",
+        "timestamp": 1685714969
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "e94f7b15c6ef2452e92509a58124147d5664857d",
+        "timestamp": 1685964998
+      },
+      {
+        "files": [
+          "mkdocs.yml"
+        ],
+        "sha": "435a1360bed877cdc101c9a34dc54811ad3da7d2",
+        "timestamp": 1685976495
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "c05410f4bd380fa2769bb9a674d32db0f2353d0f",
+        "timestamp": 1686235882
+      },
+      {
+        "files": [
+          "pydantic_settings/__init__.py"
+        ],
+        "sha": "d4a7201166c34692525eea1601a9f612ee26f418",
+        "timestamp": 1686674356
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "mkdocs.yml",
+          "pydantic_settings/main.py"
+        ],
+        "sha": "dba60fe0336f6c1759f579b4080f195f0f9f3032",
+        "timestamp": 1686742910
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "b08fa5bef3d02754adb15ebf0e69356051398f51",
+        "timestamp": 1687163186
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "requirements/pyproject.txt"
+        ],
+        "sha": "3e93d17cd2d5bebf3925ad50c5d72e3314f9b3ec",
+        "timestamp": 1687446102
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "a6f6d60cb5cb1df06418c5887b83f20d48d47e36",
+        "timestamp": 1687532672
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "0de9febd28e7cb2f14e3fd2473a632a993b85d21",
+        "timestamp": 1687532720
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "39383a39b98d0ca6a51a14f77e307fcaaa263c07",
+        "timestamp": 1687536056
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "1cf2073d6b80e3896a35fad8ded29d5031fbacd5",
+        "timestamp": 1687765917
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "584a57b1c0b9833b130af59f4801ed5c093e04b0",
+        "timestamp": 1687770023
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "8c51e7a17c03ff1f2a6e777fbd548d0840bf4788",
+        "timestamp": 1687862562
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "107e8def2c0cc6d187bfdece1ab3200e26f3a908",
+        "timestamp": 1688123955
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.md",
+          "pyproject.toml",
+          "requirements/pyproject.txt"
+        ],
+        "sha": "aa24ff524e6c1bb066e33addaf3f2e21462b8df1",
+        "timestamp": 1688458803
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py"
+        ],
+        "sha": "474ed0ad11e8df9307ad9805b632bb79e32a34fd",
+        "timestamp": 1688463186
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "3c4613d8acd69d7e4638520e225760a9a9630d70",
+        "timestamp": 1688471293
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "3f613ae9461c409968c39c6d04bc8f7cf1148294",
+        "timestamp": 1688537813
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "requirements/pyproject.txt",
+          "tests/test_settings.py"
+        ],
+        "sha": "1e79acc4d887b4fb02c3449d035ad7080abd0018",
+        "timestamp": 1688544929
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "373af71ae8ac0d2c3530857ce51ef28c9e9178d2",
+        "timestamp": 1688558313
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "994f4ec8e0e43fd3e4237a5dfd664239c0bf127b",
+        "timestamp": 1688566821
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "026ce3f10a38ada032eebf13a0dae561e84a7b58",
+        "timestamp": 1688718025
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "2303f50f48cf59cda30e245b52cfdd9bf2f861e9",
+        "timestamp": 1688733056
+      },
+      {
+        "files": [
+          "tests/test_settings.py"
+        ],
+        "sha": "1da9fab5c8e0ce7eb8579a1ba899bff17fddd213",
+        "timestamp": 1688986104
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "5912eb07238239e523eaccdc5635184c77c887a9",
+        "timestamp": 1688992769
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "14ea54c3e77a3d2ff3ee547cb65a98f98a2e783f",
+        "timestamp": 1688994932
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "5af2188f70a731818e6974478a33335bebf1e31b",
+        "timestamp": 1688999013
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "b7478d6a5120b99ea5a7c9a6ee51a5adea106ca3",
+        "timestamp": 1689168889
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "2572a1856ff0963400e5a016a8c3a9c4eb29e1ff",
+        "timestamp": 1689172614
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "5acbdeba34fe3531273a9f29c12cdc418fae655c",
+        "timestamp": 1689283440
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "7ebb3bf57ded76a5339de242073586edeb9572ec",
+        "timestamp": 1689330897
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "04ec4c7814bdfe7a880db7ff423e9aa306dbedc7",
+        "timestamp": 1689337251
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "e6417b4f601531c8869cedc10dccbd0008684240",
+        "timestamp": 1689753735
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "5933ea6ca51d58342378eed5db12d3f6f6dee8df",
+        "timestamp": 1691478459
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "6f12222d8a0c75162167c13a4bb2af5a81b94401",
+        "timestamp": 1692024649
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "e100905a12cc8ba0cf5fbc21274eeb09f002fe40",
+        "timestamp": 1692455899
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "919a20b77527ecc1cd6eeb0a09ca22cc21486fb8",
+        "timestamp": 1692697162
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "0226fe2deab7896a952f6b7a53dd13d92c8a5540",
+        "timestamp": 1693826478
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "4f794c7442a3c71d6d3280c888cdd8c288350543",
+        "timestamp": 1693843003
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "3205f8111f039ee8a2377c198d8fa6d72a984844",
+        "timestamp": 1694590121
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "e62e3cfa075dfc0aba1497dbb962fa1e5c3664ca",
+        "timestamp": 1695031302
+      },
+      {
+        "files": [
+          "README.md",
+          "pyproject.toml"
+        ],
+        "sha": "2d8d5be1adaac54b11a0199f1651f1a450a381d5",
+        "timestamp": 1695407210
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "e529615c3b3d8fe98f42a9e6a1ce3891a0aba3a4",
+        "timestamp": 1696176137
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "b850ad1506594eb515bf54042ca076978b4663e1",
+        "timestamp": 1699262146
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "pyproject.toml",
+          "requirements/pyproject.txt",
+          "requirements/testing.txt"
+        ],
+        "sha": "ca7183c7ca28ade35e847f48694eff7b0a9f2a3e",
+        "timestamp": 1699437268
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".pre-commit-config.yaml",
+          "pyproject.toml",
+          "requirements/linting.txt",
+          "requirements/testing.txt"
+        ],
+        "sha": "e70e89221fa7986b95b7d815fcd1f2c25315b492",
+        "timestamp": 1699962413
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "15ef2a9c947d011c16a40ef115bf90fcceaebd1d",
+        "timestamp": 1699966041
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "requirements/pyproject.txt"
+        ],
+        "sha": "ba7cb7c0b9f9cc79bcb6b127f9a9d57538fabda9",
+        "timestamp": 1701165301
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "1d6950f37ce98b3ff3f7a8fe506359e64b068041",
+        "timestamp": 1701168156
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "4f24fad3609fe046b4755c67d11e361825afc9eb",
+        "timestamp": 1702294345
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "2784a7013d0bccb5c76c2db78befe0c266baac55",
+        "timestamp": 1704460875
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "9c26c1eeb482e7f0d1dc10a9537ac5370f4b4e21",
+        "timestamp": 1704490903
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "cc6dc25e2681b72d6305881e4471cec2b76f6c17",
+        "timestamp": 1704891539
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "a6f6fa45454042b99f85b6de0e6a54ab6489a070",
+        "timestamp": 1706195273
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "40230abbd05aa0f948ff0ecdbf266217984f6e9b",
+        "timestamp": 1706281896
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "0a0067819dcb4f8f267e71c6a8a75f47618fcbd7",
+        "timestamp": 1706619368
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "15b66df53b37c29bc943295f87c430db35ac2108",
+        "timestamp": 1708098835
+      },
+      {
+        "files": [
+          "requirements/linting.txt",
+          "requirements/pyproject.txt",
+          "requirements/testing.txt"
+        ],
+        "sha": "cde78d8ce60b39c5bfb7417ab9233467efbafaca",
+        "timestamp": 1708103356
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "965d1b4acad65cc7eff7b588d470bd6fddaf98f0",
+        "timestamp": 1708104498
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "859805ac895dfc85fbd2659f120d6924ac312e6c",
+        "timestamp": 1708334194
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "3652fbdad9e0f7c1d136a34846f0c2e68797683c",
+        "timestamp": 1708341626
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "b3a67e92d6d4f58d35c47732fec34d7cda9d7df2",
+        "timestamp": 1708365593
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "7e5731ab501e442f4716be69f4238d4d55e20666",
+        "timestamp": 1708372023
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "e129a817c61034dbe85c82300fd619aae4f034e1",
+        "timestamp": 1710181783
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "a853a132cfeeb69b72c8c9f0378f860e9becfd3f",
+        "timestamp": 1711530179
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/conftest.py",
+          "tests/test_settings.py",
+          "tests/test_source_azure_key_vault.py"
+        ],
+        "sha": "c2fd92ffa74b14ed38fd8fcb1f77d087ca4a960e",
+        "timestamp": 1711617282
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "c5c52e96b743fedecfcbb4f06520fd892f94419c",
+        "timestamp": 1713428189
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "requirements/pyproject.txt",
+          "tests/test_settings.py"
+        ],
+        "sha": "dadba61e3527f96c4e050fc37a19cfd6a6c38b46",
+        "timestamp": 1713734145
+      },
+      {
+        "files": [
+          "Makefile",
+          "pyproject.toml",
+          "requirements/linting.txt",
+          "requirements/pyproject.txt",
+          "requirements/testing.txt"
+        ],
+        "sha": "a7b0978069fdad9fbd21eab6f440054fa0cf3e12",
+        "timestamp": 1713769545
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "a4aadfd9818fc1ea51bc8f0e84573b136a94e735",
+        "timestamp": 1713869231
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "2d2f94f51f6f10d61334f0dbe257fc9664b75af3",
+        "timestamp": 1713874173
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "1ffbd95579ce4926af095793d4a03c7baf6680a7",
+        "timestamp": 1713946770
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "09d10094d97425853829c2971051a561ccd4a2d2",
+        "timestamp": 1714209423
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "8c5a45e43cca4e88a6d65fcb280529499fc6200a",
+        "timestamp": 1714761158
+      },
+      {
+        "files": [
+          "tests/test_settings.py"
+        ],
+        "sha": "6d25cee4bb7a6db592ca0da123c53f3d775cd1e1",
+        "timestamp": 1715269059
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "e0667746e33bd45cebcb1fb6634d5b2fc834f0bb",
+        "timestamp": 1717011623
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "416981436abc7cdc88c00d030fa39e49a3a80b26",
+        "timestamp": 1717425203
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "bcbfd17affa5a90663c9afc5a7dc67b281a728dc",
+        "timestamp": 1717426334
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "ad07a575e3a3e35a0fc7a7714cc3609863699032",
+        "timestamp": 1717591647
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "39d5e816e97f129dbd8f86c4d35e0b8b1171b720",
+        "timestamp": 1717600199
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py"
+        ],
+        "sha": "813ac94d20fe40f4bb8158ebaaab592b29869dc9",
+        "timestamp": 1717857720
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "0a9faca91e9503afbcb8fdd652114f9f69ba13b0",
+        "timestamp": 1718004331
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "b2e84c2729d73ee2f1ab7962398003d933c5227a",
+        "timestamp": 1718095383
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "b5d4534cdcddb1bb99258d88a0e6d1f16e6788f4",
+        "timestamp": 1718108342
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "abe7cc5e3268a9093def94917bc581c31ba74f20",
+        "timestamp": 1718264521
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "bd294a4b1ed49357446a38765af302d14b94bcc6",
+        "timestamp": 1718265842
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "f1b82d834abfed0aa2c263d88bc017c0ea1530af",
+        "timestamp": 1718266120
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "c2d44a7723a00f75ba6790cc654aaa507a7ab123",
+        "timestamp": 1718695782
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "7ede0ec18c5678dfa1212e6e8d6d7c6489ac7d78",
+        "timestamp": 1718891756
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "674ebd9cbeb5b9535bcfc5cdabbbe69518b10c52",
+        "timestamp": 1719243967
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "fe1f9509da2a1951167666b92fa2083ff2ea35bf",
+        "timestamp": 1719244258
+      },
+      {
+        "files": [
+          "tests/test_settings.py"
+        ],
+        "sha": "fa17c0ad2b0c30bb3d87db29ee5c9b1e64137869",
+        "timestamp": 1719818992
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "d6db0f9674b02cd9c5cf9a6eb14c8a1523ec7b8c",
+        "timestamp": 1719910288
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "229319c97061e2b4e88d8d1061a08e64eba1020f",
+        "timestamp": 1719995110
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "8b8803d7de648da28c174c31b7872fcbdf616ed1",
+        "timestamp": 1720360794
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "6ffd6bd8950b56a1d277b24e5872d42638296898",
+        "timestamp": 1720624128
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "4840d69da15ffca3063b866679fdabedc62f350c",
+        "timestamp": 1721377031
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "5cc686ac1ca1acbc3a65feaa6ee65a01a6bb590d",
+        "timestamp": 1722336411
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "requirements/linting.txt",
+          "requirements/pyproject.txt",
+          "requirements/testing.txt"
+        ],
+        "sha": "d8e00c851db6b625286cae55a6328fa3fa7ea1d5",
+        "timestamp": 1722523228
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "c28b43d6a78a439c76b956c102cb3d8fa57c0212",
+        "timestamp": 1722586028
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "dc325c3d238d81b9ee21663a83708d88c829a03d",
+        "timestamp": 1722848310
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "a293adadcdb991eb241d80584ce35bc3b9bdd218",
+        "timestamp": 1722848603
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "5c3a817636bfde698f03fe4d653f85947a011d50",
+        "timestamp": 1723215376
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "8fb9abb29db80a2f44251350025c015fb94ee785",
+        "timestamp": 1723543866
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "136c2c73aedb241db52ae967bc7ae146cb92de65",
+        "timestamp": 1724151138
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "0145d7e561e75f4f0badb07654e5d96705e101b2",
+        "timestamp": 1724250488
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "462d2616afca7c51b254d5deac4a8f43dbbab687",
+        "timestamp": 1724406400
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "235dd027bb2ea9c2994f7657a907b6ece0c64e83",
+        "timestamp": 1724409024
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "cabcdee8f8bc2074e608cc2a3e1766a4d4bc7b44",
+        "timestamp": 1724683230
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "47924f54a9254501956334a1a43ef9295baa68ef",
+        "timestamp": 1724744225
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "818d56e6df0db03d3c86cddbbfcc4e8f6a72f27b",
+        "timestamp": 1725298101
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "94f3a90950f4dd9d574b047e7c2cff30ee3b456d",
+        "timestamp": 1725729095
+      },
+      {
+        "files": [
+          ".gitignore",
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "12d85cf521bf2b07939241bf33f17d14d906623f",
+        "timestamp": 1725729994
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "a9eb22e4f4f6bb71b92783550b6db18b41eb805e",
+        "timestamp": 1725871552
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "287cb22f2f2ed43e7d6ef0e1b6277886257751ba",
+        "timestamp": 1725967301
+      },
+      {
+        "files": [
+          "requirements/linting.txt",
+          "requirements/pyproject.txt",
+          "requirements/testing.txt",
+          "tests/test_settings.py"
+        ],
+        "sha": "6ae24e51139707ffb7ca37f54464538b7b4de64f",
+        "timestamp": 1725971181
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "7353e5b36949649e1cd08fb03fafc9584a9b9380",
+        "timestamp": 1725977425
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "3eff625d352d9c971d1f351767e25a08351c3ebb",
+        "timestamp": 1726038946
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "b2c0ee2389d824b93745ffed8c0c562800942347",
+        "timestamp": 1726039149
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "81d7c468aa45a2c0da7d032a6a344f174bc83fd7",
+        "timestamp": 1726045247
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "79090e2bfb11f05591405036ce52f2264467b26f",
+        "timestamp": 1726045429
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "fa2188442404054e262666e31c21491f9cf19f60",
+        "timestamp": 1726138048
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "b6805316aa6e1a04ddf129bf37ab9db9811663ac",
+        "timestamp": 1726490300
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "7e7ccdbc7b27d3f3d292d35a3b5033ef740fd6f7",
+        "timestamp": 1726591821
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "b67b33502529b9900ffb2d5d271da366630fa11b",
+        "timestamp": 1726839229
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "9b73e924cab136d876907af0c6836dcca09ac35c",
+        "timestamp": 1727023910
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "fdd666bf94362f2303492369c0646f82fbdcbc4e",
+        "timestamp": 1727091086
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "84cab2b4b9671d0f0413302da187daf84818168c",
+        "timestamp": 1727105076
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "76ba2c69c6bc77e96192aa460418b465f4b6782a",
+        "timestamp": 1727205003
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "f3a25f2f26e2bfba74e65bab820001dd462d8fa8",
+        "timestamp": 1727421187
+      },
+      {
+        "files": [
+          "tests/test_settings.py",
+          "tests/test_source_azure_key_vault.py",
+          "tests/test_source_cli.py",
+          "tests/test_source_json.py",
+          "tests/test_source_pyproject_toml.py",
+          "tests/test_source_toml.py",
+          "tests/test_source_yaml.py"
+        ],
+        "sha": "8f7653caca4421ca9577211ef9be1b2377c69574",
+        "timestamp": 1727716256
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "0d605d076553452f67141f00e5dc873aa06c5b01",
+        "timestamp": 1727862390
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/sources.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "d2e498a8f9f9709747dd52aab1da24130df9a554",
+        "timestamp": 1728309914
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "a72fa7383f4436148db01595b2993b846c91d3fc",
+        "timestamp": 1728382036
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "eeea9894b7d310676ff56592c4b5fdffed93004d",
+        "timestamp": 1729161530
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "pyproject.toml"
+        ],
+        "sha": "e2120526f097bdb4ceae8e4b3b4f9bd3b1c0e107",
+        "timestamp": 1729427682
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "93d7b7be0446523df797ac0c87e49ad5836dae09",
+        "timestamp": 1729540917
+      },
+      {
+        "files": [
+          "pydantic_settings/utils.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "a37d07cad8ff9ca0f5db856adfe05fd0bd3b0981",
+        "timestamp": 1730362827
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "e73b349e3b9b0d40b599b1314d6759abaa2ab87c",
+        "timestamp": 1730457871
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "24416709ae9c5569dde1cac2830e938878684d13",
+        "timestamp": 1730458378
+      },
+      {
+        "files": [
+          "tests/test_settings.py"
+        ],
+        "sha": "b2c979c0a7aa4f5c72c6f8c3ccc626b19d3506fb",
+        "timestamp": 1730644975
+      },
+      {
+        "files": [
+          "tests/conftest.py",
+          "tests/test_settings.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "0922bc14347e2d864a6f72a5577abd23ba407187",
+        "timestamp": 1730724997
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "b4efcd373577e7b87d868ee9da7d867263e180a2",
+        "timestamp": 1730907828
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "95838962974450fca2c24f7258bac7b3ebcb4628",
+        "timestamp": 1730924053
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_source_json.py",
+          "tests/test_source_toml.py",
+          "tests/test_source_yaml.py"
+        ],
+        "sha": "87ad4db139aa86070dc0c0e6f9251e46ea42d8a1",
+        "timestamp": 1730924830
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "11a817c777c94399fe637a77f3e8c7b016232458",
+        "timestamp": 1731061142
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/sources.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "b4ece52380d7c2c22033fb1ecc898eb1d3e4ec25",
+        "timestamp": 1731329296
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "e8a15b029b258ddd982f29d15ce6838a40ee8ae8",
+        "timestamp": 1731423325
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "6fe3bd1e35ff3854808f57e099484317f7063238",
+        "timestamp": 1731939822
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "a0924bcd978e7b784441beb05342c5f0420fd993",
+        "timestamp": 1732698004
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "a903697d2319543ee0536eac0ff2e1b855a6577b",
+        "timestamp": 1733127016
+      },
+      {
+        "files": [
+          "tests/test_source_azure_key_vault.py"
+        ],
+        "sha": "3f831e9ab9da8e10e8ab9dd4d1458103b722b458",
+        "timestamp": 1733136933
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "0b3e73d34653a9a9c254c038d87a333cd2be4e1a",
+        "timestamp": 1733159161
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "7bcb6edba2f683c83419283f977a7d16ec4c3b64",
+        "timestamp": 1733233276
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "2f498febeffa05223686b321806f84ad64821047",
+        "timestamp": 1733517576
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "3667aed73b8f52f33d4ef4ee87b8321c18fa81c2",
+        "timestamp": 1733754167
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "b8968a75aa2785049c195490fe342ffad2c8b10c",
+        "timestamp": 1734079268
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "95fae540c5e406ddefc55c9c85043f1c64079b21",
+        "timestamp": 1734082636
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py"
+        ],
+        "sha": "66ecc3adecdbeaca7d81c5e19f9ec5fbace52253",
+        "timestamp": 1735632981
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "c989335d268c81026a99e3370907e0d311cceec2",
+        "timestamp": 1735644181
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "e2cbb2da21c0efa945460c548b2cced12f05108b",
+        "timestamp": 1736771111
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "65929cd1f5356b967456ac1b4f78e929fe04d398",
+        "timestamp": 1736774421
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources.py",
+          "tests/conftest.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "ccf99b2d78803f001930ef11e7ebefb1ec30d173",
+        "timestamp": 1739261479
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py"
+        ],
+        "sha": "537f7514aa998eaa5856af162681a80d15d60812",
+        "timestamp": 1739953526
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "7835118fbdc7dc464093a0a82a4526c644cbddc2",
+        "timestamp": 1739954578
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "4b6fd3d0968bfabffb8dd7c413b4e13ac35bd3d9",
+        "timestamp": 1739955027
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "f76c7fef4e99ca687923b4f9e2fd544607b5f2b2",
+        "timestamp": 1740124832
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "1a4f3f43f96b1a8e973ede1e6e327af577a179e3",
+        "timestamp": 1740415535
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py"
+        ],
+        "sha": "21e6b23cb768a258203a24034b5566fe2c8dd922",
+        "timestamp": 1740645345
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py"
+        ],
+        "sha": "fa64a4eebbf812cda0bfb83d95bd20b575a9ba14",
+        "timestamp": 1740650274
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "5f33b6205608ccd51828cf52656b9b37f6c79db8",
+        "timestamp": 1740650796
+      },
+      {
+        "files": [
+          "pydantic_settings/sources.py",
+          "pydantic_settings/utils.py",
+          "pyproject.toml",
+          "requirements/pyproject.txt"
+        ],
+        "sha": "e5fb741ecb0ccb57e390218b4fbb19a34cebdc29",
+        "timestamp": 1740755188
+      },
+      {
+        "files": [
+          "README.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_settings.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "46dcbd5e97ca693639e262d9d90cde45c12a5715",
+        "timestamp": 1741683317
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py"
+        ],
+        "sha": "01407c03ad990d89a180b5761c2e10dbc159f72f",
+        "timestamp": 1741684048
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "3b83fc283ccd69e03201fc4f9ca62df9deb27aeb",
+        "timestamp": 1744019937
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/azure.py",
+          "tests/test_source_azure_key_vault.py"
+        ],
+        "sha": "d54d1462466761880a1aa7dc417c3afdf7c82459",
+        "timestamp": 1744028950
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "0e9b329c74549144e669a8a167fc5cdd0ae6c3b4",
+        "timestamp": 1744639688
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/env.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "e9fb3164ebf2fc0414d7fbd6b194e6f485dcba69",
+        "timestamp": 1744642368
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "ed7fd42bfb1fd0f0cd22de1182fcf5a488a4ca35",
+        "timestamp": 1744644866
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/sources/__init__.py",
+          "pydantic_settings/sources/providers/cli.py",
+          "pydantic_settings/sources/types.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "20640b0efe9db1b94e8e9461d1662f7c2202fe56",
+        "timestamp": 1744704526
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_source_json.py",
+          "tests/test_source_toml.py",
+          "tests/test_source_yaml.py",
+          "uv.lock"
+        ],
+        "sha": "f3e5ac382c9318e465012f60adda22919c01d1c7",
+        "timestamp": 1744890091
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "0ac2312042cfa780ef5bb37e906624ebe0e3c76e",
+        "timestamp": 1744961964
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "8c0f5f18b08175a1f03e3db5027948a4d53093a7",
+        "timestamp": 1744963205
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/__init__.py"
+        ],
+        "sha": "e973d9afc8fbfeaaddca466f10d56e7671e67abd",
+        "timestamp": 1744969556
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/gcp.py"
+        ],
+        "sha": "88e77bc8aab234b1eba50f13999e5eff4bd69f8d",
+        "timestamp": 1744974171
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "18747409238dbba5c4ba9779c46353648f79f7ca",
+        "timestamp": 1744990423
+      },
+      {
+        "files": [
+          "tests/test_source_azure_key_vault.py"
+        ],
+        "sha": "871f6bef3c615907dba355b7a3c170ef38b533d3",
+        "timestamp": 1745223921
+      },
+      {
+        "files": [
+          "tests/test_source_gcp_secret_manager.py"
+        ],
+        "sha": "2ac8eacdb95bf753cde88ec46c63d0dd89eb53f7",
+        "timestamp": 1745224770
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/providers/yaml.py",
+          "tests/test_source_yaml.py"
+        ],
+        "sha": "dff3f02186fc28c09de625c887eb0e79c7769053",
+        "timestamp": 1745232811
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "d0d0f0e62e695c9eccc7aeb52b869e73b8de9567",
+        "timestamp": 1745243423
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/__init__.py"
+        ],
+        "sha": "139ac3e1f63692b0c28cb7a62ad81e79897590be",
+        "timestamp": 1745405802
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "212784c47c0bb04d46961e6ff9c1be700ba90562",
+        "timestamp": 1745421181
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources/providers/azure.py",
+          "tests/test_source_azure_key_vault.py"
+        ],
+        "sha": "4c8520ab04b90c44e2b1179d7a4b3eb58e1b2235",
+        "timestamp": 1746004211
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "fc5409c5669e0dd59fbb42f16a14ffee3604c21e",
+        "timestamp": 1746092737
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "41d4d3d4c2e403955ff52df899ec6405bf75dc92",
+        "timestamp": 1746174982
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "c061fbd9230196492d5a15a708356ab28d02ba41",
+        "timestamp": 1746175285
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "568ad2e094a2b5fcbf27bd3f63db53244ab3f53d",
+        "timestamp": 1746692799
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "9fe9fe6b22bf2dcd5d2f02fdf5f236c7dd7d42af",
+        "timestamp": 1746693983
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "7a04132ff27328b16689beff41d20afe1cf1165f",
+        "timestamp": 1746706211
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "ca4ff9f96fc22396647ab878e5b87458ae0fde2f",
+        "timestamp": 1747738020
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/aws.py"
+        ],
+        "sha": "e9f7994872ebcd7a284d98d0ed501cc314a6a7fa",
+        "timestamp": 1748430536
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/gcp.py",
+          "tests/test_source_gcp_secret_manager.py"
+        ],
+        "sha": "159ef14dc1d299a29992283060d038cf6e6d3b56",
+        "timestamp": 1749479250
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py",
+          "pydantic_settings/sources/providers/cli.py",
+          "uv.lock"
+        ],
+        "sha": "e1629080542ffab481030a7a100b820556f2695f",
+        "timestamp": 1750419768
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "180e74e324d8418e22b5dcb196fd6390fa964537",
+        "timestamp": 1750430342
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/aws.py",
+          "tests/test_source_aws_secrets_manager.py"
+        ],
+        "sha": "1ee66248adeff298d7f37b08c2dfb07f8562f08e",
+        "timestamp": 1750510126
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "910b1b1e0c30af39e10a3703e78b1e5943cde491",
+        "timestamp": 1750514030
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py"
+        ],
+        "sha": "697aaa621eb184a51e2e2729d8146b5ef4b2b7cc",
+        "timestamp": 1750664200
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "36b8bfed902cce5d870fe09688014902d3894cab",
+        "timestamp": 1750669890
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "6bae3ab4fb321434feca35d120f05509d5c4ac55",
+        "timestamp": 1750770868
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "9380bc653d0d5b712ea85230608854d898947ec8",
+        "timestamp": 1751269861
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py",
+          "pydantic_settings/sources/utils.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "50dedf7bbb18892f0ac46e79d85330e921cef614",
+        "timestamp": 1751816573
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "8215eac15f49d6c4a201151967b12e97c69bcacd",
+        "timestamp": 1752747737
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "284f88eeb6c708525ea1200216d57f93ad4e10fb",
+        "timestamp": 1752759009
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "3a2b7b45c651baefd964cd401f03d953368cbae0",
+        "timestamp": 1752759175
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "be118241093aedf4029254b19ad3dedd41fd43f5",
+        "timestamp": 1753039305
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/types.py"
+        ],
+        "sha": "0814553b142602f62e5f5b2bb10733ffda70d5fa",
+        "timestamp": 1753081898
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/dotenv.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "1fc20873d208979dfac0fa336f99fc05c0562ae8",
+        "timestamp": 1753364094
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "1967d6f5c18db30ddbcffe4856ea941a71189abc",
+        "timestamp": 1754051740
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/aws.py"
+        ],
+        "sha": "53ade971d122b9fef88da85a8ff489180e06c796",
+        "timestamp": 1754497661
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "d81f8d861d01eff563b8b91a1694d48b6eade92e",
+        "timestamp": 1754896455
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/providers/cli.py",
+          "pydantic_settings/sources/utils.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "a164b73fcf8d802c1a7db7c6d9d830f11b70244e",
+        "timestamp": 1757277992
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "9c6c9b55e27ab78e48eaa570965c6e52c32c9f38",
+        "timestamp": 1757682563
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources/providers/azure.py",
+          "tests/test_source_azure_key_vault.py"
+        ],
+        "sha": "c22cef44ff7d3ca058eee188bf1967650146fcda",
+        "timestamp": 1758179893
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "0497ef23314dbd63ea41d07ab9c301e628f2f9f9",
+        "timestamp": 1758557090
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "44fb5b7a97ed82d09d3895bee49b82ae4ac55fd9",
+        "timestamp": 1758722724
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "3e664300f38a4ad1e1ff4b431147f18d63930028",
+        "timestamp": 1758723262
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "68563eddc09856b94ea0ca156dd75040b4e048e4",
+        "timestamp": 1759240526
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py",
+          "tests/test_precedence_and_merging.py"
+        ],
+        "sha": "7a6e96ebfc89ddb5b20dfb068c8ed46b6ff18a7f",
+        "timestamp": 1759827882
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/__init__.py",
+          "pydantic_settings/sources/__init__.py",
+          "pydantic_settings/sources/providers/nested_secrets.py",
+          "tests/conftest.py",
+          "tests/test_source_nested_secrets.py",
+          "uv.lock"
+        ],
+        "sha": "4a6ffcaeae451199b1873c6709b28aceae7317a7",
+        "timestamp": 1760301254
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "4d2ebfd543e6011f6b71a99042007adf7e613ae9",
+        "timestamp": 1760450348
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/env.py",
+          "pydantic_settings/sources/utils.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "4433101fef6770d3fc0844846f7f3837bfec3b10",
+        "timestamp": 1760628408
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "5008c694f684f88fd310f476871ec021426e98d7",
+        "timestamp": 1762159860
+      },
+      {
+        "files": [
+          "tests/test_settings.py"
+        ],
+        "sha": "02de5b622b8648404aa792df01599aa1179c3aa7",
+        "timestamp": 1762514544
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "pyproject.toml",
+          "tests/test_source_cli.py",
+          "uv.lock"
+        ],
+        "sha": "6b4d87e77698476433031c0056ce71aa4f4a7c4e",
+        "timestamp": 1762783614
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "584983d253a0fac4dfb294d1e6f9ef188add468b",
+        "timestamp": 1762784484
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/base.py"
+        ],
+        "sha": "fc8a694e364a73daa58a2d371bfa44ba33174503",
+        "timestamp": 1762863816
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/aws.py"
+        ],
+        "sha": "7b924d2acddc31c9667383cb49a1cced976ca4f9",
+        "timestamp": 1763454401
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/gcp.py",
+          "tests/test_source_gcp_secret_manager.py"
+        ],
+        "sha": "41f3413e7b5f43b17bc6fcdac8bb5a0af0012397",
+        "timestamp": 1763972024
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "11c6db27a68ecded2ebb35b9b8681290b095fdad",
+        "timestamp": 1764080610
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py",
+          "pydantic_settings/sources/utils.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "c313e06801a0376fc04f4e973ad9d1143c0b5852",
+        "timestamp": 1764273900
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "pydantic_settings/sources/utils.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "63cd453be165834400475aa38ce110ca1720cb71",
+        "timestamp": 1764669082
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/env.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "c158510e69ddb1096994459f3c524d79e57c29c4",
+        "timestamp": 1764750440
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py",
+          "pydantic_settings/sources/providers/json.py",
+          "pydantic_settings/sources/providers/toml.py",
+          "pydantic_settings/sources/providers/yaml.py",
+          "tests/test_source_json.py"
+        ],
+        "sha": "32194201d59f53bdd9c0a97585a8764a38785e7a",
+        "timestamp": 1764757808
+      },
+      {
+        "files": [
+          "tests/test_source_json.py"
+        ],
+        "sha": "70e7a28041704add73b02722efd3e4a7cd8b0ca6",
+        "timestamp": 1764781837
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "7b3dbdd3aaf92d153618a0e2ef125326ac0ff5cf",
+        "timestamp": 1765230817
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources/providers/gcp.py",
+          "tests/test_source_gcp_secret_manager.py"
+        ],
+        "sha": "cab6fc0f176e5cc095cf143c47b0f6d70a07cb88",
+        "timestamp": 1765801659
+      },
+      {
+        "files": [
+          "tests/test_source_cli.py"
+        ],
+        "sha": "102b84a15071170e8fed28afda05d451a50a8744",
+        "timestamp": 1766951427
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "d92d51db231be62d54a7c2a9f579c218e2ae77ec",
+        "timestamp": 1767363683
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_precedence_and_merging.py"
+        ],
+        "sha": "7d4273edee47e1a37705c691e87cecfdf7659b42",
+        "timestamp": 1767369864
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "c28091ed46e14594ad318d350f576eb97f72f020",
+        "timestamp": 1768750552
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "954ee286ebe5e35427e53b6b7f285630b7c12011",
+        "timestamp": 1768754640
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "0e96e9c27eb73599054b83959bb938c82bbebde7",
+        "timestamp": 1768933524
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/base.py",
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_settings.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "21c709383721610992bcd34de04386b7d911089b",
+        "timestamp": 1769472626
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources/providers/gcp.py",
+          "pydantic_settings/sources/types.py",
+          "tests/test_source_gcp_secret_manager.py"
+        ],
+        "sha": "6ce78bcfb737ddc552b077dcfcc3586f153bcaeb",
+        "timestamp": 1769537372
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources/providers/azure.py",
+          "tests/test_source_azure_key_vault.py"
+        ],
+        "sha": "f6ddaee324a6f35e418505a0222bd26f1894446e",
+        "timestamp": 1769682966
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py",
+          "pydantic_settings/sources/providers/gcp.py",
+          "tests/conftest.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "a04b03450e62f583cdaee2d93df693b991aeb319",
+        "timestamp": 1769719318
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/gcp.py",
+          "uv.lock"
+        ],
+        "sha": "e460f0b4d8e8dd0916562d3390b9eec960736bb6",
+        "timestamp": 1769954981
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "ce9804c4620d38f0c3b3c1e3ebe10d934fd4ba2e",
+        "timestamp": 1770125422
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "pydantic_settings/sources/utils.py",
+          "pydantic_settings/utils.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "0f8f951b89b137bd563ce74dac016ba2c4cdc7a2",
+        "timestamp": 1770128721
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/providers/yaml.py",
+          "tests/test_source_yaml.py"
+        ],
+        "sha": "de71e84057b63b251ec84883b5e2ae886f82084f",
+        "timestamp": 1770380913
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "198e71cf0cd570501535de7ae93a70953150f073",
+        "timestamp": 1771157288
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "eb7840e9f59a7969b23afdbcc4e5081e037736d8",
+        "timestamp": 1771326702
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "bd0ebe6215cf215d716e33d833cc2589a1d00a17",
+        "timestamp": 1771347248
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "4933f06402ed55e32bcdcefd6c8f59ffe1fefd24",
+        "timestamp": 1771402673
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/env.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "58b236a36473e01bfe42e5f75d39d46721e0593d",
+        "timestamp": 1771402832
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py",
+          "pydantic_settings/sources/utils.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "acf8c14f5ec314799f5bd0d3f6a1591c4ed2ec97",
+        "timestamp": 1771402962
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "e87d12df0f42f7f72a3eb6d830cfbfb1d68b4496",
+        "timestamp": 1771508391
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/env.py",
+          "pydantic_settings/sources/utils.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "d9a88abf7c3373e6d6c6c4961e30603d592dc660",
+        "timestamp": 1771593354
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "2dde0cbc52e7b25c6d6c938c5ff3b3745684d922",
+        "timestamp": 1771759788
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "46ddff3a0f219dac47e7a9c79226d5853457c3d3",
+        "timestamp": 1772448751
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "tests/test_source_gcp_secret_manager.py",
+          "uv.lock"
+        ],
+        "sha": "62230287e74a528f38819c8828a749644ac62e4e",
+        "timestamp": 1772648842
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "e4d5c0b70ee715926288123666d02e689023a9e3",
+        "timestamp": 1772804271
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "efbc8cc99898633779b4cbe8126e8422a7ef7a96",
+        "timestamp": 1772804818
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "a8c47f8209ef8722119935c00983ab837a377ddd",
+        "timestamp": 1772804960
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "6360ef901f59189c34e129b1fa7791ca17e250ee",
+        "timestamp": 1772805118
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "298df20ad7f2bd4cff1b3390812cc03804f0f790",
+        "timestamp": 1772805260
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "b22bc496e71fede84e70ce7f04d36a45cbbf13c5",
+        "timestamp": 1772805405
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "dde54c379007567c7e6eb8713ad987f62c6c9215",
+        "timestamp": 1772806059
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "83d0c67ffe77597fc452f7312486044ca02654fd",
+        "timestamp": 1772806283
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "43348a9e605b8dcd5748f2cc7d675296f3ea21ac",
+        "timestamp": 1772806420
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources/providers/dotenv.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "04d2cd60fe309ad22f15a4054193cfff5dd33ee0",
+        "timestamp": 1772974593
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py",
+          "tests/test_precedence_and_merging.py"
+        ],
+        "sha": "04067fa9c91e170a1f9e232ed9b2707616efd178",
+        "timestamp": 1773303194
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "e12599752b7ab396157e5f034b71e173335d24e5",
+        "timestamp": 1773327655
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "bf925b4af971e529aab9b3afc3f777e192052ca5",
+        "timestamp": 1773390636
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/env.py",
+          "pydantic_settings/sources/utils.py",
+          "tests/test_settings.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "ba145e9cf9a9a5199bf49e4872e6bb09521672e2",
+        "timestamp": 1773522182
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "pydantic_settings/sources/utils.py",
+          "tests/test_settings.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "d10993ed578eba418ff36d9f89c11500ece2b5c6",
+        "timestamp": 1773653536
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "a47c3c128cd03590e6d12a546d0c14315cf658c1",
+        "timestamp": 1773994761
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py"
+        ],
+        "sha": "73fbbed33839f07856655a65f60176638dbb36f1",
+        "timestamp": 1774360257
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "951c38ee72ce6f6440833d9f5b723e6c442cfa27",
+        "timestamp": 1774599523
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/aws.py",
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "sha": "2ae12c7276c54cbe050060acf82086a8cdfc6c8f",
+        "timestamp": 1774898206
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "pydantic_settings/sources/utils.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "7563595fd60182cf55dc39597bad2f3bb4bba04f",
+        "timestamp": 1775114741
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/__init__.py",
+          "pydantic_settings/sources/providers/dotenv.py",
+          "pydantic_settings/sources/types.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "bb6536be12e5bd176267f2220547ffbd0cd1fa40",
+        "timestamp": 1775121615
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "953e28e6cfe9a9e536375d771a4ffd48535a4ab2",
+        "timestamp": 1775204919
+      },
+      {
+        "files": [
+          ".github/dependabot.yml",
+          ".github/workflows/ci.yml",
+          ".pre-commit-config.yaml",
+          ".yamlfmt.yaml",
+          "mkdocs.yml"
+        ],
+        "sha": "c5401a27999cd6c0e93925deb0660cd51013c8b1",
+        "timestamp": 1775304813
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "df8b239fe09ba712767bdf378bc90627df375f04",
+        "timestamp": 1775307837
+      },
+      {
+        "files": [
+          ".github/dependabot.yml",
+          ".github/workflows/ci.yml",
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "16bd6fd230d6280d52db6ce2a0ffef8f908cc89d",
+        "timestamp": 1775316044
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "2355bc54e9d442ca7916f02de28d0c936e75441c",
+        "timestamp": 1775545491
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py"
+        ],
+        "sha": "577c05f7e8ac25904da2381db51ed4ddd4b3e4fe",
+        "timestamp": 1775555602
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "617c690fb16c95eb0fb98fc88c0d6d82b9af4fa9",
+        "timestamp": 1776073762
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "9ed7f48ea2c90f436a03b01f721fe6656c869b14",
+        "timestamp": 1776409547
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/cli.py",
+          "tests/test_source_cli.py"
+        ],
+        "sha": "39e551c0910c85505b608ff85a103b2c9f7396c5",
+        "timestamp": 1776690071
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "8916beeecc6d0510e3d0532a0ed839937400ddc3",
+        "timestamp": 1776691743
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "9f95615c24c6813c1d7d203576581a79cb6d9e8e",
+        "timestamp": 1777034094
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "eaa3b434938411ec8a3717ea646614561e713f51",
+        "timestamp": 1777619310
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "b03e573d017ed48e1c2774a5e0b715db9766c76b",
+        "timestamp": 1777619450
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "7bd0072795a800065b42210b6dca90fc9b83daf7",
+        "timestamp": 1778224583
+      },
+      {
+        "files": [
+          "pydantic_settings/main.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "0c8734581b6cf70a995afad603ac456631d00621",
+        "timestamp": 1778246354
+      },
+      {
+        "files": [
+          "pydantic_settings/version.py"
+        ],
+        "sha": "e95c30bec8cfaee88ee275138c064aea97a25bdf",
+        "timestamp": 1778247302
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "f4fcb53321da24cb13db797d18787a7fb71889a4",
+        "timestamp": 1778593590
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "b886c9d911144babf51d3c27a21115e593284bff",
+        "timestamp": 1778828843
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "6b2f7a3aa335530de9122abc2cd3d33b5d3a9c67",
+        "timestamp": 1778927002
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "039a4fe0ce1b6bc0b6119d07996f8841f21dbc0a",
+        "timestamp": 1779789102
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "4c1cde62c72b109806c2da4ba16de7efa3507388",
+        "timestamp": 1780048895
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/gcp.py",
+          "tests/test_source_gcp_secret_manager.py"
+        ],
+        "sha": "e20044d155ad86d047a004dbccef4a7aa6532a03",
+        "timestamp": 1780146764
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/sources/providers/gcp.py",
+          "tests/test_source_gcp_secret_manager.py"
+        ],
+        "sha": "a9eca39607e455bdd4838a3bc399607ce6cb3f2d",
+        "timestamp": 1780469769
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "3f977c8c86b8f333b4c9c5029203ef224d9355ce",
+        "timestamp": 1780644441
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/aws.py",
+          "pyproject.toml",
+          "uv.lock"
+        ],
+        "sha": "7d8b8a1579498b40097900520ece8f86866b7ed3",
+        "timestamp": 1780645188
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/base.py",
+          "tests/test_settings.py"
+        ],
+        "sha": "b266487073b91a61e4cf3413de9a3c12e2a14952",
+        "timestamp": 1780655982
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "pydantic_settings/main.py",
+          "pydantic_settings/sources/providers/toml.py",
+          "tests/test_source_toml.py"
+        ],
+        "sha": "afda1f71420bee772a0a0be9e6f6fac014df9e25",
+        "timestamp": 1780843175
+      },
+      {
+        "files": [
+          "uv.lock"
+        ],
+        "sha": "c340c624423842ae33b91aa167b0067e371f1c96",
+        "timestamp": 1781249114
+      },
+      {
+        "files": [
+          "pydantic_settings/sources/providers/toml.py",
+          "tests/test_source_toml.py"
+        ],
+        "sha": "e1e752d5b04521ac0df98bcbde2ab182a60f3040",
+        "timestamp": 1781353906
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 7,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/dependabot.yml": 0,
+      ".github/workflows/ci.yml": 1,
+      ".gitignore": 2,
+      ".pre-commit-config.yaml": 3,
+      ".yamlfmt.yaml": 4,
+      "LICENSE": 5,
+      "Makefile": 6,
+      "README.md": 7,
+      "docs/extra/terminal.css": 8,
+      "docs/extra/tweaks.css": 9,
+      "docs/favicon.png": 10,
+      "docs/index.md": 11,
+      "docs/logo-white.svg": 12,
+      "docs/theme/main.html": 13,
+      "mkdocs.yml": 14,
+      "pydantic_settings/__init__.py": 15,
+      "pydantic_settings/main.py": 16,
+      "pydantic_settings/py.typed": 17,
+      "pydantic_settings/sources.py": 18,
+      "pydantic_settings/sources/__init__.py": 19,
+      "pydantic_settings/sources/base.py": 20,
+      "pydantic_settings/sources/providers/aws.py": 21,
+      "pydantic_settings/sources/providers/azure.py": 22,
+      "pydantic_settings/sources/providers/cli.py": 23,
+      "pydantic_settings/sources/providers/dotenv.py": 24,
+      "pydantic_settings/sources/providers/env.py": 25,
+      "pydantic_settings/sources/providers/gcp.py": 26,
+      "pydantic_settings/sources/providers/json.py": 27,
+      "pydantic_settings/sources/providers/nested_secrets.py": 28,
+      "pydantic_settings/sources/providers/toml.py": 29,
+      "pydantic_settings/sources/providers/yaml.py": 30,
+      "pydantic_settings/sources/types.py": 31,
+      "pydantic_settings/sources/utils.py": 32,
+      "pydantic_settings/utils.py": 33,
+      "pydantic_settings/version.py": 34,
+      "pyproject.toml": 35,
+      "requirements/linting.in": 36,
+      "requirements/linting.txt": 37,
+      "requirements/pyproject.txt": 38,
+      "requirements/testing.txt": 39,
+      "tests/conftest.py": 40,
+      "tests/test_precedence_and_merging.py": 41,
+      "tests/test_settings.py": 42,
+      "tests/test_source_aws_secrets_manager.py": 43,
+      "tests/test_source_azure_key_vault.py": 44,
+      "tests/test_source_cli.py": 45,
+      "tests/test_source_gcp_secret_manager.py": 46,
+      "tests/test_source_json.py": 47,
+      "tests/test_source_nested_secrets.py": 48,
+      "tests/test_source_pyproject_toml.py": 49,
+      "tests/test_source_toml.py": 50,
+      "tests/test_source_yaml.py": 51,
+      "tests/test_utils.py": 52,
+      "uv.lock": 53
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1662482680,
+      "last_commit_ts": 1781353906,
+      "n_cochange_pairs": 83,
+      "n_commits_dropped_as_bulk": 16,
+      "n_commits_used": 356,
+      "n_files": 54
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "e1e752d5b04521ac0df98bcbde2ab182a60f3040",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
