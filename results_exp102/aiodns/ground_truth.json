@@ -1,0 +1,1759 @@
+{
+  "chain_hash": "fb4de6b484aaf7a3",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/workflows/ci.yml||.github/workflows/release-wheels.yml": 5,
+      ".travis.yml||aiodns/__init__.py": 2,
+      ".travis.yml||mypy_run.py": 2,
+      ".travis.yml||setup.py": 3,
+      "ChangeLog||aiodns/__init__.py": 19,
+      "README.rst||aiodns/__init__.py": 6,
+      "README.rst||setup.py": 3,
+      "README.rst||tests/test_aiodns.py": 4,
+      "aiodns/__init__.py||requirements.txt": 2,
+      "aiodns/__init__.py||setup.py": 5,
+      "aiodns/__init__.py||tests/test_aiodns.py": 21,
+      "requirements.txt||tests/test_aiodns.py": 2,
+      "setup.py||tests/test_aiodns.py": 2
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "README.rst",
+          "aiodns/__init__.py",
+          "aiodns/error.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "823f82d2f9459562da60c61d956286486306066f",
+        "timestamp": 1395874675
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "adfde940acf77abbe477dd604c1452a6ce6f98f8",
+        "timestamp": 1395875410
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a2cb41aa9c6f909e914937b09e35defc6e645a2a",
+        "timestamp": 1395875785
+      },
+      {
+        "files": [
+          "LICENSE",
+          "MANIFEST.in"
+        ],
+        "sha": "2e06b9a86da8b81fc15540a3fec1ace5e050ded6",
+        "timestamp": 1395875914
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a4477ee39b71033e5e0438172b839d59981dd611",
+        "timestamp": 1395875957
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "6591077bec694f7b6ba2672463975e58e2d1fc05",
+        "timestamp": 1395907307
+      },
+      {
+        "files": [
+          "tasks.py"
+        ],
+        "sha": "0e1d7c0779e1bb6675ba918da68dad529c457085",
+        "timestamp": 1395907347
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "feb159f74918ccd29a78a332f1c8e2691018d6f8",
+        "timestamp": 1395942326
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "2bf7840a915258c5edfa231db88f9c97fa9ae01f",
+        "timestamp": 1395942808
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "ea0dfb85407336647234f175e39021a2a9132e1f",
+        "timestamp": 1395942929
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a88672ea73d6ec47be3a3687bf55bc83b73605f6",
+        "timestamp": 1395943244
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3a8e820c82bdb955f4ba10c14b190b94148ca6d5",
+        "timestamp": 1395943432
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "fafa59ec8e1e1226b35b054b314c123094e52f7b",
+        "timestamp": 1395993662
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f0f3e1857287784d94a26b8aa6475caac16ff6cb",
+        "timestamp": 1395993717
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "7f4accd573ea0948492128051e9afd5dbfd6c2b0",
+        "timestamp": 1395994106
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "7202644a12b9b5486abf543fc1ccc33d2817423b",
+        "timestamp": 1395994334
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "65210fe7c0f89c42b5c156091e3b286aa6ecdb41",
+        "timestamp": 1396080217
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "28b5b748de941400ecfdab9d4b9789ab5b2e6daa",
+        "timestamp": 1396080245
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0fb0935bca90f7ded0c0b8b481ebfa066ccfbc24",
+        "timestamp": 1396211431
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "38d183da6d65735d810155c1a727f2307bf4e056",
+        "timestamp": 1396353240
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "22ae05e02cf447a6ee1031b6b6f07508ec9f6def",
+        "timestamp": 1396691963
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "cf36e5b05106dfe4018f33f9d4e787163c421055",
+        "timestamp": 1396692689
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5ee86bce471c4ab65af655910de5642ebc497bd2",
+        "timestamp": 1396700507
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a5de6a8ef8f28cb47b818ef9546d823387ea2b1c",
+        "timestamp": 1396700612
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "9a6b1969aa5df2032a930d0f7aed2c22feb4c3c3",
+        "timestamp": 1396781865
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "46137e718439926c9226dbebb4bf2dc9fc581266",
+        "timestamp": 1411585171
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "10c3803b0b88ca5bb85d0f2d3569ea5b7eb52cf3",
+        "timestamp": 1411537409
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "0faeb540b08ac49d796646ed09e134a53b05bb1f",
+        "timestamp": 1411585573
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "fa527d274c756738affabe6f62f0e8dc007ae554",
+        "timestamp": 1411586573
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "1b65499d2cc9d5fc3843a65fe7eb50a1175a8990",
+        "timestamp": 1417991857
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "e4d5caae1a5ea0f0dc51b45d1bf986f1405e0339",
+        "timestamp": 1429519545
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b51e39f5f80abc51e558456f6dda353ae251c732",
+        "timestamp": 1433542093
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "b48ead5134dca58c095fe6bf3ed0a533501d8140",
+        "timestamp": 1442050781
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "7dc8d832f2ce815319f6ad11a5516c32358ba013",
+        "timestamp": 1442050920
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "c174d5b76da66891b8f3494cd1cdfe034af3ebb9",
+        "timestamp": 1442051215
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "64d2af58f17be3cd9614f5f469cf0fa681c69216",
+        "timestamp": 1442051279
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c8cfe51fb8fe66fd537d5e8114b0b0728e4d26ff",
+        "timestamp": 1442051867
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py",
+          "setup.py"
+        ],
+        "sha": "02570238cde7257ab216c817eddad65ded25433d",
+        "timestamp": 1442052025
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "98423ccfd2109ff54174c8b64cd655fd36905562",
+        "timestamp": 1453710255
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "a7402752b02f471313c906689fb6b6f1462ee133",
+        "timestamp": 1453710449
+      },
+      {
+        "files": [
+          "ChangeLog"
+        ],
+        "sha": "df6ad7b88218c5e1eff478dd05e7406abee59a63",
+        "timestamp": 1472132112
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "306a8e043419318854beda9171aac2f20230dbb8",
+        "timestamp": 1472228227
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "6005a2abce0c3fd5c7a4c3340be0e471845bd5e9",
+        "timestamp": 1472287699
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f79bc4b27a57f600186bcc4c724af48f53763fc0",
+        "timestamp": 1472288320
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "527f6bf4433ce7718fde9038c169020421cf7c90",
+        "timestamp": 1472325153
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7c3eae158ed86ac4debbc5c9d7378fcff4ca239b",
+        "timestamp": 1472325296
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "1244abd2b386ea889886f5a5870b7f42448834d3",
+        "timestamp": 1472325749
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "63994125a028c3cd2affcaa97ac18d026373f33f",
+        "timestamp": 1472325890
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7ee13f9bea25784322d59f357b2db4ff1baa5630",
+        "timestamp": 1472373729
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "21d4f114a781af6e125d29153e514d47e76dd8ac",
+        "timestamp": 1472373911
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "940522b655c45b705aad3cbf7415e42c3a7e48e9",
+        "timestamp": 1472377365
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "setup.py"
+        ],
+        "sha": "9eba2b8b73fad446e4cdf7c2fc77a8e089b74c16",
+        "timestamp": 1483573644
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "f52067e10e19189756939cf5e0ac61c84816d259",
+        "timestamp": 1494060185
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "eb379fcf1ef6073ba6c6ed229ee1ef299b885508",
+        "timestamp": 1493980841
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "c7ae65bcef8c5b04603f20fda26d8e2346dd73b3",
+        "timestamp": 1503480813
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "f1e5f7db678498ce4555f99909499e1adb8e1971",
+        "timestamp": 1525546148
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "9b2f759df9a719d1cf29b04300c3d72d427b773f",
+        "timestamp": 1544110233
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "da9b35e646edb0726603666387ce23929c475ba8",
+        "timestamp": 1544111204
+      },
+      {
+        "files": [
+          "README.rst",
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "93f65c92b00745e74b6be8bb4a967d247e29e5f2",
+        "timestamp": 1539726284
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "3a721d5ac717fc56a97f410acd9f2d9174411794",
+        "timestamp": 1547705837
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "41bf1f8f6f64be01cd264f6e42f56d17741e52b1",
+        "timestamp": 1547705789
+      },
+      {
+        "files": [
+          "tasks.py"
+        ],
+        "sha": "6cba472675d180be32ae28cd5287d413670af642",
+        "timestamp": 1547711726
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "7176a8502d573f9c013891cd1e667fa27e338ecf",
+        "timestamp": 1547711902
+      },
+      {
+        "files": [
+          "tasks.py"
+        ],
+        "sha": "b668e1ab2c2fbd973f3bf8865db79f0a7b37141f",
+        "timestamp": 1547712022
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "aiodns/__init__.py",
+          "setup.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "9c1dd76924967c215ad023256211c6656e84cf3a",
+        "timestamp": 1547764267
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "e08528153b8285e9d9b83942370826267f3ffa9c",
+        "timestamp": 1547764378
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "c5f42d0ce467b1ec3cf81ebe7007d581e0d4a759",
+        "timestamp": 1547764388
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "ed7782493acecbc61c63ae2d5e39166a6dee201b",
+        "timestamp": 1547764587
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "69d7e3e0f5bf76bfeec99433c27d04f7f8d88265",
+        "timestamp": 1547764837
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "34cadc44c188535caf8425c804fbe32d35f1a537",
+        "timestamp": 1547765616
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "ceba47ed87a04a54b31f876fec336d23ee7fc269",
+        "timestamp": 1547764544
+      },
+      {
+        "files": [
+          "ChangeLog"
+        ],
+        "sha": "f4e4533a8a924a6a16c7f440432d6eb0bec49831",
+        "timestamp": 1547840874
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "09d319c2d83333a058e9cda2460e64043576a11b",
+        "timestamp": 1548694188
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "c8c4697d35307e5937c38ebc57376541376b29f6",
+        "timestamp": 1548772450
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "setup.py"
+        ],
+        "sha": "fe57a6116e1ab3de4924ef59255e2c6f9183e740",
+        "timestamp": 1549355679
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "133e725fc208687c7833485ca3f276496aac02f3",
+        "timestamp": 1549441164
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "421f3a00f07c0407266a3cd282c3e6c8a3e4ca60",
+        "timestamp": 1551527987
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "5224348cb19182e3ecf1971a961f194f02f1986a",
+        "timestamp": 1551528094
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3ed00821cb60cc50aeb31be8dbefde47848e9f9c",
+        "timestamp": 1560243981
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2cd2f5f7892f728a021a1dfa14b8c0a018075f7e",
+        "timestamp": 1560548790
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "0e7ee2dc40abf379656ae31a45178dbe2d4fcd28",
+        "timestamp": 1565634714
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "115ce1785bfcb89590179079b04c433b52906564",
+        "timestamp": 1566908402
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "281112107c742a3e24e8bce2cb09c3c4d9d01b6d",
+        "timestamp": 1567938850
+      },
+      {
+        "files": [
+          ".gitignore",
+          ".travis.yml",
+          "aiodns/__init__.py",
+          "mypy.ini"
+        ],
+        "sha": "0038a366c9367ed30068bca31d7bd0e0415b3671",
+        "timestamp": 1576158433
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "mypy_run.py"
+        ],
+        "sha": "3c32243b9f08b2851cb7e4a5f3f4f09755234fdb",
+        "timestamp": 1576159278
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "mypy_run.py"
+        ],
+        "sha": "73656e62263536374815996202a2a3e9a8e2c00a",
+        "timestamp": 1576159476
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "647220c9bb590bb7b953c04a5c98d542c701ed71",
+        "timestamp": 1576181195
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "dd068d0e8a603b14d2f2b71d3ba7252e9feceaec",
+        "timestamp": 1593026189
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7a99c9b007c76ff7c9e8ec2ded60c184ad08bf8c",
+        "timestamp": 1604578726
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "236ed58011e533b2edc84d882b004ee3ad5086d4",
+        "timestamp": 1605266509
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "5dc13412d8107c5ea35ab068f5114b56c2dca43a",
+        "timestamp": 1620979795
+      },
+      {
+        "files": [
+          "tasks.py"
+        ],
+        "sha": "68e7712b06ba3fe110246007904d8c9ee8f0db7b",
+        "timestamp": 1620979214
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5748500fd482a1a14c38bbdb5accf7c4536a4305",
+        "timestamp": 1620979262
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "c81387fd26d2e1c9bdcb85f7d12a13cda1c389d4",
+        "timestamp": 1620979517
+      },
+      {
+        "files": [
+          "README.rst",
+          "aiodns/__init__.py"
+        ],
+        "sha": "7bb002ea8eee1a8c1651f21d5ae0350857f00233",
+        "timestamp": 1620979538
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "5d94ab0b9f81ee1feabee6a222d9352d244d76f2",
+        "timestamp": 1620979933
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "7b58bcb798d32e07bba7391dd98c7405e2523095",
+        "timestamp": 1620980075
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".travis.yml"
+        ],
+        "sha": "1f84d1a0267e5629ead8355816d47d8ae892ef24",
+        "timestamp": 1620980320
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "a1d4d550acc573f563196af73568c5227a1cfe20",
+        "timestamp": 1620981072
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "0c9ea6f60d5a9306b0c80e6ffea5ccc27c5fa5bd",
+        "timestamp": 1620981243
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "efbbcd55493e11ff95cce7845ebe23438c4238aa",
+        "timestamp": 1620981755
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a57968007a0e6f826e1a8a2160eade23c254bc42",
+        "timestamp": 1620982143
+      },
+      {
+        "files": [
+          "ChangeLog"
+        ],
+        "sha": "cdb33385f46be1e18bc525ccb153c8abc8ac92d4",
+        "timestamp": 1620982160
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "146286601fe80eb4ede8126769e79b5d5e63f64e",
+        "timestamp": 1621065781
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "aac8df5e650efd94ad71566a070a0a91b8233840",
+        "timestamp": 1621066028
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "b869b1426ef0eaf605fcd40259deb6dad99cb0ec",
+        "timestamp": 1664976007
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".github/workflows/release-wheels.yml",
+          "setup.py"
+        ],
+        "sha": "465a63a9dfd06613a70ca448e170b1858c961566",
+        "timestamp": 1696579977
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "237b03ed4fa433548deb283de929e57b275e6e5c",
+        "timestamp": 1696580117
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "5279cf3f6496b9da242e678f92fae511e077ec91",
+        "timestamp": 1696580277
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "1d7360ce09b329849851fc79a5670a21a5518c90",
+        "timestamp": 1696593326
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "9cfe39744ef12add4a2a13407ec6833e3459ca84",
+        "timestamp": 1696603967
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "763f5a4dc48aed41bf3718b54f90f4876f3aa428",
+        "timestamp": 1696603986
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "fb608a231ffd925f9f96beea507f7901c69a4c51",
+        "timestamp": 1696708963
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "86cf7cda71985c5d2da4e9692b83e9cf38040d14",
+        "timestamp": 1696709465
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "63e71db318fa43571fd235606d80675cfbc8e789",
+        "timestamp": 1696709761
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "414b525da72b5f6ef505438fff39edd547a44f8f",
+        "timestamp": 1696710076
+      },
+      {
+        "files": [
+          "README.rst",
+          "aiodns/__init__.py"
+        ],
+        "sha": "7569a4bb60ea8b886d8ca158c855c4d53e24534e",
+        "timestamp": 1696710835
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "813d3217ef21abc381ad7b17803ac080aa156e96",
+        "timestamp": 1696711163
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "aiodns/py.typed"
+        ],
+        "sha": "40cb14c00dfd9a49ceb7e9d6c88f6fee9c43fe20",
+        "timestamp": 1697375399
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "80d7ca2b1332730efe046e13c1c1696cce314206",
+        "timestamp": 1559339558
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "0a2db15b88df1ec74c8fa7f1b3ca27fca2b9f149",
+        "timestamp": 1697439828
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "0bb9fb54b422be05a34ea549051fa2f502617422",
+        "timestamp": 1697440710
+      },
+      {
+        "files": [
+          "tests/test_aiodns.py"
+        ],
+        "sha": "816e48d86fc5a15b81fe94e0335d21ffa0fb4b5a",
+        "timestamp": 1704214038
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "ca7b01816b74dcb207bfb5a8d30145d9fbc4f8ac",
+        "timestamp": 1709585070
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "d40f913d5554b2e55f56f1aa53bb3cb77f8ee542",
+        "timestamp": 1711149718
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "c77e97a59a8155d1c51d56386e1a90e62f6dd97e",
+        "timestamp": 1711520836
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "7480968bb3bbf665f983aea65c2c7bd6772de8f9",
+        "timestamp": 1711763782
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "1c5f28f8700a9c45c0ee0e3ee04a1e5bdde7fd8c",
+        "timestamp": 1711884213
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "e6f63c1fd59d982cfc5a75c58a62c1d78ad4d89a",
+        "timestamp": 1725398258
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "1f36f271c85d34195a456a53cb3447b263482af2",
+        "timestamp": 1743854385
+      },
+      {
+        "files": [
+          ".github/workflows/auto-merge.yml"
+        ],
+        "sha": "d7e91b590e3fb44369a5e1b815f69703ce32313d",
+        "timestamp": 1743854420
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "1d25212b55374c14ef62f9bc44bdfc1d0fa252c5",
+        "timestamp": 1743854443
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "93acd3868f25172fb7e91bc0248a090d471a4f97",
+        "timestamp": 1743854482
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f01d0b321d2068bb3c397a5ccd2c79782d3ce33f",
+        "timestamp": 1743854555
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "a9fcfc86822b4816654fc34b5ab3778f4f77f059",
+        "timestamp": 1743860768
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "10207a2763ea5289fce174ac90ba3ae667ae180a",
+        "timestamp": 1743861826
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "82b066af1a32dcd857fe489f5c76f8b169602f63",
+        "timestamp": 1743862372
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "804a2a419ed0ecc9744d3dd7a2a74c993fde19c2",
+        "timestamp": 1743862826
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7759363145a2de5efddeb30594eea42a41872bb4",
+        "timestamp": 1744045325
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "a5cc25c96ec325094f87fb67edd44151b1cf5a1c",
+        "timestamp": 1746114098
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "requirements.txt"
+        ],
+        "sha": "ed3c50701a7ee703c6b52c789bdafbcae236b5d0",
+        "timestamp": 1746141448
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "bca3ae9a63c0a00e8f79beb57e716c7811c108d8",
+        "timestamp": 1746149805
+      },
+      {
+        "files": [
+          "README.rst",
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "b6cce69644c3dc70457dc3cc5d248574d43bcb23",
+        "timestamp": 1746208207
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "7feb3d0048a59532cbceaa06dc78cd3b4a20f123",
+        "timestamp": 1746209349
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "dd81a9337d01a789fda478c7031a771d13519ea3",
+        "timestamp": 1746210248
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "928b8a6affc15d7134c3a0f45e417661f26c7bd7",
+        "timestamp": 1746436947
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "pytest.ini",
+          "requirements.txt",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "c856d44bfdf9ec665cda2f27ca3e68b262f728cb",
+        "timestamp": 1746732342
+      },
+      {
+        "files": [
+          ".codecov.yml",
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "796d500447cf7d7eb522ccb4cdfc1beeb519e593",
+        "timestamp": 1746733223
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "be1f149ee34f025704f6788cf895fb2d00d04760",
+        "timestamp": 1746733830
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "requirements-dev.txt"
+        ],
+        "sha": "7248418c92159a5b0aa93a5867a519649871621b",
+        "timestamp": 1748533706
+      },
+      {
+        "files": [
+          ".github/workflows/auto-merge.yml"
+        ],
+        "sha": "5cdf3737743d86ef343c9b0b4d15f95c1014ed38",
+        "timestamp": 1748794524
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e5c084ded82b9fdec5b7ec2eebcb33e3974bcd06",
+        "timestamp": 1748966487
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "cc628cb5545ff9ab39bbd854a74126ffb287b051",
+        "timestamp": 1749296389
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f2c8472fbaa7923574f55f2aae1870dce7a5ffe4",
+        "timestamp": 1749741905
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9a0bcdaefa3b043c63d00778184056118926a889",
+        "timestamp": 1749823535
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e9a0d453eda8be9d83738585a7bf6fdd20222a86",
+        "timestamp": 1749831123
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f259a6e3650555157af53ac2b39f2ff545321d55",
+        "timestamp": 1749831144
+      },
+      {
+        "files": [
+          "README.rst",
+          "aiodns/__init__.py",
+          "setup.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "78cd6004d6ab3f46d5ed57189ec1aae27d9cd62e",
+        "timestamp": 1749831259
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "83533f4d17dd769a5bc0fce6e4c7610b6abde85e",
+        "timestamp": 1749831598
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "f47f1a86a0d57ba88b0267300e0f866e316a9300",
+        "timestamp": 1750175319
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "68703cda73f90781ac7abb31735983d43b5312cd",
+        "timestamp": 1750260420
+      },
+      {
+        "files": [
+          "aiodns/__init__.py"
+        ],
+        "sha": "ad96d79a93625a3b0d12bce499bcac62aa339883",
+        "timestamp": 1751912918
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "783f8568c6b3f739f8e0ddb79d7a1812eabee823",
+        "timestamp": 1752068707
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "45e24ec1f74743665ef985023d6294747fccb916",
+        "timestamp": 1752595018
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "cc3caa70cb19f961c34641e90856bb138f299245",
+        "timestamp": 1752682909
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "4f10f5e790680223abcfd630a8c00dd691d1fba4",
+        "timestamp": 1752768117
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "c6b87ab2c18a514e330df8265bad7d7092d01f8f",
+        "timestamp": 1753458194
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "2c7f30af0c1aa824095b0a290f90e06483167ccd",
+        "timestamp": 1753890240
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "73cfefce82dd794583b2a7d4924aee0e102c87ac",
+        "timestamp": 1753977391
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "bfb5f4d4d4341db655979e967d1d9781cb3cf917",
+        "timestamp": 1754494351
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "07af98d71c70db740ca7490ec7cc41c2580f7703",
+        "timestamp": 1756786752
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "8f70ac3df6ebc2cdde636a3bd910dd1578a4e875",
+        "timestamp": 1757431201
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "30e54d96f6d69744685bf5b228d3842bb33fd94b",
+        "timestamp": 1757431441
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "3fdb0f97a6f9ccab683bc018853e27189b8ec27e",
+        "timestamp": 1757431513
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "6469b560792f876310acd2f26c65d46851bd527e",
+        "timestamp": 1757517716
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "22f568ab1a118b4596c1140c41e1bd0df2ec12c7",
+        "timestamp": 1757690202
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "a3c8d4b33036f6e3a490f3f877f8b60daaeb26c0",
+        "timestamp": 1757690215
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "b794492bdd1d0a237b69236815ac1a8fb0a327e0",
+        "timestamp": 1758295495
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "e0e8284e5425b7e37c5263c636d850dc2e2554a7",
+        "timestamp": 1759332687
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "71fa2f334a961396bcdd9a276766bdb8627b420d",
+        "timestamp": 1759418638
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "fb910370989f8443f8b8cc9ecf8369528cfc9ecc",
+        "timestamp": 1760541982
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "97e1e1c0cbaff5e84e6e6b21eb850576feb72a09",
+        "timestamp": 1760714408
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "12511d03712744c840304498ac2fb7a64e818e4d",
+        "timestamp": 1760975553
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "ac6803818ad533749bedc9e11b691da0fe4bbe85",
+        "timestamp": 1762010447
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "b57721e1267c614f329eb36eb700ca2f1468446c",
+        "timestamp": 1764612232
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "3a1bddf5dec8e79af7690d6caffec84746e096e4",
+        "timestamp": 1764612603
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "23dc7727637bedb972d91614ee73922ff84d4d1a",
+        "timestamp": 1764954978
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "e088cf48f6a30006e0545f8a4794210d3d99779f",
+        "timestamp": 1764956267
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "4cb8ab83bb21b7bbf152b9ca71baf2c74427fc9d",
+        "timestamp": 1764956416
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "be007e21337ca638e4ee987d8a3c91ca31fd8211",
+        "timestamp": 1764956694
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "6d63e75848ec975c51667c6c3fd115f27199716f",
+        "timestamp": 1765413086
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a85b558b71cf9464a4c876f57490224ee98e3829",
+        "timestamp": 1765457017
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "1067970f92bc386b8b04469e83287e140e39c562",
+        "timestamp": 1765457314
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "c2d2c9ef781c26ff6611126e3c6dacc14680bf23",
+        "timestamp": 1765812077
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "2d26acefc0e1e79e4ae60a2867e0f4c8b2038cd7",
+        "timestamp": 1767280716
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "0fd88aa6ceeb35be2ee45b0767511425bf7b1cde",
+        "timestamp": 1767614895
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "85776406ef44b6c83dedec55e7a33746f0cc46b1",
+        "timestamp": 1767908717
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "d32e6da349d958dd73428f273ca6bd6182a908b1",
+        "timestamp": 1767908729
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "98c1db84de9d6597ae5cbd1c98eea5ebbd5c0f2e",
+        "timestamp": 1767908924
+      },
+      {
+        "files": [
+          "ChangeLog"
+        ],
+        "sha": "738b54fcec50912465eb73d5b61ef7289675fda7",
+        "timestamp": 1768083794
+      },
+      {
+        "files": [
+          ".github/workflows/auto-merge.yml"
+        ],
+        "sha": "db7fc525e3b5e7d25def2155cfbcc2a5f2e0c936",
+        "timestamp": 1769960326
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "f720246d6f6d0ef5ac0ce80b05cfb4ecfade7e26",
+        "timestamp": 1772380471
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "ede796aaad7ab2975bb28324493bf74983e38d80",
+        "timestamp": 1772484245
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b72d5c2223a00705ec802d7c88015ff95abb5ab7",
+        "timestamp": 1774281992
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "e23290f7ddcbfad35b9ebe5f296bf288ba4166cf",
+        "timestamp": 1775073471
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "0987d3bb7a571ff1083647003556adda81fd6fcc",
+        "timestamp": 1775073493
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "800de9bab179cf07efcae876a4f6055362a1ced8",
+        "timestamp": 1775073562
+      },
+      {
+        "files": [
+          ".github/workflows/auto-merge.yml"
+        ],
+        "sha": "7b32d546aa15b52beb53b50922b3766a6cf87a0e",
+        "timestamp": 1775073626
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e8f734cfdaea76d33460c2d0a99082b1d0cc0936",
+        "timestamp": 1775662699
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "f27e13c196c9fef7ac1e2fe9862bef8e3a687093",
+        "timestamp": 1776872245
+      },
+      {
+        "files": [
+          ".github/workflows/auto-merge.yml"
+        ],
+        "sha": "7c4ec801f8b0e8755a3b8c32cfd3f6cf61a874d8",
+        "timestamp": 1777661010
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "40d4bcc5984c39b5986b330f0364cbd2c85509b3",
+        "timestamp": 1778169220
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "f2b385d835e10d4d78d0b501d89e91edaa9b556f",
+        "timestamp": 1778541676
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "setup.py"
+        ],
+        "sha": "ddef0627427e5a978c5ec5a76c396c062907e779",
+        "timestamp": 1778838588
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "tests/test_aiodns.py"
+        ],
+        "sha": "7d436b256f692a81e3bd46473073b16f0c4b7bb1",
+        "timestamp": 1778896534
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "c45edffca19b60cdc02f90cf15e3aeb8a4a63be0",
+        "timestamp": 1778896922
+      },
+      {
+        "files": [
+          ".github/workflows/release-wheels.yml"
+        ],
+        "sha": "ec0246d1f04e64f35916ae8bc7f7a844fa9bc3b8",
+        "timestamp": 1778897830
+      },
+      {
+        "files": [
+          "README.rst",
+          "scripts/release-notes.py"
+        ],
+        "sha": "63d10ea9cf14ae1d7a65721068d48be966217c01",
+        "timestamp": 1778897842
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "a6462288c7a333239c33f71d58f37df009960ae6",
+        "timestamp": 1778897897
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "8de877362b083c226e81cbabfe7fad8d2bc0e445",
+        "timestamp": 1778900860
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "ac5c7461834402fa404d132c277a2dfe1f0f55c4",
+        "timestamp": 1778901038
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "649602148ccf9241c8a825cdeb91d715c318d401",
+        "timestamp": 1778917209
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "08c1e4551b9a3a04dc06c417c32a3ead47c817fd",
+        "timestamp": 1778943642
+      },
+      {
+        "files": [
+          "aiodns/__init__.py",
+          "aiodns/compat.py",
+          "tests/test_aiodns.py",
+          "tests/test_compat.py"
+        ],
+        "sha": "bca5e10a9e855daadb188a373bc95fc4c565695e",
+        "timestamp": 1779241479
+      },
+      {
+        "files": [
+          "ChangeLog",
+          "aiodns/__init__.py"
+        ],
+        "sha": "5ffa1118fc202d3f5bf887b1ded33fbceb9d1ea8",
+        "timestamp": 1779241965
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e81710eaae83c121dcfb107e0bfd7f3b79d3bbfc",
+        "timestamp": 1779833554
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 4,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".codecov.yml": 0,
+      ".github/workflows/auto-merge.yml": 1,
+      ".github/workflows/ci.yml": 2,
+      ".github/workflows/release-wheels.yml": 3,
+      ".gitignore": 4,
+      ".travis.yml": 5,
+      "ChangeLog": 6,
+      "LICENSE": 7,
+      "MANIFEST.in": 8,
+      "README.rst": 9,
+      "aiodns/__init__.py": 10,
+      "aiodns/compat.py": 11,
+      "aiodns/error.py": 12,
+      "aiodns/py.typed": 13,
+      "mypy.ini": 14,
+      "mypy_run.py": 15,
+      "pyproject.toml": 16,
+      "pytest.ini": 17,
+      "requirements-dev.txt": 18,
+      "requirements.txt": 19,
+      "scripts/release-notes.py": 20,
+      "setup.cfg": 21,
+      "setup.py": 22,
+      "tasks.py": 23,
+      "tests/test_aiodns.py": 24,
+      "tests/test_compat.py": 25
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1395874675,
+      "last_commit_ts": 1779833554,
+      "n_cochange_pairs": 13,
+      "n_commits_dropped_as_bulk": 6,
+      "n_commits_used": 226,
+      "n_files": 26
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "e81710eaae83c121dcfb107e0bfd7f3b79d3bbfc",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
