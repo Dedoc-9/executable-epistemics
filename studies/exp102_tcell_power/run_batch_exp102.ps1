@@ -167,7 +167,7 @@ foreach ($r in $repos) {
     }
     Write-Host ("wall time: " + ((Get-Date) - $t0))
 
-    git add $outdir
+    git add -f $outdir
     git commit -m "$($r.id) scored: $($r.slug) (EXP-102 E-005 intermediate data)"
     if ($LASTEXITCODE -ne 0) {
         Write-Host "GIT COMMIT FAILED after $($r.id). Check index state before continuing."
