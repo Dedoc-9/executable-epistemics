@@ -1,0 +1,3835 @@
+{
+  "chain_hash": "7780ec28ca71b59e",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".coveragerc||tox.ini": 2,
+      ".github/workflows/ci.yml||.python-version-default": 2,
+      ".github/workflows/ci.yml||docs/intro.rst": 3,
+      ".github/workflows/ci.yml||tox.ini": 5,
+      ".github/workflows/ci.yml||wcwidth/grapheme.py": 2,
+      ".github/workflows/ci.yml||wcwidth/wcwidth.py": 2,
+      ".github/workflows/codspeed.yml||requirements-tests39.txt": 2,
+      ".prospector.yaml||wcwidth/table_wide.py": 2,
+      ".prospector.yaml||wcwidth/table_zero.py": 2,
+      ".pylintrc||bin/run_codecov.py": 2,
+      ".pylintrc||tox.ini": 2,
+      ".python-version||bin/update-tables.py": 2,
+      ".python-version||docs/unicode_version.rst": 2,
+      ".python-version||tox.ini": 2,
+      ".travis.yml||README.rst": 3,
+      ".travis.yml||bin/wcwidth-browser.py": 3,
+      ".travis.yml||docs/intro.rst": 2,
+      ".travis.yml||setup.py": 2,
+      ".travis.yml||tox.ini": 9,
+      ".travis.yml||wcwidth/table_wide.py": 4,
+      ".travis.yml||wcwidth/table_zero.py": 3,
+      "MANIFEST.in||README.rst": 2,
+      "MANIFEST.in||docs/intro.rst": 2,
+      "MANIFEST.in||setup.py": 2,
+      "MANIFEST.in||tox.ini": 2,
+      "README.rst||setup.py": 10,
+      "README.rst||tests/test_core.py": 3,
+      "README.rst||tox.ini": 2,
+      "README.rst||wcwidth/__init__.py": 2,
+      "README.rst||wcwidth/table_wide.py": 4,
+      "README.rst||wcwidth/table_zero.py": 4,
+      "README.rst||wcwidth/wcwidth.py": 3,
+      "bin/bump-version.py||bin/update-tables.py": 2,
+      "bin/bump-version.py||tox.ini": 2,
+      "bin/bump-version.py||wcwidth/__init__.py": 2,
+      "bin/bump-version.py||wcwidth/wcwidth.py": 2,
+      "bin/new-wide-by-version.py||bin/wcwidth-browser.py": 2,
+      "bin/new-wide-by-version.py||docs/intro.rst": 3,
+      "bin/new-wide-by-version.py||wcwidth/__init__.py": 2,
+      "bin/run_codecov.py||docs/requirements.txt": 2,
+      "bin/run_codecov.py||tox.ini": 3,
+      "bin/update-tables.py||bin/verify-table-integrity.py": 2,
+      "bin/update-tables.py||bin/wcwidth-browser.py": 3,
+      "bin/update-tables.py||code_templates/python_table.py.j2": 3,
+      "bin/update-tables.py||code_templates/unicode_versions.py.j2": 2,
+      "bin/update-tables.py||docs/intro.rst": 15,
+      "bin/update-tables.py||docs/specs.rst": 5,
+      "bin/update-tables.py||docs/unicode_version.rst": 6,
+      "bin/update-tables.py||setup.py": 2,
+      "bin/update-tables.py||tests/test_core.py": 8,
+      "bin/update-tables.py||tests/test_ucslevel.py": 2,
+      "bin/update-tables.py||tox.ini": 9,
+      "bin/update-tables.py||wcwidth/__init__.py": 6,
+      "bin/update-tables.py||wcwidth/grapheme.py": 2,
+      "bin/update-tables.py||wcwidth/table_grapheme.py": 3,
+      "bin/update-tables.py||wcwidth/table_wide.py": 11,
+      "bin/update-tables.py||wcwidth/table_zero.py": 12,
+      "bin/update-tables.py||wcwidth/textwrap.py": 2,
+      "bin/update-tables.py||wcwidth/unicode_versions.py": 5,
+      "bin/update-tables.py||wcwidth/version.json": 2,
+      "bin/update-tables.py||wcwidth/wcwidth.py": 10,
+      "bin/wcwidth-browser.py||bin/wcwidth-combining-browser.py": 2,
+      "bin/wcwidth-browser.py||bin/wcwidth-combining-comparator.py": 2,
+      "bin/wcwidth-browser.py||bin/wcwidth-libc-comparator.py": 4,
+      "bin/wcwidth-browser.py||docs/conf.py": 2,
+      "bin/wcwidth-browser.py||docs/intro.rst": 5,
+      "bin/wcwidth-browser.py||setup.py": 4,
+      "bin/wcwidth-browser.py||tests/test_core.py": 4,
+      "bin/wcwidth-browser.py||tox.ini": 8,
+      "bin/wcwidth-browser.py||wcwidth/__init__.py": 6,
+      "bin/wcwidth-browser.py||wcwidth/table_comb.py": 4,
+      "bin/wcwidth-browser.py||wcwidth/table_wide.py": 5,
+      "bin/wcwidth-browser.py||wcwidth/table_zero.py": 2,
+      "bin/wcwidth-browser.py||wcwidth/wcwidth.py": 10,
+      "bin/wcwidth-combining-comparator.py||setup.py": 2,
+      "bin/wcwidth-combining-comparator.py||wcwidth/table_comb.py": 2,
+      "bin/wcwidth-combining-comparator.py||wcwidth/table_wide.py": 2,
+      "bin/wcwidth-combining-comparator.py||wcwidth/wcwidth.py": 2,
+      "bin/wcwidth-libc-comparator.py||setup.py": 2,
+      "bin/wcwidth-libc-comparator.py||tests/test_core.py": 2,
+      "bin/wcwidth-libc-comparator.py||tox.ini": 2,
+      "bin/wcwidth-libc-comparator.py||wcwidth/table_comb.py": 2,
+      "bin/wcwidth-libc-comparator.py||wcwidth/table_wide.py": 3,
+      "bin/wcwidth-libc-comparator.py||wcwidth/wcwidth.py": 3,
+      "code_templates/grapheme_table.py.j2||docs/intro.rst": 2,
+      "code_templates/unicode_versions.py.j2||wcwidth/unicode_versions.py": 3,
+      "code_templates/unicode_versions.py.j2||wcwidth/wcwidth.py": 2,
+      "docs/api.rst||docs/conf.py": 2,
+      "docs/api.rst||docs/intro.rst": 9,
+      "docs/api.rst||tests/test_benchmarks.py": 2,
+      "docs/api.rst||tests/test_clip.py": 2,
+      "docs/api.rst||tests/test_grapheme.py": 2,
+      "docs/api.rst||tests/test_justify.py": 2,
+      "docs/api.rst||tests/test_textwrap.py": 2,
+      "docs/api.rst||wcwidth/__init__.py": 7,
+      "docs/api.rst||wcwidth/grapheme.py": 2,
+      "docs/api.rst||wcwidth/textwrap.py": 3,
+      "docs/api.rst||wcwidth/wcwidth.py": 4,
+      "docs/conf.py||docs/intro.rst": 3,
+      "docs/conf.py||wcwidth/__init__.py": 3,
+      "docs/conf.py||wcwidth/wcwidth.py": 3,
+      "docs/intro.rst||docs/specs.rst": 8,
+      "docs/intro.rst||docs/unicode_version.rst": 6,
+      "docs/intro.rst||pyproject.toml": 10,
+      "docs/intro.rst||setup.py": 8,
+      "docs/intro.rst||tests/test_benchmarks.py": 5,
+      "docs/intro.rst||tests/test_clip.py": 2,
+      "docs/intro.rst||tests/test_core.py": 7,
+      "docs/intro.rst||tests/test_emojis.py": 2,
+      "docs/intro.rst||tests/test_grapheme.py": 2,
+      "docs/intro.rst||tests/test_justify.py": 3,
+      "docs/intro.rst||tests/test_sgr_state.py": 3,
+      "docs/intro.rst||tests/test_textwrap.py": 5,
+      "docs/intro.rst||tests/test_width.py": 4,
+      "docs/intro.rst||tox.ini": 9,
+      "docs/intro.rst||wcwidth/__init__.py": 23,
+      "docs/intro.rst||wcwidth/_wcswidth.py": 2,
+      "docs/intro.rst||wcwidth/grapheme.py": 4,
+      "docs/intro.rst||wcwidth/sgr_state.py": 2,
+      "docs/intro.rst||wcwidth/table_grapheme.py": 3,
+      "docs/intro.rst||wcwidth/table_vs16.py": 2,
+      "docs/intro.rst||wcwidth/table_wide.py": 10,
+      "docs/intro.rst||wcwidth/table_zero.py": 11,
+      "docs/intro.rst||wcwidth/textwrap.py": 9,
+      "docs/intro.rst||wcwidth/unicode_versions.py": 3,
+      "docs/intro.rst||wcwidth/version.json": 3,
+      "docs/intro.rst||wcwidth/wcwidth.py": 18,
+      "docs/requirements.txt||requirements-docs.in": 3,
+      "docs/requirements.txt||requirements-tests37.txt": 2,
+      "docs/requirements.txt||requirements-tests39.txt": 2,
+      "docs/requirements.txt||requirements-update.in": 2,
+      "docs/requirements.txt||requirements-update.txt": 3,
+      "docs/requirements.txt||tox.ini": 2,
+      "docs/specs.rst||tests/test_benchmarks.py": 2,
+      "docs/specs.rst||tests/test_core.py": 5,
+      "docs/specs.rst||tests/test_width.py": 3,
+      "docs/specs.rst||wcwidth/__init__.py": 2,
+      "docs/specs.rst||wcwidth/_wcswidth.py": 2,
+      "docs/specs.rst||wcwidth/_width.py": 2,
+      "docs/specs.rst||wcwidth/table_grapheme.py": 2,
+      "docs/specs.rst||wcwidth/table_wide.py": 2,
+      "docs/specs.rst||wcwidth/table_zero.py": 4,
+      "docs/specs.rst||wcwidth/wcwidth.py": 5,
+      "docs/unicode_version.rst||tox.ini": 4,
+      "docs/unicode_version.rst||wcwidth/__init__.py": 2,
+      "docs/unicode_version.rst||wcwidth/table_vs16.py": 2,
+      "docs/unicode_version.rst||wcwidth/table_wide.py": 6,
+      "docs/unicode_version.rst||wcwidth/table_zero.py": 7,
+      "docs/unicode_version.rst||wcwidth/textwrap.py": 2,
+      "docs/unicode_version.rst||wcwidth/unicode_versions.py": 5,
+      "docs/unicode_version.rst||wcwidth/wcwidth.py": 2,
+      "pyproject.toml||wcwidth/__init__.py": 11,
+      "pyproject.toml||wcwidth/grapheme.py": 3,
+      "pyproject.toml||wcwidth/textwrap.py": 3,
+      "requirements-develop.txt||tox.ini": 4,
+      "requirements-docs.in||requirements-update.in": 2,
+      "requirements-docs.in||requirements-update.txt": 2,
+      "requirements-docs.in||tox.ini": 2,
+      "requirements-tests.txt||requirements-tests38.in": 2,
+      "requirements-tests37.txt||requirements-tests39.txt": 3,
+      "requirements-tests37.txt||requirements-update.txt": 2,
+      "requirements-tests38.in||requirements-tests38.txt": 2,
+      "requirements-tests38.in||requirements-tests39.in": 2,
+      "requirements-tests38.in||requirements-tests39.txt": 2,
+      "requirements-tests38.txt||requirements-tests39.in": 2,
+      "requirements-tests38.txt||requirements-tests39.txt": 2,
+      "requirements-tests39.in||requirements-tests39.txt": 5,
+      "requirements-tests39.txt||requirements-update.txt": 2,
+      "requirements-tests39.txt||tox.ini": 2,
+      "requirements-update.in||requirements-update.txt": 4,
+      "requirements-update.in||tox.ini": 2,
+      "requirements-update.txt||tox.ini": 2,
+      "setup.py||tests/test_core.py": 4,
+      "setup.py||tox.ini": 8,
+      "setup.py||wcwidth/__init__.py": 11,
+      "setup.py||wcwidth/table_comb.py": 4,
+      "setup.py||wcwidth/table_wide.py": 7,
+      "setup.py||wcwidth/table_zero.py": 4,
+      "setup.py||wcwidth/version.json": 2,
+      "setup.py||wcwidth/wcwidth.py": 4,
+      "tests/test_benchmarks.py||tests/test_core.py": 2,
+      "tests/test_benchmarks.py||tests/test_emojis.py": 2,
+      "tests/test_benchmarks.py||tests/test_textwrap.py": 3,
+      "tests/test_benchmarks.py||wcwidth/__init__.py": 3,
+      "tests/test_benchmarks.py||wcwidth/grapheme.py": 3,
+      "tests/test_benchmarks.py||wcwidth/textwrap.py": 3,
+      "tests/test_benchmarks.py||wcwidth/wcwidth.py": 4,
+      "tests/test_clip.py||tests/test_textwrap.py": 2,
+      "tests/test_clip.py||tests/test_width.py": 2,
+      "tests/test_clip.py||wcwidth/__init__.py": 2,
+      "tests/test_clip.py||wcwidth/wcwidth.py": 4,
+      "tests/test_core.py||tests/test_emojis.py": 2,
+      "tests/test_core.py||tests/test_ucslevel.py": 3,
+      "tests/test_core.py||tox.ini": 3,
+      "tests/test_core.py||wcwidth/__init__.py": 2,
+      "tests/test_core.py||wcwidth/_wcswidth.py": 3,
+      "tests/test_core.py||wcwidth/_width.py": 3,
+      "tests/test_core.py||wcwidth/grapheme.py": 2,
+      "tests/test_core.py||wcwidth/table_comb.py": 2,
+      "tests/test_core.py||wcwidth/table_grapheme.py": 2,
+      "tests/test_core.py||wcwidth/table_wide.py": 5,
+      "tests/test_core.py||wcwidth/table_zero.py": 5,
+      "tests/test_core.py||wcwidth/wcwidth.py": 8,
+      "tests/test_emojis.py||tests/test_ucslevel.py": 2,
+      "tests/test_emojis.py||wcwidth/wcwidth.py": 3,
+      "tests/test_grapheme.py||wcwidth/__init__.py": 2,
+      "tests/test_grapheme.py||wcwidth/grapheme.py": 2,
+      "tests/test_justify.py||wcwidth/__init__.py": 2,
+      "tests/test_justify.py||wcwidth/wcwidth.py": 2,
+      "tests/test_sgr_state.py||wcwidth/__init__.py": 2,
+      "tests/test_sgr_state.py||wcwidth/sgr_state.py": 2,
+      "tests/test_sgr_state.py||wcwidth/wcwidth.py": 2,
+      "tests/test_textwrap.py||wcwidth/__init__.py": 4,
+      "tests/test_textwrap.py||wcwidth/textwrap.py": 6,
+      "tests/test_ucslevel.py||wcwidth/wcwidth.py": 2,
+      "tests/test_width.py||wcwidth/escape_sequences.py": 2,
+      "tests/test_width.py||wcwidth/table_wide.py": 2,
+      "tests/test_width.py||wcwidth/table_zero.py": 2,
+      "tests/test_width.py||wcwidth/wcwidth.py": 5,
+      "tox.ini||wcwidth/__init__.py": 6,
+      "tox.ini||wcwidth/table_comb.py": 2,
+      "tox.ini||wcwidth/table_wide.py": 8,
+      "tox.ini||wcwidth/table_zero.py": 6,
+      "tox.ini||wcwidth/tests/test_cmd_libc.py": 3,
+      "tox.ini||wcwidth/textwrap.py": 2,
+      "tox.ini||wcwidth/unicode_versions.py": 3,
+      "tox.ini||wcwidth/version.json": 3,
+      "tox.ini||wcwidth/wcwidth.py": 10,
+      "wcwidth/__init__.py||wcwidth/grapheme.py": 4,
+      "wcwidth/__init__.py||wcwidth/table_comb.py": 2,
+      "wcwidth/__init__.py||wcwidth/table_wide.py": 6,
+      "wcwidth/__init__.py||wcwidth/table_zero.py": 4,
+      "wcwidth/__init__.py||wcwidth/textwrap.py": 7,
+      "wcwidth/__init__.py||wcwidth/version.json": 3,
+      "wcwidth/__init__.py||wcwidth/wcwidth.py": 14,
+      "wcwidth/_wcswidth.py||wcwidth/_width.py": 3,
+      "wcwidth/_wcswidth.py||wcwidth/wcwidth.py": 2,
+      "wcwidth/_width.py||wcwidth/wcwidth.py": 2,
+      "wcwidth/bisearch.py||wcwidth/grapheme.py": 2,
+      "wcwidth/escape_sequences.py||wcwidth/wcwidth.py": 2,
+      "wcwidth/grapheme.py||wcwidth/textwrap.py": 4,
+      "wcwidth/grapheme.py||wcwidth/wcwidth.py": 5,
+      "wcwidth/sgr_state.py||wcwidth/wcwidth.py": 2,
+      "wcwidth/table_comb.py||wcwidth/table_wide.py": 6,
+      "wcwidth/table_comb.py||wcwidth/wcwidth.py": 4,
+      "wcwidth/table_vs16.py||wcwidth/table_wide.py": 2,
+      "wcwidth/table_vs16.py||wcwidth/table_zero.py": 2,
+      "wcwidth/table_wide.py||wcwidth/table_zero.py": 28,
+      "wcwidth/table_wide.py||wcwidth/unicode_versions.py": 8,
+      "wcwidth/table_wide.py||wcwidth/version.json": 2,
+      "wcwidth/table_wide.py||wcwidth/wcwidth.py": 9,
+      "wcwidth/table_zero.py||wcwidth/unicode_versions.py": 8,
+      "wcwidth/table_zero.py||wcwidth/version.json": 2,
+      "wcwidth/table_zero.py||wcwidth/wcwidth.py": 7,
+      "wcwidth/textwrap.py||wcwidth/wcwidth.py": 6,
+      "wcwidth/unicode_versions.py||wcwidth/wcwidth.py": 2,
+      "wcwidth/version.json||wcwidth/wcwidth.py": 2
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "wcwidth/__init__.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "e98b7a0929f590725ec15ba10251704fe61ee5d4",
+        "timestamp": 1396691988
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "cbf807e76b73547203ea9745fdcabe24d39af8a5",
+        "timestamp": 1396842339
+      },
+      {
+        "files": [
+          "wcwidth/__init__.py"
+        ],
+        "sha": "1db89ce9230fa4cd71a2d38528e8c433de0b874d",
+        "timestamp": 1396842359
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py"
+        ],
+        "sha": "1d3d264a7c3f4e0104b72ae122daa54597caf65e",
+        "timestamp": 1396887079
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "2bf1aa20e8cdebf3973e66c78aa19f824f330f9f",
+        "timestamp": 1396925173
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "348321b3e57f02f52abd335d8a7591660050c050",
+        "timestamp": 1396929321
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6f8a0291cb7233224ab868a43c5733757445a769",
+        "timestamp": 1396930897
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "2d237f6d2b54d0ac8c36eae55e17fd6f94bbe313",
+        "timestamp": 1396931976
+      },
+      {
+        "files": [
+          "README.rst",
+          "wcwidth/__init__.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "cfa1c8aef23d6cabc67e6aba243ecaacd5387446",
+        "timestamp": 1396933088
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "27500b752d47bc3b459978812564bd3c01b1b185",
+        "timestamp": 1397849166
+      },
+      {
+        "files": [
+          ".coveragerc",
+          ".gitignore",
+          ".travis.yml",
+          "bin/wcwidth-browser.py",
+          "tox.ini",
+          "wcwidth/tests/test_cmd_libc.py"
+        ],
+        "sha": "ed94c6cea5b93a0f3cf17180668142264342a21e",
+        "timestamp": 1397880521
+      },
+      {
+        "files": [
+          ".gitignore",
+          "setup.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "63962cdaf2f014883e48abe540e46ecf1433f3fc",
+        "timestamp": 1397880552
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1853c4c5d65d8667050e3ea4332f41d87edda7e7",
+        "timestamp": 1397881074
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "7df1058815ba82ebf5bd9ec9becc0f087bb59689",
+        "timestamp": 1397881662
+      },
+      {
+        "files": [
+          "wcwidth/tests/test_cmd_libc.py"
+        ],
+        "sha": "bebf2ef0622f57a511cb71b3f5849837048a1aec",
+        "timestamp": 1397881952
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "7a3ddb3acd9301695f5052cbdf0a9272deff949c",
+        "timestamp": 1397889743
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "3bcc4a8ed7d519bc13be23a13cb4dc856df7a511",
+        "timestamp": 1397889756
+      },
+      {
+        "files": [
+          "tox.ini",
+          "wcwidth/tests/test_cmd_libc.py"
+        ],
+        "sha": "46ce3b725b3f814f5ecf67cb1c179aba076f06f3",
+        "timestamp": 1397893498
+      },
+      {
+        "files": [
+          "tox.ini",
+          "wcwidth/tests/test_cmd_libc.py"
+        ],
+        "sha": "34e5920e489041ca7960b96fbf2ae02a87b31118",
+        "timestamp": 1397893999
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "df8997be216c67f9baf2f14395a6b092469b384b",
+        "timestamp": 1397949941
+      },
+      {
+        "files": [
+          "wcwidth/tests/test_cmd_libc.py"
+        ],
+        "sha": "a45ec350f583436d001362a070ee15fa4bbc4e95",
+        "timestamp": 1397949959
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py"
+        ],
+        "sha": "f8c882b1304c9f0baea53bbca1ac6c7e3d506d04",
+        "timestamp": 1399254165
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "094b632ca9fc1a93623e8ac0b45c27bb4c8af744",
+        "timestamp": 1399255333
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "bin/wcwidth-browser.py",
+          "bin/wcwidth-libc-comparator.py",
+          "setup.py",
+          "tests/test_core.py",
+          "tox.ini",
+          "wcwidth/table_comb.py",
+          "wcwidth/table_wide.py"
+        ],
+        "sha": "7012f8858ea01f85f1d9c4c486478819933dd331",
+        "timestamp": 1399256115
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "df21a5713e4416ee35927c0bdd4405ea55384c3c",
+        "timestamp": 1399256310
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "665a21a703497b989c6c6a2db0f73a807447dbba",
+        "timestamp": 1399256861
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst"
+        ],
+        "sha": "4c8758e774512158d18f6925c9fdce8dd0cc853b",
+        "timestamp": 1399257443
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f35f34d5f38ef7d48fe3fd256721445470086b29",
+        "timestamp": 1399258204
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2510e94698a156c78eb35b002bea1692f15a761a",
+        "timestamp": 1399258416
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "aff9762811e016c77f549036c0fdb1d495e792aa",
+        "timestamp": 1399258507
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4a902791c8a3d86862ab736bba4c2cf1e082cfe1",
+        "timestamp": 1399258645
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4fdcdcd897d4c9a084284f82fc1b389c22b51ca3",
+        "timestamp": 1399258908
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "90479ecec9e0aa5b363b0f5322842a70751a235d",
+        "timestamp": 1399932095
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f7829fd60ee34292e447f84fc05f6e45829e3241",
+        "timestamp": 1404050799
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "130d2fbb4d2400243d5e90e0125b8b8a8eb9f29d",
+        "timestamp": 1413838292
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8c17624f0722c06351833cdbbd896aef230d97a8",
+        "timestamp": 1413838399
+      },
+      {
+        "files": [
+          "wcwidth/table_comb.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "8b2e4257f33c7c58bb88584dc82a7b820d88027b",
+        "timestamp": 1414436012
+      },
+      {
+        "files": [
+          "wcwidth/table_comb.py",
+          "wcwidth/table_wide.py"
+        ],
+        "sha": "b2d3b8f9ffc4da54f5a68483c44a1fee6ad5fd14",
+        "timestamp": 1414506584
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "5b8809074cc41130be9ead0c68f9081747915149",
+        "timestamp": 1414528490
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "7ff839312ec2b5039b32f8bd1fe05e50bf370c2f",
+        "timestamp": 1414558657
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "tests/test_core.py"
+        ],
+        "sha": "f5fb76b89bc35423d8284e92775525869ef7b6b1",
+        "timestamp": 1414600757
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "98c45c4c6c8e7a80ea3820a796061d7e63691a69",
+        "timestamp": 1414600891
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "01b4b4504b4a490deea48c34666b4c5823fc0093",
+        "timestamp": 1414600943
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "26a2dfed510a3aec99f4efef141de41bd6f8c81b",
+        "timestamp": 1414600986
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "495fe14fa8a88e38fbc3c5ed8b88a44c108ef0e5",
+        "timestamp": 1414601178
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "bin/wcwidth-combining-browser.py"
+        ],
+        "sha": "b4a006ff16d2c4099b064a4a370b6bf65577fa4c",
+        "timestamp": 1416425083
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "195c4ab71173e2ffc3a68c514a2126337badadb4",
+        "timestamp": 1416425820
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "bin/wcwidth-combining-comparator.py",
+          "bin/wcwidth-libc-comparator.py",
+          "setup.py",
+          "tox.ini",
+          "wcwidth/__init__.py",
+          "wcwidth/table_comb.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "24369f93c5e9b0b42148bc8ee2de42b038eea1e9",
+        "timestamp": 1416465151
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "b6e2ccd4f4d22a99f7c65dfa3e546cc692b64fd0",
+        "timestamp": 1416467607
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "df9c8880f3a472ee99ccf8a1e0b749e980c4ea33",
+        "timestamp": 1416471434
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "bin/wcwidth-combining-browser.py"
+        ],
+        "sha": "9c3bdfd6b36527e12f983d23bdd7cd309facc611",
+        "timestamp": 1416473071
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "59754394586d3a594684eb48b513b023770b81f4",
+        "timestamp": 1416473488
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py"
+        ],
+        "sha": "a6c421523b6bb7925df7e561fd7fc503f5916149",
+        "timestamp": 1416473498
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "d2de2b73d0f3c3344a54b38845c30727ea3dfb07",
+        "timestamp": 1416473509
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "fb28009abb69f9107f60a9723612c8dfe3563e76",
+        "timestamp": 1416475741
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d89da0083601f7523df7f7bb0e9752a4faa54638",
+        "timestamp": 1422209440
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "227f215519c842242df690105b69eebae4d06be3",
+        "timestamp": 1422210181
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "tox.ini"
+        ],
+        "sha": "e0ce5c6ff26d5b0bff6c5c68fa36f36e9c41c73a",
+        "timestamp": 1422211548
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "4dd9b4d863486581db6d82d536cd81fff1452125",
+        "timestamp": 1422212042
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "6f20d17626bdfea87aa5a68a38ef8ceb13c1c292",
+        "timestamp": 1428948179
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "setup.py",
+          "wcwidth/__init__.py",
+          "wcwidth/table_comb.py",
+          "wcwidth/table_wide.py"
+        ],
+        "sha": "c0924b5e078751cf9ac22277de48043188406f02",
+        "timestamp": 1428948190
+      },
+      {
+        "files": [
+          ".prospector.yaml"
+        ],
+        "sha": "afb3d71e627ba756d362c4c6b7096943f4e29284",
+        "timestamp": 1428967810
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "45ce513e02da5bb8cf12a422b4390098f8b26b3a",
+        "timestamp": 1428967394
+      },
+      {
+        "files": [
+          "tests/__init__.py"
+        ],
+        "sha": "d12182e9e3d9006c1b8737f32c6005b68ecb8700",
+        "timestamp": 1428967475
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "f2ae915553c7aba871016cc7d026e04537a7d177",
+        "timestamp": 1428967841
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "tests/test_core.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "7dba7100611ebf79d900d7f4c45a226ad313957e",
+        "timestamp": 1441167328
+      },
+      {
+        "files": [
+          "README.rst",
+          "bin/wcwidth-browser.py",
+          "bin/wcwidth-combining-comparator.py",
+          "setup.py",
+          "tests/test_core.py",
+          "wcwidth/table_comb.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "72ef7fe5137059ba88ea56715d1584bf07a4adcb",
+        "timestamp": 1441168866
+      },
+      {
+        "files": [
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "92b28f84c9487b13134ce1a2c048ee102ae430fd",
+        "timestamp": 1442195322
+      },
+      {
+        "files": [
+          "wcwidth/table_comb.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "4deb5633801afe92e11748d7b44e0e896f0a80e0",
+        "timestamp": 1442195471
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "800363de878e8bbee4c9c6e21449de75abab9ef3",
+        "timestamp": 1442196113
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "45dcdbc9ec3c1c8f2debf31a2b97cda8ba0899e7",
+        "timestamp": 1442196218
+      },
+      {
+        "files": [
+          "LICENSE",
+          "README.rst"
+        ],
+        "sha": "4baf950b88a28a9fe21d132e088b4ffc58e66276",
+        "timestamp": 1442197419
+      },
+      {
+        "files": [
+          "requirements-develop.txt"
+        ],
+        "sha": "b1e6d0d9bf0b78a6338854ae86c508dbf6deb7e5",
+        "timestamp": 1442197436
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "f8782eefe4010314ec5efc57b5f774281de4e4c4",
+        "timestamp": 1442197446
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "78cdf059d9cd74fa1885ec5468b34431de891f32",
+        "timestamp": 1442197469
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "56447247923f262ab5ae2adeb26b5135caf6a79d",
+        "timestamp": 1442201388
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "07cea7f70f298c7124c5a7838848c392516a676d",
+        "timestamp": 1442201407
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "38d2e81614b2e901f12ab374c8d6dd928dcff3a9",
+        "timestamp": 1442203185
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9f543e7354275a8aa7e5aa2f5951e1200d1b55db",
+        "timestamp": 1442205039
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "410864a2afc43072189275609e0f6044e0d346b7",
+        "timestamp": 1442205098
+      },
+      {
+        "files": [
+          "bin/wcwidth-combining-comparator.py"
+        ],
+        "sha": "3fdd990ee5a79607682030fd8c7d40718a5842ca",
+        "timestamp": 1442207739
+      },
+      {
+        "files": [
+          "requirements-develop.txt"
+        ],
+        "sha": "1349efb70b8adef320e0dca3796e19f9ce4ccffd",
+        "timestamp": 1442207750
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5337aa315f63459b956a8d2397a72784a9db8661",
+        "timestamp": 1442207766
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "179a10c3329b3cf5337849f6d83e0293c645feef",
+        "timestamp": 1442207777
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f0ab2b66b3b6aef061a09924a44beba454a0c30b",
+        "timestamp": 1442207935
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "88bea80e6acedcb003f60b94bc280fe4657d4c44",
+        "timestamp": 1442208777
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1ecbbf8571940d47e3ef97e92551c0882dad34fd",
+        "timestamp": 1442208788
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "ebba4d0f13ba33079bc95e452a18b04c0352c340",
+        "timestamp": 1442208800
+      },
+      {
+        "files": [
+          "requirements-develop.txt"
+        ],
+        "sha": "8e28f44ea5dfa869e33d0aeee8606e801be8a37c",
+        "timestamp": 1442208810
+      },
+      {
+        "files": [
+          "tests/__init__.py",
+          "tests/test_core.py"
+        ],
+        "sha": "c03620f28923ee2884b8180c099641ea82acd096",
+        "timestamp": 1442208820
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "67df6fa61a26c4acbff04a1c1d15dc622e928aaa",
+        "timestamp": 1442209481
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f2eb4b92639a3ad57efdc677eee5f89380ca4093",
+        "timestamp": 1442210271
+      },
+      {
+        "files": [
+          "requirements-develop.txt"
+        ],
+        "sha": "d72c944e1ca7c5626634416dba13e0698db8778c",
+        "timestamp": 1442210544
+      },
+      {
+        "files": [
+          "requirements-develop.txt",
+          "tox.ini"
+        ],
+        "sha": "426d7481a8034d41a41f2483a0ae91d83953d7e3",
+        "timestamp": 1442210674
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b7219757a7ec8eec93df38c45141a362f1979cb9",
+        "timestamp": 1442211076
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "cfd84bd794457a994bf054524fc915b6a11efbb9",
+        "timestamp": 1442211133
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2d5d958c6b0be0531b48d3edd6304e04034986c8",
+        "timestamp": 1442211168
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b217ed4eb06e3a2a523a995f85b4c84b4d17df62",
+        "timestamp": 1442211791
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py"
+        ],
+        "sha": "3ffefede5bef630a7605ad7e87aaff0a20ef378d",
+        "timestamp": 1444601442
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "740d109262438855b5bcd2e27907989048fcf3ff",
+        "timestamp": 1452283195
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "b2253c7596197596230fa3abd7381ef49685fe7b",
+        "timestamp": 1452283222
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "383dbc65ef7f6e6e58afb3b6068a8297f464e17a",
+        "timestamp": 1452288118
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "65a63ddc6d72208a3db20ec170f3dba99b6f6004",
+        "timestamp": 1452288183
+      },
+      {
+        "files": [
+          "LICENSE.txt",
+          "MANIFEST.in"
+        ],
+        "sha": "c1c0a4a93780fc7f7a3f80884ffbac035cfa398b",
+        "timestamp": 1452288763
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "1f3a9ce371e9e21d1573ce812f035ffdc2d752b9",
+        "timestamp": 1452294943
+      },
+      {
+        "files": [
+          "requirements-develop.txt"
+        ],
+        "sha": "d343837614ef3be71dfbed3fd7d038bbee2efa83",
+        "timestamp": 1467425848
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "81db49acac56021423df3d7c178aa8458e901e4f",
+        "timestamp": 1467425875
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4efc61c265ba5b54d36fc95736499e111a5162a8",
+        "timestamp": 1467432091
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "b3d5740dbaec98fea51ea53ae3c5f17159511604",
+        "timestamp": 1467433051
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "84b752f132b7d532552a02e0f3b39278017fd7f6",
+        "timestamp": 1467433075
+      },
+      {
+        "files": [
+          ".prospector.yaml"
+        ],
+        "sha": "05114631983e34e0e2fc86ad611821211b07babb",
+        "timestamp": 1467433092
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py"
+        ],
+        "sha": "1aefd7f9abd0053dc33a66262ae7b5a7935e5bc1",
+        "timestamp": 1467433117
+      },
+      {
+        "files": [
+          "requirements-develop.txt"
+        ],
+        "sha": "1cc400a3a1a35e745f5a739c2d7f2425e2780a4b",
+        "timestamp": 1467433129
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "87e3dab28c6d9fd08364d81c0641191d4ca6b348",
+        "timestamp": 1467433161
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "e719a48ebfd22e854ccd4f8192b36fbc61a8957c",
+        "timestamp": 1467433187
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "tox.ini",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "0d7de112202cc8b2ebe9232ff4a5c954f19d561a",
+        "timestamp": 1467477347
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c71459ea91af86f3bbcdac2c8ed5e7773da2d848",
+        "timestamp": 1467477652
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "README.rst",
+          "setup.py",
+          "tests/test_core.py",
+          "tox.ini",
+          "wcwidth/__init__.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "dfeca2f14b4bb1116c3c378f82630d61d684a09b",
+        "timestamp": 1472476002
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "59912d0e75d73fe65ea11b954dbb9fd81cbcc667",
+        "timestamp": 1490403413
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "2109a32abbfc21a41049d088012f4a6e9e070d8a",
+        "timestamp": 1490402839
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ad69737a484a388373f39c893bb5971dc512b666",
+        "timestamp": 1490403520
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "8c9b336f1e746b03c6a16eefa23ec1d66d93655d",
+        "timestamp": 1490403533
+      },
+      {
+        "files": [
+          "bin/bump-version.py",
+          "bin/update-tables.py",
+          "tox.ini",
+          "wcwidth/__init__.py",
+          "wcwidth/version.json",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "cca794c1e4f055e202713bd01b857e0ef7079117",
+        "timestamp": 1490404071
+      },
+      {
+        "files": [
+          "README.rst",
+          "wcwidth/version.json"
+        ],
+        "sha": "757e12ff06552fe015451d2f9cbe39d0d12139bf",
+        "timestamp": 1490405296
+      },
+      {
+        "files": [
+          "bin/bump-version.py",
+          "bin/update-tables.py",
+          "wcwidth/__init__.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "e8e865622f71d4068527ba3873d560ca0c2632a2",
+        "timestamp": 1490406250
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "b53b4a6ad7cdf3dd43e1fed1535036a71118c45d",
+        "timestamp": 1490406470
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "c96cb3df27dd947655d446ee0251e089a44f1bb5",
+        "timestamp": 1490562383
+      },
+      {
+        "files": [
+          ".prospector.yaml",
+          ".travis.yml",
+          "docs/api.rst",
+          "docs/intro.rst",
+          "tox.ini",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "c6b82c1c575883b1a676c43116192fc9bd74c017",
+        "timestamp": 1508706564
+      },
+      {
+        "files": [
+          "requirements-develop.txt"
+        ],
+        "sha": "78800b68911880ef4ef95ae83886154710441871",
+        "timestamp": 1542331678
+      },
+      {
+        "files": [
+          "requirements-develop.txt",
+          "tox.ini"
+        ],
+        "sha": "b3b46eacb024f011ee31c40860619910964ff73a",
+        "timestamp": 1577919627
+      },
+      {
+        "files": [
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "079c646a43421efbbad74f90240d5a36d2285726",
+        "timestamp": 1577919640
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst"
+        ],
+        "sha": "7ea5158af286a2ec79a565ed7c129af9f12de395",
+        "timestamp": 1577919871
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "bd8d08930c25d892d92712207ab220bba5b4e3db",
+        "timestamp": 1577925971
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "833c839ee04471b038477d536579a800ad775a18",
+        "timestamp": 1577927496
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "69dc30cf6c84097f968b3a00832099807bd07be5",
+        "timestamp": 1584912643
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "8535368793b782999cb4c005502103897021f0eb",
+        "timestamp": 1584938519
+      },
+      {
+        "files": [
+          "README.rst",
+          "requirements-develop.txt"
+        ],
+        "sha": "8e3273bf6dcfad99b00eddb6bc99aacb3b475e20",
+        "timestamp": 1584942746
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "86b5c6accefc59b17e2d29308c8638a36e3ed95b",
+        "timestamp": 1584942831
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "15ece0398e366b54b474812bf849b42b3ce0f05d",
+        "timestamp": 1584942888
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "9a4b634601c16a5535a290904bcb5bf596e09c87",
+        "timestamp": 1584943503
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "30faa1bcef7433e25fa6f90163244e43a5e6c963",
+        "timestamp": 1584943946
+      },
+      {
+        "files": [
+          "requirements-develop.txt"
+        ],
+        "sha": "d1264f79fb6d2426fe934366c7fbe726c30a1524",
+        "timestamp": 1584944298
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "15efb1f02ba50f79f8905b9ef25fa9c50068b7b1",
+        "timestamp": 1584944449
+      },
+      {
+        "files": [
+          ".python-version",
+          "bin/update-tables.py",
+          "docs/intro.rst",
+          "docs/unicode_version.rst",
+          "setup.py",
+          "tox.ini",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/version.json"
+        ],
+        "sha": "0327f6b4877ed5bb5cf9e1e180171a697e2e8e79",
+        "timestamp": 1590732125
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "563eec7586395b1d1ead653852e7d05fd9425cd5",
+        "timestamp": 1590759282
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "f2ffaf4d7d9489014587ab6ed81665c97ae994fa",
+        "timestamp": 1590790262
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "tox.ini"
+        ],
+        "sha": "e4bd85d90c66f704d26217d20acbdbf1cafc7754",
+        "timestamp": 1590792392
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "docs/intro.rst",
+          "tox.ini",
+          "wcwidth/version.json",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "5f2a97da7700311a45ac3f1944e30905bd520dda",
+        "timestamp": 1590893421
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "bin/run_codecov.py",
+          "docs/requirements.txt"
+        ],
+        "sha": "e1f2fa89911f72ad5d33502950976231313b0861",
+        "timestamp": 1590893434
+      },
+      {
+        "files": [
+          "bin/new-wide-by-version.py",
+          "bin/wcwidth-browser.py",
+          "docs/intro.rst",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "50e5032fb43cdff2e2ceb87c4753b0d5d43192e8",
+        "timestamp": 1590988099
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "bin/new-wide-by-version.py",
+          "bin/run_codecov.py",
+          "bin/update-tables.py",
+          "bin/wcwidth-browser.py",
+          "docs/conf.py",
+          "docs/intro.rst",
+          "tox.ini",
+          "wcwidth/__init__.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "f1bdb18b2b84dead9f79a54e0a1c96481fcbd74b",
+        "timestamp": 1591022951
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "d73e4883614b500d11070fb2d270414b5d1370b3",
+        "timestamp": 1591023058
+      },
+      {
+        "files": [
+          "tox.ini",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "38cd149cdcba9146052ddf03d29ea3ac9166a3d8",
+        "timestamp": 1591023346
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "wcwidth/__init__.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/version.json"
+        ],
+        "sha": "b154ccedf200da67968bd99b151e5cef45e2be0a",
+        "timestamp": 1591023528
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "81c7d1300af5fab7963d664288960eeb0c33190e",
+        "timestamp": 1591023643
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "72d76a3eca3293ff84cbd9404e21e23a8b1fcee7",
+        "timestamp": 1591023675
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "bin/wcwidth-browser.py",
+          "tox.ini",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "b9b615278db4273a29f5e3e53aca2f1f7687f7ce",
+        "timestamp": 1591024341
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "e44acaea1cba4096ed0074f678c774b9671ab135",
+        "timestamp": 1591024624
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "c9eda9b980b708ddc0bd9b61a90c3eaa43ed2152",
+        "timestamp": 1591024877
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py"
+        ],
+        "sha": "837b261ca2340dcc207104b06f58293603554ed1",
+        "timestamp": 1591025034
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "f086e3835d1f047247e661fc314f5090b3a7f3f9",
+        "timestamp": 1591025050
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "ae80724f7afc1bf4ed8d850fefb4bcfb8220ca70",
+        "timestamp": 1591025270
+      },
+      {
+        "files": [
+          ".prospector.yaml",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "9fa147c86b64cfd255872c4d99be0373a167cbe3",
+        "timestamp": 1591025747
+      },
+      {
+        "files": [
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "b1f968ec1e6397b622d3577f6c10b492c0269a19",
+        "timestamp": 1591025952
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "83e47bb60ddf801e4310bb21181fc36522755284",
+        "timestamp": 1591026150
+      },
+      {
+        "files": [
+          "bin/bump-version.py",
+          "tox.ini"
+        ],
+        "sha": "797e735293435b585a368fabddcd332c7488e7d6",
+        "timestamp": 1591026165
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "105cd2de1e6b28e0bd3c5d754f71f3f46a18c3bc",
+        "timestamp": 1591026256
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "docs/intro.rst"
+        ],
+        "sha": "a277ba6d9ef7aa861869dc00ca5c134df358cfbc",
+        "timestamp": 1591026702
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "146857710fb0c11ab0100346ebb4cb48d9e9ed5e",
+        "timestamp": 1591026867
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "0a14ca628f0bd30bbd0855c9847c4437a28f23da",
+        "timestamp": 1591026918
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "92212d7625ed721ac5718804e18c2fbc7d96f4d8",
+        "timestamp": 1591027053
+      },
+      {
+        "files": [
+          "bin/run_codecov.py",
+          "tox.ini"
+        ],
+        "sha": "083375840e8839abb14bcd35a868cda85723537c",
+        "timestamp": 1591027661
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "edacd4c9738d850e1ec319770dd2802205d10b01",
+        "timestamp": 1591028839
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "5177f98dba4449f0320631f34ccc214f9cbc971c",
+        "timestamp": 1591030054
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "4c80ccdaa96e9e527722b50ea78c033d81d04f8e",
+        "timestamp": 1591030204
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "63aa241b3f86fa40be06aceb7e6bc5e65cfa7328",
+        "timestamp": 1591030270
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "f852e6a3faac7eca1bd7745e2b6e244c7df5438b",
+        "timestamp": 1591030400
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2e159ace4116eebd9327cad988eb9a2b7617369b",
+        "timestamp": 1591030803
+      },
+      {
+        "files": [
+          "LICENSE",
+          "MANIFEST.in"
+        ],
+        "sha": "dc720a9a4c3c6ae6c5b16a552cfe5186dde22551",
+        "timestamp": 1591030922
+      },
+      {
+        "files": [
+          "wcwidth/version.json"
+        ],
+        "sha": "3111ebe920ea5db48c277a884a9bc4e766622138",
+        "timestamp": 1591031017
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f105368885b2a165a2587ff844a4b69f00daeb39",
+        "timestamp": 1591031061
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "c966672ff3bfdcd479498b802e1595bd88423a0f",
+        "timestamp": 1591031107
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "wcwidth/version.json"
+        ],
+        "sha": "91ac30fcc8dd8bfbd78c047943e02682c7375454",
+        "timestamp": 1591031686
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "e77dfdf85b56405edeb87b7c874c91ddfc71bc05",
+        "timestamp": 1591033969
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "a2ee6680923a00294d3963f5ae7806ec50db01e9",
+        "timestamp": 1591063331
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "docs/intro.rst"
+        ],
+        "sha": "cffa32d5c37c93e8fba23d9408fda86910b9fbcb",
+        "timestamp": 1591114022
+      },
+      {
+        "files": [
+          "wcwidth/version.json"
+        ],
+        "sha": "c9fd62df1628c88b0cc97c2567935111fa31406f",
+        "timestamp": 1591115225
+      },
+      {
+        "files": [
+          "bin/new-wide-by-version.py"
+        ],
+        "sha": "baa4b75f3d28a1b836d5d2803ee03574b30b9590",
+        "timestamp": 1591546650
+      },
+      {
+        "files": [
+          "setup.py",
+          "wcwidth/__init__.py",
+          "wcwidth/version.json"
+        ],
+        "sha": "7918f581feedeaa4246dc0fc03ec6fb49cff15cb",
+        "timestamp": 1591587460
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "28f0fe506976de400665b114fcf45c9d8b834c81",
+        "timestamp": 1592231164
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "setup.py",
+          "tests/test_ucslevel.py"
+        ],
+        "sha": "36a65d0be40dd4c9cf448d54074c3d4a32b9a606",
+        "timestamp": 1592928884
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "480990fbbd00cb89f605d2edec80c1325c63d1ba",
+        "timestamp": 1594736097
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "0b8f3f7d74a2c389901ffe9caaa6455056c05d49",
+        "timestamp": 1628174731
+      },
+      {
+        "files": [
+          "wcwidth/table_emoji_zwj.py"
+        ],
+        "sha": "07c6c29ca13c91eed9e3a31f2ede1df84eeaec78",
+        "timestamp": 1628174767
+      },
+      {
+        "files": [
+          "wcwidth/table_emoji_zwj.py"
+        ],
+        "sha": "4d4548048275ee25ba698cb0bd411296ff3f2238",
+        "timestamp": 1632860502
+      },
+      {
+        "files": [
+          ".python-version",
+          "bin/update-tables.py",
+          "docs/unicode_version.rst",
+          "tox.ini",
+          "wcwidth/unicode_versions.py"
+        ],
+        "sha": "9192fddc5e742b1050c273859c7e86ed56af07e8",
+        "timestamp": 1636989174
+      },
+      {
+        "files": [
+          "code_templates/python_table_width.py.j2",
+          "code_templates/unicode_version.rst.j2",
+          "code_templates/unicode_versions.py.j2"
+        ],
+        "sha": "c03d1b5afc87084637d2788f812d0d7ef8a368c4",
+        "timestamp": 1636989410
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "cd98f5ed1c49897d82752271a00ddf0955709fbe",
+        "timestamp": 1636989648
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "102e57e5e4cddfe3c44aadbe7ca46927b5cbc600",
+        "timestamp": 1636989695
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "7b73991777931d41593f9df396de8a258284d73e",
+        "timestamp": 1647810858
+      },
+      {
+        "files": [
+          "docs/unicode_version.rst",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/unicode_versions.py"
+        ],
+        "sha": "ef33e1d18f90bf637cb17f898a6c6526bcc0b53a",
+        "timestamp": 1647810898
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "code_templates/python_table.py.j2"
+        ],
+        "sha": "2e12375f5ce5cabe06a41b41b1597a9e8350ef83",
+        "timestamp": 1647810934
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "bin/run_codecov.py",
+          "docs/requirements.txt",
+          "requirements-develop.txt",
+          "requirements-docs.in",
+          "requirements-tests.txt",
+          "requirements-tests38.in",
+          "requirements-update.in",
+          "requirements-update.txt",
+          "tox.ini"
+        ],
+        "sha": "ad07e2d25868d92d3c684fff98048ad252bd53f6",
+        "timestamp": 1647810939
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "6d4fa362e548c987e32adbdd87e9e045592db0e0",
+        "timestamp": 1647811110
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "589ebc5e96630a1a7862a8f42280dcbcb0d56315",
+        "timestamp": 1647811921
+      },
+      {
+        "files": [
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/unicode_versions.py"
+        ],
+        "sha": "3f9ee7bb3e76132e4788667bc81367e23e053318",
+        "timestamp": 1647811936
+      },
+      {
+        "files": [
+          "bin/new-wide-by-version.py"
+        ],
+        "sha": "b5739e4de5482d613a002215ae69282ac3c8b6a2",
+        "timestamp": 1647811952
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "47b1969707614ad4d471fc56d872229f4b8709a7",
+        "timestamp": 1647811961
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "3799a0be3e71e6f4fcb35d15daebcc6b5dfea718",
+        "timestamp": 1647811984
+      },
+      {
+        "files": [
+          ".pylintrc",
+          "tox.ini"
+        ],
+        "sha": "df0d5a9ba847b90a4cf8377ba175eba977c6e9f2",
+        "timestamp": 1647812000
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "329ee1632c18c5242a764ef61880fe1a6138a142",
+        "timestamp": 1647812012
+      },
+      {
+        "files": [
+          "requirements-tests.txt",
+          "requirements-tests38.in"
+        ],
+        "sha": "72f780eb2dfa183023b5cd48650f7926f3c0e043",
+        "timestamp": 1647812598
+      },
+      {
+        "files": [
+          "bin/new-wide-by-version.py"
+        ],
+        "sha": "02c1bb75821c3973714760f7cd7f0a50f52beb67",
+        "timestamp": 1647812615
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "8934085a63cfabf4bc79f7d630eae4b76b3d6fa5",
+        "timestamp": 1647812620
+      },
+      {
+        "files": [
+          "requirements-tests38.in",
+          "requirements-tests38.txt",
+          "requirements-tests39.in",
+          "requirements-tests39.txt"
+        ],
+        "sha": "85cb10099470c8bff685679efd301e1cbe07cb6a",
+        "timestamp": 1647813270
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "75a93df76c2fb101cddbadb213221abf2e7ac8c5",
+        "timestamp": 1647813333
+      },
+      {
+        "files": [
+          "requirements-tests.txt"
+        ],
+        "sha": "11216b6048ec187c786948a5c8b9e72a07914875",
+        "timestamp": 1647813344
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "0e5718e60d03f878878535c909553b3147011248",
+        "timestamp": 1647813358
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/unicode_versions.py"
+        ],
+        "sha": "b0dad96ab74c0630c9085aabff0c3acd06af233e",
+        "timestamp": 1647816308
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "docs/intro.rst",
+          "tox.ini"
+        ],
+        "sha": "bbe041b7112d0b8cbdd4f0990863c1ce2b6ef378",
+        "timestamp": 1647817883
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "b1276fa1c74288b36ba460878c98e847582f15fa",
+        "timestamp": 1647877220
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "1d1164887578ab6f39bd1d5aa3aaae12252f392b",
+        "timestamp": 1646521246
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "48adfb23eb35e9ea8408eaa769949a6c59316874",
+        "timestamp": 1647882332
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "bf6249948620ab04be48f1474223334c758646e9",
+        "timestamp": 1647887739
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "code_templates/python_table.py.j2",
+          "tox.ini"
+        ],
+        "sha": "a97204c0c4415c472ede7d3127f60098acb8eb40",
+        "timestamp": 1647889515
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "de0a3cd24336182ea893b0b0de109a9e73537617",
+        "timestamp": 1647890365
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "8fbdf02db0814c4d503199d153c5bc652407b11b",
+        "timestamp": 1647892033
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "e8771c4e12b6f90b2379d5b73109d3002b2aeae7",
+        "timestamp": 1646525221
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "70d45e574fc422f3ae99c2a44e276a0a89d170b8",
+        "timestamp": 1647894432
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "c161f925dda44fe1ea75993f810721e7fd4e1c3b",
+        "timestamp": 1647906665
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "setup.py",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "5e4ae4a0548b8f5ee3403b1b115e8b80f826678e",
+        "timestamp": 1655941963
+      },
+      {
+        "files": [
+          "tests/test_core.py",
+          "tests/test_ucslevel.py",
+          "tox.ini"
+        ],
+        "sha": "d38b1002e67f9aa4896d54c83d11cb19e7d0f892",
+        "timestamp": 1658150985
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "3f0ef225eb725d49f7a34294a3488ee9cdde11fc",
+        "timestamp": 1665741625
+      },
+      {
+        "files": [
+          ".github/workflows/codeql.yml"
+        ],
+        "sha": "737bde235eea48bc3f0b493aa0a3608298b26ca9",
+        "timestamp": 1667992988
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "requirements-update.in",
+          "requirements-update.txt"
+        ],
+        "sha": "0a7a83fe98443014ed3f6e2c3c89956ac74c2fa0",
+        "timestamp": 1673624897
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "72109bea759e48f0e16cbfd559b1cdcdcde45ded",
+        "timestamp": 1673625034
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py"
+        ],
+        "sha": "a28f45c72810d89e3e680ac848656041ae2298eb",
+        "timestamp": 1673625718
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "a2dc0c99460ec58e96f63ca6e951e24f50b41a48",
+        "timestamp": 1673625747
+      },
+      {
+        "files": [
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/unicode_versions.py"
+        ],
+        "sha": "c6210eaf3e95fc36007d560a38cc1f73432817eb",
+        "timestamp": 1673625760
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "c3c9753698bed1662e4c83d92bb977aaa28c0e44",
+        "timestamp": 1673625812
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py"
+        ],
+        "sha": "7151661fbe6e5cd7e234aa51e5c04e1089f45e59",
+        "timestamp": 1673656644
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "70b68eae5a0d94f9dcafc1296eb47facebcbd55a",
+        "timestamp": 1673656654
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "docs/unicode_version.rst",
+          "tox.ini",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/unicode_versions.py"
+        ],
+        "sha": "15acf3da869f8e50040da5af8516917f0b2b8e75",
+        "timestamp": 1673657320
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "bin/wcwidth-browser.py",
+          "code_templates/unicode_versions.py.j2",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/unicode_versions.py"
+        ],
+        "sha": "71675bda1ae87a171ee71bca364ab48e735867e1",
+        "timestamp": 1673657652
+      },
+      {
+        "files": [
+          "bin/new-wide-by-version.py",
+          "docs/api.rst",
+          "docs/intro.rst"
+        ],
+        "sha": "2fe49837cdd5b1b5ed912bb38eeb2125e4ea9082",
+        "timestamp": 1673657828
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "e05f9258be6ac5ccae33bb34fb5fb88ebbedbd04",
+        "timestamp": 1673665729
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "22e89550d90e1b71400bfff1270923ba591b0c05",
+        "timestamp": 1673666138
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "5afb684274a61e5ad055b27f01bcb8f97b876e1a",
+        "timestamp": 1673666667
+      },
+      {
+        "files": [
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "118d96825418b76cf16e1c57a5fa63ca4d5e127c",
+        "timestamp": 1673666957
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "f9076b8af39bef935716e11f42cb635260625fb8",
+        "timestamp": 1673668145
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "375f475c5005ff640aa786c0b7dc3c017d321bf7",
+        "timestamp": 1673754284
+      },
+      {
+        "files": [
+          "requirements-tests39.in",
+          "requirements-tests39.txt"
+        ],
+        "sha": "793bc92ae48cbb721657189d00e337e96f8a319a",
+        "timestamp": 1673754045
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "3cf9c91946bb46cf9ee1f2caccc19a7152a765e9",
+        "timestamp": 1673754260
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "1180fa1592b9feb164a56bf0730bfec16c492ad5",
+        "timestamp": 1673754269
+      },
+      {
+        "files": [
+          "tests/test_core.py"
+        ],
+        "sha": "bfdf76be4e8c6e29063bd70399c0298c895b700a",
+        "timestamp": 1673754281
+      },
+      {
+        "files": [
+          "requirements-tests39.in",
+          "requirements-tests39.txt",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "2e7907a4f19c7b5aa76ebf9d8ac3c3cbded5f031",
+        "timestamp": 1694413580
+      },
+      {
+        "files": [
+          "docs/requirements.txt",
+          "requirements-docs.in",
+          "requirements-tests37.txt",
+          "requirements-tests39.txt",
+          "requirements-update.in",
+          "requirements-update.txt",
+          "tox.ini"
+        ],
+        "sha": "0e62a49ac7d8798d112fbc73bf8ffc90a4c33cf1",
+        "timestamp": 1694421198
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/conf.py"
+        ],
+        "sha": "b4cf4206e753bc5eca523eaadffa6fcdd4e86852",
+        "timestamp": 1694421740
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "8d5adff69cd810b80897ad141eb3063538e33dba",
+        "timestamp": 1694422890
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "17b37685de46f8c3704c139cc1f43d8990a15428",
+        "timestamp": 1694427160
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "b7b126caaca243f673035369c9b05110d64917e2",
+        "timestamp": 1694428392
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "c69c7ff50d7f5d3ce50cd27ee9b0b9f5936067cd",
+        "timestamp": 1694443829
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "84947b85025882c3853db30d592aba581c488e03",
+        "timestamp": 1694435249
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".python-version-default",
+          "tox.ini"
+        ],
+        "sha": "51882045c08fbb6143e37cb7169629ecc5b13e04",
+        "timestamp": 1694598481
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "8e310a7d5fdc8a2bb514eebfb162fb4ff42e3931",
+        "timestamp": 1694627620
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "f4cd505fc20a5c910fe2952dd64dfe9768dcedea",
+        "timestamp": 1694628651
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "tox.ini"
+        ],
+        "sha": "cd2e1af831e8b2d884d1c4f997327bed24446906",
+        "timestamp": 1694681695
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "03ea8b7fe0833827f139812be3c4ef5594f1b865",
+        "timestamp": 1694685224
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "docs/unicode_version.rst",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/unicode_versions.py"
+        ],
+        "sha": "f7db8a2f89e97b549b32b3e0eb7190143898f41e",
+        "timestamp": 1694865064
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "8114dde71cb9762183a15fb8224da0ba2ef0145d",
+        "timestamp": 1695434222
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "setup.py",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "9291be642941ceaf94589d1e70be5b136d24cea7",
+        "timestamp": 1695434434
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py"
+        ],
+        "sha": "d4d08d5f812e36a67870bb655ba5d6d3be736962",
+        "timestamp": 1695434931
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "1c33a1c3da801f569fc9c2af5da1f4be4e471ece",
+        "timestamp": 1695435073
+      },
+      {
+        "files": [
+          ".readthedocs.yaml"
+        ],
+        "sha": "8b4bc91817774165695b102523c60710b7d620c1",
+        "timestamp": 1695435604
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "f70ba47aaf0bcaf460351d13be3561ab92fa94ed",
+        "timestamp": 1695460034
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "7e99a7139ff01afd661dc26be24a36f98b0c892f",
+        "timestamp": 1695462775
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "ba47868a7880f9ff2db6c4aaea7ea6239352ba71",
+        "timestamp": 1695462991
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "241c6107f28505f2dbb56d8cc19c4380200a9749",
+        "timestamp": 1695945145
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "d7fd8dc3199ae32eb7ff011f82b1ccfcb56eb0af",
+        "timestamp": 1695974156
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "e64364143017578907bbfd9dc51c30a495b32b1d",
+        "timestamp": 1695974183
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "12fedbb2bff8186b8d8465d33bcdede7346476c0",
+        "timestamp": 1695974719
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "034e491e1c2b95129829c324f3f61a35fe82bbab",
+        "timestamp": 1696030067
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "f507a7ac4fac48b6f7082390f5273fea42a108e1",
+        "timestamp": 1696050751
+      },
+      {
+        "files": [
+          "setup.py",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "6379e6d985ff4f14601b4256be6d352f2345b31d",
+        "timestamp": 1696050945
+      },
+      {
+        "files": [
+          "docs/requirements.txt",
+          "requirements-tests37.txt",
+          "requirements-tests39.txt",
+          "requirements-update.txt"
+        ],
+        "sha": "4f41d0c6e5a6fec59e56a7cf332ffeec58d354f6",
+        "timestamp": 1696503963
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "95e48205146e88e15bc808fb844429321fe2809c",
+        "timestamp": 1698692779
+      },
+      {
+        "files": [
+          "requirements-update.txt"
+        ],
+        "sha": "ba12006eb59987c8b65e41774379b0ad72d4f7e2",
+        "timestamp": 1698692823
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "43fcd28ce2fd1f4ba1221120ed2e19539c81ca81",
+        "timestamp": 1698698439
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "2059ee1952637c10a54a5a414ea1c3835f5c2879",
+        "timestamp": 1698698864
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "0e885e4dacaaf490ff98db536b056fdb4f5ce57d",
+        "timestamp": 1698753105
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "041f625c220e06cad32a2159d08111bd60f6ec47",
+        "timestamp": 1699947874
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "MANIFEST.in",
+          "docs/intro.rst"
+        ],
+        "sha": "d2a930e3b5b7a4c9e6f87fa8568f7beb454f320d",
+        "timestamp": 1700533368
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "setup.py",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "4f5ba6238edc345086ae060a307692623bf15ecc",
+        "timestamp": 1700534204
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "e21b3e35ee78b0ccb692186d896e2df0002cf3dd",
+        "timestamp": 1700534331
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "setup.py",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "04dd30ee34f7fd5dd74e14e9f064edeee7e064e8",
+        "timestamp": 1700596351
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "2708c81566c4b48f32062b3d8b8595c36dc9cd5c",
+        "timestamp": 1700596496
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "9e0cedbaf88c8bca14c8bf05a609ba3274e4067e",
+        "timestamp": 1700985440
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py"
+        ],
+        "sha": "3a9f471acc936740fbfd268ea9120eb1ca17822d",
+        "timestamp": 1701442721
+      },
+      {
+        "files": [
+          "code_templates/python_table_width.py.j2"
+        ],
+        "sha": "076164eae3c4a7e844ed298f25a619aa2b1f9d73",
+        "timestamp": 1702535197
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "0ba0278f3b586bbcc46053525d359f77f3f5b0ad",
+        "timestamp": 1702627835
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "bin/verify-table-integrity.py",
+          "docs/intro.rst",
+          "tests/test_core.py",
+          "tests/test_table_integrity.py",
+          "wcwidth/table_wide.py"
+        ],
+        "sha": "3af992ad529204639a429ba54f58f23de5dcfa72",
+        "timestamp": 1704504323
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "docs/intro.rst",
+          "tests/test_core.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "8ed7f2c880508a44e4114ea6ac07e8a6b6c76f7f",
+        "timestamp": 1704506177
+      },
+      {
+        "files": [
+          "docs/specs.rst"
+        ],
+        "sha": "248f12209066166cbb841dbfa2f27bf94b5d6ae4",
+        "timestamp": 1704506652
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "docs/specs.rst",
+          "setup.py",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "6aecb21d96cc6deaf5214bc921a71e82e93a330d",
+        "timestamp": 1704506882
+      },
+      {
+        "files": [
+          "docs/specs.rst"
+        ],
+        "sha": "36a625179ed2675287fe6b61c2ad319406449e60",
+        "timestamp": 1704507006
+      },
+      {
+        "files": [
+          "docs/specs.rst"
+        ],
+        "sha": "4150dbe3efd77df7c887bec86cf662a1137d6689",
+        "timestamp": 1705446816
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "b0e4c8860f4da40b9b73cdbaaab846d92db40ecd",
+        "timestamp": 1705450606
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "bin/wcwidth-libc-comparator.py",
+          "docs/conf.py",
+          "tests/test_core.py",
+          "tests/test_emojis.py",
+          "tests/test_ucslevel.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "bc2e50774fb3903673615ceacee301e2d0498531",
+        "timestamp": 1706525079
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "84fef5142d8db3c6142ca5522f4614985f71d1bd",
+        "timestamp": 1706525586
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".travis.yml",
+          "docs/intro.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "d11dcbe4ada3f458ec48e9ac409726b844276a5b",
+        "timestamp": 1706526140
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "bin/wcwidth-libc-comparator.py"
+        ],
+        "sha": "50ad021c3968521a63a4f499e722cccd2a6f434c",
+        "timestamp": 1706526165
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py"
+        ],
+        "sha": "76e95afffe15c0789f1912684c718f9d2d57b8bf",
+        "timestamp": 1706537612
+      },
+      {
+        "files": [
+          "requirements-update.txt"
+        ],
+        "sha": "056ee4ba0df66fb33be535d8f37470685ef32ba9",
+        "timestamp": 1707941106
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "fa9eb2f322789b52d6e093030afd09f786769f7f",
+        "timestamp": 1720272091
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "568a16141ee8497f12a20ebe2e477ac2a139126b",
+        "timestamp": 1720272101
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "6f5099467b5366d2c9d59a75588606f229e2777c",
+        "timestamp": 1720272108
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "214e3758d33e0d177b7f8a12d92318f63404d6b0",
+        "timestamp": 1720272117
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "a20c9441aaa42f3ac88be573cf8027229f1e3520",
+        "timestamp": 1720272125
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".github/workflows/codeql.yml",
+          ".python-version-default"
+        ],
+        "sha": "4161153b29b810035ff524b03097038b87f82b75",
+        "timestamp": 1726178676
+      },
+      {
+        "files": [
+          "bin/update-tables.py"
+        ],
+        "sha": "57cfbda2a87d9d6c5a2ba7b5018f3ce2c04b6383",
+        "timestamp": 1729712026
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "deec7bf397b0fe7c45c71fff2cb266201ed256f8",
+        "timestamp": 1741232944
+      },
+      {
+        "files": [
+          "tests/test_emojis.py"
+        ],
+        "sha": "ec2d19f90818ea608076dfbb1cb7951ac0b7372d",
+        "timestamp": 1748444011
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "559b7047a4f4e1f0e10f83fd9d171e036f34d2c2",
+        "timestamp": 1749827427
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "6e69b23b1f9ce99ae6a57e9484595d3d3451ebad",
+        "timestamp": 1749883210
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "90812b5ba74f5b353c9aba274833522b5985d3eb",
+        "timestamp": 1749883798
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "86d785358854624627eca3d58644c546b9cad828",
+        "timestamp": 1749884243
+      },
+      {
+        "files": [
+          "requirements-tests37.txt",
+          "requirements-tests39.txt"
+        ],
+        "sha": "b26eb9e3f9b7769cbb0306da6e0c50b7183883ac",
+        "timestamp": 1749894727
+      },
+      {
+        "files": [
+          "requirements-tests39.in",
+          "requirements-tests39.txt"
+        ],
+        "sha": "2051ee970ce0f335ca094e59e548355b8374653a",
+        "timestamp": 1749895065
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "082b9eb819f80ad42eeb53b9d171027b58bf6644",
+        "timestamp": 1749895422
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "cd6443817c8b97725fee752d4f06dc7187bfc5cb",
+        "timestamp": 1750144798
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "docs/unicode_version.rst",
+          "wcwidth/table_vs16.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/unicode_versions.py"
+        ],
+        "sha": "60acd01b8a45c392dd39d3379362d557a6a689d3",
+        "timestamp": 1757955981
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "9644095e0deca01eaac2610c20c3b36c9c34e6d5",
+        "timestamp": 1757988084
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "08e24d4560d090a3fec3198b7a5b3280473c67f7",
+        "timestamp": 1757993886
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "ca6b13eeddf3e3efcef22cd056a1121d30cd9373",
+        "timestamp": 1758085450
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "docs/intro.rst",
+          "docs/specs.rst",
+          "docs/unicode_version.rst",
+          "tests/test_core.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "b1c16aaf2974d4630ee4b0c259bb7b1ca48d02fb",
+        "timestamp": 1758182013
+      },
+      {
+        "files": [
+          "docs/specs.rst"
+        ],
+        "sha": "0fe6ff974211ac0bda22abaf721bdcc4702623bc",
+        "timestamp": 1758183216
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "a753ba4c17bd8036a9571e790fff0c0ec2f26933",
+        "timestamp": 1758202081
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "201d7697426221ebb4e97c007190c50d9855fd72",
+        "timestamp": 1758557291
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "f6f397ead11f02db2352ed547452aee4e885afc6",
+        "timestamp": 1758557813
+      },
+      {
+        "files": [
+          "setup.py",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "ed5fb46d9c6fd0ad9977468f84640c4df8369c3b",
+        "timestamp": 1758558435
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "tests/test_core.py"
+        ],
+        "sha": "5ba540df3386255dcde94bf867665ddf1cab868f",
+        "timestamp": 1760485013
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "915166f9453098a56e87a7fb69e697696cefe206",
+        "timestamp": 1762479019
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "fc101beafb8854b380a5dca464e142f7fcb22971",
+        "timestamp": 1768077604
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "bin/verify-table-integrity.py",
+          "bin/wcwidth-browser.py",
+          "requirements-develop.txt",
+          "tox.ini",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "83f28141e8859cd84d6be1f364c933793dd0f215",
+        "timestamp": 1768427287
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "bin/wcwidth-libc-comparator.py",
+          "code_templates/python_table.py.j2",
+          "docs/intro.rst",
+          "docs/unicode_version.rst",
+          "wcwidth/table_vs16.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "5c92e1698685c1848851ea781b48312a03755cb2",
+        "timestamp": 1768429849
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "code_templates/grapheme_table.py.j2",
+          "docs/api.rst",
+          "docs/intro.rst",
+          "tests/GraphemeBreakTest.txt",
+          "tests/test_grapheme.py",
+          "wcwidth/__init__.py",
+          "wcwidth/bisearch.py",
+          "wcwidth/grapheme.py",
+          "wcwidth/table_grapheme.py"
+        ],
+        "sha": "875011dfdd1a208e6223e7aab6de5d9d1779b10f",
+        "timestamp": 1768671903
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/intro.rst",
+          "docs/specs.rst",
+          "tests/test_width.py",
+          "wcwidth/__init__.py",
+          "wcwidth/control_codes.py",
+          "wcwidth/escape_sequences.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "bbb0e473a71227208ec582fcb0c2ea6832c5289c",
+        "timestamp": 1768673289
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/intro.rst",
+          "tests/test_justify.py",
+          "wcwidth/__init__.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "66683016bd4fbbce4a176bb298fa0d4573d857c4",
+        "timestamp": 1768675872
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/intro.rst",
+          "tests/test_justify.py",
+          "tests/test_textwrap.py",
+          "wcwidth/__init__.py",
+          "wcwidth/textwrap.py"
+        ],
+        "sha": "c91edbb28bab10b97bdb842ad4b88d995e3ac29b",
+        "timestamp": 1768676485
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "pyproject.toml",
+          "wcwidth/__init__.py",
+          "wcwidth/grapheme.py",
+          "wcwidth/textwrap.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "c563bfb8ddffa88684c7c4ee92ab013d590e5a3f",
+        "timestamp": 1768678746
+      },
+      {
+        "files": [
+          "docs/unicode_version.rst",
+          "tests/test_textwrap.py",
+          "wcwidth/__init__.py",
+          "wcwidth/textwrap.py"
+        ],
+        "sha": "226d03933595f8cfc1c26fa320d767f953d3b00f",
+        "timestamp": 1768703832
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "343eef2c899f140f900e48bcbd1e0d0801b0182d",
+        "timestamp": 1768772333
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "docs/intro.rst",
+          "docs/unicode_version.rst",
+          "tests/test_ambiguous.py",
+          "tox.ini",
+          "wcwidth/__init__.py",
+          "wcwidth/table_ambiguous.py",
+          "wcwidth/textwrap.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "6070278ada08aa71a83c0d4cfd20813ecd12d126",
+        "timestamp": 1768855752
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/conf.py",
+          "docs/intro.rst",
+          "tests/test_clip.py",
+          "wcwidth/__init__.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "c6e94d06f95c834f9898f73622d23ab4c200ba6f",
+        "timestamp": 1768857039
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "docs/intro.rst",
+          "docs/specs.rst",
+          "tests/test_width.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/textwrap.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "e48109921916a6947c5a091b417d1730635e49ca",
+        "timestamp": 1768927081
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "docs/intro.rst",
+          "docs/specs.rst",
+          "tests/test_core.py",
+          "wcwidth/table_grapheme.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "4b1bbd73a6c6e1c3214b5bdbf394914bf4ce37f6",
+        "timestamp": 1769008697
+      },
+      {
+        "files": [
+          "tests/test_clip.py",
+          "tests/test_width.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "4652716d92a8639851452caac3a0abb663b53626",
+        "timestamp": 1769012645
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "f1b6546e9e4c03ebee5dac9c7b6e69abb4fc59b5",
+        "timestamp": 1769014012
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "pyproject.toml"
+        ],
+        "sha": "b5a71bd0b84596c94c8f09362951885f37cd4600",
+        "timestamp": 1769016556
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "1d3ec89bf08bc872428f3f46bd9a898be367090d",
+        "timestamp": 1769017045
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "79560318fdcdaf683d8633d2fabff491d3e4755a",
+        "timestamp": 1769017390
+      },
+      {
+        "files": [
+          ".github/workflows/codspeed.yml",
+          "requirements-tests38.in",
+          "requirements-tests38.txt",
+          "requirements-tests39.in",
+          "requirements-tests39.txt",
+          "tests/conftest.py",
+          "tests/test_benchmarks.py",
+          "tests/test_emojis.py",
+          "tests/test_textwrap.py",
+          "tests/udhr_combined.txt"
+        ],
+        "sha": "7a398cb802974af80441948254d02d21a82252be",
+        "timestamp": 1769111076
+      },
+      {
+        "files": [
+          "bin/wcwidth-browser.py",
+          "code_templates/grapheme_table.py.j2",
+          "docs/intro.rst",
+          "tests/test_width.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "9b5816796c81782c84539889f7e22af995e4f464",
+        "timestamp": 1769115691
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "pyproject.toml",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "3cfa094ede8a9e9c2d916233f34602697d5c10aa",
+        "timestamp": 1769118976
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "61ddedcc37f82f55f77968bbc714e0dc8af92706",
+        "timestamp": 1769119048
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "7b4638522db445062065032a704ca5c486d78982",
+        "timestamp": 1769119094
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "code_templates/unicode_versions.py.j2",
+          "tox.ini",
+          "wcwidth/bisearch.py",
+          "wcwidth/grapheme.py",
+          "wcwidth/textwrap.py",
+          "wcwidth/unicode_versions.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "b79af797a469917397cd5b73ad9d6a57660c90c1",
+        "timestamp": 1769193624
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "pyproject.toml",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "9db3210b7ade5de071dc170f19b829f0892f191d",
+        "timestamp": 1769202212
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "4738d7993c7911ce2f58cd9569a0251d1de7e9a6",
+        "timestamp": 1769202344
+      },
+      {
+        "files": [
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "9c3356e30a0744919c80c0b69a88d4efa237c983",
+        "timestamp": 1769206946
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "wcwidth/py.typed"
+        ],
+        "sha": "68a3bd588c35963c1f9b63513df4207ed3603b18",
+        "timestamp": 1769206966
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "pyproject.toml",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "14a1f46723ac585d13bfdee3ae142b366a5dced6",
+        "timestamp": 1769271625
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "3bf7ba58bf54e4234c087bf6a46274c18af1f5cf",
+        "timestamp": 1769271704
+      },
+      {
+        "files": [
+          "wcwidth/escape_sequences.py",
+          "wcwidth/grapheme.py",
+          "wcwidth/textwrap.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "b9ef4df2d40541b8bf4ba2f1be8ccc5ea43bacfb",
+        "timestamp": 1769275037
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "a1b9a8382ca4848bd2728b71e324d98e9d85747a",
+        "timestamp": 1769297182
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "tests/test_justify.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "030b4b53a604e28553a677dcffd64d3f3cb6d64d",
+        "timestamp": 1769302692
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "docs/intro.rst",
+          "pyproject.toml"
+        ],
+        "sha": "2e342176d756894b5c8f036248c15ca78672070d",
+        "timestamp": 1769303078
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "ecd25bb8c8255610766520cb7f5aeb5b538d7396",
+        "timestamp": 1769315104
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "pyproject.toml",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "c3310f9107791ec5b4cc9f314b7537451e648f45",
+        "timestamp": 1769315714
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "tests/test_textwrap.py",
+          "wcwidth/textwrap.py"
+        ],
+        "sha": "b1cdbdf4ba4785e1cc949c1bb5eb33b404690718",
+        "timestamp": 1769393013
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/intro.rst",
+          "pyproject.toml",
+          "tests/test_benchmarks.py",
+          "tests/test_grapheme.py",
+          "wcwidth/__init__.py",
+          "wcwidth/grapheme.py",
+          "wcwidth/textwrap.py"
+        ],
+        "sha": "b297eaf5403a60dcc2275fecf8b6648de441c038",
+        "timestamp": 1769394765
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "tests/test_benchmarks.py",
+          "tests/test_textwrap.py",
+          "wcwidth/textwrap.py"
+        ],
+        "sha": "7de2e9b0882c2494dc6a26d36f5f839314beed46",
+        "timestamp": 1769467870
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/intro.rst",
+          "tests/test_benchmarks.py",
+          "tests/test_clip.py",
+          "tests/test_sgr_state.py",
+          "tests/test_textwrap.py",
+          "wcwidth/__init__.py",
+          "wcwidth/sgr_state.py",
+          "wcwidth/textwrap.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "70dd59143369139b0c6c0a6f2db0f9507f0d1bcb",
+        "timestamp": 1769471445
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "code_templates/unicode_versions.py.j2",
+          "docs/intro.rst",
+          "tests/test_core.py",
+          "tests/test_emojis.py",
+          "tests/test_sgr_state.py",
+          "tests/test_ucslevel.py",
+          "wcwidth/sgr_state.py",
+          "wcwidth/unicode_versions.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "4ad63d0525b12285a9ffb07eb0224d77faae7d30",
+        "timestamp": 1769476510
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "05df2cf621ec9cba1aff02f521d8007b74d2e34d",
+        "timestamp": 1769476659
+      },
+      {
+        "files": [
+          "tests/test_clip.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "b2d3c692d2338dbb60d93322433ad099e0d96d6b",
+        "timestamp": 1769476891
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "ed93a0581935dca7d2fe657cc884cbd4971f2ee3",
+        "timestamp": 1769477293
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "ca785bfbc06c862603d286bdaa97c7845b6e5063",
+        "timestamp": 1769477472
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "pyproject.toml",
+          "tests/test_sgr_state.py",
+          "wcwidth/__init__.py",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py"
+        ],
+        "sha": "c6d25b691851d9b55b7ab79e67016eaf1d796041",
+        "timestamp": 1769499859
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "29f10e7222c4ed5c5aaadd146e0dada7640e65bb",
+        "timestamp": 1769565814
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "17b0bad11bdabc5a88996abd65cdfb793d95c030",
+        "timestamp": 1769566086
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "docs/intro.rst",
+          "docs/specs.rst",
+          "tests/test_benchmarks.py",
+          "tests/test_core.py",
+          "wcwidth/grapheme.py",
+          "wcwidth/table_mc.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "a198889cc07f2d18f35575c539b353275c3bd042",
+        "timestamp": 1769660733
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "8c8eac839c5a95d586a39f9298c7a817f931e54d",
+        "timestamp": 1769661042
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          "docs/intro.rst",
+          "docs/specs.rst",
+          "tests/test_benchmarks.py",
+          "tests/test_emojis.py",
+          "tests/test_width.py",
+          "tox.ini",
+          "wcwidth/table_wide.py",
+          "wcwidth/table_zero.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "38d03a59041cc2b2ba7c5bfae99e6255ff6768da",
+        "timestamp": 1769712732
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "666c501154765ee20dbddc92c340d759b567cfff",
+        "timestamp": 1769831300
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/intro.rst",
+          "docs/requirements.txt",
+          "pyproject.toml",
+          "requirements-docs.in",
+          "tests/test_textwrap.py",
+          "wcwidth/__init__.py",
+          "wcwidth/textwrap.py"
+        ],
+        "sha": "e19d2a2d852d623fce9d9d4d5f4c373d7233373b",
+        "timestamp": 1770405491
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "1e8244d71285862479ce61f96c527d8675fcff19",
+        "timestamp": 1772320794
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "c3a2d35b608cac98e8cb9d011d989f5297c7313b",
+        "timestamp": 1772322458
+      },
+      {
+        "files": [
+          "bin/show-sequences",
+          "bin/strip-sequences",
+          "docs/intro.rst",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "bfa1b3c76682a1d865a1f3b687d487fc674584fc",
+        "timestamp": 1773433748
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "82c83e1d225396b4b2b6484301120120f8ac3054",
+        "timestamp": 1774542151
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "07817a75f34d746319830108a8de0e38233075c3",
+        "timestamp": 1774899257
+      },
+      {
+        "files": [
+          "requirements-update.in",
+          "requirements-update.txt"
+        ],
+        "sha": "664f8d3b198953039545e7326a503f8290ac78f8",
+        "timestamp": 1776211662
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml"
+        ],
+        "sha": "28a39d9e6593e45c1abe2d7a64373b3dad0a8de5",
+        "timestamp": 1776464582
+      },
+      {
+        "files": [
+          "tests/test_clip.py",
+          "tests/test_textwrap.py",
+          "tests/test_width.py",
+          "wcwidth/escape_sequences.py"
+        ],
+        "sha": "5b74bf01a13b644baa5e48faaea1335e22f55c28",
+        "timestamp": 1777525384
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "86f5c7e1ce96a86381678fc6745866f7048325c1",
+        "timestamp": 1777737401
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "a30c375192f4221815d242c7fd3abf4b412cb1fc",
+        "timestamp": 1778520409
+      },
+      {
+        "files": [
+          "docs/requirements.txt"
+        ],
+        "sha": "a85802240bfbbead28c6eee96dda72ecefa8b778",
+        "timestamp": 1779233777
+      },
+      {
+        "files": [
+          "requirements-update.txt"
+        ],
+        "sha": "6ddc5ea20b4476e47b454f3b9e102cd78837aaa7",
+        "timestamp": 1779589080
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml",
+          ".github/workflows/codspeed.yml",
+          "pyproject.toml",
+          "requirements-tests39.txt",
+          "wcwidth/grapheme.py"
+        ],
+        "sha": "f9840734211c810c77ada798cf075f6d372a2be5",
+        "timestamp": 1780501743
+      },
+      {
+        "files": [
+          "tests/test_benchmarks.py",
+          "tests/test_core.py",
+          "wcwidth/__init__.py",
+          "wcwidth/_wcswidth.py",
+          "wcwidth/_wcwidth.py",
+          "wcwidth/_width.py",
+          "wcwidth/grapheme.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "d26bfb696e687a8ab8081b96a266ddce9d49dbec",
+        "timestamp": 1780502561
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "pyproject.toml",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "e7673ff9a1dbd7e9dbf2b32a4d769e9cf1f92f1d",
+        "timestamp": 1780531708
+      },
+      {
+        "files": [
+          "bin/update-tables.py",
+          "docs/intro.rst",
+          "docs/specs.rst",
+          "tests/test_core.py",
+          "wcwidth/_constants.py",
+          "wcwidth/_wcswidth.py",
+          "wcwidth/_width.py",
+          "wcwidth/table_grapheme.py",
+          "wcwidth/wcwidth.py"
+        ],
+        "sha": "c7fc868b95c5531839a4f5cd0b2b66dfd0021ccc",
+        "timestamp": 1780540134
+      },
+      {
+        "files": [
+          "docs/specs.rst",
+          "tests/test_core.py",
+          "wcwidth/_wcswidth.py",
+          "wcwidth/_width.py"
+        ],
+        "sha": "e4f76d5cc24c8dbd0e4f4be419deef06d2b36b7c",
+        "timestamp": 1780641493
+      },
+      {
+        "files": [
+          "docs/intro.rst",
+          "wcwidth/_wcswidth.py"
+        ],
+        "sha": "2d9925b119cd74341eff0dc073ac100cecaf4cce",
+        "timestamp": 1780692721
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "be0fdb285df0487b85f0d5d95f7ea3d49116ed02",
+        "timestamp": 1780693245
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "9df72618792b9b0d8bf6f09092b5ac2aaa1af339",
+        "timestamp": 1780693372
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "1de17df152111a700a7a1d1264c05fad61784d23",
+        "timestamp": 1780856387
+      },
+      {
+        "files": [
+          "docs/specs.rst"
+        ],
+        "sha": "e8405a6734e2614d5c529c59f8ee8a679558ad5e",
+        "timestamp": 1780875800
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "ucs-detect",
+          "wcwidth/__init__.py"
+        ],
+        "sha": "edb344a2b75f2e4bbd3cdbe2be10f998fc1ff209",
+        "timestamp": 1780897924
+      },
+      {
+        "files": [
+          "docs/intro.rst"
+        ],
+        "sha": "d1c99feafdec64bc2757cecf9910cdba929304d5",
+        "timestamp": 1780898170
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 10,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".coveragerc": 0,
+      ".github/FUNDING.yml": 1,
+      ".github/workflows/ci.yml": 2,
+      ".github/workflows/codeql.yml": 3,
+      ".github/workflows/codspeed.yml": 4,
+      ".gitignore": 5,
+      ".prospector.yaml": 6,
+      ".pylintrc": 7,
+      ".python-version": 8,
+      ".python-version-default": 9,
+      ".readthedocs.yaml": 10,
+      ".travis.yml": 11,
+      "LICENSE": 12,
+      "LICENSE.txt": 13,
+      "MANIFEST.in": 14,
+      "README.rst": 15,
+      "bin/bump-version.py": 16,
+      "bin/new-wide-by-version.py": 17,
+      "bin/run_codecov.py": 18,
+      "bin/show-sequences": 19,
+      "bin/strip-sequences": 20,
+      "bin/update-tables.py": 21,
+      "bin/verify-table-integrity.py": 22,
+      "bin/wcwidth-browser.py": 23,
+      "bin/wcwidth-combining-browser.py": 24,
+      "bin/wcwidth-combining-comparator.py": 25,
+      "bin/wcwidth-libc-comparator.py": 26,
+      "code_templates/grapheme_table.py.j2": 27,
+      "code_templates/python_table.py.j2": 28,
+      "code_templates/python_table_width.py.j2": 29,
+      "code_templates/unicode_version.rst.j2": 30,
+      "code_templates/unicode_versions.py.j2": 31,
+      "docs/api.rst": 32,
+      "docs/conf.py": 33,
+      "docs/intro.rst": 34,
+      "docs/requirements.txt": 35,
+      "docs/specs.rst": 36,
+      "docs/unicode_version.rst": 37,
+      "pyproject.toml": 38,
+      "requirements-develop.txt": 39,
+      "requirements-docs.in": 40,
+      "requirements-tests.txt": 41,
+      "requirements-tests37.txt": 42,
+      "requirements-tests38.in": 43,
+      "requirements-tests38.txt": 44,
+      "requirements-tests39.in": 45,
+      "requirements-tests39.txt": 46,
+      "requirements-update.in": 47,
+      "requirements-update.txt": 48,
+      "setup.cfg": 49,
+      "setup.py": 50,
+      "tests/GraphemeBreakTest.txt": 51,
+      "tests/__init__.py": 52,
+      "tests/conftest.py": 53,
+      "tests/test_ambiguous.py": 54,
+      "tests/test_benchmarks.py": 55,
+      "tests/test_clip.py": 56,
+      "tests/test_core.py": 57,
+      "tests/test_emojis.py": 58,
+      "tests/test_grapheme.py": 59,
+      "tests/test_justify.py": 60,
+      "tests/test_sgr_state.py": 61,
+      "tests/test_table_integrity.py": 62,
+      "tests/test_textwrap.py": 63,
+      "tests/test_ucslevel.py": 64,
+      "tests/test_width.py": 65,
+      "tests/udhr_combined.txt": 66,
+      "tox.ini": 67,
+      "ucs-detect": 68,
+      "wcwidth/__init__.py": 69,
+      "wcwidth/_constants.py": 70,
+      "wcwidth/_wcswidth.py": 71,
+      "wcwidth/_wcwidth.py": 72,
+      "wcwidth/_width.py": 73,
+      "wcwidth/bisearch.py": 74,
+      "wcwidth/control_codes.py": 75,
+      "wcwidth/escape_sequences.py": 76,
+      "wcwidth/grapheme.py": 77,
+      "wcwidth/py.typed": 78,
+      "wcwidth/sgr_state.py": 79,
+      "wcwidth/table_ambiguous.py": 80,
+      "wcwidth/table_comb.py": 81,
+      "wcwidth/table_emoji_zwj.py": 82,
+      "wcwidth/table_grapheme.py": 83,
+      "wcwidth/table_mc.py": 84,
+      "wcwidth/table_vs16.py": 85,
+      "wcwidth/table_wide.py": 86,
+      "wcwidth/table_zero.py": 87,
+      "wcwidth/tests/test_cmd_libc.py": 88,
+      "wcwidth/textwrap.py": 89,
+      "wcwidth/unicode_versions.py": 90,
+      "wcwidth/version.json": 91,
+      "wcwidth/wcwidth.py": 92
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1396691988,
+      "last_commit_ts": 1780898170,
+      "n_cochange_pairs": 257,
+      "n_commits_dropped_as_bulk": 18,
+      "n_commits_used": 420,
+      "n_files": 93
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "d1c99feafdec64bc2757cecf9910cdba929304d5",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
