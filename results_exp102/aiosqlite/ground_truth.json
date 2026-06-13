@@ -1,0 +1,2879 @@
+{
+  "chain_hash": "c2a380fe3658205a",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/workflows/build.yml||README.md": 2,
+      ".ptrconfig||mypy.ini": 2,
+      ".pylint||aiosqlite/core.py": 2,
+      ".pylint||aiosqlite/tests/smoke.py": 2,
+      ".pylint||makefile": 2,
+      ".travis.yml||makefile": 6,
+      ".travis.yml||mypy.ini": 2,
+      "CHANGELOG.md||aiosqlite/__init__.py": 5,
+      "CHANGELOG.md||aiosqlite/__version__.py": 9,
+      "README.md||aiosqlite/core.py": 2,
+      "README.md||aiosqlite/tests/smoke.py": 2,
+      "aiosqlite/__init__.py||aiosqlite/core.py": 5,
+      "aiosqlite/__init__.py||aiosqlite/tests/smoke.py": 5,
+      "aiosqlite/__init__.py||requirements-dev.txt": 3,
+      "aiosqlite/context.py||aiosqlite/core.py": 3,
+      "aiosqlite/context.py||aiosqlite/tests/smoke.py": 2,
+      "aiosqlite/context.py||pyproject.toml": 3,
+      "aiosqlite/core.py||aiosqlite/cursor.py": 4,
+      "aiosqlite/core.py||aiosqlite/tests/perf.py": 3,
+      "aiosqlite/core.py||aiosqlite/tests/smoke.py": 31,
+      "aiosqlite/core.py||makefile": 4,
+      "aiosqlite/core.py||pyproject.toml": 5,
+      "aiosqlite/cursor.py||aiosqlite/tests/smoke.py": 3,
+      "aiosqlite/tests/perf.py||aiosqlite/tests/smoke.py": 5,
+      "aiosqlite/tests/perf.py||makefile": 2,
+      "aiosqlite/tests/smoke.py||makefile": 2,
+      "aiosqlite/tests/smoke.py||requirements-dev.txt": 2,
+      "docs/api.rst||docs/conf.py": 2,
+      "docs/conf.py||docs/index.rst": 2,
+      "docs/conf.py||requirements-dev.txt": 2,
+      "makefile||mypy.ini": 3
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore",
+          "LICENSE",
+          "README.md"
+        ],
+        "sha": "a2f584ad546f204ead6c0bed2b76ddbea2eb8ebd",
+        "timestamp": 1495681758
+      },
+      {
+        "files": [
+          "aiosqlite/tests/__init__.py"
+        ],
+        "sha": "be7dab6d43d0e6ba980bd5edda7cc6631368d642",
+        "timestamp": 1495682473
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py",
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py",
+          "makefile"
+        ],
+        "sha": "7525d6ff2abcfb1c32f5758c2a362e3616b42e74",
+        "timestamp": 1495690971
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "4fb02e4bdf4af30826a00dadc4883cd2d9922541",
+        "timestamp": 1495735600
+      },
+      {
+        "files": [
+          ".gitignore",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "f242ad5dcf8586b7954489d9394619d99e5df812",
+        "timestamp": 1495735793
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "makefile"
+        ],
+        "sha": "ae5cc9129b965af128226485f47ebedefe02a2cd",
+        "timestamp": 1495736116
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "560e43cfa57f75573877ca456468fa276db24cb8",
+        "timestamp": 1495736474
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "0c13655a867256514c91930105eb44bdd0a1f9a0",
+        "timestamp": 1495738222
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "40b43a99a7f9d422bc69e391e36934b7e9a2d44a",
+        "timestamp": 1499798702
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "504c4a047223f17dc28aed427fe3111f363c7582",
+        "timestamp": 1499804284
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "726bc8b903e5f890a655924de94bec2756996c29",
+        "timestamp": 1499804299
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "c1d9eaac43f3a87d7bfc63d77c25e0dae137bd56",
+        "timestamp": 1503614345
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "eb35c354da29dfbcacb27859fc6c6aa3d20f185e",
+        "timestamp": 1503614487
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py",
+          "setup.py"
+        ],
+        "sha": "fb4469a3263bcaa84cd223a83c2b42d6de7855a1",
+        "timestamp": 1503614514
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "30a4be58fcfdc7e1fa515ab0a668997ef683b8a1",
+        "timestamp": 1503614603
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d61f993500769d93fd6df04a79fa2433f3d1b278",
+        "timestamp": 1503616893
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "b9826c540553703156ab1ccafd7f39e38fc3b945",
+        "timestamp": 1503616983
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "c606de200b7afe6d73a6e2900557d622c62ed78c",
+        "timestamp": 1503617077
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fb4bccb11bd4c0245b94d9270145e9807f9d72aa",
+        "timestamp": 1503617227
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "7249022b442c0bb07ba70def8cab9550144fed7c",
+        "timestamp": 1519413194
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "02bf7dfa6c8417c809ed350fd63079cad828e823",
+        "timestamp": 1519414640
+      },
+      {
+        "files": [
+          ".pylint",
+          ".travis.yml",
+          "makefile"
+        ],
+        "sha": "6571c3385129d213f832d51eedf04937571e1483",
+        "timestamp": 1519414660
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "9229fe212f4692fff0f20a4f05280b52583e791c",
+        "timestamp": 1521182256
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "makefile"
+        ],
+        "sha": "53246236a4816121345b9581d623f69715405f75",
+        "timestamp": 1521182667
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "makefile"
+        ],
+        "sha": "9a2ee7ee8dcd7b4dc10fe63b79b53b0a1c19bf3a",
+        "timestamp": 1521438382
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py",
+          "aiosqlite/core.py"
+        ],
+        "sha": "c229dfe3d43161f21309e231fea203fad4d5d760",
+        "timestamp": 1521606965
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "cb522639dd9546948fe6554a9922b060ef0c44cd",
+        "timestamp": 1519912917
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "8cd4ed71ddde1dfd714489f0505df6541f9c6ade",
+        "timestamp": 1522228727
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "README.md",
+          "makefile"
+        ],
+        "sha": "9ace99eef41b910c99705a6759542f8fd6efe5a2",
+        "timestamp": 1522909535
+      },
+      {
+        "files": [
+          "makefile",
+          "setup.py"
+        ],
+        "sha": "436abcfd05b280962156178d8e2d171ae8bfa2be",
+        "timestamp": 1522909748
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "32db10f40693d5ace65226c46b0f67d75045e440",
+        "timestamp": 1522909840
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "c829df50e82508287eee4a93a83d302fb13a7fa9",
+        "timestamp": 1522910840
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "9e3edf886c2a95432bdfbdf4daf64743c4265281",
+        "timestamp": 1522910903
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "e1cdad807131678ad797e84cb7a313121674d601",
+        "timestamp": 1523002381
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "f489266d6996c6aea4352be101a2f1f5140e03cd",
+        "timestamp": 1523003927
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "b0026a494d0a2e539db34615831fa4fdbf0e524a",
+        "timestamp": 1523004092
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "1e4954418f9edf58c439a4bf7e3b17d0da1a8987",
+        "timestamp": 1523004457
+      },
+      {
+        "files": [
+          "README.md",
+          "aiosqlite/context.py",
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "e992952f3c0ca239bca478a435bdd41405437e46",
+        "timestamp": 1523465625
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py",
+          "aiosqlite/context.py",
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "4dfd96715e61989244fb0f8fcc510cf270b4264b",
+        "timestamp": 1523468328
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "580e21363f0578becb65b09113b2d90c83bc8b02",
+        "timestamp": 1523468763
+      },
+      {
+        "files": [
+          "aiosqlite/context.py"
+        ],
+        "sha": "12a01f1611e8ad780a2a2b0a06aad6e4873727bb",
+        "timestamp": 1523468918
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "2379c65e943302248976b237ea81ba5d724d08b7",
+        "timestamp": 1523468929
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5e0ed1c85e3eaf193ea9e2d7c52ce84069f962a4",
+        "timestamp": 1523469143
+      },
+      {
+        "files": [
+          "CODE_OF_CONDUCT.md"
+        ],
+        "sha": "7c0c8336e535389395738adeac55231f5fe31e78",
+        "timestamp": 1523992063
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md"
+        ],
+        "sha": "8b47623ceaf15dab88a145ecd6f6be132388bb38",
+        "timestamp": 1523993113
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "2cfdf1d9115c4a7abf621afbb2393ec755cb203d",
+        "timestamp": 1523993610
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "14bfe88252ca90fe5e8a3d9df82f457e4c1eda1b",
+        "timestamp": 1524009665
+      },
+      {
+        "files": [
+          ".github/issue_template.md",
+          ".github/pull_request_template.md"
+        ],
+        "sha": "c177ef5f426325317c6221f571e293d6caa7be22",
+        "timestamp": 1524010940
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "3c56a655db0b940272306894d15d99ad9805e5a4",
+        "timestamp": 1525490551
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "3de5590e4cac9d832d85597479f6afc941c426a7",
+        "timestamp": 1525490948
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "11466e129c652e87d1cb404b935df427c6322f07",
+        "timestamp": 1525490984
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "d5e5fa52153f35871694c16800c2ef61f2303ed9",
+        "timestamp": 1525491172
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "22527c5dbd692faa8900969bb4aa76a2b6be1235",
+        "timestamp": 1527461257
+      },
+      {
+        "files": [
+          "aiosqlite/context.py",
+          "aiosqlite/core.py"
+        ],
+        "sha": "c8dd4af0e1b439da8f761d8f7cf60d2dae8cdb1a",
+        "timestamp": 1527825444
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "makefile"
+        ],
+        "sha": "209f523a7ac337876d375e07d2a44f1adf06bc49",
+        "timestamp": 1530673096
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "12d2aae2c33c3dce254166cad8d864a899aee463",
+        "timestamp": 1534954887
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py",
+          "aiosqlite/core.py",
+          "aiosqlite/tests/__init__.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "ffcfd6283fae8c6b24c326e943cc60f662314b60",
+        "timestamp": 1536000919
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "299d89ff7930c0c641d40ed449b78f41b256bb7f",
+        "timestamp": 1536000930
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "9926272d98173f784701ad34b33417e247a9008b",
+        "timestamp": 1536528537
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "40db726c5db62cec6d34022c987dc6de253ce932",
+        "timestamp": 1536528584
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "44bb5ad189b90fa67453298dd2755aacbb9def9d",
+        "timestamp": 1536529092
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "bbd9705d984c7aee286dd1726145e5b05e2539d3",
+        "timestamp": 1536529198
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "e27db2cc9e32e0da08610eed7f8a7535da178295",
+        "timestamp": 1536529209
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "145440d0d1611bd3ad4df39b33e4261635d93e81",
+        "timestamp": 1536529705
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "48e3021ff543c74e86ce3579073f4c76e8ead343",
+        "timestamp": 1537336305
+      },
+      {
+        "files": [
+          "aiosqlite/tests/perf.py",
+          "makefile"
+        ],
+        "sha": "e68fbf82723bdb66be05c717b2df3f3478adf049",
+        "timestamp": 1537382768
+      },
+      {
+        "files": [
+          "aiosqlite/tests/perf.py"
+        ],
+        "sha": "729a088f892e5789a80d275582221f15572d16dd",
+        "timestamp": 1537383423
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "7fa8553dfb326775cacc64ee58669fd9b67b5760",
+        "timestamp": 1537386365
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "18a0200520d97bee4216679dc9692b751cd57267",
+        "timestamp": 1537386815
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "3bca0a8b866fa92e42b5269bbfaac61e65eb0fdf",
+        "timestamp": 1537387256
+      },
+      {
+        "files": [
+          "aiosqlite/tests/perf.py"
+        ],
+        "sha": "79881027ec7784000080ed676752c12929a8abc1",
+        "timestamp": 1537387620
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/perf.py"
+        ],
+        "sha": "ed1861fe6f8baebcd83dd90653fa486f1e0cf44d",
+        "timestamp": 1538494172
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "aa406ace775d26d0913da002e8656cd140a7b41b",
+        "timestamp": 1538503226
+      },
+      {
+        "files": [
+          "aiosqlite/tests/perf.py"
+        ],
+        "sha": "263e41adf97ad722a796bfa4937dcae9eb060b0b",
+        "timestamp": 1538506256
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "63049353cd9bb758d7e82d78a78785318d7669ec",
+        "timestamp": 1539496364
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "72fd3db5ab07128ee44de5b7f08dad3c8bb0765f",
+        "timestamp": 1540259995
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "502c683684279af3fd1d38953debd3b4f80da7f4",
+        "timestamp": 1540374829
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "6d55f7da6bf435feab16cf39c2a8793fccc40567",
+        "timestamp": 1540772359
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "f17df14ee979030975b4309f3ce46469acc391e8",
+        "timestamp": 1541098383
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "68fbc7d9e92edd32adcb863cbc9512fae9110f39",
+        "timestamp": 1542311158
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "eea1629c451332e6aec2132197b2fbf41c4db9e8",
+        "timestamp": 1545958900
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "5fe3716dc3178851402c4de21564ecef21d66119",
+        "timestamp": 1545959123
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "8497f3cc4191889568250a17d02cb78e6fda2bbc",
+        "timestamp": 1545960312
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "14dc47904c18a09135c3a05798b111fc57937243",
+        "timestamp": 1545960929
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "8e47fa13c3d268297801f566e8fb5967b9d327f4",
+        "timestamp": 1545961350
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "789bec698511017311204e817208a54353e67ca4",
+        "timestamp": 1546860815
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "50c15b7758562799544ae4cfd5e5501ec57620be",
+        "timestamp": 1546865178
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "makefile"
+        ],
+        "sha": "66a7b51d873eacffdbe9508ac1ef27846e5604d0",
+        "timestamp": 1549408961
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "892a336fdfc090012bff2c4280a0c1501310e68f",
+        "timestamp": 1549508039
+      },
+      {
+        "files": [
+          "aiosqlite/tests/__main__.py",
+          "makefile"
+        ],
+        "sha": "66505f3872e427ead08d86045c2ccc22da2b4c48",
+        "timestamp": 1550038794
+      },
+      {
+        "files": [
+          "makefile",
+          "mypy.ini"
+        ],
+        "sha": "829ae09025d4de68357740d2653fea505db2ef37",
+        "timestamp": 1550040444
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "dd7fdfbd5c85f471d62b9921cb991521f1a69b52",
+        "timestamp": 1550154923
+      },
+      {
+        "files": [
+          "aiosqlite/tests/__main__.py"
+        ],
+        "sha": "2d6b1f42adfdd7ad5d7582ac46585bc1951fe30b",
+        "timestamp": 1550165107
+      },
+      {
+        "files": [
+          ".ptrconfig",
+          "mypy.ini"
+        ],
+        "sha": "af5d2a6ac61c4cd55cad05b0fb6302a2462f7e33",
+        "timestamp": 1550165155
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "ebd14bd2a1f39d0674f59f8d6857b96b6fe2775d",
+        "timestamp": 1550165174
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "makefile",
+          "mypy.ini"
+        ],
+        "sha": "b60fc7ed9ed129a8fea4b565e6ec18cbedecfd5a",
+        "timestamp": 1550460153
+      },
+      {
+        "files": [
+          ".pylint",
+          "aiosqlite/tests/perf.py",
+          "aiosqlite/tests/smoke.py",
+          "makefile"
+        ],
+        "sha": "2930d944c053ffc3881c1f0e3fac9f15e3b92bb2",
+        "timestamp": 1550480129
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "95cbf67ffcdf095f9fab2d2a07872e6e45cbc518",
+        "timestamp": 1550481267
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "dfcfe472f5845a2227a790d0cada785456ee9537",
+        "timestamp": 1550481463
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "d1de4d747bc024e23dd33b545984a2a99352765d",
+        "timestamp": 1553581900
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md",
+          "makefile"
+        ],
+        "sha": "6453afb06ce552d72ec7b2d6904e2e705995b305",
+        "timestamp": 1554699784
+      },
+      {
+        "files": [
+          "README.md",
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "e8f26b8890e2d843275200f27c53c84e534b1542",
+        "timestamp": 1554700163
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "b2fb24e64b711733ec5e339cb0410f3b90fefdc3",
+        "timestamp": 1554702411
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "7d8bfd9bac93f964fadc088c606b15c1ce8a1eda",
+        "timestamp": 1554703048
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "aeda90eb63c1df9a5480b8f802378e316553a554",
+        "timestamp": 1554725320
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "dd6edb66c74871b1d8c4eb65bfcc5e1f77b140f3",
+        "timestamp": 1555691601
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "da4d43b206a6db49a665485100f35c07323f65ef",
+        "timestamp": 1555907611
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "3f548b568b8db9a57022b6e2c9627f5cdefb983f",
+        "timestamp": 1555906654
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "makefile",
+          "mypy.ini",
+          "requirements-dev.txt"
+        ],
+        "sha": "886c7932058a39ca800b1aaf542ff6b51157aef6",
+        "timestamp": 1572067830
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "2004f0431dedd6e44e0a4d69e8b86d6d867dbf31",
+        "timestamp": 1572068485
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "0d73dc678b4ce21654152d97ce6941ec4a902303",
+        "timestamp": 1572068598
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "5bfe231c9cf7977d9734dd5cfea1ee02ab880676",
+        "timestamp": 1572068705
+      },
+      {
+        "files": [
+          ".pylint"
+        ],
+        "sha": "234566b36d1e581d204a1e32e183c230a94d4e41",
+        "timestamp": 1572071621
+      },
+      {
+        "files": [
+          ".pyup.yml"
+        ],
+        "sha": "74100852a27812216ed0022c0ad7fc8a11f8cf54",
+        "timestamp": 1572072491
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "25b29baa70fa7a516ec6203b70ae37ff75d7737d",
+        "timestamp": 1572067835
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "c4d303d5667f0193d3d7739911f9fb6957a33b6e",
+        "timestamp": 1572073278
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "4e37e893a21559114dd12d7b06e6b2381fa3d048",
+        "timestamp": 1573014534
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "b28bed908ca649b507a0d91063b44c0b7b4b1772",
+        "timestamp": 1575898027
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "e47fb6902124e59c0ab796401a42abbe966dc880",
+        "timestamp": 1575898760
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "a60d35c43b6c22a7d95ba2441cd15dfa619b9cab",
+        "timestamp": 1575969996
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "390650a497434e32b4eae864c120c2e5830061de",
+        "timestamp": 1575970182
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "69f9bdf29df03d5e8fc03e11a8f29e516ab93f2b",
+        "timestamp": 1576131481
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "2921ed0b27da1bb8912a68b534624a7172342729",
+        "timestamp": 1576131801
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "972bf6007da31ab35863832fd038dc5c1178977a",
+        "timestamp": 1577680853
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "0b397c59c705bc8ac543cee66116be7c56871644",
+        "timestamp": 1580588635
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "0016eccca658e87777c8e12a5957bb4c1aac0330",
+        "timestamp": 1583724801
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "5b3e42d40d127fe8257099c39daec8623739a2fe",
+        "timestamp": 1585236623
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "447bfea2cefc032dc422f03ea39ef0e5c6c0c283",
+        "timestamp": 1586119898
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "6b6794e47de47c2c150eb59bfd34468b9dff6526",
+        "timestamp": 1586120078
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "d9714c20d80339435f2559297f31612472c17b36",
+        "timestamp": 1586120722
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py",
+          "aiosqlite/core.py",
+          "aiosqlite/tests/perf.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "42d6555f2797648eef7a859783fc700deb110542",
+        "timestamp": 1587332389
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "ceff6efa5544a9721c45e248d0277878eab17875",
+        "timestamp": 1587333278
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py",
+          "pyproject.toml",
+          "requirements-dev.txt"
+        ],
+        "sha": "4733b171265066a1d1d6b38d56ed90fdeb100ac8",
+        "timestamp": 1587333676
+      },
+      {
+        "files": [
+          ".ptrconfig",
+          "mypy.ini"
+        ],
+        "sha": "86cd1879048212bc1b06cedeaeab4c65fca54272",
+        "timestamp": 1587334820
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "e4613a2fcd6b462124585d63397dfa32a38aca69",
+        "timestamp": 1587335503
+      },
+      {
+        "files": [
+          "mypy.ini",
+          "pyproject.toml"
+        ],
+        "sha": "fb1dfa7d08a2629f61463b5b5cc06f3b255838a3",
+        "timestamp": 1587335522
+      },
+      {
+        "files": [
+          "mypy.ini"
+        ],
+        "sha": "cce9bb07b418a6cbe75037d8d3e10ab187d77d8f",
+        "timestamp": 1587335560
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "44023ed79ec25778ce4c86b99ccd359c6a83ffcf",
+        "timestamp": 1587335795
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "9a1a37540f3e6b6efae1cd6a38153aa3bd824501",
+        "timestamp": 1587336430
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "ae138255f9324b261c9afbb3b48bcb9bf4bda07e",
+        "timestamp": 1587336603
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md"
+        ],
+        "sha": "88076addc86b692fbc1c9f9fd765d946ff5c4de7",
+        "timestamp": 1587338801
+      },
+      {
+        "files": [
+          ".gitignore",
+          "docs/conf.py",
+          "docs/index.rst",
+          "requirements-dev.txt"
+        ],
+        "sha": "9b0b8b14011e288b8139648ba696022bd3e9a131",
+        "timestamp": 1587957404
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "44f0549d6ce03198ea00ef084e11d7ef5fa9c8a9",
+        "timestamp": 1587957991
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "7c628b6d1e16eff3cab6171226d9bd6ca7cf291e",
+        "timestamp": 1587958907
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "3eb0279cf9c42f35ef36e8c5b5b31ae9518c69f8",
+        "timestamp": 1587959576
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/conf.py",
+          "docs/index.rst",
+          "makefile"
+        ],
+        "sha": "30aed92c0f9b89e9b465776bf3606c564753a0e3",
+        "timestamp": 1587966515
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "5da9add6067fc87e6bc51c8d4e25df23d08af18f",
+        "timestamp": 1587966823
+      },
+      {
+        "files": [
+          "docs/changelog.rst",
+          "docs/conf.py"
+        ],
+        "sha": "0ce64fcf45abf0c498fcd873cb71242b1253f82d",
+        "timestamp": 1588018229
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "pyproject.toml"
+        ],
+        "sha": "7195195d28005a3cbdc1970dd7c45142c742dacb",
+        "timestamp": 1588024862
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "11721b01eedd1d525b66e9047efd971d7b8fc730",
+        "timestamp": 1588141993
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "9b1a14eb7968f386e55b112f01e40769601df7ba",
+        "timestamp": 1588143842
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "074cdb2d1126bc5ed3dd3774d73061208804a2c3",
+        "timestamp": 1588143924
+      },
+      {
+        "files": [
+          "docs/_static/custom.css",
+          "docs/_templates/badges.html",
+          "docs/_templates/omnilib.html",
+          "docs/conf.py"
+        ],
+        "sha": "d8534990da30bcb1943667aec6e7a90f4fa70e3f",
+        "timestamp": 1588146636
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "c6d2f3d27b96b35b6a2f60316277ef0338563b89",
+        "timestamp": 1587165848
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "89c795eecf7a09403d6ed896e4a2bb3b731a26a6",
+        "timestamp": 1587241062
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "155850bf9ba41c19931d8c84ab77afe52edb9b7a",
+        "timestamp": 1587241527
+      },
+      {
+        "files": [
+          ".pylint"
+        ],
+        "sha": "7cba6b13e31b95607d653936c584f6e1ab51e0b0",
+        "timestamp": 1587241894
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "57128230ba75eab8cb5f0f7eee06c1e58a80058b",
+        "timestamp": 1587241062
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "f5ac0f1a86fd608bf3e1aa6aa4b1f7179f2bc2ea",
+        "timestamp": 1588740613
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "f18cdb2aaea6f2b4ccf4883fd9a2f440501bb0e5",
+        "timestamp": 1588740894
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "docs/api.rst",
+          "docs/conf.py"
+        ],
+        "sha": "cf27ff05075167e243f292265ae13bbc0bb6d2e2",
+        "timestamp": 1588742024
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "6415948dcc41861ac61946499075637024b13979",
+        "timestamp": 1588743616
+      },
+      {
+        "files": [
+          ".pylint",
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "11c75127e3dee2a52eb87294677ec2fb275ff5a1",
+        "timestamp": 1588746486
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "afd64a3c08d59aa3c7b74d9a6e033372948e3903",
+        "timestamp": 1588746843
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "05744a77c67701b366ae70507712e909ca9be584",
+        "timestamp": 1588748669
+      },
+      {
+        "files": [
+          "aiosqlite/py.typed"
+        ],
+        "sha": "bc94ad9735b8665c51986129a08cd5d060f6708d",
+        "timestamp": 1594226400
+      },
+      {
+        "files": [
+          "aiosqlite/context.py",
+          "pyproject.toml"
+        ],
+        "sha": "a4d619da578681df9fcbe6e11fcb6d2cb4b06dbb",
+        "timestamp": 1594246427
+      },
+      {
+        "files": [
+          "aiosqlite/context.py"
+        ],
+        "sha": "f21f7820cd0af42e74735cd145944f5fce9baa34",
+        "timestamp": 1594248575
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "7c9070470db4ea8b4760d88cc73afd92ffaf1314",
+        "timestamp": 1594263943
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "5a2c4d190e2548ee5323e43aae32ce24c35da495",
+        "timestamp": 1594365251
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "ef121fc31dce0e6655bef5fe558caa2c9276f203",
+        "timestamp": 1594365722
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "635e94c832da5dcb01205fe7d445814f990a37cb",
+        "timestamp": 1594397799
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "13d8bcc5889cb0be30a17bd37745aed063e96858",
+        "timestamp": 1594511242
+      },
+      {
+        "files": [
+          ".pylint"
+        ],
+        "sha": "1f533985e3e62fb8fe3741789da3ad8ba2237727",
+        "timestamp": 1594793230
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/cursor.py"
+        ],
+        "sha": "e9bb960967cda9b5d76413f3345044b0257c1abe",
+        "timestamp": 1594793259
+      },
+      {
+        "files": [
+          "aiosqlite/context.py"
+        ],
+        "sha": "7a83b7c816113504a2e1ab848349ce0c30a777c6",
+        "timestamp": 1594793348
+      },
+      {
+        "files": [
+          ".pylint",
+          "aiosqlite/core.py"
+        ],
+        "sha": "57bcc6a7427904ef87d801b04843ed9a30961f8a",
+        "timestamp": 1594794888
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "830f1a873ba72e57b5e1fc829893bab2693afc16",
+        "timestamp": 1594797680
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "c624adda1cf7f51127b6dad8d6a62fa710c60204",
+        "timestamp": 1594798119
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "55558d4e278bbf94c9340f9ebcb4138f7b1a6166",
+        "timestamp": 1594798712
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "576fc9c7d10eff2deb9d17e462ef73eb4f3b6d14",
+        "timestamp": 1597157308
+      },
+      {
+        "files": [
+          ".github/issue_template.md"
+        ],
+        "sha": "dbde01282dd5854f5ead197ab49badb944b14261",
+        "timestamp": 1597354848
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "a2c7946fd0150b6a3ecd5dd421cf6092f907eb0e",
+        "timestamp": 1597842129
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "ea281b81bb59e50d73cc5ec3763625305c2ea908",
+        "timestamp": 1597915442
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "28cb5754deec562ac931da8fca799fb82df97a12",
+        "timestamp": 1597986826
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "2642e78dedd904a4f3b8669e8125f5be20d8d5e6",
+        "timestamp": 1599990458
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "db3a3a17baa29ef4ec44ef03d14ed5eb2900ec1a",
+        "timestamp": 1599990789
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "8ec31b81ef79095d2855b12ade518f0a08f8a85a",
+        "timestamp": 1599990985
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "2095fffe800b6fd20b10980e8395428df3c4f25a",
+        "timestamp": 1600085852
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/cursor.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "404fdcfe22bead8b26f1fe31fb9cb886bf075f55",
+        "timestamp": 1602462485
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "601bab9ddcc6034b875a6ace59c39ae88d60fafb",
+        "timestamp": 1603106817
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "95d6e3bb7b608b4fab8bd5a12dfc847ba98e6eda",
+        "timestamp": 1603167859
+      },
+      {
+        "files": [
+          "aiosqlite/tests/perf.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "3560adc75371e4bde1068f3fb411ec314f62a783",
+        "timestamp": 1603559773
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/cursor.py"
+        ],
+        "sha": "bdac749951f1a2d995b1a0d78833ea29a2b3f1b4",
+        "timestamp": 1603560944
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "0591fafa08ad6295ca3f0b4f2401f3fca5917de4",
+        "timestamp": 1603593380
+      },
+      {
+        "files": [
+          "aiosqlite/cursor.py"
+        ],
+        "sha": "cad6c2a865cb9b2e46843c899ffe44d39d026f66",
+        "timestamp": 1603621280
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "f8f4aa7a30d2d053a86bf94d32309481ede35eed",
+        "timestamp": 1603953356
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "e3b6f7098293ee0ca31d50c3928371de69ba7214",
+        "timestamp": 1603949916
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "197d659edc46d288fe3e349f01ef57d81362a9b3",
+        "timestamp": 1603105652
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "8576305a5970261b81d03f9e4a5a8d2187b2d120",
+        "timestamp": 1604236142
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py",
+          "aiosqlite/__version__.py",
+          "requirements-dev.txt"
+        ],
+        "sha": "09d7d82381d2471f9d2877654688d3c108d74520",
+        "timestamp": 1604278836
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__version__.py"
+        ],
+        "sha": "b1a7ea35e74e4a796b5d8eb1b6f480820608af8a",
+        "timestamp": 1604279288
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "4a5f179c84f1b32f4944e893e1b0a34eabb7fe38",
+        "timestamp": 1604895358
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "69df0af08a0cbea8ad809d4f8924ecc77f389017",
+        "timestamp": 1605223010
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "f4e603d3ea08205d46587a42d3ee96493d833ce1",
+        "timestamp": 1607309716
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "8ed960b853413e338ca9202a91fd6f5702a70b0c",
+        "timestamp": 1610928709
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "b6654c764db86f337dfbe8a4cd11b1da1909b78f",
+        "timestamp": 1611042230
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "0171e26e48794cf8727ce610f542740bcf10848a",
+        "timestamp": 1611439136
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__version__.py"
+        ],
+        "sha": "fd9fd631a15dc7d8a307335e1e8362a2c52dc8df",
+        "timestamp": 1611439280
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "907e91fae51c1ad06805e5d474f1599d007ca77d",
+        "timestamp": 1613283828
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "98086f5493ee95c4c9c699e32b06c99b8d06303c",
+        "timestamp": 1613947781
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__version__.py"
+        ],
+        "sha": "9bab000978e7ad0a6153afc4fad3fd8eaa4a00ad",
+        "timestamp": 1613955227
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "e6268c76ca10332fb33c1da0de024492ab181c56",
+        "timestamp": 1615059784
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "69f75b3bd5c3b934a0b4f8f490c1f3b0f36df68b",
+        "timestamp": 1615071416
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "40e1b61c038ca0f5146763ec831e361f59bf2575",
+        "timestamp": 1616276559
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "13d165656f73c3121001622253a532bdc90b2b91",
+        "timestamp": 1617471682
+      },
+      {
+        "files": [
+          "aiosqlite/context.py",
+          "pyproject.toml"
+        ],
+        "sha": "a157e0b7d126daeeda4e5b7dcf2b6cb9cf9ac274",
+        "timestamp": 1621199898
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "17eacc23049141a5061a89acc113342ae5d3a9ad",
+        "timestamp": 1623034878
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "132e21c40919ca67b60225ac67cb2d4248e02d8e",
+        "timestamp": 1626574879
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "13935d9b85043ea715fd2e14a62257e258135f88",
+        "timestamp": 1630819809
+      },
+      {
+        "files": [
+          ".github/dependabot.yml",
+          ".pyup.yml"
+        ],
+        "sha": "c80ae003a59d6bf36a0ace85635a73fd422f21b0",
+        "timestamp": 1633218183
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "af585be5fb8c8381d0f0811c044c97c0b723dc73",
+        "timestamp": 1633218575
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "ac9d155857cbf02d3133dfb503b9bda7cfc0dca3",
+        "timestamp": 1633218583
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "bdd5e3b619608b9062e1bd692b06656c51655b5e",
+        "timestamp": 1633219156
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "48fe2ddce5f488f38690cbe4221b1596216860a7",
+        "timestamp": 1633219538
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py",
+          "requirements-dev.txt"
+        ],
+        "sha": "f38d268e4f0dc83d063b440dd220c1df366edc3a",
+        "timestamp": 1633219953
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "2d9ac4c43afb2d0ffbf804bfa595ed9b4b9f7a4b",
+        "timestamp": 1633806910
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "1cc8bda32d5328e141f118f9c4f119668fe5dfe6",
+        "timestamp": 1634402306
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "223fae5cb6fee14f2f1e2148a886f74861e7192f",
+        "timestamp": 1634405094
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "aa951086493e2816a3af84770b1d220afa87789e",
+        "timestamp": 1634406573
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "039c852d894228d2bca2fa31395c0c2786bbe8b2",
+        "timestamp": 1635013430
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "7e7622381916a8dd6f836ffbdab9e1e86b621ee9",
+        "timestamp": 1635618504
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "b801c328248ae80742b5afd5bc37a80a6af3562f",
+        "timestamp": 1637438082
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "e2274e67092edf1cf7f24e2bb1a255ebe80b2398",
+        "timestamp": 1637438089
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "76757b7c3c94a59b62e58fb49e8f813af2776b99",
+        "timestamp": 1637438096
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "f7537927a73626e4b2e424f220aabd405c75f4d6",
+        "timestamp": 1637438104
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "e02858b6aa8587a8491486648ba83f80a3db6274",
+        "timestamp": 1638753194
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "cf0e2122b0bfe8d662a6c21eda6152d35959952b",
+        "timestamp": 1638753256
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "ebd42aa0d5648018bd19a8f7e1cfa0cc1af4fc6c",
+        "timestamp": 1638753264
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "4a87606738c942566211be012da5c51a896c73c7",
+        "timestamp": 1638753281
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "requirements-dev.txt"
+        ],
+        "sha": "d2c6e4074c2c4f3e07026434fa46cd1d2c2d6fd2",
+        "timestamp": 1639038343
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "dbe29c26ba93b1d5c46b78dc08712b557c88396c",
+        "timestamp": 1639038608
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "ab8c7e0e1ee6c337852a0af98eeed062f15ab71a",
+        "timestamp": 1639039101
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py",
+          "aiosqlite/cursor.py",
+          "aiosqlite/tests/smoke.py",
+          "requirements-dev.txt"
+        ],
+        "sha": "9dbac01eb7c2ad9e32fa1b1346fcc3859699cb0c",
+        "timestamp": 1639709632
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "72d57392292b165d00688a4d82453a2d58fea6d7",
+        "timestamp": 1641072355
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "f44e9879990628d3f477e01d3112aef807041434",
+        "timestamp": 1641072363
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "6d8f27bb41252bce02a9292413e2c03859c3e327",
+        "timestamp": 1641072371
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "cd1861cb0fdbc8ee075aec20a517952bfb518424",
+        "timestamp": 1641074096
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "928c7c836abdb3a82ac58ff896f8aab76e5ca6cd",
+        "timestamp": 1644037305
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "68a3e76e6825f1ea6abe13d4d0edc18cce26d11e",
+        "timestamp": 1644037358
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "9ef8288a264808f44299c567c1579a84aeb6eeef",
+        "timestamp": 1644037665
+      },
+      {
+        "files": [
+          "aiosqlite/tests/perf.py",
+          "requirements-dev.txt"
+        ],
+        "sha": "8f39e7075875579d18c84eecfb06af8b60614d94",
+        "timestamp": 1644038773
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "e273e8455b966e075c5b0325507387af1bbd1025",
+        "timestamp": 1644222022
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "8f14b9cb11a07ffcd3b7d3adb76c1865fcaae907",
+        "timestamp": 1644222039
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          "README.md",
+          "requirements-dev.txt"
+        ],
+        "sha": "a13e05808c60680f58125290d97beafd96d37fd2",
+        "timestamp": 1644222178
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "733b1b558d31b7bba0cb9634c192fa0a73fc5273",
+        "timestamp": 1644222326
+      },
+      {
+        "files": [
+          "aiosqlite/tests/perf.py"
+        ],
+        "sha": "3bb068818b525e1a932527d1cd36cb932dc9d619",
+        "timestamp": 1644225139
+      },
+      {
+        "files": [
+          "aiosqlite/tests/perf.py"
+        ],
+        "sha": "e809ef1c0fe438d55a26fef51b4a7ce82ad929f3",
+        "timestamp": 1644227120
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "4061f19338b3037267fe423b6408a8dd7d55d0fa",
+        "timestamp": 1651465236
+      },
+      {
+        "files": [
+          "makefile"
+        ],
+        "sha": "83aeed60ca32c01f8e2496edf9dc2fcd845b3cca",
+        "timestamp": 1651465568
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "562c419640152844e442f39d4187524d1c8dad42",
+        "timestamp": 1653704203
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "0cf114c3213b9f8c5e7b64a52fc79e5e318ef579",
+        "timestamp": 1653705439
+      },
+      {
+        "files": [
+          "aiosqlite/tests/perf.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "a4c8d485e63de5e1367d134904ab09acb041fc4f",
+        "timestamp": 1625695239
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "d0295f8993b801089d2c330b510389e38c0a7012",
+        "timestamp": 1653705606
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "30c58ce072a487d51a192a39bdc4a92d985f8ac6",
+        "timestamp": 1653706292
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "bba1e949bae47b62f6bc9c48b4eeb78b05a1b2a3",
+        "timestamp": 1653706338
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "60ae4fa6639a8dabbf09e6d7ed8f77b245b97b79",
+        "timestamp": 1653707777
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "70382c97b7306860d29d2d677f4bdcda46c996a1",
+        "timestamp": 1653680577
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "93153303195dcde0ddce9591a176a4f85d0da6ae",
+        "timestamp": 1653681026
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "51b35ed1e676ac928ec978597b05d2bc7954f42d",
+        "timestamp": 1653682420
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "184c3d6750cc12eba1d152fefa65a5d30bdef6d3",
+        "timestamp": 1653683663
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "pyproject.toml"
+        ],
+        "sha": "9cc38494849f4cfff3e086f063bcfb1026df2c3a",
+        "timestamp": 1653920552
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "a5c6059533f110f712cbae87e67a4aeec49c1c90",
+        "timestamp": 1653936363
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "101423d0ca6b5f87ee383a853ac3ce44972668e4",
+        "timestamp": 1654526251
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "111120642e6c3333b0b548b155390bba651042a7",
+        "timestamp": 1663388236
+      },
+      {
+        "files": [
+          "aiosqlite/__init__.py"
+        ],
+        "sha": "7214b7ae3e6c62b8a28585d8f79ac429235056e9",
+        "timestamp": 1663388353
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "7c03759f70a1e655443262706979240527f641be",
+        "timestamp": 1671172286
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          "README.md",
+          "pyproject.toml"
+        ],
+        "sha": "2f45c2268bc6536679dba1f39cc26aa00d5f8200",
+        "timestamp": 1671172299
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "7cd285ce2f5f9bc7849730f7d4b3827ec5b1718b",
+        "timestamp": 1671172663
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "323e9a83b0fc991d369a00a1c623bd8691f46b9e",
+        "timestamp": 1671173705
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "7ea132cf2de3409d85c8821b3cd51a4a4384a009",
+        "timestamp": 1671173726
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "ee36d5a4515feab8c1708c15db92fd23a1a0ca2d",
+        "timestamp": 1671173766
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "0f86a4f41eafe8ae2de3b7a0bf37771aa5c50d70",
+        "timestamp": 1671173775
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "1fa6619900bd2c52599a66cf97fda5b0c1d71743",
+        "timestamp": 1671174497
+      },
+      {
+        "files": [
+          ".readthedocs.yml",
+          "requirements-dev.txt"
+        ],
+        "sha": "ccb53ad1ca37e48001f832be77d496d3efdbd2ca",
+        "timestamp": 1671175358
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "04207343e8a5c0d2a22c49b146295929ef5b9b5d",
+        "timestamp": 1671175969
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "762e386431b9b74534ad8c5c960fc10d4a776dd9",
+        "timestamp": 1671178742
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "3e71b6dec66986de2ebe11ea0e903d9ac6dc03e7",
+        "timestamp": 1671426632
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__version__.py"
+        ],
+        "sha": "427cecc6964340b294d3ec874665786a7d8a138c",
+        "timestamp": 1671427281
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "49f577b9a04e5169e95332f9a0f87865fa7c393e",
+        "timestamp": 1672574841
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "dd3e4770292ebac8d022bf12cdab8feeb847a88f",
+        "timestamp": 1681366117
+      },
+      {
+        "files": [
+          ".mailmap",
+          "CHANGELOG.md"
+        ],
+        "sha": "41afff2c60a5bbef4f9f71efee80742fbfc15b63",
+        "timestamp": 1681369246
+      },
+      {
+        "files": [
+          "aiosqlite/cursor.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "f539fd4912600ac30e46fd003d133fb07b2cc697",
+        "timestamp": 1681707789
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "032df3ba63fb046af5a5e93bb8a85237bd0ebb60",
+        "timestamp": 1681707860
+      },
+      {
+        "files": [
+          "aiosqlite/__version__.py",
+          "pyproject.toml"
+        ],
+        "sha": "c0e139f5f6c886ee420cdb3975644050d2033c33",
+        "timestamp": 1681708002
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "443cf708bef57de2be0f223fc4e1242e457e252c",
+        "timestamp": 1681708418
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "ab2ca94e7b6b514071db081f0c3cff6d8e1127b7",
+        "timestamp": 1681708541
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/cursor.py",
+          "makefile",
+          "pyproject.toml"
+        ],
+        "sha": "1967f85ada5d64d135863ec5dc8f681b829cb438",
+        "timestamp": 1681710251
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "pyproject.toml"
+        ],
+        "sha": "ab1bb6acc903c264be00d1fe7730dd469c30abc3",
+        "timestamp": 1681710462
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "pyproject.toml"
+        ],
+        "sha": "b020ca9047c7f1543f544154ac3c3d131a9b049a",
+        "timestamp": 1681710589
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "c94cb1a72d38fa61b0bd934203b2b315793404f8",
+        "timestamp": 1681710631
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "24c5b3a05f72c6a2fc350156c3f41edaa630349d",
+        "timestamp": 1681710835
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "6e9f446f1b5a373ed63632521fddb453a0021a0f",
+        "timestamp": 1681711071
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "e5353800878747d0dd834b089a5e48ebc7e55d14",
+        "timestamp": 1681711456
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "99901352d75f679c3a636e8e96aebdc183f9bb43",
+        "timestamp": 1681711917
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "6288ee38caea64f2783c076b6678163595bc6fd5",
+        "timestamp": 1681712052
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__version__.py"
+        ],
+        "sha": "26593d8abc0d4332f360459b8d57c5c067ce1283",
+        "timestamp": 1681712419
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "0a1bc27c14e171e301b397454c77163317ca2561",
+        "timestamp": 1683402048
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "346b43ef731a354c7cd68274a61b5cc25ff6ba47",
+        "timestamp": 1683402409
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "ad7de1bd73fedda0ed56804926bfbcb416c3ebbd",
+        "timestamp": 1683402440
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "f232d053e617b79012ca1887fc0506d2aaf54bdd",
+        "timestamp": 1683402753
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "193f083c31e255554bd882ffce90196f1ed43d2b",
+        "timestamp": 1683402769
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "40442815b1a9a67b6f458fe56a1f4717c6f6c74c",
+        "timestamp": 1683479737
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "60d2cb0cf0c03928fe8e68707bf96cb96166f18b",
+        "timestamp": 1700005116
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "95ec896f1925dcaa891446615948107c270d4fab",
+        "timestamp": 1704524555
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "898165153b07b97c50be9b4eb50e90c84b0f7782",
+        "timestamp": 1704525837
+      },
+      {
+        "files": [
+          "aiosqlite/core.py"
+        ],
+        "sha": "acf9d418e5201ee93e9d1e0df454135aaefa6d33",
+        "timestamp": 1704526680
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "ad19560c75be18007216619d25e37466755ae7b6",
+        "timestamp": 1708300754
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "6fd9fc6479bd23291c4725e6162455957d045cdb",
+        "timestamp": 1708300762
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "ed26039ce3c3e07baaf0bbe548bfabf62b9903e3",
+        "timestamp": 1708300771
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "104060c54ddf9738d5ba21f1b014ea18e0c67bfb",
+        "timestamp": 1708300790
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "9c58ad46798b930769cd8d4070763be80b799875",
+        "timestamp": 1708300836
+      },
+      {
+        "files": [
+          "CONTRIBUTING.md"
+        ],
+        "sha": "09ac3b92317c8b80bf2ff29f528f2c1a74d4453e",
+        "timestamp": 1708301263
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "dcf06d42db56554a746de9e93d1eeade288b6d5e",
+        "timestamp": 1708301279
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py",
+          "pyproject.toml"
+        ],
+        "sha": "dd3734815991a4f39171880d8f175c64b7fc3d32",
+        "timestamp": 1708301581
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "4da36519eff4b6d3d97ed8570c807712160a9b9c",
+        "timestamp": 1708405753
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "0e41e6c3f9f63f540b1b4b94a79a410850d2784a",
+        "timestamp": 1708407575
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "81aa1c3996459293d050c5aae4c3b9320437e112",
+        "timestamp": 1708407582
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "5dac1aa57c3e23692bca98761a329503e99621c8",
+        "timestamp": 1708408709
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "9f7e4139090564d0ec93f8e5b134e2c115fc75e5",
+        "timestamp": 1708408719
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "daf0045f80fbe7f981a1d93145d8f1fff579d9d3",
+        "timestamp": 1708408727
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__version__.py"
+        ],
+        "sha": "2cbc6c93b3ea6da87d845278af1f9696707bdaaa",
+        "timestamp": 1708409221
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "085402914979db1b3b1ea657bd7f9a92ca046ae5",
+        "timestamp": 1712428630
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "085458325c6e56180a392b7cad604e52a5d5ee76",
+        "timestamp": 1712428645
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "d9dc0e1f13cfb5e67cac49ece2f33f6f1a842c6c",
+        "timestamp": 1712428680
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "4604e1613a37ab2843cda6153d54d1a2b63c111a",
+        "timestamp": 1712430289
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "7141f8fa7d953cdb8176c373109208beff9cf304",
+        "timestamp": 1712430300
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "463a2e8e0f7d6eefdc1f449c6f22b211a58c3d03",
+        "timestamp": 1721678523
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "5e45c9a8fedfc05b716824b91786e258db4d1177",
+        "timestamp": 1738559368
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "b5ddd856b7db08a4296088626350a493bbdd0b60",
+        "timestamp": 1738559385
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "8a95cd3843f8ccd40d2018cd88a7454fb94f8a57",
+        "timestamp": 1738559464
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "a8a7084d2130063f459ffc622a6f3e7b3deb62ea",
+        "timestamp": 1738559795
+      },
+      {
+        "files": [
+          ".readthedocs.yml",
+          "pyproject.toml"
+        ],
+        "sha": "c34bcdaf674eaa137339dbb38a3a476ad2a101d5",
+        "timestamp": 1738559804
+      },
+      {
+        "files": [
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "c8194e89b45ef5b1b4c9a29d8bc1bccc19d4e149",
+        "timestamp": 1738560351
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "5391d28ac99cf7bde07ebd923f747d2142726206",
+        "timestamp": 1738560608
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "883695fc6d59c5fbdfd8f97a329f98356c39a2cd",
+        "timestamp": 1738561472
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__version__.py"
+        ],
+        "sha": "82eb2d2b05c257e247acba561b2548cca7fa365a",
+        "timestamp": 1738567616
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "077aead048ec3c637d86676437b18932d63a923a",
+        "timestamp": 1747510797
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "59397d07f34c6eee29908eb82db1acc1c9f49d42",
+        "timestamp": 1747510810
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "ca62cdd2fc6790a334153c2fadf005581c5d492a",
+        "timestamp": 1747510828
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "95ee9ac06f3ce47531b3bc0a17a2bdd8f4f5163e",
+        "timestamp": 1747510841
+      },
+      {
+        "files": [
+          "aiosqlite/context.py",
+          "pyproject.toml"
+        ],
+        "sha": "9416b1e5fb647a4668f5c1b594b835e3e17e307d",
+        "timestamp": 1747511300
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "4ae1164b8beef89cb09d4046ffaa0ae87bbfb091",
+        "timestamp": 1747511418
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "f5d0f83d9c21281b3eb5dcbefac1cdba3731a5d8",
+        "timestamp": 1747511480
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "fcd19bc09300eb5087e07fe80f17718f037fda2d",
+        "timestamp": 1747511498
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "895fd9183b43cecce89310d8ef00f9f632b9afe9",
+        "timestamp": 1747511657
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "d9f28c9fd831593344f51e719f2dc893a7cd1ec0",
+        "timestamp": 1762932730
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "b8650ef5f206f1e81c92a599e4be4e8fa7b1ae6e",
+        "timestamp": 1762932763
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "e1a76acf356f6cbf8f869de5dcc5ef65ce7606ab",
+        "timestamp": 1762932777
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "e4dd20e507e8af8edaddfa9f4005b36381875fb4",
+        "timestamp": 1762932787
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "aeadddca56b48fb7c7601b3a89ff7c3a8dc5ef2c",
+        "timestamp": 1762932809
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "e9d6b44af028e7704293b5d7a31ae02077fea5e6",
+        "timestamp": 1762933095
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "3a6d7b03bf86054551b6fd90498056f652671c52",
+        "timestamp": 1763754181
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "065ffdd1291693c5e69d2f3efff17e351d9a0163",
+        "timestamp": 1765603379
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "b650dad318ad72e582b7ba1143cc05f270f8ab6b",
+        "timestamp": 1765603406
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "445754087ec452f888cc152debf79590d8a25d86",
+        "timestamp": 1765603503
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "7a26722f7e6da6a1ae0febf515b4624794173fcc",
+        "timestamp": 1765604019
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yml"
+        ],
+        "sha": "81d00c8f1676851c8634ca98f99e0973083ea75f",
+        "timestamp": 1765604377
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/perf.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "611d7b4f29fc3d7df6c173b2e79b0892e9d249aa",
+        "timestamp": 1765608261
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "1cd60adcab12347577150a6fa6c7d92b7b86d989",
+        "timestamp": 1765650237
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__version__.py"
+        ],
+        "sha": "a869d73678adbc14472e4ac2c31f4e706efe8ef3",
+        "timestamp": 1765650647
+      },
+      {
+        "files": [
+          "aiosqlite/core.py",
+          "aiosqlite/tests/smoke.py"
+        ],
+        "sha": "5c3f61c1ea49401f2716d8f58d494e76ca766921",
+        "timestamp": 1766517039
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "aiosqlite/__version__.py"
+        ],
+        "sha": "9b127cecc7de843bf4f343b6da63b641866533fb",
+        "timestamp": 1766517677
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 4,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/dependabot.yml": 0,
+      ".github/issue_template.md": 1,
+      ".github/pull_request_template.md": 2,
+      ".github/workflows/build.yml": 3,
+      ".github/workflows/ci.yml": 4,
+      ".gitignore": 5,
+      ".mailmap": 6,
+      ".ptrconfig": 7,
+      ".pylint": 8,
+      ".pyup.yml": 9,
+      ".readthedocs.yml": 10,
+      ".travis.yml": 11,
+      "CHANGELOG.md": 12,
+      "CODE_OF_CONDUCT.md": 13,
+      "CONTRIBUTING.md": 14,
+      "LICENSE": 15,
+      "MANIFEST.in": 16,
+      "README.md": 17,
+      "aiosqlite/__init__.py": 18,
+      "aiosqlite/__version__.py": 19,
+      "aiosqlite/context.py": 20,
+      "aiosqlite/core.py": 21,
+      "aiosqlite/cursor.py": 22,
+      "aiosqlite/py.typed": 23,
+      "aiosqlite/tests/__init__.py": 24,
+      "aiosqlite/tests/__main__.py": 25,
+      "aiosqlite/tests/perf.py": 26,
+      "aiosqlite/tests/smoke.py": 27,
+      "docs/_static/custom.css": 28,
+      "docs/_templates/badges.html": 29,
+      "docs/_templates/omnilib.html": 30,
+      "docs/api.rst": 31,
+      "docs/changelog.rst": 32,
+      "docs/conf.py": 33,
+      "docs/index.rst": 34,
+      "makefile": 35,
+      "mypy.ini": 36,
+      "pyproject.toml": 37,
+      "requirements-dev.txt": 38,
+      "requirements.txt": 39,
+      "setup.py": 40
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1495681758,
+      "last_commit_ts": 1766517677,
+      "n_cochange_pairs": 31,
+      "n_commits_dropped_as_bulk": 14,
+      "n_commits_used": 373,
+      "n_files": 41
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "9b127cecc7de843bf4f343b6da63b641866533fb",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
