@@ -1,0 +1,3978 @@
+{
+  "chain_hash": "2d313ea467f85c7a",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".circleci/config.yml||.mergify.yml": 4,
+      ".circleci/config.yml||setup.cfg": 3,
+      ".circleci/config.yml||tox.ini": 3,
+      ".github/workflows/ci.yaml||.github/workflows/deploy.yaml": 9,
+      ".github/workflows/ci.yaml||.github/workflows/release.yml": 9,
+      ".github/workflows/ci.yaml||.mergify.yml": 6,
+      ".github/workflows/ci.yaml||pyproject.toml": 5,
+      ".github/workflows/ci.yaml||setup.cfg": 6,
+      ".github/workflows/ci.yaml||tox.ini": 7,
+      ".mergify.yml||doc/source/index.rst": 2,
+      ".mergify.yml||pyproject.toml": 5,
+      ".mergify.yml||setup.cfg": 9,
+      ".mergify.yml||tox.ini": 9,
+      ".travis.yml||setup.cfg": 5,
+      ".travis.yml||tox.ini": 5,
+      "AUTHORS.rst||tenacity.py": 4,
+      "AUTHORS.rst||tests/test_tenacity.py": 3,
+      "HISTORY.rst||setup.py": 5,
+      "MANIFEST.in||setup.py": 2,
+      "README.rst||tenacity.py": 4,
+      "README.rst||tests/test_tenacity.py": 4,
+      "doc/source/api.rst||doc/source/index.rst": 2,
+      "doc/source/conf.py||doc/source/index.rst": 4,
+      "doc/source/conf.py||tox.ini": 2,
+      "doc/source/index.rst||tenacity.py": 2,
+      "doc/source/index.rst||tenacity/__init__.py": 15,
+      "doc/source/index.rst||tenacity/asyncio/__init__.py": 7,
+      "doc/source/index.rst||tenacity/tornadoweb.py": 2,
+      "doc/source/index.rst||tenacity/wait.py": 4,
+      "doc/source/index.rst||tests/test_asyncio.py": 6,
+      "doc/source/index.rst||tests/test_tenacity.py": 16,
+      "doc/source/index.rst||tox.ini": 6,
+      "pyproject.toml||setup.cfg": 5,
+      "pyproject.toml||tests/test_asyncio.py": 2,
+      "pyproject.toml||tests/test_tenacity.py": 2,
+      "pyproject.toml||tests/test_tornado.py": 2,
+      "pyproject.toml||tox.ini": 6,
+      "requirements.txt||setup.cfg": 2,
+      "requirements.txt||setup.py": 2,
+      "requirements.txt||tenacity.py": 3,
+      "requirements.txt||tenacity/__init__.py": 2,
+      "requirements.txt||tenacity/wait.py": 2,
+      "requirements.txt||tests/test_tenacity.py": 2,
+      "setup.cfg||setup.py": 2,
+      "setup.cfg||tox.ini": 16,
+      "setup.py||tenacity.py": 4,
+      "setup.py||tests/test_tenacity.py": 4,
+      "tenacity.py||tests/test_tenacity.py": 22,
+      "tenacity/__init__.py||tenacity/_utils.py": 10,
+      "tenacity/__init__.py||tenacity/after.py": 2,
+      "tenacity/__init__.py||tenacity/asyncio/__init__.py": 22,
+      "tenacity/__init__.py||tenacity/before.py": 2,
+      "tenacity/__init__.py||tenacity/before_sleep.py": 5,
+      "tenacity/__init__.py||tenacity/compat.py": 2,
+      "tenacity/__init__.py||tenacity/retry.py": 14,
+      "tenacity/__init__.py||tenacity/stop.py": 7,
+      "tenacity/__init__.py||tenacity/tornadoweb.py": 10,
+      "tenacity/__init__.py||tenacity/wait.py": 15,
+      "tenacity/__init__.py||tests/test_asyncio.py": 14,
+      "tenacity/__init__.py||tests/test_tenacity.py": 48,
+      "tenacity/__init__.py||tests/test_tornado.py": 2,
+      "tenacity/__init__.py||tox.ini": 6,
+      "tenacity/_utils.py||tenacity/after.py": 4,
+      "tenacity/_utils.py||tenacity/asyncio/__init__.py": 3,
+      "tenacity/_utils.py||tenacity/before.py": 4,
+      "tenacity/_utils.py||tenacity/before_sleep.py": 5,
+      "tenacity/_utils.py||tenacity/tornadoweb.py": 2,
+      "tenacity/_utils.py||tenacity/wait.py": 4,
+      "tenacity/_utils.py||tests/test_tenacity.py": 6,
+      "tenacity/_utils.py||tests/test_utils.py": 2,
+      "tenacity/after.py||tenacity/before.py": 6,
+      "tenacity/after.py||tenacity/before_sleep.py": 5,
+      "tenacity/after.py||tenacity/wait.py": 2,
+      "tenacity/after.py||tests/test_after.py": 3,
+      "tenacity/after.py||tests/test_tenacity.py": 2,
+      "tenacity/asyncio/__init__.py||tenacity/tornadoweb.py": 10,
+      "tenacity/asyncio/__init__.py||tenacity/wait.py": 2,
+      "tenacity/asyncio/__init__.py||tests/test_asyncio.py": 20,
+      "tenacity/asyncio/__init__.py||tests/test_tenacity.py": 9,
+      "tenacity/asyncio/__init__.py||tox.ini": 4,
+      "tenacity/before.py||tenacity/before_sleep.py": 4,
+      "tenacity/before.py||tests/test_tenacity.py": 2,
+      "tenacity/before_sleep.py||tenacity/compat.py": 3,
+      "tenacity/before_sleep.py||tenacity/wait.py": 3,
+      "tenacity/before_sleep.py||tests/test_tenacity.py": 6,
+      "tenacity/compat.py||tenacity/wait.py": 2,
+      "tenacity/compat.py||tests/test_tenacity.py": 5,
+      "tenacity/retry.py||tenacity/stop.py": 4,
+      "tenacity/retry.py||tenacity/wait.py": 2,
+      "tenacity/retry.py||tests/test_tenacity.py": 11,
+      "tenacity/stop.py||tenacity/wait.py": 4,
+      "tenacity/stop.py||tests/test_tenacity.py": 4,
+      "tenacity/tornadoweb.py||tenacity/wait.py": 2,
+      "tenacity/tornadoweb.py||tests/test_asyncio.py": 3,
+      "tenacity/tornadoweb.py||tests/test_tenacity.py": 3,
+      "tenacity/tornadoweb.py||tests/test_tornado.py": 3,
+      "tenacity/wait.py||tests/test_tenacity.py": 21,
+      "tests/test_after.py||tests/test_asyncio.py": 2,
+      "tests/test_after.py||tests/test_tenacity.py": 2,
+      "tests/test_after.py||tests/test_tornado.py": 2,
+      "tests/test_asyncio.py||tests/test_tenacity.py": 13,
+      "tests/test_asyncio.py||tests/test_tornado.py": 5,
+      "tests/test_asyncio.py||tox.ini": 4,
+      "tests/test_tenacity.py||tests/test_tornado.py": 4,
+      "tests/test_tenacity.py||tox.ini": 3,
+      "tests/test_tornado.py||tox.ini": 3
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore",
+          "LICENSE",
+          "MANIFEST.in",
+          "NOTICE",
+          "requirements.txt",
+          "setup.py"
+        ],
+        "sha": "6317adfe060fd4437ac4cacab879df3ac4179901",
+        "timestamp": 1358656654
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "987c363146ff8a8e05f048571995987b1e5310a9",
+        "timestamp": 1358657698
+      },
+      {
+        "files": [
+          "setup.py",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "bf2248c2dd504e14c17ad741e60771a4a3586e48",
+        "timestamp": 1358657770
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "946c3ff731247e589a0c19997ce6f1dd7691032d",
+        "timestamp": 1358658413
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "da5e3e9778e135997f3a795bcbebd7ecd0748f82",
+        "timestamp": 1358660081
+      },
+      {
+        "files": [
+          "__init__.py"
+        ],
+        "sha": "a56a5741f72d043a21c10c880d14b492e92ad448",
+        "timestamp": 1358660162
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8c7f48d5f1a475c5e544eb7304634a36557bed21",
+        "timestamp": 1358755892
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "a6e0b2e702df5bb7f479ebd7e0ca3ced88e483b8",
+        "timestamp": 1358755941
+      },
+      {
+        "files": [
+          "__init__.py",
+          "setup.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "4c30bdb48f4e0afb830d8284bdfd42cb20d58d49",
+        "timestamp": 1358756071
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "77ecdf01fd8232551f58649f7e7dcefa80f46257",
+        "timestamp": 1358756154
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "fd4d0e8470a95df48ed0d09f8c23a0054b5bd97d",
+        "timestamp": 1358815663
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f913c44737febac73b8c752195543456fb2743d1",
+        "timestamp": 1358815752
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "90437ad8b5e05edff4da1d6737ed05aa654818d5",
+        "timestamp": 1358815885
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "31b33d7f54845974772ccce375d75cd9dae1bc38",
+        "timestamp": 1358835677
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b842154ded92ac17b377e7993d9859c5c7744337",
+        "timestamp": 1358835892
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "c4f99b5c0091379d48c2a10481a3c3e241b1592a",
+        "timestamp": 1358835999
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "d2bb0f06f6c06e00126cfda17b67cf6cc3d2a16c",
+        "timestamp": 1358836141
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f2237dfecd96eddd0c02afd3ddc52a5225315a22",
+        "timestamp": 1358836173
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "e9a0bf4e8fd9aa23edb9ff0002fd698d2ce67b89",
+        "timestamp": 1358837650
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d51df31bda58254f322c4056d771256210fa8c9a",
+        "timestamp": 1358840155
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8ee7df072e4e08274ca7e433ac79f02f67b2eaa1",
+        "timestamp": 1358840318
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "a7a6a432530400a67ed33416b5e76727217738fa",
+        "timestamp": 1358842236
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "setup.py",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "8035a32c1bb8f80150498017b1e35815b01790e9",
+        "timestamp": 1363761577
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "c88af28dc11b52c471d2d0bbf1ce1a8418c8aa39",
+        "timestamp": 1363762641
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5ac66cf291fa6d017d28a56355cc50f476cc08db",
+        "timestamp": 1363766508
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f728447c8cc614fbcd056d6f062e4cdd126e7a49",
+        "timestamp": 1383871077
+      },
+      {
+        "files": [
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "f405d7ecc33cd31cfe8cc60cce70ba78cc444577",
+        "timestamp": 1396236113
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "e2ba41fc763884bd07507bc85ef08ef0f93ce3e9",
+        "timestamp": 1396236728
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "f53a468a6dcd253d56e5e4c9af6ddec13de2ad62",
+        "timestamp": 1396238058
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "28e56fa56a080153896060eaf41a36c6d1bb707a",
+        "timestamp": 1396246292
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "553e2221fc7154034a269ea0522d97a58111b292",
+        "timestamp": 1396247541
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6bc111fd90786a8f137b4b1d44a76bd9e9b4d465",
+        "timestamp": 1396248010
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "README.rst",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "5271e7790e9e2bbe52ea03a61c6e1f5d4fc751b1",
+        "timestamp": 1399067526
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "b95ae91b113867264d42081549c09931cce00d4f",
+        "timestamp": 1399253852
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "eace177e368b5194db7e83ee2164b157cdea0b95",
+        "timestamp": 1399253879
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "c86e061eaa65b960ce6c56439a05d9f1c9d55717",
+        "timestamp": 1399254414
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "ff817d98fc98b722befb3bbb1a6a53cc3f207a5d",
+        "timestamp": 1399294706
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "setup.py"
+        ],
+        "sha": "e0ebef9d2b3571be4f788e9d7fa02561d8ecaa8a",
+        "timestamp": 1399310102
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "bac9ab8621d54428cdb5f9778acbb121f2e2fa11",
+        "timestamp": 1399311039
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "868fcd8ede2d72fa5afb0207efbdfb430edeff07",
+        "timestamp": 1402842474
+      },
+      {
+        "files": [
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "017dfa7efef5c0d84c83179c08633b82bd9a4eb2",
+        "timestamp": 1402842980
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "1ca4a7d31d90a17f0cbdd4666e8d9be00f60aa4d",
+        "timestamp": 1402843159
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "tenacity.py"
+        ],
+        "sha": "8ca5b41bcaf6bae12a67627899fe4326d6b7aa44",
+        "timestamp": 1403248610
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "cc5cc905ea9296613c90e6fde345170b2f281395",
+        "timestamp": 1403249095
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "52ebba0af2d1782e74524a90b0309a4b95b3581e",
+        "timestamp": 1403249458
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "9e60bac40ade07b8d35989f0d45a444cbd7f2740",
+        "timestamp": 1403801181
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "9a6be782d6618f3d1048b4f5c1226d6aeefc73dd",
+        "timestamp": 1403807709
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6d8ef5bd03365836910edcd3398331ab22b17c00",
+        "timestamp": 1403807944
+      },
+      {
+        "files": [
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "8b73aff04ee320ce27570c447028c30817f23d1a",
+        "timestamp": 1408717881
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "6b78d7656864d3b29830b58f2d85312bf19913ba",
+        "timestamp": 1409008940
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "setup.py"
+        ],
+        "sha": "d59d44624ac7b9afa9ecc949873fd29266dfde67",
+        "timestamp": 1409010254
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6504edc5966e597dca703d3a02b1d3f878f5bc9c",
+        "timestamp": 1409011777
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "dcc355bc4ed977cafe9244bcbbe1b080799f3abb",
+        "timestamp": 1409013845
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "30b068f26af13236e8b50f18feeb237023ab43b1",
+        "timestamp": 1409013975
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "setup.py",
+          "tenacity.py"
+        ],
+        "sha": "062c5ba16b414770969871b3494f582402476985",
+        "timestamp": 1409920585
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "3fe643afa78b5e42aa0cdb96c1ec3df638b2be1e",
+        "timestamp": 1412124519
+      },
+      {
+        "files": [
+          "HISTORY.rst",
+          "setup.py"
+        ],
+        "sha": "36a09fa4dadb67b81359078c61f418a971f57372",
+        "timestamp": 1412124623
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "HISTORY.rst",
+          "MANIFEST.in",
+          "setup.py"
+        ],
+        "sha": "445633f9221ff6efdbdb7822ff7ab01952396829",
+        "timestamp": 1412131352
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "ee2ae2a9d309132ad7ad2a354f4e3926377634d9",
+        "timestamp": 1412391740
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "01a217353220f48167575724a77fa7c4bd527bd4",
+        "timestamp": 1414635673
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d51fd58129df84615dbb28ed2377301e0fc9fc60",
+        "timestamp": 1415585569
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "ad35b7e2401574d0e49bce04712f73ad03750a15",
+        "timestamp": 1415586274
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "6fa200573f667d8ff050b23a0076de42112d7e1b",
+        "timestamp": 1415587942
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "394ea5b4921ae8ef90d3a38ed4605e285b87610c",
+        "timestamp": 1415593353
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "7dea034d806f54d14e6cded57bc50575c138291c",
+        "timestamp": 1415593575
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2cd062edcb522b37c49e5b693e69d5fa8d6d2437",
+        "timestamp": 1415593601
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "0a3eb6eae1a1a15978d02eec74d5215e5c3a259d",
+        "timestamp": 1416425371
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "c3b2d302cd90231a5a48bec21acc0358a752e2c7",
+        "timestamp": 1418605554
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "650688df3cc6a2236830831e8201ba959c51269c",
+        "timestamp": 1418605587
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "3659c70b1f0d0e4f3a262d6b76075a8eb082c73d",
+        "timestamp": 1418605621
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "918fc72fc199cace94581979dfc3afc3e38bfa66",
+        "timestamp": 1433173105
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "da33537e0850f997aea75c4dec010e2b5594071f",
+        "timestamp": 1433653584
+      },
+      {
+        "files": [
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "919d6e0011f2c725e0bf613d8b5fcf7e48b41cce",
+        "timestamp": 1435108541
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "2a84101c9a84e3006624ba14d7779c99fb0ef354",
+        "timestamp": 1435108973
+      },
+      {
+        "files": [
+          "AUTHORS.rst",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "6a55573d588e4a817986c8964d97dceb8c46585a",
+        "timestamp": 1441925855
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "6311fd38973cb824c57c3cd74b4e44ab1f09d15e",
+        "timestamp": 1450471778
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "deaa38460aa802552d8bbb641e6171f60b258125",
+        "timestamp": 1465161313
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "4240fc6966babc973a3c6b8482925b5cca44d99f",
+        "timestamp": 1465605811
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "cb499287a779b711aa5c9be7a281c947d9ea98ee",
+        "timestamp": 1465884209
+      },
+      {
+        "files": [
+          "HISTORY.rst"
+        ],
+        "sha": "9d1358242cd0eb908361c50d9c1ac7c44055dcfa",
+        "timestamp": 1470921863
+      },
+      {
+        "files": [
+          "AUTHORS.rst"
+        ],
+        "sha": "a20f3c1437942e834308a69978027ac33f878bd1",
+        "timestamp": 1470922133
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "88c61fde90115ea6e8d4aae25825b6da8b246dd2",
+        "timestamp": 1470922140
+      },
+      {
+        "files": [
+          "setup.py",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "d5aa9a30e5aad3eaa08e0fc0e8feec0e6811668b",
+        "timestamp": 1470922266
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "0ec10faab77921cc50ca2f9562e6c422cdc22826",
+        "timestamp": 1470922592
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "b99a20422219b8b1db7338e453d038b02e75cdd5",
+        "timestamp": 1470931689
+      },
+      {
+        "files": [
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "70d15b35c592a3aaba11dacd11bf478ca42b9b1c",
+        "timestamp": 1470932487
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "2092a48ce60bde5c19d73b8a0269f33df8755300",
+        "timestamp": 1470932507
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "ccd50ec1a3d4e8336b80406b5e4ddbd1a14a9569",
+        "timestamp": 1470933568
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "6c1392fa101f76930ee85a8379146dbf05e6083d",
+        "timestamp": 1470933615
+      },
+      {
+        "files": [
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "0195bed3c7596969cc54b689626586cc97f8c907",
+        "timestamp": 1470933668
+      },
+      {
+        "files": [
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "43a75cf20fc4342d1a27fda50d3ffb50155678c3",
+        "timestamp": 1470989276
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3b590b8879158e6708229b3587fd68a077cf07cc",
+        "timestamp": 1470993180
+      },
+      {
+        "files": [
+          "README.rst",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "77e1606933b88a3358bfe50e01dd7d54e0195fc5",
+        "timestamp": 1470993242
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "0ba1f7f0b9b280f76fd12c903e805b8107dac56b",
+        "timestamp": 1470994853
+      },
+      {
+        "files": [
+          "README.rst",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "a3e984e41a9f5bbdae1c8e727474bc790c374525",
+        "timestamp": 1470994963
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "9d725dbb1ba07a680941f99b50896f50884e6ba0",
+        "timestamp": 1470995041
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a03c29f03952dd9e513c8ce0b9cd7365984d5718",
+        "timestamp": 1470995128
+      },
+      {
+        "files": [
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "b307f4e2cc447d2624ec7af07620eea6d1ab95fc",
+        "timestamp": 1470995262
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "6eddc7ae4381e41b29b11351577dfdbad0afdae3",
+        "timestamp": 1471005830
+      },
+      {
+        "files": [
+          "README.rst",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "85a4a1a36301a48c457a1549723dbe5698bf818b",
+        "timestamp": 1471008619
+      },
+      {
+        "files": [
+          "README.rst",
+          "doc/source/conf.py",
+          "doc/source/index.rst"
+        ],
+        "sha": "659e78279c4b067219723121a2620b69ede2d360",
+        "timestamp": 1471009290
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "a09d31b3da8e3a33d21e055ca522a44a5c355985",
+        "timestamp": 1471009314
+      },
+      {
+        "files": [
+          "doc/source/conf.py"
+        ],
+        "sha": "f1055c4d01339d5caecf59fdbec642d685e8d2cd",
+        "timestamp": 1471009647
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "5cb0e4f61c055f818681d468f6a2023b6146dccc",
+        "timestamp": 1471010402
+      },
+      {
+        "files": [
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "1937f7d01aa786704db1ae76820d292e4d57a0b2",
+        "timestamp": 1471011662
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "06660bcd97fc36644d3d9525576d56b2f7cd0cc5",
+        "timestamp": 1471011759
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "48194e2c9ce60948464a65fa47066eb922b57dcd",
+        "timestamp": 1471019711
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "e7d21053e9c05dc852de52098aea02323cfd37b9",
+        "timestamp": 1471239455
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "6ff10c2c4b82a83e4cae3b2112f80431c1275a79",
+        "timestamp": 1471241512
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "e568d469bce35b23ecd3c7a336b27434eaf65344",
+        "timestamp": 1471245171
+      },
+      {
+        "files": [
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "bdc5f6a34fba8585be5dd48e04d969db2e448f3b",
+        "timestamp": 1471245779
+      },
+      {
+        "files": [
+          "tenacity.py"
+        ],
+        "sha": "0499e91bf5a8488293f6d8064bce72a70f03de0e",
+        "timestamp": 1471246020
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "b4d7732e86dbd6a9ddf73c3363de156218e66bf4",
+        "timestamp": 1471246074
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tenacity.py"
+        ],
+        "sha": "3e9c6402c1dd19f14c9d5117d1c6af80986281f4",
+        "timestamp": 1471239830
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "80fe9586e76eae6f57a46a6e5304c79cd8b99dd1",
+        "timestamp": 1471422875
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.cfg"
+        ],
+        "sha": "ab1bceab37f07d92875db38576d3b9545e2d48e3",
+        "timestamp": 1471449178
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/retry.py",
+          "tenacity/stop.py"
+        ],
+        "sha": "00fe1f1cd026a3b2a8c641c12552bf5cfe945990",
+        "timestamp": 1471507643
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "requirements.txt",
+          "setup.cfg"
+        ],
+        "sha": "b0ee6fb4b625dc531322e34c675c401dc8358e30",
+        "timestamp": 1471508396
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "f082fba6152b623cb1345b27fdfbe77c6e558844",
+        "timestamp": 1471508491
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/retry.py"
+        ],
+        "sha": "5b4fc5f0ee37a4e8c831c2c8c36025651881d275",
+        "timestamp": 1471532179
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/retry.py"
+        ],
+        "sha": "5b8e6183d0d500d61a3085d24521a38fb13c96d5",
+        "timestamp": 1471665790
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "5efb3780c14aee1ae83618901fa3f6d736b7e664",
+        "timestamp": 1471672198
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/__init__.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "fe16371add197d5e3f655f8f90604271caab721a",
+        "timestamp": 1471553488
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/_utils.py",
+          "tenacity/after.py",
+          "tenacity/before.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "5c30f37ca3c8f061f6a54fcad7d96671b11b807c",
+        "timestamp": 1471667073
+      },
+      {
+        "files": [
+          "tenacity/_utils.py",
+          "tenacity/after.py",
+          "tenacity/before.py"
+        ],
+        "sha": "2aa46b3ab5c36d377fdf7108fbdf2bc882c9bd74",
+        "timestamp": 1471753192
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "51a701764b0010bd11be457f19793055ea6edbe3",
+        "timestamp": 1472139195
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "b04134a8148c3eb2bb6757c1a2a66d7009441ad2",
+        "timestamp": 1472139444
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "78494c4a88ae37665c345300fcfc5544f5fb850b",
+        "timestamp": 1472197963
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "7d6a9c4203c2990adf698d9e364147b8fd4b6427",
+        "timestamp": 1472198075
+      },
+      {
+        "files": [
+          "tenacity/after.py",
+          "tenacity/stop.py",
+          "tenacity/wait.py"
+        ],
+        "sha": "03fb0a9adbab5706559ec86c8a14a6fae2bb4d52",
+        "timestamp": 1472198509
+      },
+      {
+        "files": [
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "5a66d389ac3c90c80c8bc9ad7694b810c392d39b",
+        "timestamp": 1472198936
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/_utils.py"
+        ],
+        "sha": "ee008560554ec4bf458d60aee981b844d8815d50",
+        "timestamp": 1472435453
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "395659933fb4eadd1825ab27a1139bcb0311535b",
+        "timestamp": 1473760285
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "f6535ce0aa5b1303bcff0e5c4ba5ee52dc2c205c",
+        "timestamp": 1473970072
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "2318710e4713e2bb967f7bdb4b1c692eb4af61fb",
+        "timestamp": 1474575199
+      },
+      {
+        "files": [
+          "NOTICE"
+        ],
+        "sha": "998382181bb3ee81a583d5caf5f1ca5b1aa3fb3b",
+        "timestamp": 1475494217
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "4294e97d537870ddf0a73ea95e638b36bb6f5f01",
+        "timestamp": 1475494364
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "4ecc24dab58078c8c110eed902fbd53066ead79f",
+        "timestamp": 1475494378
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "510cd9f67192982d97a5ff8a5bc09d0d5edd72a1",
+        "timestamp": 1475564561
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "2c7ab553d287ae4ce3ec8c684c86543ff2e277fe",
+        "timestamp": 1475597006
+      },
+      {
+        "files": [
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "9a1b4b7459f9862249ab7f47bed7b104c35e6adc",
+        "timestamp": 1477144277
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "ed467284de046bfca88d5070eb6f165c0ba6a545",
+        "timestamp": 1477346134
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "630937636dce85d6a9feff71dd8ebb9eae29eee0",
+        "timestamp": 1477483150
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "a844483c161229d20a75e2643cef26b2a7bd7476",
+        "timestamp": 1477483794
+      },
+      {
+        "files": [
+          "tenacity/after.py"
+        ],
+        "sha": "9fb0ed78532b6b0d313119ed8f0ab0434e02b55e",
+        "timestamp": 1477562901
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "5a6d9a80ec090d95b4af088ad623dd6cc9f99ec8",
+        "timestamp": 1477563931
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "45411905dbcd1b3a34cf57ff6699028990ce8370",
+        "timestamp": 1478555193
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "6df406806edaa4f1f96e35332c4721f8cd12e585",
+        "timestamp": 1479295859
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "d77dc9504541e99cd9e10242ce74c8836ade1377",
+        "timestamp": 1479984291
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "requirements.txt",
+          "tenacity/wait.py"
+        ],
+        "sha": "d0b4f9538c094d82c8dbd1111a9c4d855962c26a",
+        "timestamp": 1480089810
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/retry.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "26ed5e05219b31e5d66b3d25f0180ffb52fbb5c6",
+        "timestamp": 1480091565
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/retry.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "5eff3d4dbf84e2c5e0532e0149f97aefe259181f",
+        "timestamp": 1480092012
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "16796e471fb35ca2753435a3365065791cc4fea6",
+        "timestamp": 1480092396
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/stop.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "8f96a9ff383e0521723c131fd908551b55b5ed4d",
+        "timestamp": 1480591511
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "3f40fcf0ecd92184c913b15981fb273bdc90ed03",
+        "timestamp": 1480590728
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "fea726ace40edbf770c98de824f2f1ba1b0ee385",
+        "timestamp": 1481619607
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "c95baa3dc409751d34bcc580f4bbff6605778eca",
+        "timestamp": 1481624503
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py",
+          "tox.ini"
+        ],
+        "sha": "d408c40b505bce4b0d9e30ae74378edc594255bb",
+        "timestamp": 1481624503
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "9e8d7792eb9499cf0c02efe7030c75190e5cae7d",
+        "timestamp": 1483543405
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "76cec8a3ec4c69efbeaebb04927c928f2af5a314",
+        "timestamp": 1483544426
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tenacity/__init__.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "206e8ede4b2d2de297b905b25b0cc010ab8b9081",
+        "timestamp": 1484061357
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "5b111272f6e8af19b9437f50a7f2b8e587511883",
+        "timestamp": 1484061413
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "8c9525378289d2aed3826cb5ab3014d81839c9e7",
+        "timestamp": 1484061500
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "2ecd22f5305ab1f97f480a30bf46016d5c1aafae",
+        "timestamp": 1488058151
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "651d980c9930b6e1dc135c3aa3b4761ea5252e3b",
+        "timestamp": 1488531064
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "9fb57d4cd7f2dbc0e88d3af05824929eb36e9a78",
+        "timestamp": 1488537701
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "4101b5ed9560f3053a1e540cda92c635f15714da",
+        "timestamp": 1488818702
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "bc49bd09a70d7edfcd0fcf72747e988b59a51714",
+        "timestamp": 1490089393
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f2e0fa73a26e4c4331eeeb145d576bfa0f5b1637",
+        "timestamp": 1490346170
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/retry.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "dc9ed513eb0ffcfba5b1bc5b9f7388703c1570ec",
+        "timestamp": 1490355447
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "3dce1815ed42dd44cd4db856c3515b0a0d9f56eb",
+        "timestamp": 1490359525
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "9f9311bec5ed7c2fa1c3c99f8b2bb7e0e11e03b3",
+        "timestamp": 1492088313
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "07f8dda054660281e733d2119edc30bce5ec65bc",
+        "timestamp": 1492088343
+      },
+      {
+        "files": [
+          "tenacity/wait.py"
+        ],
+        "sha": "5052cdc3b140766563d916c4bc949e733ae5914b",
+        "timestamp": 1493024668
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "913aff6604d75ff28576ae7793ef3d57cfd17029",
+        "timestamp": 1493807216
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/nap.py",
+          "tenacity/stop.py"
+        ],
+        "sha": "35cdb55b427263319f6198981c229d4f7d8450bc",
+        "timestamp": 1495173456
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "8c586639e280e64b40fdf530b3bfe45ebffdd9fb",
+        "timestamp": 1496955939
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "8253e90a73576a7895afa7f97c617c9aea6cca34",
+        "timestamp": 1497476506
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "509627d724333a0a00e120b430cc87da1a45a7b6",
+        "timestamp": 1497969822
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py"
+        ],
+        "sha": "f49b3059fb09ca7ee1091f8f16c9f70a015a5ca6",
+        "timestamp": 1498038354
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "222c202638fa50f95e70a3b79375df39a5c34e55",
+        "timestamp": 1498040171
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "5385e58b6c7a2dcda7707043d53cd581430928d0",
+        "timestamp": 1499403202
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/retry.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "2a75895bdc84d396771d042ead09319af09e4f34",
+        "timestamp": 1499394643
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "d5a1d8faf02ffbe27b9a85bcb93d53a9d4e7114c",
+        "timestamp": 1500999599
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/wait.py"
+        ],
+        "sha": "0bcf66dc1885c6d5e4994031b2982d3de18ac30d",
+        "timestamp": 1501001394
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "9822d59b209e07865fbc82ac2adf80563b603759",
+        "timestamp": 1502892463
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "5e2e8c7460a77c7f558cbd578309597e75eca5a1",
+        "timestamp": 1506172501
+      },
+      {
+        "files": [
+          ".gitignore",
+          "doc/source/conf.py",
+          "doc/source/index.rst",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "73ff6ec7b9412e0c7dd8df339f3dcd482cbf9eb0",
+        "timestamp": 1506172567
+      },
+      {
+        "files": [
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py"
+        ],
+        "sha": "5f4de7f1cbbf2295c8e8a390001a8150ec818f48",
+        "timestamp": 1508832759
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "83cefa4747ace6a23174235484fa1bf5900b1af9",
+        "timestamp": 1508832790
+      },
+      {
+        "files": [
+          "tests/test_asyncio.py"
+        ],
+        "sha": "0686b4c9e659d3471ffc5aacbb76c7e114033656",
+        "timestamp": 1508833052
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "b0a30f85ffac529c5475c56f7dd48bde3b28f190",
+        "timestamp": 1510235674
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "2fabd4ac5dfa1e0ffa25e2965e067dc9f6109ec9",
+        "timestamp": 1510238348
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "14fae9e0dabd98595fdde7f20d0b1abcdaf4097c",
+        "timestamp": 1510244328
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/__init__.py",
+          "tenacity/tornadoweb.py",
+          "tests/test_tornado.py",
+          "tox.ini"
+        ],
+        "sha": "700d540ab0a6f9847332532e704010be5968149e",
+        "timestamp": 1510484701
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "daaaebe80c58784996dbdbc63ee9e14bae333446",
+        "timestamp": 1510525916
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "fccbedf5b2392b3df3c9fc58c8f61033a0293326",
+        "timestamp": 1510929691
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "058200d40e828e292772560d01683d75d4752776",
+        "timestamp": 1511902555
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "69cf4a74549b0820e6baaa188d0e72ced5ed58ad",
+        "timestamp": 1512161083
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "5dd4c194a3a3a96cb61638e152f7babd472c2d07",
+        "timestamp": 1516110323
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tests/test_tornado.py",
+          "tox.ini"
+        ],
+        "sha": "97cde0d423ce71fb4fef69a2e2958aea462acb2e",
+        "timestamp": 1516254458
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/_utils.py"
+        ],
+        "sha": "e71f5c827944406787404f96c75ea2d8fdd4600a",
+        "timestamp": 1520223554
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "4bcdd9bcc79fbca38f8836c10a89765f83085239",
+        "timestamp": 1521990698
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "4b59b1ae63337187f33c313ba0ae473533077550",
+        "timestamp": 1523283004
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tenacity/__init__.py",
+          "tenacity/_utils.py",
+          "tenacity/asyncio/__init__.py",
+          "tenacity/tornadoweb.py"
+        ],
+        "sha": "9d90be90bacd4efda66339a1e8d4d7f0ee7debfe",
+        "timestamp": 1523283194
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/_utils.py",
+          "tenacity/asyncio/__init__.py",
+          "tenacity/tornadoweb.py"
+        ],
+        "sha": "3fe33483b77d3a639c2dc71e1929d57cc07a69a3",
+        "timestamp": 1523283560
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tenacity/tornadoweb.py"
+        ],
+        "sha": "0b8e03a89db920f7418b0505ce4fe35bbd719125",
+        "timestamp": 1523283799
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "69a8bd982420d63919a1ba3550e3eb37b1f1d006",
+        "timestamp": 1522268911
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "1c4ed22935a65178f411966e461d468a13273780",
+        "timestamp": 1523360334
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "16be7b759a870b404adf2687bb9e36cc6db2a59d",
+        "timestamp": 1523880041
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8030ae84381638689ca13c13a02d1132ca40e5d8",
+        "timestamp": 1523880082
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py",
+          "tox.ini"
+        ],
+        "sha": "036c7e9ebe397a8127fbee37c2acc0bcb4fc7f11",
+        "timestamp": 1523880289
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/before_sleep.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "3aacb41738f04852ba153d9a5ec4e21fa71b996a",
+        "timestamp": 1524070290
+      },
+      {
+        "files": [
+          ".mergify.yaml"
+        ],
+        "sha": "1fdab3c4a4a9b7130d96b2aed1cfad998b7690d7",
+        "timestamp": 1524920952
+      },
+      {
+        "files": [
+          ".mergify.yaml",
+          ".mergify.yml"
+        ],
+        "sha": "1c0b57231269c9a4cbc7692ef0cb865ffe5197c4",
+        "timestamp": 1525100652
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "723ba6acfa00df769d2f14cce2ad257652ab41d9",
+        "timestamp": 1524967786
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "99468c8ef50b3f7bbdd695065f099492ff463458",
+        "timestamp": 1525898567
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "0002ba33fb9658a20e2324cb36a73b24ab616807",
+        "timestamp": 1526331985
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tenacity/tornadoweb.py"
+        ],
+        "sha": "be8b1ac35b3886eea74b1f49d7669fff65e0eccc",
+        "timestamp": 1528363756
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/_utils.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "abf23295ae033f41b3d1ffec9851928623b77d10",
+        "timestamp": 1528903373
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "9d7fa29a1cc9c80191fbdb1cc4e9e1963b6343ff",
+        "timestamp": 1530086961
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tenacity/tornadoweb.py",
+          "tenacity/wait.py"
+        ],
+        "sha": "49f3c2dedb00db2bcb2fc9b2337f24b040547ada",
+        "timestamp": 1530092880
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/_utils.py",
+          "tenacity/before_sleep.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "b42d97949e7a39cd337e3ae47357db66a2135079",
+        "timestamp": 1530086502
+      },
+      {
+        "files": [
+          "tenacity/before_sleep.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "841705cd571d5fa14f109245a413c09e62226ea7",
+        "timestamp": 1530095958
+      },
+      {
+        "files": [
+          "doc/source/conf.py",
+          "doc/source/index.rst",
+          "tenacity/__init__.py"
+        ],
+        "sha": "020e7a7ae2cf9b46b2c7e553f18a76da6e2d012b",
+        "timestamp": 1530953441
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/retry.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "5130623de634305ceb960b3ec61ea33ae40a4682",
+        "timestamp": 1531425532
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/_utils.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "ad33fff0858750a845c9eed974361df951e3cb31",
+        "timestamp": 1532116962
+      },
+      {
+        "files": [
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "219d980aeebff056de485b7c1dfde3579adc0a30",
+        "timestamp": 1532118371
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/_utils.py",
+          "tenacity/before_sleep.py",
+          "tenacity/compat.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "52e0181f347e1af8dbe765db654b23d48553c062",
+        "timestamp": 1531549483
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "0a5494307eafb6019cc5b533dce6e6ae2ffab6a9",
+        "timestamp": 1532114003
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "8392d3c89c8e003ebda57c5eaad4150497da6fba",
+        "timestamp": 1532475540
+      },
+      {
+        "files": [
+          "tenacity/after.py",
+          "tenacity/before.py",
+          "tenacity/before_sleep.py",
+          "tenacity/compat.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "846d8c84491f7f89146854a3ab001c4d90f925d0",
+        "timestamp": 1532458314
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/compat.py",
+          "tenacity/retry.py",
+          "tenacity/stop.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "a181af81d01a866935de5bb9772e88e8ec19df6c",
+        "timestamp": 1534667387
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "8ed5195241cd9b01fdde1e00b41bff53919e9ab3",
+        "timestamp": 1533748676
+      },
+      {
+        "files": [
+          "tenacity/asyncio/__init__.py",
+          "tenacity/tornadoweb.py",
+          "tests/test_asyncio.py",
+          "tests/test_tornado.py"
+        ],
+        "sha": "f7501d8170e77fac5995a11489f14cfab8431077",
+        "timestamp": 1534965786
+      },
+      {
+        "files": [
+          "tests/test_asyncio.py"
+        ],
+        "sha": "e189aab94284f4b3b1e2c529d9f16c923937c1ff",
+        "timestamp": 1535366505
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "5ec1e6a897a9468feb526192a5300f65440d553d",
+        "timestamp": 1535379694
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "b618507c79756c04e22fb89495242c80a25902f4",
+        "timestamp": 1536271093
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "ab21f9856b0910d9c830c5d1bda1a980d8f7ed78",
+        "timestamp": 1536484815
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "f3576679cf27337d97c9a68e8944ac58b103e530",
+        "timestamp": 1541183762
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "92bb8aa99c744c2974a528773dd719885c2c3500",
+        "timestamp": 1541407729
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "5f3d822c22ef435a57081a314bcb61b1c9f7b326",
+        "timestamp": 1541423937
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "e5f41f228f9e81b264128492edcb54aa2b30b63b",
+        "timestamp": 1554716189
+      },
+      {
+        "files": [
+          "tenacity/wait.py"
+        ],
+        "sha": "2b6ef9a2007bb5890d1c776a3bbe2922294a8739",
+        "timestamp": 1554717180
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "f3efd5cc82f3ea0ac75d4e28c79b2152684ea90a",
+        "timestamp": 1554717201
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "bd3211786a0d23d4e889e6238ac99f0b253f0867",
+        "timestamp": 1554717243
+      },
+      {
+        "files": [
+          "tenacity/compat.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "a7b83aeb487bf8de6b8f601d5b2e35f7141e8a4e",
+        "timestamp": 1554716427
+      },
+      {
+        "files": [
+          "doc/source/changelog.rst",
+          "doc/source/conf.py",
+          "doc/source/index.rst",
+          "releasenotes/notes/add-reno-d1ab5710f272650a.yaml",
+          "reno.yaml",
+          "tox.ini"
+        ],
+        "sha": "d71bbf82cdec81fb9ad83db352664a6b21eb1cd8",
+        "timestamp": 1540615345
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8a3b2cb2d07c82ff90c34b89b5087bf7bb92d245",
+        "timestamp": 1541581855
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "59494fc2b351db7a6a3f5c695e5a44d31b606d49",
+        "timestamp": 1554797403
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "59d402768eaa53b98d0b4042d73fea6d2c1afb27",
+        "timestamp": 1555574771
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "doc/source/index.rst"
+        ],
+        "sha": "3e87b52c396af14d94292b133047e9998516460b",
+        "timestamp": 1555575847
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "42e725f48d5e6b633f9c3285dfdd72b37d881fda",
+        "timestamp": 1555577798
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "58495e566e027668fe15838d3672e47d268e810f",
+        "timestamp": 1555578378
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "e0c4c673e02de8d9375aabe36e25daa3fb92e7fd",
+        "timestamp": 1555578400
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "75d5f92a8bcb6c910860862545f34b5fe7077888",
+        "timestamp": 1555578438
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "9c841f6d400289a7da5e70ce240faaab2f920933",
+        "timestamp": 1555578553
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "setup.cfg"
+        ],
+        "sha": "41492ae11f5a8fb0a297ed3d3b8df0251e312f62",
+        "timestamp": 1555579034
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a9d19552974af3cd1fc762facefea2b5962a1c62",
+        "timestamp": 1555668340
+      },
+      {
+        "files": [
+          "doc/source/conf.py"
+        ],
+        "sha": "08b3956341d07370a79a170e5ee9b711fb19f32b",
+        "timestamp": 1556021910
+      },
+      {
+        "files": [
+          "doc/source/conf.py"
+        ],
+        "sha": "354c40b7dc8e728c438668100dd020b65c84dfc6",
+        "timestamp": 1556022509
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "9a38a0f328d0468fc341d8b06e9130f9ac320a82",
+        "timestamp": 1559058325
+      },
+      {
+        "files": [
+          "tenacity/wait.py"
+        ],
+        "sha": "d194c4895f90e92b5ba3a019642135b4cf3a904d",
+        "timestamp": 1560904851
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "c8cf80156ccd0541017bc50209b3bbfa948131e8",
+        "timestamp": 1560935628
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "e75bd50859d0cea7c42dd2bd162be52b89c18386",
+        "timestamp": 1560935658
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "a54a5594e993197cc1fb71a086d1c50e854c7827",
+        "timestamp": 1560935589
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "e0b1c26f425ebda145b9a5aa0236f259a052bc8a",
+        "timestamp": 1560936817
+      },
+      {
+        "files": [
+          "tenacity/wait.py"
+        ],
+        "sha": "54e600255b1649624eeb60c3f54d3e0a28f1102d",
+        "timestamp": 1560936861
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "04f9762b6e80c7da980c1a5041c29d624508d851",
+        "timestamp": 1560982479
+      },
+      {
+        "files": [
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "aac4307a0aa30d7befd0ebe4212ee4fc69083a95",
+        "timestamp": 1561065225
+      },
+      {
+        "files": [
+          ".circleci/config.yml",
+          ".mergify.yml",
+          ".travis.yml",
+          "doc/source/index.rst",
+          "tests/test_tenacity.py",
+          "tox.ini"
+        ],
+        "sha": "4dbc9fec13cb41bdb5bdc697ca0c5a729b608873",
+        "timestamp": 1561092358
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "e6209915dac0c0be3b02001c737e6f074ea33be6",
+        "timestamp": 1563422167
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "c9f1cd7f5cef1bf55634dc4a70077f7a171fe27b",
+        "timestamp": 1563422391
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "8252515831dcc34174930af597be0a9cc19be181",
+        "timestamp": 1563493289
+      },
+      {
+        "files": [
+          "tenacity/compat.py"
+        ],
+        "sha": "76c3c958647f12202fa0f05d80f06651479d8bde",
+        "timestamp": 1565940420
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "2775f13b34b3ec67a774061a77fcd4e1e9b4157c",
+        "timestamp": 1565945116
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "70103c42efa801eca239023d512e5fc2a5564f67",
+        "timestamp": 1570509484
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "269c95dedcb957991692903122ae1142de4590c0",
+        "timestamp": 1570509592
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "545a337cc9a02098ee779c5776cf0c360287d955",
+        "timestamp": 1572261094
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "ca4c4184b56ba635a064b3c06accd9aa376cbefd",
+        "timestamp": 1572261270
+      },
+      {
+        "files": [
+          ".circleci/config.yml",
+          ".mergify.yml",
+          "setup.cfg"
+        ],
+        "sha": "72334a7f5a5e4838d2ee7df0cca1751e79da1a3a",
+        "timestamp": 1572261367
+      },
+      {
+        "files": [
+          "tenacity/asyncio/__init__.py"
+        ],
+        "sha": "8f8a5be8574da3a9f0f5aecf093bf0f28deb051c",
+        "timestamp": 1572433173
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "2719a98744d43835da17f53f0853a17a9b28af64",
+        "timestamp": 1572941506
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "3646aea1602a4854779eaae66a613e3262c7b5d0",
+        "timestamp": 1566893943
+      },
+      {
+        "files": [
+          "tests/test_asyncio.py"
+        ],
+        "sha": "c15dd3f75971e5047c304d9e4e25d7bd97b73dfe",
+        "timestamp": 1572960788
+      },
+      {
+        "files": [
+          "tenacity/asyncio/__init__.py"
+        ],
+        "sha": "3bae79e71519ed1a34cea53dcf98903ef02eb6c7",
+        "timestamp": 1572961229
+      },
+      {
+        "files": [
+          ".circleci/config.yml"
+        ],
+        "sha": "d7fb255bf4b20549db40fc4fd831a01359d7094c",
+        "timestamp": 1573037063
+      },
+      {
+        "files": [
+          ".circleci/config.yml"
+        ],
+        "sha": "6cb9fe14554d05494b17f47db8e85b6183f8767f",
+        "timestamp": 1573042115
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "1858d74a44b178cf8c22ac0be120024a4bafebe2",
+        "timestamp": 1574117342
+      },
+      {
+        "files": [
+          "doc/source/conf.py"
+        ],
+        "sha": "9b3126e61aec25ac836140ce9404425fdb64853e",
+        "timestamp": 1574893931
+      },
+      {
+        "files": [
+          "doc/source/api.rst"
+        ],
+        "sha": "0376abe0d63dd89ca5e0599581d9b033ad479189",
+        "timestamp": 1574893943
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "b0e9df1da24de41c2bc7bec6d9e6bcf3df4a87e0",
+        "timestamp": 1576230078
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py"
+        ],
+        "sha": "66de0110844a742b820ab6c1f29edb19ed2e5908",
+        "timestamp": 1582369760
+      },
+      {
+        "files": [
+          "tenacity/asyncio/__init__.py"
+        ],
+        "sha": "0a6e87e2f41a758dce801f59e6bedf2a20b7def3",
+        "timestamp": 1582370781
+      },
+      {
+        "files": [
+          "tests/test_asyncio.py"
+        ],
+        "sha": "615523c1b90416cd5fc7d0edba92e71523f54f6b",
+        "timestamp": 1582663340
+      },
+      {
+        "files": [
+          "tests/test_asyncio.py"
+        ],
+        "sha": "d49d2dcb650fb0a2d35b1de023bcb15a67284f82",
+        "timestamp": 1582663562
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "30e77b16ebd08609cccea8754c40bf959c3f7c94",
+        "timestamp": 1585902823
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tenacity/__init__.py",
+          "tenacity/py.typed",
+          "tests/test_tenacity.py",
+          "tox.ini"
+        ],
+        "sha": "ea09cca3fbdf4bb1f7c4484fe5db30f2b2153802",
+        "timestamp": 1585903067
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py"
+        ],
+        "sha": "ce63d28eb9396dd5a14e08246cc488b8e445408b",
+        "timestamp": 1587115295
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "0d45cd6e3eea5443094c038906794ce408d08f19",
+        "timestamp": 1587115583
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "196332c1f44a8830744984438554b008f4208254",
+        "timestamp": 1587115844
+      },
+      {
+        "files": [
+          "releasenotes/notes/before_sleep_log-improvements-d8149274dfb37d7c.yaml",
+          "tenacity/before_sleep.py",
+          "tenacity/compat.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "c5a8abb404c50bddd9881c69b995c343ab7b4991",
+        "timestamp": 1587720610
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "0f1786df4842a0c280f57c648cd4e17b8d8ea0b3",
+        "timestamp": 1598365123
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tenacity/tornadoweb.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "78a462eb71e13698fd0b8643b6c4336291ee013a",
+        "timestamp": 1600272106
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "d66af82a70dd9af24a7953c6ae5f02d8f198d10f",
+        "timestamp": 1603359739
+      },
+      {
+        "files": [
+          "releasenotes/notes/allow-mocking-of-nap-sleep-6679c50e702446f1.yaml",
+          "tenacity/nap.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "f079280364ddc8f317420e9fe86ff09b0fda2644",
+        "timestamp": 1603530022
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "c7d45614dcbb1e13dbb946a6578fd5bf280f09bb",
+        "timestamp": 1603703173
+      },
+      {
+        "files": [
+          "tenacity/retry.py"
+        ],
+        "sha": "c6732540c041063dbae8c1703a99ad7e84f8f73e",
+        "timestamp": 1603703373
+      },
+      {
+        "files": [
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py"
+        ],
+        "sha": "be9bccbb731d28ab0bcd8a4ee5acae70988bf593",
+        "timestamp": 1604332942
+      },
+      {
+        "files": [
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py"
+        ],
+        "sha": "db0f9586e02d5235d571dc549b04ff3d5f13de47",
+        "timestamp": 1608024507
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tests/test_asyncio.py"
+        ],
+        "sha": "98f7da70f867b70dd4a47135290eedc7b36b3723",
+        "timestamp": 1608146408
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "8d629023f8c95a729c915ff4c4bf415ad28f59f9",
+        "timestamp": 1608146500
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tenacity/tornadoweb.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "2214708c7e95338bd64700fae399953364148e52",
+        "timestamp": 1611933373
+      },
+      {
+        "files": [
+          ".circleci/config.yml",
+          ".mergify.yml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "5e8e97aa325dd15d0cf8bd2ead08f9b288f09b31",
+        "timestamp": 1611932666
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "68faeb07c19a609b11e9e377ac210c266fa74435",
+        "timestamp": 1612185020
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "3e2244535ccfbb6a4b7fdd77bfc9aa61a1302302",
+        "timestamp": 1612253691
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "3b5c6bff5815fb86627b1fc693524f936058b61f",
+        "timestamp": 1613033712
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "a0ca34cb9908108e1c022531ac35ce8e852b83d9",
+        "timestamp": 1615455207
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "42483eb3187d309ebae0db87a1b05b6078ea95f4",
+        "timestamp": 1615466687
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "e03034ff9f23249641aacc5ba4dd11487e654212",
+        "timestamp": 1615466716
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "446276f93fea5f97505b25ea7834bc320b21ea58",
+        "timestamp": 1619456863
+      },
+      {
+        "files": [
+          "releasenotes/notes/make-logger-more-compatible-5da1ddf1bab77047.yaml",
+          "tenacity/after.py",
+          "tenacity/before.py",
+          "tenacity/before_sleep.py"
+        ],
+        "sha": "e493087e1d3e4821fe623356c82009eeee8e5f17",
+        "timestamp": 1619457068
+      },
+      {
+        "files": [
+          "releasenotes/notes/add-retry_except_exception_type-31b31da1924d55f4.yaml",
+          "tenacity/__init__.py",
+          "tenacity/retry.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "e31e0119aa37919d90a388177add3ba027ec0f3f",
+        "timestamp": 1622032399
+      },
+      {
+        "files": [
+          ".circleci/config.yml",
+          ".mergify.yml",
+          "releasenotes/notes/drop-deprecated-python-versions-69a05cb2e0f1034c.yaml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "7a463d10180cbd6e0e16488624168ddc6ba1a00e",
+        "timestamp": 1618681171
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/retry.py",
+          "tenacity/stop.py",
+          "tenacity/wait.py"
+        ],
+        "sha": "b4d8d6bdc3d574ba558f016432c1ae676460ffd5",
+        "timestamp": 1624528812
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/_utils.py",
+          "tenacity/after.py",
+          "tenacity/before.py",
+          "tenacity/before_sleep.py",
+          "tenacity/retry.py"
+        ],
+        "sha": "dc60786ac1d15c54bd2279293c199544f50a3867",
+        "timestamp": 1624529072
+      },
+      {
+        "files": [
+          "releasenotes/notes/fix_async-52b6594c8e75c4bc.yaml",
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py"
+        ],
+        "sha": "52ce97c61bf7f661a7e9d7f32896151238f202b3",
+        "timestamp": 1624536310
+      },
+      {
+        "files": [
+          "releasenotes/notes/do_not_package_tests-fe5ac61940b0a5ed.yaml",
+          "tests/__init__.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py",
+          "tests/test_tornado.py"
+        ],
+        "sha": "d442271252b90d15a56f3fd1c622e3902fc4d3cd",
+        "timestamp": 1624536441
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "786997edf9efb87704ce684d8765eb67d196820d",
+        "timestamp": 1624544134
+      },
+      {
+        "files": [
+          "releasenotes/notes/drop_deprecated-7ea90b212509b082.yaml",
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tenacity/tornadoweb.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "c18dcfbf4b6a719f668f12fdb4999afaeef62648",
+        "timestamp": 1624551387
+      },
+      {
+        "files": [
+          "releasenotes/notes/annotate_code-197b93130df14042.yaml",
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tenacity/tornadoweb.py",
+          "tenacity/wait.py"
+        ],
+        "sha": "58fbe614433212e27484f70ed7984f33b1bdb707",
+        "timestamp": 1625056727
+      },
+      {
+        "files": [
+          "releasenotes/notes/retrycallstate-repr-94947f7b00ee15e1.yaml",
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "20d9228351d17dd38f8e2af091c99af98b5fcd88",
+        "timestamp": 1625486007
+      },
+      {
+        "files": [
+          "releasenotes/notes/pr320-py3-only-wheel-tag.yaml",
+          "setup.cfg"
+        ],
+        "sha": "06413c391f7fed0d286e35ce2226c1ac577cce67",
+        "timestamp": 1625659676
+      },
+      {
+        "files": [
+          "releasenotes/notes/after_log-50f4d73b24ce9203.yaml",
+          "tenacity/after.py",
+          "tests/test_after.py"
+        ],
+        "sha": "a7f548520e4ee871ad8aeb354ecfa1a324c8ca19",
+        "timestamp": 1626082482
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "abf859fad54f15fb7cf7a10abdf876c6057bef63",
+        "timestamp": 1633354302
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "5a8649955a7ed623748a748b27717ffa2e7d2301",
+        "timestamp": 1641412424
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "dfcf348367e7923ecc01bddf0cd1eb5a83a25e93",
+        "timestamp": 1643032550
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "releasenotes/notes/sphinx_define_error-642c9cd5c165d39a.yaml"
+        ],
+        "sha": "a85896547de516efed5884dad1e6a0c7a6e7b2e4",
+        "timestamp": 1651077084
+      },
+      {
+        "files": [
+          "releasenotes/notes/wait_exponential_jitter-6ffc81dddcbaa6d3.yaml",
+          "tenacity/__init__.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "da1bfc9cfdf259b5f28c0f89408065b03afb9894",
+        "timestamp": 1651077790
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "f6465c082fc153ec389b281aabc323f3c2d0ced9",
+        "timestamp": 1653664706
+      },
+      {
+        "files": [
+          "releasenotes/notes/support-timedelta-wait-unit-type-5ba1e9fc0fe45523.yaml",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "18d05a6f049ea734cc6da02de6e3f9ecaffbc877",
+        "timestamp": 1653904264
+      },
+      {
+        "files": [
+          "releasenotes/notes/add_retry_if_exception_cause_type-d16b918ace4ae0ad.yaml",
+          "tenacity/__init__.py",
+          "tenacity/retry.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "014b8e6c39d0052d9bb80ad85bae9a390d1aad09",
+        "timestamp": 1663762800
+      },
+      {
+        "files": [
+          "releasenotes/notes/timedelta-for-stop-ef6bf71b88ce9988.yaml",
+          "tenacity/_utils.py",
+          "tenacity/stop.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "de409a00c18b1d26a030292f7820ee26cdad2aa1",
+        "timestamp": 1670433511
+      },
+      {
+        "files": [
+          "tenacity/wait.py"
+        ],
+        "sha": "8b17b0028d7c54758448f1cb2aefd2af3bde42f2",
+        "timestamp": 1671187033
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "releasenotes/notes/clarify-reraise-option-6829667eacf4f599.yaml"
+        ],
+        "sha": "98bc9d82c1e115b29e1a9cf61a38c6e13348d190",
+        "timestamp": 1674470749
+      },
+      {
+        "files": [
+          ".circleci/config.yml",
+          ".github/workflows/ci.yaml"
+        ],
+        "sha": "1aa3e41559e9f14468841b3d142b8d92e3795e5f",
+        "timestamp": 1675066817
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".mergify.yml",
+          "pyproject.toml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "c3ec31cb2481305d68b0c893d6ab97cbc89d98d5",
+        "timestamp": 1675066817
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "releasenotes/notes/export-convenience-symbols-981d9611c8b754f3.yaml",
+          "tenacity/__init__.py"
+        ],
+        "sha": "e1323a0e0ff9f7d867d3632c3ebf582f446b0a91",
+        "timestamp": 1675070128
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "releasenotes/notes/fix-async-loop-with-result-f68e913ccb425aca.yaml",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py"
+        ],
+        "sha": "0b1cef0be60b2ab730cacf38d9d456787ad6d6ff",
+        "timestamp": 1675072052
+      },
+      {
+        "files": [
+          ".circleci/config.yml",
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "87f913d644fcba0670f750bb220c1213b81d0b59",
+        "timestamp": 1675072203
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "1007141288e4e22f9166b714553c63d88053ed43",
+        "timestamp": 1675083178
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml"
+        ],
+        "sha": "f1aafdaf5e76c64979f8dc215213e5fe1b9b2994",
+        "timestamp": 1675093429
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/retry.py",
+          "tenacity/stop.py",
+          "tenacity/wait.py"
+        ],
+        "sha": "d9438b3a4080441904a2a2ea482a6d539f94cb5c",
+        "timestamp": 1675093754
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "280201dca51894670b1c2866156aa5af7f530f9f",
+        "timestamp": 1675675182
+      },
+      {
+        "files": [
+          "tests/test_asyncio.py"
+        ],
+        "sha": "b93e4dca90cbadfc7db10c23253b4010b991b58f",
+        "timestamp": 1675676195
+      },
+      {
+        "files": [
+          "releasenotes/notes/no-async-iter-6132a42e52348a75.yaml",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py"
+        ],
+        "sha": "78c8d4bc8596af1143801076faa922f2f21c1bba",
+        "timestamp": 1675679372
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tox.ini"
+        ],
+        "sha": "b49eb370573626abd5ddb5dc03228c503079be59",
+        "timestamp": 1675961883
+      },
+      {
+        "files": [
+          "releasenotes/notes/add_omitted_modules_to_import_all-2ab282f20a2c22f7.yaml",
+          "tenacity/__init__.py"
+        ],
+        "sha": "3cf1c9064af203999c94822adaf1b7eafb7b0bda",
+        "timestamp": 1677082678
+      },
+      {
+        "files": [
+          "releasenotes/notes/fix-wait-typing-b26eecdb6cc0a1de.yaml",
+          "tenacity/wait.py"
+        ],
+        "sha": "548c5d490187af6f339cbffdd0add38aecc3ecb0",
+        "timestamp": 1677591009
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".mergify.yml",
+          "pyproject.toml",
+          "releasenotes/notes/remove-py36-876c0416cf279d15.yaml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "96938df70d6210ad59a0b79c0bb8e967463b0a03",
+        "timestamp": 1679322138
+      },
+      {
+        "files": [
+          "releasenotes/notes/Fix-tests-for-typeguard-3.x-6eebfea546b6207e.yaml",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "433324956abb028f6d993195d31e4dd8308115c3",
+        "timestamp": 1679322723
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "releasenotes/notes/added_a_link_to_documentation-eefaf8f074b539f8.yaml"
+        ],
+        "sha": "aa6f8f0a2428de696b237d1a86bc131c1cdb707a",
+        "timestamp": 1689153271
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "41ed2420cda8ab7650a39900451099f4730266c3",
+        "timestamp": 1692019278
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "tests/test_after.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py",
+          "tests/test_tornado.py",
+          "tox.ini"
+        ],
+        "sha": "703fe3c41a65c07de93d530dbfe9e47f4ce4b8e6",
+        "timestamp": 1692601470
+      },
+      {
+        "files": [
+          "releasenotes/notes/add-test-extra-55e869261b03e56d.yaml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "a29f494197aec1f28fdb024599afd79f77c58c4b",
+        "timestamp": 1692601610
+      },
+      {
+        "files": [
+          "releasenotes/notes/some-slug-for-preserve-defaults-86682846dfa18005.yaml",
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "310058274ed22a345e9c3917c97b4afd6363d5a5",
+        "timestamp": 1692601779
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/deploy.yaml",
+          ".mergify.yml",
+          "pyproject.toml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "09ccacc51c6cbaf0cb3f7d12e0646c95ccc6e177",
+        "timestamp": 1694806714
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "5c54fa0a8f58430d412cfca41c835a19bae28c55",
+        "timestamp": 1694806873
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".mergify.yml",
+          "pyproject.toml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "88807635e5502561c7767db2353d5ce1d63f67fa",
+        "timestamp": 1694807286
+      },
+      {
+        "files": [
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py",
+          "tests/test_tornado.py"
+        ],
+        "sha": "1843b25f2d7211a5ea1e8597e527676ceec572e5",
+        "timestamp": 1694807500
+      },
+      {
+        "files": [
+          "doc/source/api.rst",
+          "doc/source/index.rst"
+        ],
+        "sha": "f3d1909528b9ee95c79c556cc3380c248bffe49f",
+        "timestamp": 1699965462
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "ebee81d31db13e95b3679bf0eebf19342dffdb9f",
+        "timestamp": 1701636104
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "releasenotes/notes/add-stop-before-delay-a775f88ac872c923.yaml",
+          "tenacity/__init__.py",
+          "tenacity/stop.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "99e7482e8b027f0521315e0f7830a0badae5c561",
+        "timestamp": 1702887645
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "17aefd96cbc90fd5201f61562640709a185e8796",
+        "timestamp": 1707217837
+      },
+      {
+        "files": [
+          ".github/dependabot.yml",
+          "releasenotes/notes/dependabot-for-github-actions-4d2464f3c0928463.yaml"
+        ],
+        "sha": "2f624ba31fa89fa4dd3e65b375bc780066839a4f",
+        "timestamp": 1707474110
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "9eb3868112d4d4a3d3bae37ae75fc49736eb2cfa",
+        "timestamp": 1707474561
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "50065df82629e3e59e9c344abb5fc471a58bb7a7",
+        "timestamp": 1707474775
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "9ed3e964839d588eb696e9b8e68cd9e96751bdd1",
+        "timestamp": 1707475219
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "cf58675e9c5d8e002272e8e5bbdbd6ac14f69920",
+        "timestamp": 1707476422
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "65a19f9be58fb9d1333f2501879cda2be7249ce2",
+        "timestamp": 1707476591
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml"
+        ],
+        "sha": "b7e488379a5de01b54fc77bd598bdccecf199e47",
+        "timestamp": 1707476865
+      },
+      {
+        "files": [
+          "tenacity/_utils.py",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "bfa2c800ea17d5cbfacf51003627ada4a7c3691f",
+        "timestamp": 1709364637
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "06c34a281699491efc6c6edd1c334d0f77c02e3c",
+        "timestamp": 1709365009
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "c5d2d8bfeede5d36254335a52c13519ce8cf5fad",
+        "timestamp": 1709365230
+      },
+      {
+        "files": [
+          "tenacity/asyncio/__init__.py"
+        ],
+        "sha": "cb15300d9b4358d9bdb6cfd33d433368700b3abe",
+        "timestamp": 1710411938
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "5b00c1581a25d9777259f81562e9fc16f21c827e",
+        "timestamp": 1718194983
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "952189b4e33c02b5cd3fb0eb82dd318087f06d66",
+        "timestamp": 1718268368
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          "doc/source/index.rst",
+          "releasenotes/notes/trio-support-retry-22bd544800cd1f36.yaml",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py",
+          "tox.ini"
+        ],
+        "sha": "ade0567151ea6c9494fbca94c777ab729922e527",
+        "timestamp": 1718609620
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "702014bc224240c1bb92bdaab250bda178fd938f",
+        "timestamp": 1718609977
+      },
+      {
+        "files": [
+          "releasenotes/notes/fix-setuptools-config-3af71aa3592b6948.yaml",
+          "setup.cfg"
+        ],
+        "sha": "ee6a8f7a76654d712fd44604d3b6d4f9af6b2249",
+        "timestamp": 1718625641
+      },
+      {
+        "files": [
+          "releasenotes/notes/fix-local-context-overwrite-94190ba06a481631.yaml",
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_issue_478.py"
+        ],
+        "sha": "a15fa645326ef776dbef81ee13e3833cd14bdced",
+        "timestamp": 1719241100
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "33cd0e1d4ac529f2f7853eba66b8127232f1ec63",
+        "timestamp": 1719863866
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "releasenotes/notes/fix-retry-wrapper-attributes-f7a3a45b8e90f257.yaml",
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "31fe2d0cf2505bffd0cf1ffda8c7e30450ce709f",
+        "timestamp": 1720164140
+      },
+      {
+        "files": [
+          "releasenotes/notes/wait-random-exponential-min-2a4b7eed9f002436.yaml",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "a662bbb487cd6d34541824589f8e8c7a1f7791bb",
+        "timestamp": 1722255010
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "e2482a6f90c432992d2f094774131531d5983b75",
+        "timestamp": 1722540770
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/before_sleep.py"
+        ],
+        "sha": "7fbaf4d519041d9054ad6dca46b172686a2faf68",
+        "timestamp": 1724666390
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "60358bb9340c9a73026e94e0c6de4a892b14eecd",
+        "timestamp": 1725220408
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "11af5c1397b65f126cde67922da97a1f37aa0af4",
+        "timestamp": 1727812291
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "0d40e76f7d06d631fb127e1ec58c8bd776e70d49",
+        "timestamp": 1730490504
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/deploy.yaml"
+        ],
+        "sha": "72db2740cab8248d2d9b7b9a0716cb1ea9867051",
+        "timestamp": 1738437548
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".mergify.yml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "320335902409ed2e09f21cb83431de7ee7a0c2a6",
+        "timestamp": 1739867218
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".mergify.yml",
+          "pyproject.toml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "3e2c18175944c1896a1065809db15378d545cdce",
+        "timestamp": 1739867403
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml"
+        ],
+        "sha": "212c47c05fec89c3aca8c4fec0b426c9f33036e8",
+        "timestamp": 1739867525
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "bfbf17314612b8546a650c4b56d6c6438e6857df",
+        "timestamp": 1741163806
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yaml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "f9a879c531ff4be938309aae6c69f46fc5b732d8",
+        "timestamp": 1742906740
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "b4dfa3fe88707f42561d11dea4bca06c45fb5523",
+        "timestamp": 1743537291
+      },
+      {
+        "files": [
+          "releasenotes/notes/add-re-pattern-to-match-types-6a4c1d9e64e2a5e1.yaml",
+          "tenacity/retry.py"
+        ],
+        "sha": "a44271f3d7d917d81e432ce7f85d448b437b4e41",
+        "timestamp": 1743581260
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "2b173a1039009773dbf5d377f95cc8aabe83bf58",
+        "timestamp": 1743582014
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "62787c34bb052d28d814bc07e5c3caed22cd73a2",
+        "timestamp": 1743582205
+      },
+      {
+        "files": [
+          "tenacity/after.py",
+          "tenacity/before_sleep.py",
+          "tests/test_after.py"
+        ],
+        "sha": "012dc0d77e527c6940d90300dcbe7ba8a3830ba4",
+        "timestamp": 1743610833
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "077aaa84eaa91051d6a779cd1edb68727d7daebb",
+        "timestamp": 1746126994
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "22399207ada81342d0a816dade9d71f61221183e",
+        "timestamp": 1756888733
+      },
+      {
+        "files": [
+          ".mergify.yml"
+        ],
+        "sha": "b12af2e23bcf7909e96f7b4e4aa0793737e2b0f1",
+        "timestamp": 1756889606
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "e8d5f3b91b4da34e799c9aeff29e3ee3631047c4",
+        "timestamp": 1759345633
+      },
+      {
+        "files": [
+          "releasenotes/notes/logging-protocol-a4cf0f786f21e4ee.yaml",
+          "tenacity/_utils.py",
+          "tenacity/after.py",
+          "tenacity/before.py",
+          "tenacity/before_sleep.py"
+        ],
+        "sha": "d6e57dd1bd6eb1971bbe57169f98cd9c4f7aae6c",
+        "timestamp": 1760172539
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "815c34fec2c8d64fe2bc8a6bdd79bfb41f1938c6",
+        "timestamp": 1762325902
+      },
+      {
+        "files": [
+          ".mergify.yml",
+          "doc/source/index.rst"
+        ],
+        "sha": "0f55245b8da5c4cc8385c2f692164a6ff52cd88e",
+        "timestamp": 1762326368
+      },
+      {
+        "files": [
+          "tenacity/tornadoweb.py"
+        ],
+        "sha": "e792bbaf0cab3685c8000899cb9f61e04d6f3e23",
+        "timestamp": 1764670162
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "c35a4b341ef5e553c670290fbd8835b59d5f08a3",
+        "timestamp": 1764670984
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "ef12c9ed1df4dec3748b1fa9304527245b041d2d",
+        "timestamp": 1767294268
+      },
+      {
+        "files": [
+          "tenacity/wait.py"
+        ],
+        "sha": "21ae7d0cc27069defd111e8ec81407f6d14089f6",
+        "timestamp": 1768668964
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "7027da31d27155c7b1831e292a29575af7b5c2b1",
+        "timestamp": 1769975380
+      },
+      {
+        "files": [
+          "releasenotes/notes/async-sleep-retrying-32de5866f5d041.yaml",
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py"
+        ],
+        "sha": "24415ebbca6ecafdf870af06441656dd96149d1d",
+        "timestamp": 1770273097
+      },
+      {
+        "files": [
+          "releasenotes/notes/fix-async-retry-type-overloads-27f3e0c239ed6b.yaml",
+          "tenacity/__init__.py"
+        ],
+        "sha": "d4e868d6b8368c00b5a1fad54de36c2c8c3a0fb3",
+        "timestamp": 1770461007
+      },
+      {
+        "files": [
+          "tenacity/_utils.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "0bdf1d9e5f42b7179e7aae52cb70d26283a4c5ed",
+        "timestamp": 1771317080
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "8a171aa5422efac9bd144d6dcd33d703359647d6",
+        "timestamp": 1771428039
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "528a1be01157225a33a04281b057d142bbb1ae13",
+        "timestamp": 1771428113
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "bfb8f5c9623ec7ad28ced5d246633d00d96ee0d3",
+        "timestamp": 1771428125
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "09bc652399c5f9c69165fcd15756c4728691dcdd",
+        "timestamp": 1771428203
+      },
+      {
+        "files": [
+          "doc/source/conf.py"
+        ],
+        "sha": "de2cee2dbb32f6685c0df562898ec7425b3200c7",
+        "timestamp": 1771428217
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "tenacity/tornadoweb.py",
+          "tests/test_tornado.py"
+        ],
+        "sha": "1b2b4efa5bc472ba83c7cf4f74d423b5ad6cfebf",
+        "timestamp": 1771430401
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "abaf39c4953dc187c4ab84a59f8d6e585c60efc8",
+        "timestamp": 1771430478
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "4eb1b11377bba2a1bac9350dd2d71e3243d55fb4",
+        "timestamp": 1771430491
+      },
+      {
+        "files": [
+          ".github/workflows/release.yml"
+        ],
+        "sha": "a4a725245b264fb71bb0d217bfad867d5da08082",
+        "timestamp": 1771431965
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "7efa2fe4bd27f3e1c759482114b8d2dc9df9ff04",
+        "timestamp": 1771432117
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "01ce66045e71c1474f4d5ab06548dea3e179a242",
+        "timestamp": 1771432202
+      },
+      {
+        "files": [
+          "doc/source/conf.py"
+        ],
+        "sha": "56950aef92728e74f6611983ca7373f1cf085474",
+        "timestamp": 1771432217
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "14f0d8ac74c375ebcb1ef6a361595332ce4de4e7",
+        "timestamp": 1771432266
+      },
+      {
+        "files": [
+          "tests/test_after.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py",
+          "tests/test_tornado.py"
+        ],
+        "sha": "89c5735a81d291eb2fc019e37f13a81dfe763bcf",
+        "timestamp": 1771492104
+      },
+      {
+        "files": [
+          "tenacity/_utils.py"
+        ],
+        "sha": "773f4386e596f52d5c5ed39a8f511c7b56936986",
+        "timestamp": 1771494540
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "b42d0777e2da9bc75dc9de6cbd22a095f096eafd",
+        "timestamp": 1771494603
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "d49d07505812d8f4a8b718db62deb6506ccf6603",
+        "timestamp": 1771494616
+      },
+      {
+        "files": [
+          "tenacity/retry.py"
+        ],
+        "sha": "fea6430bb22bda4678f35bee1021d244815d04f7",
+        "timestamp": 1771494684
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "6be363b0439bd213dd5ea4cb0c0c184bf616232a",
+        "timestamp": 1771494695
+      },
+      {
+        "files": [
+          "tenacity/after.py",
+          "tests/test_after.py"
+        ],
+        "sha": "213446e8f5f73ca0d20e22ec8ee38b1f75a45434",
+        "timestamp": 1771495162
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "930958f9007ecf4b4a0e4a17fe7e0a6f9ee2f638",
+        "timestamp": 1771593143
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "f4a31e16515261fc056601e547f38f3aff0b2685",
+        "timestamp": 1771864358
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "711416c56e1952acc78bdbb45d74018b0eb865da",
+        "timestamp": 1771914419
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "42b70f90790e1a3203e3dc61ad2648579c3709db",
+        "timestamp": 1771919352
+      },
+      {
+        "files": [
+          "tenacity/retry.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "a02b51a20fbda8fcc9051b10bad4a728882a631c",
+        "timestamp": 1771948069
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tests/test_asyncio.py"
+        ],
+        "sha": "124e3a67c7a9b68f46df39d2a7b1a5e8d15270c1",
+        "timestamp": 1771948147
+      },
+      {
+        "files": [
+          "doc/source/index.rst",
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "39eb157a686a8642646807c64d0791de35a0910a",
+        "timestamp": 1771948217
+      },
+      {
+        "files": [
+          "tenacity/asyncio/retry.py",
+          "tenacity/retry.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "44eaefbbd0ec89fca573a1fffd55d149ac29cca9",
+        "timestamp": 1771949233
+      },
+      {
+        "files": [
+          "doc/source/index.rst"
+        ],
+        "sha": "0a3ca8a208a9365f2cae45b83c7673e606d1b563",
+        "timestamp": 1771952295
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/retry.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "cb320c4d80d8af7e8953dbf40224172a06b9b977",
+        "timestamp": 1772009028
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "4c1b7bc7817f967538ed33a7fe114cece26364a5",
+        "timestamp": 1772033968
+      },
+      {
+        "files": [
+          "tenacity/__init__.py",
+          "tenacity/wait.py"
+        ],
+        "sha": "ac9c21fc44d8cbfc25cba4651d9914fb79552312",
+        "timestamp": 1772110573
+      },
+      {
+        "files": [
+          "tenacity/__init__.py"
+        ],
+        "sha": "6a2a08bf1ff1edd29677683ae6c556724f787803",
+        "timestamp": 1772110653
+      },
+      {
+        "files": [
+          "tests/test_tenacity.py"
+        ],
+        "sha": "b8b4675c83dc53eddbd8657fb9d1707071c99f32",
+        "timestamp": 1772114800
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "tenacity/wait.py"
+        ],
+        "sha": "ae2d75edd151768650853994038f6b21dfca7943",
+        "timestamp": 1772114872
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "tenacity/asyncio/__init__.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "7a73c9330df0005d5ba517a80e2201ea6c039a32",
+        "timestamp": 1772117741
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "e1041169ebe9698539770dad5a815ee288a4aef5",
+        "timestamp": 1772394226
+      },
+      {
+        "files": [
+          "tenacity/_utils.py",
+          "tenacity/before_sleep.py"
+        ],
+        "sha": "21189c74a98552a3efa96e538b9ef2f25668d094",
+        "timestamp": 1772696951
+      },
+      {
+        "files": [
+          "releasenotes/notes/wait-exponential-jitter-min-timedelta-a8e3c1f4b7d29e50.yaml",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "3233040287fb03391c0ad1a5ad7404d359f8a98d",
+        "timestamp": 1773238845
+      },
+      {
+        "files": [
+          "releasenotes/notes/deprecate-initial-for-multiplier-c7b4e2d9f1a83065.yaml",
+          "tenacity/wait.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "1106b9a168c561a5a8b50d97ba6a997ad4483d39",
+        "timestamp": 1773244470
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "8779333a4759e56427b5d7ba23cacd3fe6054d61",
+        "timestamp": 1774286480
+      },
+      {
+        "files": [
+          "releasenotes/notes/fix-reraise-tryagain-underlying-exc-e21a26ee95bad0b3.yaml",
+          "tenacity/__init__.py",
+          "tests/test_asyncio.py",
+          "tests/test_tenacity.py"
+        ],
+        "sha": "e5179bdab9939a748dc3e88ff21309e12e5361e0",
+        "timestamp": 1779433573
+      },
+      {
+        "files": [
+          ".github/workflows/ci.yaml",
+          ".github/workflows/release.yml"
+        ],
+        "sha": "a49e9d6dd4e4611238dc277263d1975e1cada21e",
+        "timestamp": 1780464630
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 6,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".circleci/config.yml": 0,
+      ".github/dependabot.yml": 1,
+      ".github/workflows/ci.yaml": 2,
+      ".github/workflows/deploy.yaml": 3,
+      ".github/workflows/release.yml": 4,
+      ".gitignore": 5,
+      ".mergify.yaml": 6,
+      ".mergify.yml": 7,
+      ".readthedocs.yml": 8,
+      ".travis.yml": 9,
+      "AUTHORS.rst": 10,
+      "HISTORY.rst": 11,
+      "LICENSE": 12,
+      "MANIFEST.in": 13,
+      "NOTICE": 14,
+      "README.rst": 15,
+      "__init__.py": 16,
+      "doc/source/api.rst": 17,
+      "doc/source/changelog.rst": 18,
+      "doc/source/conf.py": 19,
+      "doc/source/index.rst": 20,
+      "pyproject.toml": 21,
+      "releasenotes/notes/Fix-tests-for-typeguard-3.x-6eebfea546b6207e.yaml": 22,
+      "releasenotes/notes/add-re-pattern-to-match-types-6a4c1d9e64e2a5e1.yaml": 23,
+      "releasenotes/notes/add-reno-d1ab5710f272650a.yaml": 24,
+      "releasenotes/notes/add-retry_except_exception_type-31b31da1924d55f4.yaml": 25,
+      "releasenotes/notes/add-stop-before-delay-a775f88ac872c923.yaml": 26,
+      "releasenotes/notes/add-test-extra-55e869261b03e56d.yaml": 27,
+      "releasenotes/notes/add_omitted_modules_to_import_all-2ab282f20a2c22f7.yaml": 28,
+      "releasenotes/notes/add_retry_if_exception_cause_type-d16b918ace4ae0ad.yaml": 29,
+      "releasenotes/notes/added_a_link_to_documentation-eefaf8f074b539f8.yaml": 30,
+      "releasenotes/notes/after_log-50f4d73b24ce9203.yaml": 31,
+      "releasenotes/notes/allow-mocking-of-nap-sleep-6679c50e702446f1.yaml": 32,
+      "releasenotes/notes/annotate_code-197b93130df14042.yaml": 33,
+      "releasenotes/notes/async-sleep-retrying-32de5866f5d041.yaml": 34,
+      "releasenotes/notes/before_sleep_log-improvements-d8149274dfb37d7c.yaml": 35,
+      "releasenotes/notes/clarify-reraise-option-6829667eacf4f599.yaml": 36,
+      "releasenotes/notes/dependabot-for-github-actions-4d2464f3c0928463.yaml": 37,
+      "releasenotes/notes/deprecate-initial-for-multiplier-c7b4e2d9f1a83065.yaml": 38,
+      "releasenotes/notes/do_not_package_tests-fe5ac61940b0a5ed.yaml": 39,
+      "releasenotes/notes/drop-deprecated-python-versions-69a05cb2e0f1034c.yaml": 40,
+      "releasenotes/notes/drop_deprecated-7ea90b212509b082.yaml": 41,
+      "releasenotes/notes/export-convenience-symbols-981d9611c8b754f3.yaml": 42,
+      "releasenotes/notes/fix-async-loop-with-result-f68e913ccb425aca.yaml": 43,
+      "releasenotes/notes/fix-async-retry-type-overloads-27f3e0c239ed6b.yaml": 44,
+      "releasenotes/notes/fix-local-context-overwrite-94190ba06a481631.yaml": 45,
+      "releasenotes/notes/fix-reraise-tryagain-underlying-exc-e21a26ee95bad0b3.yaml": 46,
+      "releasenotes/notes/fix-retry-wrapper-attributes-f7a3a45b8e90f257.yaml": 47,
+      "releasenotes/notes/fix-setuptools-config-3af71aa3592b6948.yaml": 48,
+      "releasenotes/notes/fix-wait-typing-b26eecdb6cc0a1de.yaml": 49,
+      "releasenotes/notes/fix_async-52b6594c8e75c4bc.yaml": 50,
+      "releasenotes/notes/logging-protocol-a4cf0f786f21e4ee.yaml": 51,
+      "releasenotes/notes/make-logger-more-compatible-5da1ddf1bab77047.yaml": 52,
+      "releasenotes/notes/no-async-iter-6132a42e52348a75.yaml": 53,
+      "releasenotes/notes/pr320-py3-only-wheel-tag.yaml": 54,
+      "releasenotes/notes/remove-py36-876c0416cf279d15.yaml": 55,
+      "releasenotes/notes/retrycallstate-repr-94947f7b00ee15e1.yaml": 56,
+      "releasenotes/notes/some-slug-for-preserve-defaults-86682846dfa18005.yaml": 57,
+      "releasenotes/notes/sphinx_define_error-642c9cd5c165d39a.yaml": 58,
+      "releasenotes/notes/support-timedelta-wait-unit-type-5ba1e9fc0fe45523.yaml": 59,
+      "releasenotes/notes/timedelta-for-stop-ef6bf71b88ce9988.yaml": 60,
+      "releasenotes/notes/trio-support-retry-22bd544800cd1f36.yaml": 61,
+      "releasenotes/notes/wait-exponential-jitter-min-timedelta-a8e3c1f4b7d29e50.yaml": 62,
+      "releasenotes/notes/wait-random-exponential-min-2a4b7eed9f002436.yaml": 63,
+      "releasenotes/notes/wait_exponential_jitter-6ffc81dddcbaa6d3.yaml": 64,
+      "reno.yaml": 65,
+      "requirements.txt": 66,
+      "setup.cfg": 67,
+      "setup.py": 68,
+      "tenacity.py": 69,
+      "tenacity/__init__.py": 70,
+      "tenacity/_utils.py": 71,
+      "tenacity/after.py": 72,
+      "tenacity/asyncio/__init__.py": 73,
+      "tenacity/asyncio/retry.py": 74,
+      "tenacity/before.py": 75,
+      "tenacity/before_sleep.py": 76,
+      "tenacity/compat.py": 77,
+      "tenacity/nap.py": 78,
+      "tenacity/py.typed": 79,
+      "tenacity/retry.py": 80,
+      "tenacity/stop.py": 81,
+      "tenacity/tornadoweb.py": 82,
+      "tenacity/wait.py": 83,
+      "tests/__init__.py": 84,
+      "tests/test_after.py": 85,
+      "tests/test_asyncio.py": 86,
+      "tests/test_issue_478.py": 87,
+      "tests/test_tenacity.py": 88,
+      "tests/test_tornado.py": 89,
+      "tests/test_utils.py": 90,
+      "tox.ini": 91
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1358656654,
+      "last_commit_ts": 1780464630,
+      "n_cochange_pairs": 106,
+      "n_commits_dropped_as_bulk": 18,
+      "n_commits_used": 468,
+      "n_files": 92
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "a49e9d6dd4e4611238dc277263d1975e1cada21e",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
