@@ -1,0 +1,6563 @@
+{
+  "chain_hash": "0f14baaefdabec79",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".coveragerc||.travis.yml": 2,
+      ".coveragerc||tox.ini": 2,
+      ".github/ISSUE_TEMPLATE.md||.github/ISSUE_TEMPLATE/Bug.md": 2,
+      ".github/workflows/main.yml||.github/workflows/pypi-package.yml": 3,
+      ".github/workflows/main.yml||.pre-commit-config.yaml": 2,
+      ".github/workflows/main.yml||CHANGELOG.rst": 6,
+      ".github/workflows/main.yml||pyproject.toml": 4,
+      ".github/workflows/main.yml||setup.cfg": 4,
+      ".github/workflows/main.yml||tox.ini": 9,
+      ".gitignore||README.md": 2,
+      ".gitignore||jwt/__init__.py": 2,
+      ".gitignore||setup.py": 2,
+      ".pre-commit-config.yaml||CHANGELOG.rst": 4,
+      ".pre-commit-config.yaml||jwt/algorithms.py": 2,
+      ".pre-commit-config.yaml||pyproject.toml": 3,
+      ".pre-commit-config.yaml||setup.cfg": 2,
+      ".pre-commit-config.yaml||tests/test_algorithms.py": 2,
+      ".pre-commit-config.yaml||tests/test_api_jws.py": 2,
+      ".pre-commit-config.yaml||tests/test_api_jwt.py": 2,
+      ".pre-commit-config.yaml||tox.ini": 3,
+      ".readthedocs.yaml||CHANGELOG.rst": 2,
+      ".readthedocs.yaml||tox.ini": 2,
+      ".travis.yml||CHANGELOG.md": 2,
+      ".travis.yml||jwt/__main__.py": 2,
+      ".travis.yml||setup.py": 8,
+      ".travis.yml||tests/contrib/test_algorithms.py": 2,
+      ".travis.yml||tox.ini": 10,
+      "AUTHORS||tests/test_api_jwt.py": 2,
+      "CHANGELOG.md||MANIFEST.in": 2,
+      "CHANGELOG.md||docs/usage.rst": 3,
+      "CHANGELOG.md||jwt/__init__.py": 15,
+      "CHANGELOG.md||jwt/algorithms.py": 2,
+      "CHANGELOG.md||jwt/api_jws.py": 3,
+      "CHANGELOG.md||jwt/api_jwt.py": 7,
+      "CHANGELOG.md||jwt/exceptions.py": 2,
+      "CHANGELOG.md||setup.py": 6,
+      "CHANGELOG.md||tests/test_api_jws.py": 3,
+      "CHANGELOG.md||tests/test_api_jwt.py": 7,
+      "CHANGELOG.md||tox.ini": 2,
+      "CHANGELOG.rst||docs/api.rst": 3,
+      "CHANGELOG.rst||docs/index.rst": 2,
+      "CHANGELOG.rst||docs/usage.rst": 5,
+      "CHANGELOG.rst||jwt/__init__.py": 17,
+      "CHANGELOG.rst||jwt/algorithms.py": 11,
+      "CHANGELOG.rst||jwt/api_jwk.py": 5,
+      "CHANGELOG.rst||jwt/api_jws.py": 10,
+      "CHANGELOG.rst||jwt/api_jwt.py": 18,
+      "CHANGELOG.rst||jwt/jwks_client.py": 6,
+      "CHANGELOG.rst||pyproject.toml": 6,
+      "CHANGELOG.rst||setup.cfg": 2,
+      "CHANGELOG.rst||tests/test_algorithms.py": 8,
+      "CHANGELOG.rst||tests/test_api_jwk.py": 3,
+      "CHANGELOG.rst||tests/test_api_jws.py": 8,
+      "CHANGELOG.rst||tests/test_api_jwt.py": 13,
+      "CHANGELOG.rst||tests/test_jwks_client.py": 4,
+      "CHANGELOG.rst||tox.ini": 5,
+      "MANIFEST.in||tox.ini": 2,
+      "README.md||jwt/__init__.py": 6,
+      "README.md||jwt/algorithms.py": 2,
+      "README.md||setup.py": 3,
+      "README.md||tests/test_jwt.py": 6,
+      "README.md||tox.ini": 2,
+      "README.rst||docs/index.rst": 8,
+      "README.rst||jwt/api_jws.py": 2,
+      "docs/api.rst||docs/usage.rst": 3,
+      "docs/api.rst||jwt/api_jws.py": 2,
+      "docs/api.rst||jwt/api_jwt.py": 3,
+      "docs/api.rst||tests/test_api_jws.py": 2,
+      "docs/api.rst||tests/test_api_jwt.py": 2,
+      "docs/conf.py||docs/index.rst": 2,
+      "docs/conf.py||pyproject.toml": 2,
+      "docs/index.rst||jwt/api_jws.py": 2,
+      "docs/usage.rst||jwt/algorithms.py": 2,
+      "docs/usage.rst||jwt/api_jwt.py": 5,
+      "docs/usage.rst||jwt/jwks_client.py": 2,
+      "docs/usage.rst||tests/test_api_jwt.py": 4,
+      "docs/usage.rst||tests/test_jwks_client.py": 2,
+      "docs/usage.rst||tox.ini": 2,
+      "jwt/__init__.py||jwt/__main__.py": 2,
+      "jwt/__init__.py||jwt/algorithms.py": 9,
+      "jwt/__init__.py||jwt/api.py": 5,
+      "jwt/__init__.py||jwt/api_jws.py": 6,
+      "jwt/__init__.py||jwt/api_jwt.py": 4,
+      "jwt/__init__.py||jwt/compat.py": 3,
+      "jwt/__init__.py||jwt/exceptions.py": 4,
+      "jwt/__init__.py||jwt/utils.py": 4,
+      "jwt/__init__.py||setup.py": 10,
+      "jwt/__init__.py||tests/test_api_jws.py": 2,
+      "jwt/__init__.py||tests/test_api_jwt.py": 5,
+      "jwt/__init__.py||tests/test_jwt.py": 27,
+      "jwt/__init__.py||tox.ini": 2,
+      "jwt/__main__.py||setup.cfg": 2,
+      "jwt/__main__.py||setup.py": 3,
+      "jwt/__main__.py||tests/test_cli.py": 4,
+      "jwt/algorithms.py||jwt/api.py": 4,
+      "jwt/algorithms.py||jwt/api_jws.py": 6,
+      "jwt/algorithms.py||jwt/api_jwt.py": 4,
+      "jwt/algorithms.py||jwt/contrib/algorithms/py_ed25519.py": 2,
+      "jwt/algorithms.py||jwt/exceptions.py": 5,
+      "jwt/algorithms.py||jwt/utils.py": 9,
+      "jwt/algorithms.py||pyproject.toml": 5,
+      "jwt/algorithms.py||setup.cfg": 2,
+      "jwt/algorithms.py||setup.py": 2,
+      "jwt/algorithms.py||tests/contrib/test_algorithms.py": 2,
+      "jwt/algorithms.py||tests/keys/__init__.py": 6,
+      "jwt/algorithms.py||tests/keys/testkey_ed25519.pub": 2,
+      "jwt/algorithms.py||tests/test_algorithms.py": 20,
+      "jwt/algorithms.py||tests/test_api_jws.py": 8,
+      "jwt/algorithms.py||tests/test_api_jwt.py": 4,
+      "jwt/algorithms.py||tests/test_jwt.py": 3,
+      "jwt/algorithms.py||tests/utils.py": 2,
+      "jwt/api.py||jwt/exceptions.py": 4,
+      "jwt/api.py||tests/test_algorithms.py": 2,
+      "jwt/api.py||tests/test_api_jwt.py": 16,
+      "jwt/api.py||tests/test_jwt.py": 2,
+      "jwt/api_jwk.py||tests/test_api_jwk.py": 8,
+      "jwt/api_jws.py||jwt/api_jwt.py": 31,
+      "jwt/api_jws.py||jwt/compat.py": 2,
+      "jwt/api_jws.py||jwt/utils.py": 3,
+      "jwt/api_jws.py||setup.cfg": 2,
+      "jwt/api_jws.py||tests/test_api_jws.py": 22,
+      "jwt/api_jws.py||tests/test_api_jwt.py": 9,
+      "jwt/api_jws.py||tox.ini": 3,
+      "jwt/api_jwt.py||jwt/compat.py": 2,
+      "jwt/api_jwt.py||jwt/exceptions.py": 2,
+      "jwt/api_jwt.py||jwt/utils.py": 2,
+      "jwt/api_jwt.py||setup.cfg": 2,
+      "jwt/api_jwt.py||tests/test_algorithms.py": 2,
+      "jwt/api_jwt.py||tests/test_api_jws.py": 11,
+      "jwt/api_jwt.py||tests/test_api_jwt.py": 29,
+      "jwt/api_jwt.py||tox.ini": 3,
+      "jwt/compat.py||tests/test_algorithms.py": 2,
+      "jwt/contrib/algorithms/py_ed25519.py||tests/contrib/test_algorithms.py": 2,
+      "jwt/contrib/algorithms/py_ed25519.py||tests/keys/testkey_ed25519.pub": 2,
+      "jwt/exceptions.py||tests/test_api_jwt.py": 5,
+      "jwt/help.py||setup.cfg": 2,
+      "jwt/jwk_set_cache.py||jwt/jwks_client.py": 2,
+      "jwt/jwks_client.py||tests/test_jwks_client.py": 9,
+      "jwt/utils.py||setup.py": 2,
+      "jwt/utils.py||tests/test_advisory.py": 2,
+      "jwt/utils.py||tests/test_algorithms.py": 2,
+      "jwt/utils.py||tests/test_api_jws.py": 2,
+      "jwt/utils.py||tests/test_utils.py": 2,
+      "pyproject.toml||setup.cfg": 3,
+      "pyproject.toml||tests/keys/__init__.py": 2,
+      "pyproject.toml||tests/test_algorithms.py": 2,
+      "pyproject.toml||tox.ini": 5,
+      "setup.cfg||setup.py": 5,
+      "setup.cfg||tests/test_algorithms.py": 2,
+      "setup.cfg||tox.ini": 11,
+      "setup.py||tests/test_jwt.py": 4,
+      "setup.py||tox.ini": 10,
+      "tests/contrib/test_algorithms.py||tests/keys/testkey_ed25519.pub": 2,
+      "tests/keys/__init__.py||tests/test_api_jws.py": 2,
+      "tests/keys/__init__.py||tests/utils.py": 2,
+      "tests/keys/testkey_ec.pub||tests/test_jwt.py": 2,
+      "tests/keys/testkey_ec||tests/keys/testkey_ec.pub": 2,
+      "tests/keys/testkey_ec||tests/test_jwt.py": 2,
+      "tests/keys/testkey_rsa.priv||tests/keys/testkey_rsa.pub": 2,
+      "tests/test_algorithms.py||tests/test_api_jws.py": 6,
+      "tests/test_algorithms.py||tests/test_api_jwt.py": 5,
+      "tests/test_api_jws.py||tests/test_api_jwt.py": 12,
+      "tests/test_api_jws.py||tests/test_utils.py": 2,
+      "tests/test_api_jws.py||tox.ini": 2,
+      "tests/test_api_jwt.py||tests/test_jwt.py": 2,
+      "tests/test_api_jwt.py||tests/utils.py": 2,
+      "tests/test_jwt.py||tox.ini": 4
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore",
+          "README.md",
+          "jwt/__init__.py",
+          "setup.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "ab8821fefa1c481ece410305d03a1f21c0b4a207",
+        "timestamp": 1298579300
+      },
+      {
+        "files": [
+          ".gitignore",
+          "README.md"
+        ],
+        "sha": "a570234d0e50e46f59c6f839ef4b868f53958ec9",
+        "timestamp": 1298580840
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "e1002dbb92cb45dfaa3c8b8f175d9dffb4bffd17",
+        "timestamp": 1299442020
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "setup.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "cd92a03a11f399243a7a4d03c03d1456df85f4ee",
+        "timestamp": 1300757523
+      },
+      {
+        "files": [
+          "fabfile.py"
+        ],
+        "sha": "82f57cd53de6f570043da4fb7a28de8904cc88ad",
+        "timestamp": 1300757984
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "ff0f660c53bc0741438de5affea1b3403bfd7443",
+        "timestamp": 1302029514
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "74531b9c56305a40c5bf80015d893c13be084d1e",
+        "timestamp": 1302029600
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/__main__.py",
+          "setup.py"
+        ],
+        "sha": "bdc87ec7b98edc25afa72b2e9871349e07246bd7",
+        "timestamp": 1302060810
+      },
+      {
+        "files": [
+          "jwt/__main__.py"
+        ],
+        "sha": "44b964fbc97d21ab1b430080987ee4f2545f6e24",
+        "timestamp": 1302061771
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "d390f0e170cf82ead0c9afd8208228ce93dfaefb",
+        "timestamp": 1303949230
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7cf088a85c1e6b80abd10377c3623862e260a3bb",
+        "timestamp": 1311587258
+      },
+      {
+        "files": [
+          "LICENSE"
+        ],
+        "sha": "ff037961799ff64c6d786a34bafbb457ef67f12c",
+        "timestamp": 1312839076
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "9926969dbea2bbf9853a73b35ab1b49347afbfc5",
+        "timestamp": 1323665040
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "e297b5d9c91743f68e333bac88e154d06406c908",
+        "timestamp": 1323679915
+      },
+      {
+        "files": [
+          "Makefile",
+          "fabfile.py"
+        ],
+        "sha": "391a7ef4606ac1023682ef50df1b332487e112e4",
+        "timestamp": 1351480263
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "589162038fa98ce75aa539b28b1f56654f49ae14",
+        "timestamp": 1351480501
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e635e546cd39b3f8ab514e0f8d37691ddfc17d48",
+        "timestamp": 1351480681
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "0e8dcb32ef115676cd7b6a2402a221fad4820553",
+        "timestamp": 1368651428
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c756ce163c8220986b2fd414a56c5ed5226657db",
+        "timestamp": 1368655055
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "ceffd9d44375d48b2e035b9dd839ee1f0d2c7bc3",
+        "timestamp": 1370507448
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "789116f54b64d5d819a19d1a1e8b08406f177acf",
+        "timestamp": 1370510300
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "b3c377a1a918ed39f663c699018e1ccb5d8b4ea2",
+        "timestamp": 1370859657
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "7f82403b7aeb3697b637ba684b8038a2c4e2d8f5",
+        "timestamp": 1371023627
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "35e2a6c4ed07fd8e7231dd31652688a9b8999387",
+        "timestamp": 1371130701
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "254125a7478e3fe4d7518d83b82d03399fd2eef3",
+        "timestamp": 1371197503
+      },
+      {
+        "files": [
+          "AUTHORS"
+        ],
+        "sha": "2cd3ee8353f6dc2018453068276d8932bd6b6eba",
+        "timestamp": 1371456298
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "159cfbebb1cfda5ebec694cab8ab0e8b6856af7f",
+        "timestamp": 1371722271
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "0171fb0fc950bf932d81afdea6dd70bf2db181b8",
+        "timestamp": 1374527789
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2b5dd54dabe599676f3fa5b4f4c90b59856e908f",
+        "timestamp": 1374845571
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "8ec3e0e1c69451f1e1371e6b7586c1a705c2b161",
+        "timestamp": 1381441105
+      },
+      {
+        "files": [
+          "AUTHORS",
+          "jwt/__init__.py"
+        ],
+        "sha": "6a842d5dca137aab0555b0bec0eaacb0e17c0bf8",
+        "timestamp": 1381442470
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "09183e2dd69484b42c893fec0e9f28c7b74d990f",
+        "timestamp": 1381443757
+      },
+      {
+        "files": [
+          "README.md",
+          "tests/test_jwt.py"
+        ],
+        "sha": "5b730846ab2cc90d6636516c0731844f5e751f04",
+        "timestamp": 1381476094
+      },
+      {
+        "files": [
+          "tests/keys/testkey_rsa.priv",
+          "tests/keys/testkey_rsa.pub"
+        ],
+        "sha": "ed40c85fb0f6db058130c4cffa393861410b0475",
+        "timestamp": 1381683572
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "setup.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "9872a811f33f7843411431f3e0e12b2cc56c7f2d",
+        "timestamp": 1383760339
+      },
+      {
+        "files": [
+          "setup.py",
+          "tests/__init__.py"
+        ],
+        "sha": "3bb76c110d4b43f713a5d4a63933b88ff67ac04d",
+        "timestamp": 1383821841
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "bf53ff71aa96df06fce55e198886aecebcea916d",
+        "timestamp": 1389994160
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "3ca7667884e6d31605a55385d1df9d14af64f60e",
+        "timestamp": 1389994217
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "84a0ba9793661f77fac3ec7b635fa10a4c2f41cb",
+        "timestamp": 1390066863
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "3d5ac645b1c1e08505c9cd1e07ef625533ee096f",
+        "timestamp": 1390068101
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "bfae3e9c9075db3ef95a41960e8c283dff4a32cc",
+        "timestamp": 1390068392
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "setup.py"
+        ],
+        "sha": "b87bad733d4b2eef81967f98602cfdbb0997fb72",
+        "timestamp": 1391760453
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "c7fb44820506c99df2d48a81660e501e9716e845",
+        "timestamp": 1391803117
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "91b4636ef426b9149aebacef3476660149e8eaaa",
+        "timestamp": 1391840308
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "10d2b370e7556cac99366f802ea345f669a5970e",
+        "timestamp": 1391840340
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8c9adc1805c4983c397bd31745507bc9cceeabce",
+        "timestamp": 1391840394
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d0e81060c62e9b5d6b5837641b35418c88a1c60f",
+        "timestamp": 1391841136
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "d98881d40f4fd71985eb8d5e7bf456167653ce5e",
+        "timestamp": 1391843164
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "e0128c0a2976229072f6dbaa89bce4544a989fc9",
+        "timestamp": 1391843388
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "581c660108d9eabe1c061620e6b795064b0b5b8d",
+        "timestamp": 1391843521
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "75e6b2bd6421f2015c96a77d4655d9b649434144",
+        "timestamp": 1392018562
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "525716585480c25563d5f18e3d9cf0088c44cf7c",
+        "timestamp": 1394669630
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "fbd3a2596174cb933f09e6e3e896aab252d347cf",
+        "timestamp": 1394737333
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "66daa8265eae5e7b0b1431024439578bb747b698",
+        "timestamp": 1394820141
+      },
+      {
+        "files": [
+          "jwt/__main__.py"
+        ],
+        "sha": "3fb19005e6cf85c7b4cc8cdcd892c42efb8e32ae",
+        "timestamp": 1395416119
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "257fd34acc393520fd01cfcf47bf628835ed9402",
+        "timestamp": 1395792130
+      },
+      {
+        "files": [
+          "README.md",
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "90beaa320b6ca0a4765ace46b1355d9b2ebadf77",
+        "timestamp": 1398326881
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "0ee3ee579bd2a008d3b3a137e776a25661f2365c",
+        "timestamp": 1398693804
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "e73045dbddbd5e1650520a8656efd20ff6dda8be",
+        "timestamp": 1398789224
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "d16518aeaf46c2f1c4a377c44241d7249a78f76f",
+        "timestamp": 1411268541
+      },
+      {
+        "files": [
+          "tests/keys/testkey_ec",
+          "tests/keys/testkey_ec.pub",
+          "tests/keys/testkey_rsa.priv",
+          "tests/keys/testkey_rsa.pub",
+          "tests/test_jwt.py"
+        ],
+        "sha": "6f8c237c453db4e807ec0edeb6ecd038be87119d",
+        "timestamp": 1411269842
+      },
+      {
+        "files": [
+          "tests/keys/testkey_ec",
+          "tests/keys/testkey_ec.pub",
+          "tests/test_jwt.py"
+        ],
+        "sha": "a51e8eb86c3d000f8714c64265782a57dc793d86",
+        "timestamp": 1411272252
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "cd9076c71d4d487641e38fd52b46c105bc942f39",
+        "timestamp": 1411273051
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "ffca6c1308d672ac1d590f61e1fcd7d1ba68b6f7",
+        "timestamp": 1411273828
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "bca54cdce4b7925c0a4d4540317f40640709123f",
+        "timestamp": 1411274313
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "79e31caa63ed60a7f86c1fb3c136024ff7aabf2b",
+        "timestamp": 1411281711
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "4c80f250b5819793a870c593d13992708ff08052",
+        "timestamp": 1411281878
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "593cdca1b53f109c09e4b12dde9ffd61453ee28c",
+        "timestamp": 1411439848
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a99f4015d1f11ddc18ac8da5f6604d5b31aa125e",
+        "timestamp": 1411439854
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "13a40f0dff4b30e5cd9254f17f080fae6f2a6661",
+        "timestamp": 1411441485
+      },
+      {
+        "files": [
+          "tests/test_jwt.py",
+          "tox.ini"
+        ],
+        "sha": "bd240e98b3de2edd41bf762453e4d94dc860ce28",
+        "timestamp": 1411446395
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "setup.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "e4ebd2e7b442f1e1805b8d030769136bb215db2c",
+        "timestamp": 1413431464
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "setup.py"
+        ],
+        "sha": "d626f7e034c5a19627ba7a65dacc25d1e21d6573",
+        "timestamp": 1413431619
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fa441faa01aca0af8363e5994cda9b1830a56d8e",
+        "timestamp": 1413432215
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "739efeff4c6c1fc30ab5cf5eb0ac337e8ee107d7",
+        "timestamp": 1413432245
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "46fd4521d26aa048d1926a5571f027e23bf44a1a",
+        "timestamp": 1413433848
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "57fdeeebf48af1068943bb15e98e7525c395e4e7",
+        "timestamp": 1413848658
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "80fee51ff9f530853b9c16a592a6343625eadfcc",
+        "timestamp": 1413062728
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "7484f890c8208292e6ff0e7958e589bceb5821e4",
+        "timestamp": 1413063589
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "191645e97cb93a4ec1b2c335b11cc08a9a128933",
+        "timestamp": 1413064909
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "afbeeb837d899fad2b156ab06a15e366e2732dbd",
+        "timestamp": 1413066343
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "8ea7895d3296eeba29465a7b4560a70bf8aeeca0",
+        "timestamp": 1413111002
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "ce270f8386895de396496da779d2e83922031a7c",
+        "timestamp": 1413667011
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "4a5f926bc88ba100645efa7ffd36c946e776a6a8",
+        "timestamp": 1413709583
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "88b194873ea86b79806d8f389bbe22613905de31",
+        "timestamp": 1413879660
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "b0900432d3d76f2ed7c642d7e612ba159248d03e",
+        "timestamp": 1413925667
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "19da9413e95ad56aee62d537e18062f312b4f303",
+        "timestamp": 1413944786
+      },
+      {
+        "files": [
+          "README.md",
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "23d1293c8fed2c2aeb90a5c322c4bc222b7a0517",
+        "timestamp": 1413955410
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "fc60927c2dc35bca29641c52a7ba1b1596f4d105",
+        "timestamp": 1413956234
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "16bb46723de0db4178c8b98f3a815dbf7e1479ed",
+        "timestamp": 1416503151
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "22353631e20cd4b12a6700d24a9fcc5d9679e4c5",
+        "timestamp": 1417011612
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "139a779427fb5ca64e940fc2ea33402a80884949",
+        "timestamp": 1417611863
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "842f0d13f1b4e49edbe1501c62523bfc1b47ca4d",
+        "timestamp": 1418508553
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "cd32cf25f07994a2b22b47a4d6c5b71137b252bd",
+        "timestamp": 1418509570
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "6a72a43fa62a6062df2f4e962ad081e1df303301",
+        "timestamp": 1418877969
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "14ef5d6d3dddcdc53d81e38625728cfc60503112",
+        "timestamp": 1418878001
+      },
+      {
+        "files": [
+          "tests/test_jwt.py",
+          "tox.ini"
+        ],
+        "sha": "65284444376ac827248fef4b1155326a4f3e9426",
+        "timestamp": 1418878229
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py",
+          "tox.ini"
+        ],
+        "sha": "524d9733ed5b963a0fe3b2efd0c0ddbf48ad744b",
+        "timestamp": 1418017147
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "a517b0caa690126647fbdbc29db626c57d37975f",
+        "timestamp": 1418946865
+      },
+      {
+        "files": [
+          "README.md",
+          "jwt/__init__.py",
+          "tests/test_jwt.py",
+          "tox.ini"
+        ],
+        "sha": "a25e168d37fa628dabf58319831ccc1805cd7eb5",
+        "timestamp": 1418947299
+      },
+      {
+        "files": [
+          "AUTHORS"
+        ],
+        "sha": "fad07adc046433c5bc851655d4f59b3527390747",
+        "timestamp": 1418954664
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "0d647eb77b1f7fc526d0b1b996956f1cae57e7c1",
+        "timestamp": 1419095886
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "10485f7cf7870a897a280f5d616b2026f17fa378",
+        "timestamp": 1419336599
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "6b9a4ae125b35bd32b201481f6e2390af2be9a74",
+        "timestamp": 1419426404
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "068979f5f203c82272fa51377b6f0c24bfa10ad9",
+        "timestamp": 1420037026
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "5853ea7a5062f2c43263c3eed34579916f185782",
+        "timestamp": 1420040675
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "1a38e31b4d4b2a266a2ea544ec10fe269c880b6f",
+        "timestamp": 1420040728
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "46ff05270c935b0864b0c99eb38680ee6d1f01b4",
+        "timestamp": 1420216642
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "1a849392a45c14d90929f9a42573e4f6ad2fdaaf",
+        "timestamp": 1420216890
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "7bff6c969a91959692fd5466c2f928593b5bb97d",
+        "timestamp": 1420217459
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "880e133f9427c2592a255c49f3408d7521c94fff",
+        "timestamp": 1420474244
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "c725a471ce65d9b5f1ac8f10f6624d3ab2208aef",
+        "timestamp": 1420483097
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "0338a46d057230a2eef0a894c09d3297b0df9d93",
+        "timestamp": 1420485306
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "51e95424a3ba26a4ea7a66e550ac3be267f4df39",
+        "timestamp": 1420484502
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "3def6342847a26842cb0a819357bb4425693ce79",
+        "timestamp": 1420547743
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "679123e8d6b60e720731aa6405c993b4e52a6de3",
+        "timestamp": 1420552750
+      },
+      {
+        "files": [
+          "AUTHORS"
+        ],
+        "sha": "f1ac67933c6775c0c0bbb3da9208bb8aea987db4",
+        "timestamp": 1420552889
+      },
+      {
+        "files": [
+          "AUTHORS"
+        ],
+        "sha": "37edf5a871a62def75ffac33f21d8d1603c14191",
+        "timestamp": 1420553065
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "6c50e5c88c24ae0e27791a64e9cdf845649bcd3d",
+        "timestamp": 1420483780
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "e3f0ce09619ef7598abc090aa2bda8273816487b",
+        "timestamp": 1420483835
+      },
+      {
+        "files": [
+          "README.md",
+          "jwt/__init__.py"
+        ],
+        "sha": "2221cb6c99f8300712c43430bf2dbb4be598f82f",
+        "timestamp": 1420550641
+      },
+      {
+        "files": [
+          "README.md",
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "4d28e6a7dded4b6cbb04f834bd082b43d0fb63ca",
+        "timestamp": 1420562752
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "183002ef46d3acc50e49932f72a9ab3b78603163",
+        "timestamp": 1420562865
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "0f6957a6f97d542690e8cf51c8f77c8cd40e058d",
+        "timestamp": 1420566193
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "2b122ea8bd99f7a162043c3d4b0e999e09569564",
+        "timestamp": 1420571410
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "00b72e33eb486d366f55bfbe6e10381bd7eb3f85",
+        "timestamp": 1420641586
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/compat.py"
+        ],
+        "sha": "da7be73ce09268105f9b587ac5c3c1fa1b37dd93",
+        "timestamp": 1420643555
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/compat.py"
+        ],
+        "sha": "9a3eeb3deb46a83243387a802126b432572c82cb",
+        "timestamp": 1420643963
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/compat.py"
+        ],
+        "sha": "863b52b7937d6e55e626dead4f9fb753a60c39da",
+        "timestamp": 1420732202
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "d65bf4a8e3190b05bc9900fe1f41853c15a59ecc",
+        "timestamp": 1420732512
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "016b0bf9349019ac90aa4c61c728660af003ea72",
+        "timestamp": 1420734128
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/__main__.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "5117033c85791e035fa16bcf244a37b42c3de36b",
+        "timestamp": 1421062477
+      },
+      {
+        "files": [
+          "jwt/__main__.py"
+        ],
+        "sha": "a0eab238ab4b99cf80cbc13587b5ac294de32a25",
+        "timestamp": 1421062898
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "e82666afc2ecd8496f59b72dd512a400f91b4060",
+        "timestamp": 1421595084
+      },
+      {
+        "files": [
+          "AUTHORS",
+          "LICENSE",
+          "README.md",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "0dbeb31540ce7815e74e31942d16ac6627b4e91d",
+        "timestamp": 1421595176
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "0afba10cf16834e154a59280de089c30de3d9a61",
+        "timestamp": 1421595345
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/algorithms.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "1da2d4a52d55d64f77d7c6d6b52cdba555dc0e0b",
+        "timestamp": 1420552828
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/algorithms.py",
+          "jwt/utils.py"
+        ],
+        "sha": "9b0f0f13d9c2f74d36d0c4304a024fa7652392be",
+        "timestamp": 1420553711
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/algorithms.py",
+          "jwt/utils.py",
+          "setup.py"
+        ],
+        "sha": "3958141e922e29e9c6342aded58e9707226b91a2",
+        "timestamp": 1420554026
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "db1d3563db4aa2eed916c4722d3345bf708b1ec2",
+        "timestamp": 1420554307
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "e49582f6d1bad64d3bf5260049aab4eb08a94e70",
+        "timestamp": 1420554578
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/algorithms.py",
+          "jwt/utils.py"
+        ],
+        "sha": "8e2adaefbf9e92e128ea034d6c5ab52dc1053047",
+        "timestamp": 1421598969
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/algorithms.py"
+        ],
+        "sha": "81a5932d006877033b5e1579b94cb8c87ca9b5ed",
+        "timestamp": 1421599631
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "f39d7eeda7dbd1aadcc44a364a717c2877b7db96",
+        "timestamp": 1421599785
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "eff1505b5df81540eb6c3c73b1d8c924fd1c2ca5",
+        "timestamp": 1421599999
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/algorithms.py"
+        ],
+        "sha": "6cd17161d28520257de4d8eaf8e742d0a683bd1f",
+        "timestamp": 1421602360
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/algorithms.py",
+          "jwt/api.py",
+          "jwt/exceptions.py"
+        ],
+        "sha": "5f255f94a6d8763cb7ae504348429f770f69be6e",
+        "timestamp": 1421604536
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "67ba93da4f05d51fe8a7476149a4f3b310d2531e",
+        "timestamp": 1421604543
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "2c9458f04099a0f06a0841e0c566a805a6e18b1c",
+        "timestamp": 1421724882
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fd54d94788fd8b05ab7542b0a560d4c8d83500c0",
+        "timestamp": 1421724918
+      },
+      {
+        "files": [
+          ".coveragerc",
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "5ed495cb181c86933a29ecc7ddbd6dab871e9b49",
+        "timestamp": 1421729980
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "971546674fdaef6ef8f63e371bb9e502209699b6",
+        "timestamp": 1421730479
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "12c8ca1cfdcb2acf1a22b000b8b9a8351b5e0de4",
+        "timestamp": 1422142054
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "725b5c3d6a7022cab4b6ec94a62b4beed9095f68",
+        "timestamp": 1422142490
+      },
+      {
+        "files": [
+          "jwt/api.py"
+        ],
+        "sha": "77b806f279f6d8cff38ead3014de044bb82c69df",
+        "timestamp": 1422144222
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "a0c5b62ecc92b31e10f76745e36f18aa3a204fe8",
+        "timestamp": 1422162714
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/api.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "eb4bb5346b60d4970687c8db3935f24510b3fa46",
+        "timestamp": 1422162899
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "559a097dba7f00f5a4c6660d6592b535ffa9f73f",
+        "timestamp": 1422189219
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "jwt/compat.py",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "78742f7bee089757839921d76604b6d24d6adc32",
+        "timestamp": 1422189736
+      },
+      {
+        "files": [
+          "tests/test_algorithms.py"
+        ],
+        "sha": "0f9f0da52494db42315b84205d8d9181e66068a7",
+        "timestamp": 1422189967
+      },
+      {
+        "files": [
+          "tests/test_compat.py"
+        ],
+        "sha": "1b21187bd79251583829e62c64b6936947c0f8bf",
+        "timestamp": 1422190196
+      },
+      {
+        "files": [
+          "tests/test_compat.py"
+        ],
+        "sha": "b6de2fdc4cfdf185751561ba0cd8bc2ee441a49e",
+        "timestamp": 1422190867
+      },
+      {
+        "files": [
+          "tests/test_compat.py"
+        ],
+        "sha": "fca6d7e3e282a8a198dd9f3ea4390b63b7286c8f",
+        "timestamp": 1422191684
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "3ae5eef7ecc55bcd5a815d0c8dfcc7bc157aaf6c",
+        "timestamp": 1422192319
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "c2f119b97b8e6ba189ad7860af95b866aecc9766",
+        "timestamp": 1422192686
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "abe42613d7dc9981c36f88c9110cadb90e2ab01a",
+        "timestamp": 1424285772
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "da411fa092600100d2098dbb267e3f731b0e378e",
+        "timestamp": 1424285807
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "451004ea60fb91ad658f770de66c90ca0cd228ab",
+        "timestamp": 1424286575
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "02d855ce0ca768f831738e4a7cc4734ce51f7e51",
+        "timestamp": 1424287395
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "50574189500996f677bb655cddb748c4f9087099",
+        "timestamp": 1424291142
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "d72c3d4821e93593031a2e188d43f503706c047e",
+        "timestamp": 1424291631
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "035057fd800c8739ba04544da417f512010c14b9",
+        "timestamp": 1426454070
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "57c2201e946268743556855dce61f08d2cedfa4a",
+        "timestamp": 1426454702
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "7f7e96a0d015dd679bfe4a1ddf052342864be64b",
+        "timestamp": 1426454784
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "2276ee3c86e9896667d6a23d675d06a6ec0e3b7c",
+        "timestamp": 1426463953
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "d9727ca98a9cad1f749f41fb2207b269b6ae5660",
+        "timestamp": 1426468805
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "35196656379369be467f23919702b174fa38034c",
+        "timestamp": 1426475945
+      },
+      {
+        "files": [
+          "tests/contrib/test_algorithms.py"
+        ],
+        "sha": "975fa0f96b356bca74b0cc6933b3cd987fa72417",
+        "timestamp": 1426477653
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/contrib/algorithms/py_ecdsa.py",
+          "jwt/contrib/algorithms/pycrypto.py"
+        ],
+        "sha": "7c4e96b3a56e7d8b8a4b05b086639c1e2ac25cca",
+        "timestamp": 1426598518
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/algorithms.py",
+          "jwt/api.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "4e024325715f1427f532b3376a2ffe28315a6ebc",
+        "timestamp": 1426459208
+      },
+      {
+        "files": [
+          "tests/test_api_jwt.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "d732c1dc4e831b49b2e6611bc2405b69e1beada2",
+        "timestamp": 1426459956
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "086d96f2a6d95307aec88f753bb603c03ab2c3c4",
+        "timestamp": 1426460679
+      },
+      {
+        "files": [
+          "tests/test_jwt.py"
+        ],
+        "sha": "1edd4aa3578564db852cf6ccf634f40f63b4fc11",
+        "timestamp": 1426461705
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "5dec6e2baf0d2b52caf1c9dde4f5c88625782aa9",
+        "timestamp": 1426466434
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "2f21e386cd4d32bf3528ab27f552c94740959b60",
+        "timestamp": 1426619888
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "a72cf6df7a35e32562cb02aa17369cdc913834c9",
+        "timestamp": 1426619995
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/exceptions.py"
+        ],
+        "sha": "6a84d73f5a48488d3daf554a69500c3f42bb464d",
+        "timestamp": 1426621624
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/exceptions.py"
+        ],
+        "sha": "fd3a489e975afe490442c6b12f089263557bd341",
+        "timestamp": 1426621731
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/exceptions.py"
+        ],
+        "sha": "3e59fe6c9e88d212180dfec61b36d58858af0367",
+        "timestamp": 1426622122
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "aa8860111afff817c2e8ca0e78c011e50195388f",
+        "timestamp": 1426623743
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "14c5f46391aa1fbaf07be4905998a70dcededa62",
+        "timestamp": 1426636052
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "tests/keys/testkey_rsa.cer",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "f6d0ff2778a4f3d2f57935e5f7ed0006fe219d4c",
+        "timestamp": 1426641703
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "838f82445a1274a7dbd5f57e9729cb4986b29eb8",
+        "timestamp": 1426642518
+      },
+      {
+        "files": [
+          "README.md",
+          "jwt/algorithms.py",
+          "jwt/api.py",
+          "jwt/exceptions.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "6e6156084de42893d5c883ae9b67536b44e7e47a",
+        "timestamp": 1426640231
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/api.py"
+        ],
+        "sha": "d4a0a2226ac038f1fece988e6058adee16a8b399",
+        "timestamp": 1426640626
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "cffa221cafbd1b9204beb59358d9e42bcf1bb572",
+        "timestamp": 1426677054
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "a507b5c9a0598e39bcba6229d3cda1db8718eccf",
+        "timestamp": 1426689479
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "201e4b18c2572ea40effc96b7c64c4e81a2525a1",
+        "timestamp": 1426690193
+      },
+      {
+        "files": [
+          "tests/test_algorithms.py"
+        ],
+        "sha": "ce65da1beb93aa2cee7cb6908e10566991641c0f",
+        "timestamp": 1426692807
+      },
+      {
+        "files": [
+          "README.md",
+          "jwt/algorithms.py"
+        ],
+        "sha": "8e69483435d61e6b04087878aa5d47a0314eaca0",
+        "timestamp": 1426696090
+      },
+      {
+        "files": [
+          "jwt/__main__.py"
+        ],
+        "sha": "bd57b024d014faea73e62c3d40f0608418e1f1b0",
+        "timestamp": 1426770634
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "882524d845349df532e2a96b30fbe7e74e6ff55c",
+        "timestamp": 1427404145
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "8f28b4a6124830fcea400668840e645bb91e38a2",
+        "timestamp": 1427404167
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "12a13fe6d9c90a5de9579269386ca077eeb25f1f",
+        "timestamp": 1427640175
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "50059281ef0451dc70f2a191d4db563868be5a5d",
+        "timestamp": 1427640658
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "84582f45b30cdfa659309ac2fcf90f7341befbad",
+        "timestamp": 1427640862
+      },
+      {
+        "files": [
+          "jwt/api.py"
+        ],
+        "sha": "a5a91d5cd0f5c2601ad90354d3e3d319a86f01a4",
+        "timestamp": 1427640915
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "a6d9445c341c6819e140aaf450f1c9d66053b0c3",
+        "timestamp": 1427643665
+      },
+      {
+        "files": [
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "7fc26bc6ba83c2e584aa86162c6e55c547b7e609",
+        "timestamp": 1427656997
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "39c4e578fd170d7100aa2699c7d407ea14a9fe14",
+        "timestamp": 1427657334
+      },
+      {
+        "files": [
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "df93c4e35011efad9520f2290c4b33dbac675aed",
+        "timestamp": 1427657329
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "51edd9f4704c22b9ebf00a79ffa151ec311fa227",
+        "timestamp": 1427657876
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "624cef3b7ab323b77b265d1217d55ecfff893c25",
+        "timestamp": 1427658247
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/api.py",
+          "jwt/exceptions.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "83d07fc98743a47ee411ce48805ddaf053672925",
+        "timestamp": 1427661378
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "jwt/exceptions.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "49db1ad0c97f4d90554af52b175abf03e255f572",
+        "timestamp": 1427661660
+      },
+      {
+        "files": [
+          "jwt/__main__.py"
+        ],
+        "sha": "7d15be7fa28324ad7ac34390c3d724fa2e728385",
+        "timestamp": 1427976707
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "3ada770fc3247d61bc2d2a50e35c1cb18c7abb2b",
+        "timestamp": 1428369277
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "b08a82705735358869f42cf1c8f7169f96349253",
+        "timestamp": 1428380692
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "143feeded35dc3f119ff480a0550dacd36d30596",
+        "timestamp": 1428416946
+      },
+      {
+        "files": [
+          "AUTHORS",
+          "jwt/api.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "e62df133556398b0845f60bd76a3afde57208291",
+        "timestamp": 1428520261
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "13d242026b1c204b692289c73bb906a532521b15",
+        "timestamp": 1428530683
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "0ab287bddacd78537a8105263a8b48fbee8c789a",
+        "timestamp": 1428531591
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "6e6046cd9f5b0a5b48e37f3a5eb7bfb7efaad958",
+        "timestamp": 1428536765
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "tests/test_algorithms.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "68d1f89a957549bfca76af293815fb2c55d59d53",
+        "timestamp": 1428550405
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "README.md"
+        ],
+        "sha": "77e69ff6e06b3c7fa0e273f25607f3d00285a84b",
+        "timestamp": 1428707427
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "951dddfbcd840c51b8b4a64af68b7b6553a3c72c",
+        "timestamp": 1428708394
+      },
+      {
+        "files": [
+          "jwt/api.py"
+        ],
+        "sha": "67de95326a8599d105e5c0b2b5b7a6aaa42c0161",
+        "timestamp": 1428853652
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "jwt/utils.py"
+        ],
+        "sha": "a39b62eacc404f78094a5dfdf3b2e7113eea2f11",
+        "timestamp": 1428863231
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/api.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "8eb3537d0c627b2ee09d56f63baec78ee78130d0",
+        "timestamp": 1428853853
+      },
+      {
+        "files": [
+          "jwt/api.py",
+          "tests/test_algorithms.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "90577f7cef93c4d9e8b6168212f29129fa2b3f71",
+        "timestamp": 1428551420
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "49af6d01e9ddf1a2780184d2bae6e2ed875d780e",
+        "timestamp": 1428976190
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "cf8672dacc78535ca470a9c8fac235b39d2bd3af",
+        "timestamp": 1428891437
+      },
+      {
+        "files": [
+          "tests/contrib/test_algorithms.py",
+          "tests/test_algorithms.py",
+          "tests/test_api_jwt.py",
+          "tests/test_compat.py",
+          "tests/test_jwt.py"
+        ],
+        "sha": "6315f8694348ef64560eaf6f878247ae5b6cdc08",
+        "timestamp": 1428895078
+      },
+      {
+        "files": [
+          "tests/test_algorithms.py",
+          "tests/test_api_jwt.py",
+          "tests/utils.py"
+        ],
+        "sha": "03b7356e1a6eec42aa28ff3c1fa40a56aaa3603d",
+        "timestamp": 1428895600
+      },
+      {
+        "files": [
+          ".coveragerc",
+          "setup.py"
+        ],
+        "sha": "5b517f525a8ea0fd5b86425ee234fdc7108eb5ab",
+        "timestamp": 1428897784
+      },
+      {
+        "files": [
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "e3cba6c94774378de05b231be6dbebc76e476f28",
+        "timestamp": 1429029749
+      },
+      {
+        "files": [
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "4d7240ed601e65c6ac65f455bc93977a90b288c9",
+        "timestamp": 1429029824
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "5322ce677b90b59007a160c2de79e8009fd6e582",
+        "timestamp": 1429130368
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "9036e7346f3daf4360015c41a8bdf25160767881",
+        "timestamp": 1429131087
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "28fc115b37f042475c920527d7cb6b9e0599ccb5",
+        "timestamp": 1429131102
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "490dfd646bea97bcc7b9832e6ddf16c55260958d",
+        "timestamp": 1429131235
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "3ac45aad3fc07cce130d34467e4a994009a8e5b6",
+        "timestamp": 1429204769
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "36952a6e2f1be1f69f4fcb3e600d0a966f764ef9",
+        "timestamp": 1429415382
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/api.py",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "a3f2ec37f8660e3c445635ed417ae1100753309d",
+        "timestamp": 1429449127
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py"
+        ],
+        "sha": "ddbaf0008eac6559da5ebd1f24f68ee99ccb34b0",
+        "timestamp": 1429450326
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/api_jws.py"
+        ],
+        "sha": "67cf75a63ff79df653a125330c19d13443344ace",
+        "timestamp": 1429450650
+      },
+      {
+        "files": [
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "59ed36750cd6325d5ec32d5d18b1b5533b20b93e",
+        "timestamp": 1429453971
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "590f903ac78faaed348d4d5c5179964b345e41cb",
+        "timestamp": 1430074931
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "6095fa9dd8e6e5eafdc5262279307c3ca7698941",
+        "timestamp": 1430075179
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "aa83daabd16b8c44b46c8a4045b66ce5d9d925d1",
+        "timestamp": 1430230556
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "3554eddb975d01b2efebb065307ef123518fd403",
+        "timestamp": 1430232140
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py"
+        ],
+        "sha": "a125433bff60c4642d267fedbc676e500272c6ae",
+        "timestamp": 1430237244
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py"
+        ],
+        "sha": "8d042c4919b952c41c196735369526644ba11fdf",
+        "timestamp": 1430785761
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "6c9cada81758cc985a5e4b3d6e1bcadc3852a9a8",
+        "timestamp": 1431006223
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "acb26350a52ef4257ebffbab529d12c9c825bdf4",
+        "timestamp": 1431093156
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "4f899c6764d57000eba0fc40721f9e1b5d94a77a",
+        "timestamp": 1431177207
+      },
+      {
+        "files": [
+          "jwt/contrib/algorithms/py_ecdsa.py",
+          "tests/contrib/test_algorithms.py"
+        ],
+        "sha": "b8771db171187a83a69257221cd441e013e1041a",
+        "timestamp": 1431286171
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "922940ea83bd946c9831b908e507c8b02718fca1",
+        "timestamp": 1431483702
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/utils.py",
+          "tests/test_algorithms.py",
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "01b7fb0e65c8a6de5c67c1b0c9df0a4c27805ba8",
+        "timestamp": 1431497756
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/utils.py"
+        ],
+        "sha": "528318787eff3df062f2b55a5f79964aece74f18",
+        "timestamp": 1431498369
+      },
+      {
+        "files": [
+          "tests/test_algorithms.py"
+        ],
+        "sha": "3c479e21b4cb25ffce925cb554a7468fc9cc409f",
+        "timestamp": 1431725054
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "CHANGELOG.md",
+          "setup.py"
+        ],
+        "sha": "d77a662f883c3ed62160048d76c3713687281676",
+        "timestamp": 1431792158
+      },
+      {
+        "files": [
+          "jwt/compat.py"
+        ],
+        "sha": "86cfb674bfed531c52fa9249a52b492abf2a9756",
+        "timestamp": 1431792862
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "jwt/__main__.py",
+          "setup.cfg",
+          "setup.py",
+          "tests/contrib/test_algorithms.py",
+          "tox.ini"
+        ],
+        "sha": "c3e82547980d2f70440b1e198670f7ac1605418a",
+        "timestamp": 1430061086
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "8b9edf3fcc4ec1b1cfc305dab36e4daeca2213f9",
+        "timestamp": 1430239677
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tests/contrib/test_algorithms.py"
+        ],
+        "sha": "2561ab60a3c9fd4bf5df6a5687e60bf47ee56160",
+        "timestamp": 1430803695
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "31401992082a227a8b81c9e4b8306e2fd94ef7a3",
+        "timestamp": 1430839786
+      },
+      {
+        "files": [
+          ".coveragerc"
+        ],
+        "sha": "bf03705cb2e278f3e03a379dc1d021567be4ffa8",
+        "timestamp": 1431176252
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "af9e4bae255a9e21dcd28b544624b0c4552c2b76",
+        "timestamp": 1431483914
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "235aa8231f5f90eb6c86fae82d53f2cbaebd711d",
+        "timestamp": 1431792611
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4797f7f10ae78b4a9a2f04023ce45bfa73505735",
+        "timestamp": 1431951571
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "7c870a80767b35d81d5774ba27830e8628e1d8a6",
+        "timestamp": 1432008804
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "2692362576ae96bae24e6d9fee8301aaebd1eb25",
+        "timestamp": 1432009755
+      },
+      {
+        "files": [
+          "tests/test_algorithms.py"
+        ],
+        "sha": "d1f6de2c4ba67914ad6b50d570c1bc4956660b59",
+        "timestamp": 1432092486
+      },
+      {
+        "files": [
+          "tests/test_algorithms.py"
+        ],
+        "sha": "37077e498460af0bd334f4db7fabcfb822f5bdae",
+        "timestamp": 1432092570
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "2f5e9237f51e1e08a2e28e34bd64116d02921481",
+        "timestamp": 1432092727
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "c990c44486b9c5e699f85272864c8129019652d3",
+        "timestamp": 1432092813
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py"
+        ],
+        "sha": "c9226bd4b427ea4a7391ee823702e219e19ceeee",
+        "timestamp": 1432308224
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "beb6dd9b7b2fe24cafdd176c72166500af16341c",
+        "timestamp": 1432642292
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "MANIFEST.in"
+        ],
+        "sha": "fe1ee727f7233737f97821aaf76e580836e9e906",
+        "timestamp": 1432995836
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "00cdb892082ba6a9dced6f5a17f910fbece3242e",
+        "timestamp": 1432996591
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "32a577fc799010c54415bc5884b58a0f9ebf26a8",
+        "timestamp": 1432996658
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py",
+          "jwt/api_jwt.py",
+          "jwt/exceptions.py",
+          "tests/test_api_jwt.py",
+          "tests/test_exceptions.py"
+        ],
+        "sha": "12791c7875dda323835b8e0b9c687d17ba0e641b",
+        "timestamp": 1433294293
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "5765b66ff3e5a0a947601bc6216cc8c52bfde86e",
+        "timestamp": 1433676219
+      },
+      {
+        "files": [
+          "jwt/api_jws.py"
+        ],
+        "sha": "3df27db421fbd8c54741a54772853378895b773d",
+        "timestamp": 1434952664
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "2e7f582978d6bc178e4c4fbdc365dbfda474a719",
+        "timestamp": 1434972700
+      },
+      {
+        "files": [
+          "tests/test_api_jws.py"
+        ],
+        "sha": "85c13a786fb9fd48e8d5da4dc700e4cc2ece6136",
+        "timestamp": 1435006067
+      },
+      {
+        "files": [
+          "tests/test_api_jws.py"
+        ],
+        "sha": "4fd7076e3b48fa694def7df2e4623c49dd8bffa7",
+        "timestamp": 1435007882
+      },
+      {
+        "files": [
+          "tests/test_api_jws.py"
+        ],
+        "sha": "d98520007878c1e3a08ee9f94c3fa6ceb02ab667",
+        "timestamp": 1435039240
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py"
+        ],
+        "sha": "96c029a89f6311305ff93104db49c3c377072e1d",
+        "timestamp": 1437096564
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "91fe6cd68978620845e8c56f17348d0d8e042246",
+        "timestamp": 1437513589
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "2a93fc591805af3608de3330a3fd32bf5d4e9380",
+        "timestamp": 1437655849
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "8f2601050339b0efcba1d7b44f646bc520e8b700",
+        "timestamp": 1444416137
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "acc30b90666f2edb891a674bbb1727114776421a",
+        "timestamp": 1444416536
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "b8cc504ee09b4f6b2ba83a3db95206b305fe136c",
+        "timestamp": 1444222081
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "139dd05d1589ddcb4f8c9bd1b16b743ee4fcd2f6",
+        "timestamp": 1445545329
+      },
+      {
+        "files": [
+          "jwt/api_jws.py"
+        ],
+        "sha": "9f39f38a34569541691bf1b068fc8b3717f13d64",
+        "timestamp": 1445550361
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/compat.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "3a50a425822fa3663643a98c6f6692f5acd8194a",
+        "timestamp": 1445614523
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "f69a4c0c594ff1460bd469b76031937a328dab42",
+        "timestamp": 1445643922
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "756a12d736216097ef3e9d298a19a6b5de730c46",
+        "timestamp": 1445882305
+      },
+      {
+        "files": [
+          "docs/installation.rst"
+        ],
+        "sha": "e71e4f3280f477d102cca934b342dd6ffd07b9bc",
+        "timestamp": 1447240753
+      },
+      {
+        "files": [
+          "jwt/__main__.py"
+        ],
+        "sha": "53d4cfcc53b2fa99c75a9aba829f7b0930353671",
+        "timestamp": 1448926436
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2eddb1517973905ef9514889718f991cf593bb73",
+        "timestamp": 1454501855
+      },
+      {
+        "files": [
+          "tests/test_algorithms.py"
+        ],
+        "sha": "7c8c5c62cacd9f24a7be23c4f6120868c8ded109",
+        "timestamp": 1462510142
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "d02eaad527a2b00d184eebb2d720447fdbdbb033",
+        "timestamp": 1462511131
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "daf79c1d2143d969e4ba19ec0692cfac773fa6be",
+        "timestamp": 1468408944
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/compat.py",
+          "setup.cfg",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "2fe85a338028162b80b7a7f7436397457a10fa70",
+        "timestamp": 1470326199
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "48be19ac2d93fe51974a2424f5219b90a47e9e6a",
+        "timestamp": 1470451583
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py"
+        ],
+        "sha": "b35d522135044ba10ac41e7db5b95348cb4c4707",
+        "timestamp": 1470685343
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "009136eb12ac078e15a162354cb8706544147634",
+        "timestamp": 1473870224
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "256a03e5086049ee63d436fd0b07837e1a6c0f18",
+        "timestamp": 1474502239
+      },
+      {
+        "files": [
+          "docs/algorithms.rst"
+        ],
+        "sha": "3bad492698298eb05331cddfd6aa47b87cae7631",
+        "timestamp": 1474502345
+      },
+      {
+        "files": [
+          "tests/test_api_jws.py"
+        ],
+        "sha": "ebd2fb9a3ff91daf272cac13a7b3456a6b40d26f",
+        "timestamp": 1474502402
+      },
+      {
+        "files": [
+          "tests/test_api_jws.py"
+        ],
+        "sha": "89f9a9d2940d86868e9600a9e1a4c7bb342d326e",
+        "timestamp": 1474898099
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "fe621188a58efc82c37f913fbc120419df523874",
+        "timestamp": 1475159234
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "8b2a83d41c8bf747a9708a7565614642c7b7feb0",
+        "timestamp": 1477332406
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__main__.py",
+          "setup.py"
+        ],
+        "sha": "5c5fab1282c21a4a37dfebae54b2d4bc1ea7f037",
+        "timestamp": 1445644739
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "README.md",
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "c5ea68827f5dc5564bde6c087c938189cbbf1f8a",
+        "timestamp": 1475159425
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/api_jws.py"
+        ],
+        "sha": "62c0897f8965112de5513288183e1aa21238f2ed",
+        "timestamp": 1480351504
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "2fec85102ed8b149cbb3705305509db55d95b351",
+        "timestamp": 1480352815
+      },
+      {
+        "files": [
+          "jwt/__main__.py",
+          "jwt/algorithms.py",
+          "jwt/api_jws.py",
+          "tests/keys/__init__.py",
+          "tests/utils.py"
+        ],
+        "sha": "31494c95cb9c1342d3b1e02feac41a83667dc4cd",
+        "timestamp": 1480354531
+      },
+      {
+        "files": [
+          "tests/test_api_jws.py"
+        ],
+        "sha": "8520c8f0e0c9ea13df785e8143ee193f088c008a",
+        "timestamp": 1480356032
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/api_jws.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "0550fa347ed29e2ffcd8f26a3adcf0ddcae6fdc3",
+        "timestamp": 1480523626
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "2a09da2c6c66890bd5c43fdf52da5684e0bf1029",
+        "timestamp": 1480524208
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "439f9a33389193ceacfe188127cae6f0b61d7f73",
+        "timestamp": 1480549227
+      },
+      {
+        "files": [
+          "jwt/utils.py",
+          "setup.py"
+        ],
+        "sha": "aaf2ac3e0cb6f9180f1357526e37e94d22ce0dec",
+        "timestamp": 1481976527
+      },
+      {
+        "files": [
+          "tests/keys/testkey_ec_ssh.pub",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "299d196383836e1f804ef4441365a94862e08abe",
+        "timestamp": 1489494072
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/algorithms.py"
+        ],
+        "sha": "1710c1524c69c39dfece7a24b87179be5eeff217",
+        "timestamp": 1489494837
+      },
+      {
+        "files": [
+          "docs/faq.rst"
+        ],
+        "sha": "3cb92d5b1a2a8f19203c1161f1989ba86262fddb",
+        "timestamp": 1490721473
+      },
+      {
+        "files": [
+          "docs/faq.rst"
+        ],
+        "sha": "06ca56a299eb0fde56cbe6bf0f4bae18f6b4f4c1",
+        "timestamp": 1490734604
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/usage.rst",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "8f3a2a8a4098693357b69d63a1dbec514ed7c701",
+        "timestamp": 1492435347
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/usage.rst",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "3447f0c0eb7de46042b5cda975d37e361168bf60",
+        "timestamp": 1492435539
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "496c511fb72e84ee185f8c2c986e2b68953158ff",
+        "timestamp": 1492444194
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py"
+        ],
+        "sha": "6b5c9c12932791669a7ee4eb4a595ee00825e52e",
+        "timestamp": 1492446968
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "5f317c35ea7f863cbbff294235c12af739c8bae1",
+        "timestamp": 1492609619
+      },
+      {
+        "files": [
+          "docs/requirements-docs.txt"
+        ],
+        "sha": "fb7057850feb7edc9b2d0815d0afba7854dc4af3",
+        "timestamp": 1494090501
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "a9c80c9b33bd382ecb40c631c5bc4819ffe4c633",
+        "timestamp": 1494090592
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "b737646fb49590c0fd019611b6418ead48e6a1ca",
+        "timestamp": 1494701018
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "9670e3cf6d6d40c968e9c57c48acf22c216da03a",
+        "timestamp": 1495136898
+      },
+      {
+        "files": [
+          ".coveragerc",
+          ".travis.yml",
+          "jwt/__main__.py",
+          "tests/test_cli.py"
+        ],
+        "sha": "328b3d8566fdf18da7c6d9a92e7d6e86d057f6f8",
+        "timestamp": 1495164576
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "ea1f87bea3ef906b52380547df15a0c47b6f8812",
+        "timestamp": 1495165046
+      },
+      {
+        "files": [
+          "docs/algorithms.rst"
+        ],
+        "sha": "6f192888c5331aa826456d2399995a2dd0235e74",
+        "timestamp": 1496064750
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "639fa015a9db230b165539cbee77ccc091495d0d",
+        "timestamp": 1497276704
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "e4c67b1abf5acf2a5079fc735ec54a5b78556e4a",
+        "timestamp": 1498075524
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "tests/keys/testkey_pkcs1.pub.pem",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "37926ea0dd207db070b45473438853447e4c1392",
+        "timestamp": 1498074581
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "11f30c4050a11b6398d38f505578c9dabeba6c78",
+        "timestamp": 1498075475
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "eb3f58103831630f499e331de6e6938c84945a79",
+        "timestamp": 1498138012
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "8bd4f6ed67f9fd92cd5d5775a1bc2ce253b5430f",
+        "timestamp": 1498143306
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "bc966214de9852258dd00dd2efc01ce6c9a22ac6",
+        "timestamp": 1498143403
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py"
+        ],
+        "sha": "7c1e61dde27bafe16e7d1bb6e35199e778962742",
+        "timestamp": 1498148976
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py"
+        ],
+        "sha": "74399b1856573d8545b8dbbcac0db29a5656979d",
+        "timestamp": 1498149064
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "ffa8458d709a538c4e088e6ada77153ab8294800",
+        "timestamp": 1501106146
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "5fbc48424e603bfbf70938f581271e47ea02738d",
+        "timestamp": 1501106572
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/algorithms.py",
+          "setup.py"
+        ],
+        "sha": "3def8d80eb3936dbcead07e86b6aee96ba07bfe9",
+        "timestamp": 1501883007
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "608ed4a948e305cd1953ce93ab42094a046c0372",
+        "timestamp": 1503919534
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py"
+        ],
+        "sha": "2f762817bb5647678982bc10cfce0f61b40c9cc0",
+        "timestamp": 1504635363
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "72bb76cb343bb6d0f40fcd0d136898b8ba08c323",
+        "timestamp": 1504635631
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4fdca6e642edce57ef1cb094eacfa162c526a7d7",
+        "timestamp": 1508335838
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "45d1b4b196ce23009480c32efff0fff4c2a7b2ca",
+        "timestamp": 1508335908
+      },
+      {
+        "files": [
+          "docs/_static/theme_overrides.css",
+          "docs/conf.py",
+          "docs/index.rst"
+        ],
+        "sha": "b273633d7c19088a5c45a3a1eb6eab52240bff5b",
+        "timestamp": 1508337880
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/installation.rst"
+        ],
+        "sha": "f67d112db34670064020871b74ab7186f9f30cc6",
+        "timestamp": 1508337919
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "CHANGELOG.md",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "dad9a4c6ed3b23a6635356db3ed99070c1b4e7b3",
+        "timestamp": 1508433452
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py",
+          "jwt/compat.py"
+        ],
+        "sha": "e1e4d02c5d9499bcd59403fff2ad73d67cdc8af4",
+        "timestamp": 1508434462
+      },
+      {
+        "files": [
+          ".gitignore",
+          "jwt/__main__.py",
+          "tests/test_cli.py"
+        ],
+        "sha": "c1253ec82f88bc810884735d68c60f1f6cbd4c1e",
+        "timestamp": 1509926714
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "e0aa10ee586bf010ce9a99c5582ee8dc9293ba1e",
+        "timestamp": 1511883397
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/api.rst",
+          "jwt/api_jws.py",
+          "jwt/exceptions.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "0c80a7119a1a82e7023ab3b0c766311de5821707",
+        "timestamp": 1512155469
+      },
+      {
+        "files": [
+          "docs/algorithms.rst"
+        ],
+        "sha": "a1205186d7a4f9689b6b2efcd93bae89324a5841",
+        "timestamp": 1516075534
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "a22ba4bd7a13f3a1423ea63f008b43ffafcccdf8",
+        "timestamp": 1516721065
+      },
+      {
+        "files": [
+          "CODE_OF_CONDUCT.md"
+        ],
+        "sha": "67c035b3918685b4f9d27ecaa3b1cafe333d14f9",
+        "timestamp": 1520094281
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "b949c23d60d979b1dedda0a5d4b715b6c8484a52",
+        "timestamp": 1520095582
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "7ae1dee63dab887d39ea4ca3365e81392a1c2396",
+        "timestamp": 1520095908
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "22b94859d78c8fd7ec639074cb171558ee57867f",
+        "timestamp": 1520341475
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "9d980786c9080ad99ae221ea5b77397434c3c50c",
+        "timestamp": 1520341539
+      },
+      {
+        "files": [
+          "AUTHORS",
+          "CHANGELOG.md",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "02374f4203c7ee0e11fdd32c61cb067b63cd0cff",
+        "timestamp": 1521127793
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py"
+        ],
+        "sha": "285afade1d14eb810615c5bc751ea2c6a7a3314a",
+        "timestamp": 1521380243
+      },
+      {
+        "files": [
+          "docs/installation.rst"
+        ],
+        "sha": "54a39aec6a0289ad0fa920dff214753cab9339b9",
+        "timestamp": 1521771114
+      },
+      {
+        "files": [
+          "jwt/__init__.py",
+          "jwt/exceptions.py"
+        ],
+        "sha": "ee2ab9fbd78f884629833feedffdc69a9d580b89",
+        "timestamp": 1522337238
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tox.ini"
+        ],
+        "sha": "aed7305680b0ca6cf9846cd755b420f4dfccee22",
+        "timestamp": 1523230297
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "c4a4fb6a99fedb209647c92ade310f214ec4ad4e",
+        "timestamp": 1526732958
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "69870e848ac92ff11144cab30517818d81a6f146",
+        "timestamp": 1526733865
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "7187336b03b0262541f337f9b4c3748a9d332745",
+        "timestamp": 1526737641
+      },
+      {
+        "files": [
+          "jwt/help.py"
+        ],
+        "sha": "7ca41e53b3d7d9f5cd31bdd8a2b832d192006239",
+        "timestamp": 1526737653
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE.md",
+          ".github/ISSUE_TEMPLATE/Bug.md",
+          ".github/ISSUE_TEMPLATE/Custom.md",
+          ".github/ISSUE_TEMPLATE/Feature.md"
+        ],
+        "sha": "55dbcb4caa7a5d64046e062c224faebebd4f17c9",
+        "timestamp": 1526737720
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "821ab4af300597236998497893120f90ede15f46",
+        "timestamp": 1526748778
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE.md",
+          ".github/ISSUE_TEMPLATE/Bug.md",
+          "CHANGELOG.md",
+          "jwt/__init__.py"
+        ],
+        "sha": "070015d79ed5277c6d76fa8f996fb9698257afe4",
+        "timestamp": 1526749994
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "dd753dedb000b8ad08c264aacfc613fced8d1c18",
+        "timestamp": 1526750316
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "d25c92ca5e9980ca7bc8b31420bf36e3f4a9e3f0",
+        "timestamp": 1527129954
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "86be38f4f8526ed6a1e7f9fb35ce0ebfbb9d1124",
+        "timestamp": 1530099840
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "fa857044e49d10f22dc042704b27abf0c00bda50",
+        "timestamp": 1532007241
+      },
+      {
+        "files": [
+          "jwt/__main__.py"
+        ],
+        "sha": "6845515ed8490045aa175580304bf8ebeec805ff",
+        "timestamp": 1532008344
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "d3ffeab58990021e0187a5ed07532945bdbb8d75",
+        "timestamp": 1534287850
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "f1f21a7b9d4bc5cce829679a08bb18780da64191",
+        "timestamp": 1541103901
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e7af85b41c6d9dd8f632e6bb6310a14de3aa73b6",
+        "timestamp": 1541156463
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "b616107dab3d977771cf3568eff6be5150f69037",
+        "timestamp": 1541156533
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "72fb76e46152aa5ed92c87143809ddd677c4f12d",
+        "timestamp": 1541156719
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/api_jwt.py",
+          "tox.ini"
+        ],
+        "sha": "2122f94432d160a23e79a4771c05d71132dc6db9",
+        "timestamp": 1541157858
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "jwt/compat.py"
+        ],
+        "sha": "30d4c5a7f91e2425211b51c479f2f1e7a37f98b9",
+        "timestamp": 1543159706
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py"
+        ],
+        "sha": "3f735fdf68cc865a6241aae1fcf92a410c73fbdb",
+        "timestamp": 1543720947
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "jwt/__init__.py",
+          "setup.py",
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "b65e1ac6dc4d11801f3642eaab34ae6a54162c18",
+        "timestamp": 1544099547
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py"
+        ],
+        "sha": "ed28e495f937f50165a252fd5696a82942cd83a7",
+        "timestamp": 1548946813
+      },
+      {
+        "files": [
+          "tests/test_cli.py"
+        ],
+        "sha": "5a9c34f2ebd55fce52a19e57974df86ac5a5f8c2",
+        "timestamp": 1557019687
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "2f31a58405130bb897225ddbb17f64087fb81e70",
+        "timestamp": 1557020564
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "2c8bfe502a5fc3803e6334c4914016bfa805f181",
+        "timestamp": 1557021524
+      },
+      {
+        "files": [
+          "docs/installation.rst"
+        ],
+        "sha": "3d47b0ea9e5d489f9c90ee6dde9e3d9d69244e3a",
+        "timestamp": 1560345873
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "1b979a42dcd57588fa1d7c169b6627f1f0cd3e1b",
+        "timestamp": 1569702402
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "CODE_OF_CONDUCT.md",
+          "jwt/__init__.py",
+          "setup.py"
+        ],
+        "sha": "6834f9e3b260814081bbe472498c45267f6711bc",
+        "timestamp": 1569702618
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "12eaf0057e431e77ddba34715d138986e7039030",
+        "timestamp": 1569702724
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "1256a68de68464b3ae606f0ec2c03601ab1ea25c",
+        "timestamp": 1569702753
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "3a20892442b34c754b26550e05f7f856fb008c94",
+        "timestamp": 1570403374
+      },
+      {
+        "files": [
+          "jwt/help.py"
+        ],
+        "sha": "2d89f025464b7aed3fd37f3ca8a7bb21065e1585",
+        "timestamp": 1571614030
+      },
+      {
+        "files": [
+          "jwt/contrib/algorithms/py_ecdsa.py"
+        ],
+        "sha": "36a3f9bd0cc7029e5150b1931efbd62da975e8b9",
+        "timestamp": 1571616439
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "ae080f472c913ad94456fd9e10b05ec2d038b7cc",
+        "timestamp": 1571616463
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml"
+        ],
+        "sha": "c404473271a199a7445b0e2a348e47893988bbc7",
+        "timestamp": 1572923681
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "bcb6ee34c2cd46005576e294eb5aba0c496a80d5",
+        "timestamp": 1573708268
+      },
+      {
+        "files": [
+          "jwt/__main__.py",
+          "tests/test_cli.py"
+        ],
+        "sha": "e875db1357f38450a7c2693aea728c931ddadfe3",
+        "timestamp": 1573919418
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "806fe6aa4000997a385d009f3a45e3b4de4d0d5f",
+        "timestamp": 1574533449
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "09f2e20c6621b531be37392a514d8805f9804723",
+        "timestamp": 1577463389
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4de9b64effc7100ccc15cc6836c8e3203ab193c0",
+        "timestamp": 1585052185
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "b17c087496bdfc58698187c111960adcdd348a7c",
+        "timestamp": 1586179881
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "2b564094a6d71bc9778fa126dbe05e8daed52141",
+        "timestamp": 1587945043
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "c2c91a7bb504f9ff10387972b8ce9353493ed773",
+        "timestamp": 1587945142
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "008490a85932415ec14ab7d61c64216ddaef75fc",
+        "timestamp": 1589467839
+      },
+      {
+        "files": [
+          "jwt/api_jws.py"
+        ],
+        "sha": "8556a1590532d58c540256ae1824688ec6c7abe2",
+        "timestamp": 1589507062
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/contrib/algorithms/py_ed25519.py",
+          "tests/contrib/test_algorithms.py",
+          "tests/keys/testkey_ed25519",
+          "tests/keys/testkey_ed25519.pub"
+        ],
+        "sha": "75c849efcfaccfcd268d820245197f7abbd35825",
+        "timestamp": 1590285507
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d1b0ff33d869c9e36ae09f252eee18899bd656cf",
+        "timestamp": 1591592895
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7b2b4ff50461186a60132f0ebf63b55a78aa831f",
+        "timestamp": 1591592971
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "jwt/algorithms.py",
+          "jwt/contrib/algorithms/py_ed25519.py",
+          "pyproject.toml",
+          "tests/contrib/test_algorithms.py",
+          "tests/keys/testkey_ed25519.pub"
+        ],
+        "sha": "e6f7c09331101d319396333fed5bb65f4ef7d2d8",
+        "timestamp": 1591658062
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "079849d17687fde8fcb545c76882766883aa0f7a",
+        "timestamp": 1591703810
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "2194df2fc223313faf78b4866c2fd6ceda5ee797",
+        "timestamp": 1591848768
+      },
+      {
+        "files": [
+          "jwt/__main__.py"
+        ],
+        "sha": "5de3023c4c95554b70a455da5fa75b3d17478d89",
+        "timestamp": 1592287612
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "07210eef3741781e0483cec656b99477c9185732",
+        "timestamp": 1592526908
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "617831697f87207533cca2d85f9924855a875a6e",
+        "timestamp": 1593050989
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2314124747188632ebd984b7a0eb4c23366c1125",
+        "timestamp": 1595954476
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8ea83f9efc1460454ceb7d30bcf2ff15193c534c",
+        "timestamp": 1598013437
+      },
+      {
+        "files": [
+          "jwt/__main__.py",
+          "setup.cfg",
+          "tests/test_cli.py"
+        ],
+        "sha": "8a14f087c285bbe2f6e85ba4818e6c620b708d5d",
+        "timestamp": 1598015927
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "d926a4db6ecea382556c026779541b377e36d311",
+        "timestamp": 1598111484
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst",
+          "jwt/api_jws.py"
+        ],
+        "sha": "5d33b041f2aeccc653436958c08187f1bd538d94",
+        "timestamp": 1598263747
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "201455e9210a6c0edb1c77c5a3dcffe22d952d9a",
+        "timestamp": 1600963045
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "4ed3067297a0fbe5ed61f54aa9201a4ce82f18ff",
+        "timestamp": 1602241118
+      },
+      {
+        "files": [
+          "docs/faq.rst",
+          "jwt/algorithms.py",
+          "tests/keys/__init__.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "93bba73b04df777c136386579b5e213cd31edaac",
+        "timestamp": 1602482009
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "96ec8639a544c70f4e427942f109dfe59f0d848c",
+        "timestamp": 1602750008
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "f0a4c32d37efa18b0b13777bff290faf64f2a585",
+        "timestamp": 1603980884
+      },
+      {
+        "files": [
+          "codecov.yml",
+          "jwt/__init__.py"
+        ],
+        "sha": "370122f9b39dca61df77a4bea143b230dadc6f70",
+        "timestamp": 1604320327
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "b392982dcbccc7ca439b860a413a796973011b41",
+        "timestamp": 1604321107
+      },
+      {
+        "files": [
+          "AUTHORS",
+          "AUTHORS.rst",
+          "MANIFEST.in"
+        ],
+        "sha": "1a352bc42fbe21a4bd6512b72f31b35489225147",
+        "timestamp": 1604321336
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "6c0ad43d0e122ed525d2cb9d88f6849838a34869",
+        "timestamp": 1604321447
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "8041cb607a733a9b5fffe1e9136d55a40bcea25b",
+        "timestamp": 1604321891
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "4265a4168cfc07436e14a16cb9535c8078115020",
+        "timestamp": 1604500829
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "284af6ad6f617ee50335a08e03551f49e68f78d7",
+        "timestamp": 1605011334
+      },
+      {
+        "files": [
+          "docs/algorithms.rst"
+        ],
+        "sha": "e25b263f113abe769e5bb0a90ffe842275e0de4d",
+        "timestamp": 1605239374
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "2243c0889a1cd21761d778f648f41c43994651c4",
+        "timestamp": 1607360622
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py"
+        ],
+        "sha": "5fc33b212d2e5083abe4ff66ced037d182f9a6aa",
+        "timestamp": 1607788797
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "jwt/algorithms.py",
+          "pyproject.toml",
+          "tests/keys/__init__.py",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "69cd38171971004eb8fd86ba7fa1662c20f409f5",
+        "timestamp": 1608136310
+      },
+      {
+        "files": [
+          "jwt/api_jws.py"
+        ],
+        "sha": "c69d199d31dabd0ead83ab1a2208944b580da52a",
+        "timestamp": 1608136374
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "3ab6583759e4b81dc8b8ec70f52408a2b78356c3",
+        "timestamp": 1608136558
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "jwt/help.py",
+          "jwt/py.typed",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "b8cace554ee41fb13808e13a432b246efca985fc",
+        "timestamp": 1608142634
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "docs/conf.py",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_algorithms.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "a086e61af8f12384045079e38fd62a9f09c8985b",
+        "timestamp": 1608150603
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst"
+        ],
+        "sha": "dfbe695a92567ed19b0a6d96a89ac4cb1706d3a8",
+        "timestamp": 1608157353
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "tests/keys/__init__.py"
+        ],
+        "sha": "529647ab8cfc4e05776ebd5d146db9a1f9af6ebf",
+        "timestamp": 1608157468
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "696f65d654d13c1581f396c00f09dd48dfef59b4",
+        "timestamp": 1608157480
+      },
+      {
+        "files": [
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "6ce4e35a9d373bb969235d99bdb42965e7bba38a",
+        "timestamp": 1608168407
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "3f65aa413530157b8b09c4c933de4f8a97a639c1",
+        "timestamp": 1608168552
+      },
+      {
+        "files": [
+          "jwt/jwks_client.py",
+          "setup.cfg",
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "fef427bcd38da13d1bd16dfb66b24f6b7504653e",
+        "timestamp": 1608168816
+      },
+      {
+        "files": [
+          "tests/test_algorithms.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "db4d2f09a1e5ba0b9fdab49d9e51006c60de2b63",
+        "timestamp": 1608190694
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "e3a1ba52b5926bd419a5bab73c64d7bce1089958",
+        "timestamp": 1608226072
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/api_jws.py",
+          "jwt/utils.py",
+          "tests/test_api_jws.py",
+          "tests/test_utils.py",
+          "tox.ini"
+        ],
+        "sha": "97cd4031549d363fa34737635eab33491fa718fe",
+        "timestamp": 1608235796
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "0683b794027e4b876dba9833a0607e1502faea50",
+        "timestamp": 1608235821
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "tests/keys/__init__.py",
+          "tests/utils.py"
+        ],
+        "sha": "bf39b44f60a94a456b03f4e312f26cc7d82630f5",
+        "timestamp": 1608251193
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "d3219c5c2e4dea78955080afaaf251dd3e61bc01",
+        "timestamp": 1608251338
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py"
+        ],
+        "sha": "d0b9dc7e7dc00a8358721dd01c003bfeadb231d2",
+        "timestamp": 1608251509
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "jwt/utils.py"
+        ],
+        "sha": "523a6f2952dc64c62f3a7cac9804a29176922453",
+        "timestamp": 1608251931
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "8e117afca6b897526684db4570f993949538fdbc",
+        "timestamp": 1608251963
+      },
+      {
+        "files": [
+          "jwt/jwks_client.py"
+        ],
+        "sha": "1c9a4687283e61ab2bba01301cb606a4b33df41b",
+        "timestamp": 1608386689
+      },
+      {
+        "files": [
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "2e9f866f3b9f0542ba80c1b986b6129b63a694c6",
+        "timestamp": 1608386799
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "2e1e69d4ddfddaba35b6ee99ead1b430654ed661",
+        "timestamp": 1608386953
+      },
+      {
+        "files": [
+          "jwt/api_jws.py"
+        ],
+        "sha": "8bffbb242b5c6c49350cb1b80c4e62979341cec3",
+        "timestamp": 1608420931
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "docs/usage.rst"
+        ],
+        "sha": "ce4f350ffc052f767c772c0685cc591f7d5f4e9b",
+        "timestamp": 1608421899
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "5bf8e70f26309b0a5ceda49ce0a7e97e89eee764",
+        "timestamp": 1608422564
+      },
+      {
+        "files": [
+          "jwt/utils.py"
+        ],
+        "sha": "5d7bdd68aec70a8a8cc4979bda93adc3c44f945f",
+        "timestamp": 1608485196
+      },
+      {
+        "files": [
+          "jwt/utils.py"
+        ],
+        "sha": "b0c1e60be6b3b7b555eb46d947dd859f5d0c70e2",
+        "timestamp": 1608566265
+      },
+      {
+        "files": [
+          ".flake8",
+          ".pre-commit-config.yaml",
+          "MANIFEST.in",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "92aeab415ae2b73d2776ad2b1c4e8fa3a5e0d51e",
+        "timestamp": 1608567004
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/api.rst",
+          "docs/conf.py",
+          "docs/index.rst"
+        ],
+        "sha": "d5eff6452d66d0cafce9fecd19f5453ce8ea95fc",
+        "timestamp": 1608567187
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "5ddab7cab47872fb3f470f8b4e8a65941638ac40",
+        "timestamp": 1608568837
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "9a20ab3f7011e0afaf148264764fdefb8669e9a7",
+        "timestamp": 1608568857
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "14fc3e936cb33270dd7a25cca077f9c601cbbbe6",
+        "timestamp": 1608570315
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "tox.ini"
+        ],
+        "sha": "f490a6003f6687aa23158edffaacd36ee511fce3",
+        "timestamp": 1608571614
+      },
+      {
+        "files": [
+          "tests/test_algorithms.py"
+        ],
+        "sha": "06523a08c6c64e2438d2259adeed3ed6bedabacb",
+        "timestamp": 1608578891
+      },
+      {
+        "files": [
+          "tests/test_api_jws.py"
+        ],
+        "sha": "09d24fc9fd916a8e3ebc3bf993340893d74991ee",
+        "timestamp": 1608604472
+      },
+      {
+        "files": [
+          "jwt/jwks_client.py"
+        ],
+        "sha": "587997eec3c9ce35d17054d10aa5f2c5403ade4c",
+        "timestamp": 1608604479
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/usage.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "4770745541363a6a1a1a00b81a64601970df5ce0",
+        "timestamp": 1608621428
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "482364776109cb597af7f679161dcf9c3ef5d0ea",
+        "timestamp": 1608644255
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "c96131b970fd341106ce33d0a85b50e3bdbb67ec",
+        "timestamp": 1608739127
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "bfa1d99843f4ac5cdc5a3e1122cf63149def06c1",
+        "timestamp": 1609793834
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "03610f01030e25bd5e901fe625c0ede4c55dccc7",
+        "timestamp": 1609859186
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "CHANGELOG.rst",
+          "MANIFEST.in",
+          "docs/changelog.rst",
+          "docs/index.rst"
+        ],
+        "sha": "fdfd6871536690e46b6128512825897e52cc9761",
+        "timestamp": 1610302544
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/algorithms.py"
+        ],
+        "sha": "9dca8eaa0ec43bcf54ac645872078ecdb0ca8d96",
+        "timestamp": 1610421276
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "3993ce1d3503b58cf74699a89ba9e5c18ef9b556",
+        "timestamp": 1610906179
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "cda3ef147a6e7c12a63b761631b3f169a6827df0",
+        "timestamp": 1612321039
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "373d4d8a45ce7071e8677d4835a46bd762fa1210",
+        "timestamp": 1613407209
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/jwks_client.py",
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "22b1d02bb3c7d359e63aaf227851c075b72cae7f",
+        "timestamp": 1614439009
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "82f98dcc2ac606d66924669abe81a322f37ef2a9",
+        "timestamp": 1615732971
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "tests/keys/jwk_ec_key_P-256.json",
+          "tests/keys/jwk_ec_pub_P-256.json",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "a87a7a1b6c6cfb0f831e96272e91378f7247d71c",
+        "timestamp": 1616105121
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/algorithms.py",
+          "tests/keys/jwk_ec_key_secp256k1.json",
+          "tests/keys/jwk_ec_pub_secp256k1.json",
+          "tests/test_algorithms.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "fa8e8fa9c7f5d31610c21560247296e96a5a1f8e",
+        "timestamp": 1616105280
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b3a770a2018b8b553cc444041e59962e7898dc5f",
+        "timestamp": 1616105347
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "f6d4bbfa9feb9ed56c54de6011678adf48af4ac7",
+        "timestamp": 1616106082
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/algorithms.py",
+          "tests/keys/jwk_okp_key_Ed25519.json",
+          "tests/keys/jwk_okp_pub_Ed25519.json",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "88972a9bd962fceee8251cfff0e41f3d77e56551",
+        "timestamp": 1616109815
+      },
+      {
+        "files": [
+          "docs/algorithms.rst"
+        ],
+        "sha": "f6cd4ac12f039cc63f812adbd78b6224a834cc14",
+        "timestamp": 1616271743
+      },
+      {
+        "files": [
+          "jwt/api_jwk.py",
+          "tests/test_api_jwk.py"
+        ],
+        "sha": "81d5829183785b875253162687e59f3ff81674c3",
+        "timestamp": 1616400886
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "7183ccd5aea1f3bdbe16f12174f489370ca2cdcc",
+        "timestamp": 1616424292
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f02fa0dc87bfa7bc471f3d6d3ca579d66e8f95e0",
+        "timestamp": 1616853275
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "fc7a708149d7fc75a9053b76129067c98b49d09f",
+        "timestamp": 1617680732
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "bcd572806c121c2f85d104b3e13a196e5bb46a79",
+        "timestamp": 1618592356
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/algorithms.py",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "fb86f9dffb371ee2adbc573edc35ded129ea3b36",
+        "timestamp": 1618592406
+      },
+      {
+        "files": [
+          "docs/algorithms.rst",
+          "docs/api.rst"
+        ],
+        "sha": "7f6a2361943ffae20007eb014900060c6b21d9cc",
+        "timestamp": 1619609129
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/algorithms.py",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "545931dafd9ec318e8d8acff6d5a4daeedf50863",
+        "timestamp": 1619610142
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "0da422394be3555d5b3cb52761864d2819787eff",
+        "timestamp": 1619610156
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "816cbe59a43c4ab5466e6d4c5fa393223c26953f",
+        "timestamp": 1619610381
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "c7f9ac57021021aecc417ffb580c6799ad1ead84",
+        "timestamp": 1619610814
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "79c23d7d9d32364be8f94680d8eda7135c3a15d5",
+        "timestamp": 1619611155
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "45fc3484387d5a917e4f749e9d0d8edc3119f2a8",
+        "timestamp": 1619731880
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "69d1e8b5f450f2b1df42149d977b48e286df1054",
+        "timestamp": 1619731896
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e0a288017d945f8dd7da2fa13d5defb85192e38a",
+        "timestamp": 1620484962
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "db18661724305f7bc0663e738759222158900bb8",
+        "timestamp": 1623732018
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a629ecd73221f12402066ccc4a13f04a7c856792",
+        "timestamp": 1626763255
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "c8ab900b831c4e859620c964d25737bf95d5eeb8",
+        "timestamp": 1627650054
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "cfe52613ca0fad1535bcf5b5753aca5760043cae",
+        "timestamp": 1627979739
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/api.rst",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "8de44287752f9d2c0112bb3062389462d56ead86",
+        "timestamp": 1628217264
+      },
+      {
+        "files": [
+          "docs/installation.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "885a730e4e9e39f6027e377b0f6785b317a1f013",
+        "timestamp": 1628449674
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jws.py",
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "6ce51f391b52efa5cfc850ec337200da721c5d5a",
+        "timestamp": 1628449795
+      },
+      {
+        "files": [
+          "docs/installation.rst"
+        ],
+        "sha": "fdd795ad08f91fb110d1578619506bfb767fdb30",
+        "timestamp": 1628452597
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "5fe7f2b28ffcd27a3e520be750858944889112ef",
+        "timestamp": 1628466004
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/jwks_client.py",
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "63673619e0321a0b58f29a0b2f6626b5b7c3d2ec",
+        "timestamp": 1628806868
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2032df71cd195db44dcdd253ace68990812f7705",
+        "timestamp": 1630428192
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "fbc0e636bfe70d186a6650be47664527568cc55c",
+        "timestamp": 1632227280
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9249fc70b5aede04c3dcb86e4b6560ab7e032563",
+        "timestamp": 1632795142
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "19ce9c5ec7947428d35aaffd302eb2629210a697",
+        "timestamp": 1633198362
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "jwt/jwks_client.py",
+          "jwt/utils.py"
+        ],
+        "sha": "a988e1a11e5abb5869dd641f3f4f6a5bb4e70fdf",
+        "timestamp": 1633239179
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py",
+          "tests/utils.py"
+        ],
+        "sha": "258d7bab0ecb86be91738ac1e23744429280acd1",
+        "timestamp": 1633486408
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "6223ba13780a941a3f4c9dec62f282bdd9b5afb0",
+        "timestamp": 1633528992
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "cf545e4bfc087e863b7c7a2a2313d52fe8f107ca",
+        "timestamp": 1634022261
+      },
+      {
+        "files": [
+          "jwt/api_jws.py"
+        ],
+        "sha": "828a20a47ef7af5cddfe12b482a90df07cd1b323",
+        "timestamp": 1634267448
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "f9db1d7b3acbe81daea7bc79cbc731f7c900221f",
+        "timestamp": 1634280838
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "98620ab2a396a5c887a494259d49552c2093e1ad",
+        "timestamp": 1634399165
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "98de462d3c32747cee24b17cfef206cb9dd38e88",
+        "timestamp": 1634572103
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "setup.cfg"
+        ],
+        "sha": "31a8701d11709ce0807b60f7a5fa604d14175235",
+        "timestamp": 1634906955
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "df5d85650a2af74b658bf24f7c640c240bbec6d9",
+        "timestamp": 1636035680
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c4973c7dd602eac984877ceb0186ef5f233bdb8f",
+        "timestamp": 1636437532
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ca88b1a0d48580ede0dcc743172eb46c5e0f3a74",
+        "timestamp": 1637056335
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f3b95a08c7a76cf62b37a3c0baa73bc7f5eac9ac",
+        "timestamp": 1637634704
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "a3e2d8eb658fbd7677bacfe40189956d47b94ef2",
+        "timestamp": 1639128157
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "43d38a0c7070961a166a21b94f968e104de947e2",
+        "timestamp": 1639194986
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "aabeb061348cedaafa1ae2e67371525a30b6b93a",
+        "timestamp": 1639309759
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "77d791681fa3d0ba65a648de42dd3d671138cb95",
+        "timestamp": 1640661987
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwk.py",
+          "tests/test_api_jwk.py"
+        ],
+        "sha": "a03b36cd9bf067c232f61f8445b09d24e2732ef6",
+        "timestamp": 1643076773
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "86820d338ddbbfa48f60730f00579a26445f17e6",
+        "timestamp": 1643375517
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "858eb4e225507310ed71be84bcd0e18f43b73a07",
+        "timestamp": 1643681230
+      },
+      {
+        "files": [
+          "LICENSE",
+          "docs/conf.py",
+          "jwt/__init__.py"
+        ],
+        "sha": "b4c579785803374cd5c08046c927d713c7324b78",
+        "timestamp": 1643772553
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "827d4425dbd2e6f9b521e514ced889cfb3aada21",
+        "timestamp": 1644896436
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "6a624f42112661d1e4ea43ce7a78a9d6c693644b",
+        "timestamp": 1646750156
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "1e7915613f4962d793b97a0db7bbe1661a59fa5a",
+        "timestamp": 1648271716
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "35fa28e59d99b99c6a780d2a029a74d6bbba8b1e",
+        "timestamp": 1649131421
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "1f1fe15bb41846c602b3e106176b2c692b93a613",
+        "timestamp": 1649131946
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "3d4d82248f1120c87f1f4e0e8793eaa1d54843a6",
+        "timestamp": 1649179101
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5581a31c21de70444c1162bcfa29f7e0fc86edda",
+        "timestamp": 1649739742
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "24b29adfebcb4f057a3cef5aaf35653bc0c1c8cc",
+        "timestamp": 1650376318
+      },
+      {
+        "files": [
+          ".gitignore",
+          "jwt/__init__.py",
+          "jwt/algorithms.py",
+          "jwt/utils.py",
+          "tests/test_advisory.py",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "9c528670c455b8d948aff95ed50e22940d1ad3fc",
+        "timestamp": 1652380260
+      },
+      {
+        "files": [
+          "tests/test_advisory.py"
+        ],
+        "sha": "96f3f0275745c5a455c019a0d3476a054980e8ea",
+        "timestamp": 1652381095
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "4c1ce8fd9019dd312ff257b5141cdb6d897379d9",
+        "timestamp": 1652381465
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "83ff831a4d11190e3a0bed781da43f8d84352653",
+        "timestamp": 1652381492
+      },
+      {
+        "files": [
+          ".github/workflows/stale.yml"
+        ],
+        "sha": "ffd6a05c8248eedced9ade120e6688c8addab6e9",
+        "timestamp": 1652640946
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "54405e5e07dd4fb0bf58b77afd485f221b68a3b4",
+        "timestamp": 1652641051
+      },
+      {
+        "files": [
+          "jwt/utils.py",
+          "tests/test_advisory.py"
+        ],
+        "sha": "23feb3b068deb5f077e37c98541e7151782e544f",
+        "timestamp": 1652642309
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "caa82d9853e82b83947f2f34e70300ca5f1d329c",
+        "timestamp": 1652674186
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "ac92b0715ccfc43e87c73b160c001d8be53a3a79",
+        "timestamp": 1652674229
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "235f01c9563e407c63888795a573d0b56868e902",
+        "timestamp": 1652680091
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "675fa10db578886ee6cfd1df688236f69560ced4",
+        "timestamp": 1652970859
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "0bf1a35ac15740abf6290f6b4a5759d2f8d44f4f",
+        "timestamp": 1653288425
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/algorithms.py",
+          "tests/keys/testkey_ec_secp192r1.priv",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "9d4c06e07f6fb67f5fa486879c291018deb462e9",
+        "timestamp": 1653311248
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "59065fa04d7d255f4a6452707af34fc9e4420d4d",
+        "timestamp": 1653551054
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "tests/test_api_jws.py",
+          "tox.ini"
+        ],
+        "sha": "8215bf8fd64db41fd7f4972fba905c4274a3e81c",
+        "timestamp": 1653557003
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "9c490392f2696111a40911d979c7eaf2e6f4eaec",
+        "timestamp": 1654005843
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "5a3931937058beb8160d4437b1f946c580836edf",
+        "timestamp": 1654006136
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwk.py",
+          "tests/keys/jwk_keyset_only_unknown_alg.json",
+          "tests/keys/jwk_keyset_with_unknown_alg.json",
+          "tests/test_api_jwk.py"
+        ],
+        "sha": "599aba9dac643c995e6bdf9951ef32b6c61ca8da",
+        "timestamp": 1654007698
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "d0f07fc663b6d2c94692a6b15cbd291058b537cd",
+        "timestamp": 1654024078
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "37535d9fc9704f9694655bd348b86dff6a45d732",
+        "timestamp": 1654778345
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a863a7329027fe1e993c866374b195785978b2a9",
+        "timestamp": 1655179065
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "381a15a21fafb54348e4abc7f354eb5486509a93",
+        "timestamp": 1656829060
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py",
+          "jwt/api_jws.py"
+        ],
+        "sha": "2dab2107543d2ffed554aec332438dc16f0b2015",
+        "timestamp": 1656861526
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          ".pre-commit-config.yaml",
+          "CHANGELOG.rst",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "dde69e86e08921d7a51d5926146a54cbeb9b1cc1",
+        "timestamp": 1656901129
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e84aa5b7ceffbebccfcc2f9aba87a211582a4888",
+        "timestamp": 1656997168
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "jwt/warnings.py",
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "581f4e17b836ffc4600e413e93d39296291dacd4",
+        "timestamp": 1656999526
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "c8fda69f09bc293960c141288633fbd1399e0b2b",
+        "timestamp": 1657434034
+      },
+      {
+        "files": [
+          "README.rst",
+          "docs/index.rst",
+          "jwt/api_jws.py"
+        ],
+        "sha": "0bef0fbff5c245668578a43774d8620bdba4a6f7",
+        "timestamp": 1658229920
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "98a5c1d61ee180f5b3574e142f5938d24146ee99",
+        "timestamp": 1659281042
+      },
+      {
+        "files": [
+          "jwt/api_jwk.py",
+          "tests/test_api_jwk.py"
+        ],
+        "sha": "435e826da56a105da51176355a29cdc00420f4c1",
+        "timestamp": 1659349838
+      },
+      {
+        "files": [
+          "jwt/help.py",
+          "setup.cfg"
+        ],
+        "sha": "ae3da7469ff8c28b726e082cd671997e09b19d55",
+        "timestamp": 1659351345
+      },
+      {
+        "files": [
+          "jwt/api_jwk.py",
+          "jwt/jwk_set_cache.py",
+          "jwt/jwks_client.py",
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "fc5b94eb3575254caba599218246616c75fecdc7",
+        "timestamp": 1659371868
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e8780abdd561963e3b0ca49ecec8b8519a793f75",
+        "timestamp": 1659417800
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5ecbafc366ebc4940ce4eac81350bc41887a4433",
+        "timestamp": 1660466476
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "c9006103b56359b3ad788bb2e380ef17dfe59b05",
+        "timestamp": 1663422742
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "1ef6dcfa67744ff69ef1a771465179e31282d5b5",
+        "timestamp": 1663557874
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "049a695c14b33457a352299357ffb1ba52b2acec",
+        "timestamp": 1663631795
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "f4d237021262ec803e2d3e590c8d6d63f7d5ca6b",
+        "timestamp": 1663670949
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7288d674e7b31863209f2ff0c23fcbc20333c2d6",
+        "timestamp": 1663670963
+      },
+      {
+        "files": [
+          ".github/workflows/stale.yml"
+        ],
+        "sha": "1cba0db67870b80ab386476e96657c2098ff5816",
+        "timestamp": 1663913933
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "8ccb8258508721f67fb3bb0678080111ef22d6d3",
+        "timestamp": 1663931652
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "9cb9401cc579f11dbb17181e8713f061f8e40ed4",
+        "timestamp": 1665820034
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d81c9fa03283dc00ed28f1103fa8e78fb6f3f8cc",
+        "timestamp": 1666226441
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "7665aa625506a11bae50b56d3e04413a3dc6fdf8",
+        "timestamp": 1666228092
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "setup.cfg"
+        ],
+        "sha": "345549567dbb58fd7bf901392cf6b1a626f36e24",
+        "timestamp": 1667050069
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/usage.rst",
+          "jwt/algorithms.py",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "00cd759d86aae24176ead7bdbed273a07532443e",
+        "timestamp": 1667386912
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py"
+        ],
+        "sha": "ea9ea4d3b8662746166519dfe7b59ac50c4a5296",
+        "timestamp": 1667639794
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e6d0a83bbafb0b26b4ba7924f2f5e26eb995845a",
+        "timestamp": 1668499868
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/usage.rst",
+          "jwt/jwks_client.py",
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "300348f7bc4a520448b8fbefa525c9434e82141d",
+        "timestamp": 1668570420
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2b67f60df76c507d18ec7d53ccd7742af38649ec",
+        "timestamp": 1669098776
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "8abfc3a7cfbf33cc3a2862fcf41519a0da1405cd",
+        "timestamp": 1669704028
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "dd35ede4d29fcf3173c75db2835715a1d0e51cf1",
+        "timestamp": 1670319921
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py",
+          "tests/test_compressed_jwt.py"
+        ],
+        "sha": "2fc6aa3ffecb54325d44ef076d4eff7418e97a81",
+        "timestamp": 1670493084
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "fb9b3119449353dca6c03be27f32e482852473c3",
+        "timestamp": 1670514604
+      },
+      {
+        "files": [
+          ".github/workflows/stale.yml"
+        ],
+        "sha": "50c763c67e93b63fb199c4c9b3c4a05ed90b5172",
+        "timestamp": 1671643144
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "701e8d9d3b8389e13ad6371a331e600b503c2550",
+        "timestamp": 1672116960
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/jwk_set_cache.py",
+          "jwt/types.py"
+        ],
+        "sha": "45fff3ae19ae2930f92929e48d4ad45f41502f31",
+        "timestamp": 1672752148
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "4e15dbd9aaef56b78ac8f885220d94f785d2b30c",
+        "timestamp": 1672752162
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "0a99cc2427c751275ea0002acca9ba0c07c25834",
+        "timestamp": 1673752382
+      },
+      {
+        "files": [
+          "jwt/api_jwk.py",
+          "tests/test_api_jwk.py"
+        ],
+        "sha": "b407c63b17f16e78c13c36d784d6e1822fee1147",
+        "timestamp": 1674743331
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1623dc843b6ae4f34b6ba120b8a5471d10ccfe0e",
+        "timestamp": 1675165287
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5a2a6b640d9780c75817a626672da0b2d38f9e78",
+        "timestamp": 1676978179
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/api_jwt.py",
+          "tests/test_algorithms.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "777efa2f51249f63b0f95804230117723eca5d09",
+        "timestamp": 1678155759
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "216cb51e80d36669e235f5fceb5a0fe84e35279c",
+        "timestamp": 1678838023
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "20a5ae1fb2a4afa399a4825546aa5df3dd793a58",
+        "timestamp": 1679154031
+      },
+      {
+        "files": [
+          ".github/workflows/stale.yml"
+        ],
+        "sha": "5a262705ffe0d189084d10364a00f8e124a62ec4",
+        "timestamp": 1679596601
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f4071a632aa5ac6d1c341493c64b9eed06357351",
+        "timestamp": 1680593688
+      },
+      {
+        "files": [
+          "jwt/jwks_client.py",
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "a03e7b9224d0fa22ddf7729a863e3aecbe854728",
+        "timestamp": 1680966635
+      },
+      {
+        "files": [
+          "jwt/exceptions.py",
+          "jwt/jwks_client.py",
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "ba726444a6cee75af59feb8ea08294d0ac89bedb",
+        "timestamp": 1681105778
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "97711b1a4fc322796092faa6bb18f8097b8eed62",
+        "timestamp": 1681792636
+      },
+      {
+        "files": [
+          ".github/workflows/pypi-package.yml"
+        ],
+        "sha": "81b9ef4888fc75f8a3b7224f15eb8b18146f4b44",
+        "timestamp": 1682385253
+      },
+      {
+        "files": [
+          ".github/workflows/pypi-package.yml"
+        ],
+        "sha": "6d1c3d341af3378653af3653436bd9ff411e5e63",
+        "timestamp": 1682385607
+      },
+      {
+        "files": [
+          ".github/workflows/pypi-package.yml"
+        ],
+        "sha": "d8b12421654840418fd25b86553795c0c09ed0a9",
+        "timestamp": 1682386528
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "abeeacb99a30a5c2ae60c1696bb7ead012405349",
+        "timestamp": 1683644261
+      },
+      {
+        "files": [
+          "jwt/api_jwk.py"
+        ],
+        "sha": "6a273419949b68ddccbe3867fd4bd8680cacf097",
+        "timestamp": 1683658931
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "pyproject.toml",
+          "setup.cfg",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "c35e59b9f2c0bc0cf1a71b440a115d997f1e0535",
+        "timestamp": 1683658995
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "d7c54dbebdab2ae17f7948fd4432b15e1bb82852",
+        "timestamp": 1683659061
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "1c272817a217c03534feb98004f3f6bd10512e07",
+        "timestamp": 1684208583
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7f07d50b41d21cb476bf81853257f9f9fedae3bc",
+        "timestamp": 1684216261
+      },
+      {
+        "files": [
+          "jwt/jwks_client.py",
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "6cef6f28fa63f2bb01d22ff03868409da24373fd",
+        "timestamp": 1686636774
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "faeae6e54312f9827f369d185f60e99579338309",
+        "timestamp": 1687414359
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ea351558128d726ead5502409a6a14dc05119578",
+        "timestamp": 1687864277
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6e7027684c37218786c1526c6790a57720602fa9",
+        "timestamp": 1689086964
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "6db5df72d031bd49f8a25e84ccf4ec91b2d6af3b",
+        "timestamp": 1689087202
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/api.rst",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "22ba13287874a7a22748b451c7d84f12b2f8ccab",
+        "timestamp": 1689695568
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "72ad55f6d7041ae698dc0790a690804118be50fc",
+        "timestamp": 1689705005
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ca99a72c1e6c98c2a7c4db97155a3a05428794de",
+        "timestamp": 1690948908
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "349af0f326296c902f4c4b100301e645d7379679",
+        "timestamp": 1692092076
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "95638cf04f83b3e2c289b28810501e53195ff938",
+        "timestamp": 1692708149
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py"
+        ],
+        "sha": "719a9f5969d39ccb5eacf52292437cc014222143",
+        "timestamp": 1693654198
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "332774fa79e61b286eca9bf5473ae18b1d78a858",
+        "timestamp": 1693740941
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          ".github/workflows/pypi-package.yml"
+        ],
+        "sha": "5f6bffffe8ff37c639d5fc5d2d8ad7a95e7e796e",
+        "timestamp": 1694354952
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7ee6aafe1484798db85e2c4ce63b1ca4ee8ed6e3",
+        "timestamp": 1695703753
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6f1269246f5536e433011532ff372adeb3581138",
+        "timestamp": 1698248329
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "50ecae21c3ecf36f7c2a285e4e59dae1d9391e3d",
+        "timestamp": 1699937644
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "fdec7d871a80e3cba8d76a2e75707f04c4fe7677",
+        "timestamp": 1701884380
+      },
+      {
+        "files": [
+          ".github/workflows/pypi-package.yml"
+        ],
+        "sha": "ebe7776ed131726f6c33e278a4deeb4030b7ab8e",
+        "timestamp": 1702721227
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "f86b8b6ce670e40f1ef037b70ac6b4c682e8ac6f",
+        "timestamp": 1703705813
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "87289e287d6b1a5dbed1678f6136adcee613adf8",
+        "timestamp": 1707880625
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "12420204cfef8fea7644532b9ca82c0cc5ca3abe",
+        "timestamp": 1707880652
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "pyproject.toml",
+          "setup.cfg"
+        ],
+        "sha": "7b4bc844b9d4c38a8dbba1e727f963611124dd5b",
+        "timestamp": 1711123279
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "34c8bf7a1d3ce5dfe744b5969ecd192752fea845",
+        "timestamp": 1715428573
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "jwt/algorithms.py"
+        ],
+        "sha": "97345a7635bc24d1eb59ab8d0c73389f38187472",
+        "timestamp": 1715428683
+      },
+      {
+        "files": [
+          "jwt/utils.py",
+          "tests/test_utils.py"
+        ],
+        "sha": "2afbe32b0dbbcdb272a085d95ac5fdc609493d04",
+        "timestamp": 1715429183
+      },
+      {
+        "files": [
+          ".github/workflows/pypi-package.yml"
+        ],
+        "sha": "c0a071dc0178542ad24e5a7b2e6103ba1d4c0517",
+        "timestamp": 1715455719
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "jwt/api_jwk.py",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwk.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "ab8176abe21e550dbc1c9a6bb7e78ad80853bfb1",
+        "timestamp": 1715457349
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "9dc732f6444a0246e8d5c344110d6246bff89495",
+        "timestamp": 1717302474
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "4703f8780e532ef932f4a493b642ac5a6c1be53c",
+        "timestamp": 1718047472
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "18a50bedb03e894845420b95a58ce933b135659c",
+        "timestamp": 1719905142
+      },
+      {
+        "files": [
+          "jwt/api_jwk.py",
+          "jwt/exceptions.py",
+          "tests/test_api_jwk.py"
+        ],
+        "sha": "527fec277e8215a197f8facd3778b359043704ef",
+        "timestamp": 1720181101
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "304a3df14262aab01407803f97bd26c3eb2c4b10",
+        "timestamp": 1722429551
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "868cf4ab2ca5a0a39da40e5a14dd740b203662b2",
+        "timestamp": 1722429612
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "1570e708672aa9036bc772476beae8bfa48f4131",
+        "timestamp": 1723053084
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "7f77c1b783bab60a48ac3dac7c675ade3c4edc11",
+        "timestamp": 1723053141
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d7710f7bcff4b195b293af554a32d4a461b07a01",
+        "timestamp": 1723053157
+      },
+      {
+        "files": [
+          ".readthedocs.yaml",
+          "MANIFEST.in",
+          "tox.ini"
+        ],
+        "sha": "223e50d17a3c138e984f14db069a4c697e0d7a40",
+        "timestamp": 1724558247
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "9f40aa2d581fa4b27991d9aae9b990c5d9a10873",
+        "timestamp": 1724558373
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "a181e173628984c01ea957be3d6d103038f0b734",
+        "timestamp": 1724712216
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4d364819f10e2a0726ca40bcc52fea81e258769f",
+        "timestamp": 1725708812
+      },
+      {
+        "files": [
+          "SECURITY.md"
+        ],
+        "sha": "f39206dde5c337e046774fa7df91ac6ed4e86ab0",
+        "timestamp": 1725708995
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "140af5ab6f51d4d2fd86ea3cae9d4bb5428c975d",
+        "timestamp": 1725713013
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "tox.ini"
+        ],
+        "sha": "38f7ac22726b54181793fcb5b070e782336bffb0",
+        "timestamp": 1725713073
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7a512f4fb2638663a1fbbba02dbbaccc26f2be7f",
+        "timestamp": 1725713516
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "7e4c3807daab384c40f400cd83921cecb2869e4c",
+        "timestamp": 1725713645
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "467c7480459392cc41048186995ef304fbe35b8d",
+        "timestamp": 1725713986
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "tox.ini"
+        ],
+        "sha": "6c7cc61169c367f2fc820445fdaddac35e5b5dbb",
+        "timestamp": 1726975859
+      },
+      {
+        "files": [
+          "tests/test_utils.py"
+        ],
+        "sha": "a63d75cb7f6b9716206d61ad643943a977cd147e",
+        "timestamp": 1727543440
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "4c5fa5d123fe505f3c63d8e332216c26706ab098",
+        "timestamp": 1728245876
+      },
+      {
+        "files": [
+          ".github/workflows/enforce-changelog-entry.yml"
+        ],
+        "sha": "ca9a2cd8a3080f2a68638d29530d228e927100f4",
+        "timestamp": 1728246345
+      },
+      {
+        "files": [
+          "docs/Makefile",
+          "docs/conf.py"
+        ],
+        "sha": "e6d36b08a276f14775bd902ca185de313ce25e1b",
+        "timestamp": 1728330982
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "cf6c922557740ffd4e71610a836177b498912ca0",
+        "timestamp": 1728332639
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "f6369b9055a2273b5b00d0e1861e162885b13afd",
+        "timestamp": 1728332672
+      },
+      {
+        "files": [
+          "docs/api.rst"
+        ],
+        "sha": "d45cda677afb9c351a72841cee7bd6cff2f64663",
+        "timestamp": 1728332814
+      },
+      {
+        "files": [
+          "docs/conf.py"
+        ],
+        "sha": "53dd594ee29280d22e0d7f6a9105f648d4528947",
+        "timestamp": 1728332884
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pyproject.toml",
+          "setup.cfg",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "9bcb83f3ce34a849a0a07d22c446f16170ec2f45",
+        "timestamp": 1728332924
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "44d8605694aa6b31d8b7fed3911991711b6b1d54",
+        "timestamp": 1728333349
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "c387281ce1344f996d13fa19eec66be6eac71d57",
+        "timestamp": 1728333542
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "defdc16432ae6b27bf84920449e0353aa30ef081",
+        "timestamp": 1728333775
+      },
+      {
+        "files": [
+          ".github/workflows/enforce-changelog-entry.yml",
+          ".pre-commit-config.yaml",
+          "CHANGELOG.rst"
+        ],
+        "sha": "e2bab76934cffaf94267fa03d9315c578f4d13a7",
+        "timestamp": 1728390568
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "8910f56be60bafad3cff596c4e74e5ea5071af19",
+        "timestamp": 1728390697
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "310962b535d53f1ccc8cf9f484fe8beb89234af8",
+        "timestamp": 1728846126
+      },
+      {
+        "files": [
+          ".gitignore",
+          "CHANGELOG.rst",
+          "jwt/api_jwt.py",
+          "jwt/exceptions.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "6dc23b3c9beeb33a45b7e34b39b086b063de48bf",
+        "timestamp": 1728846217
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "4ceee5afa9da8c61c91fc3e44cbebdd50fcf4354",
+        "timestamp": 1728846436
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/algorithms.py",
+          "jwt/utils.py"
+        ],
+        "sha": "f2df5b6594ca9da7dd06f0f264eacdf32e387bd0",
+        "timestamp": 1728848215
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "3065fdf29ff7411e1cce826e6202b06aa1ae9d5e",
+        "timestamp": 1728848845
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "bc97f6a0645fd0d28096b875835a1b483f8b3421",
+        "timestamp": 1728851239
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "c8e1b131da08f6be56d336fcd65f4b9f4425841f",
+        "timestamp": 1728851338
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "c2629f66c593459e02616048443231ccbe18be16",
+        "timestamp": 1728851682
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8fe9eab822cf7d9ea1e424379d64e29abfe33f34",
+        "timestamp": 1730208200
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "19008577fbda9cbce879defa2c7cd6387f8ca66f",
+        "timestamp": 1730208251
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "189c2561c47030d2e34aea040cf135ae4997a2d8",
+        "timestamp": 1730208277
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          ".pre-commit-config.yaml",
+          "CHANGELOG.rst",
+          "pyproject.toml",
+          "ruff.toml",
+          "tox.ini"
+        ],
+        "sha": "b6b8bce07717b0b4bb7816b99c33ab9e6907059a",
+        "timestamp": 1730424017
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "SECURITY.md",
+          "docs/index.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "a759c455cde3e9ff99afe25e9fc56278af666ff3",
+        "timestamp": 1731764402
+      },
+      {
+        "files": [
+          "jwt/__init__.py"
+        ],
+        "sha": "b032353bd93fee330cb79a351cc4d03affee19f5",
+        "timestamp": 1731764460
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "0116fc6cb2b5088b02efa4506ecb6dcea42d72b3",
+        "timestamp": 1731765275
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "783f324e5d2155462515ced45718fc164dd04db2",
+        "timestamp": 1731765458
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "33022c25525c1020869c71ce2a4109e44ae4ced1",
+        "timestamp": 1732763989
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "37748dc1e328f120aa04ec98b2a71a0af6301a24",
+        "timestamp": 1732764592
+      },
+      {
+        "files": [
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "3ebbb22f30f2b1b41727b269a08b427e9a85d6bb",
+        "timestamp": 1732764629
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py"
+        ],
+        "sha": "565b6d95d65d8d210de5fad50e177cbd814a56de",
+        "timestamp": 1734165973
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b16a49f015dc6627fd794260ff03b5ff60a9e6de",
+        "timestamp": 1736845773
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "64ddfa01b9f6dec1182466f36f4778544d709ef7",
+        "timestamp": 1738665315
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "60f4f3b037053504aba9c3fcafcb4acc53999d30",
+        "timestamp": 1738739893
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9b3f9ad380e9bb9051ce33551a2d3645d9653dfc",
+        "timestamp": 1739265955
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/algorithms.py",
+          "tests/keys/testkey_ed25519.pem",
+          "tests/keys/testkey_ed25519.pub.pem",
+          "tests/test_algorithms.py"
+        ],
+        "sha": "d5ca701dd87ed8d336175153eba9bd7c60435bdb",
+        "timestamp": 1739266690
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwk.py",
+          "tests/test_api_jwk.py"
+        ],
+        "sha": "ebc941de508f76acaa78defb15197092458f1874",
+        "timestamp": 1740553423
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwt.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "9085670a1f69de3e86c7d122317c3b2707e0123b",
+        "timestamp": 1741153169
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "250a853a173aa269bbb428e49ef4bdc1ecaa111c",
+        "timestamp": 1742276260
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "109010604b3f1fabbc26e18e91d717ec26297871",
+        "timestamp": 1742891399
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "8a65fbe46d989d0ab0c1f5fc3577841d66884411",
+        "timestamp": 1744103024
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "a3d54b05a5a4cac63ba0320f4e82a931165fd7c6",
+        "timestamp": 1745406466
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6ddc6dbcecaa677ad0e26692d9fa9d3549422afd",
+        "timestamp": 1745475422
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4e7f8e306c2dadc5dabb20a4d6431b89fbe63f87",
+        "timestamp": 1745929100
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a14868e2f7d0b37c88e1eb3e821cb03e01745d15",
+        "timestamp": 1746602177
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2422bc92a24240f745069bff4320137b7955d785",
+        "timestamp": 1747127649
+      },
+      {
+        "files": [
+          "jwt/jwks_client.py"
+        ],
+        "sha": "843893de85d5ce818f7cc4547872d9c0574c49d2",
+        "timestamp": 1747724006
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "51894c5d187192753bd4221afd55bdf14bf813ea",
+        "timestamp": 1747738912
+      },
+      {
+        "files": [
+          "jwt/api_jwt.py"
+        ],
+        "sha": "75855101a7644c1c75acdcf10c320ca33d969a7e",
+        "timestamp": 1748332114
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1f49f41d4c422105c45ebcb9541f7cc13cbf855e",
+        "timestamp": 1748332156
+      },
+      {
+        "files": [
+          "SECURITY.md"
+        ],
+        "sha": "c0a2c508393ed5c3f895e01e8d9f8053730c7902",
+        "timestamp": 1749779561
+      },
+      {
+        "files": [
+          ".github/workflows/stale.yml"
+        ],
+        "sha": "8a1d63bba508f2e291165630bdb56332f017365d",
+        "timestamp": 1749779845
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/jwk_set_cache.py",
+          "jwt/jwks_client.py"
+        ],
+        "sha": "3dd8ce2ebde113d8ba80bffed0f0fce366d880dd",
+        "timestamp": 1750248563
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3942ec3f9e6c57dd8c4daf290da1dfe9fedd589c",
+        "timestamp": 1750248580
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "432c04041f3089faa50d504c4f82ac9f780cd4c7",
+        "timestamp": 1750848273
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "24b0ba5b082029fb4893157deb60d54911112210",
+        "timestamp": 1751447643
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "f2d0ebe7ec6d95cf92d958f9fcbd60ba1911cd3d",
+        "timestamp": 1751514041
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/usage.rst",
+          "jwt/algorithms.py"
+        ],
+        "sha": "93f187f8ea503f5d1d0ea197f5e950fac37db1cb",
+        "timestamp": 1756698218
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "bb0a719ed1529e5a9cd522ea895760d60bd857d4",
+        "timestamp": 1756802126
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "4f2de30873ebac31a10e433683759af8313b4a01",
+        "timestamp": 1757045466
+      },
+      {
+        "files": [
+          ".github/workflows/stale.yml"
+        ],
+        "sha": "87a5359aa75879c86693f74d19972b116e02713a",
+        "timestamp": 1757045688
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          ".github/workflows/pypi-package.yml"
+        ],
+        "sha": "feffd51ef59718c2dd38a469eddc77305310d0a4",
+        "timestamp": 1757045789
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ac69d3657f07d78894aea27c6351aee60eaec6ef",
+        "timestamp": 1757396780
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a114b6c91b8ec2ab7d486ebbb0ca96326c44e294",
+        "timestamp": 1758099116
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6293865c82ef24af76455c2522806ac2b1c75d6b",
+        "timestamp": 1759992595
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "pyproject.toml"
+        ],
+        "sha": "e228ec030834b3ae6ca797018e99f3351e3c2f60",
+        "timestamp": 1761146493
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "CHANGELOG.rst",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "3f9bceae89294db3b71209f45c3cd42c740d9523",
+        "timestamp": 1761146806
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwt.py"
+        ],
+        "sha": "1009813534cf666906ffb00129155c4b6690cd14",
+        "timestamp": 1761147468
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "209c490bb1f2208fafc59564a97ee49315ebb983",
+        "timestamp": 1761224700
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "CHANGELOG.rst"
+        ],
+        "sha": "d28dc35de7b360bf0e207bcd3ac210699803c5cd",
+        "timestamp": 1761233285
+      },
+      {
+        "files": [
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "a14965f8cedf7c15f05fbdbc68ab5ec03e3f5560",
+        "timestamp": 1761555863
+      },
+      {
+        "files": [
+          ".readthedocs.yaml",
+          "CHANGELOG.rst"
+        ],
+        "sha": "f35240429df47afa94f5f0bd1248bbd2051100b9",
+        "timestamp": 1761748720
+      },
+      {
+        "files": [
+          ".github/workflows/pypi-package.yml"
+        ],
+        "sha": "f7b872edd08c2584f06efe90715495c401684063",
+        "timestamp": 1761751464
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "93086bd79238114af54dbcbf6c498f3bf7b8c85e",
+        "timestamp": 1764507987
+      },
+      {
+        "files": [
+          "tests/utils.py"
+        ],
+        "sha": "cc8b4619b9800091e632c99f065692fa62d57138",
+        "timestamp": 1764529822
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/algorithms.py",
+          "pyproject.toml",
+          "tests/keys/__init__.py",
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "9f36c24c451c02d31be1c189fd3b1347566de520",
+        "timestamp": 1764529863
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "tox.ini"
+        ],
+        "sha": "f6fd58a454f3948fec78232e22c295a7b6a6010f",
+        "timestamp": 1764530331
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          ".github/workflows/pypi-package.yml"
+        ],
+        "sha": "1c99468bd623f5bc52e280abbdbf9b7719b094ff",
+        "timestamp": 1764530370
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "dd448344c3eb7bc54b7b395e0f6b00bb811be24a",
+        "timestamp": 1764998400
+      },
+      {
+        "files": [
+          ".github/workflows/pypi-package.yml"
+        ],
+        "sha": "04947d75dc45ba1a4a66eaa2b24fbb0eb512ceab",
+        "timestamp": 1768715776
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "tests/test_algorithms.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "5b8622773358e56d3d3c0a9acf404809ff34433a",
+        "timestamp": 1769625599
+      },
+      {
+        "files": [
+          "jwt/types.py",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "635c8d89dd8b8bea1813fe8830a26d0274a4e724",
+        "timestamp": 1769785227
+      },
+      {
+        "files": [
+          "docs/conf.py",
+          "docs/usage.rst"
+        ],
+        "sha": "2b2e53cd2377d09b082831c9406689c6cfe1ae80",
+        "timestamp": 1769794677
+      },
+      {
+        "files": [
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "df9a6a0c44906ff5f48676a65f522f21e31fcc0d",
+        "timestamp": 1769797579
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "e4d0aec0248ef30cfc91bbcf0f011b0a318864c9",
+        "timestamp": 1769797886
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py"
+        ],
+        "sha": "697344d25990641b8b2aa85f0a60634b590b5702",
+        "timestamp": 1769798655
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/api.rst",
+          "docs/usage.rst",
+          "jwt/jwks_client.py"
+        ],
+        "sha": "171d2a34f394022d7d426106e414e9a7b3eb78cb",
+        "timestamp": 1770067469
+      },
+      {
+        "files": [
+          "jwt/jwks_client.py"
+        ],
+        "sha": "08b5dfba9c5917a49a2e65a86c96576332ce1e87",
+        "timestamp": 1770068212
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "pyproject.toml"
+        ],
+        "sha": "98918c2f7a517fe7c055ed94a7ede4ec47113d57",
+        "timestamp": 1770083707
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5b38225f16d9d03a51056221a1d3d30b84b69fef",
+        "timestamp": 1770083812
+      },
+      {
+        "files": [
+          "docs/api.rst",
+          "jwt/types.py"
+        ],
+        "sha": "0f4de5a48c0d5567b62f979cf055597cbf73415e",
+        "timestamp": 1771002454
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwk.py"
+        ],
+        "sha": "53e9381ef9e529ea196bf862e445e90b264ef940",
+        "timestamp": 1771072203
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/jwks_client.py",
+          "tests/test_jwks_client.py"
+        ],
+        "sha": "412cb67a93363812ae4029d6a95f5d4d40ab2609",
+        "timestamp": 1771231737
+      },
+      {
+        "files": [
+          "jwt/algorithms.py",
+          "jwt/api_jwt.py",
+          "pyproject.toml"
+        ],
+        "sha": "99a87287c26cb97c94399084ee4186ee52207a7f",
+        "timestamp": 1771432933
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1272b264779717cc481c8341f321a7fc8b3aaba6",
+        "timestamp": 1771432955
+      },
+      {
+        "files": [
+          ".github/workflows/pypi-package.yml"
+        ],
+        "sha": "a52753db3c1075ac01337fa8b7cc92b13a19ac09",
+        "timestamp": 1772464498
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "0318ffa7b156b01600376e38952bf961382e0724",
+        "timestamp": 1772464713
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f3ba74c106df9ce10e272dfaad96acb4ab3ef5a5",
+        "timestamp": 1772526688
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jwk.py"
+        ],
+        "sha": "1451d70eca2059bc472703692f0bb0777bc0fe93",
+        "timestamp": 1772938091
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/__init__.py",
+          "jwt/api_jws.py",
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "051ea341b5573fe3edcd53042f347929b92c2b92",
+        "timestamp": 1773333968
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "jwt/api_jws.py",
+          "jwt/api_jwt.py",
+          "tests/test_api_jws.py",
+          "tests/test_api_jwt.py"
+        ],
+        "sha": "bd9700cca7f9258fadcc429c1034e508025931f2",
+        "timestamp": 1773335321
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "CHANGELOG.rst",
+          "jwt/__init__.py",
+          "pyproject.toml"
+        ],
+        "sha": "a4e1a3d1218b01c5806420b8f16d9308ac4adc30",
+        "timestamp": 1773427261
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          ".readthedocs.yaml",
+          "CHANGELOG.rst",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "40e3147eb5f790d8d041772e5fc00728a176c812",
+        "timestamp": 1773667851
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "b87c10014d4109f0214fea188d00faaaf8a80e64",
+        "timestamp": 1774789395
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9d08a9a1896845ed8eaf88e6f6ac61e5800c3e7a",
+        "timestamp": 1774789538
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "dcc27a9d3182a2349c30b160758785c6ce7a6508",
+        "timestamp": 1774929864
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "22f478cebddd8294259c30f037ecb92b0b348774",
+        "timestamp": 1779391031
+      },
+      {
+        "files": [
+          "jwt/algorithms.py"
+        ],
+        "sha": "d2f4bec4963897c0ef96ef64a875894f2c8542ab",
+        "timestamp": 1779391930
+      },
+      {
+        "files": [
+          "jwt/api_jws.py",
+          "tests/test_api_jws.py"
+        ],
+        "sha": "7144e4534c34810f4525dc4578a32addd8212cff",
+        "timestamp": 1779392055
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 6,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".coveragerc": 0,
+      ".flake8": 1,
+      ".github/FUNDING.yml": 2,
+      ".github/ISSUE_TEMPLATE.md": 3,
+      ".github/ISSUE_TEMPLATE/Bug.md": 4,
+      ".github/ISSUE_TEMPLATE/Custom.md": 5,
+      ".github/ISSUE_TEMPLATE/Feature.md": 6,
+      ".github/dependabot.yml": 7,
+      ".github/workflows/enforce-changelog-entry.yml": 8,
+      ".github/workflows/main.yml": 9,
+      ".github/workflows/pypi-package.yml": 10,
+      ".github/workflows/stale.yml": 11,
+      ".gitignore": 12,
+      ".pre-commit-config.yaml": 13,
+      ".readthedocs.yaml": 14,
+      ".travis.yml": 15,
+      "AUTHORS": 16,
+      "AUTHORS.rst": 17,
+      "CHANGELOG.md": 18,
+      "CHANGELOG.rst": 19,
+      "CODE_OF_CONDUCT.md": 20,
+      "LICENSE": 21,
+      "MANIFEST.in": 22,
+      "Makefile": 23,
+      "README.md": 24,
+      "README.rst": 25,
+      "SECURITY.md": 26,
+      "appveyor.yml": 27,
+      "codecov.yml": 28,
+      "docs/Makefile": 29,
+      "docs/_static/theme_overrides.css": 30,
+      "docs/algorithms.rst": 31,
+      "docs/api.rst": 32,
+      "docs/changelog.rst": 33,
+      "docs/conf.py": 34,
+      "docs/faq.rst": 35,
+      "docs/index.rst": 36,
+      "docs/installation.rst": 37,
+      "docs/requirements-docs.txt": 38,
+      "docs/usage.rst": 39,
+      "fabfile.py": 40,
+      "jwt/__init__.py": 41,
+      "jwt/__main__.py": 42,
+      "jwt/algorithms.py": 43,
+      "jwt/api.py": 44,
+      "jwt/api_jwk.py": 45,
+      "jwt/api_jws.py": 46,
+      "jwt/api_jwt.py": 47,
+      "jwt/compat.py": 48,
+      "jwt/contrib/algorithms/py_ecdsa.py": 49,
+      "jwt/contrib/algorithms/py_ed25519.py": 50,
+      "jwt/contrib/algorithms/pycrypto.py": 51,
+      "jwt/exceptions.py": 52,
+      "jwt/help.py": 53,
+      "jwt/jwk_set_cache.py": 54,
+      "jwt/jwks_client.py": 55,
+      "jwt/py.typed": 56,
+      "jwt/types.py": 57,
+      "jwt/utils.py": 58,
+      "jwt/warnings.py": 59,
+      "pyproject.toml": 60,
+      "ruff.toml": 61,
+      "setup.cfg": 62,
+      "setup.py": 63,
+      "tests/__init__.py": 64,
+      "tests/contrib/test_algorithms.py": 65,
+      "tests/keys/__init__.py": 66,
+      "tests/keys/jwk_ec_key_P-256.json": 67,
+      "tests/keys/jwk_ec_key_secp256k1.json": 68,
+      "tests/keys/jwk_ec_pub_P-256.json": 69,
+      "tests/keys/jwk_ec_pub_secp256k1.json": 70,
+      "tests/keys/jwk_keyset_only_unknown_alg.json": 71,
+      "tests/keys/jwk_keyset_with_unknown_alg.json": 72,
+      "tests/keys/jwk_okp_key_Ed25519.json": 73,
+      "tests/keys/jwk_okp_pub_Ed25519.json": 74,
+      "tests/keys/testkey_ec": 75,
+      "tests/keys/testkey_ec.pub": 76,
+      "tests/keys/testkey_ec_secp192r1.priv": 77,
+      "tests/keys/testkey_ec_ssh.pub": 78,
+      "tests/keys/testkey_ed25519": 79,
+      "tests/keys/testkey_ed25519.pem": 80,
+      "tests/keys/testkey_ed25519.pub": 81,
+      "tests/keys/testkey_ed25519.pub.pem": 82,
+      "tests/keys/testkey_pkcs1.pub.pem": 83,
+      "tests/keys/testkey_rsa.cer": 84,
+      "tests/keys/testkey_rsa.priv": 85,
+      "tests/keys/testkey_rsa.pub": 86,
+      "tests/test_advisory.py": 87,
+      "tests/test_algorithms.py": 88,
+      "tests/test_api_jwk.py": 89,
+      "tests/test_api_jws.py": 90,
+      "tests/test_api_jwt.py": 91,
+      "tests/test_cli.py": 92,
+      "tests/test_compat.py": 93,
+      "tests/test_compressed_jwt.py": 94,
+      "tests/test_exceptions.py": 95,
+      "tests/test_jwks_client.py": 96,
+      "tests/test_jwt.py": 97,
+      "tests/test_utils.py": 98,
+      "tests/utils.py": 99,
+      "tox.ini": 100
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1298579300,
+      "last_commit_ts": 1779392055,
+      "n_cochange_pairs": 167,
+      "n_commits_dropped_as_bulk": 36,
+      "n_commits_used": 803,
+      "n_files": 101
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "7144e4534c34810f4525dc4578a32addd8212cff",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
