@@ -1,0 +1,4036 @@
+{
+  "chain_hash": "a3f6c766f5187296",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".appveyor.yml||.travis.yml": 3,
+      ".appveyor.yml||pyflakes/test/test_api.py": 4,
+      ".appveyor.yml||tox.ini": 2,
+      ".bzrignore||.gitignore": 2,
+      ".github/workflows/test.yml||README.rst": 3,
+      ".github/workflows/test.yml||pyflakes/checker.py": 2,
+      ".github/workflows/test.yml||pyflakes/test/test_api.py": 2,
+      ".github/workflows/test.yml||pyflakes/test/test_type_annotations.py": 3,
+      ".github/workflows/test.yml||setup.py": 2,
+      ".github/workflows/test.yml||tox.ini": 4,
+      ".travis.yml||README.rst": 2,
+      ".travis.yml||pyflakes/checker.py": 2,
+      ".travis.yml||pyflakes/test/test_api.py": 4,
+      ".travis.yml||tox.ini": 7,
+      "AUTHORS||setup.py": 2,
+      "MANIFEST.in||NEWS.txt": 3,
+      "MANIFEST.in||pyflakes/__init__.py": 3,
+      "NEWS.rst||pyflakes/__init__.py": 15,
+      "NEWS.txt||README.rst": 2,
+      "NEWS.txt||pyflakes/__init__.py": 24,
+      "NEWS.txt||pyflakes/__main__.py": 2,
+      "NEWS.txt||pyflakes/api.py": 4,
+      "NEWS.txt||pyflakes/checker.py": 25,
+      "NEWS.txt||pyflakes/messages.py": 4,
+      "NEWS.txt||pyflakes/reporter.py": 2,
+      "NEWS.txt||pyflakes/test/test_api.py": 2,
+      "NEWS.txt||pyflakes/test/test_doctests.py": 3,
+      "NEWS.txt||pyflakes/test/test_imports.py": 8,
+      "NEWS.txt||pyflakes/test/test_other.py": 7,
+      "NEWS.txt||pyflakes/test/test_undefined_names.py": 4,
+      "NEWS.txt||setup.py": 5,
+      "README.rst||setup.py": 5,
+      "README.rst||tox.ini": 2,
+      "bin/pyflakes||pyflakes/api.py": 2,
+      "bin/pyflakes||pyflakes/test/test_api.py": 2,
+      "pyflakes/__init__.py||pyflakes/__main__.py": 2,
+      "pyflakes/__init__.py||pyflakes/checker.py": 3,
+      "pyflakes/__init__.py||pyflakes/test/test_imports.py": 2,
+      "pyflakes/__init__.py||setup.py": 5,
+      "pyflakes/api.py||pyflakes/checker.py": 3,
+      "pyflakes/api.py||pyflakes/reporter.py": 4,
+      "pyflakes/api.py||pyflakes/test/test_api.py": 28,
+      "pyflakes/checker.py||pyflakes/messages.py": 27,
+      "pyflakes/checker.py||pyflakes/reporter.py": 3,
+      "pyflakes/checker.py||pyflakes/test/harness.py": 6,
+      "pyflakes/checker.py||pyflakes/test/test_api.py": 3,
+      "pyflakes/checker.py||pyflakes/test/test_code_segment.py": 2,
+      "pyflakes/checker.py||pyflakes/test/test_doctests.py": 12,
+      "pyflakes/checker.py||pyflakes/test/test_imports.py": 35,
+      "pyflakes/checker.py||pyflakes/test/test_is_literal.py": 2,
+      "pyflakes/checker.py||pyflakes/test/test_match.py": 2,
+      "pyflakes/checker.py||pyflakes/test/test_other.py": 54,
+      "pyflakes/checker.py||pyflakes/test/test_type_annotations.py": 28,
+      "pyflakes/checker.py||pyflakes/test/test_undefined_names.py": 27,
+      "pyflakes/checker.py||tox.ini": 4,
+      "pyflakes/messages.py||pyflakes/reporter.py": 3,
+      "pyflakes/messages.py||pyflakes/test/test_doctests.py": 2,
+      "pyflakes/messages.py||pyflakes/test/test_imports.py": 6,
+      "pyflakes/messages.py||pyflakes/test/test_is_literal.py": 2,
+      "pyflakes/messages.py||pyflakes/test/test_other.py": 11,
+      "pyflakes/messages.py||pyflakes/test/test_undefined_names.py": 2,
+      "pyflakes/reporter.py||pyflakes/test/test_api.py": 7,
+      "pyflakes/test/harness.py||pyflakes/test/test_doctests.py": 2,
+      "pyflakes/test/test_api.py||pyflakes/test/test_doctests.py": 3,
+      "pyflakes/test/test_api.py||tox.ini": 3,
+      "pyflakes/test/test_imports.py||pyflakes/test/test_other.py": 10,
+      "pyflakes/test/test_imports.py||pyflakes/test/test_undefined_names.py": 8,
+      "pyflakes/test/test_other.py||pyflakes/test/test_type_annotations.py": 2,
+      "pyflakes/test/test_other.py||pyflakes/test/test_undefined_names.py": 7,
+      "setup.py||tox.ini": 2
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "pyflakes/__init__.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "eb8507390a4c576df7bcc180cbafd853e3c0c9e2",
+        "timestamp": 1128691805
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "2e67ba7a64f0f54765d7356be66b5fd7c5a659fa",
+        "timestamp": 1128693769
+      },
+      {
+        "files": [
+          "bin/pyflakes"
+        ],
+        "sha": "fc3531f0ffe57d3fa6ebe8525fbd285e1cc42f2e",
+        "timestamp": 1129158431
+      },
+      {
+        "files": [
+          "bin/pyflakes"
+        ],
+        "sha": "aff85edf0956db034b4abb0646a51cd01dde3308",
+        "timestamp": 1129227257
+      },
+      {
+        "files": [
+          "pyflakes/test/__init__.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_other.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "faa6cc3134190c523860dadeec18f4e061886977",
+        "timestamp": 1130537183
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/harness.py"
+        ],
+        "sha": "2cd9e45ed7849f5422e05d12a7eb80f073a1f11c",
+        "timestamp": 1135996316
+      },
+      {
+        "files": [
+          "bin/pyflakes"
+        ],
+        "sha": "976386cddd89ef505d5f1486309c00c1254dd10b",
+        "timestamp": 1139148956
+      },
+      {
+        "files": [
+          "bin/pyflakes"
+        ],
+        "sha": "aeb0ab4c18e044d4da32d904e06e6a8e86c23591",
+        "timestamp": 1139154858
+      },
+      {
+        "files": [
+          "bin/pyflakes"
+        ],
+        "sha": "fda25676254afe7c4669d735559990570dfb209b",
+        "timestamp": 1139156351
+      },
+      {
+        "files": [
+          "bin/pyflakes"
+        ],
+        "sha": "52e2ebad38e0379996bed37de3cef32f55302fbb",
+        "timestamp": 1139161774
+      },
+      {
+        "files": [
+          "bin/pyflakes"
+        ],
+        "sha": "00c891b9d215ea42e41e836452fbefa41b931149",
+        "timestamp": 1142380731
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "24fa69d82c45117ebe2b96ff312182f81871c8f5",
+        "timestamp": 1144073958
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "b6b6f91052faf07bfa2f6592fa1110687e8b8ded",
+        "timestamp": 1168907216
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "506492487d72033e39e583befe9eddf57cf01627",
+        "timestamp": 1206480380
+      },
+      {
+        "files": [
+          "pyflakes/messages.py"
+        ],
+        "sha": "c4e1e56b1f9a8f47438084cd92267bd42155dfee",
+        "timestamp": 1212847229
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "1cd653d38b521d1e8ea10410830cf29683a8c09f",
+        "timestamp": 1216038424
+      },
+      {
+        "files": [
+          "bin/pyflakes",
+          "pyflakes/api.py",
+          "pyflakes/scripts/__init__.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "0ccef85c950c91712e6126339ff7b0535f1d5708",
+        "timestamp": 1219933987
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "52565929750b668308d7ebd77a62746c535b5ed8",
+        "timestamp": 1222900818
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d13e1895eb96cedc04b8d88ba24db24e5a0a50bd",
+        "timestamp": 1227771741
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "d93caa0a5ebeb16a2a2592a98bd83bd0c2d84083",
+        "timestamp": 1227788154
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "cfd5f439fccd5685e1250ccf5b92775829fca1fc",
+        "timestamp": 1233154521
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py",
+          "setup.py"
+        ],
+        "sha": "6eb62e2ca2ad515b5f118a8f10fb9541df179409",
+        "timestamp": 1233336008
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "5946f55aeec4d3eebe603f2b49648b264fc3255e",
+        "timestamp": 1238189911
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "659e40fc54c29e3b4cbabb3726940e1cf0e6fe09",
+        "timestamp": 1242925661
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "52b032c8e1dfb9b80bfb5c911d509715cd5f7fb3",
+        "timestamp": 1243343658
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "0fbfe73065c410a9b13767c773660f5068ceca84",
+        "timestamp": 1245269884
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "b73a3d12e27b65485c16c4d38bbfea20a89c0458",
+        "timestamp": 1245272328
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "79fd312c194e38726a501075f9c190951b0f0975",
+        "timestamp": 1245282181
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "fe40c1de78f15a505b6ee4a9a8f89e378ecc0d91",
+        "timestamp": 1245519320
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/harness.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "dd5679736ea780ac74343bde015b13883d7aab83",
+        "timestamp": 1246881674
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "45dd3db9d2c059ad5e9ee85042dd3e618fa5458d",
+        "timestamp": 1246881837
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "aa3fe36eacfb5fd8baa1ad1755ef31b1239d0702",
+        "timestamp": 1246888173
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "9f903ff6d0a7528094a86b05cdf7bf4d8d312294",
+        "timestamp": 1248532979
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py",
+          "setup.py"
+        ],
+        "sha": "a56b41901aeecc2074b0facf2936086f054561f8",
+        "timestamp": 1259543335
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "1c56ee583010ea4934e2d7e50d390f966fa5998e",
+        "timestamp": 1270298814
+      },
+      {
+        "files": [
+          "LICENSE"
+        ],
+        "sha": "a637aaafb31f05f37db2c4d864418d575093fafd",
+        "timestamp": 1315065787
+      },
+      {
+        "files": [
+          "NEWS.txt"
+        ],
+        "sha": "fc9f30dd1d23ff28c9ec090b9e922845834cc449",
+        "timestamp": 1315065808
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "pyflakes/__init__.py",
+          "setup.py"
+        ],
+        "sha": "37e29204c36986985af4e7fc7f88fdcd359dc717",
+        "timestamp": 1315065974
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5335d3c5a25c887d07adf1d75f571789ef2c5c41",
+        "timestamp": 1315067464
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "3ef443aab87c436868746e7e855fb360eda8eaf8",
+        "timestamp": 1320074375
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "c6f87919874a7aa71cbf7f3851c8f17294b17225",
+        "timestamp": 1321546918
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "f78b253379e8551f09921d2fe49c2236ed3f8641",
+        "timestamp": 1323030465
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "0502a3b0f20bf4fbd5d446fca0167a80b8ff32ca",
+        "timestamp": 1324486625
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "e4b97e1033636f5844d2c1e06311b01ec2c247e5",
+        "timestamp": 1340798131
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "32394d8e534104bbbe297e484270f2c657b76f9a",
+        "timestamp": 1340798717
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "802e0a46e59f5039ba0b2d0e21dd1219baed1efa",
+        "timestamp": 1340798771
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "7555e3437c4786e036c8948a8fd0b1aac6897ce4",
+        "timestamp": 1340798932
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "5e1bf50353b35c388dfc2746f59b8fc9ecfaeeb4",
+        "timestamp": 1341592595
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "6e1f67b413e2967ed2f5a4482813674ad72f153c",
+        "timestamp": 1341593046
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "8fb3f91e467535622b137f14f038d0c57f0b93dc",
+        "timestamp": 1341593285
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "14e0ac63883a419e534fc81eea162c2b91c6a907",
+        "timestamp": 1341594181
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "3877dd22c923d65beb1057f398dbb68d5666da71",
+        "timestamp": 1341595981
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "52ef0bf4dec38ddbd04a13422eaa6b71cc25857c",
+        "timestamp": 1341596545
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "263387a7fc215f8edcf5f0c3326ff5094ca9cd1e",
+        "timestamp": 1341598045
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "d20a0df41fb0ff89f37ba134746afd88502c144a",
+        "timestamp": 1341598302
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "b307d6ab28422ba9977a0decd5d0ce5dff81ecb1",
+        "timestamp": 1341751601
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "b69c41e37267124c1449c0d17cc463ec6978d98b",
+        "timestamp": 1341752397
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "69d6a67f6533be58550e3515f0867dd3e9b385e5",
+        "timestamp": 1341752827
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "5b3224fe27aa4157297277f3fe352a4d7b2d5af4",
+        "timestamp": 1341752878
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "ee58bb55142b514dab62dc201c80056331f64405",
+        "timestamp": 1341753661
+      },
+      {
+        "files": [
+          "bin/pyflakes",
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "3ec699552b9aefdd2bab63656636ca4ca8cdc282",
+        "timestamp": 1341755326
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "aca3d61368baa5a7b6c48863aeb8dd3a411eb5a0",
+        "timestamp": 1341755414
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/reporter.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "6be5454846140cfd054e1a04666f8c6b61e30f90",
+        "timestamp": 1350638746
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "f8583784d9d36cd84e75d801dcda814a811f3699",
+        "timestamp": 1350639324
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "2199799cc05a8e23bd20655aa98d71bf73da1531",
+        "timestamp": 1350639768
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "755ce8a189ac63037eddbca3f9ad5ebe5e158bf0",
+        "timestamp": 1350640015
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "1d3343b3692809e6348275b8448798d566fccfa2",
+        "timestamp": 1350640384
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "ce9cb5e47b53bf861ca40d4cdb00e5a6d5982058",
+        "timestamp": 1350641189
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "88f49165f951ff05f53016eef0245153f3ecdeac",
+        "timestamp": 1350642551
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "62f01c1552ed27ecbcc0bffcb3a374fc848af347",
+        "timestamp": 1350642616
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "0501ef884f2ca7dd89bc2459fa132c0f19cb394f",
+        "timestamp": 1350642672
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "7ef118a3938e2496f13d993c4d062fb18e525177",
+        "timestamp": 1350643462
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py"
+        ],
+        "sha": "98db87da5a26482a597255eb4654329a7aba58a2",
+        "timestamp": 1350989257
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/reporter.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "07fa4f6a33293d8da79e330ccc9a70442655667f",
+        "timestamp": 1350989481
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py"
+        ],
+        "sha": "cbf6c2985f97cf9e49c70dd26c6040e542b839f6",
+        "timestamp": 1350992619
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py"
+        ],
+        "sha": "2d46fa3e084a673367390b74290cf6521bb478ee",
+        "timestamp": 1350992683
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "964e62621c76d1e7f403987fad8d371d6ad663d6",
+        "timestamp": 1350992746
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "8c06fdb0b257c5fad1edf91ffe48adc003f14431",
+        "timestamp": 1350992811
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "229ab8488844100bf23a121ba2e7d78a8598bd2c",
+        "timestamp": 1350992934
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "e715f5d6499d7e014c3ef2135b86049841595ac2",
+        "timestamp": 1350993152
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py"
+        ],
+        "sha": "599e8b0806d1438cc58e9cdb4b89bd13bacc4765",
+        "timestamp": 1350997655
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "dffc10532d361c3563934a19c2820d772388c8bf",
+        "timestamp": 1357579494
+      },
+      {
+        "files": [
+          ".bzrignore",
+          ".gitignore"
+        ],
+        "sha": "8e14153311b16ba31932a1f49cb687ba0ba84bc1",
+        "timestamp": 1357579845
+      },
+      {
+        "files": [
+          ".bzrignore",
+          ".gitignore"
+        ],
+        "sha": "bb704972b1a8bcac51e47c1894f43a2b276246ea",
+        "timestamp": 1357597441
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "bd491b0b716d77a068d55a134b87218c497d2f17",
+        "timestamp": 1357685761
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "1df0995968f0cf8fcb6b94088723e2753f92f701",
+        "timestamp": 1358555212
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5fd511edfb6b9d67c93519cb0772f8eaea138b0f",
+        "timestamp": 1359075149
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "fe79ab8813e8d1996eec37aa0c5d1c11eb50847f",
+        "timestamp": 1359097829
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "26a12ed3871561704c02c3a7f664dec546016ce4",
+        "timestamp": 1359098387
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/reporter.py"
+        ],
+        "sha": "d532a925d316aafb934fa537e18cc279b77cee9b",
+        "timestamp": 1359102965
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "7f42430fb4ff5c2640e5ff929d13be17c48d1214",
+        "timestamp": 1359103380
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "7c22aff4d4efa4d321f0f01b5bec58b71d1edc32",
+        "timestamp": 1359103788
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "7bd964f152bcd9bdc44aea1afeac8a879c66d61a",
+        "timestamp": 1359104774
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_other.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "7b48fce0f9e8c2551465adf9208d4b573513c18f",
+        "timestamp": 1359107041
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "21bb75dc5fef6ae9e1b35b5b85c8e163e990a4fe",
+        "timestamp": 1359109244
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "a38a1d039bba320c67ec0587d79341e11fd6cee2",
+        "timestamp": 1359111622
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "aa73b5a6e053cc3338d0667432ac93216d5622ae",
+        "timestamp": 1359114640
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "bfca579de4eee03e0dd276d40e626ef200b8c436",
+        "timestamp": 1359117009
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "ec18cfa2e0463a35cce6cce377810ed632c77618",
+        "timestamp": 1359118601
+      },
+      {
+        "files": [
+          "NEWS.txt"
+        ],
+        "sha": "5ed5c7b17cdb94597128f43b6ee0b9cecf212ac0",
+        "timestamp": 1359125615
+      },
+      {
+        "files": [
+          "bin/pyflakes",
+          "setup.py"
+        ],
+        "sha": "2b486c5917bcbd074f181960644abfb458c3f899",
+        "timestamp": 1359126403
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "f156b48826fd9ad64c6d6322b829c3e0c3e60085",
+        "timestamp": 1359126738
+      },
+      {
+        "files": [
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "06ab0122494563123606ae52ec9424c05014850d",
+        "timestamp": 1359126940
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "a236298085e2a87a0ce5964a0e1cea90fd2f0b07",
+        "timestamp": 1359127951
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "c3f01efb01cc2095a3ac38823224c9ce0986956e",
+        "timestamp": 1359131044
+      },
+      {
+        "files": [
+          "LICENSE",
+          "setup.py"
+        ],
+        "sha": "a24c09ddd48607342f1aaf7996084de8640005c4",
+        "timestamp": 1359162052
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "setup.py"
+        ],
+        "sha": "8e7122382645752dde5ad09c1dceaebc79898188",
+        "timestamp": 1359196833
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "3b6860adc31481362f5e40aa28eb4758c890105b",
+        "timestamp": 1359293945
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "db1b972a1bb7c843dfb91bf5be9e4ab96ff625a8",
+        "timestamp": 1359294389
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "a86603921f66cdeb33937e91606348b097777966",
+        "timestamp": 1359299093
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "setup.py"
+        ],
+        "sha": "cf381ad887fd608a6c2003b722d1f2dcffb66629",
+        "timestamp": 1359299376
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "75e5f7e6d7ba2e73fce4f7187a2e126e6ff10642",
+        "timestamp": 1359328649
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py"
+        ],
+        "sha": "0f13591432042f5ca3f4a64e5e62638c41bfa449",
+        "timestamp": 1359358412
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "02864b26e590893f7effd61d96460e60ff6dec7f",
+        "timestamp": 1359395424
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "d1da091c4afbb3845f42adf83a4f82afc1fcb66c",
+        "timestamp": 1359398589
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "b6db32a2323f97b2673cd3e87066b43df7ccc2ca",
+        "timestamp": 1359412943
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "9001db96a00d9c422df38c7cb133b1b3391ba72c",
+        "timestamp": 1359414791
+      },
+      {
+        "files": [
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "a319a660631b61ab3ddae0d94aefec297d875aca",
+        "timestamp": 1359416139
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py",
+          "setup.py"
+        ],
+        "sha": "4f97d32ae5e2e0bbbcda486cd63ae3e683e4d33a",
+        "timestamp": 1359458818
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "595b0be5cf53fa8b79461b2377b77ee6329ad333",
+        "timestamp": 1359471519
+      },
+      {
+        "files": [
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "2a171b1f45e3f917081c88c367feba69bcb47300",
+        "timestamp": 1359473689
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "5e962f0449491afd765ad3f9e3e42bcc64ab77dc",
+        "timestamp": 1359481278
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "f9a73517144631bc6b9645c475b89296862e269a",
+        "timestamp": 1360164448
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "8b2d56f74d94587760c8208e040c0ff6b2791bc6",
+        "timestamp": 1360285153
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "55ba39c4ccd08154012b10b94d9071f318e21d79",
+        "timestamp": 1360692544
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "05a90e3146ba0c816f2feaead2fbe65cceed4e23",
+        "timestamp": 1361470918
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "86fadaf3d3179f3e6ea53c3e95bf55d804f7d0c7",
+        "timestamp": 1362609572
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "e43131bb602179f624bb8cd12ceae44fbffa1cfe",
+        "timestamp": 1362610229
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/api.py"
+        ],
+        "sha": "f189c0ab4ec34a3f38ffc9c3e479d4d17b9d886a",
+        "timestamp": 1364588043
+      },
+      {
+        "files": [
+          "pyflakes/__init__.py",
+          "setup.py"
+        ],
+        "sha": "01fc5cdd01020cec2f9f0cc371fa909ad4fd0aa1",
+        "timestamp": 1364588666
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py",
+          "pyflakes/__main__.py",
+          "pyflakes/api.py"
+        ],
+        "sha": "99df08484fc800a53f6af7814390a210da448346",
+        "timestamp": 1364590081
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "ef4da24e6b201425b4984e2aa6373994a346a462",
+        "timestamp": 1364602083
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py",
+          "pyflakes/__main__.py"
+        ],
+        "sha": "72449cccd9a1cadd6f41718cbbd6c38bd1cf2709",
+        "timestamp": 1364635695
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "1a4505087cf7bca9117d11f1c5bed957f73ffb68",
+        "timestamp": 1364643039
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "9f1b092c3ac759aee3243801eb5218d4101dd67b",
+        "timestamp": 1364659034
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "c1428a80761338b5164f1f90b1cfabdd153ac7e5",
+        "timestamp": 1364659456
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py"
+        ],
+        "sha": "9fd198a0f9ccf5958f6095ca8baa00e39e0168c5",
+        "timestamp": 1364666093
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "0eed7fc7c516d2d561b76e7109b400fba8660648",
+        "timestamp": 1364667650
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "588dadf211b51e22928fd686e2725142db38870a",
+        "timestamp": 1364676197
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "81279a1353754e4d6616f88cbb6373acb5740862",
+        "timestamp": 1364678809
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "727d7f8285dc7d7b411063bdc4bafb07d0552723",
+        "timestamp": 1364682234
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_other.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "c995bb5094baf0d62397bc241dde6d9aa74f3e70",
+        "timestamp": 1364687270
+      },
+      {
+        "files": [
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "13fad0e42a41492aeed83b2d781523f155bce434",
+        "timestamp": 1364688051
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/reporter.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "f420ed77821522e742eddc61482d07dd177ce9d5",
+        "timestamp": 1364725954
+      },
+      {
+        "files": [
+          "AUTHORS"
+        ],
+        "sha": "5b4e818f9cf35462408f5e6fb2019e73deb8cda5",
+        "timestamp": 1364725964
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "29c2779035803998740e39d505fc4881500f3ccf",
+        "timestamp": 1364733887
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "b75b6de61a24a8acec184c75fe1ca1dcbad1e60a",
+        "timestamp": 1364971080
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "47b41b11eaf6f29e230aa256b9766f3eb5a7d578",
+        "timestamp": 1365116683
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "45c9b0925f43872d2d12a3b069468ae13e4c1d18",
+        "timestamp": 1365276441
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "ed6fe08d5a10d3fc417a31ff86ecd7df93cd2881",
+        "timestamp": 1365877870
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "665e5bc009f27990b1de464a247f67fcbc0ed59d",
+        "timestamp": 1366189802
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py",
+          "pyflakes/reporter.py"
+        ],
+        "sha": "f22b28b5422fb1bd3c7dc772ad9a7c2dcc648b1a",
+        "timestamp": 1366321877
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py"
+        ],
+        "sha": "4a98c6eca746d9c917b64dd4b5ed1bb1dd517b46",
+        "timestamp": 1366536679
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "830f3851cb96359483071fb24e51759b7323882c",
+        "timestamp": 1366536695
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "e05ebfa4f48b6a1802f2a228b678c1e487f42c4e",
+        "timestamp": 1366536730
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "17b37f2f46943e96acee037f0a08af23ccfda53c",
+        "timestamp": 1366542553
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "55a1acab26df0955ba1474848ffbca4e4f8b43e4",
+        "timestamp": 1366560442
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "329db23504b54f3ccfcd9f4c5f27992e9c49df48",
+        "timestamp": 1366701423
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py",
+          "pyflakes/checker.py",
+          "pyflakes/messages.py"
+        ],
+        "sha": "b7137c50aa506a27e32261b1c892d804b307d099",
+        "timestamp": 1366792401
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py"
+        ],
+        "sha": "8d3af27fa6337655fb6921cff4260791d7644c02",
+        "timestamp": 1366794046
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py"
+        ],
+        "sha": "6d7f106ff32642883d91b05e719b91e9903ce0ca",
+        "timestamp": 1366801414
+      },
+      {
+        "files": [
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "ac3ffd336bc0c5a74c284fde4c08cf2d5ca3caaf",
+        "timestamp": 1366803296
+      },
+      {
+        "files": [
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "fd14fa2df08f140b531ae15def793dea2f9c6418",
+        "timestamp": 1366804559
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "8cf385496afe48af833991620c0cabaf6b47fe99",
+        "timestamp": 1366806548
+      },
+      {
+        "files": [
+          "pyflakes/__init__.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "0c4405d946c6c1be9be3e3a52191ab23968d1244",
+        "timestamp": 1366840296
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "8c8a27b8f2b233adc90aceadd75b23fb65a49262",
+        "timestamp": 1371297225
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py"
+        ],
+        "sha": "fa91b91b08032301aa531f45392737e57281cc12",
+        "timestamp": 1371297526
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "6788772f1b959ad72ccc4352b3283d33ee793b5d",
+        "timestamp": 1371298071
+      },
+      {
+        "files": [
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "c2318431e1107786a6ece498c31f5d3ca852c774",
+        "timestamp": 1371301405
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "40fd6c6ec25985a5a393b6ea0f27b274560e36b9",
+        "timestamp": 1371596940
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "0847a55e3bb19a3935ca2e36d36f1a97b85e0cc8",
+        "timestamp": 1371599262
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "e3544bb839d723a52031dec12f4d0794bb661cd6",
+        "timestamp": 1372780112
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "67f4be5aaf41e8a7ebc9b60d6f4e37181315e128",
+        "timestamp": 1372924764
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py"
+        ],
+        "sha": "b373a73a7fcf05c29255f60c58f0b84094f03c81",
+        "timestamp": 1373025309
+      },
+      {
+        "files": [
+          "pyflakes/test/test_return_with_arguments_inside_generator.py"
+        ],
+        "sha": "7d8ea47bf423190a894257948bc7ffa01dc80dfc",
+        "timestamp": 1373025951
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "50d1997b6ca7ba1bd6d0ec95ad36392a79a02ae7",
+        "timestamp": 1373026164
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py"
+        ],
+        "sha": "7b530b42086218263ba9766f571b236486613f9a",
+        "timestamp": 1384306275
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py"
+        ],
+        "sha": "6dce640d3b5a51d7717ff832d7f0c0bc81f9d94d",
+        "timestamp": 1384306345
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py"
+        ],
+        "sha": "3e82edf89123e7267676ab065f4e2a88660cf2db",
+        "timestamp": 1384306607
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "02b2f9bd20d2a79595c330c69794eb915320768b",
+        "timestamp": 1384307567
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "a8a6796a25a037253706f3e1a82a9465f23d8eeb",
+        "timestamp": 1384308199
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "72263b45e4e9bab3179cd69bbc0a58bf5c91764d",
+        "timestamp": 1387466679
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "5f7f9d89ee24003082ead553b11b1c299e88626a",
+        "timestamp": 1387594126
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "6c00b30b8360e6524be12b73d4020aca6fe5c75d",
+        "timestamp": 1385830437
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "dc465cbd828a584159b61e2219659e5307c5ee58",
+        "timestamp": 1388856826
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "391f2dfae54fc338fc870967086e08805192d82f",
+        "timestamp": 1388857833
+      },
+      {
+        "files": [
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "dd8003d8e88308f29d1f5f6a74afcfc2e3b5a91b",
+        "timestamp": 1372892796
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "2bb9beb7174a7cbe7a734a480b84519d1b51f1df",
+        "timestamp": 1372892817
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "a458105edd680715f798ea922213c4065a848715",
+        "timestamp": 1389918542
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "34fd8ba800d288a41bde4c77d6be61effe94e177",
+        "timestamp": 1389926282
+      },
+      {
+        "files": [
+          "LICENSE",
+          "NEWS.txt",
+          "README.rst"
+        ],
+        "sha": "ecd6ecab1c45c40b25e125b37c1f6994bc7dac4b",
+        "timestamp": 1389953117
+      },
+      {
+        "files": [
+          "AUTHORS"
+        ],
+        "sha": "bfe0b86b438fa8eb979ba5d90b5c106d00e08abe",
+        "timestamp": 1391047680
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/harness.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "5207ca66fe2b61d88d28885ab58d18414981c60a",
+        "timestamp": 1392651662
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "32fb6d7280c653e9bb67f4080481327744339042",
+        "timestamp": 1393101984
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_return_with_arguments_inside_generator.py"
+        ],
+        "sha": "b24d50b88e26990118ef17d67ce6714c5e2ea31f",
+        "timestamp": 1393584566
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "e00ab6cf357390651026b74e3b891695b7ea618f",
+        "timestamp": 1395491799
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "f4c674a3a6e80c902147b5bb61ceb176dde0fd4a",
+        "timestamp": 1395496834
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "427b791cead0b4137c7d7d2e1c7f915f611f47a1",
+        "timestamp": 1395499021
+      },
+      {
+        "files": [
+          "NEWS.txt"
+        ],
+        "sha": "028b81da7dce99c1005af622ceaca0ec530f9162",
+        "timestamp": 1395500675
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "d853ab439edca2c29bd5a2cd5d26725a4beabdbd",
+        "timestamp": 1395500935
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "5e014ff04380172362e4b69755e25c2aec787b1a",
+        "timestamp": 1395503494
+      },
+      {
+        "files": [
+          "NEWS.txt"
+        ],
+        "sha": "fc30b4a5ccd6ee8227f016317e11b5392aba7d78",
+        "timestamp": 1395504277
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "0dab66dc396651af87f17377383cf462d323d310",
+        "timestamp": 1395505548
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py"
+        ],
+        "sha": "0efe5c432db1a7125b4cb540ac309def1a860853",
+        "timestamp": 1395512956
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/checker.py"
+        ],
+        "sha": "0d923586284450e43bc3f5eba85fc1d459b1225b",
+        "timestamp": 1395512984
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py",
+          "pyflakes/checker.py"
+        ],
+        "sha": "06c713990a87d3c10cd02749ee7e0ee44220ea4c",
+        "timestamp": 1395513637
+      },
+      {
+        "files": [
+          "pyflakes/__init__.py",
+          "pyflakes/checker.py"
+        ],
+        "sha": "7b85f86578d7cbd203192dcd189f3fc375163339",
+        "timestamp": 1396088410
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "a2cd4d1575fd13862ae43ee9e490040ffce0aad1",
+        "timestamp": 1396091363
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "12b4d425e304f80115f3de91a372ef0ad232ba90",
+        "timestamp": 1396091515
+      },
+      {
+        "files": [
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "96cad81ab9e10ed676feb168f2c7a7dbf0100d7e",
+        "timestamp": 1396100784
+      },
+      {
+        "files": [
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "d5d38539c31c71cf4efa4fdaedbf1f79e59bf13b",
+        "timestamp": 1396100874
+      },
+      {
+        "files": [
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "0fa6355c121e1f62ca64a46ebeeedc6f5c9d742d",
+        "timestamp": 1396105704
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "ffe926c282bf78737f8c34dff111ccbdab6c837b",
+        "timestamp": 1396114962
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "f9a826f146c5b68af7ecb1a5f86da6f7e2510f4f",
+        "timestamp": 1396116285
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "3d54e69e337481970faac3eae60ef35f4cfc6719",
+        "timestamp": 1396132090
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "408182df1d1e5079297e4548552eaeaaad367f2c",
+        "timestamp": 1396134606
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "ce216122a0115f537269a49f462895a70bef37ff",
+        "timestamp": 1396135108
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_doctests.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "de8b2cb28e722d8a926ba3336b2154914a83cb71",
+        "timestamp": 1396135990
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "4417b7730c3e42087d3adb56d13bd4756d05b0bc",
+        "timestamp": 1396146154
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "a55a126350880ef378cb7e8d6576e400d7f6205d",
+        "timestamp": 1396146969
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "20c7c950a79f24ad53cfc874689e32b903493f36",
+        "timestamp": 1396148010
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "ef4848b1caf0aef5cd5116428dac9671abfb4b4e",
+        "timestamp": 1396148349
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "dec1ddbda39bdef7c0db39e7a32ec153c76296be",
+        "timestamp": 1396179183
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "4eea5c3ce0caa121ac6b12ac4107f4650f74679d",
+        "timestamp": 1398176744
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "5795927282f3d2c4c546e18d9d5a575c6a0a6c9d",
+        "timestamp": 1398176757
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "d9f42ad90e0e869b350eccdea43670597a28a7ad",
+        "timestamp": 1398176896
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "pyflakes/__init__.py",
+          "pyflakes/test/test_imports.py",
+          "tox.ini"
+        ],
+        "sha": "f548b4420af00293af16230b1b31f5479aed3915",
+        "timestamp": 1398500922
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "a25406bc28d208400fb094aa5a82766ec6072c9c",
+        "timestamp": 1398502287
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/api.py"
+        ],
+        "sha": "c3b1fc2b749cffa4d43e3e71d968a5e37a30b6f2",
+        "timestamp": 1398521628
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8c4cd1041b8dc718c72db075a3d1b64b261a094a",
+        "timestamp": 1398522221
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b8af00d395281045135f4decbafe796b12f3b2e2",
+        "timestamp": 1398523140
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "e30852960da85111b5b53ea2878975bd58ceb2f9",
+        "timestamp": 1398526818
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b9ecb941a58c02e27b612081ae8708848866eede",
+        "timestamp": 1398529522
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "ed84e6e2f2a7336f8766998b23bbb4359cf9ed7f",
+        "timestamp": 1398863267
+      },
+      {
+        "files": [
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "7b6e7d638d04a73b3a3e59997a5c807468754e3e",
+        "timestamp": 1406127639
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "fdc5525b8ab6a2c6142900bca36d39c08e46d2e9",
+        "timestamp": 1406127365
+      },
+      {
+        "files": [
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "29a511790992de719a038dcf7b11eeec806912b6",
+        "timestamp": 1406127796
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9a0b6508b93620edb2a8648e3f7c91925439e169",
+        "timestamp": 1414592777
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "8f47ab1887399f6df0a9173efa8ffb87447140bb",
+        "timestamp": 1417182428
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "7f840f38e91045c3a255eaa8d61e1853d768ffac",
+        "timestamp": 1417189454
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "4bfe6751b4b9b40013cab29769b9c4712558669e",
+        "timestamp": 1423911657
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "4620866430463084421e3b9e7b858b894c6734ac",
+        "timestamp": 1423914018
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "2171de4f23e837ade4e76061719b1fd1c804f8cf",
+        "timestamp": 1423926311
+      },
+      {
+        "files": [
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "84b7dd63a379b30968f028a0346ec1958c82fbbe",
+        "timestamp": 1423926472
+      },
+      {
+        "files": [
+          "pyflakes/messages.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "988a4fb9fdd8473edb44d00f011a9b8eac09b7bc",
+        "timestamp": 1426862140
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_other.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "1fc8eacfbc5093581769bf9ae605ee356f377db3",
+        "timestamp": 1426422947
+      },
+      {
+        "files": [
+          "AUTHORS",
+          "setup.py"
+        ],
+        "sha": "c5d8e427fe07c1edc286d74d5bbc1d5659783452",
+        "timestamp": 1429271909
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "7b7f50a0810b343be3623c141cca50a487bdec31",
+        "timestamp": 1429275688
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "03ffc76367c2910f37908105391c425cc4ae52da",
+        "timestamp": 1430180881
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "d95c0822fb999a1efc1a7a95b9c494c66f4b7d33",
+        "timestamp": 1432767964
+      },
+      {
+        "files": [
+          "pyflakes/__init__.py"
+        ],
+        "sha": "fef7259beb57b38eb2c3e4829a2bbdcf56c0d6b3",
+        "timestamp": 1433085571
+      },
+      {
+        "files": [
+          "pyflakes/__init__.py"
+        ],
+        "sha": "ea4e8a190c02efcdaebebdfc733d6f071b9fa9a3",
+        "timestamp": 1433096711
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "8f30620876446deb27abe2749d847946556d84ad",
+        "timestamp": 1433901104
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "6e3355389615bc6687048f3c9f877003b000905d",
+        "timestamp": 1434500220
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "907e2da7aaa731236deec16a8323e80be7ae54f5",
+        "timestamp": 1434536383
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "bf62d389bdbe2085f765f648de536eb44979e448",
+        "timestamp": 1436537871
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "63d4a1e548a290036d9672006ce2c2d661b563ef",
+        "timestamp": 1436885478
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "b8a5841d9f4c47bd6fecf1473612587b3df0e301",
+        "timestamp": 1439521011
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "5f6aa0bfee9fae4b65a8d2d2657c7f54bdd2c2d6",
+        "timestamp": 1439552344
+      },
+      {
+        "files": [
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "c9bae487f8d65f13a545bc03c12cb60952d10936",
+        "timestamp": 1439561959
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "ec8dbbb30a2a5ad8a1522d5b474b942e1eef98c5",
+        "timestamp": 1439563941
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "ad8e83db81c054152ae931ad9c8d3148b4171972",
+        "timestamp": 1439517181
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "c2086d643a519ce2eb1c266b4cf1550755b75d73",
+        "timestamp": 1440598746
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "237e49ddf9e675ee44a715ac45b649d55973be40",
+        "timestamp": 1441062421
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "759d7a20b8639297643888889c68684c1bd4e958",
+        "timestamp": 1441636479
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "24c2aa82e00f83c1cb9f2bb8fb61a75125b46d7f",
+        "timestamp": 1441637139
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "07b1f8601be434cba18c5bfe096ef3e9cbd783c2",
+        "timestamp": 1442412728
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "e1da1833ff26bb2a5819d7bee633ff608ec6ab3f",
+        "timestamp": 1442762881
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e056584a94ba273f56dda5454d18c5a39616d5c7",
+        "timestamp": 1442928938
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/messages.py",
+          "pyflakes/reporter.py"
+        ],
+        "sha": "ffe2d4ed41e85a4e2f6bb2a4c90f2b6b2f2e5102",
+        "timestamp": 1442930207
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "69a715dff7243eda61f0bf5f16b8a37afb5b7ac6",
+        "timestamp": 1446503867
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "9a4d45c12e86cbb9effd749bd13ba48927063c23",
+        "timestamp": 1446955411
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "4feb31f04e4748bb131c58502175a1cc3bf5a19a",
+        "timestamp": 1447310764
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/harness.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "93aa3c435505b8541b151c3e4b24c0ec4333f0bb",
+        "timestamp": 1446503176
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "7f751bec39459c9799f0d0553589e6193c1c00a4",
+        "timestamp": 1447417900
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d6de471efa1dab83780d7ea738f780b81abd5081",
+        "timestamp": 1447436167
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "dcf31a1ae62cd6ba1514acf61786db846b8d9d88",
+        "timestamp": 1447564705
+      },
+      {
+        "files": [
+          "pyflakes/test/test_doctests.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "f048360b775a9cfffb1c42a2e5cf6f25ffe895f9",
+        "timestamp": 1447503097
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "02f55ed784db600d02ae130ec325ac37d44322a9",
+        "timestamp": 1447861471
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "265766da8921620b44752bdc6ba95b3775f0390b",
+        "timestamp": 1447675692
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "c3255c73629b282be3dccbc7887f608d2359593b",
+        "timestamp": 1448027127
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "0532189b34086740d7fe553bd87c0a6cf682a93b",
+        "timestamp": 1448369344
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "6734c37970a6a2424c4289f0986f242f66851fbb",
+        "timestamp": 1448370338
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "9c88c0ec3f4cdb0fb2e69c2bdadc0bdd03da4a55",
+        "timestamp": 1448370878
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "8d80642a76e16af6a8756a21b9ef9ec9a4b32108",
+        "timestamp": 1448371204
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "e8a5c67b23678d778982a202ee0c46513e584b05",
+        "timestamp": 1450748805
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "f0084592e11b2f33b8e9684cbd2606eab5d92dd2",
+        "timestamp": 1453739491
+      },
+      {
+        "files": [
+          "pyflakes/__init__.py"
+        ],
+        "sha": "cddd729ec57ae0c5953d3113ed69077410a4e48e",
+        "timestamp": 1456843313
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "aec68a7847d8dbd1371242f42f9302103a68178f",
+        "timestamp": 1448461493
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "2a698f87c02a43d4489e30481e9def14ed4b4431",
+        "timestamp": 1457676057
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "9f26423dd1b9dc7cb14193d7bd873130247f4027",
+        "timestamp": 1462324512
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "cbe1fe24ad20f0fa043afe79033a77e499861d36",
+        "timestamp": 1462373586
+      },
+      {
+        "files": [
+          "NEWS.txt"
+        ],
+        "sha": "10b168a8b10e75479a1db90e7a27a7fe0eb3198c",
+        "timestamp": 1462462770
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4361b6d0733837e4d0e402c41cb55961bd43a5d7",
+        "timestamp": 1462476527
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "45c28a31d3f4c402056433da2a7eb29f565e4344",
+        "timestamp": 1462479370
+      },
+      {
+        "files": [
+          ".gitignore",
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "29914fc69f300f614e6dde4724cec05dc68a0ea6",
+        "timestamp": 1462488153
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "f69d4b415b5f83a2c0b09f494927350f80eb0947",
+        "timestamp": 1462538450
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "885a8e5395f3eac58a995a49dbe347b8f6648f64",
+        "timestamp": 1462552951
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "d8591997d9718f482f7f1d39f2bf1aa0e4a5ab92",
+        "timestamp": 1463077732
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "d721eaf58cc2fc13f3199a3f358db7250e49983b",
+        "timestamp": 1463077775
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "72acff0029ba7c98b6b1345c51a3db023409e853",
+        "timestamp": 1467642289
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "b161e506344d609842e224505fc13374faacfbda",
+        "timestamp": 1468371364
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          "pyflakes/test/test_api.py",
+          "tox.ini"
+        ],
+        "sha": "2ab47d7628396d3b23d2dda5d163e0c2089666b4",
+        "timestamp": 1469126082
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_dict.py"
+        ],
+        "sha": "152ca182a603d7327925873db9a795797812968d",
+        "timestamp": 1469402129
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "9883d104e5559fb20a96fa68e537b702a09ec8f2",
+        "timestamp": 1469649246
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "cce2e51c404d670b3d8590f8107820642c64696e",
+        "timestamp": 1470315423
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f67ae8f345c513ca17895bede174483748d6426c",
+        "timestamp": 1470750574
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "8447662086b8d3a02871e42feee5b9439c5c7d0a",
+        "timestamp": 1472759659
+      },
+      {
+        "files": [
+          "AUTHORS",
+          "README.rst",
+          "pyflakes/checker.py",
+          "setup.py"
+        ],
+        "sha": "2f50952805a04fe73315922ae10f0d38e3c3d5dc",
+        "timestamp": 1472802698
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "434bbb06d4dc38ab09eb9405be6fc1279286f69d",
+        "timestamp": 1473301431
+      },
+      {
+        "files": [
+          "pyflakes/messages.py"
+        ],
+        "sha": "5d08a79af550b93f83c20ab3b1346439eb2cdd54",
+        "timestamp": 1475020553
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "140e2317d101743566dbf51c2472547e6f3d7b63",
+        "timestamp": 1478228136
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "34a06960aa2621cbacd8e41db4e0ebe6e324dc5a",
+        "timestamp": 1483110865
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "dae4fa70d8d5fd98e81ceb72c007c0c60725dfec",
+        "timestamp": 1483752987
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "4dfa2b8cd367869bfa776f03efc64e514f70e483",
+        "timestamp": 1484010069
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "f13b1e4c6473f0e91135765452956055e5091fb7",
+        "timestamp": 1484357988
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "a007c3d7f05b42647ef7d07be7c3afb3bb36ccdb",
+        "timestamp": 1485115305
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "41148b45f797951057dc782682dd4055a4a3c1b6",
+        "timestamp": 1486230630
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "074c21da3174bc88b2ec02fea767a436e2db643d",
+        "timestamp": 1494609270
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "c94e50759839b781cdbb029ae68f8069234ada3b",
+        "timestamp": 1495756799
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1af4f14ad4675bf5c61c47bbb7c2421b50d1cba4",
+        "timestamp": 1495982853
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bce5564f52dded5a7302d200deb5d1ed36a42d7f",
+        "timestamp": 1496241148
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "e71a72fc7aab8938b2ec2be64a850f6ab6251e53",
+        "timestamp": 1496198527
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "59f15e9ea7024e3f97da8464ae165b9a4b3d1b76",
+        "timestamp": 1496492975
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "4e77dc65ca94d9dafd9e0b61dce4698e0346f83f",
+        "timestamp": 1496535193
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "pyflakes/checker.py"
+        ],
+        "sha": "8baf19d9b7d0ebe31ae79017480752d26fde088a",
+        "timestamp": 1496708987
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4709bf5105078a345fd145d68d39c44a9b6d3a30",
+        "timestamp": 1498315776
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "d2af071c84344de2aa633c1f314ef6cfe6c9515f",
+        "timestamp": 1501771025
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "91510f80bc7ec56e244f4a4944b5270694f9f71c",
+        "timestamp": 1505212152
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "6a9fcbca1ed92f6db4f356c3de23bd33538db5c9",
+        "timestamp": 1505913267
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "111538679d461f51db682d6d1d705b95b7b95ce5",
+        "timestamp": 1505913314
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "da2dd4a09f41661bcd67afdd0696b97bc8e2a54f",
+        "timestamp": 1507297292
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "163af9384eb9cb05492510bac2d8723b96621365",
+        "timestamp": 1508625953
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "d004fbdc1f0290c5261f8cec43db56ab005a6a77",
+        "timestamp": 1508625970
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "8d0f995dafda7105a6966057fd11383f1ea6fb71",
+        "timestamp": 1508762111
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "8aece72839adb4add6c31ccfcb021cef2d731a81",
+        "timestamp": 1511639241
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "8a1feac08dae2478e3f67ab4018af86ff4ec56f0",
+        "timestamp": 1512775819
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "8e9d44cfce56694a8ef89f25d25a3557b8def1e4",
+        "timestamp": 1517101439
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "b75144b4c9c75e16a1f75b912496c7dd44ef716c",
+        "timestamp": 1517154356
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "7a34cfd5df3ce6907466cb2617b36ddec80247f7",
+        "timestamp": 1517232064
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "af45b41f52ec1727c2a84777af0c2e55d6b8d912",
+        "timestamp": 1518996086
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "a440c2022e0c20941fda4d2d48d2e8274a837b78",
+        "timestamp": 1522008266
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "c2742b69e4801e3fe9d15862eb720a3a1e585d6e",
+        "timestamp": 1522009860
+      },
+      {
+        "files": [
+          "NEWS.txt",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "efddb93524db7949322181d5e14c32681779a6e8",
+        "timestamp": 1526836022
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "9a6b70c92d68f474352510bff279902bc4d1a509",
+        "timestamp": 1528554874
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4b2d720d86a9ece3115929bef90fb19b29bf160b",
+        "timestamp": 1528642695
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "15a35c195e03a4be6192f259b362a9c6734babde",
+        "timestamp": 1528517001
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "d6f54c33f428d19d5bcd4c67e9ff89572a85c1c5",
+        "timestamp": 1497692349
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/harness.py",
+          "pyflakes/test/test_code_segment.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "9dd73ec54411a563410872b47e76f0f89f34ecfe",
+        "timestamp": 1530108790
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_builtin.py"
+        ],
+        "sha": "fb1f223ac2141772f140be6f1108d02009c1d658",
+        "timestamp": 1530344663
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "06653e47f6bd8a6a5c73d0676b4ab81a31944a62",
+        "timestamp": 1533287373
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "f9afd2b04f98116fde647a60aed310114768d179",
+        "timestamp": 1533256682
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "e26f3b9fa4bbb8288258dad1c398d4e9026c894f",
+        "timestamp": 1533286524
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "45fc732466056fe35c85936ff25491df7905c597",
+        "timestamp": 1520917972
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "a3eed737212ef8ac6a6ac740da529791651603b2",
+        "timestamp": 1540932246
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "47a164136982ea6ef80f302200b2a29d3a4b1c3c",
+        "timestamp": 1540955759
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "2bc5a2d8d2a709980dd78e484d965b8f7eaeb146",
+        "timestamp": 1531711537
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "60c3b35769984534e2ad03d76637357818fe0112",
+        "timestamp": 1540930033
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_doctests.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "91c9989de63ff7053a6c09313e2c5e09a98d46c0",
+        "timestamp": 1539481626
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "18414e1f9ce0efc29be16ac2213cdf6ce7090675",
+        "timestamp": 1541065749
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "7d4476e1fde8876c3bc145d066188ecdc14c6526",
+        "timestamp": 1541203826
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "NEWS.rst",
+          "NEWS.txt",
+          "README.rst"
+        ],
+        "sha": "e5db06d9a8c6d613783997ac44621a7b86603f35",
+        "timestamp": 1544197305
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/reporter.py",
+          "pyflakes/test/test_api.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "7c74ab0ddccb60a9154c2af5aa4ee4581ccada4a",
+        "timestamp": 1545348183
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "c6cc4b625b41683db8ff5287947c64744e8bae2b",
+        "timestamp": 1545494261
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "6ee966df7e1973771f578bb6d5d041785a0685ec",
+        "timestamp": 1545494271
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "75bc0c03c145b8e53324ccd7810242ecc21b5d7f",
+        "timestamp": 1546279423
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "5ff36693b89351e5d74c696d3724c5afc5fe7510",
+        "timestamp": 1546297349
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "066ba4a93c1077f9154d6ff3806fe1e3a66843a1",
+        "timestamp": 1546348234
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "pyflakes/checker.py",
+          "tox.ini"
+        ],
+        "sha": "009f4e7c21890cefafe5858aa682a7e7f17d6a80",
+        "timestamp": 1546430140
+      },
+      {
+        "files": [
+          "pyflakes/test/test_other.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "f1444872d7e4abfe1359778bca56ad3fd59a6f9b",
+        "timestamp": 1546639106
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "1f4e3772155ac5102e24b65ef3970d3f1454f4d4",
+        "timestamp": 1547746147
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "1f58890b3ea7a8683bc21594a7dc773443102893",
+        "timestamp": 1547744831
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_is_literal.py"
+        ],
+        "sha": "7272b1048ee319cc058bf83d4b78563573583ce9",
+        "timestamp": 1547426491
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "357a2e3cf3461b414ba5a70485a62c411d557c3f",
+        "timestamp": 1548033019
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/checker.py",
+          "pyflakes/test/harness.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "14f28ba0279e3547c09b06870f90f01167da08ec",
+        "timestamp": 1547927550
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "65fdfad26e5213a8245797da3e1368daa63e2067",
+        "timestamp": 1548030001
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "4bc1f21df9d96b5dd1f5f3e213255b27f7104919",
+        "timestamp": 1547763462
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "72bf8cc9998c2e6af838b3bbae61a2d2a79fb809",
+        "timestamp": 1548943732
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "2c29431eaeb9c5b681f1615bf568fc68c6469486",
+        "timestamp": 1548943759
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "ba64624f38a55f162b90120b4c0ba62018c6fd08",
+        "timestamp": 1549039288
+      },
+      {
+        "files": [
+          "pyflakes/messages.py"
+        ],
+        "sha": "6ba3f8e0b59b8fe880345be7ae594ccd76661f6d",
+        "timestamp": 1549720130
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "6501af45203dfa3e2d422cfb3ebbecff853db47f",
+        "timestamp": 1551381713
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "232cb1d27ee134bf96adc8f37e53589dc259b159",
+        "timestamp": 1551443840
+      },
+      {
+        "files": [
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "0b163640274b15b74ac9a650cf24439b0205fc76",
+        "timestamp": 1557014131
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "4a807d45f9dd47266c82035bf6e04508a77f0258",
+        "timestamp": 1562117842
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "2136e1e9f4559930114c82ba316daada7d31836a",
+        "timestamp": 1562679463
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "2107445338793544e7d9be80b63ae03d4295c994",
+        "timestamp": 1563281025
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c0193b288daf817a113fe4b16fa12d8e6be6fec8",
+        "timestamp": 1563281042
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "eeb626328dafd600a30a79c3a37e8b8f4387a187",
+        "timestamp": 1564489230
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "ff442891ea6b1f663dae3ce91d871d2ab50cc68c",
+        "timestamp": 1564931537
+      },
+      {
+        "files": [
+          "NEWS.rst"
+        ],
+        "sha": "cc2977ff8cbb0e2b668413a73a0c3a6a4b4f02e8",
+        "timestamp": 1565185052
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "fa92556ca04214fbe292b3d007b34059e8490b5e",
+        "timestamp": 1565614846
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "e422e53042ada656f7a485f2d053dc1885193026",
+        "timestamp": 1565614858
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "fa9812b71e506b5656d604c424224fc005fb3232",
+        "timestamp": 1565615213
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          ".travis.yml",
+          "pyflakes/test/test_api.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "1bc5292d03f861e7a8d8c0f32cbb1f1bbfeea9ca",
+        "timestamp": 1569692979
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "5ed30a6b9e4b9c1bb4042e5c5b3b506e52133da4",
+        "timestamp": 1569693838
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "ee1eb0670a473a30f32208b7bd811282834486a6",
+        "timestamp": 1569882477
+      },
+      {
+        "files": [
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "ffe938667e03b02ab8c1dfad98d30998e7d712ec",
+        "timestamp": 1570300273
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "1911c203a13826d2eb03d582d60874b91e36f4fc",
+        "timestamp": 1572810687
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "be88036019005b769596ca82fb7b82dfdffdca0f",
+        "timestamp": 1579292687
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "tox.ini"
+        ],
+        "sha": "4ed1ba41d1406dbb6c9ffbd369c2f523c2dc48f3",
+        "timestamp": 1581111372
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "c9708a18a17fbf17e0d88c1d1675ac1a926c4565",
+        "timestamp": 1581715904
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_is_literal.py"
+        ],
+        "sha": "0af480e3351ae40b4ae7f3ce7272a46fd4265dbd",
+        "timestamp": 1581968634
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_code_segment.py"
+        ],
+        "sha": "780bdcd6fe10f34f1b3eff1c255ca50ef3b94478",
+        "timestamp": 1584114613
+      },
+      {
+        "files": [
+          "pyflakes/messages.py"
+        ],
+        "sha": "38ee6702ab5d46ae8de436300a85ff5d61ce9f9e",
+        "timestamp": 1584198408
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "598eb1695b03aca23dad10a833fb95e7ed7c7cee",
+        "timestamp": 1584477649
+      },
+      {
+        "files": [
+          "pyflakes/api.py"
+        ],
+        "sha": "ef3c5cb31e06e9f094294353c3c83a9decc0fe57",
+        "timestamp": 1584478017
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "76416437ef22077b5e2949e78fa3000b3580e319",
+        "timestamp": 1584478417
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "684f14db591e9f23a6f27c04300497f56413da8d",
+        "timestamp": 1584479285
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "c688d2b02ac6e3416775b88d6411ee6a3e8a51ec",
+        "timestamp": 1584544763
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "c72d6cf1a9a119c1dd7a7674f36da21aea32d828",
+        "timestamp": 1584480902
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "e83d920aafa92df9bda7dad606d401dda1ba722d",
+        "timestamp": 1587941580
+      },
+      {
+        "files": [
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "da385d5d65c6f515ae0ca88338b0a2e7a5c19c9c",
+        "timestamp": 1587973505
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "cd261abfe4cf7fcdaac5cef657ae3a16205fa0d7",
+        "timestamp": 1589252294
+      },
+      {
+        "files": [
+          ".appveyor.yml"
+        ],
+        "sha": "2dce2ee2fe31357c5c5a080a6b4b63ea696b7f59",
+        "timestamp": 1601251277
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "cdb0606c85a417e961129aa88ebee210481f730d",
+        "timestamp": 1601252833
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "5fc37cbda5bf4e5afcb64c45caa62062979256b4",
+        "timestamp": 1601316402
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "c23a81037d4f68067c4c987985d177ec7664de59",
+        "timestamp": 1601325861
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          ".travis.yml",
+          "pyflakes/test/test_api.py",
+          "tox.ini"
+        ],
+        "sha": "684edfc8833bdb90b0a8ae562fd24d0e1e2fb686",
+        "timestamp": 1601674464
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "6a5f38b5ab12260fde8a0463acd433bc2d34dbcf",
+        "timestamp": 1601685473
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "dbb8fc4152c7d8dc4f7d666df4171860679f4b47",
+        "timestamp": 1601736300
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_undefined_names.py"
+        ],
+        "sha": "26cf0631fe89f61d5b0ef8d6949676f051e35796",
+        "timestamp": 1602542059
+      },
+      {
+        "files": [
+          ".appveyor.yml",
+          ".github/workflows/test.yml",
+          ".travis.yml",
+          "README.rst"
+        ],
+        "sha": "632e346c3296e8f37a80949eba268d9f49ab86be",
+        "timestamp": 1607032202
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "0e4194b238ffd006441f1a33373062d9c7272d0e",
+        "timestamp": 1607361147
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "d2ab3ec801a0b280ab0fbc66f5afbe3acf6f3701",
+        "timestamp": 1609797929
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "650efb92fd27ae60ec08a70f2ac1afbea37ac3e3",
+        "timestamp": 1609798135
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "43541ee1dd394ec4691625e7295f701b3b073dca",
+        "timestamp": 1609862678
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "e3f26593eac942435c3e8e114506172678d58ce1",
+        "timestamp": 1615737766
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "40e6dc23a8fc48f814e0c81fdcd936321ab9c023",
+        "timestamp": 1615739563
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "22eaa069d49d211fe6e8f06c00711064a8d5e733",
+        "timestamp": 1616543477
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "3de8e61202910033b1f8af96a1afcf8faabc37a0",
+        "timestamp": 1616603405
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "95fe313ba5ca384041472cd171ea60fad910c207",
+        "timestamp": 1616603497
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyflakes/test/test_api.py",
+          "tox.ini"
+        ],
+        "sha": "f3b1b44bf3d2d5927004fa1c2fcf1ab2def816b9",
+        "timestamp": 1621520599
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "da197ee94e791640d82940396c19d2d82ca8defb",
+        "timestamp": 1621522039
+      },
+      {
+        "files": [
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "2e2dfb186569faed40fc93fad2ebf8c5e4b80301",
+        "timestamp": 1621654448
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4cf21896576b734fd901b0dbf6efb0a15162b4af",
+        "timestamp": 1622222909
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_match.py"
+        ],
+        "sha": "cf75971656d9a04faa1b5aeaeb776da3567b8041",
+        "timestamp": 1633473464
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "13cad915e6b181b2f6a85efc2ead4856b23bccc0",
+        "timestamp": 1633473869
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "78d885910781301663a956456e89d1743e037ac3",
+        "timestamp": 1633552725
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/test/test_other.py",
+          "setup.py"
+        ],
+        "sha": "140817fbc48498ab8e72cbc82d57914f1606b457",
+        "timestamp": 1637502711
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "README.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "dbb18432165bdc567e015511b3f3284f0f14cf05",
+        "timestamp": 1640381966
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_imports.py"
+        ],
+        "sha": "1fae3dea5108a006d35da9e9ab785ca1ed1bc998",
+        "timestamp": 1644677553
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "84da8cdaad574df7e692dff06ab561acc63d521c",
+        "timestamp": 1644769929
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "2409df015d9d847890716b242cb418047cd9d6b7",
+        "timestamp": 1648220729
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "dd446ed156837f50a06596ec79efc292e856954f",
+        "timestamp": 1652754059
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "e02336c3d47c621feed730f5bdaa792babca75be",
+        "timestamp": 1653927613
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "2a61f3c0a1dddb00453c66d1fa9f45d7b5b7897d",
+        "timestamp": 1653927929
+      },
+      {
+        "files": [
+          "pyflakes/messages.py"
+        ],
+        "sha": "bb9aba69edb6a4363ebfb489f3b508e2e919584d",
+        "timestamp": 1653927992
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py"
+        ],
+        "sha": "a44f8fc6110a498b8fcd4b423a2cae82da2e830f",
+        "timestamp": 1653941038
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "30ec8589e183f76f40764a8dd78591719f521943",
+        "timestamp": 1653941844
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_api.py",
+          "pyflakes/test/test_doctests.py"
+        ],
+        "sha": "405a0906c8debafaae419472d3f51b84b7ba5c49",
+        "timestamp": 1653942295
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "5959216f67837f3ddf5b959c21e097c7a3758d48",
+        "timestamp": 1653943957
+      },
+      {
+        "files": [
+          "pyflakes/test/harness.py"
+        ],
+        "sha": "f736615f32a4bab27c9efeb5b8f8c31702efc4ab",
+        "timestamp": 1653944476
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "tox.ini"
+        ],
+        "sha": "becbab65bae84e3e19fc388a42dfabcff0c323c8",
+        "timestamp": 1653945058
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "44ef321b0e608c61182ecf5d88f9edeececa5403",
+        "timestamp": 1657282556
+      },
+      {
+        "files": [
+          "pyflakes/api.py",
+          "pyflakes/reporter.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "d875b02835fb9b1480a95c5245040eb31a384357",
+        "timestamp": 1658199064
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "2a6e36bd43af9829e0818961b60a1e3aab01fafc",
+        "timestamp": 1659202012
+      },
+      {
+        "files": [
+          "pyflakes/messages.py"
+        ],
+        "sha": "7d6479e46f8f3e9607c9ef7975cc892db023d413",
+        "timestamp": 1661999638
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "4dcd92e45efeb0615ba1c96d45241a037d30abe0",
+        "timestamp": 1662675017
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/messages.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "4a2407d7aa0834c37c9fe97e2db37fa8d01caa5b",
+        "timestamp": 1663300827
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "853cce91634cbddff01cc16313b5467be1e95c54",
+        "timestamp": 1664828833
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "ac019ed41c67082baae04f8e89f4113df5c7099a",
+        "timestamp": 1667527060
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "README.rst"
+        ],
+        "sha": "66786d45dc0a81c3bc1e205e1d17b16cae8e5a9f",
+        "timestamp": 1669228636
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "2c64ae48e2b1984a16cf25d215c9f9d21146426d",
+        "timestamp": 1669229018
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "e0d7a6be89591f913beb740af348df8b7723e7a4",
+        "timestamp": 1669308706
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "b37f91a1ae25cfc242d5043985b05159e152091a",
+        "timestamp": 1669308760
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3c70084704044f47441fbe1e5d953110dfcd4df0",
+        "timestamp": 1669309363
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "37f203ed6ec9c54ea4ded0b8480846ac750a1747",
+        "timestamp": 1669581360
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "fba640d669f03478a1c1ee9db5d432ab8f77b3bd",
+        "timestamp": 1669581701
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "4158a4537773ec3da41aed5afdea46c121082804",
+        "timestamp": 1669582313
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "c3273c54c94cb96927d730c6bf5d12383c85777f",
+        "timestamp": 1669582615
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "33bbb8266420e34a93ea74299177c19fd463acc0",
+        "timestamp": 1669583737
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "e9324649874a7124a08c3826d4cf78a4dc3aa32c",
+        "timestamp": 1673540788
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "e19886e583637a7e2eec428cc036094b9630f2d0",
+        "timestamp": 1675190758
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_match.py"
+        ],
+        "sha": "f2671ffe1785754f0e73d148635cbb38e673e169",
+        "timestamp": 1682465842
+      },
+      {
+        "files": [
+          "pyflakes/reporter.py",
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "836631f2f73d45baa4021453d89fc9fd6f52be58",
+        "timestamp": 1686618045
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "ad5e15f4a3011ccc9a34c06555fac58e3e09d3a1",
+        "timestamp": 1686618692
+      },
+      {
+        "files": [
+          "pyflakes/test/test_api.py"
+        ],
+        "sha": "07278501d5fc18d692f726907801f5687d92d680",
+        "timestamp": 1686619414
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py",
+          "tox.ini"
+        ],
+        "sha": "afe2c4dbe57b0cf3c86ec96a7e622163b2171b4a",
+        "timestamp": 1687997897
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "58b94a021b2d966a40a5bced06bdd6188ddb9fc2",
+        "timestamp": 1690649978
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "tox.ini"
+        ],
+        "sha": "fad8ffb41bc5391c7273cd678aad94f52e9b5173",
+        "timestamp": 1690845608
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_type_annotations.py"
+        ],
+        "sha": "ee2bef47318fc97b599850ebf68a481f4710fa42",
+        "timestamp": 1704414165
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "881ed2f00255cb247577adad59d4f05122a5f87a",
+        "timestamp": 1704414435
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "5d192ce187d8ed47dce3ee3d1fdbd64891f2c11c",
+        "timestamp": 1666120807
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "b1f8362e45aab6e5ba0b49b282b5be9c05467c50",
+        "timestamp": 1708138442
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c68ed1b1950f696408738806aed0a81177f06416",
+        "timestamp": 1709822837
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "ac563ed24051d41fe04104eefa1563cbb8b36bf7",
+        "timestamp": 1719607368
+      },
+      {
+        "files": [
+          "pyflakes/checker.py"
+        ],
+        "sha": "d9e32c4cbdb569e66d5f63c9687b8a396796a44b",
+        "timestamp": 1727988884
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyflakes/test/test_api.py",
+          "pyflakes/test/test_type_annotations.py",
+          "setup.py"
+        ],
+        "sha": "5f1f434c2f85aebd05776f8eb94e83a1bf9e881e",
+        "timestamp": 1743274332
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bb6806909922778967311ba491e4c3ccc942874b",
+        "timestamp": 1743276130
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "433dfd001746a69d12597f7c97af78c13e1f662e",
+        "timestamp": 1743276626
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "87051d20e2f5054302f1a5785c6b5a2c83a39cba",
+        "timestamp": 1743371674
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "2441e9cc3caf1976938596c26ec4890c99c244d7",
+        "timestamp": 1743372307
+      },
+      {
+        "files": [
+          "pyflakes/checker.py",
+          "pyflakes/test/test_other.py"
+        ],
+        "sha": "9228d609b3fc827216ae64533108ca35de3322fb",
+        "timestamp": 1743427131
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "78ee5319b390b62c0e881976ed475e2fe650daca",
+        "timestamp": 1743427198
+      },
+      {
+        "files": [
+          "NEWS.rst",
+          "pyflakes/__init__.py"
+        ],
+        "sha": "59ec4593efd4c69ce00fdb13c40fcf5f3212ab10",
+        "timestamp": 1750445059
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 4,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".appveyor.yml": 0,
+      ".bzrignore": 1,
+      ".github/workflows/test.yml": 2,
+      ".gitignore": 3,
+      ".travis.yml": 4,
+      "AUTHORS": 5,
+      "LICENSE": 6,
+      "MANIFEST.in": 7,
+      "NEWS.rst": 8,
+      "NEWS.txt": 9,
+      "README.rst": 10,
+      "bin/pyflakes": 11,
+      "pyflakes/__init__.py": 12,
+      "pyflakes/__main__.py": 13,
+      "pyflakes/api.py": 14,
+      "pyflakes/checker.py": 15,
+      "pyflakes/messages.py": 16,
+      "pyflakes/reporter.py": 17,
+      "pyflakes/scripts/__init__.py": 18,
+      "pyflakes/test/__init__.py": 19,
+      "pyflakes/test/harness.py": 20,
+      "pyflakes/test/test_api.py": 21,
+      "pyflakes/test/test_builtin.py": 22,
+      "pyflakes/test/test_checker.py": 23,
+      "pyflakes/test/test_code_segment.py": 24,
+      "pyflakes/test/test_dict.py": 25,
+      "pyflakes/test/test_doctests.py": 26,
+      "pyflakes/test/test_imports.py": 27,
+      "pyflakes/test/test_is_literal.py": 28,
+      "pyflakes/test/test_match.py": 29,
+      "pyflakes/test/test_other.py": 30,
+      "pyflakes/test/test_return_with_arguments_inside_generator.py": 31,
+      "pyflakes/test/test_type_annotations.py": 32,
+      "pyflakes/test/test_undefined_names.py": 33,
+      "setup.cfg": 34,
+      "setup.py": 35,
+      "tox.ini": 36
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1128691805,
+      "last_commit_ts": 1750445059,
+      "n_cochange_pairs": 70,
+      "n_commits_dropped_as_bulk": 22,
+      "n_commits_used": 496,
+      "n_files": 37
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "59ec4593efd4c69ce00fdb13c40fcf5f3212ab10",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
