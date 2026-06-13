@@ -1,0 +1,2246 @@
+{
+  "chain_hash": "700efdff5a9a8d6a",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/workflows/test.yml||README.rst": 5,
+      ".github/workflows/test.yml||pyproject.toml": 5,
+      ".github/workflows/test.yml||tox.ini": 5,
+      ".travis.yml||README.rst": 4,
+      ".travis.yml||setup.py": 4,
+      ".travis.yml||tox.ini": 4,
+      "CHANGELOG.rst||README.rst": 6,
+      "CHANGELOG.rst||colorama/__init__.py": 12,
+      "CHANGELOG.rst||colorama/ansitowin32.py": 4,
+      "CHANGELOG.rst||colorama/tests/ansitowin32_test.py": 2,
+      "CHANGELOG.rst||setup.py": 2,
+      "Makefile||README-hacking.md": 2,
+      "Makefile||README.rst": 2,
+      "Makefile||colorama/__init__.py": 2,
+      "Makefile||requirements-dev.txt": 2,
+      "Makefile||test-release": 4,
+      "README-hacking.md||README.rst": 3,
+      "README-hacking.md||colorama/__init__.py": 3,
+      "README-hacking.md||test-release": 3,
+      "README.rst||colorama/__init__.py": 2,
+      "README.rst||colorama/ansitowin32.py": 2,
+      "README.rst||colorama/tests/ansitowin32_test.py": 2,
+      "README.rst||pyproject.toml": 4,
+      "README.rst||requirements-dev.txt": 2,
+      "README.rst||setup.py": 6,
+      "README.rst||tox.ini": 8,
+      "colorama/__init__.py||setup.py": 2,
+      "colorama/ansi.py||colorama/ansitowin32.py": 4,
+      "colorama/ansitowin32.py||colorama/tests/ansitowin32_test.py": 9,
+      "colorama/ansitowin32.py||colorama/tests/initialise_test.py": 2,
+      "colorama/ansitowin32.py||colorama/tests/isatty_test.py": 2,
+      "colorama/ansitowin32.py||colorama/win32.py": 4,
+      "colorama/ansitowin32.py||colorama/winterm.py": 6,
+      "colorama/initialise.py||colorama/tests/initialise_test.py": 2,
+      "colorama/tests/ansitowin32_test.py||colorama/tests/initialise_test.py": 4,
+      "colorama/tests/ansitowin32_test.py||colorama/win32.py": 2,
+      "colorama/tests/initialise_test.py||colorama/tests/utils.py": 4,
+      "colorama/win32.py||colorama/winterm.py": 4,
+      "demos/demo.bat||demos/demo.sh": 2,
+      "demos/demo.sh||demos/demo08.py": 2,
+      "pyproject.toml||tox.ini": 5,
+      "setup.py||tox.ini": 4
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "ea272e832c4c409e87ce77d8a857d564c4a493d5",
+        "timestamp": 1397767065
+      },
+      {
+        "files": [
+          "requirements-dev.txt",
+          "requirements.txt"
+        ],
+        "sha": "d26e75b2a243f119ef6f75baf83130f9db3e876e",
+        "timestamp": 1397767160
+      },
+      {
+        "files": [
+          "colorama/tests/ansi_test.py",
+          "colorama/tests/ansitowin32_test.py",
+          "colorama/tests/initialise_test.py",
+          "colorama/tests/winterm_test.py"
+        ],
+        "sha": "420a159da465507ad12274e15baf6b6d5b809e51",
+        "timestamp": 1397767295
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "0e1f94c0a30922ba026e27490437c02f7387a7c4",
+        "timestamp": 1397768191
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "f414d9c722e1eb58ec5eba0349e80919ed828bc5",
+        "timestamp": 1397768674
+      },
+      {
+        "files": [
+          "colorama/win32.py"
+        ],
+        "sha": "8cc97352831ba804cd55eec408b088553e0245d4",
+        "timestamp": 1397770831
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/__init__.py"
+        ],
+        "sha": "60290115d04f023cd922dc2c0befdd2096972b1d",
+        "timestamp": 1397772172
+      },
+      {
+        "files": [
+          "colorama/tests/winterm_test.py",
+          "colorama/win32.py"
+        ],
+        "sha": "13ceb26a7c0bff52fbeb1786515a525d3999aa66",
+        "timestamp": 1397773152
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2e7c0b108548d36e82c3ab1b15f3c32c650c930a",
+        "timestamp": 1397887904
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "colorama/ansitowin32.py",
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "8d5b88746cedab0aa6f8a032f5754e56c6b998a1",
+        "timestamp": 1397945411
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "colorama/__init__.py",
+          "setup.py"
+        ],
+        "sha": "002033869fddf611135b1789af9204b8ab8cc5b3",
+        "timestamp": 1397945743
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/__init__.py",
+          "setup.py"
+        ],
+        "sha": "799604a1041e9b3bc5d2789ecbd7e8db2e18e6b8",
+        "timestamp": 1397947775
+      },
+      {
+        "files": [
+          "requirements-dev.txt"
+        ],
+        "sha": "385d418104b36b263bace0fc0222a4655c5d7af1",
+        "timestamp": 1398029757
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e2b3f3953cb523900acebb9b7e3bd035d95eefa0",
+        "timestamp": 1398837876
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "1ba22b68c15fa773dd8e53fc28fe1d5680ff07f6",
+        "timestamp": 1398854920
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "17e03983f44fc6b1467d56b85f70aa4bbb0d4834",
+        "timestamp": 1398854974
+      },
+      {
+        "files": [
+          "colorama/win32.py"
+        ],
+        "sha": "c83445acd79684e4cb38f0c1f4c51698a039109a",
+        "timestamp": 1398949933
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "f0e98097ece19c3ecc567aec63956271dad872a3",
+        "timestamp": 1399993539
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e3bbed8430d688ed38468da60c5c1473271819a9",
+        "timestamp": 1408590147
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e3f51a7662dc9e252eda6f92d20698f2b2262663",
+        "timestamp": 1408590605
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f8a1d770a8a1d0a340e865f47d5af6eb09697bb2",
+        "timestamp": 1408592076
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "955c4953675ae7237bfd0184b331e70b7c30277f",
+        "timestamp": 1408592492
+      },
+      {
+        "files": [
+          "colorama/initialise.py",
+          "colorama/tests/initialise_test.py",
+          "colorama/tests/utils.py"
+        ],
+        "sha": "07d15d563d735ebf854ac839963156e3293bc587",
+        "timestamp": 1409053129
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e0febefe926399274ea23a1e2e810c2ec9eafbe9",
+        "timestamp": 1409177477
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7d0bd4e77b6bb26cbf7979d05a07459ae7bd521f",
+        "timestamp": 1409177925
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "d560b45b3b3b70ed3d40824b901555900e1117d7",
+        "timestamp": 1409247169
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/__init__.py"
+        ],
+        "sha": "ce69efe6846169b84bf8bc1b5b223d0a7591037d",
+        "timestamp": 1409782032
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "34c8a1b8925e4cc659e5bf42263c0c29c563e9e9",
+        "timestamp": 1409782319
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "77d89b67f90ab8a4f0e1d8bcc80fe7c7c462bf11",
+        "timestamp": 1400102648
+      },
+      {
+        "files": [
+          "colorama/win32.py"
+        ],
+        "sha": "54ddd358ceb606175085429070738e70947b4d29",
+        "timestamp": 1400102707
+      },
+      {
+        "files": [
+          "colorama/winterm.py"
+        ],
+        "sha": "0171000364fac2724e78eb9db2ec44bda9688bf3",
+        "timestamp": 1400102773
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "a3e0eae3b04fbdfa8a96d6564b119f4f2ac2b487",
+        "timestamp": 1400103806
+      },
+      {
+        "files": [
+          "colorama/winterm.py"
+        ],
+        "sha": "af1596e4fda5a8aa3f0cff67882f779725429356",
+        "timestamp": 1400104247
+      },
+      {
+        "files": [
+          "colorama/win32.py"
+        ],
+        "sha": "e1fc330ae40c5ca87958538982849db051f2947c",
+        "timestamp": 1400104669
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/winterm.py"
+        ],
+        "sha": "d905f59b7d154ad6ccd15c1becab1d0079e014c4",
+        "timestamp": 1400105762
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/winterm.py"
+        ],
+        "sha": "a4a21b05b6fb07412a5dc996c2ffd0ee2f0ab104",
+        "timestamp": 1400144397
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "891f2ad101e84fa9ef96b4b557fd5fda2574ac6a",
+        "timestamp": 1400160258
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/win32.py",
+          "colorama/winterm.py"
+        ],
+        "sha": "398aa4489f922b106fdd7956107a2a44999caaf5",
+        "timestamp": 1400160239
+      },
+      {
+        "files": [
+          "colorama/win32.py",
+          "colorama/winterm.py"
+        ],
+        "sha": "8491843364cb74619e7296c02d10dc8a9ffcf84c",
+        "timestamp": 1400168355
+      },
+      {
+        "files": [
+          "demos/demo07.py"
+        ],
+        "sha": "dda8691f188dd906481015a7a5f043643d69e65d",
+        "timestamp": 1400225476
+      },
+      {
+        "files": [
+          "colorama/__init__.py",
+          "colorama/ansi.py",
+          "demos/demo07.py"
+        ],
+        "sha": "16d1399d2131934a6abee86a820aecf4727f1bf1",
+        "timestamp": 1400227541
+      },
+      {
+        "files": [
+          "colorama/ansi.py"
+        ],
+        "sha": "543f99a113873896fc16819d35e0f76c9245c9bd",
+        "timestamp": 1400229315
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "e4c4a6c2334816262fad1ed378a2a7a0cddea4fd",
+        "timestamp": 1400941963
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "4e0c0e93832e0fcb214bd1fa30d08832528f4890",
+        "timestamp": 1403119176
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "ca6da814cb6463d60b1a2772e7584e035753a8e0",
+        "timestamp": 1409955695
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6d793362bfc84dad69a9e5da4b2fa13b11bf661b",
+        "timestamp": 1410426696
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "06cf92cd0aaf8f1443a9f0f093152f64e6e4ccbd",
+        "timestamp": 1410465070
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "961428e6c1c3a6855da5dedccfc418f295b54c25",
+        "timestamp": 1400180999
+      },
+      {
+        "files": [
+          "colorama/tests/initialise_test.py"
+        ],
+        "sha": "20d026265b0294aadb22a462fadfed49ec203b68",
+        "timestamp": 1409829734
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "1008a19b35c28c7b4bcb23aef58fd403ec93161a",
+        "timestamp": 1411682018
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "9cbdf57f1814bf03f6fc5571a8cadaa1c08904cb",
+        "timestamp": 1404834904
+      },
+      {
+        "files": [
+          "colorama/ansi.py",
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "0b2b35d1e59136d9497346532eabe0b9ec1545c2",
+        "timestamp": 1404834951
+      },
+      {
+        "files": [
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "ac4f34dc9fd040ff0b4ac767127b718bc1fe2d97",
+        "timestamp": 1413025621
+      },
+      {
+        "files": [
+          "colorama/ansi.py",
+          "colorama/ansitowin32.py",
+          "colorama/winterm.py"
+        ],
+        "sha": "1269ab81802750151c27bbafca39005700d6749d",
+        "timestamp": 1413026609
+      },
+      {
+        "files": [
+          "colorama/tests/ansitowin32_test.py",
+          "colorama/tests/initialise_test.py",
+          "colorama/tests/utils.py"
+        ],
+        "sha": "a3192c3b7a90239bea6d00c844904f9546f73794",
+        "timestamp": 1413037524
+      },
+      {
+        "files": [
+          "colorama/win32.py"
+        ],
+        "sha": "a1e1c7f3eb743a563403be452e7c59fec7b7b462",
+        "timestamp": 1414670801
+      },
+      {
+        "files": [
+          "colorama/win32.py"
+        ],
+        "sha": "4810b36a531587e77448153b704de147d31ca229",
+        "timestamp": 1414771165
+      },
+      {
+        "files": [
+          "colorama/ansi.py",
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "33da5d69f68a048f831b34c51a9f3371d953c8bf",
+        "timestamp": 1414843492
+      },
+      {
+        "files": [
+          "colorama/tests/ansi_test.py"
+        ],
+        "sha": "f5a064ff82ed55954e4cd3c07ea210221821cb95",
+        "timestamp": 1414844391
+      },
+      {
+        "files": [
+          "demos/demo.sh"
+        ],
+        "sha": "70ea8cc4bf6e213c0511a86de83f338eec78015b",
+        "timestamp": 1418256759
+      },
+      {
+        "files": [
+          "demos/demo.sh"
+        ],
+        "sha": "56896ca149dde52882c005ada4cacd07542691fc",
+        "timestamp": 1418257577
+      },
+      {
+        "files": [
+          "demos/demo.bat"
+        ],
+        "sha": "2a3616ac11d07c3173e6a2cf52859b706e8ecbc5",
+        "timestamp": 1418257612
+      },
+      {
+        "files": [
+          "demos/demo06.py"
+        ],
+        "sha": "f378a183aea5907b3abcca30070837b6c2d2a8f8",
+        "timestamp": 1418257691
+      },
+      {
+        "files": [
+          "demos/demo07.py"
+        ],
+        "sha": "23ea2a45b0f7cbd7dbc4ef4665e277bc5438e673",
+        "timestamp": 1418257752
+      },
+      {
+        "files": [
+          "demos/demo07.py"
+        ],
+        "sha": "3590677808df1dff4804ea2fddda10750d4be8d1",
+        "timestamp": 1418257831
+      },
+      {
+        "files": [
+          "demos/demo.sh"
+        ],
+        "sha": "753f88c94df5671fa91d2e5ea2de2c848b5c9c24",
+        "timestamp": 1418257875
+      },
+      {
+        "files": [
+          "demos/demo.bat"
+        ],
+        "sha": "9b4ab3a05141c89754e046eb80f2664943b52076",
+        "timestamp": 1418257896
+      },
+      {
+        "files": [
+          "colorama/__init__.py"
+        ],
+        "sha": "5906b2604223f3a3bdf4497244fc8861b89dbda6",
+        "timestamp": 1420540907
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "384bebcd22987353964331a387fe7d54550a895c",
+        "timestamp": 1420546129
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "405a8adf39d3e91230cc3388342347083aac5e89",
+        "timestamp": 1420550542
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "256225ab2ae8148dafe2dd9669cf4ff47287d570",
+        "timestamp": 1424095580
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "94f9aba8f74f8076a16a37c838d6393f391ab411",
+        "timestamp": 1424950550
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9aff37147f92f75b8dea911007a3dee51b1e01a5",
+        "timestamp": 1426226611
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e1caa6ba144d34b02a486e2c00a003b9fd453bbf",
+        "timestamp": 1426226943
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "1665e2388684453258b91820569baf751e42d6ca",
+        "timestamp": 1426230865
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "5630a3a6314afa9c1e3d0ba54682620e06267281",
+        "timestamp": 1428799202
+      },
+      {
+        "files": [
+          "Makefile",
+          "setup.cfg"
+        ],
+        "sha": "dc06ba4bcc6c641f2f1b685b2207047e6db594f7",
+        "timestamp": 1428799218
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8bdb67c7c06eeea91c4719a61dc3f396956189ec",
+        "timestamp": 1429890940
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "281a3154b218e9ae639271513d694c1108fd432c",
+        "timestamp": 1430049939
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "447fae274356d0ef891375f6f0274d7df1ccad9b",
+        "timestamp": 1430051255
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "5ab7cdd96b72d5bdb0fb25fdb5ac6ddc8cd7bb1f",
+        "timestamp": 1429475160
+      },
+      {
+        "files": [
+          "colorama/winterm.py"
+        ],
+        "sha": "11ef16e244e7fe37e28318874c1004cc7f030056",
+        "timestamp": 1431233030
+      },
+      {
+        "files": [
+          "colorama/initialise.py"
+        ],
+        "sha": "e5be3c5043cb9b4ef1339c0cad0193596c918c75",
+        "timestamp": 1431275872
+      },
+      {
+        "files": [
+          "colorama/winterm.py"
+        ],
+        "sha": "301523fe76201c1450f97ef6098b6f17d8b054fd",
+        "timestamp": 1431281687
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "069a44142b806d446e7873b565056a9c73ece4cb",
+        "timestamp": 1431859723
+      },
+      {
+        "files": [
+          "colorama/winterm.py"
+        ],
+        "sha": "f47a3750fe305228af5ecdba921b4ddfb585291b",
+        "timestamp": 1431894376
+      },
+      {
+        "files": [
+          "colorama/winterm.py"
+        ],
+        "sha": "f0f32208fa917a539d85f2f46d824e28ba19f8f1",
+        "timestamp": 1431935630
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "7247d7a98b282db56343d90537a0e2956dfba4a1",
+        "timestamp": 1431935981
+      },
+      {
+        "files": [
+          "colorama/ansi.py"
+        ],
+        "sha": "b2f46299e2c87eb159698a837895a3ed9e53b826",
+        "timestamp": 1432218125
+      },
+      {
+        "files": [
+          "colorama/ansi.py"
+        ],
+        "sha": "f16dcf6fe2d53be0444faad9f265781282201d95",
+        "timestamp": 1432218395
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3d99a70940b11b425f8b6c38b6610ff60de36e4c",
+        "timestamp": 1433940209
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "7470dc2670542696bb9eb0f9d16997f973a3f088",
+        "timestamp": 1436459552
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f6dcbb0842201b3912e365694c01014a64f4be3c",
+        "timestamp": 1439473518
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "98902b38488efa66809516e090458e3518621b24",
+        "timestamp": 1439473609
+      },
+      {
+        "files": [
+          "colorama/__init__.py",
+          "colorama/initialise.py",
+          "demos/demo.sh",
+          "demos/demo08.py"
+        ],
+        "sha": "b12b370874b2f1836961192058d7890189206e63",
+        "timestamp": 1440561152
+      },
+      {
+        "files": [
+          "colorama/initialise.py"
+        ],
+        "sha": "377ada645a9c856989f91fc15bdae3cb0235e4ea",
+        "timestamp": 1440732277
+      },
+      {
+        "files": [
+          "demos/demo.sh",
+          "demos/demo08.py"
+        ],
+        "sha": "7ac12863363a0ad4c8192fdae0e17afc8048b6b2",
+        "timestamp": 1442160906
+      },
+      {
+        "files": [
+          "colorama/initialise.py"
+        ],
+        "sha": "9a6487826245f591940c9fb5ffbecfe3fa5e6564",
+        "timestamp": 1442202031
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "57ada9065e66c05debd58ef56e214b6c3594270a",
+        "timestamp": 1442226627
+      },
+      {
+        "files": [
+          "demos/demo07.py",
+          "demos/demo08.py"
+        ],
+        "sha": "b5748dd07b56194e4298b57e3fcb9d0a0989874d",
+        "timestamp": 1442226687
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/tests/ansitowin32_test.py",
+          "colorama/tests/initialise_test.py",
+          "colorama/win32.py"
+        ],
+        "sha": "55f063dbd44c958a191cbea8272cf687568c1d11",
+        "timestamp": 1442602836
+      },
+      {
+        "files": [
+          "colorama/tests/ansitowin32_test.py",
+          "colorama/tests/initialise_test.py"
+        ],
+        "sha": "4e319182e0ac147c8ef3eadd0109d4d0f6683c4a",
+        "timestamp": 1442688301
+      },
+      {
+        "files": [
+          "colorama/ansi.py"
+        ],
+        "sha": "83364bf1dc2bd5a53ca9bd0154fe21d769d6f90f",
+        "timestamp": 1443093785
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "31bbf87142d65e5c7d025850898a33fb42abd974",
+        "timestamp": 1443171869
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ddf7142ea215c7630881dadd6ba67b4d7d04ca16",
+        "timestamp": 1443171891
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b4b0a66e51d81b44608f906af439f9b8f67be043",
+        "timestamp": 1443172010
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "4f60c938a6b485a7c5a8049d42407c347bdc1b12",
+        "timestamp": 1445423109
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "abcf52e82374cbfd9dfe47ba7ff8296e453e0329",
+        "timestamp": 1445430817
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "b1c0e6a6d905877891791606471e99ca7fb454ac",
+        "timestamp": 1445431022
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a50a7447bbfd2558dbaf311e316d6780393585d5",
+        "timestamp": 1445433048
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "colorama/ansitowin32.py",
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "a15e4222f3dc10bca263faee36f68da79bd7c816",
+        "timestamp": 1449954636
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/__init__.py"
+        ],
+        "sha": "09aa6affdeff5265f001df097bfe41323f6b0aab",
+        "timestamp": 1449955234
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "f9e576f7041657a1d9e198aaa474811f17bb31ab",
+        "timestamp": 1449956194
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/__init__.py"
+        ],
+        "sha": "9b5ebe9ac61822f3412277268c81e3104517b4c8",
+        "timestamp": 1449956465
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "c6f31017ebcbcb247c30f7f53096a3df067bd7a0",
+        "timestamp": 1450008369
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "44dc8af9bc8111b70dd046a822bb26c851ba3687",
+        "timestamp": 1450080681
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/__init__.py"
+        ],
+        "sha": "99786beda2066a7f35d8455e115d8a8d45406cdb",
+        "timestamp": 1452366179
+      },
+      {
+        "files": [
+          "colorama/initialise.py"
+        ],
+        "sha": "27a3833f8e5e929b2c41ba4681a579f11c19367b",
+        "timestamp": 1454884722
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "1244a00ae1accfeca3b4b1a85a3b718a920dd6bd",
+        "timestamp": 1454884032
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/__init__.py"
+        ],
+        "sha": "9f5a28369c4528502b9faa76088df965f6ac103d",
+        "timestamp": 1457428504
+      },
+      {
+        "files": [
+          "colorama/win32.py"
+        ],
+        "sha": "038c577312b1b48308788aa5f669896f4c2dd1cf",
+        "timestamp": 1464283334
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "faafef8e3cbd2f95d54e4315a79e9027c83f9bb5",
+        "timestamp": 1466541034
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b00a32cb412d44d18a208cc159111b38a511a7f7",
+        "timestamp": 1473992361
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "7dfe8c71ae7971c26fb9ad3eaa2f7478c6b21900",
+        "timestamp": 1474457053
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "17eef5991b393ad3a440071d57a9cfec703c5902",
+        "timestamp": 1475745216
+      },
+      {
+        "files": [
+          "colorama/win32.py"
+        ],
+        "sha": "ec817281111f4426ae26b96590bb9cdae4c4a288",
+        "timestamp": 1476356954
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "3fb7694d63d16d55b7f1118ef99d2f6e2e48f6cb",
+        "timestamp": 1487924332
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/__init__.py"
+        ],
+        "sha": "2c592416361b031e3bba00a6efd669c116645aff",
+        "timestamp": 1492939424
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "37006f6faa4e26bc716f82cbb210575abf9fa8e4",
+        "timestamp": 1493276741
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/__init__.py"
+        ],
+        "sha": "d83cff271f67e756e65be9427056442858d2ec24",
+        "timestamp": 1493276866
+      },
+      {
+        "files": [
+          "colorama/win32.py"
+        ],
+        "sha": "80cd21e8108db3e7e1c0f847a16cf28f05ac1e1e",
+        "timestamp": 1496445089
+      },
+      {
+        "files": [
+          "colorama/winterm.py"
+        ],
+        "sha": "a4edc5a4cf24e883187fe5ebf1d5d84b81938c06",
+        "timestamp": 1504431259
+      },
+      {
+        "files": [
+          "demos/demo.bat",
+          "demos/demo.sh"
+        ],
+        "sha": "aeefd9ef1b57c1ed5e2da002e7cbf5f7f1ba50dc",
+        "timestamp": 1504444749
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "e605d3dd32a55d850719d1bc2970fd354be6a607",
+        "timestamp": 1507525938
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "15173b75dfb7900ffaa770a6221b1a6433b2e664",
+        "timestamp": 1507526034
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3f30b389e3b75ef6ff389a19f373f731fa73c62d",
+        "timestamp": 1507526097
+      },
+      {
+        "files": [
+          "colorama/winterm.py"
+        ],
+        "sha": "bd378c725b45eba0b8e5cc091c3ca76a954c92ff",
+        "timestamp": 1508005535
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "2efe2897ea1fe7a1de4d348e932675acfcbffd21",
+        "timestamp": 1523860941
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "dc54c6d00d9e74d39af3fc99f679530b365ffc0e",
+        "timestamp": 1525156048
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "8657a76e741658c4e53f5d6f0a07b0bae3e57062",
+        "timestamp": 1525359125
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "19d246b065efc4bc7bca5ca2029744228f59215b",
+        "timestamp": 1528948051
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "58571877aa5ea3a2b0b71b5987fcc80acd2ff050",
+        "timestamp": 1528948383
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "998a78d4392d47daeb5a20ee3932b89ea1068033",
+        "timestamp": 1528949039
+      },
+      {
+        "files": [
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "3dd6e8d41eeb49e1666f985493b11c6f95b77875",
+        "timestamp": 1528976805
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "9af1c9578dbf313098cc411fc7312c4e5b5a5c18",
+        "timestamp": 1528977842
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "2f4b564a6586709db2fed20e5d1f5856b1a482d2",
+        "timestamp": 1536327238
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/tests/initialise_test.py",
+          "colorama/tests/isatty_test.py",
+          "colorama/tests/utils.py"
+        ],
+        "sha": "3579cdec48d86cc8f588a3c8b5c990f1e0118c95",
+        "timestamp": 1536423288
+      },
+      {
+        "files": [
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "ca70159fb4768f0e93b5092318ae5d4925f77538",
+        "timestamp": 1536423380
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "1607cd25acc34678a6e8f67e79d459f58296e2bc",
+        "timestamp": 1536693734
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/tests/isatty_test.py"
+        ],
+        "sha": "2057f036f23a8113587f9cd7bf558594444a9caf",
+        "timestamp": 1536698988
+      },
+      {
+        "files": [
+          ".gitignore",
+          "tox.ini"
+        ],
+        "sha": "9890ae4dbbe97b645cfd2aa842f4a0def56df22c",
+        "timestamp": 1537048037
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py"
+        ],
+        "sha": "99e27b4bdc896b61edba3d16439fa2f95d64ff9c",
+        "timestamp": 1537048423
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "cc9c8edc31e211ce0408fb3f247078fec7023fed",
+        "timestamp": 1537117781
+      },
+      {
+        "files": [
+          "screenshots/ubuntu-demo.png",
+          "screenshots/windows-demo.png"
+        ],
+        "sha": "b27633df790fba6ff81297c8072517da5df1b8e7",
+        "timestamp": 1537920066
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/__init__.py"
+        ],
+        "sha": "15197674cbf1b13d1ead99ef192aca1b732c0539",
+        "timestamp": 1539182619
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "c11da6f6004bba0fabb2f7a68a06f53baeeb6b74",
+        "timestamp": 1539183139
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "510bb8bdb1a734bc3186b870260455a705fc3632",
+        "timestamp": 1539635832
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/__init__.py"
+        ],
+        "sha": "d69f83f53c0c5aa1081d1f5eebb2dc2df6028f37",
+        "timestamp": 1543147966
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "f7590e098c002104bd056e32e3aa62f932b61736",
+        "timestamp": 1550593863
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "df2ca5e9237f46d1e48b6115b87f37db6abfa908",
+        "timestamp": 1555803265
+      },
+      {
+        "files": [
+          "demos/demo.bat",
+          "demos/demo.sh",
+          "demos/demo05.py"
+        ],
+        "sha": "ba99ab91416c6e3b635aecc8741f4befdcfaf13f",
+        "timestamp": 1561440040
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml"
+        ],
+        "sha": "75c3bb26451acac3329c25702e5c198d2f65ec2c",
+        "timestamp": 1564367925
+      },
+      {
+        "files": [
+          "README.rst",
+          "SECURITY.md"
+        ],
+        "sha": "b760506a61f3d20e80e33f1e16cd6fc67a2d7708",
+        "timestamp": 1564661481
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "3e31cdb1e0a017eb5f87cb04b380f0d9a3db88a3",
+        "timestamp": 1566827907
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "e6030bbb4e1781e5ae8acac0cf323f73fa7ca6eb",
+        "timestamp": 1566827998
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "212083c555980461252e7bd679e2b70230642eff",
+        "timestamp": 1566828301
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "d610ca375a07c8290cfd14cb58b1d8f9df8ad544",
+        "timestamp": 1566828379
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3d74dce282e6fc38bcd4a74566eafecd35341786",
+        "timestamp": 1570132917
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "d642598b570e2892de51aea30e06a3a56a8b95e9",
+        "timestamp": 1571379120
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9f03cb6c237ac420e60858f20ee775224cb5e186",
+        "timestamp": 1571556046
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "a3225107729e33d6752072e74ab62a8089c31881",
+        "timestamp": 1572994400
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "462e67a2e385df23d0a2747c59063290a2c35338",
+        "timestamp": 1573505208
+      },
+      {
+        "files": [
+          "ENTERPRISE.md",
+          "README.rst"
+        ],
+        "sha": "c7299cbd489e1f63c5ec45ecfa06cc6cc9bbebf0",
+        "timestamp": 1575662310
+      },
+      {
+        "files": [
+          "Makefile",
+          "README.rst",
+          "colorama/__init__.py",
+          "requirements-dev.txt"
+        ],
+        "sha": "38e444ab5ec529509df8a7db0243bfe205939008",
+        "timestamp": 1575665300
+      },
+      {
+        "files": [
+          "colorama/__init__.py"
+        ],
+        "sha": "1134a335865e64da5560122565fc29bd1d703b7b",
+        "timestamp": 1575667148
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "c784d79ef81e1ef6eab22b6f63fb94cfa65a2604",
+        "timestamp": 1576151444
+      },
+      {
+        "files": [
+          "colorama/ansi.py",
+          "colorama/ansitowin32.py",
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "bfa8c22e8f9b51ad3428c165087540cea5d44a1f",
+        "timestamp": 1579953120
+      },
+      {
+        "files": [
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "6ce8c838cf1b63b2c8fcdaaf90536ebf561f6765",
+        "timestamp": 1579954820
+      },
+      {
+        "files": [
+          "demos/demo06.py"
+        ],
+        "sha": "437847c33067822b05c95e22bc8d611cbc8e13c1",
+        "timestamp": 1582371294
+      },
+      {
+        "files": [
+          "demos/demo06.py"
+        ],
+        "sha": "0f8f0c10706c5b4ea394a1de23d4a621c38f31cb",
+        "timestamp": 1582646671
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "c45879cc375b327a866860aafb6228ebd40fca68",
+        "timestamp": 1584334887
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "colorama/tests/initialise_test.py"
+        ],
+        "sha": "1a27ad1afcdeea101978a42162645c4b35035559",
+        "timestamp": 1584708722
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "734789b346d0ca59b02b8c9013022d56ff66b68e",
+        "timestamp": 1602299345
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml",
+          "README.rst"
+        ],
+        "sha": "eb750aa06b64f4c0f9f8267024cf5c022e0a5c7f",
+        "timestamp": 1602299778
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b26ec0b9514216382aebae265ce49e76cf536855",
+        "timestamp": 1602524530
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "00ffc129bb4b3eccf6714b3a2f718f1476aad3bb",
+        "timestamp": 1602524705
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a44821e94cc6d2478eaa4604b1fc112b6362eb56",
+        "timestamp": 1602525398
+      },
+      {
+        "files": [
+          "Makefile",
+          "test-release"
+        ],
+        "sha": "d7134a73f2ceabdb3db81740243738ce53b4314d",
+        "timestamp": 1602534022
+      },
+      {
+        "files": [
+          "Makefile",
+          "test-release"
+        ],
+        "sha": "f14fc0b76e25f1a0c8332d3cc384daac3f63a865",
+        "timestamp": 1602534119
+      },
+      {
+        "files": [
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "dc8460c2417d8d87e4e9505b2a09e9a00a930a2a",
+        "timestamp": 1602538947
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "688f6cce767fabe8baf8de8847aa689247184a49",
+        "timestamp": 1602701270
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "24721c0ce6fe0e9d23b9538c2dec5dfbf05293eb",
+        "timestamp": 1602732654
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "b7596ad6d614108af038b7ecb4c8b4dfc0e6c717",
+        "timestamp": 1602735199
+      },
+      {
+        "files": [
+          "colorama/__init__.py"
+        ],
+        "sha": "759d5c767f0aca4a458f01ba1a0a1441ad377e94",
+        "timestamp": 1602735222
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "f7efb11d75ba275f1fca3b791378f871e4dd0125",
+        "timestamp": 1602735262
+      },
+      {
+        "files": [
+          "README-hacking.md",
+          "README.rst"
+        ],
+        "sha": "5a393b23f25e8802111145190343fc9206489a48",
+        "timestamp": 1602735309
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "d0801755703af4e753690e47bd89e20992bb55c0",
+        "timestamp": 1602735412
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "99765af1197b62ee05f50891b7f1357e9ef93c7d",
+        "timestamp": 1602735482
+      },
+      {
+        "files": [
+          "README-hacking.md"
+        ],
+        "sha": "d8a7ff0d1e87c1884ae2bf435b7feac688be5a28",
+        "timestamp": 1602736175
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "14a21e98edacf35a5b4bd4c4e6656d6aa03bbc10",
+        "timestamp": 1602736405
+      },
+      {
+        "files": [
+          "Makefile",
+          "release.ps1"
+        ],
+        "sha": "e0a314e302cd55dc4c78462965b6ef90dd3c74c8",
+        "timestamp": 1602787380
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "938f5c5564302ef182227ddcb11c705d8a0bfd01",
+        "timestamp": 1602795987
+      },
+      {
+        "files": [
+          "test-release",
+          "test-release.ps1"
+        ],
+        "sha": "86bfecd4f223fdaa983caf4db9b4e3fca9be42a3",
+        "timestamp": 1602796061
+      },
+      {
+        "files": [
+          "README-hacking.md"
+        ],
+        "sha": "9b770a0c338a8cbde291dbd1eb6cb8fdb8f7a07b",
+        "timestamp": 1602820674
+      },
+      {
+        "files": [
+          "README-hacking.md"
+        ],
+        "sha": "9946cfb04917f5b12b9534111e803c2631a99ef3",
+        "timestamp": 1602964099
+      },
+      {
+        "files": [
+          "colorama/tests/initialise_test.py",
+          "colorama/tests/utils.py"
+        ],
+        "sha": "8f0587b0763739d45f7a14ee77629252efc3ff84",
+        "timestamp": 1606047640
+      },
+      {
+        "files": [
+          "README-hacking.md"
+        ],
+        "sha": "293d78250e281dbe8fdea1066f5fc341b85d5c38",
+        "timestamp": 1537047350
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "CHANGELOG.rst",
+          "README.rst",
+          "tox.ini"
+        ],
+        "sha": "0275556e10b28d0ed899a394334710c6a663a138",
+        "timestamp": 1605466651
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f690a2b68b53cf89a6ee6ff10c3c70e743da34a7",
+        "timestamp": 1606071018
+      },
+      {
+        "files": [
+          "demos/demo09.py"
+        ],
+        "sha": "eea3a58d369766f40a52b07026890970d739944a",
+        "timestamp": 1629029112
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "402d2367f25c99f4504f6216e43eac4f8b273b47",
+        "timestamp": 1630163820
+      },
+      {
+        "files": [
+          ".github/workflows/lint_python.yml"
+        ],
+        "sha": "f307a6d47edf8d96eadd82e2f11657990197bbc7",
+        "timestamp": 1633556656
+      },
+      {
+        "files": [
+          ".github/workflows/lint_python.yml"
+        ],
+        "sha": "16847d7234b64853decdc2d301340dae5bcab155",
+        "timestamp": 1633557149
+      },
+      {
+        "files": [
+          ".github/workflows/lint_python.yml"
+        ],
+        "sha": "1d92c3a9c15fff03f94e844d3ff099e6ce4d04ca",
+        "timestamp": 1633557244
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "536e9667e16d397fb53c5af5734b778c8656d06b",
+        "timestamp": 1633557371
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5ed10702fdbd3833bc3d30a74e94f95b54a7cf70",
+        "timestamp": 1633583221
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          ".travis.yml",
+          "README-hacking.md",
+          "README.rst"
+        ],
+        "sha": "69f4644d24f6589a27b59d4fbad7e3f8b7750889",
+        "timestamp": 1633585965
+      },
+      {
+        "files": [
+          "README-hacking.md"
+        ],
+        "sha": "e8e311b0a7e4eff6d40fd92773569bc657327578",
+        "timestamp": 1633621180
+      },
+      {
+        "files": [
+          "README-hacking.md"
+        ],
+        "sha": "53e0db31eab4b7e40b4aac66bfeef2736b82b813",
+        "timestamp": 1633621217
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "912fe9bf09f7d4b310e3e8d8e8fe88a4b0789838",
+        "timestamp": 1633585648
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/win32.py",
+          "colorama/winterm.py"
+        ],
+        "sha": "7d3d3b9b00366755023a8d5d6eb48844b62d3f04",
+        "timestamp": 1501440112
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "78996837ec609a2e4adb7ffd14df1d03ca9bc8f9",
+        "timestamp": 1466541034
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "788106f7c4d0e4e18e52964b0271a070843819dd",
+        "timestamp": 1635461817
+      },
+      {
+        "files": [
+          "colorama/tests/ansitowin32_test.py"
+        ],
+        "sha": "8a364bd03c68e42e5b7f5a908b2030e50d153b7b",
+        "timestamp": 1635533811
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "8ba396b33d3655386cbdbbc6effc0d263c70371b",
+        "timestamp": 1637071340
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "35e9a91732a3d9e61cbafa5c843c2db1eab66e7f",
+        "timestamp": 1648536391
+      },
+      {
+        "files": [
+          "README-hacking.md"
+        ],
+        "sha": "e86623096b5b14b20c59129830bb84d53596ecfb",
+        "timestamp": 1655238005
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "6105ab364ee0bafbbbebf3bab3ab6497a5480f25",
+        "timestamp": 1655249569
+      },
+      {
+        "files": [
+          "Makefile",
+          "README-hacking.md",
+          "test-release"
+        ],
+        "sha": "0f5c36f4780ff2244c1507dd9986928f5f7da7f3",
+        "timestamp": 1655310751
+      },
+      {
+        "files": [
+          "demos/demo.sh"
+        ],
+        "sha": "372c486ecd756833b0e9c393cf55343a81cc39f8",
+        "timestamp": 1655312151
+      },
+      {
+        "files": [
+          "README-hacking.md"
+        ],
+        "sha": "f411cb9e62a3f9beaf22ac9fbaf80f3a66ea4898",
+        "timestamp": 1655349516
+      },
+      {
+        "files": [
+          "colorama/__init__.py"
+        ],
+        "sha": "f8ab4fd9e8494d7208d669df5c2d5e3d59439643",
+        "timestamp": 1655381822
+      },
+      {
+        "files": [
+          "test-release"
+        ],
+        "sha": "2c1210db1023b44b02cf894c85377eae237f66c2",
+        "timestamp": 1655382928
+      },
+      {
+        "files": [
+          "README-hacking.md",
+          "colorama/__init__.py"
+        ],
+        "sha": "da57715a05c64134d067cd1f8d4203fbd6ddf0eb",
+        "timestamp": 1655383385
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README-hacking.md",
+          "test-release"
+        ],
+        "sha": "b4fe4c2468612979f468056d1f73566a414f47bf",
+        "timestamp": 1655473635
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "72ffc4634affdec406ff7a7ebcc64e2558b4a8e8",
+        "timestamp": 1655231418
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "d4fc1f03606f746d29a303da96cb4624c05d73b7",
+        "timestamp": 1655237635
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "ae087c93d1c0c46e2d54642dbaabeb22a35217ff",
+        "timestamp": 1655245947
+      },
+      {
+        "files": [
+          "Makefile",
+          "README.rst",
+          "requirements-dev.txt"
+        ],
+        "sha": "0086cc645e2df1fb4557698c59b1d0bcca7aad36",
+        "timestamp": 1655654114
+      },
+      {
+        "files": [
+          "colorama/win32.py"
+        ],
+        "sha": "7ec896d86b4720dfd97f31c9152005bffed3e92b",
+        "timestamp": 1661466510
+      },
+      {
+        "files": [
+          "colorama/winterm.py"
+        ],
+        "sha": "5c8f98ab2ea727a39de76a65b0f3c0e714578e60",
+        "timestamp": 1665123559
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py"
+        ],
+        "sha": "b3fca6f5dd8964321d80ec2425ef9b160a69d093",
+        "timestamp": 1665123653
+      },
+      {
+        "files": [
+          "colorama/ansitowin32.py",
+          "colorama/tests/ansitowin32_test.py",
+          "colorama/win32.py",
+          "colorama/winterm.py"
+        ],
+        "sha": "db005539a7d1791159024ecd5f9e46e8bed66e75",
+        "timestamp": 1665126827
+      },
+      {
+        "files": [
+          "colorama/tests/ansitowin32_test.py",
+          "requirements-dev.txt"
+        ],
+        "sha": "7b06987f6dbcdaf4ffcfa4aa793a48642180cb0b",
+        "timestamp": 1665708944
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "e5f74dea6d766b921e526a4bae824725f6ddf9bc",
+        "timestamp": 1665709241
+      },
+      {
+        "files": [
+          "demos/demo02.py",
+          "demos/demo06.py",
+          "demos/demo07.py"
+        ],
+        "sha": "bab6f9391a23bd005fc3602709b5ab09296a5578",
+        "timestamp": 1665974028
+      },
+      {
+        "files": [
+          "colorama/tests/initialise_test.py"
+        ],
+        "sha": "66b76eda602c87973fa25a776476d79be7d7fab7",
+        "timestamp": 1665978973
+      },
+      {
+        "files": [
+          "colorama/tests/initialise_test.py"
+        ],
+        "sha": "3f3c06a02262e5bf8932099a3dc29ae238f233ca",
+        "timestamp": 1665979031
+      },
+      {
+        "files": [
+          "colorama/initialise.py",
+          "colorama/tests/initialise_test.py"
+        ],
+        "sha": "3c5553fa2b96a0dc17852e93e9f83bc4dec7cc38",
+        "timestamp": 1665979070
+      },
+      {
+        "files": [
+          "colorama/winterm.py"
+        ],
+        "sha": "479da74614d1bb669dd90f81c9e19c8b01767526",
+        "timestamp": 1665979117
+      },
+      {
+        "files": [
+          "colorama/tests/initialise_test.py"
+        ],
+        "sha": "38b498a7f094b54e7e8babec60f477252112db64",
+        "timestamp": 1665979580
+      },
+      {
+        "files": [
+          "colorama/initialise.py"
+        ],
+        "sha": "1a82924e382dfa29db3aade22e41484692db9e70",
+        "timestamp": 1665979840
+      },
+      {
+        "files": [
+          "colorama/tests/initialise_test.py"
+        ],
+        "sha": "78bce1870957c747227200ffa986982aad2e5a4b",
+        "timestamp": 1665980100
+      },
+      {
+        "files": [
+          "demos/demo06.py"
+        ],
+        "sha": "8c4a618c89a652cc12a7947064655434991f3a6e",
+        "timestamp": 1666011209
+      },
+      {
+        "files": [
+          "README-hacking.md"
+        ],
+        "sha": "52f4cfd7af3a779b0ba8a7ee320d99c0bfec9ce8",
+        "timestamp": 1666202102
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "0ae5ef2f9ab89335fb5b50933b75323178cb38bc",
+        "timestamp": 1666202127
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "7991d34773c72db791eb09d9ec349212d080fbc0",
+        "timestamp": 1666203123
+      },
+      {
+        "files": [
+          "colorama/__init__.py"
+        ],
+        "sha": "54b89c33b2448a1a0fab67ab020a902622b9a932",
+        "timestamp": 1666203350
+      },
+      {
+        "files": [
+          "README-hacking.md",
+          "README.rst"
+        ],
+        "sha": "832f14ce9a4d00c2dfb88e8cb02e2defadb76ba9",
+        "timestamp": 1666203939
+      },
+      {
+        "files": [
+          "test-release"
+        ],
+        "sha": "cb83041b25a6962d8124647e8741cfa0ab139994",
+        "timestamp": 1666205408
+      },
+      {
+        "files": [
+          "test-release.ps1"
+        ],
+        "sha": "f55f72e9d3950276679da91ba6dc713cefc603db",
+        "timestamp": 1666205447
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "a45949b3252633060261c9666b6aada4b2f2f020",
+        "timestamp": 1666205617
+      },
+      {
+        "files": [
+          "README-hacking.md",
+          "colorama/__init__.py"
+        ],
+        "sha": "3de9f013df4b470069d03d250224062e8cf15c49",
+        "timestamp": 1666664761
+      },
+      {
+        "files": [
+          "Makefile",
+          "README-hacking.md",
+          "colorama/__init__.py",
+          "test-release"
+        ],
+        "sha": "6f03975cc95a88b6d3edfbb248f5b92f3e267271",
+        "timestamp": 1666666014
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "README.rst",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "c28b1843069cd8e81f5315c1a3564f014119143a",
+        "timestamp": 1667077363
+      },
+      {
+        "files": [
+          "colorama/winterm.py"
+        ],
+        "sha": "8cf8f6d688d369808c51e69cb0e5a1139ecc04b6",
+        "timestamp": 1667354442
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "97d547c326b92d773ad9ec7d100d237d2a266c39",
+        "timestamp": 1676652214
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "5ae5fa48cdb7e89cb6f3781e065e71455404e616",
+        "timestamp": 1676652979
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "96033b22f2141ee37581b68c705e8b03ed2c289d",
+        "timestamp": 1676653680
+      },
+      {
+        "files": [
+          "README-hacking.md"
+        ],
+        "sha": "7f1a5933851363abbdc24a51e76829bb23a2793b",
+        "timestamp": 1692820081
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "README.rst",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "f433f0dbb7a4cee6fae2694d686ea51a23dfce1d",
+        "timestamp": 1693339902
+      },
+      {
+        "files": [
+          "README-hacking.md"
+        ],
+        "sha": "1520c120f36845796f277db8a28a13d0f0058d89",
+        "timestamp": 1701153634
+      },
+      {
+        "files": [
+          ".github/workflows/lint_python.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "05dfa0a30ea08f9263b86d42645da06188476594",
+        "timestamp": 1728288065
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "0d810582f8f03dc1a3549f8497a7f61aab216de3",
+        "timestamp": 1728288104
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "51a1e58ba983465d646c12545f6f8f0da1b928e9",
+        "timestamp": 1741917634
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "28a951371c8246655d9b74ef7aa4c4d88a2415a6",
+        "timestamp": 1741918020
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "dec3e135518aba3a507a0f19c54974eec1ab6535",
+        "timestamp": 1751903941
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "README.rst",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "7ede64224b9271443343ef9ea8cbe2f807f9d57d",
+        "timestamp": 1752054830
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "README.rst",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "39af3f73ea9df648089f832be71586478c4c78a7",
+        "timestamp": 1752055087
+      },
+      {
+        "files": [
+          "LICENSE.txt"
+        ],
+        "sha": "2519f33e70bb2668a9189e0b49ab1226f86b62d4",
+        "timestamp": 1778247049
+      },
+      {
+        "files": [
+          "LICENSE.txt"
+        ],
+        "sha": "3332a542e51c213d593a9e2bf7570f60d995489c",
+        "timestamp": 1778601045
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 4,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/FUNDING.yml": 0,
+      ".github/workflows/lint_python.yml": 1,
+      ".github/workflows/test.yml": 2,
+      ".gitignore": 3,
+      ".travis.yml": 4,
+      "CHANGELOG.rst": 5,
+      "ENTERPRISE.md": 6,
+      "LICENSE.txt": 7,
+      "Makefile": 8,
+      "README-hacking.md": 9,
+      "README.rst": 10,
+      "SECURITY.md": 11,
+      "colorama/__init__.py": 12,
+      "colorama/ansi.py": 13,
+      "colorama/ansitowin32.py": 14,
+      "colorama/initialise.py": 15,
+      "colorama/tests/ansi_test.py": 16,
+      "colorama/tests/ansitowin32_test.py": 17,
+      "colorama/tests/initialise_test.py": 18,
+      "colorama/tests/isatty_test.py": 19,
+      "colorama/tests/utils.py": 20,
+      "colorama/tests/winterm_test.py": 21,
+      "colorama/win32.py": 22,
+      "colorama/winterm.py": 23,
+      "demos/demo.bat": 24,
+      "demos/demo.sh": 25,
+      "demos/demo02.py": 26,
+      "demos/demo05.py": 27,
+      "demos/demo06.py": 28,
+      "demos/demo07.py": 29,
+      "demos/demo08.py": 30,
+      "demos/demo09.py": 31,
+      "pyproject.toml": 32,
+      "release.ps1": 33,
+      "requirements-dev.txt": 34,
+      "requirements.txt": 35,
+      "screenshots/ubuntu-demo.png": 36,
+      "screenshots/windows-demo.png": 37,
+      "setup.cfg": 38,
+      "setup.py": 39,
+      "test-release": 40,
+      "test-release.ps1": 41,
+      "tox.ini": 42
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1397767065,
+      "last_commit_ts": 1778601045,
+      "n_cochange_pairs": 42,
+      "n_commits_dropped_as_bulk": 11,
+      "n_commits_used": 281,
+      "n_files": 43
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "841634ed2a0da5d5ac2d867db533da8131266cb2",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
