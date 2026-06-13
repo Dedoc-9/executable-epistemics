@@ -1,0 +1,5153 @@
+{
+  "chain_hash": "c3c8df71e9770571",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/workflows/publish.yml||.github/workflows/test-suite.yml": 5,
+      ".github/workflows/publish.yml||pyproject.toml": 2,
+      ".github/workflows/publish.yml||scripts/publish": 2,
+      ".github/workflows/test-suite.yml||README.md": 2,
+      ".github/workflows/test-suite.yml||docs/index.md": 2,
+      ".github/workflows/test-suite.yml||pyproject.toml": 2,
+      ".github/workflows/test-suite.yml||requirements.txt": 3,
+      ".github/workflows/test-suite.yml||scripts/check": 2,
+      ".github/workflows/test-suite.yml||scripts/install": 2,
+      ".github/workflows/test-suite.yml||scripts/lint": 2,
+      ".github/workflows/test-suite.yml||scripts/publish": 2,
+      ".github/workflows/test-suite.yml||setup.py": 3,
+      "CHANGELOG.md||README.md": 3,
+      "CHANGELOG.md||docs/extensions.md": 3,
+      "CHANGELOG.md||docs/index.md": 3,
+      "CHANGELOG.md||docs/proxies.md": 3,
+      "CHANGELOG.md||httpcore/__init__.py": 49,
+      "CHANGELOG.md||httpcore/_async/connection.py": 3,
+      "CHANGELOG.md||httpcore/_async/connection_pool.py": 9,
+      "CHANGELOG.md||httpcore/_async/http11.py": 4,
+      "CHANGELOG.md||httpcore/_async/http2.py": 4,
+      "CHANGELOG.md||httpcore/_async/http_proxy.py": 6,
+      "CHANGELOG.md||httpcore/_async/socks_proxy.py": 4,
+      "CHANGELOG.md||httpcore/_backends/anyio.py": 3,
+      "CHANGELOG.md||httpcore/_backends/sync.py": 4,
+      "CHANGELOG.md||httpcore/_models.py": 2,
+      "CHANGELOG.md||httpcore/_sync/connection.py": 3,
+      "CHANGELOG.md||httpcore/_sync/connection_pool.py": 9,
+      "CHANGELOG.md||httpcore/_sync/http11.py": 3,
+      "CHANGELOG.md||httpcore/_sync/http2.py": 3,
+      "CHANGELOG.md||httpcore/_sync/http_proxy.py": 6,
+      "CHANGELOG.md||httpcore/_sync/socks_proxy.py": 3,
+      "CHANGELOG.md||httpcore/_synchronization.py": 7,
+      "CHANGELOG.md||pyproject.toml": 4,
+      "CHANGELOG.md||requirements.txt": 3,
+      "CHANGELOG.md||setup.py": 2,
+      "CHANGELOG.md||tests/_async/test_connection_pool.py": 7,
+      "CHANGELOG.md||tests/_async/test_http11.py": 2,
+      "CHANGELOG.md||tests/_sync/test_connection_pool.py": 7,
+      "CHANGELOG.md||tests/_sync/test_http11.py": 2,
+      "CHANGELOG.md||tests/async_tests/test_interfaces.py": 3,
+      "CHANGELOG.md||tests/conftest.py": 2,
+      "CHANGELOG.md||tests/sync_tests/test_interfaces.py": 3,
+      "MANIFEST.in||setup.py": 2,
+      "README.md||docs/index.md": 11,
+      "README.md||httpcore/_async/connection_pool.py": 2,
+      "README.md||pyproject.toml": 2,
+      "README.md||requirements.txt": 3,
+      "README.md||scripts/check": 2,
+      "README.md||scripts/lint": 2,
+      "README.md||scripts/unasync.py": 2,
+      "README.md||setup.py": 2,
+      "docs/api.md||httpcore/__init__.py": 3,
+      "docs/api.md||httpcore/_async/base.py": 2,
+      "docs/api.md||httpcore/_async/http11.py": 2,
+      "docs/api.md||httpcore/_async/http2.py": 2,
+      "docs/api.md||scripts/unasync.py": 3,
+      "docs/index.md||httpcore/_async/connection_pool.py": 2,
+      "docs/index.md||requirements.txt": 2,
+      "docs/index.md||scripts/check": 2,
+      "docs/index.md||scripts/lint": 2,
+      "docs/index.md||scripts/unasync.py": 2,
+      "docs/index.md||setup.py": 2,
+      "docs/proxies.md||httpcore/__init__.py": 2,
+      "httpcore/__init__.py||httpcore/_async/base.py": 2,
+      "httpcore/__init__.py||httpcore/_async/connection_pool.py": 4,
+      "httpcore/__init__.py||httpcore/_async/dispatch.py": 2,
+      "httpcore/__init__.py||httpcore/_async/http11.py": 5,
+      "httpcore/__init__.py||httpcore/_async/http2.py": 4,
+      "httpcore/__init__.py||httpcore/_async/http_proxy.py": 2,
+      "httpcore/__init__.py||httpcore/_bytestreams.py": 2,
+      "httpcore/__init__.py||httpcore/_exceptions.py": 4,
+      "httpcore/__init__.py||httpcore/_sync/connection_pool.py": 4,
+      "httpcore/__init__.py||httpcore/_sync/dispatch.py": 2,
+      "httpcore/__init__.py||httpcore/_sync/http11.py": 4,
+      "httpcore/__init__.py||httpcore/_sync/http2.py": 3,
+      "httpcore/__init__.py||httpcore/_sync/http_proxy.py": 2,
+      "httpcore/__init__.py||requirements.txt": 2,
+      "httpcore/__init__.py||scripts/unasync.py": 3,
+      "httpcore/__init__.py||setup.py": 2,
+      "httpcore/__init__.py||tests/async_tests/test_interfaces.py": 2,
+      "httpcore/__init__.py||tests/sync_tests/test_interfaces.py": 2,
+      "httpcore/_async/__init__.py||httpcore/_sync/__init__.py": 2,
+      "httpcore/_async/__init__.py||setup.py": 2,
+      "httpcore/_async/base.py||httpcore/_async/connection.py": 2,
+      "httpcore/_async/base.py||httpcore/_async/connection_pool.py": 5,
+      "httpcore/_async/base.py||httpcore/_async/http11.py": 5,
+      "httpcore/_async/base.py||httpcore/_async/http2.py": 7,
+      "httpcore/_async/base.py||httpcore/_async/http_proxy.py": 3,
+      "httpcore/_async/base.py||httpcore/_sync/base.py": 7,
+      "httpcore/_async/base.py||httpcore/_sync/connection_pool.py": 3,
+      "httpcore/_async/base.py||httpcore/_sync/http11.py": 2,
+      "httpcore/_async/base.py||httpcore/_sync/http2.py": 4,
+      "httpcore/_async/base.py||httpcore/_sync/http_proxy.py": 2,
+      "httpcore/_async/base.py||httpcore/_types.py": 2,
+      "httpcore/_async/base.py||scripts/unasync.py": 4,
+      "httpcore/_async/base.py||tests/async_tests/test_interfaces.py": 2,
+      "httpcore/_async/connection.py||httpcore/_async/connection_pool.py": 13,
+      "httpcore/_async/connection.py||httpcore/_async/http11.py": 6,
+      "httpcore/_async/connection.py||httpcore/_async/http2.py": 9,
+      "httpcore/_async/connection.py||httpcore/_async/http_proxy.py": 6,
+      "httpcore/_async/connection.py||httpcore/_backends/asyncio.py": 3,
+      "httpcore/_async/connection.py||httpcore/_backends/auto.py": 2,
+      "httpcore/_async/connection.py||httpcore/_backends/base.py": 2,
+      "httpcore/_async/connection.py||httpcore/_backends/sync.py": 2,
+      "httpcore/_async/connection.py||httpcore/_backends/trio.py": 2,
+      "httpcore/_async/connection.py||httpcore/_sync/connection.py": 22,
+      "httpcore/_async/connection.py||httpcore/_sync/connection_pool.py": 12,
+      "httpcore/_async/connection.py||httpcore/_sync/http11.py": 5,
+      "httpcore/_async/connection.py||httpcore/_sync/http2.py": 8,
+      "httpcore/_async/connection.py||httpcore/_sync/http_proxy.py": 6,
+      "httpcore/_async/connection.py||httpcore/_utils.py": 4,
+      "httpcore/_async/connection.py||tests/_async/test_connection_pool.py": 4,
+      "httpcore/_async/connection.py||tests/_sync/test_connection_pool.py": 4,
+      "httpcore/_async/connection.py||tests/async_tests/test_interfaces.py": 5,
+      "httpcore/_async/connection.py||tests/conftest.py": 2,
+      "httpcore/_async/connection.py||tests/sync_tests/test_interfaces.py": 4,
+      "httpcore/_async/connection_pool.py||httpcore/_async/http11.py": 16,
+      "httpcore/_async/connection_pool.py||httpcore/_async/http2.py": 15,
+      "httpcore/_async/connection_pool.py||httpcore/_async/http_proxy.py": 10,
+      "httpcore/_async/connection_pool.py||httpcore/_backends/asyncio.py": 5,
+      "httpcore/_async/connection_pool.py||httpcore/_backends/auto.py": 4,
+      "httpcore/_async/connection_pool.py||httpcore/_backends/base.py": 5,
+      "httpcore/_async/connection_pool.py||httpcore/_backends/sync.py": 3,
+      "httpcore/_async/connection_pool.py||httpcore/_backends/trio.py": 6,
+      "httpcore/_async/connection_pool.py||httpcore/_exceptions.py": 6,
+      "httpcore/_async/connection_pool.py||httpcore/_models.py": 2,
+      "httpcore/_async/connection_pool.py||httpcore/_sync/base.py": 3,
+      "httpcore/_async/connection_pool.py||httpcore/_sync/connection.py": 12,
+      "httpcore/_async/connection_pool.py||httpcore/_sync/connection_pool.py": 54,
+      "httpcore/_async/connection_pool.py||httpcore/_sync/http11.py": 14,
+      "httpcore/_async/connection_pool.py||httpcore/_sync/http2.py": 12,
+      "httpcore/_async/connection_pool.py||httpcore/_sync/http_proxy.py": 9,
+      "httpcore/_async/connection_pool.py||httpcore/_synchronization.py": 3,
+      "httpcore/_async/connection_pool.py||httpcore/_utils.py": 4,
+      "httpcore/_async/connection_pool.py||requirements.txt": 4,
+      "httpcore/_async/connection_pool.py||scripts/unasync.py": 3,
+      "httpcore/_async/connection_pool.py||setup.py": 2,
+      "httpcore/_async/connection_pool.py||tests/_async/test_connection_pool.py": 7,
+      "httpcore/_async/connection_pool.py||tests/_async/test_http11.py": 2,
+      "httpcore/_async/connection_pool.py||tests/_sync/test_connection_pool.py": 7,
+      "httpcore/_async/connection_pool.py||tests/_sync/test_http11.py": 2,
+      "httpcore/_async/connection_pool.py||tests/async_tests/test_interfaces.py": 11,
+      "httpcore/_async/connection_pool.py||tests/conftest.py": 3,
+      "httpcore/_async/connection_pool.py||tests/sync_tests/test_http11.py": 2,
+      "httpcore/_async/connection_pool.py||tests/sync_tests/test_interfaces.py": 9,
+      "httpcore/_async/dispatch.py||httpcore/_sync/dispatch.py": 7,
+      "httpcore/_async/dispatch.py||scripts/unasync.py": 2,
+      "httpcore/_async/http11.py||httpcore/_async/http2.py": 15,
+      "httpcore/_async/http11.py||httpcore/_async/http_proxy.py": 7,
+      "httpcore/_async/http11.py||httpcore/_backends/asyncio.py": 4,
+      "httpcore/_async/http11.py||httpcore/_backends/base.py": 2,
+      "httpcore/_async/http11.py||httpcore/_backends/sync.py": 2,
+      "httpcore/_async/http11.py||httpcore/_backends/trio.py": 3,
+      "httpcore/_async/http11.py||httpcore/_bytestreams.py": 2,
+      "httpcore/_async/http11.py||httpcore/_exceptions.py": 3,
+      "httpcore/_async/http11.py||httpcore/_sync/base.py": 2,
+      "httpcore/_async/http11.py||httpcore/_sync/connection.py": 5,
+      "httpcore/_async/http11.py||httpcore/_sync/connection_pool.py": 14,
+      "httpcore/_async/http11.py||httpcore/_sync/http11.py": 30,
+      "httpcore/_async/http11.py||httpcore/_sync/http2.py": 12,
+      "httpcore/_async/http11.py||httpcore/_sync/http_proxy.py": 6,
+      "httpcore/_async/http11.py||httpcore/_utils.py": 2,
+      "httpcore/_async/http11.py||scripts/unasync.py": 4,
+      "httpcore/_async/http11.py||setup.py": 3,
+      "httpcore/_async/http11.py||tests/_async/test_http11.py": 5,
+      "httpcore/_async/http11.py||tests/_sync/test_http11.py": 5,
+      "httpcore/_async/http11.py||tests/async_tests/test_interfaces.py": 5,
+      "httpcore/_async/http11.py||tests/conftest.py": 2,
+      "httpcore/_async/http11.py||tests/sync_tests/test_interfaces.py": 3,
+      "httpcore/_async/http2.py||httpcore/_async/http_proxy.py": 6,
+      "httpcore/_async/http2.py||httpcore/_backends/asyncio.py": 4,
+      "httpcore/_async/http2.py||httpcore/_backends/base.py": 2,
+      "httpcore/_async/http2.py||httpcore/_backends/sync.py": 2,
+      "httpcore/_async/http2.py||httpcore/_backends/trio.py": 5,
+      "httpcore/_async/http2.py||httpcore/_bytestreams.py": 2,
+      "httpcore/_async/http2.py||httpcore/_exceptions.py": 3,
+      "httpcore/_async/http2.py||httpcore/_sync/base.py": 4,
+      "httpcore/_async/http2.py||httpcore/_sync/connection.py": 8,
+      "httpcore/_async/http2.py||httpcore/_sync/connection_pool.py": 12,
+      "httpcore/_async/http2.py||httpcore/_sync/http11.py": 12,
+      "httpcore/_async/http2.py||httpcore/_sync/http2.py": 38,
+      "httpcore/_async/http2.py||httpcore/_sync/http_proxy.py": 5,
+      "httpcore/_async/http2.py||httpcore/_utils.py": 3,
+      "httpcore/_async/http2.py||requirements.txt": 4,
+      "httpcore/_async/http2.py||scripts/unasync.py": 5,
+      "httpcore/_async/http2.py||tests/_async/test_connection_pool.py": 2,
+      "httpcore/_async/http2.py||tests/_async/test_http2.py": 5,
+      "httpcore/_async/http2.py||tests/_sync/test_connection_pool.py": 2,
+      "httpcore/_async/http2.py||tests/_sync/test_http2.py": 5,
+      "httpcore/_async/http2.py||tests/async_tests/test_interfaces.py": 4,
+      "httpcore/_async/http2.py||tests/conftest.py": 2,
+      "httpcore/_async/http2.py||tests/sync_tests/test_interfaces.py": 2,
+      "httpcore/_async/http_proxy.py||httpcore/_backends/asyncio.py": 5,
+      "httpcore/_async/http_proxy.py||httpcore/_backends/base.py": 3,
+      "httpcore/_async/http_proxy.py||httpcore/_backends/sync.py": 4,
+      "httpcore/_async/http_proxy.py||httpcore/_backends/trio.py": 4,
+      "httpcore/_async/http_proxy.py||httpcore/_models.py": 2,
+      "httpcore/_async/http_proxy.py||httpcore/_sync/connection.py": 5,
+      "httpcore/_async/http_proxy.py||httpcore/_sync/connection_pool.py": 8,
+      "httpcore/_async/http_proxy.py||httpcore/_sync/http11.py": 5,
+      "httpcore/_async/http_proxy.py||httpcore/_sync/http2.py": 4,
+      "httpcore/_async/http_proxy.py||httpcore/_sync/http_proxy.py": 27,
+      "httpcore/_async/http_proxy.py||httpcore/_utils.py": 2,
+      "httpcore/_async/http_proxy.py||requirements.txt": 2,
+      "httpcore/_async/http_proxy.py||scripts/unasync.py": 2,
+      "httpcore/_async/http_proxy.py||tests/_async/test_http_proxy.py": 3,
+      "httpcore/_async/http_proxy.py||tests/_sync/test_http_proxy.py": 3,
+      "httpcore/_async/http_proxy.py||tests/async_tests/test_interfaces.py": 10,
+      "httpcore/_async/http_proxy.py||tests/conftest.py": 2,
+      "httpcore/_async/http_proxy.py||tests/sync_tests/test_interfaces.py": 8,
+      "httpcore/_async/interfaces.py||httpcore/_sync/interfaces.py": 2,
+      "httpcore/_async/interfaces.py||setup.cfg": 2,
+      "httpcore/_async/socks_proxy.py||httpcore/_sync/socks_proxy.py": 5,
+      "httpcore/_backends/anyio.py||httpcore/_backends/asyncio.py": 2,
+      "httpcore/_backends/anyio.py||httpcore/_backends/sync.py": 3,
+      "httpcore/_backends/anyio.py||httpcore/_backends/trio.py": 5,
+      "httpcore/_backends/anyio.py||requirements.txt": 2,
+      "httpcore/_backends/anyio.py||tests/async_tests/test_interfaces.py": 3,
+      "httpcore/_backends/anyio.py||tests/sync_tests/test_interfaces.py": 3,
+      "httpcore/_backends/asyncio.py||httpcore/_backends/auto.py": 3,
+      "httpcore/_backends/asyncio.py||httpcore/_backends/base.py": 5,
+      "httpcore/_backends/asyncio.py||httpcore/_backends/sync.py": 8,
+      "httpcore/_backends/asyncio.py||httpcore/_backends/trio.py": 9,
+      "httpcore/_backends/asyncio.py||httpcore/_sync/connection.py": 3,
+      "httpcore/_backends/asyncio.py||httpcore/_sync/connection_pool.py": 3,
+      "httpcore/_backends/asyncio.py||httpcore/_sync/http11.py": 3,
+      "httpcore/_backends/asyncio.py||httpcore/_sync/http2.py": 2,
+      "httpcore/_backends/asyncio.py||httpcore/_sync/http_proxy.py": 4,
+      "httpcore/_backends/asyncio.py||requirements.txt": 2,
+      "httpcore/_backends/asyncio.py||tests/async_tests/test_interfaces.py": 4,
+      "httpcore/_backends/asyncio.py||tests/backend_tests/test_asyncio.py": 2,
+      "httpcore/_backends/asyncio.py||tests/sync_tests/test_interfaces.py": 3,
+      "httpcore/_backends/auto.py||httpcore/_backends/base.py": 3,
+      "httpcore/_backends/auto.py||httpcore/_backends/sync.py": 2,
+      "httpcore/_backends/auto.py||httpcore/_backends/trio.py": 3,
+      "httpcore/_backends/auto.py||httpcore/_sync/connection.py": 2,
+      "httpcore/_backends/auto.py||httpcore/_sync/connection_pool.py": 3,
+      "httpcore/_backends/auto.py||requirements.txt": 3,
+      "httpcore/_backends/auto.py||setup.py": 2,
+      "httpcore/_backends/base.py||httpcore/_backends/sync.py": 3,
+      "httpcore/_backends/base.py||httpcore/_backends/trio.py": 5,
+      "httpcore/_backends/base.py||httpcore/_sync/connection.py": 2,
+      "httpcore/_backends/base.py||httpcore/_sync/connection_pool.py": 3,
+      "httpcore/_backends/base.py||httpcore/_sync/http_proxy.py": 2,
+      "httpcore/_backends/base.py||scripts/unasync.py": 2,
+      "httpcore/_backends/base.py||tests/async_tests/test_interfaces.py": 3,
+      "httpcore/_backends/base.py||tests/sync_tests/test_interfaces.py": 2,
+      "httpcore/_backends/mock.py||tests/_async/test_connection_pool.py": 3,
+      "httpcore/_backends/mock.py||tests/_sync/test_connection_pool.py": 3,
+      "httpcore/_backends/sync.py||httpcore/_backends/trio.py": 9,
+      "httpcore/_backends/sync.py||httpcore/_exceptions.py": 2,
+      "httpcore/_backends/sync.py||httpcore/_sync/connection.py": 2,
+      "httpcore/_backends/sync.py||httpcore/_sync/connection_pool.py": 3,
+      "httpcore/_backends/sync.py||httpcore/_sync/http11.py": 2,
+      "httpcore/_backends/sync.py||httpcore/_sync/http2.py": 2,
+      "httpcore/_backends/sync.py||httpcore/_sync/http_proxy.py": 4,
+      "httpcore/_backends/sync.py||tests/async_tests/test_interfaces.py": 2,
+      "httpcore/_backends/sync.py||tests/sync_tests/test_interfaces.py": 2,
+      "httpcore/_backends/trio.py||httpcore/_exceptions.py": 2,
+      "httpcore/_backends/trio.py||httpcore/_sync/connection.py": 2,
+      "httpcore/_backends/trio.py||httpcore/_sync/connection_pool.py": 4,
+      "httpcore/_backends/trio.py||httpcore/_sync/http11.py": 2,
+      "httpcore/_backends/trio.py||httpcore/_sync/http2.py": 3,
+      "httpcore/_backends/trio.py||httpcore/_sync/http_proxy.py": 3,
+      "httpcore/_backends/trio.py||requirements.txt": 3,
+      "httpcore/_backends/trio.py||setup.cfg": 5,
+      "httpcore/_backends/trio.py||tests/async_tests/test_interfaces.py": 4,
+      "httpcore/_backends/trio.py||tests/sync_tests/test_interfaces.py": 3,
+      "httpcore/_bytestreams.py||httpcore/_sync/http11.py": 2,
+      "httpcore/_bytestreams.py||httpcore/_sync/http2.py": 2,
+      "httpcore/_exceptions.py||httpcore/_sync/connection_pool.py": 6,
+      "httpcore/_exceptions.py||httpcore/_sync/http11.py": 3,
+      "httpcore/_exceptions.py||httpcore/_sync/http2.py": 3,
+      "httpcore/_models.py||httpcore/_sync/connection_pool.py": 2,
+      "httpcore/_models.py||httpcore/_sync/http_proxy.py": 2,
+      "httpcore/_models.py||requirements.txt": 2,
+      "httpcore/_models.py||tests/test_models.py": 3,
+      "httpcore/_sync/__init__.py||setup.py": 2,
+      "httpcore/_sync/base.py||httpcore/_sync/connection_pool.py": 3,
+      "httpcore/_sync/base.py||httpcore/_sync/http11.py": 2,
+      "httpcore/_sync/base.py||httpcore/_sync/http2.py": 4,
+      "httpcore/_sync/base.py||httpcore/_types.py": 2,
+      "httpcore/_sync/connection.py||httpcore/_sync/connection_pool.py": 12,
+      "httpcore/_sync/connection.py||httpcore/_sync/http11.py": 5,
+      "httpcore/_sync/connection.py||httpcore/_sync/http2.py": 8,
+      "httpcore/_sync/connection.py||httpcore/_sync/http_proxy.py": 5,
+      "httpcore/_sync/connection.py||httpcore/_utils.py": 4,
+      "httpcore/_sync/connection.py||tests/_async/test_connection_pool.py": 4,
+      "httpcore/_sync/connection.py||tests/_sync/test_connection_pool.py": 4,
+      "httpcore/_sync/connection.py||tests/async_tests/test_interfaces.py": 4,
+      "httpcore/_sync/connection.py||tests/conftest.py": 2,
+      "httpcore/_sync/connection.py||tests/sync_tests/test_interfaces.py": 4,
+      "httpcore/_sync/connection_pool.py||httpcore/_sync/http11.py": 14,
+      "httpcore/_sync/connection_pool.py||httpcore/_sync/http2.py": 12,
+      "httpcore/_sync/connection_pool.py||httpcore/_sync/http_proxy.py": 8,
+      "httpcore/_sync/connection_pool.py||httpcore/_synchronization.py": 3,
+      "httpcore/_sync/connection_pool.py||httpcore/_utils.py": 4,
+      "httpcore/_sync/connection_pool.py||requirements.txt": 4,
+      "httpcore/_sync/connection_pool.py||setup.py": 2,
+      "httpcore/_sync/connection_pool.py||tests/_async/test_connection_pool.py": 7,
+      "httpcore/_sync/connection_pool.py||tests/_async/test_http11.py": 2,
+      "httpcore/_sync/connection_pool.py||tests/_sync/test_connection_pool.py": 7,
+      "httpcore/_sync/connection_pool.py||tests/_sync/test_http11.py": 2,
+      "httpcore/_sync/connection_pool.py||tests/async_tests/test_interfaces.py": 9,
+      "httpcore/_sync/connection_pool.py||tests/conftest.py": 3,
+      "httpcore/_sync/connection_pool.py||tests/sync_tests/test_http11.py": 2,
+      "httpcore/_sync/connection_pool.py||tests/sync_tests/test_interfaces.py": 9,
+      "httpcore/_sync/dispatch.py||scripts/unasync.py": 2,
+      "httpcore/_sync/http11.py||httpcore/_sync/http2.py": 12,
+      "httpcore/_sync/http11.py||httpcore/_sync/http_proxy.py": 5,
+      "httpcore/_sync/http11.py||httpcore/_utils.py": 2,
+      "httpcore/_sync/http11.py||setup.py": 3,
+      "httpcore/_sync/http11.py||tests/_async/test_http11.py": 5,
+      "httpcore/_sync/http11.py||tests/_sync/test_http11.py": 5,
+      "httpcore/_sync/http11.py||tests/async_tests/test_interfaces.py": 3,
+      "httpcore/_sync/http11.py||tests/conftest.py": 2,
+      "httpcore/_sync/http11.py||tests/sync_tests/test_interfaces.py": 3,
+      "httpcore/_sync/http2.py||httpcore/_sync/http_proxy.py": 4,
+      "httpcore/_sync/http2.py||httpcore/_utils.py": 3,
+      "httpcore/_sync/http2.py||requirements.txt": 4,
+      "httpcore/_sync/http2.py||scripts/unasync.py": 2,
+      "httpcore/_sync/http2.py||tests/_async/test_connection_pool.py": 2,
+      "httpcore/_sync/http2.py||tests/_async/test_http2.py": 5,
+      "httpcore/_sync/http2.py||tests/_sync/test_connection_pool.py": 2,
+      "httpcore/_sync/http2.py||tests/_sync/test_http2.py": 5,
+      "httpcore/_sync/http2.py||tests/async_tests/test_interfaces.py": 2,
+      "httpcore/_sync/http2.py||tests/conftest.py": 2,
+      "httpcore/_sync/http2.py||tests/sync_tests/test_interfaces.py": 2,
+      "httpcore/_sync/http_proxy.py||httpcore/_utils.py": 2,
+      "httpcore/_sync/http_proxy.py||requirements.txt": 2,
+      "httpcore/_sync/http_proxy.py||tests/_async/test_http_proxy.py": 3,
+      "httpcore/_sync/http_proxy.py||tests/_sync/test_http_proxy.py": 3,
+      "httpcore/_sync/http_proxy.py||tests/async_tests/test_interfaces.py": 9,
+      "httpcore/_sync/http_proxy.py||tests/conftest.py": 2,
+      "httpcore/_sync/http_proxy.py||tests/sync_tests/test_interfaces.py": 8,
+      "httpcore/_sync/interfaces.py||setup.cfg": 2,
+      "httpcore/_synchronization.py||pyproject.toml": 3,
+      "httpcore/_synchronization.py||requirements.txt": 2,
+      "pyproject.toml||requirements.txt": 6,
+      "pyproject.toml||scripts/check": 5,
+      "pyproject.toml||scripts/lint": 4,
+      "requirements.txt||scripts/build": 2,
+      "requirements.txt||scripts/check": 4,
+      "requirements.txt||scripts/install": 2,
+      "requirements.txt||scripts/lint": 5,
+      "requirements.txt||scripts/unasync.py": 4,
+      "requirements.txt||setup.cfg": 9,
+      "requirements.txt||setup.py": 6,
+      "requirements.txt||tests/async_tests/test_interfaces.py": 7,
+      "requirements.txt||tests/conftest.py": 7,
+      "requirements.txt||tests/marks/__init__.py": 2,
+      "requirements.txt||tests/marks/curio.py": 2,
+      "requirements.txt||tests/sync_tests/test_interfaces.py": 7,
+      "requirements.txt||tests/utils.py": 4,
+      "scripts/check||scripts/lint": 8,
+      "scripts/check||scripts/unasync": 2,
+      "scripts/check||scripts/unasync.py": 3,
+      "scripts/check||setup.cfg": 2,
+      "scripts/install||scripts/test": 2,
+      "scripts/lint||scripts/unasync": 2,
+      "scripts/lint||scripts/unasync.py": 3,
+      "scripts/lint||setup.cfg": 3,
+      "scripts/test||setup.cfg": 2,
+      "scripts/unasync.py||setup.py": 2,
+      "scripts/unasync.py||tests/async_tests/test_interfaces.py": 4,
+      "scripts/unasync.py||tests/conftest.py": 3,
+      "scripts/unasync.py||tests/marks/__init__.py": 2,
+      "scripts/unasync.py||tests/marks/curio.py": 2,
+      "scripts/unasync.py||tests/sync_tests/test_interfaces.py": 3,
+      "scripts/unasync||scripts/unasync.py": 2,
+      "setup.cfg||tests/concurrency.py": 2,
+      "tests/_async/test_connection.py||tests/_sync/test_connection.py": 3,
+      "tests/_async/test_connection_pool.py||tests/_async/test_http11.py": 2,
+      "tests/_async/test_connection_pool.py||tests/_sync/test_connection_pool.py": 13,
+      "tests/_async/test_connection_pool.py||tests/_sync/test_http11.py": 2,
+      "tests/_async/test_http11.py||tests/_sync/test_connection_pool.py": 2,
+      "tests/_async/test_http11.py||tests/_sync/test_http11.py": 6,
+      "tests/_async/test_http2.py||tests/_sync/test_http2.py": 7,
+      "tests/_async/test_http_proxy.py||tests/_sync/test_http_proxy.py": 3,
+      "tests/_sync/test_connection_pool.py||tests/_sync/test_http11.py": 2,
+      "tests/async_tests/test_connection_pool.py||tests/sync_tests/test_connection_pool.py": 2,
+      "tests/async_tests/test_http11.py||tests/async_tests/test_http2.py": 2,
+      "tests/async_tests/test_http11.py||tests/sync_tests/test_http11.py": 2,
+      "tests/async_tests/test_interfaces.py||tests/conftest.py": 12,
+      "tests/async_tests/test_interfaces.py||tests/sync_tests/test_interfaces.py": 32,
+      "tests/async_tests/test_interfaces.py||tests/utils.py": 6,
+      "tests/conftest.py||tests/marks/__init__.py": 2,
+      "tests/conftest.py||tests/marks/curio.py": 2,
+      "tests/conftest.py||tests/sync_tests/test_interfaces.py": 12,
+      "tests/conftest.py||tests/utils.py": 5,
+      "tests/marks/__init__.py||tests/marks/curio.py": 2,
+      "tests/sync_tests/test_http11.py||tests/sync_tests/test_http2.py": 2,
+      "tests/sync_tests/test_interfaces.py||tests/utils.py": 6
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "cca53ba0b8d38f24828c828679acd8bd3b8fd67d",
+        "timestamp": 1580388072
+      },
+      {
+        "files": [
+          "docs/index.md",
+          "httpcore/_async/dispatch.py",
+          "httpcore/_sync/dispatch.py"
+        ],
+        "sha": "f2a86f30e528673b3c37d9ee09cc26916fedd2b2",
+        "timestamp": 1580399497
+      },
+      {
+        "files": [
+          "httpcore/_async/dispatch.py",
+          "httpcore/_sync/dispatch.py"
+        ],
+        "sha": "e4f4a7b574222ded69e85de07e2b46e2fe4f6337",
+        "timestamp": 1580400126
+      },
+      {
+        "files": [
+          "httpcore/_async/dispatch.py",
+          "httpcore/_sync/dispatch.py",
+          "scripts/unasync.py"
+        ],
+        "sha": "ecd856c83c899c6a1a168a243030049052cfb290",
+        "timestamp": 1580469324
+      },
+      {
+        "files": [
+          "scripts/unasync.py"
+        ],
+        "sha": "e7bfb108c4197f676a21ae2e830557ab1a1dc93d",
+        "timestamp": 1580469344
+      },
+      {
+        "files": [
+          "docs/api.md",
+          "httpcore/__init__.py",
+          "httpcore/_async/dispatch.py",
+          "httpcore/_sync/dispatch.py",
+          "scripts/unasync.py"
+        ],
+        "sha": "f2a8f1ad92c1999fecb466a4dffec24810e69cfc",
+        "timestamp": 1580470651
+      },
+      {
+        "files": [
+          "httpcore/_async/dispatch.py",
+          "httpcore/_sync/dispatch.py"
+        ],
+        "sha": "6582e66e05756e53116d2b9688d63f38f13ba50c",
+        "timestamp": 1580471752
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "51449a5f220ae2796ea4a6cd52611f7e7fc74be0",
+        "timestamp": 1580471760
+      },
+      {
+        "files": [
+          "scripts/unasync.py"
+        ],
+        "sha": "26308917d0fa7d1d41b88facc794a47baf45a774",
+        "timestamp": 1580471777
+      },
+      {
+        "files": [
+          "tests/_async/__init__.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/__init__.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "8839531c0701f04daef367d73e3f10b7a22e6cf3",
+        "timestamp": 1580471892
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "ff567dba43c958fb8a4adc5c527ec4bae3ed4da1",
+        "timestamp": 1580472647
+      },
+      {
+        "files": [
+          "scripts/check",
+          "scripts/install",
+          "scripts/lint",
+          "scripts/test"
+        ],
+        "sha": "3a63bd9ef880943da8455342aee3159b2e035e38",
+        "timestamp": 1580472662
+      },
+      {
+        "files": [
+          "httpcore/__init__.py",
+          "httpcore/_async/dispatch.py",
+          "httpcore/_sync/dispatch.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "99667e00d77bbe278c2095b5cbb28147566971a4",
+        "timestamp": 1580472684
+      },
+      {
+        "files": [
+          "scripts/check",
+          "scripts/lint",
+          "scripts/unasync",
+          "scripts/unasync.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "434adbbea40a363473d52c7dcc6033781c725521",
+        "timestamp": 1580473618
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "scripts/unasync"
+        ],
+        "sha": "394011da6b5e74aed7ea7e66ab4e2a4f502c7283",
+        "timestamp": 1580474047
+      },
+      {
+        "files": [
+          "httpcore/_async/dispatch.py",
+          "httpcore/_sync/dispatch.py",
+          "mkdocs.yml"
+        ],
+        "sha": "0662cb29842c9b2393783e0968ac28278999ecc2",
+        "timestamp": 1580478041
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.md"
+        ],
+        "sha": "5ce85aaa0fd4d2903dc92f56ee2b56fb27360e28",
+        "timestamp": 1580489018
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_backends/auto.py",
+          "httpcore/_exceptions.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py"
+        ],
+        "sha": "066ebcfc0ad455f5ea1d4021771036411f9642ed",
+        "timestamp": 1580993618
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_threadlock.py"
+        ],
+        "sha": "ea0eb3a5b48a9d3179b4d3adbd30ec5fa242ee54",
+        "timestamp": 1580995789
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py"
+        ],
+        "sha": "4171cae9000c0ba4c1cce0a742d3ae28e2b3f348",
+        "timestamp": 1581093664
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py"
+        ],
+        "sha": "7555f57489c45a5120b58c16ff2905352c1bb68d",
+        "timestamp": 1581095546
+      },
+      {
+        "files": [
+          "httpcore/__init__.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_backends/asyncio.py",
+          "httpcore/_backends/base.py",
+          "httpcore/_backends/sync.py",
+          "httpcore/_backends/trio.py",
+          "httpcore/_exceptions.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "2e7cfebe96bbacf1b9f863afa0df506c2d0698bc",
+        "timestamp": 1581332321
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "cacc6111ea4f1f405fe1b633871dfdd96c807c86",
+        "timestamp": 1581934501
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "86ac5e87d775dbbc04a978ca1dc0559d398206c7",
+        "timestamp": 1581934516
+      },
+      {
+        "files": [
+          "httpcore/_async/base.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/base.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "21199eb2370edb1781e734b23f78d555bd8760fe",
+        "timestamp": 1582558653
+      },
+      {
+        "files": [
+          "httpcore/_async/base.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_exceptions.py",
+          "httpcore/_sync/base.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "5b3b42b2f64a9a812e8c01bbdcf138cd811fb1d1",
+        "timestamp": 1582623236
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "6c35d44d455d80570ef403045505fb4e79ddd2d9",
+        "timestamp": 1582638276
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "6325cb9ffaddb81e16c5daf044f52e6017a81ac8",
+        "timestamp": 1582647037
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_backends/asyncio.py",
+          "httpcore/_backends/auto.py",
+          "httpcore/_backends/base.py",
+          "httpcore/_backends/sync.py",
+          "httpcore/_backends/trio.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "9a10c68e40fe5ac0db3d6fc14d38517590fc6971",
+        "timestamp": 1582732903
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e38b520b650c800fd19c8910c7e6c3704a314760",
+        "timestamp": 1582800733
+      },
+      {
+        "files": [
+          "scripts/clean",
+          "scripts/publish"
+        ],
+        "sha": "7588e2e0e21aacbb0cef4b2ab97d822725c9827d",
+        "timestamp": 1582800751
+      },
+      {
+        "files": [
+          "docs/index.md"
+        ],
+        "sha": "7d2a66b6541c7bd0e0fe038ac4ded0d01e20f3af",
+        "timestamp": 1582800771
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "4a780cf6e2f10027fbc8e1d7e56b5548ff72f447",
+        "timestamp": 1582802566
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "8f1f226a0d07a1be04145cdbc673b453e0da0a29",
+        "timestamp": 1582810648
+      },
+      {
+        "files": [
+          "httpcore/_async/http_proxy.py"
+        ],
+        "sha": "506ccac9480bbfd16500cc233363b524af33e930",
+        "timestamp": 1583161123
+      },
+      {
+        "files": [
+          "httpcore/_async/base.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_backends/asyncio.py",
+          "httpcore/_backends/base.py",
+          "httpcore/_backends/trio.py",
+          "scripts/unasync.py",
+          "tests/async_tests/test_interfaces.py"
+        ],
+        "sha": "13bcdb1dd17753d12f2f70f314c1f9e041a9808c",
+        "timestamp": 1583161192
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http_proxy.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "e64cefba98c62ba89ae7d7989e2f2fbdc86315a4",
+        "timestamp": 1583247735
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "704bd5b3a1c1864dc16958a4004265310f048700",
+        "timestamp": 1583420415
+      },
+      {
+        "files": [
+          "httpcore/__init__.py"
+        ],
+        "sha": "ca443a8507bed6a280909b190150edd0111c4206",
+        "timestamp": 1583421025
+      },
+      {
+        "files": [
+          "docs/api.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "52da38981327a31857d1defac6516a569c58e257",
+        "timestamp": 1583424840
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "9c801001910e0188369cd0f54e5fb24ae65d664e",
+        "timestamp": 1583845079
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "d6bf348136c632a1d57bc4c5f81ab0b0b660a127",
+        "timestamp": 1584779590
+      },
+      {
+        "files": [
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "cab0cbbf058c82beee56e8a83ccc4575ab59dbe7",
+        "timestamp": 1585332163
+      },
+      {
+        "files": [
+          ".gitignore",
+          "CHANGELOG.md",
+          "LICENSE.md",
+          "MANIFEST.in",
+          "setup.py"
+        ],
+        "sha": "48af9e49729a0f6398bdc08e30989361a6cee85b",
+        "timestamp": 1586615252
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml",
+          ".travis.yml",
+          "scripts/install",
+          "scripts/test"
+        ],
+        "sha": "251239b80b01c2648c1b9d633ea87a5e5a71de34",
+        "timestamp": 1587742578
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_backends/asyncio.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http_proxy.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "b65eaef14e8a3fb7266b2aa0393e471087da4f3f",
+        "timestamp": 1588171624
+      },
+      {
+        "files": [
+          "httpcore/__init__.py",
+          "httpcore/_exceptions.py"
+        ],
+        "sha": "36b45fc5460fa9c2eb5862301b4bb15f7d0f561a",
+        "timestamp": 1588234630
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py",
+          "requirements.txt",
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "ac1d91f0d42381741160a47b5057af1fda8458b0",
+        "timestamp": 1588239404
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml",
+          ".github/workflows/test-suite.yml",
+          "scripts/publish"
+        ],
+        "sha": "b0aa6ac0756150461902409fce10b627161bc24f",
+        "timestamp": 1588239721
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "5c045346df52245dbf84fd32f6c0d27a237a0a35",
+        "timestamp": 1588241038
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml",
+          ".github/workflows/test-suite.yml",
+          "requirements.txt",
+          "scripts/build",
+          "scripts/publish"
+        ],
+        "sha": "cfde05992a2a01358c7c981ae070637a9957cd70",
+        "timestamp": 1588243498
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml"
+        ],
+        "sha": "6051919d8f5556cddc281dafd31fed9be1661592",
+        "timestamp": 1588256711
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py",
+          "httpcore/_async/base.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "scripts/unasync.py"
+        ],
+        "sha": "ea63f14376b457521d9081060827411dc7d9ebf3",
+        "timestamp": 1588258251
+      },
+      {
+        "files": [
+          "httpcore/_backends/trio.py",
+          "requirements.txt",
+          "setup.cfg"
+        ],
+        "sha": "be8735b178ac7552f973335fda2a738ed6d31c77",
+        "timestamp": 1588408368
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "42b6e455bbdbaeb3b986d90a4025b6764089ba9f",
+        "timestamp": 1588494133
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "98e9b5b2637dc1531fda6eb38cef506feed0f5cb",
+        "timestamp": 1588495758
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "92930f2e3dd656d47a8d383c1d3eea5205da1d21",
+        "timestamp": 1588588207
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.md"
+        ],
+        "sha": "43037067889408f3aecd9ec9bd3a1c9ff918a337",
+        "timestamp": 1588590884
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml"
+        ],
+        "sha": "219cd820e051ff3e4bb58955fa28a3da949781a2",
+        "timestamp": 1588591258
+      },
+      {
+        "files": [
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "701b57b1b57bd9333f227d4d580d4617ca3045c1",
+        "timestamp": 1588757780
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "96c736a69366c4f9f1b49e35ba0fc4ba9585150b",
+        "timestamp": 1588762196
+      },
+      {
+        "files": [
+          "httpcore/__init__.py"
+        ],
+        "sha": "2bde5f6e39f18ab72ee0d5780f98aa4d0d0f0b8b",
+        "timestamp": 1588771244
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "c634ba72d682bdf52a5209e3a40ed47ca5e46770",
+        "timestamp": 1589198883
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py",
+          "httpcore/_sync/http_proxy.py",
+          "httpcore/_utils.py"
+        ],
+        "sha": "f5712f60c5e2b8e1b7cd6264515601f3c470defc",
+        "timestamp": 1589211010
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "e80de8771a9829f3a26e550fa41e109127258058",
+        "timestamp": 1589211958
+      },
+      {
+        "files": [
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/http11.py"
+        ],
+        "sha": "eddcc695e963e677537e594192101600d3e50215",
+        "timestamp": 1589301518
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "717da4827655f96d598fe5e97541258888324429",
+        "timestamp": 1589466296
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "30847a01453bc7fdcdac596698e2c4f70c7d9fbe",
+        "timestamp": 1589471089
+      },
+      {
+        "files": [
+          "scripts/coverage",
+          "scripts/test",
+          "setup.cfg"
+        ],
+        "sha": "7cfb2d5847e86d9ce21ad90a3cb7d17ec5bf4f26",
+        "timestamp": 1589976520
+      },
+      {
+        "files": [
+          "httpcore/_async/base.py",
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/base.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http2.py",
+          "httpcore/_sync/http_proxy.py",
+          "httpcore/_types.py",
+          "httpcore/_utils.py"
+        ],
+        "sha": "875daba1789a0ea3fd6f6bb2c2aa8c84f6595944",
+        "timestamp": 1590052666
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "221754be06e540e5971fb74623477c62799ad1e2",
+        "timestamp": 1590060738
+      },
+      {
+        "files": [
+          "httpcore/_backends/sync.py"
+        ],
+        "sha": "687e9fbb23489f342b98672999816dc1af8f381a",
+        "timestamp": 1590584905
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_utils.py"
+        ],
+        "sha": "353509d395882a867eba6ffd09f4b767bb29583a",
+        "timestamp": 1590585015
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "888c163bb385dc89fc802a7a01aa8420ded55774",
+        "timestamp": 1590591379
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.md"
+        ],
+        "sha": "38a1806a1f417b15f9083dac57a83d8f0146b821",
+        "timestamp": 1591006532
+      },
+      {
+        "files": [
+          "docs/contributing.md",
+          "mkdocs.yml",
+          "scripts/docs"
+        ],
+        "sha": "7415731e24faf389ff1a78a99ee54762bdab4f1b",
+        "timestamp": 1591454677
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py",
+          "httpcore/_utils.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "59eb0a39c21d1fbe532b5fd289fe95eeb072bced",
+        "timestamp": 1591517249
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "scripts/lint",
+          "setup.cfg"
+        ],
+        "sha": "6150d1793eb41ef140ac78980fac8200bed3c3e1",
+        "timestamp": 1593945696
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py",
+          "tests/conftest.py"
+        ],
+        "sha": "337aff9eef9f3ee4c121857967758917f15181cb",
+        "timestamp": 1594214329
+      },
+      {
+        "files": [
+          "scripts/lint"
+        ],
+        "sha": "1332407f6b7f25f72d2bce823136457384786d66",
+        "timestamp": 1594231033
+      },
+      {
+        "files": [
+          "httpcore/_backends/asyncio.py",
+          "httpcore/_backends/sync.py",
+          "httpcore/_backends/trio.py"
+        ],
+        "sha": "44d441375234272d06b8e5bc33310398bb6746d8",
+        "timestamp": 1594806229
+      },
+      {
+        "files": [
+          "httpcore/_async/base.py",
+          "httpcore/_sync/base.py"
+        ],
+        "sha": "1001c583a12b54d26568ca6dcc1f30eaedc95d3f",
+        "timestamp": 1594981982
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.md"
+        ],
+        "sha": "d448503ef5dcc7f5069ef0ff2ed61ed2baa19367",
+        "timestamp": 1594985433
+      },
+      {
+        "files": [
+          "httpcore/_types.py"
+        ],
+        "sha": "17b22bbfd24233dbcbd2fda273fd03eb1748e311",
+        "timestamp": 1595181904
+      },
+      {
+        "files": [
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "276ed99b29c42af44d0f0a7a54c39e293e1d9a9a",
+        "timestamp": 1596364512
+      },
+      {
+        "files": [
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "40f9663b3b745a45dc61877522ca4efc2bfefbf2",
+        "timestamp": 1596365815
+      },
+      {
+        "files": [
+          "httpcore/__init__.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_exceptions.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "4b0ee6f79bc12429f1baea098a75e04a8801409c",
+        "timestamp": 1596368011
+      },
+      {
+        "files": [
+          "httpcore/_async/base.py",
+          "httpcore/_sync/base.py"
+        ],
+        "sha": "23e3cbe816eee2b83676928699afc149ee4e4be5",
+        "timestamp": 1596368359
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/http.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/http.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "623f3c875527e214b4289bf43acf71cdf56aa0e1",
+        "timestamp": 1596368534
+      },
+      {
+        "files": [
+          "httpcore/__init__.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_exceptions.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "f4240b64735ce5cafcfed24b6417c16d61a034df",
+        "timestamp": 1596369564
+      },
+      {
+        "files": [
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "5c4c2a4f24d45a0f9a557a7a3b047b86324cb11a",
+        "timestamp": 1596661188
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_backends/asyncio.py",
+          "httpcore/_backends/auto.py",
+          "httpcore/_backends/base.py",
+          "httpcore/_backends/sync.py",
+          "httpcore/_backends/trio.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "98633e0e99db2ebd86484c0336b1368ee5510e83",
+        "timestamp": 1596705706
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.md",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py",
+          "requirements.txt",
+          "setup.py"
+        ],
+        "sha": "01c6ae8fb4735f386306085a5f5496b4202413e2",
+        "timestamp": 1596706293
+      },
+      {
+        "files": [
+          "docs/api.md",
+          "httpcore/__init__.py",
+          "httpcore/_async/base.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_bytestreams.py",
+          "httpcore/_sync/base.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py",
+          "scripts/unasync.py"
+        ],
+        "sha": "2b85b00138acc112a1c27b8e3efc217fb5e9eb10",
+        "timestamp": 1596712012
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "53718de92771afdd24a8e081eea42b7179d242de",
+        "timestamp": 1596803229
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "876edf147f1053d0acbdf0eb63e90ff6f5326c5d",
+        "timestamp": 1596804234
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "d8e7c83217d6a50eabf83a0f5f76433fd39c4de6",
+        "timestamp": 1596804446
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "5479076741331bb8a04e8f0b12a009f49d8f0823",
+        "timestamp": 1596805507
+      },
+      {
+        "files": [
+          "httpcore/__init__.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_bytestreams.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "d82896bf09db516b1daa27f525c1c9690e9fc961",
+        "timestamp": 1596992710
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "bf88f29f3987b8d2acb8603a364da83229061995",
+        "timestamp": 1597161099
+      },
+      {
+        "files": [
+          "httpcore/_async/base.py",
+          "httpcore/_sync/base.py",
+          "httpcore/_types.py"
+        ],
+        "sha": "3a2a3c784f6186a54eb69be11cb2b249920c4e69",
+        "timestamp": 1597179680
+      },
+      {
+        "files": [
+          "scripts/unasync.py"
+        ],
+        "sha": "d434aafa025875271488c8b04e71110761421741",
+        "timestamp": 1597239809
+      },
+      {
+        "files": [
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "c98a9a076d74994bf6e4d878b5c92ec91cb6a6a8",
+        "timestamp": 1597280504
+      },
+      {
+        "files": [
+          "httpcore/__init__.py"
+        ],
+        "sha": "b0cfafd3ac14b660e25589cba6e31fc6c5ffd9f4",
+        "timestamp": 1597286364
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "a82cefa75b8b0376d6626844b08469249e64d4f0",
+        "timestamp": 1597416795
+      },
+      {
+        "files": [
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "124ca752128fd74401654475fabae8cd6193d99b",
+        "timestamp": 1597422693
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tests/__init__.py"
+        ],
+        "sha": "9982f93c9bbfc06023e8b0f3fdc901ff0181633e",
+        "timestamp": 1597461602
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_backends/asyncio.py",
+          "httpcore/_backends/sync.py",
+          "httpcore/_backends/trio.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "55ea7b8d341378aab4bc98812b2648acb9c7b836",
+        "timestamp": 1597915753
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "03399162e45ce1927c54cbddb808e82efbfd7f5b",
+        "timestamp": 1597915924
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "76f6e199b6ab92c6d18d3d8c65a9d19dab6d4ecb",
+        "timestamp": 1597915992
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_backends/asyncio.py",
+          "httpcore/_backends/auto.py",
+          "httpcore/_backends/base.py",
+          "httpcore/_backends/trio.py"
+        ],
+        "sha": "a43a4fcdb6e1a60d9df9a4891d53bb39047e0dc9",
+        "timestamp": 1598430612
+      },
+      {
+        "files": [
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_backends/asyncio.py",
+          "httpcore/_backends/sync.py",
+          "httpcore/_backends/trio.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py",
+          "httpcore/_sync/http_proxy.py",
+          "requirements.txt",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "647b62cef3100329d45b614b3cf61bdc3d9749fb",
+        "timestamp": 1598726404
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "ccea853eaf9f429b980ebff5774d958f3ba9a8fc",
+        "timestamp": 1598787185
+      },
+      {
+        "files": [
+          "httpcore/_backends/auto.py",
+          "httpcore/_backends/curio.py",
+          "requirements.txt",
+          "scripts/unasync.py",
+          "setup.py",
+          "tests/conftest.py",
+          "tests/marks/__init__.py",
+          "tests/marks/curio.py"
+        ],
+        "sha": "2a1c6ef8e09952be02c6afe953a56e781ba1e2db",
+        "timestamp": 1599295167
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.md"
+        ],
+        "sha": "86ef5fd356d2cce11c9d7649ea12a03ad5db01eb",
+        "timestamp": 1599314508
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml"
+        ],
+        "sha": "f8a0fac06c6780570888649eb525742a967fe6ac",
+        "timestamp": 1599548086
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "scripts/unasync.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/marks/__init__.py",
+          "tests/marks/curio.py",
+          "tests/sync_tests/test_interfaces.py",
+          "tests/utils.py"
+        ],
+        "sha": "92d3e9bbd3c442c6035860eea9e15a2249e0cad8",
+        "timestamp": 1599728311
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_exceptions.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "685a9b6c968f0662b45f637ffacaf4795454fb9d",
+        "timestamp": 1599986799
+      },
+      {
+        "files": [
+          "httpcore/_backends/curio.py"
+        ],
+        "sha": "b3d8ec32e1bbc9b9102b0f709410148e3766d9ff",
+        "timestamp": 1600070635
+      },
+      {
+        "files": [
+          ".github/dependabot.yml",
+          "requirements.txt",
+          "scripts/install"
+        ],
+        "sha": "044b3f87d9ed2b1cbd1ea792315f838897a52cfd",
+        "timestamp": 1600111226
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py",
+          "httpcore/_backends/base.py",
+          "scripts/unasync.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "21f60dd5679fbaf2565041aa9b9d69c74c3df813",
+        "timestamp": 1600259519
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/api.md",
+          "docs/index.md",
+          "httpcore/_async/base.py",
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py",
+          "scripts/unasync.py",
+          "tests/async_tests/test_interfaces.py"
+        ],
+        "sha": "06d0e775250f7cabde700555af6a2b2abe7cdc53",
+        "timestamp": 1600762480
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6103851e2d223bb54a3189353b6e67a1836ad96a",
+        "timestamp": 1600769567
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py",
+          "requirements.txt",
+          "scripts/unasync.py",
+          "tests/async_tests/test_connection_pool.py",
+          "tests/sync_tests/test_connection_pool.py"
+        ],
+        "sha": "5f214d0f1cbdfbbea0b3ed599a40ec0537fa4206",
+        "timestamp": 1600976927
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py"
+        ],
+        "sha": "1f67394211e82713dfd18be9014efaec769ed05c",
+        "timestamp": 1601294910
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "8d27424c7943be7fad9ed790689f2d69bf703a5b",
+        "timestamp": 1601307757
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "scripts/install"
+        ],
+        "sha": "8e682126f46063ef373275761e963b6f425adcc3",
+        "timestamp": 1601575664
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.md"
+        ],
+        "sha": "5eeae4204f73f50b4fd654e87e6ae8361bf2c5b0",
+        "timestamp": 1601625680
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "977e88e29e7ca277aa15a35e2cea429672e27e87",
+        "timestamp": 1601626385
+      },
+      {
+        "files": [
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/sync_tests/test_interfaces.py",
+          "tests/utils.py"
+        ],
+        "sha": "af993c33d4f16974f08b4a78056fd7bba05243d2",
+        "timestamp": 1601675056
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f7ccbd3fbbf047e34626805559d53ef5745ad5fb",
+        "timestamp": 1601751459
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/sync_tests/test_interfaces.py",
+          "tests/utils.py"
+        ],
+        "sha": "73905ad86bc9611a1b7180e965a2165c248f3d18",
+        "timestamp": 1601802663
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "75e87aa80a64bd04fa5171f356d8d798c2e1541a",
+        "timestamp": 1601893411
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "850722573e2f49116491e37793c67fb0021c8e17",
+        "timestamp": 1601893596
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "6d58611a941f117df2f152b98bb1c33c01a23d00",
+        "timestamp": 1601905510
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "63aaa810f4c37dcadd70f2cfb16f7ebf381ca633",
+        "timestamp": 1601905721
+      },
+      {
+        "files": [
+          "scripts/lint"
+        ],
+        "sha": "995f647da52b057008783b47e6c6c5621267a628",
+        "timestamp": 1601908763
+      },
+      {
+        "files": [
+          "httpcore/_backends/asyncio.py"
+        ],
+        "sha": "d93b6ffe801b7bfc8b1c315b9f938353dc7a5dfb",
+        "timestamp": 1601977922
+      },
+      {
+        "files": [
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/http11.py",
+          "setup.py"
+        ],
+        "sha": "09a11daeb39a2e22c8f1c88ab10371716fb2a30b",
+        "timestamp": 1601983424
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py",
+          "setup.py"
+        ],
+        "sha": "416cebbf7535d61e58ab446bc62f32ab25e14a85",
+        "timestamp": 1601984500
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "57852f16c51d91fd10fc2ed5b62c9235b2343438",
+        "timestamp": 1601998895
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "4262a7cb17e0fbd648041b3d5936ed58ffee45e2",
+        "timestamp": 1602000437
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "scripts/test",
+          "setup.cfg"
+        ],
+        "sha": "d100ac0d12e09b88a847ba6739175858e759df78",
+        "timestamp": 1602157728
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml"
+        ],
+        "sha": "11f537e58da1cb3993b3cd919beb71b7ec80c540",
+        "timestamp": 1602318052
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py",
+          "httpcore/_backends/trio.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "0a9575fcb589e95059af603d97d84c1731111102",
+        "timestamp": 1603721548
+      },
+      {
+        "files": [
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py",
+          "tests/utils.py"
+        ],
+        "sha": "62b47316983c5309c8f7b703139d45af1cd402d8",
+        "timestamp": 1604047104
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b6b82e627a3561d3719c984c5b71824ae572bb1f",
+        "timestamp": 1604221594
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "6b723c5941346f398106bf063cbc01076ac43983",
+        "timestamp": 1604247719
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "1d344eddc9866213e0683bda3ff36c2e80bcde3c",
+        "timestamp": 1604248095
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "99244e819e06739b87d49b51bff965ea976fe779",
+        "timestamp": 1604248269
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "038cad32879acba9d918c8ee1559788c26a0374e",
+        "timestamp": 1604248501
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "30e565c31bd1cc3ace8044aea1dd24abe1c4334f",
+        "timestamp": 1604740833
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "be933fe7594a0f906f0a9de14ab3bf7b6be9a31f",
+        "timestamp": 1604748990
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/sync_tests/test_interfaces.py",
+          "tests/utils.py"
+        ],
+        "sha": "df14828d802aa5fed0dbec6dda8c127a13ee6118",
+        "timestamp": 1604751953
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/async_tests/test_interfaces.py",
+          "tests/conftest.py",
+          "tests/sync_tests/test_interfaces.py",
+          "tests/utils.py"
+        ],
+        "sha": "3ed845c37c18b2a07e6f8128870c84f7c8059263",
+        "timestamp": 1604874375
+      },
+      {
+        "files": [
+          "tests/async_tests/test_retries.py",
+          "tests/sync_tests/test_retries.py"
+        ],
+        "sha": "db81ed09592bac8ce740b3be74cf99c86a68c104",
+        "timestamp": 1604874908
+      },
+      {
+        "files": [
+          "httpcore/_backends/asyncio.py"
+        ],
+        "sha": "76f6e9197701026aa5d55ddbea07c13c57bb9af0",
+        "timestamp": 1605596059
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_sync/connection.py",
+          "tests/test_threadsafety.py"
+        ],
+        "sha": "0fce6d3ee4f440abd1512924b776acd69181fbfe",
+        "timestamp": 1605872846
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "84c7738de7fd23ec20187964a33b5b9a0de01493",
+        "timestamp": 1605911662
+      },
+      {
+        "files": [
+          "httpcore/_backends/asyncio.py"
+        ],
+        "sha": "6abf6639b266b0cf58d610b8e16776d3d4a61fef",
+        "timestamp": 1606318707
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "bdcd5bf50d5267ed0f579156ae10a99e95cfb7d9",
+        "timestamp": 1606471162
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "641a762bee001486cfbbe81c25156bb6a6091abb",
+        "timestamp": 1606484467
+      },
+      {
+        "files": [
+          "httpcore/_backends/asyncio.py",
+          "requirements.txt",
+          "tests/_sync/__init__.py",
+          "tests/backend_tests/test_asyncio.py"
+        ],
+        "sha": "ce19d64c38cfa4700a2d9f6bdf8f288dc33c30a6",
+        "timestamp": 1606722910
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "8fae4aa8bad8a913b740e7dfecbc8b4946e427aa",
+        "timestamp": 1606741766
+      },
+      {
+        "files": [
+          "httpcore/_backends/asyncio.py"
+        ],
+        "sha": "ade4e09bd74b5bf5df94fb405da1782f3113982f",
+        "timestamp": 1606742968
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "41ac4152a46070b93989d137b5dfd4e1d56a17e5",
+        "timestamp": 1606810158
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "28ec5f4b83a1895902d5f4e31d77dcc24ce9f890",
+        "timestamp": 1606819192
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "8dbd5ccacb56b897c0a9aa3e32fde42822c68acc",
+        "timestamp": 1606819531
+      },
+      {
+        "files": [
+          "httpcore/_backends/asyncio.py"
+        ],
+        "sha": "cf45ea73aff56addaac12aa9a9f0cc01adf9c9b1",
+        "timestamp": 1607371970
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "ed76a30277529c5687cbdb6e203d6dbd0d56833f",
+        "timestamp": 1611849670
+      },
+      {
+        "files": [
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "04539341c0db3b5238aa48815facadca0b546d2b",
+        "timestamp": 1615800013
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "scripts/check",
+          "scripts/lint"
+        ],
+        "sha": "12edfd1d04d76785cbfd3ee62c6f74e1d7a06e8d",
+        "timestamp": 1615808513
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "ebfaaa5a3ac366a723d70c5cd555e69e42503180",
+        "timestamp": 1615847224
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "574bdfc4409a5640b70677faac227c83ec5ed270",
+        "timestamp": 1616355252
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b5395beaf13662346a9dcafc054082646e8eb4e0",
+        "timestamp": 1616355439
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "6e4c9db4ac8bbbcdf2ae96c109f3a2eef8b1e830",
+        "timestamp": 1616355613
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "377b741aecf221a652d0db3cc9e97d04a0d333e7",
+        "timestamp": 1616355828
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b4eec1406006245f2f41052794730b6d8a318812",
+        "timestamp": 1616356010
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "970d113cf395be39e6d3fee2d88c9950cf85dac0",
+        "timestamp": 1616356431
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "caa975e90eef46db5b8505ae02663941adc0c240",
+        "timestamp": 1616362932
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e469dc34b1626a2e874d3b2beac679a26dcea2bb",
+        "timestamp": 1616364220
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "143b9c3c2627f6fcb8478183ee016da7ffebdd6c",
+        "timestamp": 1616365158
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b3e95c8f63672428955270480a3fadfc0af210fd",
+        "timestamp": 1616365873
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f25bdba424c79a4352657075e18a51863e3c8670",
+        "timestamp": 1616366574
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "cf65cd97787801575fd0e3ba6b2ef7b1263a5507",
+        "timestamp": 1616414089
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e5772b4ce4477df9adabd7f2df18263a4cc9cf14",
+        "timestamp": 1616414916
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "4b662b5c42378a61e54d673b4c949420102379f5",
+        "timestamp": 1616540288
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7ef46d097418f0443ed05e01f64087fe48654165",
+        "timestamp": 1617265281
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "9c7948d574caa390b7463ff6ddd378b41e5bbf09",
+        "timestamp": 1617265986
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "bd88bf8547a0fae216ae2d18b0d1cb0de81a8707",
+        "timestamp": 1617266258
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "666cccc6d46212ef7fda83009208e9792217e01e",
+        "timestamp": 1618997905
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "172fa356df93878f7f6aa24620c394b82a83366f",
+        "timestamp": 1619007915
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py",
+          "requirements.txt"
+        ],
+        "sha": "341320fbaf7cac93c7b626076c03ae834d65763b",
+        "timestamp": 1619165828
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py",
+          "httpcore/_backends/asyncio.py",
+          "httpcore/_backends/sync.py",
+          "httpcore/_backends/trio.py"
+        ],
+        "sha": "3acf913f56c4a2d292ecaa72e441a3099508dfbb",
+        "timestamp": 1619618434
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py",
+          "httpcore/_backends/asyncio.py",
+          "httpcore/_backends/curio.py",
+          "httpcore/_backends/sync.py",
+          "httpcore/_utils.py",
+          "tests/backend_tests/test_asyncio.py"
+        ],
+        "sha": "8b2053eef4cad39982a700588825fd9350fd360f",
+        "timestamp": 1619620053
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "0fe1cdc81ff130b7c3508fca54df6865c8d51c89",
+        "timestamp": 1619620321
+      },
+      {
+        "files": [
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/http11.py"
+        ],
+        "sha": "005f57da39491f83066733b91038504f6b636194",
+        "timestamp": 1619697634
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "9c54adefa80f83f5d771634c47e30ff12bd3df39",
+        "timestamp": 1619699831
+      },
+      {
+        "files": [
+          "scripts/publish"
+        ],
+        "sha": "fdd9f9d187fa4c8cde767a28cece633a427fecb8",
+        "timestamp": 1619704540
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "480167e3cf55d8843492756fa1c2d9fd32d20b23",
+        "timestamp": 1620038349
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "2cea1a0e9ecd9cdddbd696e72e852b3ea77eae4f",
+        "timestamp": 1620039111
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py",
+          "setup.py",
+          "tests/async_tests/test_http11.py",
+          "tests/sync_tests/test_http11.py"
+        ],
+        "sha": "8a6c8d1104a9e2501338c58e2cb520f90fdc5b2d",
+        "timestamp": 1620041054
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "8f9ffd6f390b8f5c0f51b6b8973e564b8406db4e",
+        "timestamp": 1620043860
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7b0761a65e0d5ad0cf2e05f449d17db262f540ae",
+        "timestamp": 1620047837
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "274efb6309d4c5e762125115fa88edd6b541ed68",
+        "timestamp": 1620048094
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "8600f36f4b082029e3feaf69611f645fa0eb9c40",
+        "timestamp": 1620048235
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "890ddae775ac6493724fdc9f930417ba4f09bda2",
+        "timestamp": 1620048939
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "4b8362bf2ada6acb32c87f7b7f2cb166b789b1c8",
+        "timestamp": 1620049181
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py",
+          "tests/async_tests/test_http11.py",
+          "tests/async_tests/test_http2.py",
+          "tests/sync_tests/test_http11.py",
+          "tests/sync_tests/test_http2.py"
+        ],
+        "sha": "8d7e739e000e7c51272603ef5a798aaf9315e560",
+        "timestamp": 1620115220
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e47cdc473a6808ef33f81d691c6cdcd7f4556c63",
+        "timestamp": 1620119172
+      },
+      {
+        "files": [
+          "httpcore/_utils.py"
+        ],
+        "sha": "8d879387931a77fab779fc11b6208659c9a5b9dc",
+        "timestamp": 1620124093
+      },
+      {
+        "files": [
+          "tests/async_tests/test_http11.py",
+          "tests/async_tests/test_http2.py"
+        ],
+        "sha": "5809b95c45dc17843afebccf181c226c6ebe0c4c",
+        "timestamp": 1620126851
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "c599e46efc4e1d21df8e0e1d9dc4627eae790a70",
+        "timestamp": 1620313316
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "3eff24e406af3ffa6086f3b17ed6aa2b015ff621",
+        "timestamp": 1620316733
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "958d9924b1b962a7e47991d0dfc670a2a7deb885",
+        "timestamp": 1620903266
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py",
+          "httpcore/_backends/auto.py",
+          "requirements.txt",
+          "setup.py"
+        ],
+        "sha": "911d61c3495918e4f4fa72a7d32f335d79e1e798",
+        "timestamp": 1621943217
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "9df4876be95dabec650375d2190d9c909fa56475",
+        "timestamp": 1622542965
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e599dde13ddedba536733ffc15b8e464d34c43d9",
+        "timestamp": 1622543106
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "9cf441fc6abfc0038fdf8cae2a9f5eb5e4ec8cee",
+        "timestamp": 1622543352
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "53367b6aa574d89b7bbab1b78915bc357812f15b",
+        "timestamp": 1622543618
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "1d12ca3367e1ef002a4aeb10a3b70e066a2b55d9",
+        "timestamp": 1622543941
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "3f33e159f8802a191d09a186ae816aa7a8e37062",
+        "timestamp": 1622544378
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_http11.py",
+          "tests/sync_tests/test_http2.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "1e403bace48f313f67645e9002804a7266725028",
+        "timestamp": 1623234362
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "5baf2099fd633b067b611eeaa5da23f0937d0445",
+        "timestamp": 1623238090
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py"
+        ],
+        "sha": "10a5b0a2b0047f0c301b0bb551e43463592f54fe",
+        "timestamp": 1623316748
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py"
+        ],
+        "sha": "cd1f3c3304d52d372981b9af8b4d9393d4c0843c",
+        "timestamp": 1623316854
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "de4a3752d12e626486d364f815c718d2c799fb31",
+        "timestamp": 1623403363
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py"
+        ],
+        "sha": "4b68736a41f5eed988bf92ca483060460b19e33f",
+        "timestamp": 1623684740
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py"
+        ],
+        "sha": "c5d56944f534b1fa40ac0df0fd9fccdbbee207d6",
+        "timestamp": 1623685543
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "0137177be7af637553c38224e0e4c66a7ce89653",
+        "timestamp": 1623685959
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py",
+          "httpcore/_backends/trio.py"
+        ],
+        "sha": "8970484a78e5eadeee09580d3e35f99023014271",
+        "timestamp": 1623765270
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "f0d16e9462910c13d3b72039223346a3fe8a3299",
+        "timestamp": 1623765613
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b2e938d495cf8a63e2be1511e0e6a1c5ecbf5f2d",
+        "timestamp": 1625145312
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "8730a49df1f9f4e2c912ae75b18d5f1fbef5dbb1",
+        "timestamp": 1625145435
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "6bff5f56702d9e3e00666d8e1753bc3fa40dd166",
+        "timestamp": 1625145762
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "77e24e48c9047732c197157a1cdd002c125e1164",
+        "timestamp": 1625147140
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "efa7b455d93f17afce4f8f03e38cf77543e073e7",
+        "timestamp": 1625147384
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "04e2309e6d32ee9732bd4001945a32704a304e6a",
+        "timestamp": 1625147515
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e05c4cd113caa5c5259dc6e9d481b35cf9aefdd6",
+        "timestamp": 1625148213
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml",
+          "setup.py",
+          "tests/async_tests/test_connection_pool.py",
+          "tests/async_tests/test_interfaces.py",
+          "tests/sync_tests/test_connection_pool.py",
+          "tests/sync_tests/test_interfaces.py"
+        ],
+        "sha": "6765b6927852d6326ffe3b84ded738e1ec21ee36",
+        "timestamp": 1625159035
+      },
+      {
+        "files": [
+          "scripts/install"
+        ],
+        "sha": "c8fdef098483e1265907fefe6279d2bd5593d2ed",
+        "timestamp": 1625476996
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "cd39c1ac79bd830181adc01f12f3ac496b20d1e6",
+        "timestamp": 1627893600
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "df5c7cfbea9c750120b7050a920c9c7b5b83e020",
+        "timestamp": 1627893991
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "0b108d9d02a48f6638bca97ea340101447f5c4c4",
+        "timestamp": 1627897835
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "798e7989b52f1ecea195ae2e16fa88fd63e996ca",
+        "timestamp": 1627898219
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "409b6985582068a43ba7b7fb17c3c062703638a1",
+        "timestamp": 1627898564
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml",
+          "docs/api.md",
+          "requirements.txt"
+        ],
+        "sha": "107c038cab538c4b6e7b1baa745e18780b37411a",
+        "timestamp": 1627910089
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "9b98101fe17c1af67a26631c7f58f68e776962c0",
+        "timestamp": 1630499395
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "9f67545e887938d8635f95112ab3a65872a449ce",
+        "timestamp": 1630499683
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "064929214125fe0f8542ef2750b9370087e99601",
+        "timestamp": 1630499888
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e11d368307becd7267edfc8051c251db79db4ff2",
+        "timestamp": 1630500715
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "8147fb391fd5269f5f9f109673e9660a82d25fd4",
+        "timestamp": 1630506515
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "c501208b8bb1bab698b47f833fdaaaa8d1c47c32",
+        "timestamp": 1630508154
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "6a73431d0c54bf4d19d243f345029e4b4a56f4c1",
+        "timestamp": 1631288853
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "772805e328cc3c53067d6d536624c3a61f7931ce",
+        "timestamp": 1631522877
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "47e85385bbe78e4a87a2e7ef0da32a23ce864b52",
+        "timestamp": 1633352563
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "470f0ec041051d1ff7c6c00ef80a39ee4bf1ce93",
+        "timestamp": 1633357133
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e7a7b1924d2e47f2663361f531973eb3ee7d2ca9",
+        "timestamp": 1633357981
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "71bff8fb492d4a2ffbe99deb3d415b56bd228269",
+        "timestamp": 1635766692
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "c3f758fac14d604489f5fa417607c7cd794f0dc3",
+        "timestamp": 1635772427
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "5f66f47a7dbed7f96e455bc2ab2fb5e02ee4af9f",
+        "timestamp": 1635772965
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7dd6a669e10ce90e79920d98a0a38dc1cbc53bcd",
+        "timestamp": 1636032716
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "09b465e66b027b49b5d3ca1f84f9210ec0b4c3b7",
+        "timestamp": 1636037260
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/contributing.md"
+        ],
+        "sha": "85a1f9ecab09e65d4299b5e2676964c43ac2c02d",
+        "timestamp": 1636537173
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "README.md",
+          "docs/index.md"
+        ],
+        "sha": "22b980fae92c927fa253b76166cbeb07c821d7bf",
+        "timestamp": 1636639214
+      },
+      {
+        "files": [
+          "httpcore/_async/__init__.py",
+          "httpcore/_sync/__init__.py",
+          "setup.py"
+        ],
+        "sha": "abee287c57d2efe5eb2c750e4bf817dddba36869",
+        "timestamp": 1636713621
+      },
+      {
+        "files": [
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_models.py",
+          "httpcore/_sync/http_proxy.py",
+          "tests/test_models.py"
+        ],
+        "sha": "e2bb80b5861c434782ec3b9003efbde2f95350c0",
+        "timestamp": 1636713840
+      },
+      {
+        "files": [
+          "scripts/publish"
+        ],
+        "sha": "e2ddf0993d833d4022978044f3bceb9b3cde6b51",
+        "timestamp": 1636713857
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "fd2d8653b6b6684fcb1feae96cacdc0465e78b68",
+        "timestamp": 1636716130
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "4efe212b8781e42ee0aa651e5c47cca7517af843",
+        "timestamp": 1636717252
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "1ebb420efb9ba6188458ff31057479813a5df2aa",
+        "timestamp": 1637055731
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_sync/connection.py",
+          "tests/_async/test_connection_pool.py",
+          "tests/_sync/test_connection_pool.py"
+        ],
+        "sha": "ccf15efe11895d88f96410524f6ffdf2759aa96a",
+        "timestamp": 1637058920
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "aed635a0edb3c204eb09072fda2479eb2bfbc226",
+        "timestamp": 1637061915
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py",
+          "tests/_async/test_http2.py",
+          "tests/_sync/test_http2.py"
+        ],
+        "sha": "d57910a0876b6b97bb9be4d0a63a8d428ffa0ba2",
+        "timestamp": 1637154706
+      },
+      {
+        "files": [
+          "tests/_async/test_http2.py",
+          "tests/_sync/test_http2.py"
+        ],
+        "sha": "d6c1fa8ab1c573377dd9837d6dd7258a1bf61bbb",
+        "timestamp": 1637154923
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "0e8bc1f0591b05f40a9c8d0569ba1a914cee4d14",
+        "timestamp": 1637158326
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "823981335a6b99c6ac27d3a6a1b2c36afb1afd03",
+        "timestamp": 1637158709
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "bd72c1b19ef98cb411da7c659fc3360e4b299e5c",
+        "timestamp": 1637237008
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "e4aa75f9ea955628347f836af8a42df9e8977c1b",
+        "timestamp": 1637245157
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py",
+          "tests/_async/test_http2.py",
+          "tests/_sync/test_http2.py"
+        ],
+        "sha": "9d3358e34917b70fa7f4a1a518c57516cc94bdb9",
+        "timestamp": 1637248886
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "de629324b1e2b375fe1d6c61b0daf8d9430559ca",
+        "timestamp": 1637249552
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "c58a8f7a50b03e9e5ba4ef39afb7b57362cd72f1",
+        "timestamp": 1638363244
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "43618f56e5364e0a256f1e5a31c9517389639eea",
+        "timestamp": 1638363405
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "25e39121078b543e02b70d5723646d4eb562cc7d",
+        "timestamp": 1638365796
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "bcd66caa1cb512937489a7d115841232974bc678",
+        "timestamp": 1638365930
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f0d437e43b9d8621b06c433c65b9e7d1d89318e3",
+        "timestamp": 1638366137
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b77ed366fc984db4647c7041ba3fa76e2a10d53f",
+        "timestamp": 1638366405
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "4246427f370425a852d25102a0a54ce3f1e54a0e",
+        "timestamp": 1638367512
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e7cccbcec7d0e44c859c5e42e9ef37929edc0601",
+        "timestamp": 1638367951
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "4f6d793e440ffeda31d7d064b434ad8083d42634",
+        "timestamp": 1638371173
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "22d4b69d190865cc66fade09f4a5475a69b3a1b1",
+        "timestamp": 1638801539
+      },
+      {
+        "files": [
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "918284f8eacc2ca6fc29742e31a28cb016f378ba",
+        "timestamp": 1639663324
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "b7c0d8a7c62a9b59e2954559494ca44be2afcf3d",
+        "timestamp": 1639665913
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "478fbbd3a2b9e1f5c64620a83e035b69392b15e5",
+        "timestamp": 1641041328
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "71eaeb01157fd0f38a5b8547b2a70af0ae871297",
+        "timestamp": 1641041485
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "ee1528c9e868e1eea5bf50e0cdc617669ec4d80c",
+        "timestamp": 1641042379
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "2209b58772bd9fa715a83c2076e2c20bd32e8033",
+        "timestamp": 1641042918
+      },
+      {
+        "files": [
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py",
+          "scripts/coverage",
+          "tests/_async/test_http_proxy.py",
+          "tests/_sync/test_http_proxy.py"
+        ],
+        "sha": "5bcea8b9de7b5e6b8f98464f7028dcdb9cabaa44",
+        "timestamp": 1641375983
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "setup.cfg"
+        ],
+        "sha": "3b11c482e7967f84bcd8eb041520a51fb21ede7b",
+        "timestamp": 1641377676
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "49ff95fae35beaba6e317ec2b8f87391c05faa49",
+        "timestamp": 1641377823
+      },
+      {
+        "files": [
+          "httpcore/_ssl.py",
+          "requirements.txt"
+        ],
+        "sha": "72808526ad2ddb5c86216de1ac0b8471b3160b59",
+        "timestamp": 1641378510
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "c0185385d1454dacabf80753441b2e64af191966",
+        "timestamp": 1641379351
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "9274c6bfeafa3fe2c51cd1756b0020641e8047c7",
+        "timestamp": 1641379482
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7a45d785c23e5804868dcd76bcb62ca627c090fc",
+        "timestamp": 1641380514
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "55d03fc4a3e5610ba22b433f5beb041232493fed",
+        "timestamp": 1641387706
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py",
+          "httpcore/_backends/sync.py",
+          "httpcore/_backends/trio.py"
+        ],
+        "sha": "da99b468325cc646fdd5c6e787077b17d28f51ff",
+        "timestamp": 1641389371
+      },
+      {
+        "files": [
+          "httpcore/_exceptions.py",
+          "requirements.txt"
+        ],
+        "sha": "14e9162226e8b7e04c59d82620ddbfedf38747db",
+        "timestamp": 1641389561
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "ba6d7379c3dd3d3e969912cd83c3bb96495815f2",
+        "timestamp": 1641393923
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "a56f15924f8d218cc3dd64817b8dcd4466838c81",
+        "timestamp": 1641995039
+      },
+      {
+        "files": [
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/http11.py"
+        ],
+        "sha": "018f52e62caf1ae92cffd751bd7d7c0b5de32eea",
+        "timestamp": 1641997314
+      },
+      {
+        "files": [
+          "httpcore/__init__.py",
+          "httpcore/_async/__init__.py",
+          "httpcore/_async/socks_proxy.py",
+          "httpcore/_models.py",
+          "httpcore/_sync/__init__.py",
+          "httpcore/_sync/socks_proxy.py",
+          "requirements.txt",
+          "setup.py",
+          "tests/_async/test_socks_proxy.py",
+          "tests/_sync/test_socks_proxy.py"
+        ],
+        "sha": "5a1694bb5d687b0dd75eee8fe3993c6883b91c15",
+        "timestamp": 1642171799
+      },
+      {
+        "files": [
+          "httpcore/_backends/mock.py",
+          "tests/_async/test_connection_pool.py",
+          "tests/_sync/test_connection_pool.py"
+        ],
+        "sha": "2e45d076697498664a7011a59ca654f404b20f32",
+        "timestamp": 1642175406
+      },
+      {
+        "files": [
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py",
+          "tests/_async/test_http_proxy.py",
+          "tests/_sync/test_http_proxy.py"
+        ],
+        "sha": "ce6616637b6aa9678a4ea6bb835c0854c58ed59a",
+        "timestamp": 1642436526
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/index.md",
+          "docs/proxies.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "c1401ebfe10a0f728f8e88139c7a1f6d2441cd94",
+        "timestamp": 1642506272
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "aeb3970beb1008cd8eafa86493fbfb9f7d9d9b81",
+        "timestamp": 1642506857
+      },
+      {
+        "files": [
+          "docs/proxies.md"
+        ],
+        "sha": "bb25e4068d9083bd9c2f1d4a1239ada3a3789a51",
+        "timestamp": 1642509050
+      },
+      {
+        "files": [
+          "docs/proxies.md"
+        ],
+        "sha": "2782e565e7b6acaefb95024b239817279313f3fc",
+        "timestamp": 1642516598
+      },
+      {
+        "files": [
+          ".github/stale.yml"
+        ],
+        "sha": "8e84b285048b1656391e361fa33f95e4b33b7d38",
+        "timestamp": 1642771110
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml"
+        ],
+        "sha": "25a5ad3422b3cd3f0ee8ff02eee755de07393645",
+        "timestamp": 1643026257
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/socks_proxy.py",
+          "httpcore/_sync/socks_proxy.py"
+        ],
+        "sha": "1924b125f87374c346f0614d45f765634772ca7c",
+        "timestamp": 1643629096
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py",
+          "tests/_async/test_connection_pool.py",
+          "tests/_async/test_http11.py",
+          "tests/_sync/test_connection_pool.py",
+          "tests/_sync/test_http11.py"
+        ],
+        "sha": "7ddb4cabecb551ce6a79f7db5aa540f19530cb2b",
+        "timestamp": 1643631300
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "44157272f51eb23844d1e7cc6a4ce61318eb54fd",
+        "timestamp": 1643714295
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e7e093050e1eff6ee15aad3c0b653c23f88b1e62",
+        "timestamp": 1643714692
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "d7bd04e828eb82494e3bbe8179b3253496d68402",
+        "timestamp": 1643714877
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "0749da7cddffcd3bf3d240fb2adae9b81d36876b",
+        "timestamp": 1643715274
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py",
+          "requirements.txt"
+        ],
+        "sha": "57d2eaa0b54fb5cd7fb7c69a71bdd9d270cca3f5",
+        "timestamp": 1643715789
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "e75cf703c7866d5e33bab87e71690df12f42f7f2",
+        "timestamp": 1643723629
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/socks_proxy.py",
+          "httpcore/_sync/socks_proxy.py"
+        ],
+        "sha": "b8cc3d5a6e3582ee513397d8452b7c51cb54ed8a",
+        "timestamp": 1643839516
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/_async/test_connection_pool.py",
+          "tests/_sync/test_connection_pool.py"
+        ],
+        "sha": "54567ac1df3761c14f50f2cf55769921f60cd8b3",
+        "timestamp": 1643976495
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "cad62bf9a5c1b83e9a32bdabf84b134a4683cee2",
+        "timestamp": 1643976966
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "b400d72cf15271c1f4abafa05dd8d82058493671",
+        "timestamp": 1644410213
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "ebf06848463a76492459e59221d665511afd52e2",
+        "timestamp": 1645788221
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "99c0ad938a236d6f5a00c38326c65c6987da603c",
+        "timestamp": 1646133988
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7ec8b2a809bfec54b332637c8fe8810f1733c3be",
+        "timestamp": 1646134495
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7e445f9dfdececc4004cfa05903836be8d918460",
+        "timestamp": 1646135354
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml",
+          "README.md",
+          "docs/index.md",
+          "httpcore/_async/interfaces.py",
+          "httpcore/_compat.py",
+          "httpcore/_sync/interfaces.py",
+          "requirements.txt",
+          "scripts/check",
+          "scripts/lint",
+          "scripts/unasync.py",
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "1bf9cf2d681aef410f4af65a76154a072fb15822",
+        "timestamp": 1649273132
+      },
+      {
+        "files": [
+          "httpcore/_backends/trio.py"
+        ],
+        "sha": "15d80935c6c97eb0b40d29a6d0a8008f4f6e6643",
+        "timestamp": 1652265390
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "b76afce454aa3c90bbe7f98424ff2fc8a95d45b6",
+        "timestamp": 1652791188
+      },
+      {
+        "files": [
+          ".github/stale.yml"
+        ],
+        "sha": "695158e0a4890d4548c2f6fca4a9f5044d90c381",
+        "timestamp": 1654013908
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "647b244eb3ea009dfc68b2c7fe365d24d9921410",
+        "timestamp": 1655651772
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "cf88358d1b4460de7d8b983534c0a14e20b16dd9",
+        "timestamp": 1655652984
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "10e4b986707f7aa26bb893f6503b1e8d59290fa5",
+        "timestamp": 1655653338
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "4874268c43a7b553bbd0c1bdd2bcb0273c3ad5bf",
+        "timestamp": 1655654824
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "48452f2bc93a6f306a5b5eac3887c76e2c6818e9",
+        "timestamp": 1655655387
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "setup.cfg"
+        ],
+        "sha": "168c8a71b299ba1e4b5a4a556dbcf3c30d953f53",
+        "timestamp": 1655656679
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "0511e973c6f96056aab3ae1ad985e58def3db07b",
+        "timestamp": 1655657126
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "671239b303745490bba7cfe3d9a91ea52b2f24ff",
+        "timestamp": 1655657457
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "ef89a255c18bb17c207fe7d0b8748e6b2b39f4f7",
+        "timestamp": 1656677176
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "5faf87ee5ced50ad52c201669f45337eb0b60688",
+        "timestamp": 1656678110
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f30316b5182467bc5d958858023cf7ac38a9b767",
+        "timestamp": 1659360486
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "90a8e6eb373d704ae9bba022950f2a93d7e2ad8a",
+        "timestamp": 1659360710
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "0c8265d87a7e8ae8b3c7ee90eb854ea5b9c23859",
+        "timestamp": 1659362298
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f2c1cc46e045bf976e6a93e4dc669ad87708a085",
+        "timestamp": 1659363102
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml",
+          "scripts/install",
+          "setup.py"
+        ],
+        "sha": "225a067ee5727b7468c1ad4bf9e954cc0ab7cfc9",
+        "timestamp": 1659365274
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "3aa3b4837839ad808b49e2cd6ab37481aad3d392",
+        "timestamp": 1662032872
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "203308ac6b9597ce87eb6944255e07a562c6f26f",
+        "timestamp": 1662033062
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "809f168cfb4428f99b8e2d911cde0120cf5ab9b9",
+        "timestamp": 1662033648
+      },
+      {
+        "files": [
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/http11.py",
+          "setup.py"
+        ],
+        "sha": "4cf288e0007cb73561b9020af9228f076ba2a94e",
+        "timestamp": 1664279818
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "011b9e186a134e07f03bd5ea5bc4bd9a23190200",
+        "timestamp": 1664786067
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "2d09df71914040d02e562d68179e19ec1385d951",
+        "timestamp": 1664789838
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "a74850048a816522b450054a2dcf0c5c0d8cf8fa",
+        "timestamp": 1664790595
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "dd7785e43dbbc8922d8ea153566eae49c99aa7d1",
+        "timestamp": 1664790926
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "44769723e9660a17029d424b451de54d0de98aac",
+        "timestamp": 1664791184
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "bdf2745ae4044825c9891253d8f9d3df719eba43",
+        "timestamp": 1664791304
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "d3a847c14981de7c697b6b71c82955e38f0a3344",
+        "timestamp": 1664793155
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "37cf81aac1bfa735ff3db463329b487832926a9f",
+        "timestamp": 1667119401
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "fb32f43a7c0fadef4b5ad1c8dd137faa2e2f5590",
+        "timestamp": 1667301186
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "725ce8f5013c84dbd8a03adaa549883b28ee7af4",
+        "timestamp": 1667301349
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f4298b222e3d38b67e16423070e0cebde15f1c2b",
+        "timestamp": 1667301642
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f2af4c33d697801cce34f574bad457f6a984b3b3",
+        "timestamp": 1667301800
+      },
+      {
+        "files": [
+          "docs/extensions.md",
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/http11.py",
+          "tests/_async/test_http11.py",
+          "tests/_sync/test_http11.py"
+        ],
+        "sha": "6c576273e2aaf4268e8335b10ae1fcffa9c9aaca",
+        "timestamp": 1667302032
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "ce8f872e9bc96675f141c71bd10642a78049cc7a",
+        "timestamp": 1667823930
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "db0d4e1d46a630240fdf260ab99e9c75d9cd7c7a",
+        "timestamp": 1667829172
+      },
+      {
+        "files": [
+          "httpcore/_backends/trio.py",
+          "httpcore/_ssl.py",
+          "setup.cfg"
+        ],
+        "sha": "18ba03acd64e320e01f6b5b28298f1b794a95ed0",
+        "timestamp": 1668687950
+      },
+      {
+        "files": [
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/http11.py",
+          "tests/_async/test_http11.py",
+          "tests/_sync/test_http11.py"
+        ],
+        "sha": "c03eea0fa532d1efdac4f2f3789c491539f72b4a",
+        "timestamp": 1668689977
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "5d2eed05b083a65a41d0828db9d0a5f3d98707ef",
+        "timestamp": 1668695752
+      },
+      {
+        "files": [
+          "httpcore/_backends/sync.py"
+        ],
+        "sha": "c316f6366f6900c6ce7124df18e6d33744ad8a2c",
+        "timestamp": 1668697521
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml"
+        ],
+        "sha": "c68f3f5199f94fd3a245f9aa65064b873893afdb",
+        "timestamp": 1668703427
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tests/concurrency.py"
+        ],
+        "sha": "2f1cf70953b96fe9569be379cd04d855ffe915ec",
+        "timestamp": 1668703678
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_backends/trio.py",
+          "httpcore/_sync/http2.py",
+          "setup.cfg"
+        ],
+        "sha": "d7d005e4b46093152f4317e9cff8195e9690544f",
+        "timestamp": 1668780079
+      },
+      {
+        "files": [
+          "httpcore/_api.py",
+          "httpcore/_async/interfaces.py",
+          "httpcore/_backends/sync.py",
+          "httpcore/_backends/trio.py",
+          "httpcore/_exceptions.py",
+          "httpcore/_models.py",
+          "httpcore/_sync/interfaces.py",
+          "httpcore/_synchronization.py",
+          "httpcore/_trace.py",
+          "setup.cfg"
+        ],
+        "sha": "2cb85a212624ea06ef9dc1f0e0e181e96ba89257",
+        "timestamp": 1669030805
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tests/_async/test_connection.py",
+          "tests/_async/test_connection_pool.py",
+          "tests/_sync/test_connection.py",
+          "tests/_sync/test_connection_pool.py",
+          "tests/concurrency.py"
+        ],
+        "sha": "faa166c4fcf4dc16050007d388a884bcb00c2c58",
+        "timestamp": 1669033685
+      },
+      {
+        "files": [
+          "httpcore/_backends/sync.py"
+        ],
+        "sha": "a2f86caa0f230701466e1649c934a87c4dc293f8",
+        "timestamp": 1669037799
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "3a53583ebb1d67c19af6c28c065f7f92eb33a89d",
+        "timestamp": 1669384964
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "d3ca620e8ffd1e18fe2a1aa5369f2df8b4de1662",
+        "timestamp": 1669388490
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_models.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/_async/test_connection_pool.py",
+          "tests/_async/test_http11.py",
+          "tests/_sync/test_connection_pool.py",
+          "tests/_sync/test_http11.py"
+        ],
+        "sha": "6029fa74e1f27b3508f73a0e913d3062e2787115",
+        "timestamp": 1669628879
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "e2ef7c9d90acbe509e623400a07b149b3ef5db37",
+        "timestamp": 1669818150
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "setup.cfg"
+        ],
+        "sha": "dfeabb46262a521779de9438b595ef3afeabb059",
+        "timestamp": 1669821191
+      },
+      {
+        "files": [
+          "httpcore/_backends/trio.py",
+          "requirements.txt",
+          "setup.cfg"
+        ],
+        "sha": "202dce57439e438ae0d7449b48d04c976ede4f5f",
+        "timestamp": 1669827749
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_models.py",
+          "httpcore/_sync/http2.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "52e6832f911aa74b17c9eb6cb0313ba57c0b60da",
+        "timestamp": 1669830198
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "1b840dd215059269b2266e377f95bbb1898e059d",
+        "timestamp": 1669896445
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "23cbfca76a1aaad186e8fba1baf948506446d43d",
+        "timestamp": 1669896701
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_models.py",
+          "httpcore/_sync/connection_pool.py",
+          "requirements.txt"
+        ],
+        "sha": "54f448525a0b59189958bc7d3ccfc8d2b0569a11",
+        "timestamp": 1670499918
+      },
+      {
+        "files": [
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_sync/http_proxy.py",
+          "tests/_async/test_http_proxy.py",
+          "tests/_sync/test_http_proxy.py"
+        ],
+        "sha": "b4fd42bf8e190b69a3365f894613225de203fc70",
+        "timestamp": 1670842230
+      },
+      {
+        "files": [
+          "httpcore/_synchronization.py"
+        ],
+        "sha": "6a97dade2a57283491c7830385d52daccbeaf93b",
+        "timestamp": 1670848751
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_backends/anyio.py",
+          "httpcore/_backends/mock.py",
+          "httpcore/_backends/trio.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/_async/test_connection_pool.py",
+          "tests/_sync/test_connection_pool.py"
+        ],
+        "sha": "585b6f3bceab80932186e460d5051af9596fa699",
+        "timestamp": 1671033535
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "f0657cb43cb707d1672b93b61bb53b4cfb166820",
+        "timestamp": 1671538063
+      },
+      {
+        "files": [
+          "httpcore/_async/socks_proxy.py",
+          "httpcore/_sync/socks_proxy.py"
+        ],
+        "sha": "d6a96adcef7344247dab39591e3edec5f9b6713d",
+        "timestamp": 1672334642
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "bec55911823a3dbfa354c0de7abe2bd1a76b7b6c",
+        "timestamp": 1672660186
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f49d37e74e0db9ee36511ea630afed1ffb3b0c30",
+        "timestamp": 1672665839
+      },
+      {
+        "files": [
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/http11.py",
+          "tests/_async/test_http11.py",
+          "tests/_sync/test_http11.py"
+        ],
+        "sha": "7eb20224833b8165d0945d08ac8f714ccb6750b9",
+        "timestamp": 1672916546
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f4556ad006aecaf6240063927de7034ad0fcb0c2",
+        "timestamp": 1677775831
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "95406e6c8ac6dff9fd4e5003a0048fa539f927b3",
+        "timestamp": 1677776562
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py",
+          "scripts/unasync.py",
+          "tests/_async/test_http2.py",
+          "tests/_sync/test_http2.py"
+        ],
+        "sha": "a174e66ec71d450f5a4e4cf9b041afa5b0ff3242",
+        "timestamp": 1678965575
+      },
+      {
+        "files": [
+          "docs/logging.md",
+          "httpcore/_async/connection.py",
+          "httpcore/_backends/mock.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_trace.py",
+          "mkdocs.yml",
+          "tests/_async/test_connection_pool.py",
+          "tests/_sync/test_connection_pool.py"
+        ],
+        "sha": "4af5e1ced09b6c460251267aea01b65e6f32848d",
+        "timestamp": 1678968843
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "21450a75323c715555bf147a941968fa6d662ef5",
+        "timestamp": 1678974079
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "5e06a9bb99a05bfc20f3e0cdb1b969967ae1dc4e",
+        "timestamp": 1680777371
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_sync/connection.py",
+          "tests/_async/test_connection.py",
+          "tests/_sync/test_connection.py"
+        ],
+        "sha": "82466e18bdc4eb7f442cbc52d51deb55b2063273",
+        "timestamp": 1681809683
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e313e971b9d1d866661e1b49a85a7e4d8c395b50",
+        "timestamp": 1681906382
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b1137996b1828988a584daa258e9d7afefd2e2d7",
+        "timestamp": 1683622483
+      },
+      {
+        "files": [
+          "httpcore/_exceptions.py"
+        ],
+        "sha": "78756bf658e3ef90614d8b13754df6c44b68c501",
+        "timestamp": 1683732967
+      },
+      {
+        "files": [
+          "tests/_async/test_http2.py",
+          "tests/_sync/test_http2.py"
+        ],
+        "sha": "9c42d41089ed94aefc0eed325a375456e766c3bb",
+        "timestamp": 1683891038
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py",
+          "tests/_async/test_http2.py",
+          "tests/_sync/test_http2.py"
+        ],
+        "sha": "ad7a7e330b50635fe3e69ba53c094bfc5497bdad",
+        "timestamp": 1683896046
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "31b8f523f2d1fe399db0dd5d677f39e86f23a95e",
+        "timestamp": 1684323551
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "bfe97bcb9fe7c6a71af9ea4f81928426bd4e8485",
+        "timestamp": 1684328733
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/_async/test_connection_pool.py",
+          "tests/_sync/test_connection_pool.py"
+        ],
+        "sha": "c353ce297502b4c87dab0a59e0d3d2be261574d7",
+        "timestamp": 1684336268
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml",
+          ".github/workflows/test-suite.yml"
+        ],
+        "sha": "5f2e454801f50051d5a66203401a67e5b2a32e9d",
+        "timestamp": 1684355803
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_synchronization.py"
+        ],
+        "sha": "4d2106b702709cca889a4d099c9c39e116949cc0",
+        "timestamp": 1684418888
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_backends/sync.py"
+        ],
+        "sha": "834000deab1164b90638729793a8b672b3ec9dc5",
+        "timestamp": 1684758068
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/extensions.md",
+          "httpcore/_async/connection.py",
+          "httpcore/_sync/connection.py"
+        ],
+        "sha": "27a10dd5e7b29cbb744830bfa223072ace333d80",
+        "timestamp": 1684818346
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "be4035df7cd9c2c9ba22cd4835aea3bbbae3e3a3",
+        "timestamp": 1684839037
+      },
+      {
+        "files": [
+          "docs/extensions.md"
+        ],
+        "sha": "444e042483b9e7afa57cdcf3ca4b2d5548617218",
+        "timestamp": 1685105305
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "d3e18e341ce3dc8935a648a6be02fa4908906342",
+        "timestamp": 1685977196
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e597a941bc6e3d6e079b3709ada007797eb74eb4",
+        "timestamp": 1685978593
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "9687ed076208a450aba6fee4f1f28d8fc7cddaf6",
+        "timestamp": 1686044673
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "bfd235f5eccc71a9ced42e841ea6283b8676fbd5",
+        "timestamp": 1686125777
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_trace.py"
+        ],
+        "sha": "7548dd52932ff474d182363492ac9194679314f8",
+        "timestamp": 1686566945
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "eb5957d60b240a0deec503a4acca0e69da2833db",
+        "timestamp": 1686575238
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py"
+        ],
+        "sha": "aacdbb940d825987689f1798e5fa999a844da517",
+        "timestamp": 1686911347
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py",
+          "tests/_async/test_connection_pool.py",
+          "tests/_async/test_http2.py",
+          "tests/_sync/test_connection_pool.py",
+          "tests/_sync/test_http2.py"
+        ],
+        "sha": "8d31f0badf665719e9faaf0132b47d20c01385b2",
+        "timestamp": 1687771158
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "00717b396beb12c10b9b0d32abd347c27864fe70",
+        "timestamp": 1688374692
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "2014bc850fbf219c1c5086bdc373e153c87e5463",
+        "timestamp": 1688376640
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "630e1e94e9e237a6083702e41d683b26f5a5d66a",
+        "timestamp": 1688376804
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_async/http11.py",
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_sync/http11.py",
+          "httpcore/_sync/http2.py",
+          "httpcore/_synchronization.py",
+          "tests/test_cancellations.py"
+        ],
+        "sha": "31a4a56f5d8ca4b848f121b8a497b2155bd3f4cd",
+        "timestamp": 1688459848
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "327e8bdf869cb496e7a6d38243abfd37f0c15ab6",
+        "timestamp": 1688466879
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE/1-issue.md",
+          ".github/ISSUE_TEMPLATE/config.yml",
+          ".github/PULL_REQUEST_TEMPLATE.md"
+        ],
+        "sha": "80ff02f1276eba3cb6b6493b3f0b033a26d6348d",
+        "timestamp": 1688636528
+      },
+      {
+        "files": [
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/http11.py",
+          "tests/_async/test_connection.py",
+          "tests/_sync/test_connection.py"
+        ],
+        "sha": "04842b09bf498328c6387a668be161a86f1fa099",
+        "timestamp": 1688727431
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "7b98091021444756cbcd2ae30820cf72d1c4414f",
+        "timestamp": 1688728078
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "pyproject.toml",
+          "requirements.txt",
+          "scripts/build",
+          "setup.py"
+        ],
+        "sha": "e32b2adb21bc38a2ca305f8dac1de153635a2b16",
+        "timestamp": 1689071199
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "requirements.txt",
+          "scripts/check",
+          "scripts/lint",
+          "setup.cfg"
+        ],
+        "sha": "0211d10218acf97af46a134679203849d4489b13",
+        "timestamp": 1689255625
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_models.py"
+        ],
+        "sha": "c86d507ef51c307e977cded4e2f13af62b00d454",
+        "timestamp": 1690553879
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "9e4ffca832a3b0b3e0ae156c23bca01e7516e2e1",
+        "timestamp": 1690892628
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "21e47a7481fbad3719417899113e1435a340b752",
+        "timestamp": 1690895277
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "29f8e901d9655fc1bd08cb39dc361fd311036013",
+        "timestamp": 1690900460
+      },
+      {
+        "files": [
+          "httpcore/_async/connection.py",
+          "httpcore/_sync/connection.py"
+        ],
+        "sha": "3cca05567a8b80062025115416d8cb1b9cbe1ffc",
+        "timestamp": 1691072695
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml",
+          ".github/workflows/test-suite.yml",
+          "CHANGELOG.md",
+          "README.md",
+          "docs/index.md",
+          "pyproject.toml",
+          "scripts/check",
+          "scripts/lint"
+        ],
+        "sha": "8b58a9c44c58966baedd013bc0742a613c766999",
+        "timestamp": 1691584515
+      },
+      {
+        "files": [
+          "scripts/unasync.py"
+        ],
+        "sha": "b649bb0a9c3e176189b17bd10b1c929752454efe",
+        "timestamp": 1691921996
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/proxies.md",
+          "httpcore/_async/http_proxy.py",
+          "httpcore/_backends/sync.py",
+          "httpcore/_sync/http_proxy.py"
+        ],
+        "sha": "f30da8c72220394357fac4c989f787911d0f9d23",
+        "timestamp": 1693567737
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "81c9c18ee5ea210b42e5301e516326fd8b05877c",
+        "timestamp": 1693568485
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b0da109a1cc5d2abeeaf21f7dc9f4233ca4b59a9",
+        "timestamp": 1693568734
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "310dcfa90b73c0c6d87cfe23ca99c998f86da510",
+        "timestamp": 1693569155
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "bb51381ea7edc194f682af7794c362491673bb7e",
+        "timestamp": 1693569524
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/socks_proxy.py",
+          "httpcore/_sync/socks_proxy.py"
+        ],
+        "sha": "56c0e4f8fe51d84a61bfedec8889c94bbe51e72b",
+        "timestamp": 1693570088
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_backends/sync.py"
+        ],
+        "sha": "a42df6ca39098453b94f97bc5563c0356d93a0e5",
+        "timestamp": 1693574405
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "2d0945cd00fec69acb962cec1d96b3966c9d576b",
+        "timestamp": 1694180267
+      },
+      {
+        "files": [
+          "tests/test_cancellations.py"
+        ],
+        "sha": "a37d7a2ec6c846413eca6c0b492b0384d1ef0877",
+        "timestamp": 1694771355
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yml",
+          ".github/workflows/test-suite.yml",
+          "pyproject.toml"
+        ],
+        "sha": "6071ea71ce55f70bbea42e0b38f25c5679f35219",
+        "timestamp": 1695041350
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "94ffb33cf378e41662c90615458db9e42b43cad5",
+        "timestamp": 1695131439
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b7426cecb6d17fc2915fa47df581740942ed04f9",
+        "timestamp": 1696225469
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "0ac14ddbe6c9c2ca6ac4de64620ad743ae808c74",
+        "timestamp": 1696226178
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7be3ec9240625ea790d6e32152067f44dfca5e7f",
+        "timestamp": 1696258372
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7ab77fc6debf38bad9bfe0c4692de3ea53f8453d",
+        "timestamp": 1696258666
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b7d2af60a2df8db751c59fc2c32642f0ea2602b5",
+        "timestamp": 1696339269
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "b629dcb12635ce2f52e489ec319fe8be92034c04",
+        "timestamp": 1696495162
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "221a5075204c63f1e4f93e69ac7fdf25d109b97b",
+        "timestamp": 1696507852
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "README.md",
+          "docs/async.md",
+          "docs/extensions.md",
+          "docs/http2.md",
+          "docs/proxies.md",
+          "httpcore/__init__.py",
+          "httpcore/_backends/auto.py",
+          "httpcore/_synchronization.py",
+          "pyproject.toml",
+          "requirements.txt"
+        ],
+        "sha": "12834e3921497b705b3854c92caf5cab8e5b1386",
+        "timestamp": 1696591261
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "8780c9cf11ccd5d0a5ddc307bd2b1ed8a682a030",
+        "timestamp": 1696591731
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "f8ff1c43f6d1f4001b66e243863c867f6e4e35df",
+        "timestamp": 1697094693
+      },
+      {
+        "files": [
+          "CHANGELOG.md"
+        ],
+        "sha": "7fce35256022fdc85d0aba06aeba5ee272c3a277",
+        "timestamp": 1697271398
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "f8dcb5f9fee9828bc2bb3bab2f6bf3184177d555",
+        "timestamp": 1698841645
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e039dd1e97d265be725b60d032e3ca7218f52724",
+        "timestamp": 1698856055
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "29f172d94e940ca85da86603bea925f8f0c04edd",
+        "timestamp": 1698856909
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "aea3a6b35ad433787889374a4ef9da8d8c31e86e",
+        "timestamp": 1698858571
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "d664b32b5b57aec7dde687968b4b1bb0aee67240",
+        "timestamp": 1698872799
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_backends/sync.py"
+        ],
+        "sha": "66aa1c1ffee3c1f387aa5ac283b153251d7a6ff9",
+        "timestamp": 1698922223
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_synchronization.py"
+        ],
+        "sha": "08b3eee9ea45f8d325f287d546db768c2ed21ce3",
+        "timestamp": 1698935048
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "9c818e929376ef1ce6780d4d30a83d369e5cba67",
+        "timestamp": 1699016797
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_synchronization.py"
+        ],
+        "sha": "1e7597b7dc03da7eead9b6abf84f822b5e74e8ba",
+        "timestamp": 1699451992
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "8c03a6a8f3d833b5accc63651c79f60697162e9e",
+        "timestamp": 1699452195
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "0d2c93cb46371521c1a2ba4bc7f789ea58d8fef2",
+        "timestamp": 1699623357
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/socks_proxy.py"
+        ],
+        "sha": "825e7e3c6c56843a17abf08002bcbed97f8de229",
+        "timestamp": 1700734034
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "e5ef2643e909e51851bb5a3f5227e963b837975c",
+        "timestamp": 1701434239
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "632e2d2652117e0ddb1cfe3c4dde07c76cbb7f76",
+        "timestamp": 1701434845
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "a0d5440084bbb1de0ce831e543b8971e4b8184ce",
+        "timestamp": 1701436109
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "ebd3b65eb6fdd5d2c4357161d8f7e0c8578517cd",
+        "timestamp": 1701436489
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "ef610e26b554382bfa3404cbc37a623d0d1bb278",
+        "timestamp": 1701584534
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "requirements.txt",
+          "scripts/check",
+          "scripts/lint"
+        ],
+        "sha": "6633b9fe7c447fa65f04d233e6d8d9940aea0112",
+        "timestamp": 1701694914
+      },
+      {
+        "files": [
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/http11.py"
+        ],
+        "sha": "2fcd062df71555cc7de55774c6dc137551eb8692",
+        "timestamp": 1701942980
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "62c72aff0a958ffcef079bed96139c75a656c318",
+        "timestamp": 1704691056
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "be5b618f1572ad656be55e1c1f56d9c444427924",
+        "timestamp": 1704691317
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "a80b994a07e7789a0f0857466094924c51fa103f",
+        "timestamp": 1704691613
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "ad1ddcfb94f8304e7b95662a38120df4a2a2ffb0",
+        "timestamp": 1704711190
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "f60e99bf0e21e4390949fd96899d4029e331b550",
+        "timestamp": 1704716070
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/connection.py",
+          "httpcore/_sync/connection.py",
+          "tests/_async/test_connection_pool.py",
+          "tests/_sync/test_connection_pool.py"
+        ],
+        "sha": "b2de19e594b0ef89521afaa5e6ea9f33cabf3f67",
+        "timestamp": 1704813944
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "1a14acd7197c855880f80602e6a1301883d4f380",
+        "timestamp": 1705008161
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "5cffb40b9ca73cc0d8f379971c5a4dfe0c059b04",
+        "timestamp": 1706953651
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "9f822446ed17c61f45656d2282f2f02ba0ef0c81",
+        "timestamp": 1706957833
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "416b89c36b2fc860e1644764e2f19a9d124a14a5",
+        "timestamp": 1707319136
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "79fa6bf0dfcf3820d1ae7e52a2d268f33022c5a4",
+        "timestamp": 1707331241
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/connection.py",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection.py",
+          "httpcore/_sync/connection_pool.py",
+          "httpcore/_synchronization.py",
+          "requirements.txt",
+          "tests/_async/test_connection_pool.py",
+          "tests/_sync/test_connection_pool.py"
+        ],
+        "sha": "7b04cda582b32cba34a7bfb0eb1dd535f0ea88a5",
+        "timestamp": 1707736830
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "908013ca0d70afd44d75cb18e28b94aca5983611",
+        "timestamp": 1707837952
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "c02733dd975ca8bd745a9c0926c676b3488b79ba",
+        "timestamp": 1708444068
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "requirements.txt"
+        ],
+        "sha": "c46802478cdd8a82ee8cb333420080fab1aed00b",
+        "timestamp": 1708444387
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/http11.py",
+          "httpcore/_sync/http11.py",
+          "tests/_async/test_http11.py",
+          "tests/_sync/test_http11.py"
+        ],
+        "sha": "accae7b3db6ff603327aae243b1868d91bf886b0",
+        "timestamp": 1708445180
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "docs/extensions.md",
+          "httpcore/_models.py",
+          "tests/test_models.py"
+        ],
+        "sha": "80d21eefe5bcd7f5e8ee333e7ec043dec5e168bd",
+        "timestamp": 1708510050
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "14bda52c3971971d67ccba306c454d7d602aab4d",
+        "timestamp": 1708520425
+      },
+      {
+        "files": [
+          "scripts/check",
+          "scripts/lint",
+          "scripts/unasync",
+          "scripts/unasync.py"
+        ],
+        "sha": "55181722f97f73fa42ab505b628586171f3fcf80",
+        "timestamp": 1708691702
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py",
+          "pyproject.toml",
+          "requirements.txt",
+          "scripts/check",
+          "tests/concurrency.py"
+        ],
+        "sha": "5c9be947f6ef027e9df417a4e2d509477ab570b1",
+        "timestamp": 1709327102
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7b39e6abd256474d753b4241a67aa10b6bd70d18",
+        "timestamp": 1709327807
+      },
+      {
+        "files": [
+          "httpcore/_models.py"
+        ],
+        "sha": "10481cecb79a2b6559799d2e1dc384bc55299a65",
+        "timestamp": 1709904057
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_backends/anyio.py"
+        ],
+        "sha": "fbbd90948297a94862dd32d1fb2693711568d82d",
+        "timestamp": 1709988655
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "4565838769eac94bf1829ca135569bcbe979e224",
+        "timestamp": 1711555991
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "1851ac30900a38a9cef4e56975f40267352c6012",
+        "timestamp": 1711564023
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "38c82a91d2e29ca2f3c41e50f6cde8248a8be870",
+        "timestamp": 1712220287
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "39b756f07d40fab4eccb7c0dd3d7d369f1d2b4e8",
+        "timestamp": 1712749174
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "dbef1fa93b13025574ec056ad94e35a8a733042c",
+        "timestamp": 1714582553
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "722ef8f41c8366323bd7ebc057d60158fee89751",
+        "timestamp": 1714933656
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "a8f80980daaca98d556baea1783c5568775daadc",
+        "timestamp": 1715180455
+      },
+      {
+        "files": [
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py"
+        ],
+        "sha": "c96fdf7d31c3ab983f4eec4ef7a25cd81edc7ac9",
+        "timestamp": 1715966388
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_backends/anyio.py"
+        ],
+        "sha": "e987df2a12a809a15f590ac205906e2138f94f9e",
+        "timestamp": 1717681096
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "48651f651e28410c82489a5698f799c3015a131a",
+        "timestamp": 1718009995
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "scripts/benchmark",
+          "tests/benchmark/client.py",
+          "tests/benchmark/server.py"
+        ],
+        "sha": "da86ca4e22e64b078cc8a574f43c8ad2564e2e27",
+        "timestamp": 1718297424
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "711292eae53533f0ac2783bcbc788f144a68eb1b",
+        "timestamp": 1718698533
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "acf7d151c715d0b18870ecc660a8677f57f0bcea",
+        "timestamp": 1719839402
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "7d87c9d8375ca86358ae02f94ddbed80201cced9",
+        "timestamp": 1722525491
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "ba3f94268e9843b1f60bd4699c15b05a9af7a929",
+        "timestamp": 1724768861
+      },
+      {
+        "files": [
+          "httpcore/_backends/anyio.py"
+        ],
+        "sha": "4aac6494eeae4256d0ee411ec7045b48e89c5855",
+        "timestamp": 1727435224
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_backends/anyio.py",
+          "httpcore/_synchronization.py"
+        ],
+        "sha": "17409bb452d10ff837bd980f18ea346e8292e5df",
+        "timestamp": 1727439514
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "pyproject.toml"
+        ],
+        "sha": "0804ea61e2125f41911a9d9734aa61d2f018e965",
+        "timestamp": 1727453719
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "4ee1ca25b6b242caec2d96782ed25e81ad7b4ecb",
+        "timestamp": 1727802010
+      },
+      {
+        "files": [
+          "httpcore/_models.py",
+          "tests/test_models.py"
+        ],
+        "sha": "0bfcee4cd266775c4d9ce2f89fc1b6afa8afc356",
+        "timestamp": 1730137248
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "a1735520e3826ccc861cdadf3e692abfbb19ac6a",
+        "timestamp": 1731673559
+      },
+      {
+        "files": [
+          "httpcore/_async/http2.py",
+          "httpcore/_sync/http2.py",
+          "requirements.txt",
+          "scripts/lint"
+        ],
+        "sha": "8b8ab18bc79c29f33a16241b7bcd6dd109b5ff8f",
+        "timestamp": 1743095085
+      },
+      {
+        "files": [
+          "httpcore/_synchronization.py",
+          "pyproject.toml"
+        ],
+        "sha": "973cbdd1050302822f17893c951ca5a1a729dc13",
+        "timestamp": 1743096694
+      },
+      {
+        "files": [
+          "httpcore/_synchronization.py",
+          "pyproject.toml"
+        ],
+        "sha": "38f277c0b944f1a0b0b6cc66869eb0b4c630d825",
+        "timestamp": 1743417020
+      },
+      {
+        "files": [
+          "httpcore/__init__.py"
+        ],
+        "sha": "b2a796c4ba093e10bb05184e69374191ae6ed1d2",
+        "timestamp": 1744379536
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "ae46dfbd4330eefaa9cd6ab1560dec18a1d0bcb8",
+        "timestamp": 1744381998
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "d1e17c53993fb5f3bfafedcd5aaca52a7264f0ed",
+        "timestamp": 1745531496
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/__init__.py"
+        ],
+        "sha": "98209758cc14e1a5f966fe1dfdc1064b94055d8c",
+        "timestamp": 1745532209
+      },
+      {
+        "files": [
+          ".github/workflows/test-suite.yml"
+        ],
+        "sha": "fb75e4272c3ee59944c7e04a3dec371840bc20dd",
+        "timestamp": 1756898197
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "5974b03c7df89d3ee4e23779900d5349d550753c",
+        "timestamp": 1756975404
+      },
+      {
+        "files": [
+          "CHANGELOG.md",
+          "httpcore/_async/connection_pool.py",
+          "httpcore/_sync/connection_pool.py",
+          "tests/_async/test_connection_pool.py",
+          "tests/_sync/test_connection_pool.py"
+        ],
+        "sha": "10a658221deb38a4c5b16db55ab554b0bf731707",
+        "timestamp": 1760359286
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 12,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/ISSUE_TEMPLATE/1-issue.md": 0,
+      ".github/ISSUE_TEMPLATE/config.yml": 1,
+      ".github/PULL_REQUEST_TEMPLATE.md": 2,
+      ".github/dependabot.yml": 3,
+      ".github/stale.yml": 4,
+      ".github/workflows/publish.yml": 5,
+      ".github/workflows/test-suite.yml": 6,
+      ".gitignore": 7,
+      ".travis.yml": 8,
+      "CHANGELOG.md": 9,
+      "LICENSE.md": 10,
+      "MANIFEST.in": 11,
+      "README.md": 12,
+      "docs/api.md": 13,
+      "docs/async.md": 14,
+      "docs/contributing.md": 15,
+      "docs/extensions.md": 16,
+      "docs/http2.md": 17,
+      "docs/index.md": 18,
+      "docs/logging.md": 19,
+      "docs/proxies.md": 20,
+      "httpcore/__init__.py": 21,
+      "httpcore/_api.py": 22,
+      "httpcore/_async/__init__.py": 23,
+      "httpcore/_async/base.py": 24,
+      "httpcore/_async/connection.py": 25,
+      "httpcore/_async/connection_pool.py": 26,
+      "httpcore/_async/dispatch.py": 27,
+      "httpcore/_async/http.py": 28,
+      "httpcore/_async/http11.py": 29,
+      "httpcore/_async/http2.py": 30,
+      "httpcore/_async/http_proxy.py": 31,
+      "httpcore/_async/interfaces.py": 32,
+      "httpcore/_async/socks_proxy.py": 33,
+      "httpcore/_backends/anyio.py": 34,
+      "httpcore/_backends/asyncio.py": 35,
+      "httpcore/_backends/auto.py": 36,
+      "httpcore/_backends/base.py": 37,
+      "httpcore/_backends/curio.py": 38,
+      "httpcore/_backends/mock.py": 39,
+      "httpcore/_backends/sync.py": 40,
+      "httpcore/_backends/trio.py": 41,
+      "httpcore/_bytestreams.py": 42,
+      "httpcore/_compat.py": 43,
+      "httpcore/_exceptions.py": 44,
+      "httpcore/_models.py": 45,
+      "httpcore/_ssl.py": 46,
+      "httpcore/_sync/__init__.py": 47,
+      "httpcore/_sync/base.py": 48,
+      "httpcore/_sync/connection.py": 49,
+      "httpcore/_sync/connection_pool.py": 50,
+      "httpcore/_sync/dispatch.py": 51,
+      "httpcore/_sync/http.py": 52,
+      "httpcore/_sync/http11.py": 53,
+      "httpcore/_sync/http2.py": 54,
+      "httpcore/_sync/http_proxy.py": 55,
+      "httpcore/_sync/interfaces.py": 56,
+      "httpcore/_sync/socks_proxy.py": 57,
+      "httpcore/_synchronization.py": 58,
+      "httpcore/_threadlock.py": 59,
+      "httpcore/_trace.py": 60,
+      "httpcore/_types.py": 61,
+      "httpcore/_utils.py": 62,
+      "mkdocs.yml": 63,
+      "pyproject.toml": 64,
+      "requirements.txt": 65,
+      "scripts/benchmark": 66,
+      "scripts/build": 67,
+      "scripts/check": 68,
+      "scripts/clean": 69,
+      "scripts/coverage": 70,
+      "scripts/docs": 71,
+      "scripts/install": 72,
+      "scripts/lint": 73,
+      "scripts/publish": 74,
+      "scripts/test": 75,
+      "scripts/unasync": 76,
+      "scripts/unasync.py": 77,
+      "setup.cfg": 78,
+      "setup.py": 79,
+      "tests/__init__.py": 80,
+      "tests/_async/__init__.py": 81,
+      "tests/_async/test_connection.py": 82,
+      "tests/_async/test_connection_pool.py": 83,
+      "tests/_async/test_http11.py": 84,
+      "tests/_async/test_http2.py": 85,
+      "tests/_async/test_http_proxy.py": 86,
+      "tests/_async/test_socks_proxy.py": 87,
+      "tests/_sync/__init__.py": 88,
+      "tests/_sync/test_connection.py": 89,
+      "tests/_sync/test_connection_pool.py": 90,
+      "tests/_sync/test_http11.py": 91,
+      "tests/_sync/test_http2.py": 92,
+      "tests/_sync/test_http_proxy.py": 93,
+      "tests/_sync/test_socks_proxy.py": 94,
+      "tests/async_tests/test_connection_pool.py": 95,
+      "tests/async_tests/test_http11.py": 96,
+      "tests/async_tests/test_http2.py": 97,
+      "tests/async_tests/test_interfaces.py": 98,
+      "tests/async_tests/test_retries.py": 99,
+      "tests/backend_tests/test_asyncio.py": 100,
+      "tests/benchmark/client.py": 101,
+      "tests/benchmark/server.py": 102,
+      "tests/concurrency.py": 103,
+      "tests/conftest.py": 104,
+      "tests/marks/__init__.py": 105,
+      "tests/marks/curio.py": 106,
+      "tests/sync_tests/__init__.py": 107,
+      "tests/sync_tests/test_connection_pool.py": 108,
+      "tests/sync_tests/test_http11.py": 109,
+      "tests/sync_tests/test_http2.py": 110,
+      "tests/sync_tests/test_interfaces.py": 111,
+      "tests/sync_tests/test_retries.py": 112,
+      "tests/test_cancellations.py": 113,
+      "tests/test_models.py": 114,
+      "tests/test_threadsafety.py": 115,
+      "tests/utils.py": 116
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1580388072,
+      "last_commit_ts": 1760359286,
+      "n_cochange_pairs": 394,
+      "n_commits_dropped_as_bulk": 25,
+      "n_commits_used": 542,
+      "n_files": 117
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "10a658221deb38a4c5b16db55ab554b0bf731707",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
