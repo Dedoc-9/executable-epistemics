@@ -1,0 +1,4351 @@
+{
+  "chain_hash": "ed1d21ea8639b076",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/workflows/deploy.yml||.github/workflows/test.yml": 23,
+      ".github/workflows/deploy.yml||RELEASING.rst": 2,
+      ".github/workflows/main.yml||README.rst": 4,
+      ".github/workflows/main.yml||setup.py": 2,
+      ".github/workflows/main.yml||tox.ini": 3,
+      ".github/workflows/test.yml||CHANGELOG.rst": 2,
+      ".github/workflows/test.yml||pyproject.toml": 3,
+      ".github/workflows/test.yml||setup.py": 2,
+      ".github/workflows/test.yml||tox.ini": 5,
+      ".pre-commit-config.yaml||tests/test_pytest_mock.py": 4,
+      ".travis.yml||appveyor.yml": 4,
+      ".travis.yml||runtests.py": 3,
+      ".travis.yml||setup.py": 2,
+      ".travis.yml||tox.ini": 6,
+      "CHANGELOG.rst||README.rst": 20,
+      "CHANGELOG.rst||docs/usage.rst": 4,
+      "CHANGELOG.rst||pyproject.toml": 3,
+      "CHANGELOG.rst||setup.py": 4,
+      "CHANGELOG.rst||src/pytest_mock/__init__.py": 2,
+      "CHANGELOG.rst||src/pytest_mock/plugin.py": 36,
+      "CHANGELOG.rst||tests/test_pytest_mock.py": 27,
+      "CHANGELOG.rst||tox.ini": 5,
+      "README.rst||setup.py": 8,
+      "README.rst||src/pytest_mock/plugin.py": 14,
+      "README.rst||tests/test_pytest_mock.py": 16,
+      "README.rst||tox.ini": 3,
+      "appveyor.yml||tox.ini": 3,
+      "docs/usage.rst||src/pytest_mock/plugin.py": 5,
+      "docs/usage.rst||tests/test_pytest_mock.py": 5,
+      "mypy.ini||setup.py": 2,
+      "pyproject.toml||tox.ini": 3,
+      "setup.py||src/pytest_mock/plugin.py": 4,
+      "setup.py||tests/test_pytest_mock.py": 4,
+      "setup.py||tox.ini": 8,
+      "src/pytest_mock/plugin.py||tests/test_pytest_mock.py": 64,
+      "src/pytest_mock/plugin.py||tox.ini": 2,
+      "tests/test_pytest_mock.py||tox.ini": 10
+    },
+    "commit_graph": [
+      {
+        "files": [
+          ".gitignore",
+          "LICENSE",
+          "README.md"
+        ],
+        "sha": "eb7c4755d1d5269ccade0ee31afe9e4c7bef42f0",
+        "timestamp": 1405557632
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "f7080a353a946a37b71c8ef59b2893e5d0295c7a",
+        "timestamp": 1405553985
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "edb46315d27c9f58e9b19bc2482a1db3b090ef77",
+        "timestamp": 1405554898
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "f139592f23dc92b5878a8d79ffd64d453b0a5470",
+        "timestamp": 1405555237
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "1ad4d7e1707acfaafd79fb5d9538bd00b9b2df6a",
+        "timestamp": 1405555846
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "c6b578f775098b17e1a32fedb3fc8a69864d8eca",
+        "timestamp": 1405557462
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "13790d7c9e503d5b86dce207ccfd285b3335546d",
+        "timestamp": 1405557660
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "5ed066cfc77818f66a7accd63615ce50d971caea",
+        "timestamp": 1405557757
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "39a75b69a0a30ab29e9deb564005a764e2547fe2",
+        "timestamp": 1405559158
+      },
+      {
+        "files": [
+          "README.md",
+          "README.rst"
+        ],
+        "sha": "59d712883839fd8c07993c33c7e196e359de90ac",
+        "timestamp": 1405562633
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e6b21b6387a50e716f1958f564dab6f991e52b0a",
+        "timestamp": 1405563148
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1bf9866e802e3e390135e1abc33a6e59a1361151",
+        "timestamp": 1405563463
+      },
+      {
+        "files": [
+          "README.rst",
+          "mypy.ini",
+          "setup.py"
+        ],
+        "sha": "22d194d02af8cca7d815de52b849f90b59cfcdec",
+        "timestamp": 1405567196
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "8d5d64c756e53f13f686e6e553b8a2887a7455bd",
+        "timestamp": 1405568760
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "d860df0d9f24a1ab17f9d6f5d581898dfccb1a68",
+        "timestamp": 1405568851
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "08d95323bceadb1e2c50fa6c628c50be99812083",
+        "timestamp": 1405569173
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "5f76dc338ca13c94fdb4f214f817b0aeb01fee5b",
+        "timestamp": 1405723925
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b091d0e725d1462dd27ac962df37796cbe2ba2ad",
+        "timestamp": 1405726775
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "21576907678551fb7d7b94627cb44cb2d907044e",
+        "timestamp": 1405726990
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "30bf5ac71cdd8510b211ebad8f1ea4ef9cccdd65",
+        "timestamp": 1405727294
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bca8a1e31da6fbacaca925b03bd6d4e03204186d",
+        "timestamp": 1405727362
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "ed1e74ffd67b1d1f1de0ec5c1271242cc7cbc602",
+        "timestamp": 1405727436
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "runtests.py",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "eefbcbc37bd20772547f35b4e5719bb040f566d9",
+        "timestamp": 1406065154
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "runtests.py"
+        ],
+        "sha": "fd6106a388f20aa4e2a5da739f1341d926a6a753",
+        "timestamp": 1406066256
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4504537485e4ee4617a7ae95a3be2dec2a1888b0",
+        "timestamp": 1406067191
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8447a7baf8471ddf4964b759ceae79b8b2736034",
+        "timestamp": 1406067631
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3ff7f286aadbbbbeeb0af40de6f1210aeee3d9e8",
+        "timestamp": 1406856946
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "389b9a5c138a42de41293b1e2e06353364ed005d",
+        "timestamp": 1408813680
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "fa2cd78bd1d402875108c6eab1a9d2530f534447",
+        "timestamp": 1409020706
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "fffe780a2d947dca51fb99010bdffee729677833",
+        "timestamp": 1409020987
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ddc1e36ff3676e74777299319bf761eb01d095b7",
+        "timestamp": 1409024512
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "19e88038957c6f9d4fef057c6bab45c506cbe826",
+        "timestamp": 1409424005
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3b2fd83d9d881b7ea65db95379a9b37ad77e42a0",
+        "timestamp": 1410703191
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "6976d40b5896696719d229e02a5a847460704e7e",
+        "timestamp": 1410918788
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "68f3da830b01455d62a54673c4e5f5cd8ae2c9e9",
+        "timestamp": 1410918803
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "1acc0e379ae39a45f496c2149485ee8f2f978b52",
+        "timestamp": 1410920151
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "62e9838590c986efba6357fab98d6b562fe040c6",
+        "timestamp": 1413124773
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "7b5812f2c7596265419788c48e2da84339ee6cff",
+        "timestamp": 1425148097
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "f78d6b516e69579deeb3e7813360877c2f079ca7",
+        "timestamp": 1426443348
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "cb669e09acb71de6e8f9c7832b035a7b766b2171",
+        "timestamp": 1426443472
+      },
+      {
+        "files": [
+          "mypy.ini"
+        ],
+        "sha": "f5e2bbdf5b8d51370d34a33753ce359c3b2002b1",
+        "timestamp": 1427805281
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4e55167c4a80019a402cd767818fd4b17ba26602",
+        "timestamp": 1427834387
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "931ce1866e274c4ea28b924fbc0a3ca58869c6e1",
+        "timestamp": 1428573398
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "54072e4f828e9bebf9a54f5e3d26236ffe23a9b5",
+        "timestamp": 1428575795
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "16374d4098b1c4abcf1c063309e9537842d7ccd0",
+        "timestamp": 1430613706
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "9c8c3d414399e6e63de1a9329017c9d7e5503e4f",
+        "timestamp": 1430675956
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "d0199bddddf723eb300e9cecd715de74cbf6bae5",
+        "timestamp": 1433183422
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "ec2a2bc9e534caa9ddc4e1534413be2c8106cef3",
+        "timestamp": 1433242086
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "8882e98cc544ea900692863c394240c8a86264d7",
+        "timestamp": 1433242158
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "7f001038d24c68b7018155fefe0ad3bc00abe33e",
+        "timestamp": 1433278871
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "08add92fe9987b80a6499436c2d60655cbce8f36",
+        "timestamp": 1436188636
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "270e975480ec7e74dbbf087e2bbf0d46ffbcfaec",
+        "timestamp": 1436223683
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "bb4be329434340616f76d59a94ccd462803a6191",
+        "timestamp": 1436224869
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "d796debd73b2087bc493859ed6d8811a434d9aa6",
+        "timestamp": 1436230638
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "69da39c62eff73f12dc8a877e6ad0ec11dd20e96",
+        "timestamp": 1436232533
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "05340474525d23f86f0baedb035fda3794c3e42f",
+        "timestamp": 1436233300
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9f7dc339998acb297a0bb383a46029283f1b6bcb",
+        "timestamp": 1436988732
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "27baf71469c222fff78525e85135d25f28afc32f",
+        "timestamp": 1438177907
+      },
+      {
+        "files": [
+          "mypy.ini",
+          "setup.py"
+        ],
+        "sha": "2023dc7f06bdee8f483fc9e227754379ab658f10",
+        "timestamp": 1443494608
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "22a4efb46d2c5a73e15f808a7864cd8e55f798e9",
+        "timestamp": 1443496578
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "9da3453990ace6d6de2343fbeea7e2bdb5b31201",
+        "timestamp": 1443496926
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "071da93589eeab2f6b60ce1dbe587f53267f75ee",
+        "timestamp": 1443497209
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "5117282bc4df12569ef99ef5c5696d123dd12c33",
+        "timestamp": 1443497474
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a8fa9d08f961a4a429a06a026614d5233c7f5535",
+        "timestamp": 1443497555
+      },
+      {
+        "files": [
+          "appveyor.yml"
+        ],
+        "sha": "f4a03adafa4896f11592fbf6623e7668ca071d37",
+        "timestamp": 1443497860
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b79749d20e4bc2b6f8b0a825e2ba4b3782cd9b6b",
+        "timestamp": 1443498073
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3b0874482a3ad67e2ab06d915df06b808ab6fc96",
+        "timestamp": 1443498290
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e1443f40a23e26ce5782eaed0c333607d2bc8a3d",
+        "timestamp": 1443498362
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "5f361b33338b8ad308a1e1cc616399358d92f8b1",
+        "timestamp": 1447215481
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "da2b11ff28e40f2912c19d8f5c843afd4e8bf33f",
+        "timestamp": 1447852390
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ecd0b59e8629d872003919061237f35618eaf10e",
+        "timestamp": 1447852593
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "c64e573d773c3d36b06fb0a33977818782624014",
+        "timestamp": 1447853429
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "b4d6ef717f2249ad22755d5c7e3a5281fe8706d7",
+        "timestamp": 1447853729
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "4b9e1b74b92f0aa42c474a97a3cb25326d1282d8",
+        "timestamp": 1447853916
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "fcacc8b8f0d4bf55cef6dcf954e44c5f55d0094a",
+        "timestamp": 1447854114
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ae7ad4c19cd5bb296547f504eb93fbfbdb445ff6",
+        "timestamp": 1451068564
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "773f8d92f15983d71908f8497747f043806ad828",
+        "timestamp": 1453868756
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "7f4ce75435b4a82b1a6498c9bcef250a9020fc4d",
+        "timestamp": 1453926652
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "48c26f280dd4872a9569fc039426a26ce9dbede4",
+        "timestamp": 1453926798
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "6a4f9fe49e9ec819c2f0044ab58035669da87e72",
+        "timestamp": 1453934213
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "runtests.py",
+          "tox.ini"
+        ],
+        "sha": "9569ca86a81461989cefe6f20b92ee8b9f6ecc14",
+        "timestamp": 1453937169
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "a1d1665a33ee668e01f79ebb2f08d20948c70d92",
+        "timestamp": 1455987563
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "c5395223c03b213d3f41e3cfca1cb00b75a0b5a5",
+        "timestamp": 1455988591
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "ea826c0d6e4a6c87b1d993d2647a598d6e12b03a",
+        "timestamp": 1456265242
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "bea94a027d569a964fe6553592ec2262d14e275b",
+        "timestamp": 1456265924
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "tox.ini"
+        ],
+        "sha": "33c9859fe980571c6167e983ab05d255da523012",
+        "timestamp": 1456267379
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "485302db80a519413bbc637ea25fa0f285b0458c",
+        "timestamp": 1458691312
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "85d3ab11917e7c8bf1b899f2bc11ac8b7a112e9e",
+        "timestamp": 1463305017
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "449e1b2362b767ada77dac61a37e2805ac592851",
+        "timestamp": 1463305396
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "db3d2622bc587277716ece43a825a216e7592261",
+        "timestamp": 1463385456
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "645680aa557e8aa06544df761d8cd4c95ab72845",
+        "timestamp": 1463489092
+      },
+      {
+        "files": [
+          "setup.py",
+          "tests/test_pytest_mock.py",
+          "tox.ini"
+        ],
+        "sha": "7676923212a1cd0ddc27220a67cf514e8e7add60",
+        "timestamp": 1463482595
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "88405edbb0db553423056c69195f1217e4139a5c",
+        "timestamp": 1463696075
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b1eb526742b4b5cd46978da79c5c800c967418cc",
+        "timestamp": 1463697010
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "68f79680620b3f10ac7b0442e8c461bf67a90734",
+        "timestamp": 1463697953
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "d2168be6feba77907cfe007dc54b15f4a83359e5",
+        "timestamp": 1457450188
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ed8f27458ec8635761c7c16389dc8d05129e3f85",
+        "timestamp": 1463740959
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "090bd55ff0476dafc003554a71b4f4d8ea09d6ad",
+        "timestamp": 1464135899
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a6993b7a17fa0f04514ae5a568f1a75d5725960d",
+        "timestamp": 1464135932
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "dfd26035dec0701e64dfc62aaa28a6d80587d63c",
+        "timestamp": 1464138467
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "LICENSE",
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "c0d5b015a3e16b074eb2069b7e395b55fa5b8e28",
+        "timestamp": 1464210371
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "10e46549af531c5692151cad40e5180fa31bb1c8",
+        "timestamp": 1464779300
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "ee308d36346880c6109f81fe3b9f31a0e9254874",
+        "timestamp": 1464779621
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "6686d623249fc327e010af3dedea23ee0261f2ca",
+        "timestamp": 1464818184
+      },
+      {
+        "files": [
+          "README.rst",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "14293d5a10cce51394dc1b5a5fd7be0014309f65",
+        "timestamp": 1464818961
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "74f974014d7e2e5f8843dea51fad8891784b9965",
+        "timestamp": 1464819215
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "33cdb7368c44335868d166817e27ad3a71776a08",
+        "timestamp": 1464819515
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "49481aa862683736893758dfe793320e6d614191",
+        "timestamp": 1464819771
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "a1cba1d1b4d7359de49ef23c3c1bfcfa9d67e412",
+        "timestamp": 1464820110
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "861f9e896d04406274b6c72201d8e42a0d5edacc",
+        "timestamp": 1465577457
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "55d436a516011c1a92d29c5e3531027ad512a58a",
+        "timestamp": 1465592841
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "8f67a4fb1cb40df6b1f85f099aa1bf49ffc00f1b",
+        "timestamp": 1466849828
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "7e1f7d5a51ccf942dbfcb01eb3fd6a80a57ee22c",
+        "timestamp": 1470172460
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "fb401b1319baea27b5dad750a647a1036274dc32",
+        "timestamp": 1470175743
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py",
+          "tox.ini"
+        ],
+        "sha": "63583ff5ff4569e01fb85a73ad68d43481edfbf4",
+        "timestamp": 1472918070
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "86aa0d260c6480f7d3e38a01772a449d2a5cf563",
+        "timestamp": 1473902119
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "931785ca86113c62baaad1e677f5dc61d69ec39a",
+        "timestamp": 1474419777
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "c81d5e43118c5dff30e316c57e6fdd271a626696",
+        "timestamp": 1477675640
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "948d9750452d99172976fa35a32707a914f9b11d",
+        "timestamp": 1477762616
+      },
+      {
+        "files": [
+          ".gitignore",
+          "setup.py",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "24f3fecb4838fa3548cf2f0871f6541966e104b8",
+        "timestamp": 1477763945
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "06a98e446c39a27deaf3cc9dd4022cd9868648e7",
+        "timestamp": 1477764191
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "tox.ini"
+        ],
+        "sha": "2262df104cb8410095029b5508e549f3320def3b",
+        "timestamp": 1477764487
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "fae86a6c50d3f2157f90c32cbf89b00ba4c780da",
+        "timestamp": 1478020530
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "786f534345a7bc9cb06429fe9a232c4c24913262",
+        "timestamp": 1478021209
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "f2c7b770df45e975831ccd408ea03587f6d1e1a4",
+        "timestamp": 1479341116
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "a962a0c4b96bb123f73882b98f45e50d954067b6",
+        "timestamp": 1479812661
+      },
+      {
+        "files": [
+          "appveyor.yml",
+          "tox.ini"
+        ],
+        "sha": "85c591398d854f065576ba3bb75839c99366577c",
+        "timestamp": 1485909761
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "ea057cfa94e51caaf86aa5dd6174b583deb465fc",
+        "timestamp": 1485909786
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "25d25f314c61dd1b07651d18873f73b0d6b21ab5",
+        "timestamp": 1485909842
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "aea90fea6982ff70efec885e6a704ae822e1f51b",
+        "timestamp": 1486505296
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "4233060f211ef877539d39d1c723148c86814263",
+        "timestamp": 1487118025
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "dfbe93aad63a11e30e4aa47fd1076a273cc41598",
+        "timestamp": 1488393229
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "80eb9a14bcc9ba20afb2d8f591d8de33582bdcd5",
+        "timestamp": 1490808131
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "891ee7e6daaec99fffa0ab5db34e3bfe044c3dd6",
+        "timestamp": 1490909755
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "a5494ee9bcf558a283be421fce19c831c8c98d6a",
+        "timestamp": 1490911998
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "47d5eba68df41b1a8a67fd31b7aaa0e7ef27b794",
+        "timestamp": 1493041477
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "edd6b897e1c642a0a6c5fd44017f39d7c461550f",
+        "timestamp": 1494949748
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "63b1e5aea1db589b013b93eec978dbbbef7c400a",
+        "timestamp": 1496340417
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4c3caaf2260f77ed10e855a20207023dded12c07",
+        "timestamp": 1499707461
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "0c9b300cfc9a405f0b47025dd5328aa94c2b32a7",
+        "timestamp": 1500217534
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "7c3f2322f9614318c15c31c7c8e1c609b74248b8",
+        "timestamp": 1500306511
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "3338eda187dd94d5de7941b94a866493f1bb3eca",
+        "timestamp": 1500306654
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "68b7a874e2009a78e600b31e0acfc52528a7f7ff",
+        "timestamp": 1500310098
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "22eb70a26ce7744a59510502183be80d02b4ae1a",
+        "timestamp": 1500310134
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "68c6102a5c0eb621b2c0b60c163b2ffcfa26ff63",
+        "timestamp": 1500310920
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "9bc105de3f44814868224527980fedd62dee1cc7",
+        "timestamp": 1505510506
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "e271c384bdb18c91718ffaa237d1cb96cf771686",
+        "timestamp": 1505510662
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "7a7de64e3e2161a69f0044cd37b7b000ff295aa8",
+        "timestamp": 1505510700
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "cffe277ea73316588b417a8cde3156c34e2ca228",
+        "timestamp": 1505513290
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "7cb24baf6ad3025b38d05ca222f18e2918bef8a7",
+        "timestamp": 1505514618
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "0e2a4c0e6e92b8b8f0a669f0092fa3c3ed75066a",
+        "timestamp": 1505521388
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "1786c994a6ff71975fd2a7daf7d6256286b972f5",
+        "timestamp": 1507537720
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6e61179667379b2321eb82e020e355effd38ae2d",
+        "timestamp": 1511811742
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "e197ebcb7829acedd4a6db2d1bd7ca4c6e19bc8f",
+        "timestamp": 1512152110
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "80047b50d15f4484d3af4c7e04c48849858e4358",
+        "timestamp": 1515616358
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "setup.py"
+        ],
+        "sha": "83a4a913429affa2597d0e4d50e9117fa3d93c88",
+        "timestamp": 1518807460
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "796e3cc1c20a19a625e98d988a5a7b6f8033924f",
+        "timestamp": 1518808333
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "3618c6889e9779323509e0f0ceaf4abd1d0aa5e5",
+        "timestamp": 1518808459
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "CHANGELOG.rst",
+          "tests/test_pytest_mock.py",
+          "tox.ini"
+        ],
+        "sha": "5abd5e7222231e11cb2c06deaa81813304048030",
+        "timestamp": 1518810912
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "5689c61d679352bc214866adf7cb9586fe6464e9",
+        "timestamp": 1518811846
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "0d560140811a995fcac3eaf72964fbd4fda66848",
+        "timestamp": 1518813586
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "5ceeb05b49e4115701daa8152dff6f4d05640f9b",
+        "timestamp": 1518815237
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "9214b5eaf45bbe99c86700dc998fd6ad97406cc5",
+        "timestamp": 1519030285
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "21b675a90f77287e9be4abb9e922336c87d7d12d",
+        "timestamp": 1519900907
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "1ff24c9ab8e672e007c45f7b7c4d65b26deb09bc",
+        "timestamp": 1523026392
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "27ae48573c88bfc992ff066ee4c417e29b683fd9",
+        "timestamp": 1523028586
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "95ee93736f4d43d773e3c943f6fdf95c79e08a8f",
+        "timestamp": 1523070785
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "5771dd6576bf2d41514277b6550695423d4ddff4",
+        "timestamp": 1523071135
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "9ac9bd7fe1aadfaa64a2ea9277dfbf453f69ce3f",
+        "timestamp": 1523322366
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "3d55ef93ff7e23c5fb4c61e4c1367f64a7f993fe",
+        "timestamp": 1523327672
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "68868872195135bdb90d45a5cb0d609400943eae",
+        "timestamp": 1523402244
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "4dc4a1afe156b96a50a877b6b99692ce2a27cc59",
+        "timestamp": 1525194037
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "da7d4b285672d98a943acb1a28ca8095dd941f31",
+        "timestamp": 1525194795
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "cb9f68402c3dd1bcfdb1456f343133a7f3ac79b3",
+        "timestamp": 1538522697
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "18266aadc70d01527e0501a0910bbb6cbbbc7f68",
+        "timestamp": 1538523143
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "7dbb811dfe4791cd3efd539d22b83c2c13f55abe",
+        "timestamp": 1538523451
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml"
+        ],
+        "sha": "c8bc368398428e58a0744d46469122a449535ea4",
+        "timestamp": 1538523467
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "appveyor.yml",
+          "tox.ini"
+        ],
+        "sha": "d0b2ac56f1f4a29dbaa781c1732c63c5aa642b80",
+        "timestamp": 1538524047
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "README.rst",
+          "RELEASING.rst",
+          "setup.py"
+        ],
+        "sha": "b4ed5d0d77ee1bb13f9ade8d1c0eda64a0e7eca9",
+        "timestamp": 1539432801
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "d08a7a486001882e47714609ea208ed481e8525e",
+        "timestamp": 1539433147
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e19f507ba0f8857b0f18ac5555828a811b34b616",
+        "timestamp": 1539433217
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "686d3dafcaffceac0f5833b2ff45bab56e6f98df",
+        "timestamp": 1539433373
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "6951073ba27a2cff1ecd58f8eb5a0dd8722fda2c",
+        "timestamp": 1539434549
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "bb069cfd2853ffbabda79dc6f99949970257f2bb",
+        "timestamp": 1541187405
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "359c691cfdeb2a22768afeca27a345dd8ab2bbdc",
+        "timestamp": 1541188062
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "6e25050db4591595fc8f1dab373cab8daf6e1288",
+        "timestamp": 1549277213
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4d5b200b7598835db483c773e21a2fc7c4f0b535",
+        "timestamp": 1553264521
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "35ade1c2a3237ad73f6a75b50cc0c7a176d617b3",
+        "timestamp": 1553267143
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py",
+          "tox.ini"
+        ],
+        "sha": "24bce30e02376a861399ba1250a2709e05d34b2d",
+        "timestamp": 1553511258
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "4e249da9fb2e5124bb7d81d7e0c2ba2dd61fb832",
+        "timestamp": 1553893008
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "91ece5ec239e7bf68e928e0377c5335ca5fc214a",
+        "timestamp": 1553939892
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py",
+          "tox.ini"
+        ],
+        "sha": "4f33eb5bc14931b0de7b3cde3fad22ce8c6f368f",
+        "timestamp": 1553939928
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "f3ab006926fef9a7a6c750685abc26a34f1cc9cc",
+        "timestamp": 1553940750
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "setup.py"
+        ],
+        "sha": "62c63238480e283af36278b6f6981baf6f5d65d9",
+        "timestamp": 1553948325
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "724843897c90b6d8464d37c43dc74f3375b5afa3",
+        "timestamp": 1555491255
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3bb4d0a8fe03c0eb36e77c885a82ff584bbece52",
+        "timestamp": 1556883733
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "b2683fdfc2fbd67dfc14bfc8e9d2c06530975397",
+        "timestamp": 1556884711
+      },
+      {
+        "files": [
+          ".github/FUNDING.yml"
+        ],
+        "sha": "b6461ee2a1e3643217f16406a44c28b9dc65e7fe",
+        "timestamp": 1559303772
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py",
+          "tox.ini"
+        ],
+        "sha": "970e4b1f8cfd6bd750b4c8240efad378cbf049c2",
+        "timestamp": 1562020296
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "58b50482305b7c7be5aa9f2651ae8aeda0a4e21d",
+        "timestamp": 1566310122
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          ".travis.yml",
+          "README.rst",
+          "appveyor.yml"
+        ],
+        "sha": "6edbe85d9f338d3a87168ed4b5b4ad3b012676db",
+        "timestamp": 1569696076
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "README.rst"
+        ],
+        "sha": "540f6822bb808cffc41d0a9b3ba7b00b884b112c",
+        "timestamp": 1569696393
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "ca8bed53e1d877eed1c4406210eda44738e3add6",
+        "timestamp": 1569696935
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "894db9963f00fc236860907d588c3a079a8d4543",
+        "timestamp": 1570225317
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "d971e7605ebc43ba8f3ed016c39d0f7d43f8a8f9",
+        "timestamp": 1570284906
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py",
+          "tests/test_pytest_mock.py",
+          "tox.ini"
+        ],
+        "sha": "8d56dd3c1cc78012b986526d97641ef7b039586d",
+        "timestamp": 1570729791
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ff509c66699a05a355d817a1d815a882703b2e18",
+        "timestamp": 1570731225
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e25817ff9e913ef5efc908460a5bab03ac601c0f",
+        "timestamp": 1570731264
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "72f66b0e6f179812ab54bd83216773c222593158",
+        "timestamp": 1571754404
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "dcfc8bae513debb87a11ee445e6d67464c87d0cd",
+        "timestamp": 1571847734
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "tox.ini"
+        ],
+        "sha": "3fb27bfbb60dfbfeb8bea838fb9e98693d9f0149",
+        "timestamp": 1571917125
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "1c5e8e90ef45cdd89800fa9835b1dea047c53ba2",
+        "timestamp": 1571940438
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "6587f795fc7b46053ffbec3f20c60414ae486cf7",
+        "timestamp": 1572452818
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "d3d10a5a122f044bbda1d2cadb717568ecc8a090",
+        "timestamp": 1572453799
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "CHANGELOG.rst"
+        ],
+        "sha": "dc2e973aa755339aa3d7e260c3bc74a615d7938b",
+        "timestamp": 1574167239
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "d3d4c4a9e264fdf1a7dbf84a198897b338b22165",
+        "timestamp": 1574285716
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3cd123792f97fb8335c3dadf70957b88058af137",
+        "timestamp": 1574805067
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "25de8529a9f94047cbaa53c550647afdf2754a3d",
+        "timestamp": 1574885132
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "0df91f972f739b91200f75219fe1b980141517b7",
+        "timestamp": 1574885218
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "b3e0ad5301bdd21bce72d5297d60ad5a322cce9b",
+        "timestamp": 1574885800
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "50f99e56a48a2dcdca87078546cc658c08346b44",
+        "timestamp": 1575303602
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "567e053265609689b9692d331d2ddd8d63fe2289",
+        "timestamp": 1575587763
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "895efb1369765ddf16fb6e3bf47d317444eff4d2",
+        "timestamp": 1575596632
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "README.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "8ac35fbd2cf4643684343954ab781b26fe82a02b",
+        "timestamp": 1577634962
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "8e9ff03f71345dcc44c4f838f924bc281c261fb6",
+        "timestamp": 1577634990
+      },
+      {
+        "files": [
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "d6e1540e330468e8af8b3e111729ecb894ffe34e",
+        "timestamp": 1577635376
+      },
+      {
+        "files": [
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "6ec79b21288b0c3bafc02725877df33fa8ee3481",
+        "timestamp": 1577635501
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "cb8d76211a1a0cfa8f3d0a254c40ddc73712985f",
+        "timestamp": 1577635642
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7be1d7460e96880adb46f3ce59c566b5d06e4d43",
+        "timestamp": 1577635673
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "fd024625139970b894fc940f769bbe06d52f1c17",
+        "timestamp": 1578148326
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "ccb76e55501666857106e48e86cf24d7f5e0031b",
+        "timestamp": 1578163055
+      },
+      {
+        "files": [
+          "setup.py",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py",
+          "tox.ini"
+        ],
+        "sha": "06d1848a2dccd7b5e371ac72a0364697d28ec9a0",
+        "timestamp": 1579941237
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "3efdf9fa956aa32593e2694dac28ea7b69c6c528",
+        "timestamp": 1580253814
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml"
+        ],
+        "sha": "f8f87fd840eba67eed9f6c010c4e57b2bb6aced0",
+        "timestamp": 1580254177
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "78499644cb800f8fe65a5c17e81d168fa2a4c6b9",
+        "timestamp": 1585672780
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "762f90754c2d8a969678c05097d3541231b4f6ce",
+        "timestamp": 1586694666
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "f1759fd2a042dde40a71afa84c7fd08f1e1744da",
+        "timestamp": 1587222370
+      },
+      {
+        "files": [
+          "mypy.ini"
+        ],
+        "sha": "5d532ff10bade90159bd1f80be00910e6f092099",
+        "timestamp": 1588852116
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e6a1d0aee7948412493bca76c9a4fdcf9f08e199",
+        "timestamp": 1588946390
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "1ef3d6111a8e4f32dfa9a2c311b6996afd9e98a5",
+        "timestamp": 1590483387
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "25471786ca9d880441e5b0008ebd736bab0b6016",
+        "timestamp": 1591273511
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "55c11a90aa9a6e3e9b909b00beb9f0c43543f96a",
+        "timestamp": 1590967815
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "675d5ceee37177100c817a09c467fe24c280c06b",
+        "timestamp": 1594035044
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "97b5800eb75360eec3cabf4a26698c787a3609bb",
+        "timestamp": 1594036249
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "e6254ec8bab70e794c3d13058c213c5769715b56",
+        "timestamp": 1594129898
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "9b6e10645f6f15b6972391fc4295faa1f658c1c3",
+        "timestamp": 1594483197
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "28ea495fe39007f925177b3b71fd192f632c6382",
+        "timestamp": 1598055670
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "a7d1c8f2d93855244b9f3ee3efe6a5fb03b694a6",
+        "timestamp": 1598280006
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/__init__.py"
+        ],
+        "sha": "225da221c24010146ed0ec9cce2f56e9a72fc5c4",
+        "timestamp": 1598315359
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "53dc516bcea759156b502286f22be229fc1346d3",
+        "timestamp": 1598435402
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "2fd1ac5cd8e0cbd9d26399e9b22fb1efb1fba4a8",
+        "timestamp": 1598264941
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "e6cc1eca07b9133627da6781833429bdaa76364f",
+        "timestamp": 1598699689
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "dc013a0badd01f80e9efcc70201a116e59961738",
+        "timestamp": 1599769128
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "9e1464bb87d551b1a242104b68bad8d8a1429316",
+        "timestamp": 1602070659
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "0e6b221080f5b8ef425a862ca45052131527894a",
+        "timestamp": 1607684363
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "91b4afb0b9ab3a454a2e8235da682e7287ab8f32",
+        "timestamp": 1608034414
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "df9ec17198d9c5d8e26eb91c892c5514b5793b02",
+        "timestamp": 1608034521
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "9771def1069d3f1560525799ec8ba9d8e2c75ed3",
+        "timestamp": 1608124784
+      },
+      {
+        "files": [
+          "src/pytest_mock/__init__.py",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "f623fa88211e07ac4965a9079afabe9f23334758",
+        "timestamp": 1609788242
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "README.rst"
+        ],
+        "sha": "cdd5d709f5d1e30526ca30ae93c64fbbaebcd58d",
+        "timestamp": 1609787332
+      },
+      {
+        "files": [
+          "src/pytest_mock/_util.py",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "379b6239f54de77752ffc1031017ecad2099ca6c",
+        "timestamp": 1610315978
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "0f192942f7833570362f6bdb084acdc84cb52cab",
+        "timestamp": 1610316017
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "6f26c3fb24191db968d63e1dc9d7d4e2e21f7f79",
+        "timestamp": 1610318339
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "16e6058311013a36cb1b457b8641fd175916a77a",
+        "timestamp": 1610383394
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "456941dec219e42a8049d7711920a81f08d83248",
+        "timestamp": 1610567053
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "bebc5f6d12cb9e4fc9f259b1a846820ed96fbee6",
+        "timestamp": 1611592888
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "6e039acf732ef6910c67c57801e41932d05150eb",
+        "timestamp": 1611597411
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "31f6065c844d92b160b2fca3e8d63703b1c3ddb0",
+        "timestamp": 1612803028
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f01618d6fe5fb21ce9eb8191e741bca68690e058",
+        "timestamp": 1614013485
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "58d7b2ecaab2fb0aa66f41825d47cabb763ebf4b",
+        "timestamp": 1616175363
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "55e4be7c1f619e62a973e07cad01810392d5101c",
+        "timestamp": 1618843295
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "6e5600dd2d159352aa0fbdad36ce5c8752a5166a",
+        "timestamp": 1619292300
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "c3e9aa1d8201544a84ba38ed13216a41ffb9f891",
+        "timestamp": 1619300763
+      },
+      {
+        "files": [
+          "mypy.ini"
+        ],
+        "sha": "34256163137edf2e5b1f524f37417209298cb559",
+        "timestamp": 1619300289
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3a4b13b9413e9c67b91e55b972698da1241e3ee2",
+        "timestamp": 1619302012
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f830bb9cc07a3f07afc9ccd74e74d123ed5cf8c5",
+        "timestamp": 1619457744
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "278a23d1e8d7108775619b5c7794133bc3f7034f",
+        "timestamp": 1620062514
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "b4d91e04f2b02a30dfa540dc319596eed4f457ea",
+        "timestamp": 1620328596
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "6730ce36c42752b45b9f7388a430f2fb80fd24f7",
+        "timestamp": 1620328654
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7e662cf4223d2a11d326a1fe11bfb4d0bcb4adf1",
+        "timestamp": 1620678448
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "accff659d457fd3e2efcf816d77253b70de4bbca",
+        "timestamp": 1621272588
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6f3ea64e8a8e4c137b4b36c5b98e28f65fb67687",
+        "timestamp": 1622482416
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9510abd4b1d0dbf4f05965237013e200231a76ec",
+        "timestamp": 1623692483
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "054593f06394180ea12c83eb99c8e155622a08fc",
+        "timestamp": 1623693135
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3d3e63dfd09973c3e317088311a72669e0419a30",
+        "timestamp": 1624902398
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "95b900444a9850d173c333029990567461210d39",
+        "timestamp": 1626732846
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6e7cd0a2a1b2f9af190728c83fa900faed0be741",
+        "timestamp": 1627322679
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b37104593d86848ac017137ff7167ba9425908be",
+        "timestamp": 1630351500
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ae0c7a739f5ff94bd3286ffd0afee8e1f58a26d0",
+        "timestamp": 1632167985
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "61e5a83bc786c260c54db423952036623bf8dca5",
+        "timestamp": 1633981480
+      },
+      {
+        "files": [
+          ".github/workflows/main.yml",
+          ".gitignore",
+          "scripts/gen-release-notes.py"
+        ],
+        "sha": "13130e9fe967559737040ac0c7dfa5ef3c6d129f",
+        "timestamp": 1635599982
+      },
+      {
+        "files": [
+          "scripts/gen-release-notes.py"
+        ],
+        "sha": "467e8e4d8113a8f6473d7f82d86d5401053362b8",
+        "timestamp": 1635600302
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a478ed90f326ea07ad84f9060faaa69d7e1d7800",
+        "timestamp": 1635798446
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "623262dbf88bb021fe202f18a59fc1767ff2fbd3",
+        "timestamp": 1637614369
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "906770c4855186aad488329b06dbfe1ef1915ea5",
+        "timestamp": 1638825039
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3dee06f6ee756746259be2e2ab6b2054d99ce6b5",
+        "timestamp": 1640032961
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "83c746807d24734027a357a49d257131fe1a60de",
+        "timestamp": 1640639639
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2bf7b6128f07933c8f14fe73bc230c54a50d1d1b",
+        "timestamp": 1641850094
+      },
+      {
+        "files": [
+          "mypy.ini",
+          "tests/test_pytest_mock.py",
+          "tox.ini"
+        ],
+        "sha": "0b869db2e019c23421d74af719766d6e2fc79f6a",
+        "timestamp": 1643110415
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "5947b5ae137b646523c8a41b7e2cb6572c083d00",
+        "timestamp": 1643368734
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "3c6b070c319e7a524d96e280af9d4e1f404f2722",
+        "timestamp": 1643368820
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/main.yml",
+          ".github/workflows/test.yml",
+          "README.rst"
+        ],
+        "sha": "6701b3e2fb6f963eae9851d7243adfa016584cd4",
+        "timestamp": 1643369616
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "ae5e541ab7a276261d27c0e464dc87793886c018",
+        "timestamp": 1643370355
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py",
+          "tox.ini"
+        ],
+        "sha": "044011515bb157e65fe7015c475e2b7924d36032",
+        "timestamp": 1643372871
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5a9cf7ddf5d90047560656b504b3e945f9a9fc51",
+        "timestamp": 1643667555
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "68139935f9703873ab324fe7da59392ed7d54ec9",
+        "timestamp": 1644495740
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6f4a21c483cb9b1c331ad892100a6212dc922a2b",
+        "timestamp": 1647300410
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "0577f1ad051fb8d0da94ea22dcb02346d74064b2",
+        "timestamp": 1647431025
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e0ac0e377798d1e818eaddf489925afa0487e251",
+        "timestamp": 1647906105
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "24ad6dda5d79b61b92011ecf47cd48a888bd4ace",
+        "timestamp": 1648496313
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b6b4428ceb94105804577b56384eb18920bb37eb",
+        "timestamp": 1649104033
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "fc8e099c999b5618ce7f38b603953c717fcaa32d",
+        "timestamp": 1649712568
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "3394e1162842567d9aa7ae0a2f208acbe8ba3299",
+        "timestamp": 1650638984
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "951628e8c7f04053c91e95a690491634f85feed0",
+        "timestamp": 1651524458
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "2321b621b7cc4efd205a3ebc70f00a4b246f802c",
+        "timestamp": 1651524621
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "95547ee9acf173fb4abff347475422ff972b90c3",
+        "timestamp": 1653944464
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/usage.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "7cc4cec0531b7751f4e73cbbb73009c169d3c531",
+        "timestamp": 1656094982
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "7eb90d8c0115357c4f2857b25c4bc57722d3a313",
+        "timestamp": 1656095104
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "726143335742228d3a611448983979a50c8c29ac",
+        "timestamp": 1656097214
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "dabbed83f8574c678c6a3605c010129547a96271",
+        "timestamp": 1656415568
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "45bee45332f9edbbae0c931fd610b2e8c41d6519",
+        "timestamp": 1656917317
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7047e5495561d0f61ed490520d4eb41ae0b951c7",
+        "timestamp": 1656984173
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "069bba2d7bc9f14d0653c17807987acf59a3958c",
+        "timestamp": 1657025264
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "170331698c36bcdb4bc5606fd4578421ddb56c66",
+        "timestamp": 1657026339
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "76e324947e4bd0f02489faec5f4d6e79f5d3acf7",
+        "timestamp": 1657270702
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "77e3e891828d2dec8335f2923d123316e7859bab",
+        "timestamp": 1657280138
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "090a2fb8904c12505e233e52009f988b1fccdec4",
+        "timestamp": 1657576688
+      },
+      {
+        "files": [
+          "docs/_static/.gitignore"
+        ],
+        "sha": "305e0829c4100d1316dd30e91d978e56602cf893",
+        "timestamp": 1657873966
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "736f2ab0caa4a51544627773818d1ef4822ab31c",
+        "timestamp": 1658787565
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a5a33ac9461e469736ed0d2ceae135f2cfb3fad0",
+        "timestamp": 1662420843
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "0fd7fea3eece2e2dd09affeed39f0e3a50295f0d",
+        "timestamp": 1662724679
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "247b9d46e6fdfc696257c4daade9c08a195c45aa",
+        "timestamp": 1664298818
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "798f07e99773b05d284be6f4cb32e79d532965b5",
+        "timestamp": 1664365460
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "4e31630aad7dca66258f232e6b62754dadd79f2b",
+        "timestamp": 1664365908
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "64a34f64215d779dc0384acc3cdd5a164544a60a",
+        "timestamp": 1664366198
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "4f2703c94ce4838befc1ffef1c3bdca4ac1eccf2",
+        "timestamp": 1664893892
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a1c7421daad8d6bc433db28a5df1b01bd0a93222",
+        "timestamp": 1664894037
+      },
+      {
+        "files": [
+          "docs/usage.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "fbb5039d7269c34705a7dab39f2a2cea92111859",
+        "timestamp": 1664995180
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "6c03dfd4240de4a178bab67c0a32fba28d8bcf91",
+        "timestamp": 1664995284
+      },
+      {
+        "files": [
+          "scripts/gen-release-notes.py"
+        ],
+        "sha": "a13649adae3b11c3d81d8fb61fbb7a5c146049cb",
+        "timestamp": 1664997876
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "af0927340ed8c0ff03717ce0d770a9da73d605b6",
+        "timestamp": 1665448409
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5339fbcdbf29120691e3a6a37134a49c81e915e6",
+        "timestamp": 1666050531
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d3857996271a2565793d01d1b361cb5f926602a7",
+        "timestamp": 1667261345
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "e2016928db1147a2a46de6ee9fa878ca0e9d8fc8",
+        "timestamp": 1667301144
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "aefa0f5bfd499692c89cf0ac25f536d9a002d540",
+        "timestamp": 1668471449
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "39c842102d36af2cd28f99d77218a74109fe9830",
+        "timestamp": 1669077338
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "127a0bfc9b8bb2cd573b126f1640fea850e92277",
+        "timestamp": 1669077355
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5694101f9c42fbddf3204c040d0ebf9bac270364",
+        "timestamp": 1669752584
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "tox.ini"
+        ],
+        "sha": "fd61e850285b799fd9d85fd84eff3376d8b765c5",
+        "timestamp": 1670929978
+      },
+      {
+        "files": [
+          "docs/contributing.rst"
+        ],
+        "sha": "4314bf370889f69bbf08e53ec95836d6eb63ed00",
+        "timestamp": 1671188761
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "6727f167d1d642b9e3d05f1b1139dbd6907c0d12",
+        "timestamp": 1675767377
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml",
+          "setup.py"
+        ],
+        "sha": "5567049709cb122fa2a8df178cebdd6529b017f0",
+        "timestamp": 1675961349
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "370c6cd24f10fc1801c6b57dadd19d8fb83983b9",
+        "timestamp": 1676244699
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml"
+        ],
+        "sha": "a8c09cf583b1b9e83b24c8ebe42e0995de2d3f8a",
+        "timestamp": 1676244768
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "24bf0ff16e9e60e3c074ba353f2901e9ccbf8863",
+        "timestamp": 1676344997
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "17c60c6bd163009d0330bfcc64d123767416370a",
+        "timestamp": 1676948660
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7980f6df1ff0bba69fb874c1716b1e4b2e87bc64",
+        "timestamp": 1678791075
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "517bf78560b074b16c7de4d02c419164d8e95167",
+        "timestamp": 1680609750
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "927f310fe7923b59eb6807307b2bac0a9a8c2668",
+        "timestamp": 1681210571
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          "RELEASING.rst"
+        ],
+        "sha": "506828798b1e6217df416517de0268bc2ffdf105",
+        "timestamp": 1682081712
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          "RELEASING.rst"
+        ],
+        "sha": "c778ee73bd516d465dca3512d099682ba32108fa",
+        "timestamp": 1682083720
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "9608e9659b1f062bb09915f3ef1c538ca7cb5c5f",
+        "timestamp": 1682532538
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "1cb146af21ffd0b5be24703419cf4a192c4ec0ab",
+        "timestamp": 1682547010
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "786eaaf416fed8204a8aebb29cbf71527228a9f6",
+        "timestamp": 1683653910
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "8ba681201488bec69f27f6e9e2a56988a01f0d1b",
+        "timestamp": 1684235224
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "355b5aae1a1a9b3f2c17b2a6bbfde9980967bceb",
+        "timestamp": 1686343181
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "5818160717a16b7f8867d950ed60b9dc3349ec8d",
+        "timestamp": 1686871895
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "c9a4d13ab4e808ef02250898a79c07b2acf76f61",
+        "timestamp": 1686872324
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "5668efe23e01673af9905febeefd9a9791b023f4",
+        "timestamp": 1686872396
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          "CHANGELOG.rst"
+        ],
+        "sha": "d3e73f2e93f7b93eba0a36e17e43bafd969da4fe",
+        "timestamp": 1686873217
+      },
+      {
+        "files": [
+          "scripts/gen-release-notes.py"
+        ],
+        "sha": "b8ca8a6667f7d8c5df9349c4dbb33ab733044546",
+        "timestamp": 1686874341
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "f1f2c49d45520b13021bd77812277c55bf2dbbd6",
+        "timestamp": 1686909613
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "bc7644db8955288410304d94809c39ca1363ee77",
+        "timestamp": 1687258594
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2d4fb6bc8e5a49adc67a4584c694360e2b1e71d1",
+        "timestamp": 1687863945
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d5243b07bddd98ce07e6bb5d001757c33a8583e7",
+        "timestamp": 1689073044
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "234e16762447b0ccfef529d12a74e1f41e435cc1",
+        "timestamp": 1692102318
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f59c72aaceb0f004322ebacb1877ac4f0fcaed63",
+        "timestamp": 1692968816
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4118e33ddd169e93e1f0d1eb58bab9e1d2cd4147",
+        "timestamp": 1694515780
+      },
+      {
+        "files": [
+          "docs/remarks.rst",
+          "docs/usage.rst"
+        ],
+        "sha": "0c35b655a5d2bcd72558bcf2a19a100988ec8a5a",
+        "timestamp": 1694641484
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9a9f2b620e101b265666d59c1ece06503011caea",
+        "timestamp": 1695125771
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "93bb304f4ebcb6b0a48f8f7f024452f18e5f80e4",
+        "timestamp": 1696330172
+      },
+      {
+        "files": [
+          ".readthedocs.yml"
+        ],
+        "sha": "2779825777426e14449fda81158239c6ff9094dc",
+        "timestamp": 1696335811
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "ea1d0a68a5447d22364179e2c55819a3827d259b",
+        "timestamp": 1696607786
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "53cc0a550fb6dbb9c1eafc2c96cc5c2bf02c4185",
+        "timestamp": 1696607924
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "cec59a0b444efc3f1fb03308460cad6bf5a81709",
+        "timestamp": 1696688766
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f55f17e73b469034dbb87e5fadbb3e103913826a",
+        "timestamp": 1696885163
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e0372217cdd057eb67ffe416177880c141cd3adf",
+        "timestamp": 1697487866
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "2a71a0d6ab8719defc9309da20bd97b7b35262b6",
+        "timestamp": 1697727410
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "tox.ini"
+        ],
+        "sha": "69adc6f76c1a7baf4e7a728da9eec38741d5783e",
+        "timestamp": 1697728089
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "65b40f421db7ff67270123168de3fde5f84b65f8",
+        "timestamp": 1698094428
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1ff80b2294f2cfabae97a56f8838952fa507a6b7",
+        "timestamp": 1699909264
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4031b63f6f71a08eeafc3b828ca7513dbf8db2af",
+        "timestamp": 1701116486
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5922e0c5b90d7c0c51c949b0c647c081468cbcae",
+        "timestamp": 1701191826
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "7f9c13147aad9d6fa5c4f59dbd5b37324ffce417",
+        "timestamp": 1701905432
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "8480bb6d0500f933be039cfec65e04157e6ecffe",
+        "timestamp": 1702985063
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "c596504e062be06475b03122c9c0cc732ae87840",
+        "timestamp": 1702985078
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "6da5b0506d6378a8dbe5ae314d5134e6868aeabd",
+        "timestamp": 1703084533
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "pyproject.toml"
+        ],
+        "sha": "ba34960598e203a5ca2ddb8a235d7d1033949842",
+        "timestamp": 1706562593
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "b8522e73a85441cf4c02c39038a88ac0bab57504",
+        "timestamp": 1706563191
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c23528a7cdb9a845783c254398992c665eec72c5",
+        "timestamp": 1706563272
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4ae94d7f006fc123b9f3381adc9a7668dbeaaf00",
+        "timestamp": 1707164979
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "pyproject.toml",
+          "setup.py"
+        ],
+        "sha": "b7fb4ac37e4453670b3cadfab1ae808516a28672",
+        "timestamp": 1707746623
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6f88d760aac0d9446b06d08679e992dc6146973e",
+        "timestamp": 1707841689
+      },
+      {
+        "files": [
+          "SECURITY.md"
+        ],
+        "sha": "882d2522777a2cad7f2f67aab64e5bbdde6e06db",
+        "timestamp": 1708076954
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e023728d398bcabd24a81d1b0249aabb0e2a460f",
+        "timestamp": 1708389214
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "scripts/gen-release-notes.py",
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "fdc4c7ffd6546c86c848bab37bf69a17bdcc2e09",
+        "timestamp": 1710323779
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "dc28a0ec7b66372fbc6e0cf1bbe443ce7ca465cd",
+        "timestamp": 1710857262
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/usage.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "6d5d6dc2274cea96b6919a4a2a6dc7a3394ef11d",
+        "timestamp": 1711047275
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "5b9d2858f507e04cc97a3c206f55d7d5505ae71c",
+        "timestamp": 1711047340
+      },
+      {
+        "files": [
+          "RELEASING.rst"
+        ],
+        "sha": "ef9461b8b5bdcdd416841b986cf4e1d336c84266",
+        "timestamp": 1711047515
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/__init__.py"
+        ],
+        "sha": "366966bff1e3ca2e1455d704dd59991da5593877",
+        "timestamp": 1711049944
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "6bd8712a14a1a11d348354318fdbad3fd9bbdb78",
+        "timestamp": 1711050305
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "4faf92ae233afadac3831ab570531e540dc87830",
+        "timestamp": 1711057971
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "5257e3c0df0a18bca4028daa9e6d2d91870ff576",
+        "timestamp": 1711058787
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "8733134b6194395e9cd3c745adcc9a9c09b0279e",
+        "timestamp": 1711050364
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "27d0eafaa1ec71f1eaf10447c327eaeeadefa98d",
+        "timestamp": 1711473306
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "0e8bddea09fc784b598f1a68ec1533f513a17098",
+        "timestamp": 1712061814
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9b2b1a01fb8fbdf0d983e107e4e007e2ccdba961",
+        "timestamp": 1713267830
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3eb8e8b3b2ce52c05880151e0563a82a726db9d5",
+        "timestamp": 1713913452
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c8d44136ee4987e348a77238d965a870cb6d7abd",
+        "timestamp": 1714433672
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "33f5070f20d26c777468950b43ca4ab3566befd0",
+        "timestamp": 1715105478
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "2211dda47e9613eac13bdc1318533759ee1c6197",
+        "timestamp": 1715699432
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "bbeeb6dbd232da6d49e79e091e185fb1c16dd669",
+        "timestamp": 1715856932
+      },
+      {
+        "files": [
+          ".github/dependabot.yml"
+        ],
+        "sha": "c91735dff218c67f8bdf57e3a9655d53d68a2862",
+        "timestamp": 1715856986
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "d37af22c396f53b54fb543a503fdca0082f4de40",
+        "timestamp": 1715857146
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "0486e6060f3e6ed4b7ce4191b8e139f428c05ad7",
+        "timestamp": 1715857516
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "63e9c2bac6c3e11236f6af2b6eb139bffe808457",
+        "timestamp": 1716900955
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a7048428c391a3c59cc25028c8a2b58cdd15bf06",
+        "timestamp": 1716900967
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f43e0d67d63d56c0d8026ca33f6b4197290035f2",
+        "timestamp": 1717508483
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f9b12fc0992dfebe046a4f813cd23c520c20c85d",
+        "timestamp": 1718105340
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "91eac12cf4f64768a603b73e48ba42f26bf5550f",
+        "timestamp": 1718667746
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "94a26b08dd84e4ce550b1e232003e57f14157e1c",
+        "timestamp": 1718667755
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ac159f16c4071f99e375cd70200b1470e7a1a3d1",
+        "timestamp": 1719274873
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a7492fea7efb07114032f008ad889d98aa8bc51f",
+        "timestamp": 1719879428
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "45b6c69556dcd1d9f8d808868159da0f2f678dc1",
+        "timestamp": 1720478083
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3d8032c14a70fedd3d72a6a27d817aa1cdbe7ba7",
+        "timestamp": 1721130586
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "41b4dec668ac156bf41158b52b02b6eece9e1c13",
+        "timestamp": 1721687389
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3e1cb824ca38ef2f4749177efd5ba7b01b0f721d",
+        "timestamp": 1721733094
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "75b0ffeaf3c448de7846d955d9b8a5d4e64f9b03",
+        "timestamp": 1722300991
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "76a707e7c034abd6d053723611a2a506603cddfd",
+        "timestamp": 1722301003
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d7a69e35164b5edc2978b6565a670e0a9b8ecfa1",
+        "timestamp": 1722921125
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b14d0cd7ebaba534f92e89ec58033eba2192d545",
+        "timestamp": 1723522981
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "242cf8f3749be8023ad66800b23eb56b987c2234",
+        "timestamp": 1724110454
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "145cd3b1cb26f2ed99854c0b3132f5326ee02718",
+        "timestamp": 1724725613
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "7039ceb1ac3000803c2323a47b01338b2639d5a8",
+        "timestamp": 1725310920
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9bf83fe0b11db5aff464a1e958ee2dbf11f5f5e1",
+        "timestamp": 1725323430
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "bb729fe61553c4fe7103a6b579e4dbacb8fbca38",
+        "timestamp": 1725323509
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "2e676968cafd2b78ddb9249aea7912fd681abca3",
+        "timestamp": 1725916825
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ef1724e1e20153b0c3a1c0019ebf924e11cd50d2",
+        "timestamp": 1725924475
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1666e02c1d8446c69ee7059e2e8105a839dee3b6",
+        "timestamp": 1726526787
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "dd447ec36458b69f1846b3718f60b54d0ed08203",
+        "timestamp": 1727124996
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "503999d563e5607f57e99fc3025f1ddb3530eb53",
+        "timestamp": 1727153354
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a7d9ea8761629ea74fcfbe02365aa5175ed2d45d",
+        "timestamp": 1727771523
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "11fc4e9b04935c1a122e5f9f4a8f393790b7042c",
+        "timestamp": 1728334506
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "252fbd07eff4ecc2b7e9444ffb3ebbefe5d45fe5",
+        "timestamp": 1728362676
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e9ab13ef0d05d7cb88b009a3a81f3b4671cb98a9",
+        "timestamp": 1729551712
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "51bebd3e6678eb3247393bffd6543ebf394bc069",
+        "timestamp": 1729867308
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py"
+        ],
+        "sha": "7724a9ed88331045faff11388731d0f8e1323073",
+        "timestamp": 1729867593
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "118a80857640a64ef7eeca6e4fda1642a8db91dd",
+        "timestamp": 1730163095
+      },
+      {
+        "files": [
+          "docs/usage.rst"
+        ],
+        "sha": "575597f490eb2df2b9bc40f2f675edcf592495e6",
+        "timestamp": 1730468529
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "6d58749cc7670c3116e56e928599f1d293ee6e12",
+        "timestamp": 1730753695
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ee65a46f1d921c00065bd03f5914b0c548cce868",
+        "timestamp": 1730762382
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "a23f75b88eb86773d7cee1e539d557ac2b7a3caa",
+        "timestamp": 1731357979
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1b62031c744b1919740d79ae6db1c7ede8fd8816",
+        "timestamp": 1731397694
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "592c5306685ead99654b59c130ce7ac1c07d1f34",
+        "timestamp": 1731997876
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "99087d157e459c1f8a674d58a23f38fd4e044528",
+        "timestamp": 1732608274
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "41fb823674249ce71e546d03b178e536b313d43b",
+        "timestamp": 1733182437
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "6830992e45ed375859fd82add9360ba65e201877",
+        "timestamp": 1733777792
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "99f9e8cc477bbb8e5b22ebabe6c471894e3f4867",
+        "timestamp": 1733785620
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "fe365ced573097f74c516658b24d2c52849eefff",
+        "timestamp": 1734381206
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7674e20dff46eb73dcd24884798624c80942217c",
+        "timestamp": 1734389917
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "94df0a631f81fcc8115c110bd1dee1c1bd361ec9",
+        "timestamp": 1735021267
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "88c0cf268a86c0c81ba3b18564e04aa1bc153404",
+        "timestamp": 1736227455
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c07d8f50a846b758badbdd371ecf9fe2ff783517",
+        "timestamp": 1736844883
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6279e04f7b956e07f8a2ae2de46d2fff75dcdc6f",
+        "timestamp": 1737432214
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "3c35f0e5495ca57e3c967dad2104357da38f24ab",
+        "timestamp": 1738020248
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "604f67b3a2fce8c33f99b0d4437fb3c0708d61c0",
+        "timestamp": 1738021440
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9c18793d8ea47c301c201b423937d67c65dab50a",
+        "timestamp": 1738656736
+      },
+      {
+        "files": [
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "a76eb4d3a82e95b803baf3870c4928056bb5375d",
+        "timestamp": 1738931471
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "68494dbe2cddf1aeae18381ffa5bff473484ca99",
+        "timestamp": 1739234337
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "39aa9523f021e0808f981095fe0dec3bb5a9d015",
+        "timestamp": 1740443458
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6693bcecb1dd3136f4891431971ed5079a899419",
+        "timestamp": 1741036695
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4e91c485f6b836739f2a885c7895bd5d128cdf2d",
+        "timestamp": 1741641537
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9db201821dd25530ae05e6bf3f7c790ffe8fbff1",
+        "timestamp": 1742244450
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a8b97ea2ca86e9cfa553e395cf20352a881d8eaf",
+        "timestamp": 1742849369
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "7857e608242aeb3d4b771296ee41d258b1a13838",
+        "timestamp": 1744085877
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "fe7ad9aab6a8e15e5762d5bdc85402249f2ca7ef",
+        "timestamp": 1744665905
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "48ac8746b6587457becf31d1272947de6d65e0d0",
+        "timestamp": 1745267661
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "db1add63034430d66835c78992c0ed9b1e331cfd",
+        "timestamp": 1745873966
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "824f334cc4b39eb05c0093fc43411ada3fdc8300",
+        "timestamp": 1746476984
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "bae64d8c8ef44a7075d63f1d7f6ac36b76b61ce4",
+        "timestamp": 1747081443
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f5fcef726a8ba4a54cd138321ae9771648a0bc8a",
+        "timestamp": 1747687031
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "CHANGELOG.rst",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "299adb96640a51a48b5af9a69064b9edd7a9fe90",
+        "timestamp": 1748267450
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "34dd61aa459520e096c70eb8a573700fc17c5de8",
+        "timestamp": 1748267687
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "0ce709c71dd83a04aa77d94089ac0be19b9177b2",
+        "timestamp": 1748290371
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "86c8bff32b56c6afe5ede78ad8e2aa45d9156812",
+        "timestamp": 1748897978
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4d0321ff444ecd0f45726aad36d0202f87164d8c",
+        "timestamp": 1749500616
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "6cb603c4b4396fd9d48d4b3164f4482c34622b05",
+        "timestamp": 1750109321
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "0f919def8297e47ae7234ae26e9dd1f1a7be57dc",
+        "timestamp": 1750764204
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f4c5c8591b0bc161cbc24d377d60763e75c1bec5",
+        "timestamp": 1751319283
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "672e3a5f77c07b7a1ab9c06870fd34b415a0bfcb",
+        "timestamp": 1751957032
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "34226337f30d42967ba449ade0c95ccdf3ad65fb",
+        "timestamp": 1752532462
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "37ce139f19a1d6eaa8ded96f9a70998e2ab4b193",
+        "timestamp": 1753583220
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "73b6fa58d9969b163b317ed00ad47d20fd4f6b0c",
+        "timestamp": 1753788362
+      },
+      {
+        "files": [
+          "RELEASING.rst"
+        ],
+        "sha": "1bbdf3fee5e0559ef8961377b9778f5b36605d51",
+        "timestamp": 1754070509
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "7c5031fc7aacb63851c9fe56523071a11c300b64",
+        "timestamp": 1754311898
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "ba83a70ff9c15c0b8534e7f1a7c6ba5321aea046",
+        "timestamp": 1754368607
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e09e5be3fcaa54102006b7c01add91ac33ebf9ed",
+        "timestamp": 1754979935
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3aec7677f47f6c4b89dbdee9e4a32a8fe047943f",
+        "timestamp": 1755550726
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "f9e47b6e1685169972488391d8c2ba1d10e0901d",
+        "timestamp": 1755558037
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "bd66c9cb8b1ffc59b4d9e42a1b413bafa3a16eac",
+        "timestamp": 1756161607
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "b977d83d051390c5efd91b02884236ea5eba8ae4",
+        "timestamp": 1756790062
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "dc6df75a91aad4980af1a711e42a2ade19960f36",
+        "timestamp": 1757012697
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/usage.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "5aa9e9cd7e0d25403c8d9d478bc3480bb5ca2456",
+        "timestamp": 1757018547
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "90b29f89e2086c139a7b4fea89202faa192ee5a9",
+        "timestamp": 1757019152
+      },
+      {
+        "files": [
+          "scripts/gen-release-notes.py"
+        ],
+        "sha": "5b29b03ce9581cfcd867dd6c04a970fb2c861291",
+        "timestamp": 1757019836
+      },
+      {
+        "files": [
+          "src/pytest_mock/_util.py",
+          "tox.ini"
+        ],
+        "sha": "e696bf02c199b1f7d0c48adb450f40e5a75b699a",
+        "timestamp": 1757074520
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "95ad5700609aae73c6f767b8cc2ccfb2483e0f5c",
+        "timestamp": 1757368103
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "adc41873c9d6aa69b87e3f108c93a29c847869aa",
+        "timestamp": 1757368113
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "f5aff33ce71ed4620acc43dc41cb3b198bcf4cb0",
+        "timestamp": 1757701592
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4fa0088a0aa85eefb1313bd97adf43889bf1f647",
+        "timestamp": 1758025407
+      },
+      {
+        "files": [
+          "CHANGELOG.rst",
+          "docs/usage.rst",
+          "src/pytest_mock/plugin.py",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "184eb190d6be417f5f33727bcbc9704909479498",
+        "timestamp": 1758040392
+      },
+      {
+        "files": [
+          "CHANGELOG.rst"
+        ],
+        "sha": "e1b5c62a38c5a05cae614aef3847f240ba50d269",
+        "timestamp": 1758040451
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d6d696603b99214d769c98ac88a68d2c51bad81c",
+        "timestamp": 1758603838
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3dfdcc739bcd7b36ef67af7a35c362e80cff30ea",
+        "timestamp": 1759178407
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "36857354d5dab84be479b68621db4edc5262fbd9",
+        "timestamp": 1759815815
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "76e2e11956aa57a6f4d90d42b2a602ebbc2b6d19",
+        "timestamp": 1760400342
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1308635d06525c944bd25aa9ff2815bce12c0f70",
+        "timestamp": 1760400352
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "42d5c6a5bef6cc7d8136315b0f692076fcb1f61e",
+        "timestamp": 1761004608
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "463d04676b7230d62c571bcbb6698b7c3b747596",
+        "timestamp": 1761599204
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "b15360f2a38d9bd64a5c468dc7482e7390d4e058",
+        "timestamp": 1761646928
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "610a6d49a470628762cb811d8996c5e0c53ee030",
+        "timestamp": 1762258126
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3429ef14dba78821b748359386deb532c499cb71",
+        "timestamp": 1762855970
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "61daa6258b8a82b9dcbf59a014a36c4fe82d03d5",
+        "timestamp": 1763464029
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "764f97ecdc0b9e4683a1a14b645d643f4efbc4b8",
+        "timestamp": 1764018122
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5605368a051c6bb5c702be3bdd97d4736fbac72e",
+        "timestamp": 1764024973
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "098e0cd4138983dc3886eb17391e1470d5f456b8",
+        "timestamp": 1764640651
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c3df398e0b7fca2af75d9249f448517f98a904d3",
+        "timestamp": 1765254652
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "161fa6e8caac1a4cb81fddec8e2655a187684d95",
+        "timestamp": 1765830147
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "809be20dd09b21ffa6a89758f701675123855db7",
+        "timestamp": 1765834771
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "1c404f114f7d7c448d7407da7590bc4a60a734c5",
+        "timestamp": 1766437298
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "a669d53b16b7c3b7fc1758dd3db742ba021a8f76",
+        "timestamp": 1768258747
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9224a51c78d8f6d57e0dfd50aa81c51c366fe718",
+        "timestamp": 1768861717
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "954159711beb65f436a53dec502fbd8ecfd46168",
+        "timestamp": 1769462482
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "c9d7e578e24e00336e000960a4a665bf4b980a65",
+        "timestamp": 1770686568
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "4aab8f5ea5845a52c52f6bba6fe6221bbe686ffb",
+        "timestamp": 1771937006
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "f7a0cbaa59014dc6d63d1df737a0275408f18fdb",
+        "timestamp": 1773160276
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "0fdb1a22c76cd7841efa336e5fa8cbfcfbd6c4aa",
+        "timestamp": 1773699187
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "1e19c946b24b760dbdddbf7f30a8b3bc23c8aada",
+        "timestamp": 1773694481
+      },
+      {
+        "files": [
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "61872e94c1c1f08c0d1b3fafd524314458a08874",
+        "timestamp": 1773695644
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "40bd13c9855db818bb13e9ddab180f11eb5240f7",
+        "timestamp": 1774298654
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "3ae99899382a422d967a309ab0e808009a94fc39",
+        "timestamp": 1774301298
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "cd76c81525740f05ad57d57c4786f2909e0dfe92",
+        "timestamp": 1774905168
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "2cdab82e5a5ea85336e7e99f9413bacbe5e49a5e",
+        "timestamp": 1775137157
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "tests/test_pytest_mock.py"
+        ],
+        "sha": "07be16eda10ba52ea98231aa1ddc09658981ea3e",
+        "timestamp": 1775585448
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "36074f3293197457162fd2726e3bd455eeeeaa91",
+        "timestamp": 1776114781
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml"
+        ],
+        "sha": "382bf6ada07dc6959c7c8ac84285938a5ed92179",
+        "timestamp": 1776117425
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "dd6761be712447776cff349bd7fd3934d6a01c2b",
+        "timestamp": 1776718538
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "49e9cefb9ed5a4a5e831c386917c7293f904c96b",
+        "timestamp": 1777353177
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "e5213ec0a60faf8155efd76d0d7f3c37afbe39c2",
+        "timestamp": 1778534771
+      },
+      {
+        "files": [
+          ".github/workflows/deploy.yml",
+          ".github/workflows/test.yml"
+        ],
+        "sha": "22897e601af54d7fbe9a577adfc9f778436e06d3",
+        "timestamp": 1778843128
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "78ccb540284aba4d90b93e7df4bfc7783d9ebef9",
+        "timestamp": 1779141785
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "9025232b574db9ce9acfafb3166361170bd69afd",
+        "timestamp": 1779770966
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "6c558e64867781f2250569adabaada68dd5e4384",
+        "timestamp": 1780392809
+      },
+      {
+        "files": [
+          ".github/workflows/test.yml",
+          "CHANGELOG.rst",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "4f8bf93b721ecf2ca1cb87cd33518e0ea38cd565",
+        "timestamp": 1780665598
+      },
+      {
+        "files": [
+          "docs/configuration.rst",
+          "docs/index.rst"
+        ],
+        "sha": "5669f7c3ee782b64021d9ae9157ec621f1f3c661",
+        "timestamp": 1780945259
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "76abed5fba2f10d143b70cb509696b54d7f298d8",
+        "timestamp": 1780974167
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 4,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/FUNDING.yml": 0,
+      ".github/dependabot.yml": 1,
+      ".github/workflows/deploy.yml": 2,
+      ".github/workflows/main.yml": 3,
+      ".github/workflows/test.yml": 4,
+      ".gitignore": 5,
+      ".pre-commit-config.yaml": 6,
+      ".readthedocs.yml": 7,
+      ".travis.yml": 8,
+      "CHANGELOG.rst": 9,
+      "LICENSE": 10,
+      "MANIFEST.in": 11,
+      "README.md": 12,
+      "README.rst": 13,
+      "RELEASING.rst": 14,
+      "SECURITY.md": 15,
+      "appveyor.yml": 16,
+      "docs/_static/.gitignore": 17,
+      "docs/configuration.rst": 18,
+      "docs/contributing.rst": 19,
+      "docs/index.rst": 20,
+      "docs/remarks.rst": 21,
+      "docs/usage.rst": 22,
+      "mypy.ini": 23,
+      "pyproject.toml": 24,
+      "runtests.py": 25,
+      "scripts/gen-release-notes.py": 26,
+      "setup.py": 27,
+      "src/pytest_mock/__init__.py": 28,
+      "src/pytest_mock/_util.py": 29,
+      "src/pytest_mock/plugin.py": 30,
+      "tests/test_pytest_mock.py": 31,
+      "tox.ini": 32
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1405557632,
+      "last_commit_ts": 1780974167,
+      "n_cochange_pairs": 37,
+      "n_commits_dropped_as_bulk": 18,
+      "n_commits_used": 567,
+      "n_files": 33
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "76abed5fba2f10d143b70cb509696b54d7f298d8",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
