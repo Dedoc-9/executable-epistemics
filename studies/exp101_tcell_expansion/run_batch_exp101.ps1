@@ -39,12 +39,12 @@ $repos = @(
     [pscustomobject]@{ id="C013"; slug="bokeh/bokeh" },
     [pscustomobject]@{ id="C014"; slug="pexpect/pexpect" },
     [pscustomobject]@{ id="C015"; slug="gitpython-developers/GitPython" },
-    [pscustomobject]@{ id="C016"; slug="plumbum/plumbum" },
+    [pscustomobject]@{ id="C016"; slug="tomerfiliba/plumbum" },
     [pscustomobject]@{ id="C017"; slug="pyserial/pyserial" },
     [pscustomobject]@{ id="C018"; slug="astropy/astropy" },
     [pscustomobject]@{ id="C019"; slug="docutils/docutils" },
     [pscustomobject]@{ id="C020"; slug="Supervisor/supervisor" },
-    [pscustomobject]@{ id="C021"; slug="psutil/psutil" },
+    [pscustomobject]@{ id="C021"; slug="giampaolo/psutil" },
     [pscustomobject]@{ id="C022"; slug="python-dateutil/dateutil" }
 )
 

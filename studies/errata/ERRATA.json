@@ -161,5 +161,31 @@
     "declaration_hash_new": "0d9d165c63b1462f428b2868ef0188373968b9c30b177e418b69b9e0b3c4a8ef",
     "corrected_statement": "SLUG CORRECTION for C015: REPO_DECLARATION_exp101.json listed gitpython/gitpython which does not exist on GitHub (clone returns 404 'Repository not found'). The correct org is gitpython-developers (not gitpython) and the repo name is capitalized GitPython. The intended repository is gitpython-developers/GitPython (Sebastian Thiel primary author, github.com/gitpython-developers/GitPython). Discovered at C015 clone attempt during batch run. Same defect class as E-014, E-017, E-019. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). REPO_DECLARATION_exp101.json and run_batch_exp101.ps1 corrected to gitpython-developers/GitPython. Declaration hash recomputed. NOT a mechanical unavailability event; replacement queue slots unchanged.",
     "supersedes": "REPO_DECLARATION_exp101.json C015 slug (gitpython/gitpython)"
+  },
+  {
+    "erratum_id": "E-021",
+    "hash": "c51ec3aa78059b4d",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-101",
+    "repo_id": "C016",
+    "slug_old": "plumbum/plumbum",
+    "slug_new": "tomerfiliba/plumbum",
+    "declaration_hash_old": "0d9d165c63b1462f428b2868ef0188373968b9c30b177e418b69b9e0b3c4a8ef",
+    "declaration_hash_new": "c51ec3aa78059b4d9f80dd124b9696751ea2a7bc5b36d0019bf778e8e68a3fb4",
+    "corrected_statement": "SLUG CORRECTION for C016: REPO_DECLARATION_exp101.json listed plumbum/plumbum which does not exist on GitHub (clone returns 404). The correct org is tomerfiliba (Tomer Filiba, primary author). The intended repository is tomerfiliba/plumbum (github.com/tomerfiliba/plumbum). Discovered at C016 clone attempt during batch run. Same defect class as E-014, E-017, E-019, E-020. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). REPO_DECLARATION_exp101.json and run_batch_exp101.ps1 corrected. Declaration hash recomputed. NOT a mechanical unavailability event; replacement queue slots unchanged.",
+    "supersedes": "REPO_DECLARATION_exp101.json C016 slug (plumbum/plumbum)"
+  },
+  {
+    "erratum_id": "E-022",
+    "hash": "cc94c029e10bd939",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-101",
+    "repo_id": "C021",
+    "slug_old": "psutil/psutil",
+    "slug_new": "giampaolo/psutil",
+    "declaration_hash_old": "c51ec3aa78059b4d9f80dd124b9696751ea2a7bc5b36d0019bf778e8e68a3fb4",
+    "declaration_hash_new": "cc94c029e10bd93901d20f7ccd8d7f5bd4e9a346faa4278ff5075746a979a1c1",
+    "corrected_statement": "SLUG CORRECTION for C021: REPO_DECLARATION_exp101.json listed psutil/psutil. The psutil organization does not exist on GitHub; the project is hosted under the personal org of Giampaolo Rodola (primary author). The correct slug is giampaolo/psutil (github.com/giampaolo/psutil). Filed PRE-CLONE based on observed pattern of org-prefix errors in this batch (E-014, E-017, E-019, E-020, E-021 all same defect class). NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). REPO_DECLARATION_exp101.json and run_batch_exp101.ps1 corrected. Declaration hash recomputed. NOT a mechanical unavailability event; replacement queue slots unchanged.",
+    "supersedes": "REPO_DECLARATION_exp101.json C021 slug (psutil/psutil)"
   }
 ]

@@ -145,10 +145,10 @@
     },
     {
       "id": "C016",
-      "slug": "plumbum/plumbum",
+      "slug": "tomerfiliba/plumbum",
       "eligibility": "CONFIRMED",
       "audit": "KNOWLEDGE",
-      "notes": "CLI and remote commands. Est. ~1500 commits, ~100 py files."
+      "notes": "CLI and remote commands; Tomer Filiba primary. E-021: slug corrected from plumbum/plumbum."
     },
     {
       "id": "C017",
@@ -180,10 +180,10 @@
     },
     {
       "id": "C021",
-      "slug": "psutil/psutil",
+      "slug": "giampaolo/psutil",
       "eligibility": "CONFIRMED",
       "audit": "KNOWLEDGE",
-      "notes": "Replaces fabric/fabric (49 py files < 50). Giampaolo Rodola primary author. Est. ~2000 commits, ~100 py files. High-confidence T-cell candidate."
+      "notes": "Cross-platform process/system utilities; Giampaolo Rodola primary. REPLACEMENT for fabric. E-022: slug corrected from psutil/psutil."
     },
     {
       "id": "C022",
@@ -211,7 +211,7 @@
       "notes": "Character detection. Activates if second replacement needed."
     }
   ],
-  "declaration_hash": "0d9d165c63b1462f428b2868ef0188373968b9c30b177e418b69b9e0b3c4a8ef",
+  "declaration_hash": "cc94c029e10bd93901d20f7ccd8d7f5bd4e9a346faa4278ff5075746a979a1c1",
   "hash_input_spec": "SHA-256 of JSON-serialized {slugs_sorted: sorted(22 slugs), replacement_queue_sorted: sorted(2 queue slugs), protocol_version: exp101_v1, declaration_date: 2026-06-13} with sort_keys=True, separators=(,,:)",
   "pre_cloning_attestation": "This file committed and pushed BEFORE any Component C repository is cloned. Per HYPOTHESIS_exp101.md \u00a74: declare first, clone after. NEEDS_MANUAL repos must be resolved before their clone step.",
   "replacement_count": 3
