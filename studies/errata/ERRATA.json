@@ -72,6 +72,19 @@
     "supersedes": "UPDATE_COMMITMENTS section A implausible-metric row (fixed 'filter < 5' threshold)"
   },
   {
+    "erratum_id": "E-014",
+    "hash": "c7a2d3e91b5f8044",
+    "erratum_type": "declaration_slug_correction",
+    "study": "EXP-002",
+    "repo_id": "R038",
+    "slug_old": "psf/cryptography",
+    "slug_new": "pyca/cryptography",
+    "declaration_hash_old": "8d2577eed52d16068ea5c1c5767af5a8e6d00e1fd94ae2731b85ed9bdca1df25",
+    "declaration_hash_new": "13ffc9a71c3fda50471592c22c9f209448b7c66082eeeeb76b3ac4e230f68a0e",
+    "corrected_statement": "SLUG CORRECTION for R038: REPO_DECLARATION_exp002.json listed 'psf/cryptography' which does not exist on GitHub (clone returns 404). The intended repository is 'pyca/cryptography' (Python Cryptographic Authority), the canonical Python cryptography library. The PSF org does not host this project. Discovered at R038 clone attempt during batch 3. This is a declaration typo (wrong org prefix), not mechanical unavailability. The repository pyca/cryptography is public, not archived, Python-primary, and satisfies all POPULATION_CRITERIA.md inclusion criteria. REPO_DECLARATION_exp002.json and run_batch_exp002.ps1 corrected to pyca/cryptography. Declaration hash recomputed over corrected slug list. NOT an instrument erratum; section-C erratum budget unchanged (3/3 remaining). NOT a mechanical unavailability event; RQ slots unchanged.",
+    "supersedes": "REPO_DECLARATION_exp002.json R038 slug (psf/cryptography)"
+  },
+  {
     "erratum_id": "E-013",
     "hash": "b3c1e7f2a904d658",
     "corrected_statement": "VENDORED-TREE EXCLUSION for pypa/pip: pip's repository contains src/pip/_vendor/, a subtree of vendored copies of external packages (requests, urllib3, certifi, etc.) not authored or maintained by the pip team. Including this subtree would (a) inject co-change pairs driven by upstream-sync commits rather than pip's own coupling structure, (b) attribute file ownership to maintainers of vendored packages rather than pip contributors, and (c) introduce dep_graph edges between vendored packages that are absent in every other study population member. No other wave-1 repository carries a vendored subtree of comparable scale. To preserve population-level comparability -- the ceteris-paribus condition that makes cross-repo aggregation interpretable -- src/pip/_vendor/* is excluded from the tracked-file set for pip's scoring via --exclude-glob 'src/pip/_vendor/*'. This exclusion is declared BEFORE pip is scored; it was not chosen after observing pip's metrics. The --exclude-glob parameter was already present in run_study.py and corpus_builder.py; no instrument code changes. Classified as commitment-rule calibration (population comparability scope decision), NOT an instrument defect; section-C erratum budget remains at 1 of 3.",

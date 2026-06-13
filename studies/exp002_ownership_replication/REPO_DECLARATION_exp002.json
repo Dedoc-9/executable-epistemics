@@ -72,7 +72,7 @@
     {"id":"R035","slug":"pypa/setuptools",           "category":"packaging",    "eligibility":"REPLACEMENT","notes":"Replaces python/mypy (wave-1). Source: GitHub Python topic sorted by stars."},
     {"id":"R036","slug":"boto/boto3",               "category":"cloud_sdk",    "eligibility":"CONFIRMED",  "notes":""},
     {"id":"R037","slug":"urllib3/urllib3",           "category":"http",         "eligibility":"CONFIRMED",  "notes":""},
-    {"id":"R038","slug":"psf/cryptography",         "category":"security",     "eligibility":"REPLACEMENT","notes":"Replaces googleapis/google-cloud-python (monorepo). Source: GitHub Python topic sorted by stars."},
+    {"id":"R038","slug":"pyca/cryptography",        "category":"security",     "eligibility":"REPLACEMENT","notes":"Replaces googleapis/google-cloud-python (monorepo). Source: GitHub Python topic sorted by stars. E-014: slug corrected from psf/cryptography (typo in org prefix; same intended repo)."},
     {"id":"R039","slug":"HypothesisWorks/hypothesis","category":"testing",     "eligibility":"CONFIRMED",  "notes":""},
     {"id":"R040","slug":"joke2k/faker",             "category":"testing",      "eligibility":"CONFIRMED",  "notes":""},
     {"id":"R041","slug":"getsentry/responses",      "category":"testing",      "eligibility":"CONFIRMED",  "notes":""},
@@ -96,7 +96,7 @@
     {"slot":"RQ3","slug":"encode/broadcaster",  "source":"GitHub Python topic sorted by stars","notes":""}
   ],
 
-  "declaration_hash": "8d2577eed52d16068ea5c1c5767af5a8e6d00e1fd94ae2731b85ed9bdca1df25",
+  "declaration_hash": "13ffc9a71c3fda50471592c22c9f209448b7c66082eeeeb76b3ac4e230f68a0e",
   "hash_input_spec": "SHA-256 of JSON-serialized {slugs_sorted: sorted(50 slugs), replacement_queue_sorted: sorted(3 queue slugs), protocol_version: 'exp002_v1', declaration_date: '2026-06-12'} with sort_keys=True, separators=(',',':')",
 
   "pre_cloning_attestation": "This file committed and pushed BEFORE any wave-2 repository is cloned. Per POPULATION_CRITERIA.md §Selection process rule 4: commit first, clone after."

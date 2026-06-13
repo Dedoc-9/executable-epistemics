@@ -67,7 +67,7 @@ $repos = @(
     [pscustomobject]@{ id="R035"; slug="pypa/setuptools" },
     [pscustomobject]@{ id="R036"; slug="boto/boto3" },
     [pscustomobject]@{ id="R037"; slug="urllib3/urllib3" },
-    [pscustomobject]@{ id="R038"; slug="psf/cryptography" },
+    [pscustomobject]@{ id="R038"; slug="pyca/cryptography" },
     [pscustomobject]@{ id="R039"; slug="HypothesisWorks/hypothesis" },
     [pscustomobject]@{ id="R040"; slug="joke2k/faker" },
     [pscustomobject]@{ id="R041"; slug="getsentry/responses" },
