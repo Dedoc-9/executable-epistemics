@@ -1,0 +1,2027 @@
+{
+  "chain_hash": "472c18ac7a5f5faa",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/dependabot.yml||.pre-commit-config.yaml": 2,
+      ".github/workflows/publish.yaml||.github/workflows/tests.yaml": 9,
+      ".github/workflows/publish.yaml||.pre-commit-config.yaml": 3,
+      ".github/workflows/publish.yaml||requirements/build.txt": 2,
+      ".github/workflows/publish.yaml||requirements/dev.txt": 2,
+      ".github/workflows/publish.yaml||requirements/docs.txt": 2,
+      ".github/workflows/publish.yaml||requirements/tests.txt": 2,
+      ".github/workflows/publish.yaml||requirements/typing.txt": 2,
+      ".github/workflows/tests.yaml||.pre-commit-config.yaml": 2,
+      ".github/workflows/tests.yaml||pyproject.toml": 3,
+      ".github/workflows/tests.yaml||src/blinker/base.py": 2,
+      ".github/workflows/tests.yaml||tox.ini": 2,
+      ".gitmodules||docs/source/_themes": 2,
+      ".pre-commit-config.yaml||pyproject.toml": 2,
+      ".pre-commit-config.yaml||requirements/build.txt": 2,
+      ".pre-commit-config.yaml||requirements/dev.txt": 2,
+      ".pre-commit-config.yaml||requirements/docs.txt": 2,
+      ".pre-commit-config.yaml||requirements/tests.txt": 2,
+      ".pre-commit-config.yaml||requirements/typing.txt": 2,
+      ".pre-commit-config.yaml||tox.ini": 2,
+      ".travis.yml||CHANGES": 2,
+      ".travis.yml||README.md": 2,
+      ".travis.yml||setup.py": 4,
+      ".travis.yml||tox.ini": 3,
+      "AUTHORS||LICENSE.txt": 2,
+      "AUTHORS||MANIFEST.in": 2,
+      "CHANGES.rst||docs/conf.py": 2,
+      "CHANGES.rst||docs/index.rst": 3,
+      "CHANGES.rst||pyproject.toml": 8,
+      "CHANGES.rst||src/blinker/__init__.py": 8,
+      "CHANGES.rst||src/blinker/_utilities.py": 3,
+      "CHANGES.rst||src/blinker/base.py": 13,
+      "CHANGES.rst||tests/test_signals.py": 4,
+      "CHANGES.rst||tox.ini": 2,
+      "CHANGES||MANIFEST.in": 3,
+      "CHANGES||README.md": 5,
+      "CHANGES||blinker/__init__.py": 7,
+      "CHANGES||setup.py": 3,
+      "CHANGES||src/blinker/_utilities.py": 2,
+      "CHANGES||src/blinker/base.py": 6,
+      "CHANGES||tests/test_signals.py": 6,
+      "CHANGES||tox.ini": 2,
+      "LICENSE.txt||MANIFEST.in": 2,
+      "MANIFEST.in||README.md": 4,
+      "MANIFEST.in||blinker/__init__.py": 2,
+      "MANIFEST.in||docs/index.rst": 2,
+      "MANIFEST.in||setup.py": 3,
+      "README.md||blinker/__init__.py": 3,
+      "README.md||docs/index.rst": 4,
+      "README.md||setup.py": 3,
+      "blinker/__init__.py||setup.py": 2,
+      "blinker/__init__.py||src/blinker/base.py": 3,
+      "blinker/__init__.py||tests/test_signals.py": 2,
+      "docs/index.rst||pyproject.toml": 2,
+      "docs/index.rst||setup.py": 2,
+      "docs/index.rst||src/blinker/__init__.py": 2,
+      "docs/index.rst||src/blinker/_utilities.py": 2,
+      "docs/index.rst||src/blinker/base.py": 7,
+      "docs/index.rst||tests/test_signals.py": 3,
+      "docs/index.rst||tox.ini": 2,
+      "pyproject.toml||src/blinker/__init__.py": 3,
+      "pyproject.toml||src/blinker/_utilities.py": 3,
+      "pyproject.toml||src/blinker/base.py": 5,
+      "pyproject.toml||tox.ini": 3,
+      "requirements/build.txt||requirements/dev.txt": 2,
+      "requirements/build.txt||requirements/docs.txt": 2,
+      "requirements/build.txt||requirements/tests.txt": 2,
+      "requirements/build.txt||requirements/typing.txt": 2,
+      "requirements/dev.txt||requirements/docs.txt": 11,
+      "requirements/dev.txt||requirements/tests.txt": 10,
+      "requirements/dev.txt||requirements/typing.txt": 9,
+      "requirements/docs.in||requirements/docs.txt": 3,
+      "requirements/docs.txt||requirements/tests.txt": 7,
+      "requirements/docs.txt||requirements/typing.txt": 6,
+      "requirements/tests.in||requirements/tests.txt": 2,
+      "requirements/tests.in||tests/requirements.txt": 2,
+      "requirements/tests.txt||requirements/typing.txt": 9,
+      "requirements/tests.txt||src/blinker/base.py": 2,
+      "setup.cfg||setup.py": 2,
+      "setup.py||tox.ini": 4,
+      "src/blinker/__init__.py||src/blinker/_saferef.py": 2,
+      "src/blinker/__init__.py||src/blinker/_utilities.py": 2,
+      "src/blinker/__init__.py||src/blinker/base.py": 6,
+      "src/blinker/_saferef.py||src/blinker/_utilities.py": 5,
+      "src/blinker/_saferef.py||src/blinker/base.py": 5,
+      "src/blinker/_saferef.py||tests/test_context.py": 2,
+      "src/blinker/_saferef.py||tests/test_saferef.py": 3,
+      "src/blinker/_saferef.py||tests/test_signals.py": 2,
+      "src/blinker/_saferef.py||tests/test_symbol.py": 2,
+      "src/blinker/_utilities.py||src/blinker/base.py": 10,
+      "src/blinker/_utilities.py||tests/test_context.py": 2,
+      "src/blinker/_utilities.py||tests/test_saferef.py": 2,
+      "src/blinker/_utilities.py||tests/test_signals.py": 7,
+      "src/blinker/base.py||tests/test_context.py": 8,
+      "src/blinker/base.py||tests/test_saferef.py": 2,
+      "src/blinker/base.py||tests/test_signals.py": 15,
+      "src/blinker/base.py||tests/test_symbol.py": 2,
+      "src/blinker/base.py||tox.ini": 3,
+      "tests/test_context.py||tests/test_saferef.py": 3,
+      "tests/test_context.py||tests/test_signals.py": 5,
+      "tests/test_context.py||tests/test_symbol.py": 3,
+      "tests/test_saferef.py||tests/test_signals.py": 3,
+      "tests/test_saferef.py||tests/test_symbol.py": 3,
+      "tests/test_signals.py||tests/test_symbol.py": 3
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "src/blinker/_utilities.py",
+          "src/blinker/base.py"
+        ],
+        "sha": "c06a79a31313181f7544d80714457e46d5622ef2",
+        "timestamp": 1266169662
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "d4c3ef3f5f0a67db9c3ea564260473489e7454dd",
+        "timestamp": 1266169719
+      },
+      {
+        "files": [
+          ".gitignore",
+          "AUTHORS",
+          "LICENSE.txt",
+          "MANIFEST.in",
+          "README.md",
+          "blinker/__init__.py",
+          "setup.py"
+        ],
+        "sha": "e17d6b6242739e99be0bcdec1c13b063444ce52e",
+        "timestamp": 1266171247
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6d88bc43dc1996d6436bd0389bb379ab3960293f",
+        "timestamp": 1266171753
+      },
+      {
+        "files": [
+          "CHANGES",
+          "MANIFEST.in"
+        ],
+        "sha": "f1d320a540c3cd1838bb1b888cca73665f13b8f4",
+        "timestamp": 1266179640
+      },
+      {
+        "files": [
+          "CHANGES",
+          "src/blinker/_utilities.py",
+          "src/blinker/base.py",
+          "tests/test_context.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "c4579f81ac5490a5722678c01c0fc9e0589a4d5b",
+        "timestamp": 1266179817
+      },
+      {
+        "files": [
+          "blinker/__init__.py"
+        ],
+        "sha": "dbd6e5568a429c6e6f5ecd417c683feac34757fe",
+        "timestamp": 1266281911
+      },
+      {
+        "files": [
+          ".gitignore",
+          "docs/source/Makefile",
+          "docs/source/conf.py"
+        ],
+        "sha": "5709e76abf5b55fcd54547a3774e885cb888f41f",
+        "timestamp": 1267234562
+      },
+      {
+        "files": [
+          "CHANGES",
+          "MANIFEST.in",
+          "README.md",
+          "blinker/__init__.py",
+          "docs/source/Makefile",
+          "setup.py"
+        ],
+        "sha": "491fdc240a8fd3b331f2a0cd5885b3cc217a9c7a",
+        "timestamp": 1267236144
+      },
+      {
+        "files": [
+          "blinker/__init__.py"
+        ],
+        "sha": "2f20ee18d6f2d20e65682e35357112a33ff56148",
+        "timestamp": 1267236203
+      },
+      {
+        "files": [
+          "src/blinker/_saferef.py",
+          "src/blinker/_utilities.py",
+          "tests/test_saferef.py"
+        ],
+        "sha": "ca66102f54e250f0bc1c8b37901662ea444ea48a",
+        "timestamp": 1269794775
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "setup.py"
+        ],
+        "sha": "4aa716648fbb8ba406dc26d93c78881d6e5dd7d6",
+        "timestamp": 1269795008
+      },
+      {
+        "files": [
+          "CHANGES",
+          "README.md",
+          "blinker/__init__.py"
+        ],
+        "sha": "807670a9238790acf71363297fa9e41751d32893",
+        "timestamp": 1269795542
+      },
+      {
+        "files": [
+          "blinker/__init__.py"
+        ],
+        "sha": "96aa83b3f6fec6dc4817bb4dcf4fea87485de5ef",
+        "timestamp": 1269795799
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "646878b18d511be4edf080a8cd1e5453d3aed9b3",
+        "timestamp": 1269796637
+      },
+      {
+        "files": [
+          "tests/test_signals.py"
+        ],
+        "sha": "a5319c1d1f46529292ee689db707f54cabb27057",
+        "timestamp": 1269815632
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.rst"
+        ],
+        "sha": "8342f28502541e50e6b0f17b5cb3eeb22380c7ed",
+        "timestamp": 1269815776
+      },
+      {
+        "files": [
+          "tests/test_signals.py"
+        ],
+        "sha": "d1f55fb9d1a78213cef9dfaad153ca8a3bcbc0e3",
+        "timestamp": 1269883765
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "c8853255642f9620d2208e5300fdc682067ba1a6",
+        "timestamp": 1279647690
+      },
+      {
+        "files": [
+          "src/blinker/base.py",
+          "tests/test_context.py"
+        ],
+        "sha": "6b57dccd11923a094101e178f6033b0a46c52c10",
+        "timestamp": 1279648825
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "d1ffe9642fe35cd076296f7c4f3746e6115841ea",
+        "timestamp": 1279706763
+      },
+      {
+        "files": [
+          "src/blinker/base.py"
+        ],
+        "sha": "50ac3faf7d154b6bd57ed3341dae3a31cab82013",
+        "timestamp": 1279706798
+      },
+      {
+        "files": [
+          "docs/source/signals.rst",
+          "src/blinker/base.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "fa3be696ab410308191ed4af804a31d2ba60144d",
+        "timestamp": 1279706833
+      },
+      {
+        "files": [
+          "blinker/__init__.py"
+        ],
+        "sha": "afa0b056244d7c7677f99d3eca842bf8ae2468a7",
+        "timestamp": 1279707130
+      },
+      {
+        "files": [
+          "blinker/__init__.py"
+        ],
+        "sha": "45d98e28b596ecdd0f9fd78f2c52b2f91c670d1f",
+        "timestamp": 1279707163
+      },
+      {
+        "files": [
+          "CHANGES",
+          "README.md"
+        ],
+        "sha": "967710b201dd251090b84f45e12a6f04bb1877f8",
+        "timestamp": 1279707868
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "6096207fa513d8bd7518e9d29f47ea126ea6ed09",
+        "timestamp": 1300136918
+      },
+      {
+        "files": [
+          "CHANGES",
+          "src/blinker/_utilities.py",
+          "src/blinker/base.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "d24501d9f717e930f059b38e3043790edaf35f0c",
+        "timestamp": 1300137179
+      },
+      {
+        "files": [
+          ".gitignore",
+          "tox.ini"
+        ],
+        "sha": "f7fa271e5a1e9ba433e50f51a80377d4ca8b13a0",
+        "timestamp": 1300154059
+      },
+      {
+        "files": [
+          "tests/test_signals.py"
+        ],
+        "sha": "6ebe7df9412d705b9924332cf706f4036badb539",
+        "timestamp": 1304272951
+      },
+      {
+        "files": [
+          "src/blinker/base.py",
+          "tests/test_context.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "b1d5adf43e69a61a6f825a1533933b8b732ff942",
+        "timestamp": 1319688292
+      },
+      {
+        "files": [
+          "CHANGES"
+        ],
+        "sha": "7349d682240fbd03d7b6822eb272363df704c15e",
+        "timestamp": 1319688360
+      },
+      {
+        "files": [
+          "blinker/__init__.py"
+        ],
+        "sha": "d821f483f949d7e8fc269e1b2b4c28b454ddf956",
+        "timestamp": 1319688657
+      },
+      {
+        "files": [
+          "CHANGES",
+          "blinker/__init__.py"
+        ],
+        "sha": "4ad6fffc05099c83794daf1aed31d32249b51090",
+        "timestamp": 1319688712
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "5037e58adeeaf8f554b290a2e2bc95f57c9a7113",
+        "timestamp": 1319689571
+      },
+      {
+        "files": [
+          "src/blinker/_utilities.py"
+        ],
+        "sha": "b0487751c30b14d490a13719c189921549869ddf",
+        "timestamp": 1351599024
+      },
+      {
+        "files": [
+          "src/blinker/_utilities.py"
+        ],
+        "sha": "99fc9b5f5f7bd283e8f931ec8d5ea3654c6c67e6",
+        "timestamp": 1372837246
+      },
+      {
+        "files": [
+          "src/blinker/_utilities.py"
+        ],
+        "sha": "60fc2947f0b208299c8dd7125431ba70d3b57e04",
+        "timestamp": 1372837749
+      },
+      {
+        "files": [
+          "CHANGES",
+          "blinker/__init__.py",
+          "src/blinker/base.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "b66e4e9acf6017b3af20fc56666461f01fd4e003",
+        "timestamp": 1372842113
+      },
+      {
+        "files": [
+          "CHANGES"
+        ],
+        "sha": "b0ec06a87ef964008045440f2587a1af0ff980fd",
+        "timestamp": 1372842424
+      },
+      {
+        "files": [
+          "blinker/__init__.py"
+        ],
+        "sha": "d105809b68df61cf794d024defbe336d7d59b964",
+        "timestamp": 1372844644
+      },
+      {
+        "files": [
+          "CHANGES"
+        ],
+        "sha": "077c17a3761ecf68b0e616d341759c9f6eb8f4a4",
+        "timestamp": 1372844929
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "b42a659271a1acf368964399a1b0df295fd02a15",
+        "timestamp": 1372845404
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "01167338525a535f701e3150a4c8ce8fdb44e450",
+        "timestamp": 1372845533
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "4ddee7ac3e1e35f3e75b853e792f6505d3648896",
+        "timestamp": 1372846094
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "d645b4d4919e78398e32b740437ea4e4ad7ed176",
+        "timestamp": 1372866446
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "bfaea99b4a5e758e9109ec027d227035d05c5c18",
+        "timestamp": 1372866474
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "70d2916a6a2115b978f2a4facae000a21e4dbbb4",
+        "timestamp": 1372866525
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "c44fb7e83b66b6a56556a98279e6452d9912f92c",
+        "timestamp": 1372868027
+      },
+      {
+        "files": [
+          "blinker/__init__.py"
+        ],
+        "sha": "fe26bbd26cbb9745a100cbd6503ec6812473632f",
+        "timestamp": 1372868276
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "a20dbc01a9ee5d0c0536dde86d425e71d873b627",
+        "timestamp": 1372937644
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "e6052da7a3d7574095650c3abb156f1c0cbb73d0",
+        "timestamp": 1372937977
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "b907dd42d5a47bca6acb701875233954b0fa92c1",
+        "timestamp": 1372938237
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "7021cef3cb8f15fbc3879102a9be55a4f132c60d",
+        "timestamp": 1372938490
+      },
+      {
+        "files": [
+          ".gitmodules",
+          "docs/source/_themes",
+          "docs/source/conf.py"
+        ],
+        "sha": "ae5ddceeb46f18d1b7fb86532a1aa0fd1bbab503",
+        "timestamp": 1372940905
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "docs/source/api.rst",
+          "docs/source/conf.py",
+          "docs/source/signals.rst"
+        ],
+        "sha": "581fc1c75940883fc42a328db267053b2ac96981",
+        "timestamp": 1372944032
+      },
+      {
+        "files": [
+          "src/blinker/base.py"
+        ],
+        "sha": "1d4b226d5042622363ec63418523e3c7365c6fc8",
+        "timestamp": 1372944047
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "5b8dd0e430cd381a936709288d84bb3741c434d3",
+        "timestamp": 1372945513
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "8e73033525c4269467a07c67dd327bb6bc7dc68a",
+        "timestamp": 1372945528
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "746b6777a6c44d211ddabd1106d3540caf5c2b28",
+        "timestamp": 1372945583
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.md"
+        ],
+        "sha": "a9740a22ee19ba2efca034014c44538d01cab9a3",
+        "timestamp": 1428347213
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "13e91f8495ab8cafa04f9453a83dbb757a949979",
+        "timestamp": 1428347269
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "5983f7c7af695c47926bc1b3bf7c99c68870359f",
+        "timestamp": 1428348024
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "ebe474458063d87c3e43ae90d6e4111cc8bda4f8",
+        "timestamp": 1431016532
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "df1643d93e9d55edcc41fbdd50f8e4c7d0bd48cf",
+        "timestamp": 1437401724
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "2090a9e44f885af101f3a3197b68c53a88ce5d1a",
+        "timestamp": 1437583121
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "18b9433570b197545755ce4184c128ca37151122",
+        "timestamp": 1437603173
+      },
+      {
+        "files": [
+          "CHANGES",
+          "src/blinker/base.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "efe8d646c932ff091106f0c2b6d5fd79a03efdb4",
+        "timestamp": 1437646529
+      },
+      {
+        "files": [
+          "CHANGES",
+          "src/blinker/base.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "bee3b6ebded6daf436b4c1d7f688142d687ae405",
+        "timestamp": 1437646754
+      },
+      {
+        "files": [
+          "CHANGES",
+          "blinker/__init__.py"
+        ],
+        "sha": "bfb1d8c2cffe070971804bbc5162f1b3472196f5",
+        "timestamp": 1437654042
+      },
+      {
+        "files": [
+          "CHANGES"
+        ],
+        "sha": "207446f2d97d11ea1932428e4d40053dda6da732",
+        "timestamp": 1437654221
+      },
+      {
+        "files": [
+          "CHANGES",
+          "blinker/__init__.py"
+        ],
+        "sha": "6d75600087e94bb26c1e2a07a63c7687e186f672",
+        "timestamp": 1437655336
+      },
+      {
+        "files": [
+          "CHANGES",
+          "blinker/__init__.py",
+          "blinker/_async.py",
+          "src/blinker/base.py",
+          "tests/_test_async.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "d841e82241a209573a1da638aa64921c7e65b811",
+        "timestamp": 1437664719
+      },
+      {
+        "files": [
+          "setup.cfg"
+        ],
+        "sha": "364a389405e337889ea17bc8770ad3dc691803cb",
+        "timestamp": 1443743048
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "CHANGES",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "b7d847d71e63254a8870ba25c12867c7c9b242d2",
+        "timestamp": 1466713551
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "3eed195ef38cc3813c1a93f254824619561e84c9",
+        "timestamp": 1504029374
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "CHANGES",
+          "setup.py"
+        ],
+        "sha": "2c23bf7544267f520d22b69f499547ed0d516621",
+        "timestamp": 1504029476
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "e8d7d09a9237764a065ed668facf57bae4dba187",
+        "timestamp": 1504029692
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "56112f57c64520734d20bc158081a65527df32dc",
+        "timestamp": 1504032393
+      },
+      {
+        "files": [
+          "src/blinker/base.py"
+        ],
+        "sha": "42aad6110a02a86a9a51a77c75c2d638a50656b7",
+        "timestamp": 1504024388
+      },
+      {
+        "files": [
+          "tests/test_signals.py"
+        ],
+        "sha": "e748bd36761d97ab8d7523ad148738d16e5906f1",
+        "timestamp": 1521669495
+      },
+      {
+        "files": [
+          "src/blinker/_utilities.py"
+        ],
+        "sha": "9f395d00fbee9bcc6b8c73cb27530953a785ed29",
+        "timestamp": 1521669556
+      },
+      {
+        "files": [
+          "src/blinker/_saferef.py",
+          "src/blinker/_utilities.py",
+          "src/blinker/base.py"
+        ],
+        "sha": "330fec6a5f85e4968979109b76269ad0ec1ca23f",
+        "timestamp": 1532599232
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "07f8d661ad1ea772d6245d9fe0f5e85f338cb20c",
+        "timestamp": 1532599267
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "c51a5d84aa2a94365851c7da9c58558d01cd6a98",
+        "timestamp": 1541271013
+      },
+      {
+        "files": [
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "e361694a50c723be12b5a0564ba269c838190558",
+        "timestamp": 1541271584
+      },
+      {
+        "files": [
+          "CHANGES"
+        ],
+        "sha": "f280459acb7243baefe55de5ddc016b815bee53c",
+        "timestamp": 1541271644
+      },
+      {
+        "files": [
+          ".travis.yml"
+        ],
+        "sha": "0d6b26ff74da42cb1aaa0226cff792dc3190c90d",
+        "timestamp": 1541272259
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.rst"
+        ],
+        "sha": "298bafd0fd5e28093ec620efed15458626f98c9d",
+        "timestamp": 1541275421
+      },
+      {
+        "files": [
+          "src/blinker/base.py"
+        ],
+        "sha": "8b3926ba609fce70cd94719b68590d73fdf876b7",
+        "timestamp": 1548079209
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "docs/index.rst",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "f92e54348bdc9fe3e015e73b200f61043bc11152",
+        "timestamp": 1555692513
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "setup.py",
+          "tox.ini"
+        ],
+        "sha": "1945b59e0fe49f2b8663b0d02d9f0c98cd7dd453",
+        "timestamp": 1572730892
+      },
+      {
+        "files": [
+          "tests/test_signals.py"
+        ],
+        "sha": "8238e16c699ce7f99f5ff3f80d03d332d72015f8",
+        "timestamp": 1594214539
+      },
+      {
+        "files": [
+          "blinker/_async.py"
+        ],
+        "sha": "5936e96bb059dc766d0e87fc569f61dfb5eca963",
+        "timestamp": 1601650759
+      },
+      {
+        "files": [
+          "README.md",
+          "docs/index.rst"
+        ],
+        "sha": "c7b83a18a54efa9e08a9446e2d16956ee5fe353b",
+        "timestamp": 1601651862
+      },
+      {
+        "files": [
+          "src/blinker/base.py"
+        ],
+        "sha": "194e17a20008bd778714182ac191ad654074f81c",
+        "timestamp": 1603901962
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "47c19141d03c09f543cdb3e66a0408d71c8999d2",
+        "timestamp": 1646158628
+      },
+      {
+        "files": [
+          "src/blinker/base.py"
+        ],
+        "sha": "4c9541741865a18109df0059ec279a4026ef1245",
+        "timestamp": 1658067579
+      },
+      {
+        "files": [
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "26b885a5bcdec8d7b539d3be3062e2f30bce3b61",
+        "timestamp": 1658067614
+      },
+      {
+        "files": [
+          "CHANGES",
+          "README.md",
+          "tox.ini"
+        ],
+        "sha": "212cc5508551ccfe27c1786ac1dadc45ddfef08f",
+        "timestamp": 1658069131
+      },
+      {
+        "files": [
+          "requirements/tests.in",
+          "tests/requirements.txt",
+          "tox.ini"
+        ],
+        "sha": "9d9508a8ad916e8db43c8d20908287c0b2495915",
+        "timestamp": 1658072886
+      },
+      {
+        "files": [
+          ".travis.yml",
+          "README.md"
+        ],
+        "sha": "59782d7a7ed76e681979afd7cfb30940bad2400b",
+        "timestamp": 1658069912
+      },
+      {
+        "files": [
+          "CHANGES",
+          "CHANGES.rst",
+          "MANIFEST.in",
+          "README.md",
+          "docs/index.rst"
+        ],
+        "sha": "bf35ac2ad43e6655993e8053fb464495eeb45016",
+        "timestamp": 1658069771
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "54e5b32d2aacf40dd79693aeeaf70e252ebdd365",
+        "timestamp": 1658069933
+      },
+      {
+        "files": [
+          ".gitmodules",
+          "docs/source/_themes"
+        ],
+        "sha": "58cc4d46b0496549aef01512f4fedc983f5e88c8",
+        "timestamp": 1658070606
+      },
+      {
+        "files": [
+          ".gitmodules"
+        ],
+        "sha": "98948fa75a69c0844ec917aa7c50b9cea5f26216",
+        "timestamp": 1658070623
+      },
+      {
+        "files": [
+          ".readthedocs.yaml",
+          "requirements/docs.in",
+          "requirements/docs.txt",
+          "setup.cfg"
+        ],
+        "sha": "b2e134d762966f561e3c9d229ee90915f3b12109",
+        "timestamp": 1658072838
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "4f7684027bac16b733bab1a6a042864f0851d415",
+        "timestamp": 1658073292
+      },
+      {
+        "files": [
+          "AUTHORS",
+          "LICENSE.txt",
+          "MANIFEST.in",
+          "docs/index.rst"
+        ],
+        "sha": "16b1519007d88c867ac85d91961d7c616711dd8c",
+        "timestamp": 1658073957
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "README.md",
+          "README.rst",
+          "setup.py"
+        ],
+        "sha": "ec4218dde54ef12e676cfb74f7f93d192fd676a2",
+        "timestamp": 1658074259
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "4e83e35dadea01b954c9d57e83f9d70f3a55d85f",
+        "timestamp": 1658074331
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "e11e6d8705af987b43833d0a0b4931ce9c73e674",
+        "timestamp": 1658075262
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "834b37fedbc977262914b427d1f1fd94005fd12a",
+        "timestamp": 1658075952
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "6faca1cd29e4bf6ad97bac3fcb4c855557916772",
+        "timestamp": 1658078399
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "a1c28db398b13abf36ccf1fc04c6d8f6a2de9097",
+        "timestamp": 1658078418
+      },
+      {
+        "files": [
+          "setup.py"
+        ],
+        "sha": "4dcf0bb985fff442ef368ac0366c39e34e359d5b",
+        "timestamp": 1658079299
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "blinker/__init__.py"
+        ],
+        "sha": "a45816274eea91428a94184f0e2ffc2f802eeeac",
+        "timestamp": 1658079073
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "dcb30805364f0f2fb8f08bc6a0f82f25fb9753fa",
+        "timestamp": 1658080835
+      },
+      {
+        "files": [
+          "pyproject.toml",
+          "setup.cfg",
+          "setup.py"
+        ],
+        "sha": "87ffbe66b7f01f7c24fe545c9e93efec0c2e58d0",
+        "timestamp": 1674086379
+      },
+      {
+        "files": [
+          ".flake8",
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "348b9e7ade83442c0541d58ba12669c41db191fd",
+        "timestamp": 1674086427
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "04698559663ab5d7169718cbdce764a1143d662c",
+        "timestamp": 1674086516
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "ea42586b86bad1c1f295f49d0efd97f0043efcbe",
+        "timestamp": 1674086559
+      },
+      {
+        "files": [
+          "requirements/dev.in",
+          "requirements/dev.txt",
+          "requirements/docs.in",
+          "requirements/docs.txt",
+          "requirements/tests.in",
+          "requirements/tests.txt",
+          "tests/requirements.txt"
+        ],
+        "sha": "b4c83af5848e845318d42cd40bff64fbacd7c787",
+        "timestamp": 1674086823
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "adb22e4b04658a654d6b8dac695b41a6c634ac1c",
+        "timestamp": 1674086839
+      },
+      {
+        "files": [
+          "blinker/__init__.py",
+          "src/blinker/__init__.py",
+          "src/blinker/_saferef.py",
+          "src/blinker/_utilities.py",
+          "src/blinker/base.py"
+        ],
+        "sha": "f9d51929f71295d0b0f3acfce2e47656bd0472e1",
+        "timestamp": 1674086931
+      },
+      {
+        "files": [
+          "tests/test_context.py",
+          "tests/test_saferef.py",
+          "tests/test_signals.py",
+          "tests/test_symbol.py"
+        ],
+        "sha": "2bf4f4740ea3f5071ca06b6e22e508dfae1c666d",
+        "timestamp": 1674087104
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "cc24656c0d9c43de34d53da1b6df2a644d44317b",
+        "timestamp": 1674087132
+      },
+      {
+        "files": [
+          "src/blinker/_saferef.py",
+          "src/blinker/base.py",
+          "tests/test_context.py",
+          "tests/test_saferef.py",
+          "tests/test_signals.py",
+          "tests/test_symbol.py"
+        ],
+        "sha": "33a14971c34fcd15deb2b18b50c9bd411eb6ed74",
+        "timestamp": 1674088400
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "8bafca831fbbc18d3b6ef798d5cdab3d114ebe1f",
+        "timestamp": 1674088561
+      },
+      {
+        "files": [
+          ".readthedocs.yaml"
+        ],
+        "sha": "d4eed4096ea23720e7f58b06f728d5751c927c44",
+        "timestamp": 1674088883
+      },
+      {
+        "files": [
+          "src/blinker/base.py"
+        ],
+        "sha": "a0b5636cf00a4246494bc00e0901597ad8e6f71b",
+        "timestamp": 1674090040
+      },
+      {
+        "files": [
+          "src/blinker/_saferef.py"
+        ],
+        "sha": "f5d85dec27713a45c6d234691c8675f330cd6e45",
+        "timestamp": 1674308815
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "9c2f289f024e7aac20bf3dbdebfc4ec279df3458",
+        "timestamp": 1664146813
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "src/blinker/base.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "d06b2416ea43c535b907b7d0a2b72fff3b2f3a0f",
+        "timestamp": 1674514832
+      },
+      {
+        "files": [
+          "src/blinker/_utilities.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "0d4ca6e72c155e30aedd4315e8678ee9cada32b4",
+        "timestamp": 1674396588
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "pyproject.toml",
+          "requirements/tests.in",
+          "requirements/tests.txt",
+          "src/blinker/_utilities.py",
+          "src/blinker/base.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "5ed9c956aaf68a8e2defa9722109aa2c7bcf7ae1",
+        "timestamp": 1658573772
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "docs/conf.py",
+          "requirements/docs.in",
+          "requirements/docs.txt"
+        ],
+        "sha": "7294e0f95e91bb3a333b76f28597fbd919ae095c",
+        "timestamp": 1677411104
+      },
+      {
+        "files": [
+          "src/blinker/__init__.py"
+        ],
+        "sha": "9f3c4b5a7790ed2451dde1646de5761e290f2e4a",
+        "timestamp": 1677411145
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "645d9320837df98d4bd389de370be5cfbbe69640",
+        "timestamp": 1680452447
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "06a1db66db7e1a89a0beafb10106bac4b72b02d9",
+        "timestamp": 1681052844
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "c5124c90eeb51cf54c9788f3deae8f17ebef71e2",
+        "timestamp": 1681053215
+      },
+      {
+        "files": [
+          "src/blinker/__init__.py"
+        ],
+        "sha": "11b46cf60db28c0dede87a93d62a2578c4cdca7d",
+        "timestamp": 1681053235
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "pyproject.toml",
+          "src/blinker/__init__.py",
+          "src/blinker/_saferef.py",
+          "src/blinker/_utilities.py",
+          "src/blinker/base.py"
+        ],
+        "sha": "bc89c33b2061004b9f80c36f8dd580563f3b569e",
+        "timestamp": 1681334736
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/__init__.py"
+        ],
+        "sha": "876a12a1988c1789799a1d6919abdce38a62a0ff",
+        "timestamp": 1681335230
+      },
+      {
+        "files": [
+          "requirements/dev.txt",
+          "requirements/docs.txt",
+          "requirements/tests.txt",
+          "requirements/typing.txt"
+        ],
+        "sha": "cff9a5ab34311737b4a4cdd3b677313ab442071c",
+        "timestamp": 1684489561
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yaml",
+          "MANIFEST.in",
+          "pyproject.toml"
+        ],
+        "sha": "28fbd830073d1e0b92eac563c30932b7028163e4",
+        "timestamp": 1687979143
+      },
+      {
+        "files": [
+          ".github/dependabot.yml",
+          ".github/workflows/lock.yaml",
+          ".github/workflows/publish.yaml",
+          ".github/workflows/tests.yaml",
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "d3adea2961be0c66711695d9290b7dc2bc68a09b",
+        "timestamp": 1688052136
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml"
+        ],
+        "sha": "bcc4e8e3c40204b130e18ae4abf133e123b14153",
+        "timestamp": 1688052657
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml"
+        ],
+        "sha": "d1dc0363eff1d8e268c5bcd372c502bff04f7ef8",
+        "timestamp": 1688052660
+      },
+      {
+        "files": [
+          ".github/workflows/lock.yaml"
+        ],
+        "sha": "4c00dec2b8b111828b655a56c76a26a405fad5c7",
+        "timestamp": 1688052663
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml",
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "1a0f980591306bfef0d7d4507cbced5dc1bfb84d",
+        "timestamp": 1688052667
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml",
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "8a78f209b363c6c29994c222f70de6f5558d4a69",
+        "timestamp": 1690907306
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml"
+        ],
+        "sha": "d9f0043c8b66634600d1ebce71baab5d226a67e1",
+        "timestamp": 1690907310
+      },
+      {
+        "files": [
+          "src/blinker/base.py"
+        ],
+        "sha": "e5a0411296f2d8eebb6753c925cd341e93043049",
+        "timestamp": 1690481582
+      },
+      {
+        "files": [
+          "src/blinker/base.py"
+        ],
+        "sha": "29e8629bf93fe4d6de1a75d78212a917a6a3bcbf",
+        "timestamp": 1690482064
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "3388f6f503061132521a87dcfba10faa1b99aaab",
+        "timestamp": 1690482631
+      },
+      {
+        "files": [
+          "requirements/docs.txt"
+        ],
+        "sha": "2b921cf18a657da31abd5bf2710e4f41c7dc3c05",
+        "timestamp": 1692136241
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml"
+        ],
+        "sha": "c305b18cb07a4610c973bfad56f956ce3c15c079",
+        "timestamp": 1693585868
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml",
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "80d09f88701f8c401ea271c8c26f56ab929c8b05",
+        "timestamp": 1693585873
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml"
+        ],
+        "sha": "21ba976430aff1efcc793d389ee18ac59f8b72c0",
+        "timestamp": 1693585877
+      },
+      {
+        "files": [
+          "src/blinker/base.py",
+          "tests/test_context.py"
+        ],
+        "sha": "00e3d22781e0bc7a2b88b0815b0d41846e93f10e",
+        "timestamp": 1695119166
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "6a48bad526aa62a667cdddfbd6ab716522667fd6",
+        "timestamp": 1695121016
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/__init__.py"
+        ],
+        "sha": "aafe30dc6eed83431d8821e353aa75219b210f74",
+        "timestamp": 1695487439
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "36560da2976fdef6072929224ea21a16c0c5b9d2",
+        "timestamp": 1696687453
+      },
+      {
+        "files": [
+          "src/blinker/base.py"
+        ],
+        "sha": "44d29b3a20c5eb4ecaf954ff30e4cb982d2a250b",
+        "timestamp": 1698757682
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "fe3ec897fa67e5f86ec41cbc8b5f43773b4d5dc1",
+        "timestamp": 1698757689
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "src/blinker/base.py",
+          "tests/test_context.py"
+        ],
+        "sha": "5ad0039fac16e99b4207996903b51052e401ab9e",
+        "timestamp": 1695489931
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml"
+        ],
+        "sha": "5186dc1336a31805ea7c4bc8948b0b2bf43b6e9b",
+        "timestamp": 1696179506
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml",
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "200786de5a67c42d206217253d9f8e4a475ef2aa",
+        "timestamp": 1698857623
+      },
+      {
+        "files": [
+          "requirements/dev.txt",
+          "requirements/docs.txt",
+          "requirements/tests.txt",
+          "requirements/typing.txt",
+          "src/blinker/base.py",
+          "tests/test_context.py"
+        ],
+        "sha": "d32c27a9fcc825e22f5993b30f35b20f515a9f9d",
+        "timestamp": 1698875494
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yaml",
+          ".pre-commit-config.yaml",
+          "docs/index.rst",
+          "pyproject.toml",
+          "src/blinker/_utilities.py",
+          "src/blinker/base.py",
+          "tox.ini"
+        ],
+        "sha": "7f3f1a05793e105a8557ba50b0e392cc1df0e1da",
+        "timestamp": 1698875817
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/__init__.py"
+        ],
+        "sha": "1e153b8b1fafd669a8c43e1cc489635007d91962",
+        "timestamp": 1698876041
+      },
+      {
+        "files": [
+          "src/blinker/_saferef.py",
+          "src/blinker/_utilities.py",
+          "src/blinker/base.py",
+          "tests/test_context.py",
+          "tests/test_saferef.py",
+          "tests/test_signals.py",
+          "tests/test_symbol.py"
+        ],
+        "sha": "e6c88d65585d8c7a644e6c23a719689b28ad3ea8",
+        "timestamp": 1714152805
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "d8d3a4f4e89f7b1ebe6c0686e7058a8d106175d8",
+        "timestamp": 1714156290
+      },
+      {
+        "files": [
+          "requirements/dev.txt",
+          "requirements/tests.txt",
+          "requirements/typing.txt"
+        ],
+        "sha": "171e7677a3abf4c51302bca7cd2f36db61de1138",
+        "timestamp": 1714156300
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "931bfad5e556710551dd26e65dbb35b095bbb05a",
+        "timestamp": 1714156417
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "pyproject.toml",
+          "src/blinker/__init__.py"
+        ],
+        "sha": "b3fe909d498ad226410ff86fb0e0371a88cb6841",
+        "timestamp": 1714156820
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "docs/index.rst",
+          "src/blinker/__init__.py",
+          "src/blinker/base.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "4aa8531375bbd7d645b93a3e0352d304ad20bce5",
+        "timestamp": 1714157891
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/__init__.py",
+          "src/blinker/base.py"
+        ],
+        "sha": "5101925f23836ab05c26412aeb887d0ac232e77d",
+        "timestamp": 1714188142
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/base.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "2187112ac63592f557e60d611185fed71ffb3549",
+        "timestamp": 1714189004
+      },
+      {
+        "files": [
+          "docs/index.rst",
+          "src/blinker/__init__.py",
+          "src/blinker/base.py"
+        ],
+        "sha": "1a29708eed835fb606b7e5b627299c9188daea7c",
+        "timestamp": 1714190392
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "pyproject.toml"
+        ],
+        "sha": "2a6e30897bc3461788d5ed86b6a809c8a7143cb1",
+        "timestamp": 1714240067
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "456ba2d95453dc756ed100bc1011bc887ad31f97",
+        "timestamp": 1714322399
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "3f9f1c9dd560588c118d5b5e23bce2e47f8fbf9d",
+        "timestamp": 1714322420
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/_utilities.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "e27fc051ed0338e76ee967d4bdcf16527d84f4ce",
+        "timestamp": 1714323061
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/base.py"
+        ],
+        "sha": "fc537092961d79731ac8a4e020e852076d7c6256",
+        "timestamp": 1714323484
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/_utilities.py",
+          "src/blinker/base.py",
+          "tests/test_signals.py"
+        ],
+        "sha": "facf2c3814859d23a8b264e5348b6f105cde0b3a",
+        "timestamp": 1714324424
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "docs/conf.py",
+          "docs/index.rst",
+          "src/blinker/base.py"
+        ],
+        "sha": "8dc19ffe0c26f46d5a9b22a4c1b37d9672dea0fe",
+        "timestamp": 1714333480
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/base.py",
+          "tox.ini"
+        ],
+        "sha": "cceb745605049c2d5aa4c3339e760084513d524c",
+        "timestamp": 1714333836
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/base.py"
+        ],
+        "sha": "43132608c621510a9c2e74e2eea2785b0280966b",
+        "timestamp": 1714334440
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "pyproject.toml"
+        ],
+        "sha": "26f65bde4ff7b828392d51d456dc3753bfd9961a",
+        "timestamp": 1714334667
+      },
+      {
+        "files": [
+          "requirements/dev.txt",
+          "requirements/docs.txt",
+          "requirements/tests.txt",
+          "requirements/typing.txt"
+        ],
+        "sha": "7ab94c1dd7594f44eb366e2df231246e0574bc33",
+        "timestamp": 1714570909
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/base.py"
+        ],
+        "sha": "6c15fa851d522dca2321b12cdea1f2ee2343bce4",
+        "timestamp": 1715014454
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "pyproject.toml"
+        ],
+        "sha": "0a6be69aaaf72917bbedf41643f83128c8623075",
+        "timestamp": 1715014808
+      },
+      {
+        "files": [
+          "requirements/dev.txt",
+          "requirements/docs.txt"
+        ],
+        "sha": "db460e955103ba7678ac25dda2091b4df34e09b0",
+        "timestamp": 1715015154
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "125e038b8b662e7d47eac735500c5dc59e970814",
+        "timestamp": 1715027981
+      },
+      {
+        "files": [
+          "requirements/dev.txt",
+          "requirements/docs.txt"
+        ],
+        "sha": "51be4797c7ed380eeb3693468282f5e43cb587cf",
+        "timestamp": 1716270840
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml",
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "6eb4da548f1bb0fc875d4d75e3717c67eb9dd1cd",
+        "timestamp": 1717247233
+      },
+      {
+        "files": [
+          "requirements/dev.txt",
+          "requirements/tests.txt",
+          "requirements/typing.txt"
+        ],
+        "sha": "65e4823c4e15daee3bc8e2933737dbfd6bfc9dde",
+        "timestamp": 1717248566
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "931a4aedb605c208b900e1b721dcd5986246cec9",
+        "timestamp": 1717447781
+      },
+      {
+        "files": [
+          "requirements/dev.txt",
+          "requirements/docs.txt"
+        ],
+        "sha": "e60fc4a8e37c6276b3f2c37fb2bb1a6cedf10ed6",
+        "timestamp": 1718666536
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "95dd6c9b9f9fbc602e58405245c8f4e1a41df3d8",
+        "timestamp": 1719871083
+      },
+      {
+        "files": [
+          "requirements/dev.txt",
+          "requirements/tests.txt",
+          "requirements/typing.txt"
+        ],
+        "sha": "fd2c4ce255a712e5b4d2af86233451c013860534",
+        "timestamp": 1719871111
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml",
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "4f34631b0679cf361cf0f51ac7ff6e077c53d85e",
+        "timestamp": 1719871157
+      },
+      {
+        "files": [
+          "requirements/dev.txt",
+          "requirements/docs.txt"
+        ],
+        "sha": "4dcc78f41194a5c462133eb1e767cd10e4ae3914",
+        "timestamp": 1720231006
+      },
+      {
+        "files": [
+          "requirements/dev.txt",
+          "requirements/docs.txt",
+          "requirements/tests.txt",
+          "requirements/typing.txt"
+        ],
+        "sha": "31056b5ada896f6fc38afee0795d17dc20f69da7",
+        "timestamp": 1722519344
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml",
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "8d133203fd30257e6458073f5f1939112fd064b5",
+        "timestamp": 1722520828
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml"
+        ],
+        "sha": "5e6cf95f72ac22cf399518238cde9b8722c4256c",
+        "timestamp": 1722893323
+      },
+      {
+        "files": [
+          ".github/dependabot.yml",
+          ".pre-commit-config.yaml",
+          "pyproject.toml",
+          "tox.ini"
+        ],
+        "sha": "14df7a0f536869dc857426782afdd1c5f851b845",
+        "timestamp": 1724509044
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml",
+          ".pre-commit-config.yaml",
+          "requirements/build.txt",
+          "requirements/dev.txt",
+          "requirements/docs.txt",
+          "requirements/tests.txt",
+          "requirements/typing.txt"
+        ],
+        "sha": "74e00cb473cf7e6215f3003441561c3d61936a03",
+        "timestamp": 1724509135
+      },
+      {
+        "files": [
+          ".github/workflows/pre-commit.yaml"
+        ],
+        "sha": "6784ded412c2dabaf3285c066b82eb35e89c8083",
+        "timestamp": 1725204749
+      },
+      {
+        "files": [
+          ".github/workflows/pre-commit.yaml"
+        ],
+        "sha": "4dbf77c079222f8e7140cf3e36e1b04a4654a3fd",
+        "timestamp": 1725205686
+      },
+      {
+        "files": [
+          ".github/workflows/pre-commit.yaml"
+        ],
+        "sha": "f5915f3bfcd9f9da0caf6cd4858bf68068c52963",
+        "timestamp": 1725206658
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "pyproject.toml",
+          "src/blinker/__init__.py",
+          "src/blinker/base.py"
+        ],
+        "sha": "8c983ecd764e1d113d24522838c2a7312460b7eb",
+        "timestamp": 1727808369
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml",
+          ".pre-commit-config.yaml",
+          "requirements/build.txt",
+          "requirements/dev.txt",
+          "requirements/docs.txt",
+          "requirements/tests.txt",
+          "requirements/typing.txt"
+        ],
+        "sha": "82305185358d8ce21619ec0f324688a14a89c23b",
+        "timestamp": 1731083257
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yaml",
+          "CHANGES.rst",
+          "pyproject.toml",
+          "src/blinker/base.py",
+          "tox.ini"
+        ],
+        "sha": "efa95eaa080b0d4a8dcfc46ad1f387ea1ddebd97",
+        "timestamp": 1731083936
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "src/blinker/base.py"
+        ],
+        "sha": "42561fdf065032f5c39aea04d8c3fb4db93f73f3",
+        "timestamp": 1730715476
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml"
+        ],
+        "sha": "cfe116fa7912d8dcb0deee4907aa63d1efaadf5b",
+        "timestamp": 1731086545
+      },
+      {
+        "files": [
+          "CHANGES.rst"
+        ],
+        "sha": "669f3a027828d19786e708b511277fabcd6b9532",
+        "timestamp": 1731085197
+      },
+      {
+        "files": [
+          "CHANGES.rst",
+          "pyproject.toml"
+        ],
+        "sha": "e103516970a748e1ab9089661d02a57ef1787186",
+        "timestamp": 1731087039
+      },
+      {
+        "files": [
+          "docs/index.rst"
+        ],
+        "sha": "8934d531b4694f5e041361989230db20e2f19e15",
+        "timestamp": 1731087701
+      },
+      {
+        "files": [
+          ".readthedocs.yaml"
+        ],
+        "sha": "067b325e918ef2ccd8ae94c9d90dd9ae0154993f",
+        "timestamp": 1741955768
+      },
+      {
+        "files": [
+          ".github/workflows/pre-commit.yaml",
+          ".github/workflows/publish.yaml",
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "49063b5ad439ad9e86a654d6e9ddaa62613899ec",
+        "timestamp": 1741956384
+      },
+      {
+        "files": [
+          ".pre-commit-config.yaml",
+          "uv.lock"
+        ],
+        "sha": "843ba2549d71b25e27c95b22745ada4c9c669a26",
+        "timestamp": 1748803757
+      },
+      {
+        "files": [
+          ".github/workflows/publish.yaml"
+        ],
+        "sha": "d5f2ec948e4e4d448ce41435aef6db13446ee99c",
+        "timestamp": 1749931764
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 7,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".flake8": 0,
+      ".github/dependabot.yml": 1,
+      ".github/workflows/lock.yaml": 2,
+      ".github/workflows/pre-commit.yaml": 3,
+      ".github/workflows/publish.yaml": 4,
+      ".github/workflows/tests.yaml": 5,
+      ".gitignore": 6,
+      ".gitmodules": 7,
+      ".pre-commit-config.yaml": 8,
+      ".readthedocs.yaml": 9,
+      ".travis.yml": 10,
+      "AUTHORS": 11,
+      "CHANGES": 12,
+      "CHANGES.rst": 13,
+      "LICENSE.txt": 14,
+      "MANIFEST.in": 15,
+      "Makefile": 16,
+      "README.md": 17,
+      "README.rst": 18,
+      "blinker/__init__.py": 19,
+      "blinker/_async.py": 20,
+      "docs/conf.py": 21,
+      "docs/index.rst": 22,
+      "docs/source/Makefile": 23,
+      "docs/source/_themes": 24,
+      "docs/source/api.rst": 25,
+      "docs/source/conf.py": 26,
+      "docs/source/signals.rst": 27,
+      "pyproject.toml": 28,
+      "requirements/build.txt": 29,
+      "requirements/dev.in": 30,
+      "requirements/dev.txt": 31,
+      "requirements/docs.in": 32,
+      "requirements/docs.txt": 33,
+      "requirements/tests.in": 34,
+      "requirements/tests.txt": 35,
+      "requirements/typing.txt": 36,
+      "setup.cfg": 37,
+      "setup.py": 38,
+      "src/blinker/__init__.py": 39,
+      "src/blinker/_saferef.py": 40,
+      "src/blinker/_utilities.py": 41,
+      "src/blinker/base.py": 42,
+      "tests/_test_async.py": 43,
+      "tests/requirements.txt": 44,
+      "tests/test_context.py": 45,
+      "tests/test_saferef.py": 46,
+      "tests/test_signals.py": 47,
+      "tests/test_symbol.py": 48,
+      "tox.ini": 49,
+      "uv.lock": 50
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1266169662,
+      "last_commit_ts": 1749931764,
+      "n_cochange_pairs": 104,
+      "n_commits_dropped_as_bulk": 11,
+      "n_commits_used": 225,
+      "n_files": 51
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "c3364059663df1ddce32799d6b1922af89a345f6",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
