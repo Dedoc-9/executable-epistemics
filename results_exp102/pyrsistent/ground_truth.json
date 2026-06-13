@@ -1,0 +1,5231 @@
+{
+  "chain_hash": "5e7719749e140762",
+  "claim_class": "historical_cochange_observation_only",
+  "data": {
+    "cochange_matrix": {
+      ".github/workflows/build.yml||.github/workflows/tests.yaml": 9,
+      ".github/workflows/build.yml||README.rst": 2,
+      ".github/workflows/build.yml||experiments/setup.py": 6,
+      ".github/workflows/build.yml||tox.ini": 6,
+      ".github/workflows/tests.yaml||README.rst": 2,
+      ".github/workflows/tests.yaml||experiments/setup.py": 5,
+      ".github/workflows/tests.yaml||tox.ini": 8,
+      ".gitignore||CHANGES.txt": 2,
+      ".gitignore||README.rst": 3,
+      ".gitignore||pyrsistent/__init__.py": 2,
+      ".gitignore||tests/class_test.py": 2,
+      ".gitignore||tests/memory_profiling.py": 2,
+      ".gitignore||tests/vector_test.py": 2,
+      ".gitignore||tox.ini": 5,
+      ".readthedocs.yaml||docs/Makefile": 2,
+      ".travis.yml.bak||CHANGES.txt": 2,
+      ".travis.yml.bak||LICENSE.mit": 2,
+      ".travis.yml.bak||README.rst": 4,
+      ".travis.yml.bak||experiments/setup.py": 6,
+      ".travis.yml.bak||requirements.txt": 2,
+      ".travis.yml.bak||tox.ini": 13,
+      "CHANGES.txt||LICENSE.mit": 7,
+      "CHANGES.txt||MANIFEST.in": 2,
+      "CHANGES.txt||README.rst": 47,
+      "CHANGES.txt||_pyrsistent_version.py": 63,
+      "CHANGES.txt||experiments/setup.py": 14,
+      "CHANGES.txt||pvectorcmodule.c": 4,
+      "CHANGES.txt||pyrsistent/__init__.py": 18,
+      "CHANGES.txt||tests/map_test.py": 3,
+      "CHANGES.txt||tests/performance_run.py": 4,
+      "CHANGES.txt||tests/set_test.py": 3,
+      "CHANGES.txt||tests/vector_test.py": 5,
+      "LICENSE.mit||README.rst": 5,
+      "LICENSE.mit||_pyrsistent_version.py": 5,
+      "MANIFEST.in||experiments/setup.py": 2,
+      "README.rst||_pyrsistent_version.py": 35,
+      "README.rst||experiments/setup.py": 13,
+      "README.rst||pyrsistent/__init__.py": 14,
+      "README.rst||pyrsistent/_checked_types.py": 2,
+      "README.rst||pyrsistent/_field_common.py": 4,
+      "README.rst||requirements.txt": 2,
+      "README.rst||tests/record_test.py": 3,
+      "README.rst||tests/set_test.py": 3,
+      "README.rst||tox.ini": 5,
+      "_pyrsistent_version.py||experiments/setup.py": 5,
+      "_pyrsistent_version.py||pyrsistent/__init__.py": 2,
+      "benchmarks/pmap.py||tests/map_test.py": 2,
+      "benchmarks/pvector.py||benchmarks/pvector_27.result": 2,
+      "docs/source/api.rst||pyrsistent/__init__.py": 2,
+      "docs/source/conf.py||pyrsistent/__init__.py": 3,
+      "experiments/build_run.sh||experiments/setup.py": 2,
+      "experiments/meminfo.txt||experiments/pyrsistentmodule.c": 2,
+      "experiments/meminfo.txt||tests/pyrsistentc_vector_test.py": 2,
+      "experiments/pyrsistentmodule.c||tests/pyrsistentc_vector_test.py": 4,
+      "experiments/setup.py||pvectorcmodule.c": 3,
+      "experiments/setup.py||pyrsistent/__init__.py": 8,
+      "experiments/setup.py||requirements.txt": 5,
+      "experiments/setup.py||setup.cfg": 2,
+      "experiments/setup.py||tests/performance_run.py": 3,
+      "experiments/setup.py||tests/pvectorc_test.py": 2,
+      "experiments/setup.py||tests/set_test.py": 2,
+      "experiments/setup.py||tox.ini": 13,
+      "pvectorcmodule.c||pyrsistent/__init__.py": 21,
+      "pvectorcmodule.c||pyrsistent/_pvector.py": 3,
+      "pvectorcmodule.c||pyrsistent_types.py": 2,
+      "pvectorcmodule.c||tests/map_test.py": 5,
+      "pvectorcmodule.c||tests/memory_profiling.py": 3,
+      "pvectorcmodule.c||tests/performance_run.py": 6,
+      "pvectorcmodule.c||tests/pvectorc_test.py": 2,
+      "pvectorcmodule.c||tests/transform_test.py": 2,
+      "pvectorcmodule.c||tests/vector_test.py": 34,
+      "pvectorcmodule.c||tox.ini": 2,
+      "pyrsistent/__init__.pyi||pyrsistent/typing.pyi": 5,
+      "pyrsistent/__init__.py||pyrsistent/_field_common.py": 2,
+      "pyrsistent/__init__.py||pyrsistent_types.py": 2,
+      "pyrsistent/__init__.py||tests/bag_test.py": 2,
+      "pyrsistent/__init__.py||tests/checked_map_test.py": 5,
+      "pyrsistent/__init__.py||tests/checked_set_test.py": 4,
+      "pyrsistent/__init__.py||tests/checked_vector_test.py": 8,
+      "pyrsistent/__init__.py||tests/deque_test.py": 14,
+      "pyrsistent/__init__.py||tests/freeze_test.py": 3,
+      "pyrsistent/__init__.py||tests/immutable_object_test.py": 4,
+      "pyrsistent/__init__.py||tests/list_test.py": 7,
+      "pyrsistent/__init__.py||tests/map_test.py": 25,
+      "pyrsistent/__init__.py||tests/memory_profiling.py": 2,
+      "pyrsistent/__init__.py||tests/performance_run.py": 10,
+      "pyrsistent/__init__.py||tests/record_test.py": 17,
+      "pyrsistent/__init__.py||tests/set_test.py": 13,
+      "pyrsistent/__init__.py||tests/transform_test.py": 2,
+      "pyrsistent/__init__.py||tests/vector_test.py": 30,
+      "pyrsistent/__init__.py||tox.ini": 2,
+      "pyrsistent/_checked_types.py||pyrsistent/_field_common.py": 7,
+      "pyrsistent/_checked_types.py||pyrsistent/_pclass.py": 3,
+      "pyrsistent/_checked_types.py||pyrsistent/_precord.py": 4,
+      "pyrsistent/_checked_types.py||tests/checked_map_test.py": 2,
+      "pyrsistent/_checked_types.py||tests/checked_vector_test.py": 2,
+      "pyrsistent/_checked_types.py||tests/class_test.py": 9,
+      "pyrsistent/_checked_types.py||tests/record_test.py": 3,
+      "pyrsistent/_field_common.py||pyrsistent/_pclass.py": 6,
+      "pyrsistent/_field_common.py||pyrsistent/_precord.py": 7,
+      "pyrsistent/_field_common.py||tests/checked_map_test.py": 2,
+      "pyrsistent/_field_common.py||tests/class_test.py": 10,
+      "pyrsistent/_field_common.py||tests/field_test.py": 2,
+      "pyrsistent/_field_common.py||tests/record_test.py": 10,
+      "pyrsistent/_pbag.py||pyrsistent/_pmap.py": 2,
+      "pyrsistent/_pbag.py||tests/bag_test.py": 3,
+      "pyrsistent/_pclass.py||pyrsistent/_precord.py": 12,
+      "pyrsistent/_pclass.py||tests/class_test.py": 18,
+      "pyrsistent/_pclass.py||tests/record_test.py": 6,
+      "pyrsistent/_pmap.py||tests/map_test.py": 14,
+      "pyrsistent/_precord.py||tests/class_test.py": 11,
+      "pyrsistent/_precord.py||tests/record_test.py": 6,
+      "pyrsistent/_pset.py||tests/set_test.py": 2,
+      "pyrsistent/_pvector.py||tests/vector_test.py": 10,
+      "pyrsistent/_transformations.py||tests/transform_test.py": 3,
+      "requirements.txt||tests/hypothesis_vector_test.py": 2,
+      "requirements.txt||tests/memory_profiling.py": 2,
+      "requirements.txt||tox.ini": 4,
+      "tests/checked_map_test.py||tests/checked_set_test.py": 3,
+      "tests/checked_map_test.py||tests/checked_vector_test.py": 3,
+      "tests/checked_map_test.py||tests/class_test.py": 2,
+      "tests/checked_set_test.py||tests/checked_vector_test.py": 2,
+      "tests/class_test.py||tests/record_test.py": 8,
+      "tests/deque_test.py||tests/list_test.py": 5,
+      "tests/field_test.py||tests/record_test.py": 2,
+      "tests/hypothesis_vector_test.py||tox.ini": 3,
+      "tests/map_test.py||tests/performance_run.py": 4,
+      "tests/map_test.py||tests/set_test.py": 8,
+      "tests/map_test.py||tests/vector_test.py": 9,
+      "tests/memory_profiling.py||tests/vector_test.py": 3,
+      "tests/memory_profiling.py||tox.ini": 2,
+      "tests/performance_run.py||tests/set_test.py": 2,
+      "tests/performance_run.py||tests/vector_test.py": 8,
+      "tests/set_test.py||tests/vector_test.py": 4,
+      "tests/transform_test.py||tests/vector_test.py": 3,
+      "tests/vector_test.py||tox.ini": 2
+    },
+    "commit_graph": [
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "926d1b37cf4baeeaa09b4f396ab3bb6a43a815be",
+        "timestamp": 1371737474
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "sha": "ce1301626e498c98f4e521478a62a5c52220fbf1",
+        "timestamp": 1371737503
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "3b0d177d06eee2616476487f61862a73fb9809e3",
+        "timestamp": 1371737039
+      },
+      {
+        "files": [
+          "experiments/memcheck.py",
+          "experiments/meminfo.txt",
+          "experiments/pyrsistentmodule.c",
+          "print_out.txt",
+          "tests/pyrsistentc_vector_test.py"
+        ],
+        "sha": "fe9dfd740d87d4c90d42ed41465967554ac1c0e2",
+        "timestamp": 1377031567
+      },
+      {
+        "files": [
+          "experiments/meminfo.txt",
+          "experiments/pyrsistentmodule.c",
+          "tests/pyrsistentc_vector_test.py"
+        ],
+        "sha": "83749bf4de85a5520eb0e160d02ceb646cd60c79",
+        "timestamp": 1377117644
+      },
+      {
+        "files": [
+          "experiments/pyrsistentmodule.c",
+          "tests/pyrsistentc_vector_test.py"
+        ],
+        "sha": "5f0e99be8020a9a5ea0bc6ea18ef47cf515e654a",
+        "timestamp": 1377202797
+      },
+      {
+        "files": [
+          "experiments/pyrsistentmodule.c",
+          "tests/pyrsistentc_vector_test.py"
+        ],
+        "sha": "4bb7418b4300311eb0bb3d1804268634f03df204",
+        "timestamp": 1377467533
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "a8831214353edeb1bc23c38ed3ebf778f32f0030",
+        "timestamp": 1381613492
+      },
+      {
+        "files": [
+          "experiments/mem_info.txt",
+          "pyrsistent/__init__.py",
+          "segfault.txt",
+          "tests/performance_run.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "2a89b201e6251ebd5d472462737385e4d582fa12",
+        "timestamp": 1381649108
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/performance_run.py"
+        ],
+        "sha": "edf439a79b50cf0ec574ede1a13481707a897140",
+        "timestamp": 1381658895
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/performance_run.py"
+        ],
+        "sha": "9607ba8107b1c0a4c844c85a4d19302cdfa6a63f",
+        "timestamp": 1381665135
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/performance_run.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "228a8cee86ce3a73dd4801d7ac96333a4dc2d773",
+        "timestamp": 1381685446
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/set_test.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "532e61956a002a757a158a8416160a9ddb84ec04",
+        "timestamp": 1382129218
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "temp.txt",
+          "tests/map_test.py",
+          "tests/performance_run.py"
+        ],
+        "sha": "c429c417a4b94ecaa2fd755bbe69d1bb0b90e3bb",
+        "timestamp": 1382896974
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/performance_run.py",
+          "tests/set_test.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "d6e6782f4029435d37e65db1fc7cce0da82363b3",
+        "timestamp": 1383856873
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py"
+        ],
+        "sha": "119ab0017599a2a898c14842761e0f904d5f4d53",
+        "timestamp": 1383857419
+      },
+      {
+        "files": [
+          "segfault.txt"
+        ],
+        "sha": "c59d78cca1bd6a54f102a70914cde1ed71d1646b",
+        "timestamp": 1384098774
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "ee6098e23ccbd04a83bac2a03ecde73447c675e8",
+        "timestamp": 1384108015
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "pvectorcmodule.c",
+          "tests/performance_run.py",
+          "tests/pvectorc_test.py",
+          "tests/pyrsistentc_vector_test.py"
+        ],
+        "sha": "0aa7e79359a82152a42fd64d94f333abc05b1340",
+        "timestamp": 1402863924
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "08f556713f7f08352fa38a7eb6f5c37f870cc0de",
+        "timestamp": 1403035131
+      },
+      {
+        "files": [
+          ".gitignore",
+          "experiments/build_run.sh"
+        ],
+        "sha": "b55d92ecb18ad39650a1f0facf89aa9c6aaa63a3",
+        "timestamp": 1403210817
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "0060b969e1cd8685d7491ac69335ffd05518d31c",
+        "timestamp": 1403210861
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/set_test.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "330ec29b651490047f64d83d161679350c69f7ed",
+        "timestamp": 1403255172
+      },
+      {
+        "files": [
+          "experiments/build_run.sh",
+          "experiments/setup.py",
+          "pvectorcmodule.c",
+          "tests/pvectorc_test.py"
+        ],
+        "sha": "11362c5d62c19b71bba7957e48f1539bf921bfbe",
+        "timestamp": 1403327891
+      },
+      {
+        "files": [
+          "tests/performance_run.py"
+        ],
+        "sha": "bec4cd44b4cf977bb77057d9ecbe6f3f4ab0c7f6",
+        "timestamp": 1403331351
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/__init__.py",
+          "tests/set_test.py"
+        ],
+        "sha": "cd4a8cb83f37ec7063ca1f327aff34a62ab8b6b7",
+        "timestamp": 1403343660
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "pyrsistent/__init__.py",
+          "tests/set_test.py"
+        ],
+        "sha": "41b6b5c8e2df0f433dc4927bf6fd45eb3c09eeb3",
+        "timestamp": 1403343660
+      },
+      {
+        "files": [
+          "docs/source/intro.rst"
+        ],
+        "sha": "0c86935575ec899ba83199b9fced781b1364f01c",
+        "timestamp": 1403345438
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "MANIFEST.in",
+          "experiments/setup.py"
+        ],
+        "sha": "6e22c061bb1c695e35b3f09d13627c19bf219ded",
+        "timestamp": 1403346876
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pvectorcmodule.c"
+        ],
+        "sha": "4284cbab95ad9a56c7a763ba39e2d5bef93e591d",
+        "timestamp": 1403353430
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pvectorcmodule.c",
+          "tests/performance_run.py"
+        ],
+        "sha": "08f628ea6dc743e557932afaefe740cb61091cb9",
+        "timestamp": 1403425079
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/set_test.py"
+        ],
+        "sha": "8225d4b9873d4c23a74b5a3699a5c0a8c8be00b2",
+        "timestamp": 1403451401
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py"
+        ],
+        "sha": "f2ab430af5c83fa3cee52f0cb7161cbf583abe40",
+        "timestamp": 1403456102
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/map_test.py"
+        ],
+        "sha": "571e77f07a82cc31aa245c2f2fa190523eea0eb9",
+        "timestamp": 1403559996
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "pyrsistent_types.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "23d9c2270aa90f188cf2f519deedae584c8b163f",
+        "timestamp": 1403646941
+      },
+      {
+        "files": [
+          "pyrsistent_types.py"
+        ],
+        "sha": "ab3f7fb06ecee751cb6bf6438266de5f4c8395df",
+        "timestamp": 1403670722
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "pyrsistent_types.py"
+        ],
+        "sha": "f0448c8df1752dc349966e4d978e9f43ea929f30",
+        "timestamp": 1403673449
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "4c14dab8464f8ab73e72cbd03aec458c3883eafe",
+        "timestamp": 1403673980
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/performance_run.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "0c63957a78046aacc225ef855f823e161c1b660b",
+        "timestamp": 1403940711
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "40fea8f315082077412cbe06437ebc09772cff1a",
+        "timestamp": 1403941496
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "aeebf423b3701baf3b69c6361f4a0e7e32d58522",
+        "timestamp": 1403945320
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/memory_profiling.py"
+        ],
+        "sha": "0045522160fd5a63e8a1d9ced711c5b841b072c7",
+        "timestamp": 1403956784
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "experiments/setup.py"
+        ],
+        "sha": "d1f96f47edbbbfdd6fa097bd37d9766bfea3b3ea",
+        "timestamp": 1403960971
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "experiments/setup.py",
+          "pyrsistent/__init__.py",
+          "tests/set_test.py"
+        ],
+        "sha": "eb160407d241ce17a63f8c1e4523ec17713fd1e8",
+        "timestamp": 1404027495
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyrsistent/__init__.py",
+          "tests/map_test.py"
+        ],
+        "sha": "d8cbf6f40a0bc6dc6d3dbceb5120cde957f34394",
+        "timestamp": 1404493606
+      },
+      {
+        "files": [
+          "tests/map_test.py",
+          "tests/performance_run.py",
+          "tests/set_test.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "1a7ab3b4a7a3f23ea3d9e5a87e574e7bb569cae8",
+        "timestamp": 1404493962
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/immutable_object_test.py"
+        ],
+        "sha": "aeda3882c39ea85ad2a335b96227e0f7508ad4ea",
+        "timestamp": 1404508094
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pyrsistent/__init__.py",
+          "tests/memory_profiling.py",
+          "tox.ini"
+        ],
+        "sha": "9accb76f102e2178227bc9d9319ea36bfebdafab",
+        "timestamp": 1404516258
+      },
+      {
+        "files": [
+          "doctests.sh",
+          "tox.ini"
+        ],
+        "sha": "44a709f7e069fad9626ffc2be9a0ff2e66746481",
+        "timestamp": 1404560156
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "requirements.txt"
+        ],
+        "sha": "bb1aa053adecd75ca10644391be25282eed5f34f",
+        "timestamp": 1404563862
+      },
+      {
+        "files": [
+          "CHANGES.txt"
+        ],
+        "sha": "cdfb9228ce2daf168eff77709d9a8cb1be5a02c9",
+        "timestamp": 1404564566
+      },
+      {
+        "files": [
+          "tests/memory_profiling.py"
+        ],
+        "sha": "d23b93e27b70e01aa8fa38ca7d3c17e32a69ac07",
+        "timestamp": 1404566550
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "ff79b4221de754fe0cbdf1e44c1da8377d07a6ee",
+        "timestamp": 1404596237
+      },
+      {
+        "files": [
+          "docs/Makefile",
+          "docs/source/conf.py",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "96355122bdc681b9db6617dd4811e9d4fc170084",
+        "timestamp": 1404665915
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "1a8c589c20a6d853de4685f1894f4f8010db99b9",
+        "timestamp": 1404678989
+      },
+      {
+        "files": [
+          "docs/source/conf.py",
+          "experiments/setup.py",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "c8d9adb4d3a8f25020117960be2d232095227b86",
+        "timestamp": 1404680984
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/immutable_object_test.py"
+        ],
+        "sha": "d77c7ecc89c6a3dea0ec6112f47d0e9e45338eaa",
+        "timestamp": 1404683144
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "509b2d86c069e504dca703411eb0632626b86dd3",
+        "timestamp": 1404709844
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "8a8074b58f90c3a243610095ec08982bbf9fdbd4",
+        "timestamp": 1404758891
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/set_test.py"
+        ],
+        "sha": "1609d775d122bc2d92ebe69f90ed7f86f4594915",
+        "timestamp": 1404766502
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "9eb0d77c995b20667a0ca39560721fb22249dbf7",
+        "timestamp": 1404855044
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "059a936146c7feb7492b550239f41cca856f9181",
+        "timestamp": 1405026198
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "fe0843c4341d8796348182c467305cb885932646",
+        "timestamp": 1410713646
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/set_test.py"
+        ],
+        "sha": "8786262f85e2b79adc3c8094531efbaa4723512f",
+        "timestamp": 1410725650
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "pvectorcmodule.c",
+          "tests/performance_run.py"
+        ],
+        "sha": "0b4699c538c70e5266e8ae01b5e7c03b7c71e009",
+        "timestamp": 1410814517
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "297f58b547f09f6f32cf89d8cabd4993984feb8c",
+        "timestamp": 1410893681
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "CHANGES.txt",
+          "tox.ini"
+        ],
+        "sha": "149eee7f9470383c091b5cb2c734d4da575fe8cd",
+        "timestamp": 1410898531
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "349a5b6e115277d7f5036e07c30bbf6154434afa",
+        "timestamp": 1410900429
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "a2e8a9eb8a5b4a93d519ba47f3b45fe26ae08293",
+        "timestamp": 1410981396
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "1cf3b4b989f598c517408c28d8096961b0be6214",
+        "timestamp": 1410982161
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "65fea948991511e4e3a97dd72a898cc69ba2f6b4",
+        "timestamp": 1411199917
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/vector_test.py",
+          "tox.ini"
+        ],
+        "sha": "de8b44180e7e33a0f9bd9c8f84f3e57c05c4f230",
+        "timestamp": 1411211158
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "97d1979380eb07d923d090b990aacfa766f58c98",
+        "timestamp": 1411212626
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tox.ini"
+        ],
+        "sha": "c1457cb6af93ebfa007c659f56998ec4bbceb534",
+        "timestamp": 1411215826
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "CHANGES.txt",
+          "LICENSE.mit",
+          "experiments/setup.py"
+        ],
+        "sha": "55d4707de346f38f9e06857cced25288299561aa",
+        "timestamp": 1411216699
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "1c865d31be1bae5973c4bb0041a4443ae744a10d",
+        "timestamp": 1411217452
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "5a9f11beddc9996caf0f6eebf9c609c310bc754e",
+        "timestamp": 1411217686
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/bag_test.py"
+        ],
+        "sha": "1368853d39c6cfa3d7feb83d829a4781eb97fd1d",
+        "timestamp": 1411280435
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "docs/source/changes.rst",
+          "docs/source/index.rst"
+        ],
+        "sha": "87158ca175946a7849adf84b714b3c10844e35b7",
+        "timestamp": 1411296873
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py"
+        ],
+        "sha": "2d5071580f0a123392e7c2d9261e75341d712d36",
+        "timestamp": 1411300981
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "b580a38844a888a242f3ea1e9943458900b13377",
+        "timestamp": 1411318377
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "4e970a601b97fd138377747e9e7429adee76216c",
+        "timestamp": 1411320239
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/freeze_test.py"
+        ],
+        "sha": "6d0869dd73215044ae02cc78bd65c32520e248e0",
+        "timestamp": 1411399363
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "a94b5534f208c8d5238d6c498f5d26c0ab88e8a7",
+        "timestamp": 1411400414
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "517be85104ceac0c203f23719e187d4521755c87",
+        "timestamp": 1411412174
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/bag_test.py"
+        ],
+        "sha": "a189cac021e47f330d59a89a0dbdd66790f20d8b",
+        "timestamp": 1411418511
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "51c478a4b83a557839f05fd608d35c84df011b19",
+        "timestamp": 1411419985
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyrsistent/__init__.py",
+          "tests/map_test.py"
+        ],
+        "sha": "476439161dce1f12bb6717ce88daa1dd057c03fb",
+        "timestamp": 1411421139
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "docs/source/api.rst",
+          "experiments/setup.py",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "c7f1d91557df8787a58ab806c19bcab2e07dc20c",
+        "timestamp": 1411584067
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/list_test.py"
+        ],
+        "sha": "c753ea344ef31d6217e0a6a249a9cf3c7404631b",
+        "timestamp": 1412525415
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/list_test.py"
+        ],
+        "sha": "0b07fa31c9c3cbb3b74ce669d47176f8b145c116",
+        "timestamp": 1412528881
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/list_test.py"
+        ],
+        "sha": "262f139681f703bb1f087bc077c2f3859424074e",
+        "timestamp": 1412531041
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "8dbe4b40ab62f3f9e2f42585a7b407111252bbc8",
+        "timestamp": 1412531182
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "ba6853830a494c990528a9dd6c3a268d3ea42f11",
+        "timestamp": 1412531924
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "requirements.txt",
+          "tests/deque_test.py"
+        ],
+        "sha": "40a87121a691aed5b30841a357d891ba11a0a724",
+        "timestamp": 1412715492
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py",
+          "tests/list_test.py"
+        ],
+        "sha": "574e6f3ae50978066e6b20110e83603f5de2a164",
+        "timestamp": 1412752011
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py"
+        ],
+        "sha": "f8487a383ec71386d0ec64afb417e59ef79b4627",
+        "timestamp": 1412880759
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "12f2342013ed6a4d0e20c317b3dfdc64219efcf8",
+        "timestamp": 1412881865
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py"
+        ],
+        "sha": "b1d290b6e5c34690a4ff3b3eb0c3811bc1b6a1b5",
+        "timestamp": 1412888033
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py",
+          "tests/list_test.py"
+        ],
+        "sha": "80da9404912bd3879ed9e7c5efff1c2a486fc784",
+        "timestamp": 1413009530
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py"
+        ],
+        "sha": "f3b4939cd8c3cef32d009d3842b29ca2901e6759",
+        "timestamp": 1413011622
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py"
+        ],
+        "sha": "66aea9523e9bdc1ce7780f02707253f757059a9d",
+        "timestamp": 1413012077
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py",
+          "tests/list_test.py"
+        ],
+        "sha": "5be4b3194feee22281f0351fc4eb04eccbf490b7",
+        "timestamp": 1413100187
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py"
+        ],
+        "sha": "6689ba8317229d4f1c7faacafd9e92e6005ecc46",
+        "timestamp": 1413127608
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py"
+        ],
+        "sha": "2c6dc0b16354dda98b20b25617d2777997e93f1a",
+        "timestamp": 1413567176
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py"
+        ],
+        "sha": "b24d7bc1ae8c56afeb9119a20534c51b663595b8",
+        "timestamp": 1413835848
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py",
+          "tests/list_test.py"
+        ],
+        "sha": "0e7d36cd18361ce9029c47a31b56c47de4e6510f",
+        "timestamp": 1414096900
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py"
+        ],
+        "sha": "b760e7f12a6a35d4f4a168568fcb028eefb8e57f",
+        "timestamp": 1414176046
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/deque_test.py"
+        ],
+        "sha": "bfece4cc447d5c40ce79d47947bce5ab723119bb",
+        "timestamp": 1414177033
+      },
+      {
+        "files": [
+          "tests/deque_test.py"
+        ],
+        "sha": "7e321a291252802349e6a64e727aed93442f21e7",
+        "timestamp": 1414185966
+      },
+      {
+        "files": [
+          "docs/source/api.rst",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "a0ea05430af37eb8eaf16949c9f78e949c7af260",
+        "timestamp": 1414231434
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "83acee90cbb9c9678035688308fe024b4943f6d1",
+        "timestamp": 1414245082
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "experiments/setup.py"
+        ],
+        "sha": "aeecd59588fae7a64cf8fdafb9887a7bb215b6c2",
+        "timestamp": 1414245564
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/immutable_object_test.py"
+        ],
+        "sha": "0ca74baa9fdda5ec2b4fa8c830f0fb5c8cc3bced",
+        "timestamp": 1414318699
+      },
+      {
+        "files": [
+          "README.rst",
+          "experiments/setup.py",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "e664d33e367445cb6f0675ee5c497fa42b77159d",
+        "timestamp": 1414789889
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "experiments/setup.py",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "6e795d46826291e3c1cb8b5e2aa073c6138952b5",
+        "timestamp": 1415046029
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "b37376429f9c766983cf8c1ea5418c46cc9e02ed",
+        "timestamp": 1415168174
+      },
+      {
+        "files": [
+          "tests/memory_profiling.py"
+        ],
+        "sha": "ef4c9f6a2e6fc1db01d93d937d24e444b0bb0ede",
+        "timestamp": 1416862757
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py"
+        ],
+        "sha": "12bc23671c401af9a06cdd06e24e89dd8852cc6e",
+        "timestamp": 1416943987
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "tests/memory_profiling.py",
+          "tox.ini"
+        ],
+        "sha": "b34ed9d79a663d885f057e5a7bf7c8f7b82d5806",
+        "timestamp": 1417036883
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py"
+        ],
+        "sha": "222b66a1a73238690bffe2c7d5fb5d9fb53040cb",
+        "timestamp": 1417121889
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "experiments/setup.py"
+        ],
+        "sha": "00e76b460e7159bcb7f319c24ad945bcaf5c9240",
+        "timestamp": 1417122259
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "4836c829e18ee1e758c2d9c4dbea68c2a3631f14",
+        "timestamp": 1418590949
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "08039f6e90580525cfda0cee3eff22dc29ed5b94",
+        "timestamp": 1418675285
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "cc8eee1976953f3c3c792a05c11df719c5ad70de",
+        "timestamp": 1418675620
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "805cbb5717d2c324cf5ebe46173836c2ae99e0a8",
+        "timestamp": 1418926153
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "6c0208567692c4b08cc1a863a4a3119e3aad79b8",
+        "timestamp": 1418941816
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/performance_run.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "7e10311bba956265deb224a394595bb6f32cb41b",
+        "timestamp": 1419168329
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "57f957e94c6e5f29263048b78eaf06eae34aa243",
+        "timestamp": 1419168835
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/vector_test.py"
+        ],
+        "sha": "be95489757cdaebe235821c7d5a9479aa0e98063",
+        "timestamp": 1419269593
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/vector_test.py"
+        ],
+        "sha": "e9713d011d9d2dd02de3e6812ff6861dc633f30a",
+        "timestamp": 1419288329
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/vector_test.py"
+        ],
+        "sha": "6aa3ee97886e5fb399c4f9d62754f7e74559f450",
+        "timestamp": 1419359562
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/vector_test.py"
+        ],
+        "sha": "f088ad7a709499caf72eec5bbe9b62a4630bda1b",
+        "timestamp": 1419373362
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/vector_test.py"
+        ],
+        "sha": "ee63b07180c081f1cd7e09ed90f0177268bb0a66",
+        "timestamp": 1419463280
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/vector_test.py"
+        ],
+        "sha": "5479f3ccef521fd314d0990b72297a2c2678b797",
+        "timestamp": 1419503420
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/vector_test.py"
+        ],
+        "sha": "fefe4d050d6b443ff48cfd1e26aad35985f0bb9e",
+        "timestamp": 1419510273
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/vector_test.py"
+        ],
+        "sha": "e89044e3c27d9357c98436b6b9dd8903b57350e5",
+        "timestamp": 1419527393
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/vector_test.py"
+        ],
+        "sha": "bc6ee7bd7930cdf6afae6410d82de0c48c5e20bf",
+        "timestamp": 1419528293
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "29627ca9579f41715e5f8dd074b973328b799435",
+        "timestamp": 1419548087
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/vector_test.py"
+        ],
+        "sha": "ae342188c1b4afc35e93b30d12813b9315d56e7e",
+        "timestamp": 1419615968
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "a17ee0ff3f2f1574382ab10ba1cd39ee1f21b352",
+        "timestamp": 1419619359
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "71394b1024f954708a94bccfd85f9d3f80463c3c",
+        "timestamp": 1419622337
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "tests/performance_run.py"
+        ],
+        "sha": "b3e8d561b8f7f571efab73aaed62f36ec12d59ef",
+        "timestamp": 1419628612
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py"
+        ],
+        "sha": "219f4a66821ae33067a7e55946bb252addbec450",
+        "timestamp": 1419767255
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/performance_run.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "bce4c50f8c7b7b40f880628791bf4ea7d27bc3e6",
+        "timestamp": 1419803811
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "760e4680f0c6d7198c8acfd757ba5638c8d5fc2a",
+        "timestamp": 1419850399
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/set_test.py"
+        ],
+        "sha": "7f76406f2482078e1b5fef3b6b6a772ed6f56773",
+        "timestamp": 1420284125
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py"
+        ],
+        "sha": "feacb7e5484ab5ecff24f529dd6099ba7e099c75",
+        "timestamp": 1420287458
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "6fcd481acd199fe3471feb90c6dc9476ca323bb5",
+        "timestamp": 1420288841
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "c3242c29abe46bbc18ea492cae493944eb49fae4",
+        "timestamp": 1420289085
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "14ebc3f4a3cf21e18eb6dcdd63af32c75003024e",
+        "timestamp": 1420289230
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "pyrsistent/__init__.py",
+          "tests/set_test.py"
+        ],
+        "sha": "b8c5f9376bfacf53bbd1caa54d9950ab83ebea48",
+        "timestamp": 1420359701
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "experiments/setup.py"
+        ],
+        "sha": "adb255d349b8f62986bd676050a1cebdc010c2fe",
+        "timestamp": 1420360194
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "f7d3c8cb1138fe29041323bf297f5793c3d93803",
+        "timestamp": 1420744627
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "86664dd812bb926690a0a3915fbaa026af10297d",
+        "timestamp": 1420832381
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "0cc393f0f92673e7738d86e6c0456187b318f734",
+        "timestamp": 1420886148
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "3c615dbb6e702d148d5bae8564398b4814f703ed",
+        "timestamp": 1420892204
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "4b69145d414506260193c9215a3e904b67cf4ddf",
+        "timestamp": 1421004015
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "c535dcc564e94e051116f68b67f7fce65e11978d",
+        "timestamp": 1421013600
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "fb233797e007d49c80f6312cb309a48a9c274468",
+        "timestamp": 1421103971
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "1017397099c9c7ab82bbfe3037520f4900177c66",
+        "timestamp": 1421105294
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "b99924d06e3903ca79b9a771026671ab2f3da9d0",
+        "timestamp": 1421184311
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "f1d1045347d3ed73d2a7202b0ad136df7dd43669",
+        "timestamp": 1421184792
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "8b527418f37216d6322135393d780cbdb67a8f63",
+        "timestamp": 1421185223
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "ee333be71131fb40882f4eb954c8d8409a575bfd",
+        "timestamp": 1421185439
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "856578d3ba1250307dc3e10d52190fed0291cce9",
+        "timestamp": 1421186367
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "1666b18870d24f13bf4ed875120fb902b2104f2a",
+        "timestamp": 1421218224
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "c8adf85914ab24afda4ece5d659023f5752eab1e",
+        "timestamp": 1421219925
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "faca6513a20529c865598799cabdf2c513f9ca59",
+        "timestamp": 1421269544
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "86f09811377df7125e393f473e68bcfc5ac09153",
+        "timestamp": 1421272124
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "3bb529a46e9b6773920651da087d9f1278997732",
+        "timestamp": 1421274446
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "experiments/setup.py",
+          "tests/performance_run.py"
+        ],
+        "sha": "6e81e5cd8a7c834c00e52863e14dce3e33202fdc",
+        "timestamp": 1421482097
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "3fabe06f09f6590c01f392779a6da28dd80fb050",
+        "timestamp": 1421488301
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/transform_test.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "059f020c154e034e15fd16e7f418c5663a961bc9",
+        "timestamp": 1421501408
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "LICENSE.mit"
+        ],
+        "sha": "eaa5ff1e9f4fa10e6c3d1e00129673981a14e44c",
+        "timestamp": 1421501603
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/record_test.py",
+          "tests/transform_test.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "712fefec7ea0a15bdb159b2784233d44bc21fdc1",
+        "timestamp": 1421593943
+      },
+      {
+        "files": [
+          "tests/transform_test.py"
+        ],
+        "sha": "48ac56c7885b58a5f35822c92d0808cc2df2b417",
+        "timestamp": 1421595712
+      },
+      {
+        "files": [
+          "tests/transform_test.py"
+        ],
+        "sha": "190c43c8f256f64928aea1c8100dfa4bb3447262",
+        "timestamp": 1421607376
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "pyrsistent/__init__.py",
+          "tests/record_test.py"
+        ],
+        "sha": "57a49813fbb9c3c027d7ed11d566204eebf073b1",
+        "timestamp": 1421608531
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "experiments/setup.py",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "bc334a1b16d778b7ab136dd36457ed9582ae85de",
+        "timestamp": 1421871120
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "807e66b55c1a1f3b2061e4e6c382cd522cb9a4b8",
+        "timestamp": 1421871256
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/set_test.py"
+        ],
+        "sha": "938be65001790c3162a824775bd2a02e30aefbd9",
+        "timestamp": 1421872045
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "d652e359de93b50f8522084b35c9bfedbfb5ef05",
+        "timestamp": 1422201883
+      },
+      {
+        "files": [
+          "docs/source/conf.py",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "e28b26924f12ce1488d67a8957c7685e7ac8effe",
+        "timestamp": 1422219733
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "2d4fc6135a278ba7f45704322b57a2ab5e1f0e4b",
+        "timestamp": 1422569334
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/memory_profiling.py",
+          "tests/performance_run.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "3aea69f3dea53ca8be5c90348516c5df5662a103",
+        "timestamp": 1422656519
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "0aed7b80aff2879e8004fdbc3c6f5c9337e2ce7a",
+        "timestamp": 1422689271
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "52239e65351fd634dca2e43893b995fbaadc807e",
+        "timestamp": 1422690211
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/checked_vector_test.py"
+        ],
+        "sha": "7ea86a1b564accf48271c3f6c67a03495049455b",
+        "timestamp": 1422713303
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/checked_vector_test.py"
+        ],
+        "sha": "5040f6c88455be56bee8e9d8203860db327cb640",
+        "timestamp": 1422805980
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "ed02981d69afc8f191e75832dd5b217d63ea24e0",
+        "timestamp": 1422912014
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "ff835191a23f96281849b2c3970be7bcb6d6e7e6",
+        "timestamp": 1422996546
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "d4e6e9f718c9d0ea42aa3739201ace3981e066e7",
+        "timestamp": 1422997170
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/checked_vector_test.py"
+        ],
+        "sha": "20caf6ad805ca6d2b5cd94e2a7716662337853b6",
+        "timestamp": 1423001068
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/freeze_test.py"
+        ],
+        "sha": "0869b1519855261f28ba145ac9e988fdac226d04",
+        "timestamp": 1423002326
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/checked_vector_test.py"
+        ],
+        "sha": "b8701958c571fab409c3c850036ec50f104c6ce4",
+        "timestamp": 1423248568
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/map_test.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "58f8954167dbb8baf962b7c2d50597cf8d11f834",
+        "timestamp": 1423770169
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyrsistent/__init__.py",
+          "tests/checked_set_test.py",
+          "tests/checked_vector_test.py"
+        ],
+        "sha": "db568f4832121344d4ca577a60def7e821f1ca81",
+        "timestamp": 1423921896
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "7dd76a51ea37ec06b79080febe6b960c7edbe6a9",
+        "timestamp": 1423922406
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/map_test.py"
+        ],
+        "sha": "a196a4fb0a49f712ad739206082a785d3ef36e4d",
+        "timestamp": 1423923031
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/checked_vector_test.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "97123419696fb3146f5b378d91430220c5c9f096",
+        "timestamp": 1424036926
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/checked_map_test.py"
+        ],
+        "sha": "14019bac20888beeb5b61a005371fab13db79ec8",
+        "timestamp": 1424379014
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "33da6ed4a5511b498718c093c55a603bba6f457a",
+        "timestamp": 1424527828
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/checked_map_test.py"
+        ],
+        "sha": "ab29465bd31dfee63976f8ecf6be8de6fb106087",
+        "timestamp": 1424527859
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/checked_map_test.py",
+          "tests/checked_set_test.py"
+        ],
+        "sha": "a0e99bcdeddcd7e09b1443a8c2cd19da9f6fa2f6",
+        "timestamp": 1424718657
+      },
+      {
+        "files": [
+          "tests/checked_map_test.py"
+        ],
+        "sha": "ab1f3374e72480635c846c88aa427c0620e1c432",
+        "timestamp": 1424718718
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/set_test.py"
+        ],
+        "sha": "d198f956fb2aa884a5ffe5d95d4322bfd04f51ad",
+        "timestamp": 1424723923
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "82421ef775a3fdf0d780dc721f47686fd9a9dc15",
+        "timestamp": 1424724309
+      },
+      {
+        "files": [
+          "_pyrsistent_version.py",
+          "experiments/setup.py",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "c6422fc553d3ae759e59e29e2c349c4c679a98a7",
+        "timestamp": 1424725047
+      },
+      {
+        "files": [
+          "tests/checked_map_test.py"
+        ],
+        "sha": "16c9ed18bcfb6212fc891b48ca079b30a667b788",
+        "timestamp": 1424725932
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "92422a060b865a33ccf4d8e46a060dda3f3f9a21",
+        "timestamp": 1424726416
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/checked_map_test.py",
+          "tests/checked_set_test.py",
+          "tests/checked_vector_test.py"
+        ],
+        "sha": "986c929458b4f75166edbd2e0b860c2e5f079c13",
+        "timestamp": 1424887303
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/freeze_test.py"
+        ],
+        "sha": "dc59c531aadedcd8021ef4689747e6161b0e94c7",
+        "timestamp": 1424889972
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "3f39374bcf43e08dfa13b54a5b9f34285b6ae128",
+        "timestamp": 1424895596
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/checked_map_test.py",
+          "tests/checked_set_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "93d16c5f1f0bd3f6d8a33bc73b7e6845811d7568",
+        "timestamp": 1424899394
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "a77647cfe4c25e82e49053e76b0d606000d26f86",
+        "timestamp": 1424899600
+      },
+      {
+        "files": [
+          "tests/record_test.py"
+        ],
+        "sha": "43e21e65c2c42707ab4b453fb6ef0d57a8872888",
+        "timestamp": 1424899865
+      },
+      {
+        "files": [
+          "tests/record_test.py"
+        ],
+        "sha": "fede6cd063b2a8f8a2f96648fa654a14f4c54e08",
+        "timestamp": 1425065125
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "34c8ddb5d404b0490a0a3108a66f07446c26de17",
+        "timestamp": 1425119642
+      },
+      {
+        "files": [
+          "tests/record_test.py"
+        ],
+        "sha": "f365211ab66ee7f9814b3dfeab02c62e88fdaeb1",
+        "timestamp": 1425120358
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "76fd904330a07b466845c2a8a3431287a19543cc",
+        "timestamp": 1425413790
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "e7ed493542577add080e9266d9618cebc6725e19",
+        "timestamp": 1425414151
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "f328aca1589b2b625dc674a32bf4a823641d690e",
+        "timestamp": 1425414242
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/performance_measures.py"
+        ],
+        "sha": "9c169c7dd8f3995f7d55577980e0d0f03d045942",
+        "timestamp": 1425937877
+      },
+      {
+        "files": [
+          "benchmarks/pvector.py",
+          "benchmarks/pvector_27.result",
+          "tests/performance_measures.py"
+        ],
+        "sha": "9728a6daaa1c6440fe7ffc54724fdac92c470b10",
+        "timestamp": 1426104390
+      },
+      {
+        "files": [
+          "benchmarks/pmap.py"
+        ],
+        "sha": "fd64c801d627328cbc4a6c837ac8f8cea0e8fef2",
+        "timestamp": 1427646843
+      },
+      {
+        "files": [
+          "benchmarks/pmap_27.result"
+        ],
+        "sha": "e354671aa60766561b3624b2570de33806b301da",
+        "timestamp": 1427914242
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "tests/checked_vector_test.py"
+        ],
+        "sha": "a30e865bb3fa89c7a8e1a06b307c4da035f6eb4b",
+        "timestamp": 1428080496
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "35d91b38bf0a35dd0852ea178932787af8b26d38",
+        "timestamp": 1428080769
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "pyrsistent/__init__.py",
+          "tests/immutable_object_test.py"
+        ],
+        "sha": "2c1bbd8da31d7828a0f7d1ca51d0e2e7a56d0b23",
+        "timestamp": 1428346331
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "f90ce18e9e1945d03b1dfc7e43ad2e738e802731",
+        "timestamp": 1428346955
+      },
+      {
+        "files": [
+          "_pyrsistent_version.py"
+        ],
+        "sha": "64888afcd8696a8159aa2eda2bb78681ac22d668",
+        "timestamp": 1428347007
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py"
+        ],
+        "sha": "c0e3f603fc66f4a1bebff0e058b70db9c2bdaed8",
+        "timestamp": 1429296091
+      },
+      {
+        "files": [
+          "doctests.sh",
+          "experiments/setup.py"
+        ],
+        "sha": "6cdcad483c4c3fdf8774a2763dbceba720064b19",
+        "timestamp": 1429340262
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py",
+          "tests/class_test.py"
+        ],
+        "sha": "e0e18bd0f719705583edacc30f4ea4cdef394ed1",
+        "timestamp": 1429380126
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py",
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py",
+          "tests/class_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "a6db9681f5fdfc4321bd18de96ddffc0d4ee1ff4",
+        "timestamp": 1429462982
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py",
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py",
+          "pyrsistent/_transformations.py",
+          "tests/class_test.py"
+        ],
+        "sha": "e867d1c78be303d1362fb39718ca5c1bbb0b5535",
+        "timestamp": 1429476819
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/__init__.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "c8bbaeecbd810eb83fe37e42872f36be04e7f723",
+        "timestamp": 1429560164
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "637e52ecab9a8a61b2ac16410a6d4994396d9966",
+        "timestamp": 1429561878
+      },
+      {
+        "files": [
+          "pyrsistent/_transformations.py"
+        ],
+        "sha": "c57aff20272f69f692de8f7b86ee3b8e21ed4d76",
+        "timestamp": 1429894965
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/__init__.py",
+          "pyrsistent/_field_common.py",
+          "tests/record_test.py"
+        ],
+        "sha": "64cd57cd831973ac046cd188356a77e49d6be983",
+        "timestamp": 1430009500
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py",
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py",
+          "tests/class_test.py"
+        ],
+        "sha": "7591b08ac87e43d27a1f6c15ac75b27449121037",
+        "timestamp": 1430061278
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "tests/class_test.py"
+        ],
+        "sha": "6d0b2bdbd680e9ac3f9002d0603ef93547b2d587",
+        "timestamp": 1430062621
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "tests/class_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "dbdcd1a86309773e955698ca5bb88f94f7ebebc3",
+        "timestamp": 1430064690
+      },
+      {
+        "files": [
+          "tests/class_test.py"
+        ],
+        "sha": "11049b7a24fd8fe8ed375d4185f0bb9cef4fb179",
+        "timestamp": 1430065509
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "tests/class_test.py"
+        ],
+        "sha": "9383a380dcdc2f0478f7cb9521ad5397e75fd8e1",
+        "timestamp": 1430067392
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "30b919b1cb6c84adc1c3e38733a4b7bfd8252143",
+        "timestamp": 1430242337
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "pyrsistent/_immutable.py",
+          "tests/class_test.py"
+        ],
+        "sha": "336421435e07b90647a4ab1ec10ce543820aa607",
+        "timestamp": 1430243911
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_pvector.py"
+        ],
+        "sha": "154be4ff676b04cb6b9f41b348ded903f3d8fe2e",
+        "timestamp": 1430245913
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "932c843d3df3eb8fe4c86bab523e66b211868f62",
+        "timestamp": 1430250467
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "a2aa52e5bab8e43169e9a1e51d3cbddd70e2bdd8",
+        "timestamp": 1430253227
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "b72a632a76e676310a36625122658b76b41c54e6",
+        "timestamp": 1430253657
+      },
+      {
+        "files": [
+          ".gitignore",
+          "CHANGES.txt",
+          "README.rst"
+        ],
+        "sha": "b77f30429e88d17056c346016242851e7436568a",
+        "timestamp": 1430660719
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py",
+          "tests/record_test.py"
+        ],
+        "sha": "47e2322f5ec416d6f94f484a05d29818afe73566",
+        "timestamp": 1433693990
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "2cf1d88518af2808095e33aacdbf1449984670eb",
+        "timestamp": 1433694208
+      },
+      {
+        "files": [
+          "pyrsistent/_pvector.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "98964c93ca37326fa8c35b4ac1a6f70d880cb8d3",
+        "timestamp": 1434209769
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "fc3829dcd1f6a10a379fa0d2bc7230b723c65484",
+        "timestamp": 1434213669
+      },
+      {
+        "files": [
+          "pyrsistent/_pvector.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "63aefcf66472f65b0d0e28450c2f2ba9d1030a95",
+        "timestamp": 1435961116
+      },
+      {
+        "files": [
+          "pyrsistent/_pvector.py"
+        ],
+        "sha": "36e62a0fda955b0291e856779628c8bf732d17c8",
+        "timestamp": 1436550717
+      },
+      {
+        "files": [
+          "pyrsistent/_pvector.py",
+          "tests/transform_test.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "5c06020e8ddae3b23820896b6dc2665c202ed200",
+        "timestamp": 1436554080
+      },
+      {
+        "files": [
+          "pyrsistent/_pvector.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "c61088a9c6df26f587e3f5f42a150ab1c95bc444",
+        "timestamp": 1436554458
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/_pvector.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "519e0865a8bd3d7ba3aa3edb621bee5ad82d3805",
+        "timestamp": 1436629556
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "5e53e15889eeae0a9dfba44db3c00fe84344a1d4",
+        "timestamp": 1436632085
+      },
+      {
+        "files": [
+          "pyrsistent/_pbag.py",
+          "pyrsistent/_pmap.py",
+          "tests/bag_test.py",
+          "tests/map_test.py"
+        ],
+        "sha": "e4680bfd603f4bbba5986be15672b24cb12261b8",
+        "timestamp": 1436632956
+      },
+      {
+        "files": [
+          "pyrsistent/_pbag.py",
+          "pyrsistent/_pmap.py"
+        ],
+        "sha": "587174697cdeb65b034a544133b8cf922038edea",
+        "timestamp": 1436635730
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "03868892ee1b32b4d6761344686e9bb46c9327b8",
+        "timestamp": 1436636060
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "pyrsistent/_field_common.py"
+        ],
+        "sha": "e0504920e3b21969352ccf8ddb9fbaa5cc518bc0",
+        "timestamp": 1439229845
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py"
+        ],
+        "sha": "0e8b4d0e83cfc0241c7ecfa6dd460cc40a1c6c91",
+        "timestamp": 1439558289
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "pyrsistent/_field_common.py",
+          "tests/checked_map_test.py",
+          "tests/class_test.py"
+        ],
+        "sha": "2f60370a5b6495bbdbc5553b7dea5f48b507948b",
+        "timestamp": 1440320534
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/_checked_types.py",
+          "pyrsistent/_field_common.py",
+          "tests/checked_map_test.py",
+          "tests/checked_vector_test.py"
+        ],
+        "sha": "ab9b523200c0e826bb47f49de99513edf105fe2d",
+        "timestamp": 1440326118
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "pyrsistent/_field_common.py",
+          "tests/class_test.py"
+        ],
+        "sha": "f375be0a3e92eadaeaff91fff150f31b0febbb1a",
+        "timestamp": 1440348880
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "pyrsistent/_field_common.py",
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py",
+          "tests/class_test.py"
+        ],
+        "sha": "7d976352294120434de72128dd08257da820d3f6",
+        "timestamp": 1440443880
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "tests/class_test.py"
+        ],
+        "sha": "2bfc9c45ddf01980e017255b2989ae64158b0477",
+        "timestamp": 1440445044
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "9863c87addcace8739de7497fbfaa1b447fed390",
+        "timestamp": 1440446729
+      },
+      {
+        "files": [
+          "tests/map_test.py"
+        ],
+        "sha": "e5cc02724a40b00544c266b1f5e75d41b0ff1fa3",
+        "timestamp": 1441208868
+      },
+      {
+        "files": [
+          "tests/map_test.py"
+        ],
+        "sha": "f02f33173fc5797e493250a4a389d14424745c5e",
+        "timestamp": 1441210469
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py"
+        ],
+        "sha": "3cf10964fe060c3e4226425ae523591f77378a94",
+        "timestamp": 1441210964
+      },
+      {
+        "files": [
+          ".gitignore",
+          "requirements.txt",
+          "tests/hypothesis_vector_test.py",
+          "tox.ini"
+        ],
+        "sha": "73e91bcf2580ac26c1a824c360ae265e493ea060",
+        "timestamp": 1441219539
+      },
+      {
+        "files": [
+          "tests/hypothesis_vector_test.py"
+        ],
+        "sha": "bfc5155121906c4ca3d58a1bb6efa33195488393",
+        "timestamp": 1441221842
+      },
+      {
+        "files": [
+          "tests/hypothesis_vector_test.py"
+        ],
+        "sha": "c28588b0476156c19d7933ea77b313f7d1629bfc",
+        "timestamp": 1441224477
+      },
+      {
+        "files": [
+          "tests/hypothesis_vector_test.py"
+        ],
+        "sha": "ed9d12c8c027ebd472ea0940a5fe1f4c743dc8e6",
+        "timestamp": 1441225296
+      },
+      {
+        "files": [
+          "tests/hypothesis_vector_test.py"
+        ],
+        "sha": "ff011685eca459d358176c31b852566431b8282a",
+        "timestamp": 1441225610
+      },
+      {
+        "files": [
+          "tests/hypothesis_vector_test.py"
+        ],
+        "sha": "bdc547efd3cc7147bc016ef275a279a9e84f6a38",
+        "timestamp": 1441226487
+      },
+      {
+        "files": [
+          "tests/hypothesis_vector_test.py"
+        ],
+        "sha": "a2e9d688ac51bb2cd8a1eb61d0b7068e92a05f3d",
+        "timestamp": 1441226845
+      },
+      {
+        "files": [
+          "tests/hypothesis_vector_test.py"
+        ],
+        "sha": "0d26c0fbb8b6da753daa94282e930d1dc78b6a4f",
+        "timestamp": 1441297339
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "16a88f4c968729a79603674b96dcc99682fb8981",
+        "timestamp": 1441560218
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "3f85461828fd72be4db4d331c7e0ed01bd108624",
+        "timestamp": 1441776524
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "d35ea98728473bd070ff1e6ac5304e4e12ea816c",
+        "timestamp": 1441777168
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py",
+          "tests/class_test.py"
+        ],
+        "sha": "ac2ee4781b2de237831e32efb5b45104a20483be",
+        "timestamp": 1442264361
+      },
+      {
+        "files": [
+          "tests/class_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "7416f03cba4db87f8c79f401589f6f5859a3a248",
+        "timestamp": 1442265338
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "5191244befdb2e67357e96634702ea53ebc9ef6f",
+        "timestamp": 1442293252
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pyrsistent/_checked_types.py",
+          "tests/class_test.py"
+        ],
+        "sha": "e57aead445e46138fe8385447ad675284b110d30",
+        "timestamp": 1443462345
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "3e5e2f9961647190ef528e501085bad47771b723",
+        "timestamp": 1443470317
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "tests/class_test.py"
+        ],
+        "sha": "3b4feb62228c4845f1b719f95ef06533b7324066",
+        "timestamp": 1443547912
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "pyrsistent/_pclass.py"
+        ],
+        "sha": "798de0f6f8c0776f9c9812153849128b57f2ae15",
+        "timestamp": 1443548270
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "a3c5d6bc324b9a79fcb5c14aee4c48c21c87e7ec",
+        "timestamp": 1443548419
+      },
+      {
+        "files": [
+          "pyrsistent/_pbag.py",
+          "tests/bag_test.py"
+        ],
+        "sha": "4125063f3a0ef44e614d3efccbfe0cd2576ebfa6",
+        "timestamp": 1443571219
+      },
+      {
+        "files": [
+          "pyrsistent/_pbag.py"
+        ],
+        "sha": "adcc882c3bfee3e6e18ba4a593caa1d62f303650",
+        "timestamp": 1443572015
+      },
+      {
+        "files": [
+          "tests/bag_test.py"
+        ],
+        "sha": "9e5962a99d8963c1dad94151dc3f624d58fcd0ab",
+        "timestamp": 1443572044
+      },
+      {
+        "files": [
+          "pyrsistent/_pbag.py"
+        ],
+        "sha": "df9531f5c6c6eb2fd73b6f6921b95280c75356c4",
+        "timestamp": 1443572504
+      },
+      {
+        "files": [
+          "pyrsistent/_pbag.py"
+        ],
+        "sha": "2d2f5c66879bf0b879294e331b27d67703e80747",
+        "timestamp": 1443575677
+      },
+      {
+        "files": [
+          "pyrsistent/_pbag.py"
+        ],
+        "sha": "6eb8a72a40d986f6799af6be259f961c52011e2b",
+        "timestamp": 1443620694
+      },
+      {
+        "files": [
+          "pyrsistent/_pbag.py"
+        ],
+        "sha": "78d5af7f058cd5a872a6b84bb3f405e7d532b43e",
+        "timestamp": 1443623857
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "87706acb8297805b56bcc2c0f89ffa73eb1de0d1",
+        "timestamp": 1443639313
+      },
+      {
+        "files": [
+          "tests/hypothesis_vector_test.py"
+        ],
+        "sha": "072e0c79b70e516a530b8b6d0d9c776d83b1b8c4",
+        "timestamp": 1443658860
+      },
+      {
+        "files": [
+          "tests/regression_test.py"
+        ],
+        "sha": "4230fdcb25fd58cb39ccef9b54859e875efddca8",
+        "timestamp": 1443678996
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "c2a4467e2ef057e74336c91819c3211e4721a19c",
+        "timestamp": 1443679099
+      },
+      {
+        "files": [
+          "tests/regression_test.py"
+        ],
+        "sha": "4f582f1937cfc8551e1838ee6c84014cceb9e192",
+        "timestamp": 1443715037
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pvectorcmodule.c",
+          "pyrsistent/_pvector.py",
+          "tests/memory_profiling.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "ba4ff39cef8dd2e28689f073aeeaf2ad9906509f",
+        "timestamp": 1443727237
+      },
+      {
+        "files": [
+          "tests/hypothesis_vector_test.py"
+        ],
+        "sha": "31b9e7845fc2b24c11b32a63195896cfc19d1c35",
+        "timestamp": 1443814689
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/hypothesis_vector_test.py",
+          "tests/memory_profiling.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "a6de675f2181cb42b305c9aa5e992d91806c3f11",
+        "timestamp": 1443854648
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "579c96a6b56ccbd100615d3dac8a5cc89c623ebd",
+        "timestamp": 1443856896
+      },
+      {
+        "files": [
+          "pyrsistent/_pvector.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "74edf0b6664b0fc997652fe133f9ebc9f9e2fa3a",
+        "timestamp": 1443864581
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "9e97d27759af9a83f89459077201fafcc5f1dca3",
+        "timestamp": 1444982703
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py",
+          "tests/record_test.py"
+        ],
+        "sha": "19b4660869f4f58a5d8ae111749ee1bea1681bcf",
+        "timestamp": 1445108173
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py"
+        ],
+        "sha": "b6bce471609a76e33c732b5e0b8fe4f3e3c50d30",
+        "timestamp": 1445184565
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "efb95e3763cd502eeede2abc3af6dfc78a035fa7",
+        "timestamp": 1445184919
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "5197f1769594ff14b30b1e57cb065bfcd8245d95",
+        "timestamp": 1445186276
+      },
+      {
+        "files": [
+          "pyrsistent/_pvector.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "4d1affd501ee2424c960b08732c17144a7250170",
+        "timestamp": 1446237253
+      },
+      {
+        "files": [
+          "pyrsistent/_pvector.py"
+        ],
+        "sha": "c47143bd581ee473d9c76b84b44f39dc944c59e1",
+        "timestamp": 1446237689
+      },
+      {
+        "files": [
+          "tests/hypothesis_vector_test.py",
+          "tox.ini"
+        ],
+        "sha": "87d2b5b13dfb89c81b4695084023a6222a5f03a1",
+        "timestamp": 1446391070
+      },
+      {
+        "files": [
+          "tests/hypothesis_vector_test.py"
+        ],
+        "sha": "042e7b975bce837fa9d3879e2d83f08693ea6848",
+        "timestamp": 1446400725
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "pyrsistent/_pvector.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "38103610c2e6cb9c8d0cbf3b0b75711ca6d761f3",
+        "timestamp": 1446405145
+      },
+      {
+        "files": [
+          "pyrsistent/_pvector.py"
+        ],
+        "sha": "6d41aaa9550b605799cb4295e8c24503f7a9e5d4",
+        "timestamp": 1446409697
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "e2999dca72444d8bf9b7241c65941992750b3630",
+        "timestamp": 1446410345
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "tests/class_test.py"
+        ],
+        "sha": "77f99bcee598551ccbeae71d5efd4d666eafbd2d",
+        "timestamp": 1451230395
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py",
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py",
+          "tests/class_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "b412149323b4d706c90d9742dcd9f8b88ed76954",
+        "timestamp": 1451233533
+      },
+      {
+        "files": [
+          "tests/transform_test.py"
+        ],
+        "sha": "3eebb907c86dff2e1fbde69201ddd6736441e718",
+        "timestamp": 1451235672
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "7854307bda1b68c613a88bea06ffa213d4c2389b",
+        "timestamp": 1451247305
+      },
+      {
+        "files": [
+          ".gitignore",
+          ".travis.yml.bak",
+          "README.rst",
+          "tox.ini"
+        ],
+        "sha": "a9d9ec9acd6e425b63b8f09d962d7b9971ddc274",
+        "timestamp": 1451253835
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "34e7727860813c78a7973ee28ddcd9220a3eefc8",
+        "timestamp": 1451254473
+      },
+      {
+        "files": [
+          "CHANGES.txt"
+        ],
+        "sha": "47cc091f268a596865d931b956aca513339b5112",
+        "timestamp": 1452633360
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "LICENSE.mit",
+          "MANIFEST.in",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "d34289c3d88398dcfb2c51c6c647339a61355dfe",
+        "timestamp": 1454250822
+      },
+      {
+        "files": [
+          "tests/__init__.py",
+          "tests/checked_map_test.py",
+          "tests/checked_vector_test.py",
+          "tests/class_test.py"
+        ],
+        "sha": "ee3d9811922da5a9d4788acef730183fd85767a3",
+        "timestamp": 1454762946
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "tox.ini"
+        ],
+        "sha": "3c7e948ffa86b77c245e0290919fbe532a4d073d",
+        "timestamp": 1454762978
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "c2b8fd49fc2ae9e26dc4129715ceb5acf5603a33",
+        "timestamp": 1454764597
+      },
+      {
+        "files": [
+          "MANIFEST.in"
+        ],
+        "sha": "d412f99ae4fafb12658c0142989d2b6a92f42061",
+        "timestamp": 1454765130
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py",
+          "experiments/build_run.sh",
+          "experiments/setup.py"
+        ],
+        "sha": "06b2a10d8d24fd8907b99e4ba47d22cc59ec86cd",
+        "timestamp": 1454765794
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "24903f822ed0217f52d383b9016cebe0e0483a11",
+        "timestamp": 1458240320
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "9350918ad531524241424e1538bb23a09205bb80",
+        "timestamp": 1458241681
+      },
+      {
+        "files": [
+          "pvectorcmodule.c",
+          "tests/vector_test.py"
+        ],
+        "sha": "9bd796992c12eccb750dac1bc79869faf85dc7f3",
+        "timestamp": 1459665811
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/_checked_types.py",
+          "tests/class_test.py"
+        ],
+        "sha": "cb37ff50ab6ce8b38f952b256f2f7acc492407c6",
+        "timestamp": 1459666598
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "38df5c78ad1ac4e10297d0ee019ae877eabb0609",
+        "timestamp": 1459666991
+      },
+      {
+        "files": [
+          "pyrsistent/_transformations.py",
+          "tests/transform_test.py"
+        ],
+        "sha": "5e7704f64782255576a37aecd01c70cf0a1c2a36",
+        "timestamp": 1483721428
+      },
+      {
+        "files": [
+          "pyrsistent/_pset.py",
+          "tests/set_test.py"
+        ],
+        "sha": "6da82c2c7e4e96b19f4524a8dccc647ea1f7a437",
+        "timestamp": 1483722338
+      },
+      {
+        "files": [
+          "pyrsistent/_pbag.py",
+          "tests/bag_test.py",
+          "tests/set_test.py"
+        ],
+        "sha": "b79ee8c255a4c5f10e8cbb89e4970d068d074c0b",
+        "timestamp": 1483723070
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.py",
+          "pyrsistent/_toolz.py",
+          "tests/toolz_test.py"
+        ],
+        "sha": "30198b478640f4ac5683704700d4309403619d5c",
+        "timestamp": 1483724629
+      },
+      {
+        "files": [
+          "LICENSE.mit"
+        ],
+        "sha": "9740e3ec800a2695d6f72f07194762b23a24c3b6",
+        "timestamp": 1483724850
+      },
+      {
+        "files": [
+          "pyrsistent/_toolz.py"
+        ],
+        "sha": "3605557988342260bf0b202b98ffcbbc73db24fd",
+        "timestamp": 1483726025
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "66436017f1d497f204b1d04817e1faa2b6bc0251",
+        "timestamp": 1483726601
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "96556e3ecbcf02b5dacda04ead4c1b37fdfbccec",
+        "timestamp": 1483726727
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "8ae9fae3b16cd4c8270f67b4760bfce69abd1bb7",
+        "timestamp": 1458930652
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "e1090ba53487cbfdc7872c10bbb3ade875a2f0a3",
+        "timestamp": 1484798111
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "tests/checked_vector_test.py"
+        ],
+        "sha": "cb06e138e62b4fb02138467b7b1cf4f8be0f4331",
+        "timestamp": 1488116950
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "tests/vector_test.py",
+          "tox.ini"
+        ],
+        "sha": "885bf1e4032f5e37853761c1df2f7079b3a43ff6",
+        "timestamp": 1488121284
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py",
+          "experiments/setup.py"
+        ],
+        "sha": "12cf0f545191cc584dc8bc05a54645182006c546",
+        "timestamp": 1488130313
+      },
+      {
+        "files": [
+          "pyrsistent/_plist.py"
+        ],
+        "sha": "e50cc03dc7ad36735c606a93a1c3b53c5bc311f3",
+        "timestamp": 1492583705
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e7b6e453629352be585cdb60026583ef169485b6",
+        "timestamp": 1495149494
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "tests/class_test.py"
+        ],
+        "sha": "efd4c94661a5df1b30e2bea1406024ee5a5fb4a7",
+        "timestamp": 1495805112
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "tests/class_test.py"
+        ],
+        "sha": "903128614f73982aeaf636a91fd60842d22b1de0",
+        "timestamp": 1495805731
+      },
+      {
+        "files": [
+          "tests/class_test.py"
+        ],
+        "sha": "f27417e69c46654c5b732c38a004fc4278fb14b1",
+        "timestamp": 1496059465
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e0e079ed35daae529e1e2611a667ab37b102382b",
+        "timestamp": 1496063142
+      },
+      {
+        "files": [
+          "tests/transform_test.py"
+        ],
+        "sha": "01cfb06af5271f96b9419a79042b2fbe65fe8609",
+        "timestamp": 1496063601
+      },
+      {
+        "files": [
+          "tests/transform_test.py"
+        ],
+        "sha": "904d82977caae504c39a084efba9f8706fb0f579",
+        "timestamp": 1496063630
+      },
+      {
+        "files": [
+          "pyrsistent/_transformations.py"
+        ],
+        "sha": "a2c816756184ecbb3b96b6aae9c80418c9dc00ec",
+        "timestamp": 1496063641
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "e8d5b50ab30da85ad7b0c5b65a1f134d86da11e6",
+        "timestamp": 1496140236
+      },
+      {
+        "files": [
+          "README.rst",
+          "pyrsistent/_field_common.py",
+          "tests/field_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "7e1083d7d747c77860dbcf6edcc3f1d9c94c4bcd",
+        "timestamp": 1496220842
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "63693e3ad7f00b5bc1b9081ac977997f76dbae05",
+        "timestamp": 1496565332
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py",
+          "tests/class_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "d0ca45cbe5c09fde3b19daeedf5f36613df58460",
+        "timestamp": 1500337036
+      },
+      {
+        "files": [
+          "benchmarks/pmap.py",
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "4d689daa01721bc3883e9b2937a5d21ee9a66e8f",
+        "timestamp": 1502400057
+      },
+      {
+        "files": [
+          "pyrsistent/_pdeque.py",
+          "tests/deque_test.py"
+        ],
+        "sha": "327d10da9a8cdd375ca0b69c73eeb3ce2b43e5a0",
+        "timestamp": 1503282631
+      },
+      {
+        "files": [
+          "benchmarks/pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "d6268ae771347cfd381608a8c2758a9d3fc46743",
+        "timestamp": 1503490447
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "a303c4ebacbc51031682318193f68303344a01e3",
+        "timestamp": 1503733748
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py"
+        ],
+        "sha": "4da1afa1b0ce89e570fff94e0ed8750a7df569e8",
+        "timestamp": 1503733765
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "83bd69440e9e62c6d93b14578f29770ac3f5759a",
+        "timestamp": 1504264254
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "experiments/setup.py",
+          "tox.ini"
+        ],
+        "sha": "1c6d7935cd1894d99379a1bcff6a9cd85f449a03",
+        "timestamp": 1507476839
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "8e07bae793205b67d2ce25553a53d723a8ca4066",
+        "timestamp": 1507476973
+      },
+      {
+        "files": [
+          "tests/record_test.py"
+        ],
+        "sha": "58aa5004c19c88d10098de0328a9817c537c302b",
+        "timestamp": 1507477842
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "e5b51327469475f10ff275e15da152138bb85478",
+        "timestamp": 1507477949
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "tox.ini"
+        ],
+        "sha": "9498427d31712eadfc6fe0c7132e491b8c892edd",
+        "timestamp": 1507478714
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "e28850b185b7f72ac5e080fa89d841fce91d3b25",
+        "timestamp": 1507481081
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "tests/class_test.py"
+        ],
+        "sha": "7c43cddf45e6ad1addafdf36815b27f5fd368562",
+        "timestamp": 1510092357
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "tests/class_test.py"
+        ],
+        "sha": "865493077f8f4eeb545b93da497d101aa3073b4a",
+        "timestamp": 1510611451
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py"
+        ],
+        "sha": "059d5591895e17b04ea1d64c036d5b9a126087f3",
+        "timestamp": 1510812780
+      },
+      {
+        "files": [
+          "pyrsistent/_pvector.py"
+        ],
+        "sha": "220e17bd4efc8ab48e7bc24a8c32fef7765e4d42",
+        "timestamp": 1510813344
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "cf2ca723405d53a86bca2d9eb0cfae5d54952dc8",
+        "timestamp": 1511764555
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py",
+          "tests/class_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "6ac0eef4dc57cf56fc31ea12c468a4e36e6d0bed",
+        "timestamp": 1512592945
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "8eadd330a7079af97c970af5119704de83f45874",
+        "timestamp": 1512593071
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py",
+          "tests/record_test.py"
+        ],
+        "sha": "b314759af62da4c4defdf07c67044b2e8c992830",
+        "timestamp": 1516394121
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "815129d35a517346d92aca1b46df84b0f400dbcd",
+        "timestamp": 1518039840
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "pyrsistent/_compat.py",
+          "pyrsistent/_field_common.py"
+        ],
+        "sha": "fa767177a4d8da3b1783511d4e6d04f772d718e3",
+        "timestamp": 1519082800
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py"
+        ],
+        "sha": "dcf96b4a65c8af0ca89a0a22f3716d4c1b028fa0",
+        "timestamp": 1519082809
+      },
+      {
+        "files": [
+          "tests/field_test.py"
+        ],
+        "sha": "e6e96e51f59347fe32977377fdbabbcd13b977d1",
+        "timestamp": 1519084694
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py"
+        ],
+        "sha": "6219cb28a825007e08090373f43196a748de17fd",
+        "timestamp": 1519090311
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py"
+        ],
+        "sha": "a001afa8e0c7e7377774e574be851ca2ff2ebb17",
+        "timestamp": 1519091801
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "pyrsistent/_field_common.py",
+          "tests/field_test.py"
+        ],
+        "sha": "f05ea24cdd6f7e6122d280e11c3487b7c9257504",
+        "timestamp": 1522088736
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "2f28dc049aba9fdef8a52ef4520306ef0fe585d3",
+        "timestamp": 1528714453
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "tox.ini"
+        ],
+        "sha": "e479fd94d0aad5b81d2f16855cc0d619ed0379ba",
+        "timestamp": 1528715493
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py"
+        ],
+        "sha": "44314c754279b717d091285b2a44dace63e57e25",
+        "timestamp": 1528744498
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "LICENSE.mit",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "7afd4ea24bab02d2bc3d7185964f66d8efcc9efa",
+        "timestamp": 1528745155
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "4828d578d1a4d4f1dfad079e130b0d04c18b3591",
+        "timestamp": 1529060168
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pyrsistent/_immutable.py",
+          "tox.ini"
+        ],
+        "sha": "79a8bb44d272eb5906ecf99b0ab5d49bc39a87f9",
+        "timestamp": 1531036066
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "experiments/setup.py"
+        ],
+        "sha": "9f50b35ee988e709543c8e47ee97c03838f5125b",
+        "timestamp": 1531041348
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "283da54d715e50fcaa1047f296d45c99f2bd1e53",
+        "timestamp": 1531043590
+      },
+      {
+        "files": [
+          "Makefile"
+        ],
+        "sha": "4279f2bec74d8a946601083a401994828373e4e0",
+        "timestamp": 1531044533
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "setup.cfg",
+          "tox.ini"
+        ],
+        "sha": "0b08d364651b867942f82a129048ab49be35e9ef",
+        "timestamp": 1537006094
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py"
+        ],
+        "sha": "f110d366e69eb3201516d34a0c969abde18778b3",
+        "timestamp": 1539439646
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "092bdb71e4e373fe16ef5473f7faf11e9a0e0e7f",
+        "timestamp": 1539512089
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py",
+          "tests/class_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "57466d23b6ded7ee893af3a4811f2dee8f0ccb15",
+        "timestamp": 1540072802
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py"
+        ],
+        "sha": "f253e9f8db8cca89beab816bdccc9128816284a1",
+        "timestamp": 1540296364
+      },
+      {
+        "files": [
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py"
+        ],
+        "sha": "88da8e69fb9edbb297e41522e0e92e46eb5bb97d",
+        "timestamp": 1540296621
+      },
+      {
+        "files": [
+          "pyrsistent/typing.py"
+        ],
+        "sha": "8137d5ae66dc6f6d08a674466a5d7c84efb12b6c",
+        "timestamp": 1540359641
+      },
+      {
+        "files": [
+          "pyrsistent/typing.py"
+        ],
+        "sha": "35b1d39222bf2684018b71e013d4de6bfeee2e8e",
+        "timestamp": 1540421437
+      },
+      {
+        "files": [
+          "pyrsistent/typing.py"
+        ],
+        "sha": "13e91baf4c84f77fe4689daa6a8968e0bdaee077",
+        "timestamp": 1540425427
+      },
+      {
+        "files": [
+          ".gitignore",
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "b7b057df008c118f1c09dc0603de8f829f174f66",
+        "timestamp": 1542435281
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "pyrsistent/__init__.pyi",
+          "pyrsistent/py.typed",
+          "pyrsistent/typing.pyi"
+        ],
+        "sha": "513e52c1e04fb2b6662155857e352b374bd263df",
+        "timestamp": 1542613757
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "2f229df5e3de3b21efec566ae7f062989b1a7348",
+        "timestamp": 1542751687
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.pyi"
+        ],
+        "sha": "08519aaba3fd7addfb94f4c0489f1534cdaefecb",
+        "timestamp": 1543289499
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.pyi"
+        ],
+        "sha": "e35fd1aca66703dcb292a256322ffdf8bdebbf56",
+        "timestamp": 1543289521
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "d79f8a0c457dfb5417001353f25836f3951bd3ef",
+        "timestamp": 1545253991
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "83bc51893e62cc1b05e2ada36655899367c00a9d",
+        "timestamp": 1543904820
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "LICENSE.mit",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "8365f5202793d52a5f29eaaa039b66773993f559",
+        "timestamp": 1546808770
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "b3d0c27554595a1c1edc781adefcf029632bdb45",
+        "timestamp": 1546812985
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "f76a89ffac38f8e7351c46e2fc88c9378cb90183",
+        "timestamp": 1548683387
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "c378f182edd07edfeb04e632ea50c5725574531c",
+        "timestamp": 1548708135
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "requirements.txt"
+        ],
+        "sha": "141ca9128afa359ff89c7740535ebdd90b84ca4a",
+        "timestamp": 1548856068
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "1a28e35b1879cd3f7e9916f2c72c85488af54319",
+        "timestamp": 1549694615
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "requirements.txt",
+          "tests/hypothesis_vector_test.py",
+          "tox.ini"
+        ],
+        "sha": "bfb5af2f34b6f4e98849557cf1637e3238bb3827",
+        "timestamp": 1549738278
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "c01443cf8ca6fde162ef544c1943366b2a743874",
+        "timestamp": 1550561815
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "7e4544364ce4198efbc97a1f4275572a7d85b36d",
+        "timestamp": 1550784761
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.pyi",
+          "pyrsistent/typing.pyi"
+        ],
+        "sha": "795f084a9586ad7cd94ec89465f9d56ebf7974b0",
+        "timestamp": 1554270551
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.pyi",
+          "pyrsistent/typing.py",
+          "pyrsistent/typing.pyi",
+          "tests/record_test.py"
+        ],
+        "sha": "c12ee72c4c1faa7295d8fdfdd1b48ed62c53b92a",
+        "timestamp": 1554397530
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.pyi",
+          "pyrsistent/typing.pyi"
+        ],
+        "sha": "8a01ce84c046eba3af2ada62c8b88f864f19b51c",
+        "timestamp": 1555356273
+      },
+      {
+        "files": [
+          "pyrsistent/typing.pyi"
+        ],
+        "sha": "65cfc623c816347d05d89be9a734234fec76d8e2",
+        "timestamp": 1555443621
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "c79d7f514a698615e247a3af1705e108b9d0dc1a",
+        "timestamp": 1556220069
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "75e52bc0c2bc2889934dec0527971b18268d51d2",
+        "timestamp": 1556220910
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "README.rst",
+          "experiments/setup.py",
+          "tox.ini"
+        ],
+        "sha": "5423790ab44a5e4105c3a8f8ab8edbbf20510e2b",
+        "timestamp": 1556222037
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "d79a5fa50d4e0499b52c90cbb4094150fdc61ef9",
+        "timestamp": 1556222958
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "948db642e4cae0e844a0cae189ba463ec3d73360",
+        "timestamp": 1556229554
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "c84dab0daaa44973cbe83830d14888827b307632",
+        "timestamp": 1556251730
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.pyi"
+        ],
+        "sha": "2a7c88107bd824ed211b7cc3d182665d7fa7d855",
+        "timestamp": 1556831767
+      },
+      {
+        "files": [
+          ".gitignore",
+          "pyrsistent/_field_common.py",
+          "pyrsistent/_precord.py",
+          "tests/class_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "ab328b330bbf85691110ab89a9dbd5ecef59a9b7",
+        "timestamp": 1557227991
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "pyrsistent/_transformations.py",
+          "tests/transform_test.py"
+        ],
+        "sha": "30f138142923669c9da327abe214986919d52a07",
+        "timestamp": 1557555984
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py",
+          "pyrsistent/_pclass.py",
+          "pyrsistent/_precord.py",
+          "tests/class_test.py"
+        ],
+        "sha": "d60581047788749b89dc9d8691553b3df535176d",
+        "timestamp": 1557614426
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "8cb6c24fd2177839b10cdb93132444927c4c804b",
+        "timestamp": 1557663266
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py"
+        ],
+        "sha": "d33aa155aa050b4f5f5f28e65faf8839d0190d04",
+        "timestamp": 1557750689
+      },
+      {
+        "files": [
+          "tests/performance_run.py"
+        ],
+        "sha": "0334b70b25ec4aadf8487d4260247611a121faa4",
+        "timestamp": 1557750769
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "a0ef4c051b6f0dbebbc883e641426773a6910611",
+        "timestamp": 1558018989
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "pytest.ini",
+          "requirements.txt",
+          "tox.ini"
+        ],
+        "sha": "fed75a17bec470beae27c97d8a2382b7793bda4f",
+        "timestamp": 1562095923
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "058ccde77c4a20ce5934c9031327e955d2b797c5",
+        "timestamp": 1562269608
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "foo.txt"
+        ],
+        "sha": "9c789c845228ec5258f50a0532e05fa5be2282bb",
+        "timestamp": 1562270141
+      },
+      {
+        "files": [
+          "pyrsistent/_pvector.py",
+          "tests/vector_test.py"
+        ],
+        "sha": "57dd2dd2e00876b2189df392575cd3d439b4bd07",
+        "timestamp": 1562270874
+      },
+      {
+        "files": [
+          "pyrsistent/typing.pyi"
+        ],
+        "sha": "951f3664553e13bd53824631939884b2c1e9ed42",
+        "timestamp": 1562271829
+      },
+      {
+        "files": [
+          "foo.txt"
+        ],
+        "sha": "43649df0b1551f34b9a8415083404691b68725f2",
+        "timestamp": 1562520011
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "cb3568b8d296bd8ef1e09ac03af49bf7133dbeda",
+        "timestamp": 1562520457
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "4c595eacaca4d2c6f1d2542087caf48a923b22e7",
+        "timestamp": 1563316595
+      },
+      {
+        "files": [
+          "tests/vector_test.py"
+        ],
+        "sha": "d2133b7e42b6660144eaf18b5e9b0919e8979491",
+        "timestamp": 1563337869
+      },
+      {
+        "files": [
+          "tests/deque_test.py",
+          "tests/list_test.py"
+        ],
+        "sha": "2af4e5b024cde53f3a862f42d94d629e7e547234",
+        "timestamp": 1564253894
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "bc4a122eb16f90c95c3b80679954cec473f3afb0",
+        "timestamp": 1564254430
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py"
+        ],
+        "sha": "19eb3039df6a181404612659964ed065962b6bc2",
+        "timestamp": 1568307298
+      },
+      {
+        "files": [
+          "requirements.txt"
+        ],
+        "sha": "345c39dc9cd5b5962383c010504123f2e7a6306f",
+        "timestamp": 1569188590
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "pyrsistent/_field_common.py",
+          "tests/record_test.py"
+        ],
+        "sha": "30689bb67e394e40cc0d249b29b7ea590f4898b5",
+        "timestamp": 1571424853
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "8665910367a948acca533304b9e4bb37be434e9d",
+        "timestamp": 1572208627
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "7c48d836bc2d55f4d45cfe3923eed49f4a8757ab",
+        "timestamp": 1574495139
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "33d108f43fa0ada6e90346da23046d69322977b9",
+        "timestamp": 1574543883
+      },
+      {
+        "files": [
+          "pyrsistent/typing.py"
+        ],
+        "sha": "ef5eaffe40e8af478c110e6bc7e4ccc89f0c3876",
+        "timestamp": 1576068147
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "093c615c62f6e2627d64ef70f9db9f2bc6b9b52c",
+        "timestamp": 1577440435
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.pyi",
+          "pyrsistent/typing.pyi"
+        ],
+        "sha": "db225adfd6dbe96bf65d13a57b13c9a799140508",
+        "timestamp": 1578382244
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "4fec827f22ce7acb9223fe3806b06b18e262dd9d",
+        "timestamp": 1578427461
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "5e7c7305aba60314e02b94268db4b380e68d9aa4",
+        "timestamp": 1579733908
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "experiments/setup.py",
+          "tox.ini"
+        ],
+        "sha": "4a5701b15fd83d7878091e9b9fb5ced1f69dff96",
+        "timestamp": 1579812582
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "pyrsistent/_helpers.py",
+          "pyrsistent/_pmap.py"
+        ],
+        "sha": "2ea87bdd9d0c5e6cf4e17260192d26f2327f61bb",
+        "timestamp": 1579814755
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py",
+          "tests/record_test.py"
+        ],
+        "sha": "a7e8b93df67bab9393f9be9cd432a8858a09aec9",
+        "timestamp": 1584380720
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "ff4b6490b194a81d78ebd7c667e1acba405ac1a3",
+        "timestamp": 1585079266
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "511f9b294298b14897a28540b55ca36915b8bab4",
+        "timestamp": 1586726257
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "c02ae99abbabd74877c4715f55b3e5680389a1ba",
+        "timestamp": 1591074123
+      },
+      {
+        "files": [
+          "requirements.txt",
+          "tests/memory_profiling.py"
+        ],
+        "sha": "bf32c44c978cebe419f03171dfd05a6f03829f08",
+        "timestamp": 1591074941
+      },
+      {
+        "files": [
+          "tests/record_test.py"
+        ],
+        "sha": "8b62b7019cbd34fd6d555cffd8c0e5bf565cbd8e",
+        "timestamp": 1591075099
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "85382b0267e907f6c2b22fcdcce47405c0acc2ed",
+        "timestamp": 1591079362
+      },
+      {
+        "files": [
+          "pyrsistent/_immutable.py",
+          "pyrsistent/_pdeque.py",
+          "pyrsistent/_plist.py",
+          "pyrsistent/_pmap.py"
+        ],
+        "sha": "6700bcdd8fc55fe29797670e5e8dcd36cb99f684",
+        "timestamp": 1591910949
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "README.rst",
+          "experiments/setup.py",
+          "requirements.txt",
+          "tox.ini"
+        ],
+        "sha": "d7740000bf4f0580eb235e5dee69f5e360ea214e",
+        "timestamp": 1599485315
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "c5bd6b1620b6d91d8707a48ba605dfd41959cd34",
+        "timestamp": 1599487693
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst"
+        ],
+        "sha": "97190f8ad43553603a95a83361d4c0fe02e86970",
+        "timestamp": 1599592381
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "47ab1f38bd85a21b92e3df5a03cc81aa76c5884e",
+        "timestamp": 1599595301
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "ccc4a341ea74f80df8487654bfc7c638865867d4",
+        "timestamp": 1599636038
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "6da48a39a8ee91d05994cff189093edccd2e1f76",
+        "timestamp": 1599643983
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py",
+          "experiments/setup.py",
+          "requirements.txt"
+        ],
+        "sha": "239a9c00866dc73d003306e7792a904d9bc37213",
+        "timestamp": 1599980009
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "cbec3c6ba346b0ef4bcb3958b8a451807cad338a",
+        "timestamp": 1599980896
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "tox.ini"
+        ],
+        "sha": "1165aea2a16780c649b7486cd3ea9d6d8f44aba1",
+        "timestamp": 1600031412
+      },
+      {
+        "files": [
+          ".travis.yml.bak",
+          "tox.ini"
+        ],
+        "sha": "381ee944ef2b59c8a2c0b87c56644110c2768483",
+        "timestamp": 1600068777
+      },
+      {
+        "files": [
+          "CHANGES.txt"
+        ],
+        "sha": "fed6c1781a915b60b731051d294fe4b50d26de7a",
+        "timestamp": 1601841187
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "de93a6aa5e555780b7ad9daff95e16b022813bdc",
+        "timestamp": 1602869915
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "870736590bc6477d3078809c5caf293f34b8c290",
+        "timestamp": 1600020474
+      },
+      {
+        "files": [
+          "tests/freeze_test.py"
+        ],
+        "sha": "0b71e3ebddc5d1d767d7f99378096b0e00fffbd6",
+        "timestamp": 1600020567
+      },
+      {
+        "files": [
+          "pyrsistent/_helpers.py"
+        ],
+        "sha": "3f1905b8b19974fc454a08fecc08181dd6b3c2ce",
+        "timestamp": 1600020646
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "9d5c95b1926ace78dd2f41596b1df03a570249f7",
+        "timestamp": 1600020686
+      },
+      {
+        "files": [
+          "README.rst",
+          "output",
+          "pyrsistent/_helpers.py",
+          "tests/freeze_test.py"
+        ],
+        "sha": "1e70c0e55b074c3cac34e8af21187d71bbcc7906",
+        "timestamp": 1603031410
+      },
+      {
+        "files": [
+          "tests/freeze_test.py"
+        ],
+        "sha": "cc3c8e6e61aa2b1aa0adc5aa1220b217ee874980",
+        "timestamp": 1603034282
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "893923e217a9afb5bb7e61d9b3852c4c1bfe2ac1",
+        "timestamp": 1603037694
+      },
+      {
+        "files": [
+          "pyrsistent/_helpers.py"
+        ],
+        "sha": "e2d79711478a194848606eb8143b71e0174af15a",
+        "timestamp": 1603037952
+      },
+      {
+        "files": [
+          "pyrsistent/_helpers.py"
+        ],
+        "sha": "08f948dc4ef8f17821919edb0274d9f785f42c5f",
+        "timestamp": 1603038177
+      },
+      {
+        "files": [
+          "pyrsistent/_helpers.py"
+        ],
+        "sha": "9c74b03acd3cbf2a9e647185e735bb482058fdf9",
+        "timestamp": 1603047532
+      },
+      {
+        "files": [
+          "output"
+        ],
+        "sha": "4cf9f599d702ed6f60d4e080a12169b1b1cf0d55",
+        "timestamp": 1603624309
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py"
+        ],
+        "sha": "4de11f60c48e04479a426e5012929f8cd7325902",
+        "timestamp": 1605561146
+      },
+      {
+        "files": [
+          "LICENSE.mit"
+        ],
+        "sha": "92f631d0f1cf779b205b5e3faf04169d4a6b4dd7",
+        "timestamp": 1606679274
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "pyrsistent/_precord.py"
+        ],
+        "sha": "79ba00166182b3bf4b74e6d5b98c96da42e1825d",
+        "timestamp": 1608004155
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "9894cd580c9bbb915dac75959da961254ad202f0",
+        "timestamp": 1609403165
+      },
+      {
+        "files": [
+          "MANIFEST.in",
+          "experiments/setup.py"
+        ],
+        "sha": "45a8b0423565e234bae1f68258e0d111926086e1",
+        "timestamp": 1610052792
+      },
+      {
+        "files": [
+          "pyrsistent/_pset.py",
+          "tests/set_test.py"
+        ],
+        "sha": "885796fb8b9a14b29c1c7de9ac9d97462907b926",
+        "timestamp": 1613315013
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py"
+        ],
+        "sha": "bd797536b02d3dbde89a222c2003dcac36cffdc5",
+        "timestamp": 1614686722
+      },
+      {
+        "files": [
+          "pyproject.toml"
+        ],
+        "sha": "c54452273d969f6afea344e6eb4ddd8266abd1b6",
+        "timestamp": 1621372749
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "setup.cfg"
+        ],
+        "sha": "be91b33f80fcde9f464fc7f2bf75338b81c9f61f",
+        "timestamp": 1621431195
+      },
+      {
+        "files": [
+          "pyrsistent/_immutable.py"
+        ],
+        "sha": "9d5259987e5c11a930420affba7ef309eff9b69f",
+        "timestamp": 1622728191
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          "tools/test_wheels.sh"
+        ],
+        "sha": "3afeea46e2494e6c9abc046d9aef7988e3e7150e",
+        "timestamp": 1623048998
+      },
+      {
+        "files": [
+          ".gitignore"
+        ],
+        "sha": "f572737f1e1766791f756ed17aa2eb4239820099",
+        "timestamp": 1623130663
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "adb438f0fd50b3dd4ff78177281adc9e16d086f6",
+        "timestamp": 1623130720
+      },
+      {
+        "files": [
+          ".github/workflows/superlinter.yml"
+        ],
+        "sha": "0266da8d5e1a08b78d9cd9371096447c967a35a6",
+        "timestamp": 1611990459
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yaml",
+          "tox.ini"
+        ],
+        "sha": "aa6efa58e91fd665d593b088ec73b80b91e39447",
+        "timestamp": 1611992902
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/tests.yaml",
+          "_pyrsistent_version.py",
+          "experiments/setup.py",
+          "tox.ini"
+        ],
+        "sha": "fd062ea94c08e90cf220c367e759a2a22a94c45e",
+        "timestamp": 1623565411
+      },
+      {
+        "files": [
+          ".github/workflows/superlinter.yml",
+          ".travis.yml.bak",
+          "LICENSE.mit",
+          "README.rst"
+        ],
+        "sha": "5b2530fa607352a1c5976b22ad2dc565665f3cb9",
+        "timestamp": 1624078560
+      },
+      {
+        "files": [
+          "CHANGES.txt"
+        ],
+        "sha": "c4350436e387773cb404e0f7c1ec3066373f83de",
+        "timestamp": 1624079340
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "77420917de20ba60f9f4eb87a859ba9d8d608df2",
+        "timestamp": 1624079708
+      },
+      {
+        "files": [
+          "tests/field_test.py",
+          "tests/hypothesis_vector_test.py",
+          "tests/record_test.py"
+        ],
+        "sha": "e3df30b6c12eb0ca78b9f8e2fb7dc9e2295ffac6",
+        "timestamp": 1624896073
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "Makefile",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "1b8e85ed0164a8f9908bee0524f9a9850c21c0b1",
+        "timestamp": 1624896293
+      },
+      {
+        "files": [
+          "tests/memory_profiling.py"
+        ],
+        "sha": "619553cd756593e77451660bbe13be6b4c41f02e",
+        "timestamp": 1633095900
+      },
+      {
+        "files": [
+          "README.rst",
+          "pvectorcmodule.c",
+          "pyrsistent/_field_common.py"
+        ],
+        "sha": "e280f9d25155457b7bd9a9f9c16a9baa86a7a3e8",
+        "timestamp": 1633096233
+      },
+      {
+        "files": [
+          "pyrsistent/_field_common.py"
+        ],
+        "sha": "8c4d9daec0d42329a1baf3677f46d9ed21be9804",
+        "timestamp": 1633547252
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/tests.yaml",
+          "experiments/setup.py",
+          "tox.ini"
+        ],
+        "sha": "3e7ee17ac542c682930d2b060ebe04fae252fda0",
+        "timestamp": 1634027077
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "decaed9f0a84102c6bd5678f052f4b50cbaa524b",
+        "timestamp": 1634027133
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "753687b8cc92140ca392a2560587e8333f4e77bd",
+        "timestamp": 1634027200
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "e93dee69e3858ac571dffece390068b16e813827",
+        "timestamp": 1641974071
+      },
+      {
+        "files": [
+          ".travis.yml.bak"
+        ],
+        "sha": "4ac9fbbf088efc7a2aee2c4b74c8ff17c3d8b977",
+        "timestamp": 1642016183
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "487f28ab731983bc4147e75de86aa24ad31b07e0",
+        "timestamp": 1642016329
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/tests.yaml",
+          "README.rst",
+          "experiments/setup.py",
+          "tox.ini"
+        ],
+        "sha": "91ee4f08e21c2038bbfc3f4556b12a96656aa9cb",
+        "timestamp": 1642016692
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "311653dab59a8ae54de96b6e07546ab53b151c34",
+        "timestamp": 1642018834
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "LICENSE.mit",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "a8342a1ddbe89b5b7245a89271443fd5103cac86",
+        "timestamp": 1642019670
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "a1de7dc331b8c8ec1923f47c853378907b8e4438",
+        "timestamp": 1642104958
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "44273f641d768f27702f3996b24c5bee8cf2a8e0",
+        "timestamp": 1642113008
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "09173bf340a1531a8be358387a0a96cb1b208a92",
+        "timestamp": 1642114525
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py"
+        ],
+        "sha": "70f3f3c87fcb254373f54011270fbe40b6507a0d",
+        "timestamp": 1642123854
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "e09ed69b32b8c5ab139a32e154ebe6e6a3e5744e",
+        "timestamp": 1642124001
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst"
+        ],
+        "sha": "d039676c8736f6c0566ce6dcc571888ece10e3a7",
+        "timestamp": 1642189037
+      },
+      {
+        "files": [
+          "pyrsistent/_toolz.py"
+        ],
+        "sha": "22c979f050217278da971e5d59aab907a0ead128",
+        "timestamp": 1643602348
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "e2ab7c34a4e5c739b6cd26d01127c0b7c23f4af5",
+        "timestamp": 1644465152
+      },
+      {
+        "files": [
+          "tests/map_test.py"
+        ],
+        "sha": "4ec6e5a9b99ff4c574c1e7c2d9c7fd538971f692",
+        "timestamp": 1644468374
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "5cebec73b07e92aa00866db43de8c3bda120c2ea",
+        "timestamp": 1644596020
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "docs/source/conf.py",
+          "pyrsistent/_toolz.py"
+        ],
+        "sha": "dec09088208acf6ada6af197d7e625f3853494ab",
+        "timestamp": 1645652357
+      },
+      {
+        "files": [
+          "pyrsistent/typing.pyi"
+        ],
+        "sha": "550169366ad131b47d14e8cb8eb1c9353e3626eb",
+        "timestamp": 1649290875
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "32b4d93562049c44b495b3dc3f8d1aa0e1aa79ef",
+        "timestamp": 1651784232
+      },
+      {
+        "files": [
+          "benchmarks/pmap.py",
+          "benchmarks/pmap_27.result",
+          "benchmarks/pvector.py",
+          "benchmarks/pvector_27.result"
+        ],
+        "sha": "c78961e101e6821d9c43e6b18d11cf7bc8d60c8e",
+        "timestamp": 1654114986
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py"
+        ],
+        "sha": "0898ff7ac62c1a4d48c2046962b8425bc9b70fc5",
+        "timestamp": 1654117178
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "ba5bdc7e55879cf5834b15c3a1add7b917088aa1",
+        "timestamp": 1655241853
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          "experiments/setup.py"
+        ],
+        "sha": "169ba5ba662bff9a8f90dfd76c5a77c8476e910d",
+        "timestamp": 1655245432
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "91ac6c0ab32f7c328e9d996a6717c34733400e2b",
+        "timestamp": 1658515158
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "152b1c4cdb3745dc17f376e514aeefa0e6dd0c24",
+        "timestamp": 1658895851
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "f353353920312d20040eb79cb54071b1a0705047",
+        "timestamp": 1663416295
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "d3d0337133fa48817f045638fc324bab3c5473e7",
+        "timestamp": 1666616092
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "a8a24044248503fe9159e1f229054a981be3773a",
+        "timestamp": 1667113503
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "7f80ccaff4fd32bf96d8d3f7c1378089b1350c32",
+        "timestamp": 1667160319
+      },
+      {
+        "files": [
+          "experiments/setup.py"
+        ],
+        "sha": "5a62524bc0abe4a5e343920910705442b3af383a",
+        "timestamp": 1667211585
+      },
+      {
+        "files": [
+          ".readthedocs.yaml",
+          "docs/Makefile"
+        ],
+        "sha": "d2ab1ab3207d008deeae673b53849cec05dbe18a",
+        "timestamp": 1667336667
+      },
+      {
+        "files": [
+          "tests/map_test.py"
+        ],
+        "sha": "de4100b41dbf6c4ccd3812895962a809074f1f48",
+        "timestamp": 1667429898
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "226ebb67fad7b88cb928dd46b3de9e2db167acab",
+        "timestamp": 1667434418
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "29f5ac97f1356c82dc44dfe4e5a46cc3e9e91a4c",
+        "timestamp": 1667434800
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/tests.yaml",
+          "experiments/setup.py",
+          "tox.ini"
+        ],
+        "sha": "1bbe75700f127c9d3f3c71c54502a90be375de1b",
+        "timestamp": 1667732564
+      },
+      {
+        "files": [
+          "pyrsistent/_immutable.py"
+        ],
+        "sha": "c2fd1f0e04089da92f7fc34b030ab972aff022d8",
+        "timestamp": 1667733266
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "7ca853c06414267ca0e108c9aacb068f7ebc58e0",
+        "timestamp": 1667766098
+      },
+      {
+        "files": [
+          "README.rst"
+        ],
+        "sha": "e3fbc391c81f6c31fdd047dd6e45b1d75c1b280b",
+        "timestamp": 1667766420
+      },
+      {
+        "files": [
+          "docs/source/api.rst"
+        ],
+        "sha": "d98a20d11b2bf69d6bc24a2a3f6e56042ff7f87c",
+        "timestamp": 1671461816
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "cc90f3e2b339653fde0df422aaf3ccdb3fc1225d",
+        "timestamp": 1672298949
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "8e437e24b19ff5603fec9a5ca391858128d745ce",
+        "timestamp": 1681138817
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "d4f9f22eafba4f5a63ab66ef618de6bd16665c52",
+        "timestamp": 1687516918
+      },
+      {
+        "files": [
+          "pyrsistent/typing.py"
+        ],
+        "sha": "e0cb272a94f339d89e8fddc25f94fc7f72486c41",
+        "timestamp": 1689965348
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "cd4c9de33a412e153b98e08a5403dec10c823ef8",
+        "timestamp": 1696539181
+      },
+      {
+        "files": [
+          "pyrsistent/_helpers.py"
+        ],
+        "sha": "3d55567a038bb061a1c7178247fb7f1fd3101458",
+        "timestamp": 1697265186
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/tests.yaml",
+          "tox.ini"
+        ],
+        "sha": "b091106b970fc45e0e0bee7fdb9484a80f3510ec",
+        "timestamp": 1697399784
+      },
+      {
+        "files": [
+          "pyrsistent/_helpers.py"
+        ],
+        "sha": "3d62dbb6f743efa0d47eddc735c4b3efa86d133e",
+        "timestamp": 1697434756
+      },
+      {
+        "files": [
+          "tests/freeze_test.py"
+        ],
+        "sha": "1b783d1748ae78e2659ccb5aa8adf202ddbedabf",
+        "timestamp": 1697436953
+      },
+      {
+        "files": [
+          "docs/source/conf.py",
+          "requirements.txt"
+        ],
+        "sha": "aa32fb1bbf1582aa7065b5dc6d95c7e5aceb98a5",
+        "timestamp": 1697485794
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "d84cc7e00b02b4508eea23913858efc7279c9803",
+        "timestamp": 1697486789
+      },
+      {
+        "files": [
+          "pyrsistent/_pdeque.py"
+        ],
+        "sha": "3ee2f017471e80018ea51a623c16f7d9d660442f",
+        "timestamp": 1697491433
+      },
+      {
+        "files": [
+          ".readthedocs.yaml",
+          "docs/Makefile",
+          "docs/requirements.in",
+          "docs/requirements.txt",
+          "requirements.txt"
+        ],
+        "sha": "db3aad6db1cd140aeedd336ec34f7c0084dd4bfc",
+        "timestamp": 1697574577
+      },
+      {
+        "files": [
+          ".readthedocs.yaml"
+        ],
+        "sha": "dc8857fd14b2483295a92bcc4ccceced402e4ec7",
+        "timestamp": 1697574763
+      },
+      {
+        "files": [
+          "README.rst",
+          "experiments/setup.py"
+        ],
+        "sha": "4ee2c66bff5c4ed4e034e2c7bb54f961fd0ad90a",
+        "timestamp": 1697658295
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "0be88dd2f6ce14f21b16376bacd9db2f825daf97",
+        "timestamp": 1697958353
+      },
+      {
+        "files": [
+          "pyrsistent/_pmap.py",
+          "tests/map_test.py"
+        ],
+        "sha": "3fa47c2e58e20b4d5c9978493e51f6bc906d97be",
+        "timestamp": 1698000911
+      },
+      {
+        "files": [
+          "pyrsistent/_transformations.py",
+          "tests/transform_test.py"
+        ],
+        "sha": "07d60a5eceee5862547df26b707c09de127c9042",
+        "timestamp": 1698006472
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "LICENSE.mit",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "acdffe6967a821165155ac16bee48054fd61385a",
+        "timestamp": 1698088947
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "a5d18c92c62df73f7975c1b5cea16318f4bba7a7",
+        "timestamp": 1698094604
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "827c5c8f6135ee4977ea96e507367904689a2397",
+        "timestamp": 1698265868
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "c876adc774e7bb3c896b013f13d7c6ce80e79544",
+        "timestamp": 1698328420
+      },
+      {
+        "files": [
+          "tox.ini"
+        ],
+        "sha": "178334866c27e1ef46aadaebe82ae577aad81f5e",
+        "timestamp": 1739574295
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "tests/map_test.py"
+        ],
+        "sha": "b930fc29f0966a7c54c875c92cb43380251a8d9c",
+        "timestamp": 1739575210
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "929b5381e99b8da573e1c61e1561855f9df5b0e8",
+        "timestamp": 1739576024
+      },
+      {
+        "files": [
+          "experiments/setup.py",
+          "tox.ini"
+        ],
+        "sha": "79a9bab9bdfa47b3b2336820431f2e653acb69e0",
+        "timestamp": 1739902019
+      },
+      {
+        "files": [
+          "pytest.ini"
+        ],
+        "sha": "69b885fa8e9249e372e32d5518e3176589273d4a",
+        "timestamp": 1739902558
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "6b8922609c65542b5f4691df3f85dd5a83a574ef",
+        "timestamp": 1739903426
+      },
+      {
+        "files": [
+          "pyrsistent/__init__.pyi",
+          "tests/typing_test.py",
+          "tox.ini"
+        ],
+        "sha": "308b0a1cefc988a2d4c2953979e50d5719735561",
+        "timestamp": 1758667218
+      },
+      {
+        "files": [
+          "pyrsistent/_precord.py"
+        ],
+        "sha": "fc9c2b88bccffda7e6b73986fa463790e1c7b038",
+        "timestamp": 1760932963
+      },
+      {
+        "files": [
+          "pyrsistent/_precord.py"
+        ],
+        "sha": "8e7a674658b1e51d27374d096303f5eb47396cf7",
+        "timestamp": 1761028546
+      },
+      {
+        "files": [
+          "pyrsistent/_checked_types.py",
+          "pyrsistent/_precord.py"
+        ],
+        "sha": "88e2884e7f07f4dcfb008d3270b8e240aabe9b16",
+        "timestamp": 1761137352
+      },
+      {
+        "files": [
+          "pvectorcmodule.c"
+        ],
+        "sha": "f2ebb2b0425360fcbf4a0513595a85124997bb5c",
+        "timestamp": 1767620332
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/tests.yaml",
+          "README.rst",
+          "experiments/setup.py",
+          "tox.ini"
+        ],
+        "sha": "fcfe4d8538bb526ad0b24106855a121ad60c649d",
+        "timestamp": 1768065677
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yaml",
+          ".gitignore",
+          "tox.ini"
+        ],
+        "sha": "ca37f6f90e84825f341b1512d4d4d81d9458dc3a",
+        "timestamp": 1768078470
+      },
+      {
+        "files": [
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "8b7bee9005565338a9e68ea76a8fdf13e5b61494",
+        "timestamp": 1768079611
+      },
+      {
+        "files": [
+          "CHANGES.txt",
+          "README.rst",
+          "_pyrsistent_version.py"
+        ],
+        "sha": "a6c9c18981168820fd8acaafc783946ce638b7dc",
+        "timestamp": 1768128459
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml",
+          ".github/workflows/tests.yaml"
+        ],
+        "sha": "25b211fe0b2184a4f082aafd82ff87281f6795f1",
+        "timestamp": 1768131111
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "ac4b7a3e663dc8e9f18bc4d52260955889b06345",
+        "timestamp": 1768132117
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "e27d1256b9568457d43b9f768f77a07b9c9a7d9d",
+        "timestamp": 1768132616
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "b3675d824bf7f20d526830eec30190261e4c54d9",
+        "timestamp": 1768132916
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "1ed76e7ebdbe5900333f9e708f8c27ddc74752a6",
+        "timestamp": 1769201503
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "c9c6019c593b9556a38a9dd91cad7620a7e50022",
+        "timestamp": 1769201877
+      },
+      {
+        "files": [
+          ".github/workflows/build.yml"
+        ],
+        "sha": "0c0b7aec8cd25b1d2d8ba07b10acdefd0f38f2c7",
+        "timestamp": 1769838364
+      }
+    ],
+    "exclusion_rules": {
+      "exclude_globs": [],
+      "max_commit_files": 5,
+      "merges_excluded": true,
+      "min_cochange": 2,
+      "rename_handling": "follow_rename_chains_M50_terminal_name",
+      "window_months": null
+    },
+    "file_index": {
+      ".github/workflows/build.yml": 0,
+      ".github/workflows/superlinter.yml": 1,
+      ".github/workflows/tests.yaml": 2,
+      ".gitignore": 3,
+      ".readthedocs.yaml": 4,
+      ".travis.yml.bak": 5,
+      "CHANGES.txt": 6,
+      "LICENSE.mit": 7,
+      "MANIFEST.in": 8,
+      "Makefile": 9,
+      "README.md": 10,
+      "README.rst": 11,
+      "_pyrsistent_version.py": 12,
+      "benchmarks/pmap.py": 13,
+      "benchmarks/pmap_27.result": 14,
+      "benchmarks/pvector.py": 15,
+      "benchmarks/pvector_27.result": 16,
+      "docs/Makefile": 17,
+      "docs/requirements.in": 18,
+      "docs/requirements.txt": 19,
+      "docs/source/api.rst": 20,
+      "docs/source/changes.rst": 21,
+      "docs/source/conf.py": 22,
+      "docs/source/index.rst": 23,
+      "docs/source/intro.rst": 24,
+      "doctests.sh": 25,
+      "experiments/build_run.sh": 26,
+      "experiments/mem_info.txt": 27,
+      "experiments/memcheck.py": 28,
+      "experiments/meminfo.txt": 29,
+      "experiments/pyrsistentmodule.c": 30,
+      "experiments/setup.py": 31,
+      "foo.txt": 32,
+      "output": 33,
+      "print_out.txt": 34,
+      "pvectorcmodule.c": 35,
+      "pyproject.toml": 36,
+      "pyrsistent/__init__.py": 37,
+      "pyrsistent/__init__.pyi": 38,
+      "pyrsistent/_checked_types.py": 39,
+      "pyrsistent/_compat.py": 40,
+      "pyrsistent/_field_common.py": 41,
+      "pyrsistent/_helpers.py": 42,
+      "pyrsistent/_immutable.py": 43,
+      "pyrsistent/_pbag.py": 44,
+      "pyrsistent/_pclass.py": 45,
+      "pyrsistent/_pdeque.py": 46,
+      "pyrsistent/_plist.py": 47,
+      "pyrsistent/_pmap.py": 48,
+      "pyrsistent/_precord.py": 49,
+      "pyrsistent/_pset.py": 50,
+      "pyrsistent/_pvector.py": 51,
+      "pyrsistent/_toolz.py": 52,
+      "pyrsistent/_transformations.py": 53,
+      "pyrsistent/py.typed": 54,
+      "pyrsistent/typing.py": 55,
+      "pyrsistent/typing.pyi": 56,
+      "pyrsistent_types.py": 57,
+      "pytest.ini": 58,
+      "requirements.txt": 59,
+      "segfault.txt": 60,
+      "setup.cfg": 61,
+      "temp.txt": 62,
+      "tests/__init__.py": 63,
+      "tests/bag_test.py": 64,
+      "tests/checked_map_test.py": 65,
+      "tests/checked_set_test.py": 66,
+      "tests/checked_vector_test.py": 67,
+      "tests/class_test.py": 68,
+      "tests/deque_test.py": 69,
+      "tests/field_test.py": 70,
+      "tests/freeze_test.py": 71,
+      "tests/hypothesis_vector_test.py": 72,
+      "tests/immutable_object_test.py": 73,
+      "tests/list_test.py": 74,
+      "tests/map_test.py": 75,
+      "tests/memory_profiling.py": 76,
+      "tests/performance_measures.py": 77,
+      "tests/performance_run.py": 78,
+      "tests/pvectorc_test.py": 79,
+      "tests/pyrsistentc_vector_test.py": 80,
+      "tests/record_test.py": 81,
+      "tests/regression_test.py": 82,
+      "tests/set_test.py": 83,
+      "tests/toolz_test.py": 84,
+      "tests/transform_test.py": 85,
+      "tests/typing_test.py": 86,
+      "tests/vector_test.py": 87,
+      "tools/test_wheels.sh": 88,
+      "tox.ini": 89
+    },
+    "ground_truth_frozen": true,
+    "observation_window": {
+      "first_commit_ts": 1371737474,
+      "last_commit_ts": 1769838364,
+      "n_cochange_pairs": 136,
+      "n_commits_dropped_as_bulk": 26,
+      "n_commits_used": 613,
+      "n_files": 90
+    }
+  },
+  "forbidden_interpretations": [
+    "predictive_validity",
+    "causal_coupling",
+    "design_quality",
+    "geometry_alignment",
+    "future_cochange_inference"
+  ],
+  "provenance": {
+    "code_fingerprints": {
+      "corpus_builder.py": "7783fbdf3c826169"
+    },
+    "platform": "windows",
+    "python_version": "3.14.5",
+    "repo_head": "0c0b7aec8cd25b1d2d8ba07b10acdefd0f38f2c7",
+    "seeds": {},
+    "source_date_epoch": null
+  },
+  "validity_scope": {
+    "certifies": "historical co-change counts under declared exclusions",
+    "does_not_certify": [
+      "future coupling",
+      "causal relationships",
+      "module quality",
+      "any geometric structure"
+    ],
+    "measured_window_only": true
+  }
+}
