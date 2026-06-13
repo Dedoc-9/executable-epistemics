@@ -1,0 +1,250 @@
+{
+  "study": "EXP-101",
+  "computation": "retroactive_m3_informational",
+  "purpose": "M3 retrocompute for EXP-102 threshold selection. Informational only. EXP-101 INCONCLUSIVE is final.",
+  "key_finding": "NULL: M3 does not explain cohort-level detection rate differences. B (rate=0.714) has HIGHER mean M3 (0.911) than A (0.874) or C_T (0.850). Detection rate ordering B>A>C_T is inverted relative to M3 pseudo-T hypothesis. All cohorts are uniformly high-M3. EXP-102 M3 gate requires reconceptualization.",
+  "component_a": {
+    "description": "EXP-002 T-cell (EXP-004, 659bb06). rate=0.455.",
+    "stats": {
+      "n": 11,
+      "mean": 0.874223,
+      "min": 0.705353,
+      "p25": 0.867936,
+      "p50": 0.887282,
+      "p75": 0.914057,
+      "max": 0.95656
+    },
+    "repos": [
+      {
+        "id": "R004",
+        "slug": "piccolo-orm/piccolo",
+        "m3_galois": 0.786777,
+        "n_authors": 55,
+        "classification": "NOT_DETECTED"
+      },
+      {
+        "id": "R036",
+        "slug": "boto/boto3",
+        "m3_galois": 0.882024,
+        "n_authors": 181,
+        "classification": "NOT_DETECTED"
+      },
+      {
+        "id": "R028",
+        "slug": "agronholm/apscheduler",
+        "m3_galois": 0.95656,
+        "n_authors": 67,
+        "classification": "NOT_DETECTED"
+      },
+      {
+        "id": "R019",
+        "slug": "mitmproxy/mitmproxy",
+        "m3_galois": 0.887282,
+        "n_authors": 623,
+        "classification": "DETECTED"
+      },
+      {
+        "id": "R016",
+        "slug": "aio-libs/aiohttp",
+        "m3_galois": 0.873077,
+        "n_authors": 877,
+        "classification": "DETECTED"
+      },
+      {
+        "id": "R026",
+        "slug": "coleifer/huey",
+        "m3_galois": 0.946331,
+        "n_authors": 73,
+        "classification": "NOT_DETECTED"
+      },
+      {
+        "id": "R020",
+        "slug": "tiangolo/typer",
+        "m3_galois": 0.867936,
+        "n_authors": 107,
+        "classification": "DETECTED"
+      },
+      {
+        "id": "R033",
+        "slug": "PyCQA/pylint",
+        "m3_galois": 0.705353,
+        "n_authors": 689,
+        "classification": "DETECTED"
+      },
+      {
+        "id": "R005",
+        "slug": "python-gino/gino",
+        "m3_galois": 0.894612,
+        "n_authors": 46,
+        "classification": "NOT_DETECTED"
+      },
+      {
+        "id": "R045",
+        "slug": "rubik/radon",
+        "m3_galois": 0.902446,
+        "n_authors": 61,
+        "classification": "UNRESOLVED_ACTIVITY_MARGIN"
+      },
+      {
+        "id": "R034",
+        "slug": "pre-commit/pre-commit",
+        "m3_galois": 0.914057,
+        "n_authors": 174,
+        "classification": "DETECTED"
+      }
+    ]
+  },
+  "component_b": {
+    "description": "Wave-1 T-cell (EXP-001 post-primary). rate=0.714. pip=LEAKAGE excluded from stats.",
+    "stats_ex_leakage": {
+      "n": 6,
+      "mean": 0.911427,
+      "min": 0.872254,
+      "p25": 0.881941,
+      "p50": 0.911204,
+      "p75": 0.930782,
+      "max": 0.972058
+    },
+    "repos": [
+      {
+        "id": "W1_scipy",
+        "slug": "scipy/scipy",
+        "m3_galois": 0.900325,
+        "n_authors": 2070,
+        "classification": "DETECTED",
+        "leakage": false
+      },
+      {
+        "id": "W1_matplotlib",
+        "slug": "matplotlib/matplotlib",
+        "m3_galois": 0.881941,
+        "n_authors": 1987,
+        "classification": "DETECTED",
+        "leakage": false
+      },
+      {
+        "id": "W1_django",
+        "slug": "django/django",
+        "m3_galois": 0.930782,
+        "n_authors": 3392,
+        "classification": "UNRESOLVED_ACTIVITY_MARGIN",
+        "leakage": false
+      },
+      {
+        "id": "W1_pytest",
+        "slug": "pytest-dev/pytest",
+        "m3_galois": 0.872254,
+        "n_authors": 1139,
+        "classification": "DETECTED",
+        "leakage": false
+      },
+      {
+        "id": "W1_sqlalchemy",
+        "slug": "sqlalchemy/sqlalchemy",
+        "m3_galois": 0.972058,
+        "n_authors": 861,
+        "classification": "DETECTED",
+        "leakage": false
+      },
+      {
+        "id": "W1_mypy",
+        "slug": "python/mypy",
+        "m3_galois": 0.911204,
+        "n_authors": 885,
+        "classification": "DETECTED",
+        "leakage": false
+      },
+      {
+        "id": "W1_pip",
+        "slug": "pypa/pip",
+        "m3_galois": 0.835199,
+        "n_authors": 913,
+        "classification": "LEAKAGE",
+        "leakage": true
+      }
+    ]
+  },
+  "component_c_t_reference": {
+    "description": "From moderators_exp101.json (E-018). rate=0.333.",
+    "stats": {
+      "n": 9,
+      "mean": 0.772958,
+      "min": 0.2129,
+      "p25": 0.833392,
+      "p50": 0.865627,
+      "p75": 0.878906,
+      "max": 0.927849
+    },
+    "repos": [
+      {
+        "id": "C002",
+        "slug": "cython/cython",
+        "m3_galois": 0.833392
+      },
+      {
+        "id": "C003",
+        "slug": "pyparsing/pyparsing",
+        "m3_galois": 0.840268
+      },
+      {
+        "id": "C006",
+        "slug": "networkx/networkx",
+        "m3_galois": 0.927849
+      },
+      {
+        "id": "C008",
+        "slug": "statsmodels/statsmodels",
+        "m3_galois": 0.865627
+      },
+      {
+        "id": "C010",
+        "slug": "twisted/twisted",
+        "m3_galois": 0.606873
+      },
+      {
+        "id": "C012",
+        "slug": "zeromq/pyzmq",
+        "m3_galois": 0.920496
+      },
+      {
+        "id": "C013",
+        "slug": "bokeh/bokeh",
+        "m3_galois": 0.870312
+      },
+      {
+        "id": "C014",
+        "slug": "pexpect/pexpect",
+        "m3_galois": 0.878906
+      },
+      {
+        "id": "C019",
+        "slug": "docutils/docutils",
+        "m3_galois": 0.2129
+      }
+    ]
+  },
+  "cross_cohort_summary": {
+    "B_wave1": {
+      "n": 6,
+      "rate": 0.714,
+      "m3_mean": 0.911427,
+      "m3_min": 0.872254,
+      "m3_max": 0.972058
+    },
+    "A_exp002": {
+      "n": 11,
+      "rate": 0.455,
+      "m3_mean": 0.874223,
+      "m3_min": 0.705353,
+      "m3_max": 0.95656
+    },
+    "C_T_exp101": {
+      "n": 9,
+      "rate": 0.333,
+      "m3_mean": 0.772958,
+      "m3_min": 0.2129,
+      "m3_max": 0.927849
+    }
+  },
+  "exp102_implication": "The M3 pseudo-T hypothesis (low M3 = higher detection) is not supported at cohort level. An M3 < threshold gate for EXP-102 cannot be justified by this data as the mechanism for B > A > C. Alternative hypotheses for wave-1 advantage: (1) curation selection bias in EXP-001 population, (2) instrument sensitivity to project scale/n_authors rather than Galois closure structure, (3) observation window artifacts. EXP-102 design requires new preregistration rationale."
+}
